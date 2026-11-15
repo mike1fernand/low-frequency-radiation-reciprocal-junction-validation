@@ -1,0 +1,119 @@
+{
+  "schema": "paper1.corrected-robustness-kernel.v1",
+  "family": "stiffness",
+  "omega": 1.2,
+  "nseg": 6,
+  "surface_grid": 80,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 0.9,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "geometry": [
+    {
+      "triangles": 11048,
+      "minimum_gradient": 1.7186081591865447,
+      "minimum_area": 8.885802316171976e-08,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    },
+    {
+      "triangles": 10664,
+      "minimum_gradient": 1.7620345968347721,
+      "minimum_area": 2.1221185875219817e-07,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    },
+    {
+      "triangles": 3416,
+      "minimum_gradient": 3.5620909038578774,
+      "minimum_area": 4.244600859237835e-06,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    }
+  ],
+  "shell_min_eigenvalues": [
+    2.2787311805091335e-07,
+    6.675408143504406e-09,
+    9.484753507304709e-09,
+    1.4483413314415153e-10
+  ],
+  "raw_reciprocity_residual": 1.1863824365459942e-08,
+  "source_sha256": {
+    "analysis/resolution_execution/robustness/worker.py": "13518511daf6583a33066beaa8e3fa9fbf7ae0a40339defe0da459aa220bfb05",
+    "analysis/resolution_execution/robustness/src/model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "analysis/resolution_execution/robustness/src/on_shell_basis.py": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+    "analysis/resolution_execution/robustness/src/reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "analysis/resolution_execution/robustness/src/spectral_histogram.py": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+  },
+  "k_diag_over_k_axis": 0.9,
+  "PV_order": 160,
+  "histogram_energy_range": [
+    0.0,
+    11.2
+  ],
+  "spectral_range_audit": {
+    "minimum_sampled_eigenvalue": 0.0011660926961045925,
+    "maximum_sampled_eigenvalue": 11.198672933408302,
+    "sampled_modes": 3145728,
+    "roundoff_outside_support": 0,
+    "modes_above_historical_edge12": 0
+  },
+  "histogram_inputs": [
+    {
+      "file": "kdiag0.9_N80_grid64x2_hist.npz",
+      "sha256": "a588170f3e81996b7e5aae5ac765d7a3ce0dd5c0571746029682dff7ca9a40f0",
+      "sample_count": 524288,
+      "sampler": "shifted_grid",
+      "metadata": {
+        "grid": 64,
+        "shifts": [
+          [
+            0.17,
+            0.39,
+            0.61
+          ],
+          [
+            0.67,
+            0.89,
+            0.11
+          ]
+        ],
+        "nbins": 6144
+      }
+    },
+    {
+      "file": "kdiag0.9_N80_sobol19_hist.npz",
+      "sha256": "79c6ae065a145bc27c0aa5a774f651941835a1797ceb4ef130bd9eb3333203f2",
+      "sample_count": 524288,
+      "sampler": "sobol",
+      "metadata": {
+        "power": 19,
+        "seed": 97531,
+        "nbins": 6144
+      }
+    }
+  ],
+  "sampling_seconds": 3.0245734180025465,
+  "coefficient": {
+    "Rq": 0.0034929936553108457,
+    "Tq": 0.8434201144815348,
+    "Tbulk": 0.1530868918503025,
+    "T_qT_modal": 0.14047196954661356,
+    "T_qL_modal": 0.012614922303688943,
+    "qT_fraction_of_bulk": 0.9175963261699469,
+    "flux_closure_abs": 1.2851941733060812e-11,
+    "modal_sum_residual_abs": 0.0,
+    "min_bulk_linewidth_eigenvalue": 1.1963425331385548e-06
+  },
+  "status": "completed_for_declared_finite_sample_scope",
+  "matrix_file": "kdiag0.9_N80.npz",
+  "matrix_sha256": "4dfc752045e1abc4acc6f7df16df85b1f7d2ae4093df38392145bc6663d7de5d",
+  "seconds": 5.813073289999011,
+  "peak_RSS_KiB": 528488,
+  "scope": "Corrected finite-resolution numerical sample; no uniform accuracy or exact-lattice error bound."
+}

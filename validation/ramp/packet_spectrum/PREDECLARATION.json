@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-08",
+  "new_profile_g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "reference_g": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "new_profile_states": 70,
+  "reference_regression_states": 70,
+  "families": [
+    "surface_N128",
+    "surface_N160",
+    "tetra_N96",
+    "tetra_N128",
+    "tetra_N160"
+  ],
+  "frequency_nodes": [
+    0.8034441853748633,
+    0.8678978340078045,
+    0.9317566688177807,
+    0.9949769241492334,
+    1.0575152719970804,
+    1.1193288517015672,
+    1.1803752993228216,
+    1.240612776674982,
+    1.2999999999999998,
+    1.358496268261467,
+    1.41606149103907,
+    1.4726562160045653,
+    1.5282416559604302,
+    1.5827797154226737
+  ],
+  "normalization": "Propagating-only numerator; full signed120-bin energy denominator, both conjugate members retained.",
+  "new_kernels": 0,
+  "interpolation": false,
+  "finish_condition": "Five fixed kernel families at exactly fourteen frozen packet nodes, with matching reference regressions and saved internal q/t; no adaptive extra points."
+}

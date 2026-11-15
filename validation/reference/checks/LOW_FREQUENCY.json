@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "static_profile_grid_cases": 18,
+  "static_grid_orders": [
+    10,
+    14
+  ],
+  "checked_static_quantities": [
+    "unit axial resultant",
+    "translation identity",
+    "vertex lower bound",
+    "single-motif force moments",
+    "uniform line zero mode when disconnected"
+  ],
+  "C_T": 0.275868568,
+  "C_L": 0.0265454653,
+  "emitted_qT_share": 0.91222145,
+  "scope": "Numerical static-identity and acoustic-normalization checks. No finite-frequency error or interval certificate."
+}

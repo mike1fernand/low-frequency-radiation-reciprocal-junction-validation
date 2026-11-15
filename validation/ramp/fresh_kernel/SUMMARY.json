@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "candidate": {
+    "omega": 1.2,
+    "g": [
+      0.14285714285714285,
+      0.2857142857142857,
+      0.42857142857142855,
+      0.5714285714285714,
+      0.7142857142857143,
+      0.8571428571428571
+    ],
+    "selected_cached_qT": 0.7358742883948081
+  },
+  "fresh_marching_and_PV": {
+    "spectral_grids": [
+      48,
+      80,
+      128
+    ],
+    "Sobol_powers": [
+      18,
+      20
+    ],
+    "seeds": [
+      20261108,
+      20261109
+    ],
+    "PV_orders": [
+      192,
+      256,
+      320
+    ],
+    "fresh_spectral_matrices": 3,
+    "fresh_PV_histograms": 4,
+    "candidate_response_rows": 27,
+    "new_N128_M256_seedmean_qT": 0.735851971227572,
+    "observed_all_row_min_max_qT": [
+      0.7357906434756565,
+      0.736226778756027
+    ],
+    "total_seconds": 21.68555949400252,
+    "maximum_closure": 1.1910583630481142e-11
+  },
+  "independent_tetra_reused_fine_kernels": {
+    "grid_cases": [
+      "reference_N96",
+      "reference_N128",
+      "reference_N128_halfshift",
+      "reference_N160",
+      "reference_N192"
+    ],
+    "candidate_qT": [
+      0.7357884865933013,
+      0.7358198446540891,
+      0.7357406602181368,
+      0.7357315187488906,
+      0.7357847434127358
+    ],
+    "reference_regression_max_abs": 0.0,
+    "largest_grid_qT": 0.7357847434127358,
+    "new_kernel_generations": 0,
+    "response_rows": 10
+  },
+  "fresh_independent_tetra": {
+    "grid": 48,
+    "qT": 0.7359112486694643,
+    "qL": 0.067942075357659,
+    "new_kernel_generations": 1,
+    "seconds": 6.211905559001025,
+    "range_checkpoints": 2,
+    "reference_control_qT": 0.1252833480829228,
+    "closure": 1.1918688258560906e-11
+  },
+  "scope": "Strong numerical point corroboration across fresh surface/PV and fresh independent tetrahedron algorithms plus recovered fine-grid tetra ladder; numerical sensitivity is not a rigorous infinite-lattice enclosure, a confidence interval, packet validation, bandwidth or tolerance certificate."
+}

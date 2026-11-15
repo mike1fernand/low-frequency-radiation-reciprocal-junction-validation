@@ -1,0 +1,964 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "independent_case_count": 40,
+  "method": "Actual8-central-spring Hessian per active motif, independent orthonormal X/R projection and direct full coupled-block solve. No archived model/solver code imported. Bare cached Green matrices reused.",
+  "incident_normalization": "Unit incident axial displacement: physical q=i*gamma*q_Green, physical bulk source=i*gamma*t_Green; P_inc=omega*gamma/4; P_qT=omega/2*fdagger*(Imbranch0+Imbranch1)*f. The branch sum already counts both lower modes.",
+  "maximum_partition_disagreement": 1.1102230246251565e-15,
+  "records": [
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "independent_partition": {
+        "Rq": 0.003572149271235966,
+        "Tline": 0.8597459585275873,
+        "TqT": 0.12565925539196326,
+        "TqL": 0.011022636796258724
+      },
+      "maximum_difference": 5.551115123125783e-16,
+      "closure": 1.2954748385141102e-11,
+      "double_qT_adverse_closure": 0.12565925537900857,
+      "relative_block_residual": 5.683000057347294e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.15000000000000002,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.15000000000000002
+      ],
+      "independent_partition": {
+        "Rq": 0.005640720670787169,
+        "Tline": 0.6573396304943259,
+        "TqT": 0.30879309634510654,
+        "TqL": 0.028226552476997995
+      },
+      "maximum_difference": 1.1102230246251565e-15,
+      "closure": 1.2782441771719277e-11,
+      "double_qT_adverse_closure": 0.308793096332324,
+      "relative_block_residual": 5.5365647512381044e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.2,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.2
+      ],
+      "independent_partition": {
+        "Rq": 0.04441815109523301,
+        "Tline": 0.3837870034654617,
+        "TqT": 0.5221205513541886,
+        "TqL": 0.04967429407307476
+      },
+      "maximum_difference": 4.440892098500626e-16,
+      "closure": 1.204203403659676e-11,
+      "double_qT_adverse_closure": 0.5221205513421465,
+      "relative_block_residual": 6.169394550819337e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.25,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.25
+      ],
+      "independent_partition": {
+        "Rq": 0.1406877982248292,
+        "Tline": 0.1680478443139921,
+        "TqT": 0.6291934932814918,
+        "TqL": 0.062070864168957796
+      },
+      "maximum_difference": 4.718447854656915e-16,
+      "closure": 1.072908428767505e-11,
+      "double_qT_adverse_closure": 0.6291934932707628,
+      "relative_block_residual": 3.836451976991476e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.30000000000000004,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.30000000000000004
+      ],
+      "independent_partition": {
+        "Rq": 0.24261652792169222,
+        "Tline": 0.06715765852478409,
+        "TqT": 0.6265639349253367,
+        "TqL": 0.06366187861884423
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 9.342748796825617e-12,
+      "double_qT_adverse_closure": 0.6265639349159939,
+      "relative_block_residual": 5.3141174890472614e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.4,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.4
+      ],
+      "independent_partition": {
+        "Rq": 0.37298842026846885,
+        "Tline": 0.01666576479421687,
+        "TqT": 0.5519800517787253,
+        "TqL": 0.05836576315133057
+      },
+      "maximum_difference": 1.1102230246251565e-15,
+      "closure": 7.2584160903943484e-12,
+      "double_qT_adverse_closure": 0.551980051771467,
+      "relative_block_residual": 3.150229034957672e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        0.6000000000000001,
+        1.2000000000000002,
+        1.2000000000000002,
+        1.2000000000000002,
+        1.2000000000000002,
+        0.6000000000000001
+      ],
+      "independent_partition": {
+        "Rq": 0.47849208274222993,
+        "Tline": 0.006611787400388393,
+        "TqT": 0.463902199807177,
+        "TqL": 0.05099393004522128
+      },
+      "maximum_difference": 2.7755575615628914e-16,
+      "closure": 4.983347068332478e-12,
+      "double_qT_adverse_closure": 0.4639021998021937,
+      "relative_block_residual": 4.46977689901234e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N192_M256",
+      "g": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "independent_partition": {
+        "Rq": 0.5473281791710761,
+        "Tline": 0.003959143328378233,
+        "TqT": 0.40313315926253923,
+        "TqL": 0.045579518234956165
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 3.050226737855155e-12,
+      "double_qT_adverse_closure": 0.4031331592594891,
+      "relative_block_residual": 1.853080165597991e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "independent_partition": {
+        "Rq": 0.0035762527995270117,
+        "Tline": 0.8597907547854732,
+        "TqT": 0.12562469453379468,
+        "TqL": 0.011008297868250378
+      },
+      "maximum_difference": 1.6653345369377348e-16,
+      "closure": 1.2954748385141102e-11,
+      "double_qT_adverse_closure": 0.1256246945208399,
+      "relative_block_residual": 3.808704417141124e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.15000000000000002,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.15000000000000002
+      ],
+      "independent_partition": {
+        "Rq": 0.0056547428481760215,
+        "Tline": 0.6574346702589555,
+        "TqT": 0.308711534081223,
+        "TqL": 0.02819905279886421
+      },
+      "maximum_difference": 8.881784197001252e-16,
+      "closure": 1.278122052639219e-11,
+      "double_qT_adverse_closure": 0.30871153406844165,
+      "relative_block_residual": 6.264142693076834e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.2,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.2
+      ],
+      "independent_partition": {
+        "Rq": 0.04437577456507876,
+        "Tline": 0.3840426158797195,
+        "TqT": 0.5219463488060394,
+        "TqL": 0.04963526073712275
+      },
+      "maximum_difference": 9.992007221626409e-16,
+      "closure": 1.2039591545942585e-11,
+      "double_qT_adverse_closure": 0.5219463487939997,
+      "relative_block_residual": 4.882827261329645e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.25,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.25
+      ],
+      "independent_partition": {
+        "Rq": 0.14046655178763,
+        "Tline": 0.16841944709298864,
+        "TqT": 0.6290751488619525,
+        "TqL": 0.062038852246701644
+      },
+      "maximum_difference": 5.551115123125783e-16,
+      "closure": 1.0727196908533188e-11,
+      "double_qT_adverse_closure": 0.6290751488512254,
+      "relative_block_residual": 4.5892156066609726e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.30000000000000004,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001,
+        0.30000000000000004
+      ],
+      "independent_partition": {
+        "Rq": 0.24225405264356434,
+        "Tline": 0.06747067121971408,
+        "TqT": 0.6266263600648184,
+        "TqL": 0.06364891606256215
+      },
+      "maximum_difference": 6.661338147750939e-16,
+      "closure": 9.340972439986217e-12,
+      "double_qT_adverse_closure": 0.6266263600554773,
+      "relative_block_residual": 6.332800159593985e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.4,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.4
+      ],
+      "independent_partition": {
+        "Rq": 0.37257141190464027,
+        "Tline": 0.01680333974585675,
+        "TqT": 0.5522516569195635,
+        "TqL": 0.058373591422680955
+      },
+      "maximum_difference": 6.661338147750939e-16,
+      "closure": 7.258527112696811e-12,
+      "double_qT_adverse_closure": 0.552251656912305,
+      "relative_block_residual": 3.44758143183432e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        0.6000000000000001,
+        1.2000000000000002,
+        1.2000000000000002,
+        1.2000000000000002,
+        1.2000000000000002,
+        0.6000000000000001
+      ],
+      "independent_partition": {
+        "Rq": 0.47813712187702095,
+        "Tline": 0.006633248154930967,
+        "TqT": 0.4642240957825405,
+        "TqL": 0.05100553418052382
+      },
+      "maximum_difference": 2.7755575615628914e-16,
+      "closure": 4.983791157542328e-12,
+      "double_qT_adverse_closure": 0.46422409577755674,
+      "relative_block_residual": 3.786988096665903e-17
+    },
+    {
+      "source": "SCALE_PROBE.json",
+      "cache": "N80_M192",
+      "g": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "independent_partition": {
+        "Rq": 0.5470442081534639,
+        "Tline": 0.003947689011242667,
+        "TqT": 0.4034207606189087,
+        "TqL": 0.045587342213333736
+      },
+      "maximum_difference": 4.440892098500626e-16,
+      "closure": 3.0510038939723927e-12,
+      "double_qT_adverse_closure": 0.40342076061585774,
+      "relative_block_residual": 1.9545954719022345e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663
+      ],
+      "independent_partition": {
+        "Rq": 0.06821203899430343,
+        "Tline": 0.23303623252870118,
+        "TqT": 0.636659204341477,
+        "TqL": 0.062092524124666704
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 1.0851652909593668e-11,
+      "double_qT_adverse_closure": 0.6366592043306254,
+      "relative_block_residual": 5.870920031984166e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.25
+      ],
+      "independent_partition": {
+        "Rq": 0.4536421840159049,
+        "Tline": 0.1083446847448736,
+        "TqT": 0.38146103280303395,
+        "TqL": 0.05655209843016502
+      },
+      "maximum_difference": 4.440892098500626e-16,
+      "closure": 6.022515819381624e-12,
+      "double_qT_adverse_closure": 0.3814610327970114,
+      "relative_block_residual": 2.703825530580227e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.11904761904761904,
+        0.23809523809523808,
+        0.3571428571428571,
+        0.47619047619047616,
+        0.5952380952380952,
+        0.7142857142857142
+      ],
+      "independent_partition": {
+        "Rq": 0.07299626448876576,
+        "Tline": 0.16776072088195992,
+        "TqT": 0.6953796889645053,
+        "TqL": 0.06386332565237335
+      },
+      "maximum_difference": 3.3306690738754696e-16,
+      "closure": 1.2395640069939873e-11,
+      "double_qT_adverse_closure": 0.6953796889521096,
+      "relative_block_residual": 4.412359346179069e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.7142857142857142,
+        0.5952380952380952,
+        0.47619047619047616,
+        0.3571428571428571,
+        0.23809523809523808,
+        0.11904761904761904
+      ],
+      "independent_partition": {
+        "Rq": 0.3013785440976188,
+        "Tline": 0.16776072088195965,
+        "TqT": 0.4799160506349852,
+        "TqL": 0.05094468437856186
+      },
+      "maximum_difference": 4.996003610813204e-16,
+      "closure": 6.874500968478969e-12,
+      "double_qT_adverse_closure": 0.4799160506281108,
+      "relative_block_residual": 4.945574731035664e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "independent_partition": {
+        "Rq": 0.16688616822861532,
+        "Tline": 0.08750215023339994,
+        "TqT": 0.6777330627655629,
+        "TqL": 0.06787861876340201
+      },
+      "maximum_difference": 1.3877787807814457e-16,
+      "closure": 9.019895941264622e-12,
+      "double_qT_adverse_closure": 0.677733062756543,
+      "relative_block_residual": 4.9046819497266504e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.5
+      ],
+      "independent_partition": {
+        "Rq": 0.5076734272880513,
+        "Tline": 0.05928374121357873,
+        "TqT": 0.37844413164473967,
+        "TqL": 0.05459869984912126
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 4.509059792212611e-12,
+      "double_qT_adverse_closure": 0.3784441316402307,
+      "relative_block_residual": 2.907428440655831e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.14285714285714285,
+        0.2857142857142857,
+        0.42857142857142855,
+        0.5714285714285714,
+        0.7142857142857142,
+        0.8571428571428571
+      ],
+      "independent_partition": {
+        "Rq": 0.11954823443285373,
+        "Tline": 0.07631462564500109,
+        "TqT": 0.7358742883948082,
+        "TqL": 0.06826285151542553
+      },
+      "maximum_difference": 1.5265566588595902e-16,
+      "closure": 1.1911471808900842e-11,
+      "double_qT_adverse_closure": 0.7358742883828966,
+      "relative_block_residual": 4.996574759102766e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.8571428571428571,
+        0.7142857142857142,
+        0.5714285714285714,
+        0.42857142857142855,
+        0.2857142857142857,
+        0.14285714285714285
+      ],
+      "independent_partition": {
+        "Rq": 0.3874769129579075,
+        "Tline": 0.07631462564500106,
+        "TqT": 0.4836785217194935,
+        "TqL": 0.05252993967236968
+      },
+      "maximum_difference": 9.43689570931383e-16,
+      "closure": 5.228262267564787e-12,
+      "double_qT_adverse_closure": 0.4836785217142652,
+      "relative_block_residual": 5.3121908604087944e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "independent_partition": {
+        "Rq": 0.34540226522670175,
+        "Tline": 0.014288542161859583,
+        "TqT": 0.5791884442770282,
+        "TqL": 0.06112074832827586
+      },
+      "maximum_difference": 4.440892098500626e-16,
+      "closure": 6.134648344868765e-12,
+      "double_qT_adverse_closure": 0.5791884442708937,
+      "relative_block_residual": 4.274526382837192e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "independent_partition": {
+        "Rq": 0.5605658352029077,
+        "Tline": 0.023920928564024654,
+        "TqT": 0.3651275198890762,
+        "TqL": 0.05038571634108945
+      },
+      "maximum_difference": 3.3306690738754696e-16,
+      "closure": 2.9020119640676967e-12,
+      "double_qT_adverse_closure": 0.3651275198861743,
+      "relative_block_residual": 5.3702146365411446e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        0.19047619047619047,
+        0.38095238095238093,
+        0.5714285714285714,
+        0.7619047619047619,
+        0.9523809523809523,
+        1.1428571428571428
+      ],
+      "independent_partition": {
+        "Rq": 0.2188853286850353,
+        "Tline": 0.021498149698386905,
+        "TqT": 0.6932358575187441,
+        "TqL": 0.06638066408691182
+      },
+      "maximum_difference": 4.440892098500626e-16,
+      "closure": 1.092193002705244e-11,
+      "double_qT_adverse_closure": 0.6932358575078221,
+      "relative_block_residual": 3.507614745930592e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N192_M256",
+      "g": [
+        1.1428571428571428,
+        0.9523809523809523,
+        0.7619047619047619,
+        0.5714285714285714,
+        0.38095238095238093,
+        0.19047619047619047
+      ],
+      "independent_partition": {
+        "Rq": 0.4852798661299108,
+        "Tline": 0.021498149698386915,
+        "TqT": 0.4437824149776213,
+        "TqL": 0.04943956919065414
+      },
+      "maximum_difference": 2.7755575615628914e-16,
+      "closure": 3.426814387808008e-12,
+      "double_qT_adverse_closure": 0.44378241497419446,
+      "relative_block_residual": 4.351759976553128e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663,
+        0.41666666666666663
+      ],
+      "independent_partition": {
+        "Rq": 0.06825228890587047,
+        "Tline": 0.2334007203526528,
+        "TqT": 0.636318970275616,
+        "TqL": 0.062028020455012475
+      },
+      "maximum_difference": 3.0531133177191805e-16,
+      "closure": 1.084821121821733e-11,
+      "double_qT_adverse_closure": 0.6363189702647678,
+      "relative_block_residual": 4.6280830023235203e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.25
+      ],
+      "independent_partition": {
+        "Rq": 0.45355625021023416,
+        "Tline": 0.10843947933068647,
+        "TqT": 0.3815663954166754,
+        "TqL": 0.05643787503637834
+      },
+      "maximum_difference": 2.498001805406602e-16,
+      "closure": 6.025624443850575e-12,
+      "double_qT_adverse_closure": 0.38156639541064985,
+      "relative_block_residual": 5.492607799466543e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.11904761904761904,
+        0.23809523809523808,
+        0.3571428571428571,
+        0.47619047619047616,
+        0.5952380952380952,
+        0.7142857142857142
+      ],
+      "independent_partition": {
+        "Rq": 0.07271537353764586,
+        "Tline": 0.16809240615902277,
+        "TqT": 0.69532957288983,
+        "TqL": 0.0638626474011095
+      },
+      "maximum_difference": 5.134781488891349e-16,
+      "closure": 1.2391865311656147e-11,
+      "double_qT_adverse_closure": 0.695329572877438,
+      "relative_block_residual": 4.087550480131541e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.7142857142857142,
+        0.5952380952380952,
+        0.47619047619047616,
+        0.3571428571428571,
+        0.23809523809523808,
+        0.11904761904761904
+      ],
+      "independent_partition": {
+        "Rq": 0.30119012061716566,
+        "Tline": 0.16809240615902254,
+        "TqT": 0.4798191728712003,
+        "TqL": 0.050898300345736225
+      },
+      "maximum_difference": 7.216449660063518e-16,
+      "closure": 6.875278124596207e-12,
+      "double_qT_adverse_closure": 0.47981917286432507,
+      "relative_block_residual": 4.914139498206595e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "independent_partition": {
+        "Rq": 0.16670166618080134,
+        "Tline": 0.08787604301549179,
+        "TqT": 0.6775786096154616,
+        "TqL": 0.0678436811792276
+      },
+      "maximum_difference": 1.1102230246251565e-16,
+      "closure": 9.017675495215371e-12,
+      "double_qT_adverse_closure": 0.677578609606444,
+      "relative_block_residual": 3.2465975749919025e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.5
+      ],
+      "independent_partition": {
+        "Rq": 0.5075847707389577,
+        "Tline": 0.05933548026013967,
+        "TqT": 0.37857790086999876,
+        "TqL": 0.05450184812639221
+      },
+      "maximum_difference": 3.3306690738754696e-16,
+      "closure": 4.511724327471711e-12,
+      "double_qT_adverse_closure": 0.37857790086548704,
+      "relative_block_residual": 3.659312513395931e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.14285714285714285,
+        0.2857142857142857,
+        0.42857142857142855,
+        0.5714285714285714,
+        0.7142857142857142,
+        0.8571428571428571
+      ],
+      "independent_partition": {
+        "Rq": 0.11915741604494987,
+        "Tline": 0.07661432911471884,
+        "TqT": 0.7359475461251098,
+        "TqL": 0.0682807087033147
+      },
+      "maximum_difference": 3.469446951953614e-16,
+      "closure": 1.1906808872197416e-11,
+      "double_qT_adverse_closure": 0.735947546113203,
+      "relative_block_residual": 4.4892704149274053e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.8571428571428571,
+        0.7142857142857142,
+        0.5714285714285714,
+        0.42857142857142855,
+        0.2857142857142857,
+        0.14285714285714285
+      ],
+      "independent_partition": {
+        "Rq": 0.38720709542556303,
+        "Tline": 0.07661432911471884,
+        "TqT": 0.4836824709770393,
+        "TqL": 0.05249610447744908
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 5.2297055574968e-12,
+      "double_qT_adverse_closure": 0.4836824709718095,
+      "relative_block_residual": 2.447596312327223e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "independent_partition": {
+        "Rq": 0.34500315501600565,
+        "Tline": 0.014434709995582232,
+        "TqT": 0.5794337909107447,
+        "TqL": 0.061128344071532566
+      },
+      "maximum_difference": 2.7755575615628914e-16,
+      "closure": 6.13487038947369e-12,
+      "double_qT_adverse_closure": 0.5794337909046097,
+      "relative_block_residual": 4.725299085242651e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "independent_partition": {
+        "Rq": 0.5604628395025613,
+        "Tline": 0.023933880461992726,
+        "TqT": 0.3652868987319753,
+        "TqL": 0.05031638130056681
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 2.9038993432095594e-12,
+      "double_qT_adverse_closure": 0.3652868987290714,
+      "relative_block_residual": 3.451565840922416e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        0.19047619047619047,
+        0.38095238095238093,
+        0.5714285714285714,
+        0.7619047619047619,
+        0.9523809523809523,
+        1.1428571428571428
+      ],
+      "independent_partition": {
+        "Rq": 0.2183953717439508,
+        "Tline": 0.021655591557424615,
+        "TqT": 0.6935326719906718,
+        "TqL": 0.06641636469703488
+      },
+      "maximum_difference": 2.220446049250313e-16,
+      "closure": 1.091793322416379e-11,
+      "double_qT_adverse_closure": 0.6935326719797539,
+      "relative_block_residual": 4.471451698829894e-17
+    },
+    {
+      "source": "profile_comparison/PROFILE_COMPARISON.json",
+      "cache": "N80_M192",
+      "g": [
+        1.1428571428571428,
+        0.9523809523809523,
+        0.7619047619047619,
+        0.5714285714285714,
+        0.38095238095238093,
+        0.19047619047619047
+      ],
+      "independent_partition": {
+        "Rq": 0.4849738840017659,
+        "Tline": 0.02165559155742464,
+        "TqT": 0.4439426805914354,
+        "TqL": 0.049427843845945695
+      },
+      "maximum_difference": 3.3306690738754696e-16,
+      "closure": 3.4283687000424834e-12,
+      "double_qT_adverse_closure": 0.4439426805880071,
+      "relative_block_residual": 2.7591754327929468e-17
+    }
+  ],
+  "result_source_sha256": {
+    "SCALE_PROBE.json": "a8b7a6c13f219cd9aabebe1e453722e01e99fe37afd74c16e9d8ee154ffccb17",
+    "profile_comparison/PROFILE_COMPARISON.json": "075292177c03c646af9fae3826c044491827977b1013b4b829a089220cfea396"
+  },
+  "input_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "REFERENCE_KERNEL.npz": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+  },
+  "scope": "Independent finite-system algebra/normalization review only. Both routes share archived approximate bare Green inputs. No new quadrature, rigorous kernel error enclosure, bandwidth, global optimum, physical fabrication or experimental confirmation.",
+  "confirmed_issues": [],
+  "direction_and_budget_checks": {
+    "passed": true,
+    "left_incidence": "Physical incoming wave applied at leftmost line coordinate q0; the increasing-linear motif stiffness grows toward the right/outgoing line lead.",
+    "actual_g_not_twice_scaled": true,
+    "best_g": [
+      0.14285714285714285,
+      0.2857142857142857,
+      0.42857142857142855,
+      0.5714285714285714,
+      0.7142857142857143,
+      0.8571428571428571
+    ],
+    "best_physical_spring_stiffness_sum": 24.0,
+    "best_active_springs": 48,
+    "matching_total_reference_active_springs": 48,
+    "best_peak_g": 0.8571428571428571,
+    "matching_total_reference_peak_g": 0.6000000000000001,
+    "matched_total_is_not_peak_constrained": true,
+    "reverse_profile_line_transmission_reciprocity": [
+      {
+        "cache": "N192_M256",
+        "sum_g": 2.5,
+        "reverse_Tline_difference": 1.6653345369377348e-16,
+        "forward_TqT": 0.695379688964505,
+        "reverse_TqT": 0.4799160506349857
+      },
+      {
+        "cache": "N192_M256",
+        "sum_g": 3.0,
+        "reverse_Tline_difference": 5.551115123125783e-17,
+        "forward_TqT": 0.7358742883948081,
+        "reverse_TqT": 0.48367852171949405
+      },
+      {
+        "cache": "N192_M256",
+        "sum_g": 4.0,
+        "reverse_Tline_difference": 1.0408340855860843e-17,
+        "forward_TqT": 0.6932358575187445,
+        "reverse_TqT": 0.443782414977621
+      },
+      {
+        "cache": "N80_M192",
+        "sum_g": 2.5,
+        "reverse_Tline_difference": 1.6653345369377348e-16,
+        "forward_TqT": 0.6953295728898297,
+        "reverse_TqT": 0.479819172871201
+      },
+      {
+        "cache": "N80_M192",
+        "sum_g": 3.0,
+        "reverse_Tline_difference": 1.249000902703301e-16,
+        "forward_TqT": 0.7359475461251102,
+        "reverse_TqT": 0.4836824709770394
+      },
+      {
+        "cache": "N80_M192",
+        "sum_g": 4.0,
+        "reverse_Tline_difference": 0.0,
+        "forward_TqT": 0.6935326719906716,
+        "reverse_TqT": 0.4439426805914354
+      }
+    ]
+  }
+}

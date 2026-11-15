@@ -1,0 +1,39 @@
+{
+  "runs": {
+    "box64": {
+      "modal_interval": [
+        52.8,
+        55.4
+      ],
+      "rows_exact_expected": true,
+      "rows_sha256": "5554eee2036651f535383d47110532ff08f1abaaf88041918b1c364a6d2d4377",
+      "snapshot_size_bytes": 542638480,
+      "snapshots_exact_expected": true,
+      "snapshots_sha256": "971394e5637dff8bd459a36f427ba09369117bd5cff126d2afd5f919141a87b1"
+    },
+    "dt003": {
+      "modal_interval": [
+        52.8,
+        55.2
+      ],
+      "rows_exact_expected": true,
+      "rows_sha256": "d285968a93e5f9588dfe657be8c43e527e1dde33c6916130d89ae3dbdc7a46a1",
+      "snapshot_size_bytes": 45158472,
+      "snapshots_exact_expected": true,
+      "snapshots_sha256": "793b3ec0c136106063de2662fa1f7fdd1f5601e6159f2b75e35c27fb0dd1b6ad"
+    },
+    "dt005": {
+      "modal_interval": [
+        52.8,
+        55.2
+      ],
+      "rows_exact_expected": true,
+      "rows_sha256": "d3d1c3ff6eb546b8eb8d56e42a692231ba71c5415a01172138e6c9ad2daf9788",
+      "snapshot_size_bytes": 45158472,
+      "snapshots_exact_expected": true,
+      "snapshots_sha256": "d33f25dc435f2788644b751c7e01ba5ca88aad0f1954d2514b39a7aeda441620"
+    }
+  },
+  "schema": "paper1.pass12.auxiliary-regeneration.v1",
+  "status": "passed"
+}

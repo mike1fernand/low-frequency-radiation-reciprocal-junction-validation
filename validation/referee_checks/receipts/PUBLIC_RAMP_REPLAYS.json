@@ -1,0 +1,25 @@
+{
+  "scope": "November 11 replays from the public reference/ramp edition, with output directories outside the package.",
+  "tasks": {
+    "response": {
+      "status": "PASS",
+      "task": "response",
+      "frozen_repository_unchanged": true,
+      "task_result": {}
+    },
+    "baseline": {
+      "status": "PASS",
+      "task": "baseline",
+      "frozen_repository_unchanged": true,
+      "task_result": {
+        "scope": "Saved certificate states, fresh compact physical checks and bridge; not reintegration of all 449,698 leaves."
+      }
+    },
+    "spectrum": {
+      "status": "PASS",
+      "task": "spectrum",
+      "frozen_repository_unchanged": true,
+      "task_result": {}
+    }
+  }
+}

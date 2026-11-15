@@ -1,0 +1,8 @@
+{
+  "FINAL_BOX_REVIEW.md": "aa8c364a7e04b606910efe6ca8e27146fb43b27ced971b0018ece97d3a7da235",
+  "INDEPENDENT_SCALAR_CHECK.json": "73f9b2d79852e88ad3e023898de27c1b32eba22055269aa9f6bf6077e53c1ee0",
+  "replay/BOX_RATIONAL_CERTIFICATE.json": "f1f9a936a632f0e360c3c9d0cfb1106359ef74206767b5a49e24f748d2412914",
+  "replay/replay.stdout": "98f9506cb75f9fe11d3c56c91a38dc2b687783536d1e8782214738bac168852f",
+  "replay/verify_box_rational.py": "dce88db6b788ec1b0341c97debc1db24deb4be80f333f64dc037815638662d60",
+  "replay/verify_point_rational.py": "8cc7821ddc6c2adb20f9ff3079cda17519086479e11b1ddeb833053dcdcf3359"
+}

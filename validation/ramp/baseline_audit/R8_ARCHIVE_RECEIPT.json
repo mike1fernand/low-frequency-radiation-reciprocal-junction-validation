@@ -1,0 +1,8 @@
+{
+  "path": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/recovered_r8/PAPER1_VALIDATION_INTEGRATED_R8(1).zip",
+  "sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+  "bytes": 462897627,
+  "members": 4764,
+  "total_uncompressed_bytes": 503565911,
+  "crc_scope": "ZIP central directory read; selected-member reads will validate CRC; whole archive CRC not yet tested."
+}

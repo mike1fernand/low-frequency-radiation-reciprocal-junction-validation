@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-08",
+  "scope": "Finite predeclared scale continuation of the actual complete paired-spring contact at fixed omega1.2, six motifs, unchanged bare bulk and line parameters.",
+  "scales": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    4.0,
+    6.0,
+    10.0
+  ],
+  "reference_g": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "parameter_cache_states": 16,
+  "new_green_evaluations": 0,
+  "new_optimization": false,
+  "primary_cache": "N192 spectral / M256 PV selected kernel",
+  "sensitivity_cache": "Historical N80 spectral / M192 PV; NOT the published N80/M256 family.",
+  "input_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "on_shell_N80.npz": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5",
+    "pv_mean_M192.npy": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18",
+    "N80_INPUT_PROVENANCE.json": "97653e788824fa36cd1940f7cff9fe5d19da8164b353f5ccdfb5aa7cf713f074",
+    "REFERENCE_KERNEL.npz": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "REFERENCE_KERNEL.json": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "finish_condition": "Eight scales on each of the two existing caches, after accepted N192 reference regression, with vectors/residuals saved; no adaptive continuation or search expansion."
+}

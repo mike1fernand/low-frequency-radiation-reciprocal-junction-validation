@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "scope": "Exact dyadic Q SPD and exact rational scalar propagation conditional on matrix norm caps and Green-error premises. Not standalone kernel or matrix-norm certification.",
+  "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "Q_branchsum_exactly_equals_Im_qT": true,
+  "Q_exact_dyadic_SPD": true,
+  "LDL_exact_reconstruction": true,
+  "LDL_positive_pivots": [
+    {
+      "index": 0,
+      "approximation": 0.2388712729147433,
+      "numerator_bits": 49,
+      "denominator_bits": 52
+    },
+    {
+      "index": 1,
+      "approximation": 0.011288894826014034,
+      "numerator_bits": 230,
+      "denominator_bits": 236
+    },
+    {
+      "index": 2,
+      "approximation": 0.006251851210583861,
+      "numerator_bits": 274,
+      "denominator_bits": 281
+    },
+    {
+      "index": 3,
+      "approximation": 0.00015300930851983182,
+      "numerator_bits": 446,
+      "denominator_bits": 459
+    },
+    {
+      "index": 4,
+      "approximation": 0.0017624359226780346,
+      "numerator_bits": 488,
+      "denominator_bits": 497
+    },
+    {
+      "index": 5,
+      "approximation": 5.947959079799157e-05,
+      "numerator_bits": 663,
+      "denominator_bits": 677
+    },
+    {
+      "index": 6,
+      "approximation": 0.000700161719008652,
+      "numerator_bits": 700,
+      "denominator_bits": 710
+    },
+    {
+      "index": 7,
+      "approximation": 1.1899914246315075e-05,
+      "numerator_bits": 874,
+      "denominator_bits": 890
+    },
+    {
+      "index": 8,
+      "approximation": 0.0002063532112630716,
+      "numerator_bits": 913,
+      "denominator_bits": 925
+    },
+    {
+      "index": 9,
+      "approximation": 4.301478144138826e-06,
+      "numerator_bits": 1082,
+      "denominator_bits": 1100
+    },
+    {
+      "index": 10,
+      "approximation": 8.021906858985711e-05,
+      "numerator_bits": 1115,
+      "denominator_bits": 1129
+    },
+    {
+      "index": 11,
+      "approximation": 1.1205229894821546e-06,
+      "numerator_bits": 1287,
+      "denominator_bits": 1306
+    }
+  ],
+  "norm_caps_assumed_not_certified_here": {
+    "H_frobenius": "947/1000",
+    "J_frobenius": "3/5",
+    "eta_c_norm": "569/1000",
+    "a_lower": "4289/5000",
+    "a_upper": "8579/10000"
+  },
+  "advertised_kernel_caps": {
+    "eG": "1/50",
+    "eQ": "1/200",
+    "Z": 0.5799849142763949,
+    "d": 0.006959818971316739,
+    "lower": 0.7205651886450405,
+    "upper": 0.7513463314789808,
+    "lower_rational": "43345541439854489/60154920225000000",
+    "upper_rational": "180788714525857969/240619680900000000",
+    "greater_than_72percent": true,
+    "greater_than_73percent": false
+  },
+  "decimal_ledger_approximation_not_used_for_certification": {
+    "eG": "3903451143041911/1000000000000000000",
+    "eQ": "19669086816087237/10000000000000000000",
+    "Z": 0.5711111513392447,
+    "d": 0.001337582685899494,
+    "lower": 0.7322447871375549,
+    "upper": 0.7395723086338656,
+    "lower_rational": "18171030183621610552501759800808259439998085343369/24815513203794396452844238869392583738502225000000",
+    "upper_rational": "73411465560257578134352070621839259149552641428449/99262052815177585811376955477570334954008900000000",
+    "greater_than_72percent": true,
+    "greater_than_73percent": true
+  },
+  "safe_upward_caps": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "Z": 0.5711635675940463,
+    "d": 0.001370792562225711,
+    "lower": 0.7321660760687072,
+    "upper": 0.7396512062343026,
+    "lower_rational": "1135358893260054489/1550684920225000000",
+    "upper_rational": "4587863886935057969/6202739680900000000",
+    "greater_than_72percent": true,
+    "greater_than_73percent": true
+  },
+  "derivation": [
+    "A=Ac+Dg DeltaG Peta, R=Ac^-1, eta=Peta y, eta_c=Peta yc.",
+    "eta=(I+H DeltaG)^-1 eta_c with H=Peta R Dg.",
+    "Fc y=Fc yc-J DeltaG eta with J=Fc R Dg.",
+    "||eta||<=Z=||eta_c||/(1-||H||eG), ||Fc(y-yc)||<=||J||eG Z.",
+    "True T differs from ||Fc y||^2 by 2 eta^dagger DeltaQstar eta, bounded by 2eQ Z^2.",
+    "Therefore (a_lower-d)^2-2eQ Z^2 <= T <= (a_upper+d)^2+2eQ Z^2."
+  ]
+}

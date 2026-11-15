@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-11",
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "scope": "Historical taper and finite fixtures; full N192 surface and both 2^23 Sobol histograms newly computed, high-resolution tetrahedron replayed from retained inputs.",
+  "upstream_members_verified_against_original": 208,
+  "taper_replay": {
+    "scope": "Reference taper at omega 1.2, finite-dimensional replay from historical integrations.",
+    "surface": {
+      "128": {
+        "qT": 0.12567058263455247,
+        "qL": 0.011019384391232238,
+        "Tbulk": 0.1366899670257847,
+        "Rq": 0.00357298134703856,
+        "Tline": 0.8597370516142214,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 0.0
+      },
+      "160": {
+        "qT": 0.12566614129225662,
+        "qL": 0.011021500545946146,
+        "Tbulk": 0.13668764183820278,
+        "Rq": 0.003572408468586185,
+        "Tline": 0.8597399496802556,
+        "amplitude_closure": 1.2955414518955877e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "192": {
+        "qT": 0.12565925539196318,
+        "qL": 0.011022636796258718,
+        "Tbulk": 0.1366818921882219,
+        "Rq": 0.0035721492712359523,
+        "Tline": 0.8597459585275878,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      }
+    },
+    "tetrahedron": {
+      "128": {
+        "Rq_amplitude": 0.0035706104772948092,
+        "Tq": 0.8598281427498591,
+        "TT_modal": 0.12559600061086978,
+        "TL_modal": 0.011005246149020851,
+        "Tbulk": 0.13660124675989066
+      },
+      "160": {
+        "Rq_amplitude": 0.003571085001032001,
+        "Tq": 0.8598114191438756,
+        "TT_modal": 0.12559346709704647,
+        "TL_modal": 0.011024028745090191,
+        "Tbulk": 0.1366174958421366
+      },
+      "192": {
+        "Rq_amplitude": 0.0035700699508995704,
+        "Tq": 0.8598069969611153,
+        "TT_modal": 0.12560796330551227,
+        "TL_modal": 0.011014969769517659,
+        "Tbulk": 0.13662293307503
+      }
+    },
+    "generalized_bloch": {
+      "low_pair_linear_richardson": {
+        "Rq": 0.003566915004228747,
+        "Tq": 0.8598019032811156,
+        "Tbulk": 0.13663118170169955,
+        "closure": 1.2956080652770652e-11,
+        "TL_modal": 0.011024871734969193,
+        "TT_modal": 0.1256063099667304,
+        "TT_fraction_modal": 0.9193092557814566,
+        "TL_projector": 0.011052246029260615,
+        "TT_projector": 0.12557893567243897
+      },
+      "three_point_quadratic": {
+        "Rq": 0.0035663933972744028,
+        "Tq": 0.859812740553638,
+        "Tbulk": 0.13662086603613202,
+        "closure": 1.2955636563560802e-11,
+        "TL_modal": 0.011025067580279694,
+        "TT_modal": 0.12559579845585234,
+        "TT_fraction_modal": 0.919301729668703,
+        "TL_projector": 0.011052442475419677,
+        "TT_projector": 0.12556842356071238
+      },
+      "three_point_linear_least_squares": {
+        "Rq": 0.003567697727482984,
+        "Tq": 0.8597856494697438,
+        "Tbulk": 0.13664665278981764,
+        "closure": 1.2955636563560802e-11,
+        "TL_modal": 0.011024577938919537,
+        "TT_modal": 0.1256220748508981,
+        "TT_fraction_modal": 0.9193205416024575,
+        "TL_projector": 0.01105195133185949,
+        "TT_projector": 0.12559470145795815
+      }
+    }
+  },
+  "fresh_surface": {
+    "32": {
+      "nseg": 6,
+      "matrix_sha256": "d1b130d37d90fb53ca3a18f8f93aa19e44f633a39a0af9b986563e391272e838",
+      "identical_to_archived_input": null,
+      "seconds_observed": 0.1753852367401123
+    },
+    "128": {
+      "nseg": 6,
+      "matrix_sha256": "68c20aca5071ee14f2ee9c6c8c1ce9280d72a2b9ef72ce9888ff49cb92d44778",
+      "identical_to_archived_input": true,
+      "seconds_observed": 11.280591487884521
+    },
+    "192": {
+      "nseg": 10,
+      "matrix_sha256": "9cefb732ffb2ebf745fe92cdd687cba0345e8c6a6f41365c55a13f9b6a62be7a",
+      "identical_to_archived_input": true,
+      "seconds_observed": 54.874393463134766
+    }
+  },
+  "independent_tetrahedral_campaign": {
+    "status": "complete",
+    "config_hash": "0a2187a2af1c6b7b0bb5a70f9339ccb14fcb2564bb0fdb7d1741916cfb7f3627",
+    "loaded": 2,
+    "created": 4,
+    "required": 6,
+    "request": {
+      "grid": "12",
+      "omega": "[1.2]",
+      "shift": "[0, 0, 0]",
+      "regulator": "1e-10",
+      "range_cubes": "300",
+      "cube_chunk": "1024",
+      "max_new_parts": "None",
+      "merge_only": false
+    },
+    "previous_result_is_from_earlier_execution": false,
+    "previous_successful_result_config_hash": null
+  },
+  "rigidity_checks_passed": 24,
+  "P05_weak_coupling_witness": {
+    "independent_witness_reimplementation": true,
+    "nodal_negative_control": true,
+    "positive_neighborhood": true,
+    "regular_away_from_lead_edges_and_poles": true,
+    "weak_ratio_convergence": true,
+    "weak_remainder_order": true,
+    "witness_on_shell": true,
+    "witness_positive_overlap": true,
+    "witness_regular_gradient": true,
+    "witness_spectral_gaps": true
+  },
+  "P05_core_scattering": "passed",
+  "P05_current_and_degeneracy": "passed",
+  "P05_matching_plane": "passed",
+  "small_CPP_checkpoint_comparison": {
+    "checks": {
+      "csv": true,
+      "snapshots": true
+    },
+    "hashes": {
+      "csv": "47fb3665aadbfa9c0303d49adcb6b6a5ee7b1c6e8099b850bcf5788daea011ee",
+      "snapshots": "b0ba6772aeea4501617f787689a4a6a8855824e8ca7e8e44295b9e70f828d4c4"
+    },
+    "status": "passed"
+  },
+  "coordinate_fixture": "PASS: finite-fixture coordinate regression only; no production transmission claim",
+  "continuum_replay": "passed",
+  "historical_radial_check": "passed",
+  "SM4_matrix_ladder_matches_saved_bytes": true,
+  "SM5A_85_case_ledger_matches_saved_bytes": true,
+  "SM5A_85_case_summary": {
+    "status": "passed_for_85_declared_finite_samples",
+    "active_row_count": 85,
+    "minimum_active_qT": 0.00024610966676734977,
+    "maximum_closure": 3.968192441305973e-11,
+    "maximum_partition_residual": 8.326672684688674e-17,
+    "weak_coupling_log_slope_sampled": 2.031520824485113,
+    "ranges": {
+      "frequency": {
+        "rows": 49,
+        "qT_min": 0.10486397198471414,
+        "qT_max": 0.21774263089260212,
+        "qT_fraction_min": 0.9104925786553522,
+        "qT_fraction_max": 0.9558504965939807,
+        "maximum_closure": 1.492561629845568e-11,
+        "maximum_partition_residual": 8.326672684688674e-17
+      },
+      "coupling_scale": {
+        "rows": 10,
+        "qT_min": 0.00024610966676734977,
+        "qT_max": 0.5221832770529679,
+        "qT_fraction_min": 0.913192102539082,
+        "qT_fraction_max": 0.9267283200466936,
+        "maximum_closure": 1.2954082251326327e-11,
+        "maximum_partition_residual": 5.551115123125783e-17
+      },
+      "length": {
+        "rows": 6,
+        "qT_min": 0.008820554207266457,
+        "qT_max": 0.24511666573513982,
+        "qT_fraction_min": 0.9021528866873326,
+        "qT_fraction_max": 0.9194598686868312,
+        "maximum_closure": 1.9162005315820352e-11,
+        "maximum_partition_residual": 2.7755575615628914e-17
+      },
+      "profile": {
+        "rows": 5,
+        "qT_min": 0.0649490637896278,
+        "qT_max": 0.1578695516555838,
+        "qT_fraction_min": 0.9002109036243326,
+        "qT_fraction_max": 0.9210417061514814,
+        "maximum_closure": 1.3048895297629315e-11,
+        "maximum_partition_residual": 2.7755575615628914e-17
+      },
+      "source_speed": {
+        "rows": 10,
+        "qT_min": 0.026457516967279587,
+        "qT_max": 0.1256914392616741,
+        "qT_fraction_min": 0.9124101113491044,
+        "qT_fraction_max": 0.9774615537119551,
+        "maximum_closure": 3.968192441305973e-11,
+        "maximum_partition_residual": 5.551115123125783e-17
+      },
+      "stiffness_ratio": {
+        "rows": 5,
+        "qT_min": 0.09814801817476115,
+        "qT_max": 0.16902098751831351,
+        "qT_fraction_min": 0.914408242519901,
+        "qT_fraction_max": 0.9231676096182537,
+        "maximum_closure": 1.3149925592870204e-11,
+        "maximum_partition_residual": 2.7755575615628914e-17
+      }
+    }
+  },
+  "fresh_full_reference_surface_PV": {
+    "scope": "Both complete 2^23-point Sobol samples from their seeds, N192/ten-segment-support marching shell newly integrated, original reference taper.",
+    "histograms": [
+      {
+        "seed": 20260920,
+        "sample_count": 8388608,
+        "sampling_sha256": "6f33ae5c9e99fa210a10b0e16a609ea71579eb0933133f93cfd28b7a020bd733",
+        "stored_npz_sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987",
+        "fresh_npz_sha256": "c6aca50fbe9395e4149256b8b8cc2d7933b3786059fcc1fdc1d2d4b83b046228",
+        "checks": {
+          "all_mass_entries_equal": true,
+          "all_edges_equal": true,
+          "all_sample_points_hash_equal": true,
+          "correct_count_and_full_fresh_generation": true
+        }
+      },
+      {
+        "seed": 20260921,
+        "sample_count": 8388608,
+        "sampling_sha256": "37620caac0a49f4eec77e20125ad953dddee91400728b3ade54241830320af70",
+        "stored_npz_sha256": "72ac7e19d54638dd91487812b3504a49276a3cab190598eb7534b89b473921d2",
+        "fresh_npz_sha256": "fd29745895bb9ebeb5c014b3cd74cdcdb76eecf788018cd175a2ec1b17c6a853",
+        "checks": {
+          "all_mass_entries_equal": true,
+          "all_edges_equal": true,
+          "all_sample_points_hash_equal": true,
+          "correct_count_and_full_fresh_generation": true
+        }
+      }
+    ],
+    "combined_reference_matrices": {
+      "full_principal_value_array_equal": true,
+      "total_spectral_array_equal": true,
+      "per_branch_arrays_equal": true
+    },
+    "loaded_reference_taper": {
+      "qT": 0.12565925539196318,
+      "qL": 0.011022636796258718,
+      "Tbulk": 0.1366818921882219,
+      "Rq": 0.0035721492712359523,
+      "Tline": 0.8597459585275878,
+      "amplitude_closure": 1.2954304295931252e-11,
+      "partition_residual": 2.7755575615628914e-17
+    },
+    "metadata_note": "Fresh histogram ZIP metadata records one start-to-finish run per seed. Historical files recorded a restart at 2^22."
+  }
+}

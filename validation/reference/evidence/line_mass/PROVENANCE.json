@@ -1,0 +1,14 @@
+{
+  "TETRA_N192.npz": {
+    "archive": "Paper1_736_Full_Validations_2026-11-08.zip",
+    "archive_sha256": "d26193212f0c9b4649d61d409bf4794cea3a6d92dd68a16206d46882c0b47286",
+    "member": "paper1-736-full-validation/fresh_kernel/independent_tetra/inputs/reference_N192/omega_000.npz",
+    "sha256": "609c5990149bfe8f5975571897d3b069c94661b7d23955e2fd513e4dea18c4ef",
+    "method": "retained linear tetrahedron N=192; angular-frequency 1.2, reference bare lattice",
+    "corroborating_metadata": "../controls/DOWNSTREAM_TETRA_N192.json at input_metadata and input_sha256"
+  },
+  "surface": "../REFERENCE_KERNEL.npz and ../REFERENCE_KERNEL.json, retained N=192 surface grid, PV order 256",
+  "mass_controls": "m_q/m_b=0.75, 1, 1.25 were chosen before evaluating the additional line-mass test, holding Kq, bulk, taper, and drive frequency fixed. The first and third points are distinct from the original one-factor speed scan, which varied Kq at fixed masses. The nominal entry repeats the reference.",
+  "normalization": "For angle kappa a satisfying 2 Kq[1−cos(kappa a)]=m_q omega^2, gamma=2 Kq sin(kappa a). With incident displacement 1, incident power is omega gamma/4. The 19-coordinate solve divides the bulk work omega f†Q_C f/2 by this value. The 7-coordinate calculation mass-normalizes both the line dynamical matrix and lead widths and eliminates the corners. Both compare to the exact propagating-lead limit on the respective stored kernel.",
+  "scope": "No bulk integrals were regenerated. The two retained grids do not enclose the exact-lattice error; the values describe sampled harmonic-model configurations at the specified frequency."
+}

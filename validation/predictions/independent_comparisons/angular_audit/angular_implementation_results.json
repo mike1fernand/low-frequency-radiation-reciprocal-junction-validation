@@ -1,0 +1,36 @@
+{
+  "finite_difference_h": 1e-05,
+  "gradient_max_abs_difference": 1.219353507053711e-10,
+  "cartesian_coupling_max_abs_difference": 5.551115123125783e-17,
+  "simultaneous_vs_schur_eta_max_abs_difference": 1.2794688166302258e-16,
+  "literal_source_vs_projected_max_abs_difference": 3.376611507232129e-16,
+  "C4v_branch_intensity_max_abs_difference": 5.794253965518692e-13,
+  "new_kernel_states": {
+    "full": {
+      "R": 0.0035697180361149903,
+      "Tq": 0.8597777311871441,
+      "TqT": 0.12562840678714038,
+      "TqL": 0.011024143989600738,
+      "closure": 2.220446049250313e-16
+    },
+    "X-only": {
+      "R": 0.008296274735946418,
+      "Tq": 0.8765031007850632,
+      "TqT": 0.10220641127154731,
+      "TqL": 0.01299421320744288,
+      "closure": -2.220446049250313e-16
+    },
+    "R-only": {
+      "R": 0.0007221167376252043,
+      "Tq": 0.9968470957881588,
+      "TqT": 0.002231010032315855,
+      "TqL": 0.0001997774418996494,
+      "closure": -4.440892098500626e-16
+    }
+  },
+  "limitations": [
+    "Deterministic 37-point implementation checks, not global interval proofs.",
+    "All source cross-solves here share the supplied independent numerical Green blocks.",
+    "No fresh PV integration or global angular-preimage certification in this script."
+  ]
+}

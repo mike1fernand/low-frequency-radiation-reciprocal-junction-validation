@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "direct_stationary_contact_solves": 140,
+  "positive_bin_range": [
+    12,
+    25
+  ],
+  "distinct_evaluated_frequencies": 14,
+  "signed_grid_size": 120,
+  "energy_quantiles_01_99": [
+    0.9317566688177807,
+    1.4726562160045653
+  ],
+  "energy_coverage": 0.9996834927581062,
+  "nyquist_fraction": 2.5768734723116623e-07,
+  "periodic_to_open_factor": 1.0000000091839119,
+  "omitted_weight_at_most": 0.0003165072418938042,
+  "reference_qT_surface_tail_only_interval": [
+    0.12767301846274443,
+    0.12798952570463823
+  ],
+  "stationary_in_band_contributions": {
+    "surface_N128": {
+      "reference_qT_per_periodic_packet_energy": 0.12768113293472028,
+      "ramp_qT_per_open_line_energy": 0.7163305061988908
+    },
+    "surface_N160": {
+      "reference_qT_per_periodic_packet_energy": 0.12767301846274443,
+      "ramp_qT_per_open_line_energy": 0.7163064862147751
+    },
+    "tetra_N96": {
+      "reference_qT_per_periodic_packet_energy": 0.12756756192306123,
+      "ramp_qT_per_open_line_energy": 0.7161938975600635
+    },
+    "tetra_N128": {
+      "reference_qT_per_periodic_packet_energy": 0.12759466873816686,
+      "ramp_qT_per_open_line_energy": 0.7162026719320974
+    },
+    "tetra_N160": {
+      "reference_qT_per_periodic_packet_energy": 0.12760941962631991,
+      "ramp_qT_per_open_line_energy": 0.716226962851047
+    }
+  },
+  "scope": "Independent coupled line-and-corner solves from archived on-frequency Green and branch matrices; no fresh bulk quadrature. Omitted-weight intervals take computed in-band values as given."
+}

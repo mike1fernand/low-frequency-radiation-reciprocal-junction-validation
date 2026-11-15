@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "scope": "Arithmetic/exact identities and sampled static projector corollary of already recorded P1/P3 laws. No new conversion efficiency, full scattering, proof of novelty or empirical validation.",
+  "CT": 0.27586856802595194,
+  "CL": 0.026545465335123326,
+  "qT_to_qL_low_frequency_ratio": 10.392304845413262,
+  "qT_low_frequency_bulk_share": 0.9122214500428667,
+  "reference_omega_star_exact": "40/39",
+  "normalized_crossover_exact_cases": [
+    {
+      "x_omega_over_s_omega_star": "1/4",
+      "lambda_s_over_omega": "39/10",
+      "exact_R_and_normalized_Tbulk": "16/17",
+      "numeric": 0.9411764705882353
+    },
+    {
+      "x_omega_over_s_omega_star": "1/2",
+      "lambda_s_over_omega": "39/20",
+      "exact_R_and_normalized_Tbulk": "4/5",
+      "numeric": 0.8
+    },
+    {
+      "x_omega_over_s_omega_star": "1",
+      "lambda_s_over_omega": "39/40",
+      "exact_R_and_normalized_Tbulk": "1/2",
+      "numeric": 0.5
+    },
+    {
+      "x_omega_over_s_omega_star": "2",
+      "lambda_s_over_omega": "39/80",
+      "exact_R_and_normalized_Tbulk": "1/5",
+      "numeric": 0.2
+    },
+    {
+      "x_omega_over_s_omega_star": "4",
+      "lambda_s_over_omega": "39/160",
+      "exact_R_and_normalized_Tbulk": "1/17",
+      "numeric": 0.058823529411764705
+    }
+  ],
+  "existing_low_frequency_cone_shares": [
+    {
+      "degrees": 10,
+      "limiting_qT_share": 0.0738570006116239
+    },
+    {
+      "degrees": 20,
+      "limiting_qT_share": 0.2460527462970835
+    },
+    {
+      "degrees": 30,
+      "limiting_qT_share": 0.43268208596888547
+    }
+  ],
+  "kinetic_corollary": {
+    "samples": 320,
+    "maximum_sampled_fraction_to_bound_ratio": 0.004316868498602742,
+    "at_kappa_0_2_maximum_fraction": 0.00010000000000000002,
+    "at_kappa_0_2_maximum_percent": 0.010000000000000002,
+    "limit": "Global Fourier wave-normal projected kinetic energy of lower-band velocities with support |k|<=kappa, same constant-mass bulk. Not total elastic energy or incident conversion."
+  },
+  "complete_mass_stiffness_scaling": [
+    {
+      "alpha_M": 4,
+      "alpha_K": 1,
+      "frequency_scale": 0.5,
+      "fixed_displacement_power_scale": 0.5,
+      "bare_only_effective_source_scale": 1.0
+    },
+    {
+      "alpha_M": 1,
+      "alpha_K": 4,
+      "frequency_scale": 2.0,
+      "fixed_displacement_power_scale": 8.0,
+      "bare_only_effective_source_scale": 0.25
+    },
+    {
+      "alpha_M": 4,
+      "alpha_K": 4,
+      "frequency_scale": 1.0,
+      "fixed_displacement_power_scale": 4.0,
+      "bare_only_effective_source_scale": 0.25
+    }
+  ],
+  "source_sha256": "b0f97680a42e98b60037e31bf9b1dbac1fedeb0b727b8df47d854e4b0ebee167"
+}

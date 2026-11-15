@@ -1,0 +1,1340 @@
+{
+  "checks": {
+    "independent_witness_reimplementation": true,
+    "nodal_negative_control": true,
+    "positive_neighborhood": true,
+    "regular_away_from_lead_edges_and_poles": true,
+    "weak_ratio_convergence": true,
+    "weak_remainder_order": true,
+    "witness_on_shell": true,
+    "witness_positive_overlap": true,
+    "witness_regular_gradient": true,
+    "witness_spectral_gaps": true
+  },
+  "finite_s_sequence": {
+    "A_qT": 0.09691361730911048,
+    "maximum_first_four_relative_to_AqT": 9.263147431382646e-05,
+    "minimum_dressing_singular_value": 1.0000000478252378,
+    "normalized_remainder_log_slope_first_six": 0.9999720423366657,
+    "rows": [
+      {
+        "TqT": 9.691391655621377e-12,
+        "TqT_over_s2": 0.09691391655621376,
+        "absolute_remainder": 2.9924710327153477e-17,
+        "closure_abs": 0.0,
+        "minimum_dressing_singular_value": 1.0000000478252378,
+        "relative_to_AqT": 3.0877714771815104e-06,
+        "s": 1e-05
+      },
+      {
+        "TqT": 8.722306354437379e-11,
+        "TqT_over_s2": 0.09691451504930422,
+        "absolute_remainder": 8.07966174362846e-16,
+        "closure_abs": 4.440892098500626e-16,
+        "minimum_dressing_singular_value": 1.000000143477058,
+        "relative_to_AqT": 9.263302915171912e-06,
+        "s": 3e-05
+      },
+      {
+        "TqT": 9.691660976340216e-10,
+        "TqT_over_s2": 0.09691660976340216,
+        "absolute_remainder": 2.9924542916770564e-14,
+        "closure_abs": 0.0,
+        "minimum_dressing_singular_value": 1.0000004782725411,
+        "relative_to_AqT": 3.087754202937615e-05,
+        "s": 0.0001
+      },
+      {
+        "TqT": 8.72303351043266e-09,
+        "TqT_over_s2": 0.09692259456036291,
+        "absolute_remainder": 8.079526127180916e-13,
+        "closure_abs": 3.3306690738754696e-16,
+        "minimum_dressing_singular_value": 1.000001434952025,
+        "relative_to_AqT": 9.263147431382646e-05,
+        "s": 0.0003
+      },
+      {
+        "TqT": 9.694354017704174e-08,
+        "TqT_over_s2": 0.09694354017704175,
+        "absolute_remainder": 2.99228679312643e-11,
+        "closure_abs": 9.992007221626409e-16,
+        "minimum_dressing_singular_value": 1.0000047847412288,
+        "relative_to_AqT": 0.0003087581370100944,
+        "s": 0.001
+      },
+      {
+        "TqT": 8.730303725571802e-07,
+        "TqT_over_s2": 0.09700337472857558,
+        "absolute_remainder": 8.078167751858497e-10,
+        "closure_abs": 4.440892098500626e-16,
+        "minimum_dressing_singular_value": 1.0000143676568256,
+        "relative_to_AqT": 0.0009261590058991603,
+        "s": 0.003
+      },
+      {
+        "TqT": 9.721267759115841e-06,
+        "TqT_over_s2": 0.09721267759115841,
+        "absolute_remainder": 2.9906028204792e-08,
+        "closure_abs": 8.881784197001252e-16,
+        "minimum_dressing_singular_value": 1.00004804870547,
+        "relative_to_AqT": 0.0030858437684155755,
+        "s": 0.01
+      },
+      {
+        "TqT": 8.80286929710271e-05,
+        "TqT_over_s2": 0.09780965885669678,
+        "absolute_remainder": 8.064373928276644e-07,
+        "closure_abs": 6.661338147750939e-16,
+        "minimum_dressing_singular_value": 1.000145482446681,
+        "relative_to_AqT": 0.009245775490231985,
+        "s": 0.03
+      },
+      {
+        "TqT": 0.0009988664086912143,
+        "TqT_over_s2": 0.09988664086912141,
+        "absolute_remainder": 2.9730235600109248e-05,
+        "closure_abs": 2.220446049250313e-16,
+        "minimum_dressing_singular_value": 1.0005003293989572,
+        "relative_to_AqT": 0.03067704665824551,
+        "s": 0.1
+      }
+    ]
+  },
+  "first_order_coefficient": {
+    "A_qT": 0.09691361730911048
+  },
+  "nodal_negative_control": {
+    "eigenvalues": [
+      1.44,
+      1.44,
+      4.32
+    ],
+    "k": [
+      1.2870022175865687,
+      0.0,
+      0.0
+    ],
+    "lower_overlaps": [
+      0.0,
+      0.0
+    ],
+    "maximum_lower_overlap": 0.0,
+    "note": "This is a transverse form-factor nodal control, not the reference finite-slab witness."
+  },
+  "regular_shell_neighborhood": {
+    "maximum_independent_overlap_difference": 0.0,
+    "maximum_overlap": 0.7872768794977398,
+    "maximum_shell_residual_absolute": 2.0650148258027912e-14,
+    "minimum_gradient_omega2_norm": 1.850667071485249,
+    "minimum_internal_lower_gap_omega2": 0.08097737308767972,
+    "minimum_overlap": 0.69989673416969,
+    "minimum_upper_cluster_gap_omega2": 2.6843302956824893,
+    "points": 49,
+    "rows": [
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8804884730368459,
+          -0.8297056788420887,
+          -1.4004631893863615
+        ],
+        "gradient_omega2_norm": 1.850667071485249,
+        "independent_overlap_amplitude_squared": 0.69989673416969,
+        "internal_lower_gap_omega2": 0.11839705791768096,
+        "k": [
+          0.5978799579516504,
+          -0.5799305663040557,
+          -1.0010333198686079
+        ],
+        "offset_coordinates": [
+          -0.03,
+          -0.03
+        ],
+        "omega2_shell_residual": -2.220446049250313e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.69989673416969,
+        "upper_cluster_gap_omega2": 2.6843302956824893
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8751857461205768,
+          -0.8556437709770773,
+          -1.3890564724577046
+        ],
+        "gradient_omega2_norm": 1.8513655059715102,
+        "independent_overlap_amplitude_squared": 0.7069981015905124,
+        "internal_lower_gap_omega2": 0.11537964859193206,
+        "k": [
+          0.5979606972739402,
+          -0.5910418940076072,
+          -0.9942693413163277
+        ],
+        "offset_coordinates": [
+          -0.03,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": 4.440892098500626e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7069981015905124,
+        "upper_cluster_gap_omega2": 2.6875040232941414
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8699171274100608,
+          -0.8815126179006952,
+          -1.3776001327814766
+        ],
+        "gradient_omega2_norm": 1.852458482643822,
+        "independent_overlap_amplitude_squared": 0.7145682578142805,
+        "internal_lower_gap_omega2": 0.11215947779049884,
+        "k": [
+          0.5979509550182351,
+          -0.6020650970368097,
+          -0.9873540938269004
+        ],
+        "offset_coordinates": [
+          -0.03,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -4.440892098500626e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7145682578142805,
+        "upper_cluster_gap_omega2": 2.6905037239006098
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8646991897015417,
+          -0.9072709463888856,
+          -1.3661079577060784
+        ],
+        "gradient_omega2_norm": 1.853940724764349,
+        "independent_overlap_amplitude_squared": 0.722670021030951,
+        "internal_lower_gap_omega2": 0.10874891441575674,
+        "k": [
+          0.5978509825435702,
+          -0.6129954246732775,
+          -0.9802911214311043
+        ],
+        "offset_coordinates": [
+          -0.03,
+          0.0
+        ],
+        "omega2_shell_residual": -3.1086244689504383e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.722670021030951,
+        "upper_cluster_gap_omega2": 2.6933151215425974
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.859548716687358,
+          -0.9328734649956303,
+          -1.3545961998037506
+        ],
+        "gradient_omega2_norm": 1.8558038049790178,
+        "independent_overlap_amplitude_squared": 0.7313755159693562,
+        "internal_lower_gap_omega2": 0.10516152833671688,
+        "k": [
+          0.5976612886442868,
+          -0.6238284134564702,
+          -0.9730843757033993
+        ],
+        "offset_coordinates": [
+          -0.03,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": -6.217248937900877e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7313755159693562,
+        "upper_cluster_gap_omega2": 2.6959251280747347
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.854482663162918,
+          -0.9582700948228725,
+          -1.3430842016048705
+        ],
+        "gradient_omega2_norm": 1.8580358900942744,
+        "independent_overlap_amplitude_squared": 0.7407676714115371,
+        "internal_lower_gap_omega2": 0.10141213879731081,
+        "k": [
+          0.5973826530829389,
+          -0.6345599253085784,
+          -0.9657382227882306
+        ],
+        "offset_coordinates": [
+          -0.03,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": -8.881784197001252e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7407676714115371,
+        "upper_cluster_gap_omega2": 2.6983220025046135
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8495181162480241,
+          -0.9834049477108875,
+          -1.3315952247975518
+        ],
+        "gradient_omega2_norm": 1.8606214455712067,
+        "independent_overlap_amplitude_squared": 0.7509419024964797,
+        "internal_lower_gap_omega2": 0.09751688834986227,
+        "k": [
+          0.5970161420871425,
+          -0.6451861892799942,
+          -0.9582574526417722
+        ],
+        "offset_coordinates": [
+          -0.03,
+          0.03
+        ],
+        "omega2_shell_residual": -1.2878587085651816e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7509419024964797,
+        "upper_cluster_gap_omega2": 2.700495509749602
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9089193826937839,
+          -0.8166468249279021,
+          -1.3921027395088152
+        ],
+        "gradient_omega2_norm": 1.8522949328466083,
+        "independent_overlap_amplitude_squared": 0.71009447151569,
+        "internal_lower_gap_omega2": 0.1157814323134021,
+        "k": [
+          0.6092690878078085,
+          -0.5765953166869702,
+          -0.9957016368127015
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          -0.03
+        ],
+        "omega2_shell_residual": -2.220446049250313e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.71009447151569,
+        "upper_cluster_gap_omega2": 2.6858155369839736
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9036163004596546,
+          -0.8425916482590132,
+          -1.3805730077849858
+        ],
+        "gradient_omega2_norm": 1.8526912678578469,
+        "independent_overlap_amplitude_squared": 0.7172106050828335,
+        "internal_lower_gap_omega2": 0.11280993638645098,
+        "k": [
+          0.6093730528862755,
+          -0.5877274091980246,
+          -0.9889719497629524
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -1.5543122344752192e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7172106050828335,
+        "upper_cluster_gap_omega2": 2.6893317074659837
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8983374345512193,
+          -0.8684842723897963,
+          -1.3689895663857183
+        ],
+        "gradient_omega2_norm": 1.8534852334392786,
+        "independent_overlap_amplitude_squared": 0.7248083963583558,
+        "internal_lower_gap_omega2": 0.10963810701134702,
+        "k": [
+          0.6093845882563865,
+          -0.5987724465379574,
+          -0.982090947694444
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -3.1086244689504383e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7248083963583558,
+        "upper_cluster_gap_omega2": 2.6926649850533897
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8931003420171915,
+          -0.8942834699420931,
+          -1.3573656106096494
+        ],
+        "gradient_omega2_norm": 1.8546731643037815,
+        "independent_overlap_amplitude_squared": 0.7329532824111749,
+        "internal_lower_gap_omega2": 0.10627797389394367,
+        "k": [
+          0.6093038573680211,
+          -0.6097255714934285,
+          -0.9750620317649004
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          0.0
+        ],
+        "omega2_shell_residual": -5.773159728050814e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7329532824111749,
+        "upper_cluster_gap_omega2": 2.69580007695634
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8879229671673817,
+          -0.9199438940521908,
+          -1.3457167416741873
+        ],
+        "gradient_omega2_norm": 1.856248235729647,
+        "independent_overlap_amplitude_squared": 0.7417205631705176,
+        "internal_lower_gap_omega2": 0.10274274995130317,
+        "k": [
+          0.6091312862266071,
+          -0.620582206180486,
+          -0.9678890129213243
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": -8.43769498715119e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7417205631705176,
+        "upper_cluster_gap_omega2": 2.6987229163864956
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.88282362216914,
+          -0.9454152921996996,
+          -1.3340615890141259
+        ],
+        "gradient_omega2_norm": 1.8582001899331995,
+        "independent_overlap_amplitude_squared": 0.751197043257074,
+        "internal_lower_gap_omega2": 0.0990468827180313,
+        "k": [
+          0.6088675779501881,
+          -0.6313380909088705,
+          -0.9605761200020086
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": -1.4876988529977098e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.751197043257074,
+        "upper_cluster_gap_omega2": 2.7014208288007846
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.8778209724173094,
+          -0.9706414592131954,
+          -1.3224226407554576
+        ],
+        "gradient_omega2_norm": 1.8605150208320893,
+        "independent_overlap_amplitude_squared": 0.7614828980693299,
+        "internal_lower_gap_omega2": 0.09520613173783521,
+        "k": [
+          0.6085137293782399,
+          -0.6419893267924183,
+          -0.9531280100633192
+        ],
+        "offset_coordinates": [
+          -0.019999999999999997,
+          0.03
+        ],
+        "omega2_shell_residual": -1.9761969838327786e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7614828980693299,
+        "upper_cluster_gap_omega2": 2.703882697593387
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9371977355657344,
+          -0.8036665129615858,
+          -1.3837842759569272
+        ],
+        "gradient_omega2_norm": 1.8544752308917507,
+        "independent_overlap_amplitude_squared": 0.7190379649049686,
+        "internal_lower_gap_omega2": 0.11294722627251841,
+        "k": [
+          0.6205530978933975,
+          -0.5731622271132095,
+          -0.990200947677964
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          -0.03
+        ],
+        "omega2_shell_residual": -4.440892098500626e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7190379649049686,
+        "upper_cluster_gap_omega2": 2.686930377193483
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.931901354101308,
+          -0.8296067129429993,
+          -1.3721341710310868
+        ],
+        "gradient_omega2_norm": 1.8545726233413204,
+        "independent_overlap_amplitude_squared": 0.726126184950084,
+        "internal_lower_gap_omega2": 0.11002485356796354,
+        "k": [
+          0.6206808863988695,
+          -0.584312766786668,
+          -0.983506009757003
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -1.3322676295501878e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.726126184950084,
+        "upper_cluster_gap_omega2": 2.6907801589425397
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9266192421687934,
+          -0.855512648670204,
+          -1.3604256989777463
+        ],
+        "gradient_omega2_norm": 1.855069592880889,
+        "independent_overlap_amplitude_squared": 0.7337074727568372,
+        "internal_lower_gap_omega2": 0.10690490972289868,
+        "k": [
+          0.6207143787457907,
+          -0.5953774022252505,
+          -0.9766598612984145
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -3.774758283725532e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7337074727568372,
+        "upper_cluster_gap_omega2": 2.6944387248291726
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9213699624063151,
+          -0.8813432947171054,
+          -1.3486713316866803
+        ],
+        "gradient_omega2_norm": 1.8559641622835663,
+        "independent_overlap_amplitude_squared": 0.7418498897325978,
+        "internal_lower_gap_omega2": 0.10359903828019079,
+        "k": [
+          0.6206536431036868,
+          -0.6063511717270914,
+          -0.9696657531012179
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          0.0
+        ],
+        "omega2_shell_residual": -8.43769498715119e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7418498897325978,
+        "upper_cluster_gap_omega2": 2.697889777583544
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9161726553306165,
+          -0.9070534203082266,
+          -1.3368858638065766
+        ],
+        "gradient_omega2_norm": 1.857251209318293,
+        "independent_overlap_amplitude_squared": 0.7506319603202178,
+        "internal_lower_gap_omega2": 0.10012004150011466,
+        "k": [
+          0.6204990142045084,
+          -0.6172293835949504,
+          -0.962527346429243
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": -1.176836406102666e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7506319603202178,
+        "upper_cluster_gap_omega2": 2.7011182778784786
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9110470443064002,
+          -0.9325927885689803,
+          -1.3250870272504187
+        ],
+        "gradient_omega2_norm": 1.8589221758905472,
+        "independent_overlap_amplitude_squared": 0.7601444817564674,
+        "internal_lower_gap_omega2": 0.09648193429814023,
+        "k": [
+          0.6202511088828335,
+          -0.6280076555612891,
+          -0.9552487221304339
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": 2.0650148258027912e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7601444817564674,
+        "upper_cluster_gap_omega2": 2.7041106170506097
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9060134502943495,
+          -0.9579050867519986,
+          -1.3132963164270257
+        ],
+        "gradient_omega2_norm": 1.8609647342387818,
+        "independent_overlap_amplitude_squared": 0.7704926084583694,
+        "internal_lower_gap_omega2": 0.0927000245237446,
+        "k": [
+          0.6199108437498858,
+          -0.6386819580691258,
+          -0.9478343919823542
+        ],
+        "offset_coordinates": [
+          -0.009999999999999998,
+          0.03
+        ],
+        "omega2_shell_residual": 1.3100631690576847e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7704926084583694,
+        "upper_cluster_gap_omega2": 2.7068547893233648
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9652690546382934,
+          -0.7907878319647224,
+          -1.3755253202247757
+        ],
+        "gradient_omega2_norm": 1.857191333601695,
+        "independent_overlap_amplitude_squared": 0.7265973498044295,
+        "internal_lower_gap_omega2": 0.10990668303959117,
+        "k": [
+          0.6317271158470996,
+          -0.5696338579814616,
+          -0.9845354565290098
+        ],
+        "offset_coordinates": [
+          0.0,
+          -0.03
+        ],
+        "omega2_shell_residual": 0.0,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7265973498044295,
+        "upper_cluster_gap_omega2": 2.6876728531024767
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9599844956742388,
+          -0.8167125250447755,
+          -1.3637585665395568
+        ],
+        "gradient_omega2_norm": 1.85699407869545,
+        "independent_overlap_amplitude_squared": 0.7336081426073692,
+        "internal_lower_gap_omega2": 0.10703652340926051,
+        "k": [
+          0.6318792464618941,
+          -0.5808004851320957,
+          -0.977875616397444
+        ],
+        "offset_coordinates": [
+          0.0,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -4.6629367034256575e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7336081426073692,
+        "upper_cluster_gap_omega2": 2.691846496293188
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9547041479539016,
+          -0.8426218133258998,
+          -1.3519282368995327
+        ],
+        "gradient_omega2_norm": 1.8571972130442398,
+        "independent_overlap_amplitude_squared": 0.7411214474273116,
+        "internal_lower_gap_omega2": 0.1039718785166015,
+        "k": [
+          0.6319353010021375,
+          -0.5918824365106996,
+          -0.9710648197497096
+        ],
+        "offset_coordinates": [
+          0.0,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -7.327471962526033e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7411214474273116,
+        "upper_cluster_gap_omega2": 2.6958211620673267
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9494475989221768,
+          -0.8684750429716123,
+          -1.3400459388792607
+        ],
+        "gradient_omega2_norm": 1.8578005171897305,
+        "independent_overlap_amplitude_squared": 0.7492079017271295,
+        "internal_lower_gap_omega2": 0.10072395873095696,
+        "k": [
+          0.6318952450050008,
+          -0.6028746482147356,
+          -0.9641061600024189
+        ],
+        "offset_coordinates": [
+          0.0,
+          0.0
+        ],
+        "omega2_shell_residual": -1.0880185641326534e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7492079017271295,
+        "upper_cluster_gap_omega2": 2.699579564615404
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9442352195232633,
+          -0.894227287851504,
+          -1.3281254922918595
+        ],
+        "gradient_omega2_norm": 1.858800665860085,
+        "independent_overlap_amplitude_squared": 0.7579492457266452,
+        "internal_lower_gap_omega2": 0.09730510144723414,
+        "k": [
+          0.6317593133326663,
+          -0.6137723155924553,
+          -0.9570031400563774
+        ],
+        "offset_coordinates": [
+          0.0,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": -1.7985612998927536e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7579492457266452,
+        "upper_cluster_gap_omega2": 2.703105701361741
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9390881982147669,
+          -0.9198285375736996,
+          -1.3161835291693387
+        ],
+        "gradient_omega2_norm": 1.860190921657743,
+        "independent_overlap_amplitude_squared": 0.7674403254926442,
+        "internal_lower_gap_omega2": 0.09372882692919116,
+        "k": [
+          0.6315280266276548,
+          -0.6245709330222844,
+          -0.9497596823455211
+        ],
+        "offset_coordinates": [
+          0.0,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": 1.3988810110276972e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7674403254926442,
+        "upper_cluster_gap_omega2": 2.706385031625417
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9340285914008516,
+          -0.9452226086252941,
+          -1.3042403052920313
+        ],
+        "gradient_omega2_norm": 1.8619607845921233,
+        "independent_overlap_amplitude_squared": 0.7777914338135603,
+        "internal_lower_gap_omega2": 0.09000992070068081,
+        "k": [
+          0.6312022099725093,
+          -0.635266337634124,
+          -0.9423801410992872
+        ],
+        "offset_coordinates": [
+          0.0,
+          0.03
+        ],
+        "omega2_shell_residual": 6.661338147750939e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7777914338135603,
+        "upper_cluster_gap_omega2": 2.709404654843974
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9930757854377068,
+          -0.778032685375227,
+          -1.3673461102069993
+        ],
+        "gradient_omega2_norm": 1.8604219307009677,
+        "independent_overlap_amplitude_squared": 0.7326312103847804,
+        "internal_lower_gap_omega2": 0.1066735241052601,
+        "k": [
+          0.6427867123277285,
+          -0.5660130802642754,
+          -0.9787099070440063
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          -0.03
+        ],
+        "omega2_shell_residual": -3.3306690738754696e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7326312103847804,
+        "upper_cluster_gap_omega2": 2.6880433031161526
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9878058254608888,
+          -0.8039315210207161,
+          -1.3554677809705895
+        ],
+        "gradient_omega2_norm": 1.8599352527855597,
+        "independent_overlap_amplitude_squared": 0.7395070501754637,
+        "internal_lower_gap_omega2": 0.103858602067735,
+        "k": [
+          0.6429636303998828,
+          -0.5771934104568792,
+          -0.9720854185314234
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -4.6629367034256575e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7395070501754637,
+        "upper_cluster_gap_omega2": 2.6925302204943
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.982529817954568,
+          -0.8298347785067963,
+          -1.3435201560997077
+        ],
+        "gradient_omega2_norm": 1.8598486531531115,
+        "independent_overlap_amplitude_squared": 0.7468922306177723,
+        "internal_lower_gap_omega2": 0.10085259466636054,
+        "k": [
+          0.6430427837053586,
+          -0.58829036717911,
+          -0.9653103755846504
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -6.661338147750939e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7468922306177723,
+        "upper_cluster_gap_omega2": 2.696810975615615
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9772683893190678,
+          -0.8557023600840098,
+          -1.3315138296900129
+        ],
+        "gradient_omega2_norm": 1.8601637327051062,
+        "independent_overlap_amplitude_squared": 0.7548598374328283,
+        "internal_lower_gap_omega2": 0.09766623220845227,
+        "k": [
+          0.6430240278421114,
+          -0.5992987868924645,
+          -0.9583877076867927
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          0.0
+        ],
+        "omega2_shell_residual": -1.3100631690576847e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7548598374328283,
+        "upper_cluster_gap_omega2": 2.7008673135339007
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.972043170364904,
+          -0.8814898518975325,
+          -1.3194614664805149
+        ],
+        "gradient_omega2_norm": 1.8608790518403657,
+        "independent_overlap_amplitude_squared": 0.7634947283977772,
+        "internal_lower_gap_omega2": 0.09431133267215275,
+        "k": [
+          0.6429074891180071,
+          -0.6102137530980268,
+          -0.951320751087971
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": 1.9761969838327786e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7634947283977772,
+        "upper_cluster_gap_omega2": 2.704682280814281
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9668768647152729,
+          -0.9071477055042899,
+          -1.3073783789314246
+        ],
+        "gradient_omega2_norm": 1.8619898111484643,
+        "independent_overlap_amplitude_squared": 0.7728957558004741,
+        "internal_lower_gap_omega2": 0.09080085864567367,
+        "k": [
+          0.6426935818215826,
+          -0.6210306362336592,
+          -0.9441132596631943
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": 4.218847493575595e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7728957558004741,
+        "upper_cluster_gap_omega2": 2.7082404094773405
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9617933423561736,
+          -0.9326201354125065,
+          -1.2952833141868714
+        ],
+        "gradient_omega2_norm": 1.8634874870490619,
+        "independent_overlap_amplitude_squared": 0.783178404435043,
+        "internal_lower_gap_omega2": 0.0871490008136826,
+        "k": [
+          0.642383027748147,
+          -0.6317451375659792,
+          -0.9367694179480702
+        ],
+        "offset_coordinates": [
+          0.010000000000000002,
+          0.03
+        ],
+        "omega2_shell_residual": 4.440892098500626e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.783178404435043,
+        "upper_cluster_gap_omega2": 2.711527900551763
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.020556769031907,
+          -0.7654215474420626,
+          -1.3592702005696402
+        ],
+        "gradient_omega2_norm": 1.8641410199504964,
+        "independent_overlap_amplitude_squared": 0.736984208116482,
+        "internal_lower_gap_omega2": 0.10326296723389383,
+        "k": [
+          0.6537279380959556,
+          -0.5623030690946689,
+          -0.9727295726978451
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          -0.03
+        ],
+        "omega2_shell_residual": -8.881784197001252e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.736984208116482,
+        "upper_cluster_gap_omega2": 2.6880444018616854
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.015301345046361,
+          -0.7912847645903983,
+          -1.347287056662162
+        ],
+        "gradient_omega2_norm": 1.8633708200396462,
+        "independent_overlap_amplitude_squared": 0.7436581255058283,
+        "internal_lower_gap_omega2": 0.10050631121736942,
+        "k": [
+          0.6539300245178624,
+          -0.5734947122404732,
+          -0.9661406118516659
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -4.440892098500626e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7436581255058283,
+        "upper_cluster_gap_omega2": 2.692833261178801
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0100292821052548,
+          -0.8171732475344434,
+          -1.3352284572475779
+        ],
+        "gradient_omega2_norm": 1.8629992754265343,
+        "independent_overlap_amplitude_squared": 0.750844765904581,
+        "internal_lower_gap_omega2": 0.09756227669487028,
+        "k": [
+          0.6540327533939287,
+          -0.5846043548274682,
+          -0.9594016449953348
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -9.103828801926284e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.750844765904581,
+        "upper_cluster_gap_omega2": 2.6974093628283855
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0047622499364994,
+          -0.8430476553106345,
+          -1.3231038282449141
+        ],
+        "gradient_omega2_norm": 1.8630298624387538,
+        "independent_overlap_amplitude_squared": 0.758619420930357,
+        "internal_lower_gap_omega2": 0.09444106740708635,
+        "k": [
+          0.6540358631579295,
+          -0.5956267365360274,
+          -0.952515431619183
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          0.0
+        ],
+        "omega2_shell_residual": -1.6653345369377348e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.758619420930357,
+        "upper_cluster_gap_omega2": 2.70175350547461
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9995231582627873,
+          -0.8688643151617363,
+          -1.3109244899164172
+        ],
+        "gradient_omega2_norm": 1.8634631094625158,
+        "independent_overlap_amplitude_squared": 0.7670698346513302,
+        "internal_lower_gap_omega2": 0.09115392729633576,
+        "k": [
+          0.6539393628274502,
+          -0.6065568303965035,
+          -0.9454851334549387
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": 1.2434497875801753e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7670698346513302,
+        "upper_cluster_gap_omega2": 2.7058478002406288
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9943362654706643,
+          -0.8945744040073584,
+          -1.2987042007816494
+        ],
+        "gradient_omega2_norm": 1.8642962678349089,
+        "independent_overlap_amplitude_squared": 0.776298669937965,
+        "internal_lower_gap_omega2": 0.08771319752642004,
+        "k": [
+          0.6537435499542757,
+          -0.6173898825362444,
+          -0.938314325985765
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": -1.3322676295501878e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.776298669937965,
+        "upper_cluster_gap_omega2": 2.7096758591544194
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          0.9892273237348961,
+          -0.9201228403012527,
+          -1.2864599062874655
+        ],
+        "gradient_omega2_norm": 1.8655229373430133,
+        "independent_overlap_amplitude_squared": 0.7864264841341364,
+        "internal_lower_gap_omega2": 0.08413239976582432,
+        "k": [
+          0.6534490308503259,
+          -0.6281214559285889,
+          -0.9310070120636718
+        ],
+        "offset_coordinates": [
+          0.020000000000000004,
+          0.03
+        ],
+        "omega2_shell_residual": -2.220446049250313e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7864264841341364,
+        "upper_cluster_gap_omega2": 2.7132229832004047
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0476465148263412,
+          -0.7529732053513405,
+          -1.3513252372591777
+        ],
+        "gradient_omega2_norm": 1.8683178971626921,
+        "independent_overlap_amplitude_squared": 0.7394841849205805,
+        "internal_lower_gap_omega2": 0.09969175969150856,
+        "k": [
+          0.6645473615247188,
+          -0.5585072972507857,
+          -0.9666002467846458
+        ],
+        "offset_coordinates": [
+          0.03,
+          -0.03
+        ],
+        "omega2_shell_residual": -3.3306690738754696e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7394841849205805,
+        "upper_cluster_gap_omega2": 2.687681179249735
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0424021229034062,
+          -0.7787916811190615,
+          -1.3392461619530314
+        ],
+        "gradient_omega2_norm": 1.8672704546261387,
+        "independent_overlap_amplitude_squared": 0.7458780349195764,
+        "internal_lower_gap_omega2": 0.09699648850811138,
+        "k": [
+          0.664774945352457,
+          -0.5697078786773424,
+          -0.960046932120214
+        ],
+        "offset_coordinates": [
+          0.03,
+          -0.019999999999999997
+        ],
+        "omega2_shell_residual": -4.884981308350689e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7458780349195764,
+        "upper_cluster_gap_omega2": 2.6927600074580225
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0371299785719612,
+          -0.8046573412840345,
+          -1.3270851440231426
+        ],
+        "gradient_omega2_norm": 1.8666191386627036,
+        "independent_overlap_amplitude_squared": 0.7527834868963617,
+        "internal_lower_gap_omega2": 0.09411784978814541,
+        "k": [
+          0.6649016796952117,
+          -0.5808279005896614,
+          -0.9533443045395598
+        ],
+        "offset_coordinates": [
+          0.03,
+          -0.009999999999999998
+        ],
+        "omega2_shell_residual": -1.1546319456101628e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7527834868963617,
+        "upper_cluster_gap_omega2": 2.6976200829790957
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0318527822837216,
+          -0.8305318197163134,
+          -1.314850285932669
+        ],
+        "gradient_omega2_norm": 1.8663693477672552,
+        "independent_overlap_amplitude_squared": 0.7602776344837907,
+        "internal_lower_gap_omega2": 0.0910654750083284,
+        "k": [
+          0.6649271787370713,
+          -0.5918620090735689,
+          -0.9464949480111315
+        ],
+        "offset_coordinates": [
+          0.03,
+          0.0
+        ],
+        "omega2_shell_residual": -1.887379141862766e-14,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7602776344837907,
+        "upper_cluster_gap_omega2": 2.702241284100755
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.026594722535181,
+          -0.8563724367268996,
+          -1.302551370484221
+        ],
+        "gradient_omega2_norm": 1.8665236530708567,
+        "independent_overlap_amplitude_squared": 0.7684506842940405,
+        "internal_lower_gap_omega2": 0.08784997986020282,
+        "k": [
+          0.6648513254806855,
+          -0.6028050683884317,
+          -0.9395018423529421
+        ],
+        "offset_coordinates": [
+          0.03,
+          0.010000000000000002
+        ],
+        "omega2_shell_residual": 7.993605777301127e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7684506842940405,
+        "upper_cluster_gap_omega2": 2.70660480493314
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0213816308617425,
+          -0.8821313892309064,
+          -1.2902003593034281
+        ],
+        "gradient_omega2_norm": 1.8670814633740374,
+        "independent_overlap_amplitude_squared": 0.777408685587041,
+        "internal_lower_gap_omega2": 0.08448302011410913,
+        "k": [
+          0.6646742902013228,
+          -0.613652200264104,
+          -0.9323683751996141
+        ],
+        "offset_coordinates": [
+          0.03,
+          0.020000000000000004
+        ],
+        "omega2_shell_residual": -4.440892098500626e-16,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.777408685587041,
+        "upper_cluster_gap_omega2": 2.71069334744523
+      },
+      {
+        "branch": 0,
+        "gradient_omega2": [
+          1.0162411876392958,
+          -0.9077546480652333,
+          -1.277812086285984
+        ],
+        "gradient_omega2_norm": 1.8680386453168203,
+        "independent_overlap_amplitude_squared": 0.7872768794977398,
+        "internal_lower_gap_omega2": 0.08097737308767972,
+        "k": [
+          0.6643965511522202,
+          -0.624398827147335,
+          -0.925098355957449
+        ],
+        "offset_coordinates": [
+          0.03,
+          0.03
+        ],
+        "omega2_shell_residual": -2.220446049250313e-15,
+        "overlap_absolute_difference": 0.0,
+        "overlap_amplitude_squared_caroli_first_order_source": 0.7872768794977398,
+        "upper_cluster_gap_omega2": 2.7144913130183728
+      }
+    ]
+  },
+  "regular_simple_branch_witness": {
+    "branch": 0,
+    "gradient_omega2": [
+      0.9494475989221787,
+      -0.8684750429716124,
+      -1.340045938879261
+    ],
+    "gradient_omega2_norm": 1.8578005171897316,
+    "independent_overlap_amplitude_squared": 0.7492079017271318,
+    "internal_lower_gap_omega2": 0.10072395873095896,
+    "k": [
+      0.6318952450050036,
+      -0.6028746482147381,
+      -0.964106160002423
+    ],
+    "omega2_shell_residual": -4.440892098500626e-16,
+    "overlap_absolute_difference": 0.0,
+    "overlap_amplitude_squared_caroli_first_order_source": 0.7492079017271318,
+    "upper_cluster_gap_omega2": 2.699579564615422
+  },
+  "regularity": {
+    "reference_dressing_minimum_singular_value": 1.0067176752923521,
+    "reference_optical_closure_abs": 1.3322676295501878e-15,
+    "scalar_lead_lower_edge_margin": 1.2,
+    "scalar_lead_upper_edge_margin": 1.4000000000000001
+  },
+  "schema": "paper1.p05.weak-coupling.v1",
+  "status": "passed"
+}

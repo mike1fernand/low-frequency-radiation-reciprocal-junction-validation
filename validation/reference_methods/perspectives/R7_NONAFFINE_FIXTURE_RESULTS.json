@@ -1,0 +1,228 @@
+{
+  "status": "PASS: finite-fixture coordinate regression only; no production transmission claim",
+  "source_files": {
+    "paper1_main.tex": "0a35330186d45d2345a943f6510c2ce5e9dc27320a95c60c4b974f6c9cee4b0d",
+    "paper1_supplement.tex": "fccc86e9a20159310b51112345dfee31a23f963b65c29f4327de4eb5f91a93ea"
+  },
+  "source_verification": {
+    "status": "Reviewed R2 source hashes verified on this run.",
+    "actual_hashes_if_checked": {
+      "paper1_main.tex": "0a35330186d45d2345a943f6510c2ce5e9dc27320a95c60c4b974f6c9cee4b0d",
+      "paper1_supplement.tex": "fccc86e9a20159310b51112345dfee31a23f963b65c29f4327de4eb5f91a93ea"
+    }
+  },
+  "source_equation_anchors": [
+    "eq:s2-Dax",
+    "eq:s2-Dfd",
+    "eq:s2-Hq",
+    "eq:s2-Hb",
+    "eq:s2-source-directions",
+    "eq:s2-Hc-corner",
+    "eq:s2-Hc-total",
+    "eq:s2-Hc-reduced",
+    "eq:bondcurrent"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "geometry": {
+    "bulk_shape": [
+      3,
+      2,
+      2
+    ],
+    "bulk_nodes": 12,
+    "scalar_line_sites": 4,
+    "degrees_of_freedom": 40,
+    "boundaries": "open/free; all external bonds omitted",
+    "coupling_segments": [
+      0,
+      1,
+      2
+    ],
+    "g": [
+      0.1,
+      0.2,
+      0.1
+    ],
+    "Kq": 1.69,
+    "Kaxis": 1.0,
+    "Kdiag": 1.0,
+    "masses": "all 1",
+    "a": 1,
+    "bond_counts": {
+      "line": 3,
+      "bulk": 42,
+      "coupling": 24
+    }
+  },
+  "initial_state": {
+    "line_q": [
+      0.01,
+      0.02,
+      -0.01,
+      0.005
+    ],
+    "line_p": [
+      0.01,
+      -0.015,
+      0.007,
+      0.0
+    ],
+    "bulk_q_and_p": "all zero",
+    "E_q_E_b_E_c": [
+      0.0012221249999999997,
+      0.0,
+      0.00010833333333333337
+    ],
+    "H0": 0.001330458333333333
+  },
+  "clock": {
+    "F": "1 + beta*tau",
+    "t": "tau + beta*tau^2/2",
+    "beta": 0.15,
+    "tau_interval": [
+      0,
+      12.0
+    ],
+    "time_interval": [
+      0,
+      22.799999999999997
+    ],
+    "sample_events": 1201
+  },
+  "spectral_checks": {
+    "min_eigenvalue": -2.1859482232406024e-16,
+    "max_eigenvalue": 6.803353666387834,
+    "zero_modes_under_declared_tolerance": 2,
+    "zero_mode_tolerance": 6.803353666387837e-12,
+    "stiffness_symmetry_max": 0.0,
+    "reduced_vs_paired_corner_energy_relative_error": 3.720986544732294e-16
+  },
+  "normalizations": {
+    "state_scale_max_abs_modal_state": 0.04053494861550973,
+    "energy_scale": "H0"
+  },
+  "convergence": [
+    {
+      "rtol": 1e-07,
+      "atol": 1e-09,
+      "tau_nfev": 497,
+      "time_nfev": 527,
+      "lagrangian_nfev": 512,
+      "tau_state_vs_modal_max_scaled": 9.4793999253479e-07,
+      "time_state_vs_modal_max_scaled": 5.773772891312696e-07,
+      "same_event_tau_vs_time_state_max_scaled": 1.1363104604808848e-06,
+      "lagrangian_state_vs_modal_max_scaled": 6.990059580044244e-07,
+      "tau_energy_drift_over_H0": 2.170035199848381e-06,
+      "time_energy_drift_over_H0": 1.1379284968241948e-06,
+      "time_integrated_current_vs_modal_transfer_over_H0": 3.0939480941401395e-08,
+      "time_current_energy_balance_over_H0": 1.1573345542697426e-07,
+      "same_event_tau_vs_time_integrated_current_over_H0": 6.961641022340306e-08
+    },
+    {
+      "rtol": 1e-09,
+      "atol": 1.0000000000000001e-11,
+      "tau_nfev": 872,
+      "time_nfev": 887,
+      "lagrangian_nfev": 872,
+      "tau_state_vs_modal_max_scaled": 9.883392466165093e-09,
+      "time_state_vs_modal_max_scaled": 6.803068052063569e-09,
+      "same_event_tau_vs_time_state_max_scaled": 1.0955563774313305e-08,
+      "lagrangian_state_vs_modal_max_scaled": 8.374740041380933e-09,
+      "tau_energy_drift_over_H0": 2.1850631936909902e-08,
+      "time_energy_drift_over_H0": 1.299033025641795e-08,
+      "time_integrated_current_vs_modal_transfer_over_H0": 4.468947047832538e-10,
+      "time_current_energy_balance_over_H0": 1.0861511830151458e-09,
+      "same_event_tau_vs_time_integrated_current_over_H0": 6.989467787707552e-10
+    },
+    {
+      "rtol": 1e-11,
+      "atol": 9.999999999999999e-14,
+      "tau_nfev": 1517,
+      "time_nfev": 1562,
+      "lagrangian_nfev": 1532,
+      "tau_state_vs_modal_max_scaled": 9.850819594704139e-11,
+      "time_state_vs_modal_max_scaled": 7.374888669881237e-11,
+      "same_event_tau_vs_time_state_max_scaled": 9.71744236419346e-11,
+      "lagrangian_state_vs_modal_max_scaled": 8.77323120068092e-11,
+      "tau_energy_drift_over_H0": 2.0481460837456326e-10,
+      "time_energy_drift_over_H0": 1.3129761311044015e-10,
+      "time_integrated_current_vs_modal_transfer_over_H0": 5.459196129508955e-12,
+      "time_current_energy_balance_over_H0": 1.1691659196956462e-11,
+      "same_event_tau_vs_time_integrated_current_over_H0": 6.624872202369612e-12
+    }
+  ],
+  "sampled_current_quadrature": [
+    {
+      "nominal_delta_tau": 0.16,
+      "panels": 75,
+      "structural_trapezoid_error_over_H0": 0.0010805046795916054,
+      "fresh_time_trapezoid_error_over_H0": 0.0010147758397719235,
+      "transported_archive_identity_residual_over_H0": 0.0,
+      "fresh_vs_transported_trapezoid_over_H0": 6.572883981968189e-05
+    },
+    {
+      "nominal_delta_tau": 0.08,
+      "panels": 150,
+      "structural_trapezoid_error_over_H0": 0.0002680049992555348,
+      "fresh_time_trapezoid_error_over_H0": 0.00025157278930054553,
+      "transported_archive_identity_residual_over_H0": 1.0186359705165871e-17,
+      "fresh_vs_transported_trapezoid_over_H0": 1.6432209954979042e-05
+    },
+    {
+      "nominal_delta_tau": 0.04,
+      "panels": 300,
+      "structural_trapezoid_error_over_H0": 6.687053589583396e-05,
+      "fresh_time_trapezoid_error_over_H0": 6.276248340701026e-05,
+      "transported_archive_identity_residual_over_H0": 0.0,
+      "fresh_vs_transported_trapezoid_over_H0": 4.108052488823705e-06
+    },
+    {
+      "nominal_delta_tau": 0.02,
+      "panels": 600,
+      "structural_trapezoid_error_over_H0": 1.6709492955039075e-05,
+      "fresh_time_trapezoid_error_over_H0": 1.5682479832782214e-05,
+      "transported_archive_identity_residual_over_H0": 2.0372719410331742e-17,
+      "fresh_vs_transported_trapezoid_over_H0": 1.0270131222364853e-06
+    },
+    {
+      "nominal_delta_tau": 0.01,
+      "panels": 1200,
+      "structural_trapezoid_error_over_H0": 4.1768648701890734e-06,
+      "fresh_time_trapezoid_error_over_H0": 3.920111589589207e-06,
+      "transported_archive_identity_residual_over_H0": 2.0372719410331742e-17,
+      "fresh_vs_transported_trapezoid_over_H0": 2.5675328057949405e-07
+    }
+  ],
+  "negative_controls": {
+    "naive_m_times_velocity_t_squared_energy_max_relative_error": 0.7554508636943502,
+    "omit_nonaffine_rate_term_state_max_scaled_error": 0.5407220861416606,
+    "omit_half_coupling_energy_current_balance_max_over_H0": 0.03822639825186993,
+    "generator_force_used_in_retained_energy_work_endpoint_error_over_H0": 0.036285336529152085
+  },
+  "wrong_generator_force_work_quadrature_error_estimate": 4.127955696424456e-18,
+  "finite_affine_resolvent": {
+    "F0": 1.7,
+    "z_time": [
+      0.8,
+      0.03
+    ],
+    "z_tau": [
+      1.36,
+      0.051
+    ],
+    "relative_G_time_minus_F0_G_tau": 1.389910123867291e-15,
+    "relative_response_error_with_force_divided_by_F0": 1.038245729768474e-15,
+    "relative_response_error_if_generator_force_not_scaled": 0.6999999999999994,
+    "scope": "Finite open fixture complex-frequency algebra, not the infinite retarded scattering calculation."
+  },
+  "limitations": [
+    "Prescribed state-independent common F only; not a physical clock model.",
+    "Finite fixture with reflected waves and three source segments; not the production six-segment infinite-bulk scattering geometry.",
+    "No claim about the production 12.6 percent conversion or 10.3 percent robustness bound.",
+    "Both coordinate integrations retain the same structural energy, masses, stiffnesses and node labels."
+  ]
+}

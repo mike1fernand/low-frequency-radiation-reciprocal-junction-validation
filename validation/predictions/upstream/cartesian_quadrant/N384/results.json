@@ -1,0 +1,57 @@
+{
+  "N": 384,
+  "omega": 2.9,
+  "Nc": 24,
+  "Kq": 2.25,
+  "epsilons": [
+    0.2,
+    0.15,
+    0.1,
+    0.075,
+    0.05
+  ],
+  "grid": "midpoint, using exact transverse reflection symmetries",
+  "rows": [
+    {
+      "epsilon": 0.2,
+      "T_minus_broadened_diagnostic": 0.6033250352724137,
+      "T_plus_broadened_diagnostic": 0.049486202362662574,
+      "closure": 1.3322676295501878e-15,
+      "ImG_vs_Q_max_residual": 3.608224830031759e-16
+    },
+    {
+      "epsilon": 0.15,
+      "T_minus_broadened_diagnostic": 0.6258773755806386,
+      "T_plus_broadened_diagnostic": 0.03982295556632845,
+      "closure": 1.9984014443252818e-15,
+      "ImG_vs_Q_max_residual": 4.474916376891332e-16
+    },
+    {
+      "epsilon": 0.1,
+      "T_minus_broadened_diagnostic": 0.6506487492346223,
+      "T_plus_broadened_diagnostic": 0.030087210940490702,
+      "closure": -1.5543122344752192e-15,
+      "ImG_vs_Q_max_residual": 4.411112214553977e-16
+    },
+    {
+      "epsilon": 0.075,
+      "T_minus_broadened_diagnostic": 0.6640479842801934,
+      "T_plus_broadened_diagnostic": 0.02523269717803213,
+      "closure": 1.3322676295501878e-15,
+      "ImG_vs_Q_max_residual": 6.787453366881894e-16
+    },
+    {
+      "epsilon": 0.05,
+      "T_minus_broadened_diagnostic": 0.6782646795550449,
+      "T_plus_broadened_diagnostic": 0.020407357409093538,
+      "closure": -2.6645352591003757e-15,
+      "ImG_vs_Q_max_residual": 4.977326445236425e-16
+    }
+  ],
+  "zero_width_fits_in_epsilon": {
+    "2": 0.7082191488559001,
+    "3": 0.7093891844329668,
+    "4": 0.7097107621516839
+  },
+  "scope": "New Cartesian integration reconstruction; finite-width powers and zero-width polynomial fits are numerical diagnostics, not physical broadening or certified bounds. Existing line solver and block assembly are reused."
+}

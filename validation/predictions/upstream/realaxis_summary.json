@@ -1,0 +1,54 @@
+{
+  "central_realaxis": [
+    {
+      "Nperp": 1024,
+      "T_minus": 0.7097557619966255,
+      "Tbulk": 0.7207151053199514,
+      "B_minus": 0.9847937926617192,
+      "closure": -1.7608137170554983e-13
+    },
+    {
+      "Nperp": 1536,
+      "T_minus": 0.7097512202181111,
+      "Tbulk": 0.7207220476430239,
+      "B_minus": 0.9847780049732201,
+      "closure": 8.881784197001252e-15
+    },
+    {
+      "Nperp": 768,
+      "T_minus": 0.709742725006079,
+      "Tbulk": 0.720729149780005,
+      "B_minus": 0.984756513903622,
+      "closure": -1.0880185641326534e-14
+    }
+  ],
+  "neighbors": [
+    {
+      "omega": 2.88,
+      "T_minus_N512": 0.4910651007173671,
+      "T_minus_N768": 0.49106755538897634,
+      "absolute_grid_difference": 2.4546716092532783e-06
+    },
+    {
+      "omega": 2.89,
+      "T_minus_N512": 0.6082545222630252,
+      "T_minus_N768": 0.6082556595217617,
+      "absolute_grid_difference": 1.1372587365165998e-06
+    },
+    {
+      "omega": 2.91,
+      "T_minus_N512": 0.7705567522847709,
+      "T_minus_N768": 0.7705617521817696,
+      "absolute_grid_difference": 4.999896998647557e-06
+    },
+    {
+      "omega": 2.92,
+      "T_minus_N512": 0.7963125650275688,
+      "T_minus_N768": 0.796318247626399,
+      "absolute_grid_difference": 5.6825988302700026e-06
+    }
+  ],
+  "maximum_simultaneous_power_difference": 8.881784197001252e-16,
+  "maximum_simultaneous_chi_difference": 1.1128437008356574e-15,
+  "maximum_neighbor_grid_difference": 5.6825988302700026e-06
+}

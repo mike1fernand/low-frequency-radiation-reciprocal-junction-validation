@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "input_origin": "bundled_local_inputs",
+  "input_provenance": {
+    "schema": "p1-purity-audit-small-inputs/1",
+    "source_archive_relative_to_base": "sources/nov2/records/development/earlier_native/paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+    "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+    "files": [
+      {
+        "path": "model_api_v1_1.py",
+        "archive_member": "paper1_phase12_harmonic/model_api_v1_1.py",
+        "bytes": 10879,
+        "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+      },
+      {
+        "path": "reduced_core.py",
+        "archive_member": "paper1_phase12_harmonic/reduced_core.py",
+        "bytes": 5156,
+        "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+      },
+      {
+        "path": "on_shell_N80.npz",
+        "archive_member": "paper1_phase12_harmonic/raw/on_shell_N80.npz",
+        "bytes": 5534,
+        "sha256": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5"
+      },
+      {
+        "path": "pv_mean_M192.npy",
+        "archive_member": "paper1_phase12_harmonic/raw/pv_mean_M192.npy",
+        "bytes": 3328,
+        "sha256": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+      }
+    ],
+    "context": {
+      "omega": 1.2,
+      "surface_grid": 80,
+      "PV_cache_label": "M192",
+      "cached_source_dimension": 20,
+      "consumed_source_dimension": 12,
+      "model": "Original ModelParameters default: a=m_bulk=m_spine=k_axis=k_diag=1, k_spine=1.69.",
+      "historical_consumer_member": "paper1_phase12_harmonic/run_exact_flux_partition.py",
+      "historical_consumer_sha256": "f333857fb8ed4234eb630a1312af4224c89c1dd74163f1e81a12a8757dbf0b04",
+      "normalization": "Archived physical-compliance convention; source power 2*gamma_in*f\u2020 Im_G_branch*f.",
+      "qT": "Im_branch_0+Im_branch_1; NOT geometric Im_T.",
+      "claim_scope": "Historical approximate kernels, not current P1 coefficient update or rigorous enclosure."
+    }
+  },
+  "omega": 1.2,
+  "nseg": 6,
+  "cached_member_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "on_shell_N80.npz": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5",
+    "pv_mean_M192.npy": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+  },
+  "numerical_controls": {
+    "branch_sum_versus_Im_total_error": 1.8288379322200382e-16,
+    "geometric_Im_T_versus_lower_pair_norm": 0.00023903673410280579,
+    "matrices": {
+      "lower_pair_qT": {
+        "hermiticity_residual": 0.0,
+        "minimum_eigenvalue": 1.710369441448739e-08
+      },
+      "upper_branch_qL": {
+        "hermiticity_residual": 0.0,
+        "minimum_eigenvalue": 7.497847147429191e-11
+      },
+      "total": {
+        "hermiticity_residual": 0.0,
+        "minimum_eigenvalue": 1.372139170308466e-07
+      },
+      "PV": {
+        "hermiticity_residual": 0.0
+      }
+    },
+    "tolerances": {
+      "matrix_identity_and_Hermiticity_absolute": 1e-12,
+      "numerical_PSD_and_flux_absolute": 1e-09,
+      "profile_sum_absolute": 1e-14
+    }
+  },
+  "all_12_source_vectors": {
+    "radiating_rank": 12,
+    "smallest_total_eigenvalue": 1.372139171413498e-07,
+    "qL_eigen_min": 7.497847147429191e-11,
+    "maximum_relaxed_qT_share": 0.9999943460775172,
+    "minimum_relaxed_qT_share": 0.001572312211489526
+  },
+  "profiles": [
+    {
+      "name": "reference",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "total_strength": 0.9999999999999999,
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 3.9574506806456015e-07,
+        "qL_eigen_min": 5.528348679420916e-09,
+        "maximum_relaxed_qT_share": 0.9995396087878008,
+        "minimum_relaxed_qT_share": 0.18120872348945974
+      },
+      "actual_left_incident_qT": 0.12562469453379452,
+      "actual_left_incident_qL": 0.011008297868250359,
+      "actual_qT_share": 0.9194316272027604,
+      "line_reflection": 0.0035762527995269935,
+      "line_transmission": 0.8597907547854731,
+      "closure": 1.2955081452048489e-11,
+      "independent_four_channel_closure": 1.2955081452048489e-11,
+      "qT_plus_qL_versus_total_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": 7.914901361359897e-07
+    },
+    {
+      "name": "uniform",
+      "g": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "total_strength": 0.9999999999999999,
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 2.065100474846098e-06,
+        "qL_eigen_min": 3.6634026099622692e-09,
+        "maximum_relaxed_qT_share": 0.9995710973309909,
+        "minimum_relaxed_qT_share": 0.029924513252033588
+      },
+      "actual_left_incident_qT": 0.10757448306949649,
+      "actual_left_incident_qL": 0.010220871315037136,
+      "actual_qT_share": 0.9132319659935662,
+      "line_reflection": 0.015454752923943984,
+      "line_transmission": 0.866749892678513,
+      "closure": 1.3009482380255122e-11,
+      "independent_four_channel_closure": 1.3009482380255122e-11,
+      "qT_plus_qL_versus_total_error": 0.0,
+      "minimum_loaded_escape_eigenvalue": 4.130200949693779e-06
+    },
+    {
+      "name": "left_heavy",
+      "g": [
+        0.4,
+        0.2,
+        0.15,
+        0.1,
+        0.1,
+        0.05
+      ],
+      "total_strength": 1.0,
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 2.210407666764323e-06,
+        "qL_eigen_min": 1.644858842867078e-08,
+        "maximum_relaxed_qT_share": 0.9991876457283717,
+        "minimum_relaxed_qT_share": 0.007623025518314918
+      },
+      "actual_left_incident_qT": 0.12228379285945054,
+      "actual_left_incident_qL": 0.012274791401985835,
+      "actual_qT_share": 0.908777344311702,
+      "line_reflection": 0.0649870877853811,
+      "line_transmission": 0.8004543279413464,
+      "closure": 1.1836087665528794e-11,
+      "independent_four_channel_closure": 1.1836087665528794e-11,
+      "qT_plus_qL_versus_total_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": 4.420815333526441e-06
+    },
+    {
+      "name": "sparse_endpoints",
+      "g": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "total_strength": 1.0,
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 4,
+        "smallest_total_eigenvalue": -4.333342374871281e-34,
+        "qL_eigen_min": -6.543738972922196e-20,
+        "maximum_relaxed_qT_share": 0.9961556136604968,
+        "minimum_relaxed_qT_share": 0.6941343586065125
+      },
+      "actual_left_incident_qT": 0.15853987038893336,
+      "actual_left_incident_qL": 0.024432193813551616,
+      "actual_qT_share": 0.8664703602703314,
+      "line_reflection": 0.055037244710750347,
+      "line_transmission": 0.7619906910731875,
+      "closure": 1.3577139412745964e-11,
+      "independent_four_channel_closure": 1.3577139412745964e-11,
+      "qT_plus_qL_versus_total_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": -6.741137051918679e-18
+    }
+  ],
+  "limits": [
+    "Recheck of the same four exploratory historical N80 profiles, not new parameter points or current P1 coefficient updates.",
+    "Numerical Hermiticity/PSD/flux checks are internal consistency, not exact infinite-lattice enclosures.",
+    "qT is lower two BRANCH sum; geometric Im_T is deliberately not used as qT.",
+    "Relaxed maxima are not proven physically attainable by a positive passive profile or scalar incident state.",
+    "No fresh infinite-lattice quadrature, production trajectory, optimization or field-wide novelty claim."
+  ]
+}

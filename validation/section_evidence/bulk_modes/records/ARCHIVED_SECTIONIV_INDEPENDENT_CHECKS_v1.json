@@ -1,0 +1,526 @@
+{
+  "D_closed_vs_model_max_fro": 4.4222916036016605e-15,
+  "long_wave_residual_slope": 3.9151998863281854,
+  "long_wave_speed_samples": [
+    [
+      0.9999999919128841,
+      1.0000000017220294,
+      1.7320508024716883
+    ],
+    [
+      0.9999999991444503,
+      1.0000000006047842,
+      1.7320508037489895
+    ],
+    [
+      0.999999988699477,
+      0.9999999934416093,
+      1.7320507842373338
+    ],
+    [
+      0.9999999559232627,
+      0.9999999734467042,
+      1.7320507138774082
+    ]
+  ],
+  "line": {
+    "kappa_a": 0.9594572753515053,
+    "lambda_over_a": 6.548686917692805,
+    "vphase_over_cT": 1.2507070724544456,
+    "vg_over_cT": 1.1532562594670797
+  },
+  "fixed_kappa_ranges": [
+    {
+      "branch": 0,
+      "min": 0.9230769230773679,
+      "min_kperp": [
+        -8.967066476086242e-07,
+        -4.221392976633625e-07
+      ],
+      "max": 2.6735611072243266,
+      "max_kperp": [
+        -3.1415926535830248,
+        3.1415926535794294
+      ]
+    },
+    {
+      "branch": 1,
+      "min": 0.9230769230769891,
+      "min_kperp": [
+        -2.228067800991719e-08,
+        3.4332382160206956e-07
+      ],
+      "max": 2.828427124745563,
+      "max_kperp": [
+        2.182133506448167,
+        -3.141592653430135
+      ]
+    },
+    {
+      "branch": 2,
+      "min": 1.5988161300636134,
+      "min_kperp": [
+        2.022341228026956e-07,
+        1.017153515290063e-07
+      ],
+      "max": 3.3388514483400207,
+      "max_kperp": [
+        3.1415924342522983,
+        -6.984245396603755e-07
+      ]
+    }
+  ],
+  "C4v": {
+    "rank_group_projector": 2,
+    "projector_vs_XR_fro": 2.220446049250313e-16,
+    "projector_idempotence": 0.0,
+    "group_closure_max": 0.0,
+    "unitarity_max": 0.0
+  },
+  "bulk_action_outside_core": {
+    "X": {
+      "core_norm": 6.0,
+      "outside_norm": 3.3166247903554,
+      "total_norm": 6.855654600401044,
+      "outside_fraction_norm": 0.4837794468468967,
+      "outside_fraction_sq": 0.23404255319148937,
+      "outside_sites": 24
+    },
+    "R": {
+      "core_norm": 7.999999999999998,
+      "outside_norm": 2.1213203435596424,
+      "total_norm": 8.276472678623422,
+      "outside_fraction_norm": 0.2563072973150283,
+      "outside_fraction_sq": 0.06569343065693432,
+      "outside_sites": 36
+    }
+  },
+  "reduction": {
+    "orth": 2.7194799110210365e-16,
+    "P_idempotence": 0.0,
+    "V_leak": 2.170178819273686e-16,
+    "U_leak": 1.9997524858506222e-16,
+    "G_leak": 1.2548045204039984e-16,
+    "G_commutator": 6.681108311925377e-17,
+    "G_match": 1.6311799907932728e-15,
+    "rank_V_reduced": 7,
+    "krylov_rank": 12,
+    "krylov_singular_values": [
+      0.3668923163278716,
+      0.3374564016973207,
+      0.2976223086399594,
+      0.24629140169259303,
+      0.24225919182369432,
+      0.11408001378713596,
+      0.11404963697666562,
+      0.00560391052873527,
+      0.004879858285925377,
+      0.0012082210561183838,
+      0.001070792991199388,
+      0.00015174163691633217
+    ]
+  },
+  "shell_sample_counts": {
+    "0": 2500,
+    "1": 2500,
+    "2": 2500
+  },
+  "shell_refinements": {
+    "branch0_max_own": {
+      "x_slsqp": [
+        -0.36119201322320466,
+        0.8594871470636005,
+        0.8594871373357269
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": 1.3322676295501878e-15,
+      "objective": -0.0006539941966278043,
+      "directional_point": [
+        -0.3611920132232045,
+        0.8594871470636002,
+        0.8594871373357266
+      ],
+      "directional_shell_residual": 0.0,
+      "directional_gap": 2.541507083508395,
+      "directional_own": 0.0006539941966277791,
+      "directional_cluster_leak": 0.000653994196627835,
+      "directional_grad_norm": 0.848121910219499
+    },
+    "branch0_max_cluster_leak": {
+      "x_slsqp": [
+        0.48189483405511496,
+        1.1683006103292612,
+        0.02039609822546707
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": 0.0,
+      "objective": -0.001245754712930551,
+      "directional_point": [
+        0.48189483405511496,
+        1.1683006103292612,
+        0.02039609822546707
+      ],
+      "directional_shell_residual": 0.0,
+      "directional_gap": 2.6074745865919065,
+      "directional_own": 0.0006130731966364393,
+      "directional_cluster_leak": 0.001245754712930551,
+      "directional_grad_norm": 0.8581011630691531
+    },
+    "branch1_max_own": {
+      "x_slsqp": [
+        1.204204996203277,
+        -0.2511793351359076,
+        -0.2511794034856798
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": -2.220446049250313e-16,
+      "objective": -0.0006535746016001868,
+      "directional_point": [
+        1.204204996203277,
+        -0.2511793351359076,
+        -0.2511794034856798
+      ],
+      "directional_shell_residual": -2.220446049250313e-16,
+      "directional_gap": 2.629865044689806,
+      "directional_own": 0.0006535746016001868,
+      "directional_cluster_leak": 0.0006535746016002158,
+      "directional_grad_norm": 0.8747527597644965
+    },
+    "branch1_max_cluster_leak": {
+      "x_slsqp": [
+        -0.48125865081681957,
+        1.1662660443263677,
+        -1.5220440156753338e-10
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": -5.10702591327572e-15,
+      "objective": -0.0012410455172869356,
+      "directional_point": [
+        -0.48125865081682045,
+        1.16626604432637,
+        -1.5220440156753366e-10
+      ],
+      "directional_shell_residual": -4.440892098500626e-16,
+      "directional_gap": 2.604477469347901,
+      "directional_own": 0.0006205168167678436,
+      "directional_cluster_leak": 0.0012410455172869614,
+      "directional_grad_norm": 0.862895653778958
+    },
+    "branch2_min_own": {
+      "x_slsqp": [
+        3.126838153026657e-08,
+        0.27585574718656997,
+        -0.6557686031630483
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": -4.440892098500626e-16,
+      "objective": 0.9998844940329652,
+      "directional_point": [
+        3.1268381530266585e-08,
+        0.2758557471865701,
+        -0.6557686031630485
+      ],
+      "directional_shell_residual": 6.661338147750939e-16,
+      "directional_gap": 0.9495439224676541,
+      "directional_own": 0.9998844940329656,
+      "directional_cluster_leak": 0.00011550596703494919,
+      "directional_grad_norm": 1.5976505577085809
+    },
+    "branch2_min_gap": {
+      "x_slsqp": [
+        0.5058297610947468,
+        -0.5058298441183936,
+        -4.8718475703222664e-08
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": 8.881784197001252e-16,
+      "objective": 0.9390908339470088,
+      "directional_point": [
+        0.5058297610947465,
+        -0.5058298441183934,
+        -4.871847570322265e-08
+      ],
+      "directional_shell_residual": 0.0,
+      "directional_gap": 0.939090833947008,
+      "directional_own": 1.0,
+      "directional_cluster_leak": 5.194161548618453e-17,
+      "directional_grad_norm": 1.5700679727677092
+    },
+    "branch0_min_gap": {
+      "x_slsqp": [
+        0.8762980754016962,
+        -0.8762980469349844,
+        -7.796906707394421e-09
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": -8.881784197001252e-16,
+      "objective": 2.3615999999999993,
+      "directional_point": [
+        0.8762980754016965,
+        -0.8762980469349847,
+        -7.796906707394424e-09
+      ],
+      "directional_shell_residual": 2.220446049250313e-16,
+      "directional_gap": 2.3616,
+      "directional_own": 7.808971640676723e-19,
+      "directional_cluster_leak": 3.4991510701908067e-17,
+      "directional_grad_norm": 0.9055385138137415
+    },
+    "branch1_min_gap": {
+      "x_slsqp": [
+        0.8762980821212418,
+        -0.8762980402154383,
+        -2.0620134004954757e-08
+      ],
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "constraint": 6.661338147750939e-16,
+      "objective": 2.3616,
+      "directional_point": [
+        0.8762980821212416,
+        -0.8762980402154381,
+        -2.0620134004954754e-08
+      ],
+      "directional_shell_residual": 0.0,
+      "directional_gap": 2.3615999999999993,
+      "directional_own": 7.279798229354547e-18,
+      "directional_cluster_leak": 5.619240647663545e-17,
+      "directional_grad_norm": 0.9055385138137415
+    }
+  },
+  "u2": {
+    "projector_max_change": 8.881784197001252e-15,
+    "fixed_branch_weights_max_change": 12.72222041082351,
+    "covariant_weight_max_change": 2.842170943040401e-14,
+    "nondegenerate_lower_split": 0.00460873308937404,
+    "point": [
+      -0.7069989228994551,
+      1.0255869436172618,
+      0.015447407579766433
+    ]
+  },
+  "projector_overlap_counterexample": {
+    "PT_norm_sq": 1.0,
+    "resonant_branch0_overlap_sq": 1.4573952573264018e-32,
+    "branch_split": 0.00460873308937404,
+    "k": [
+      -0.7069989228994551,
+      1.0255869436172618,
+      0.015447407579766433
+    ]
+  },
+  "actual_radial_branch_overlap_examples": [
+    {
+      "branch": 0,
+      "k": [
+        1.022121111600022,
+        0.7119903394245296,
+        -0.020431525569168604
+      ],
+      "shell_residual": 2.6423307986078726e-14,
+      "group_speed": 0.8942760758684599,
+      "branch_gap_lower": 0.005962890667742027,
+      "upper_gap": 2.418429822634147,
+      "radial_overlap_sq": 0.0593473760577965,
+      "PT_projection_sq": 0.12671387795958017
+    },
+    {
+      "branch": 1,
+      "k": [
+        0.8807183236959493,
+        0.21703145119419856,
+        -0.8514466270114215
+      ],
+      "shell_residual": 6.661338147750939e-16,
+      "group_speed": 0.8957746536880795,
+      "branch_gap_lower": 0.015966688729755374,
+      "upper_gap": 2.4136860886672995,
+      "radial_overlap_sq": 0.13279010258875695,
+      "PT_projection_sq": 0.1331521080306833
+    }
+  ],
+  "HF_eigenvalue_gradient_max_scaled_error": 1.1760932280189305e-09,
+  "long_wave_residual_slope_stable_range": 3.9999047206959832,
+  "C4v_bulk_covariance_max_fro": 3.66205343881779e-15,
+  "off_symmetry_A1_complement_norms": {
+    "one_corner_x": 0.8660254037844386,
+    "one_corner_y": 0.9354143466934853,
+    "one_corner_z": 0.9354143466934853
+  },
+  "angle_refinement": {
+    "branch0_max_own": {
+      "success": true,
+      "k": [
+        -0.3611920169168271,
+        0.8594871416764921,
+        0.8594871418408179
+      ],
+      "shell_residual": 8.881784197001252e-16,
+      "own": 0.0006539941966278232,
+      "leak": 0.0006539941966277878,
+      "gap": 2.541507086532717,
+      "objective": -0.0006539941966278232,
+      "difference_from_slsqp_k": 7.9347104143244e-09
+    },
+    "branch1_max_own": {
+      "success": true,
+      "k": [
+        1.2042049980500937,
+        -0.2511793953254547,
+        -0.25117933723499186
+      ],
+      "shell_residual": 1.1102230246251565e-15,
+      "own": 0.0006535746016001899,
+      "leak": 0.0006535746016002083,
+      "gap": 2.629865049194814,
+      "objective": -0.0006535746016001899,
+      "difference_from_slsqp_k": 8.952846452496403e-08
+    },
+    "branch0_max_cluster_leak": {
+      "success": true,
+      "k": [
+        0.4818948536967216,
+        1.1683006049793028,
+        0.020396140455863125
+      ],
+      "shell_residual": -4.440892098500626e-16,
+      "own": 0.0006130731810540367,
+      "leak": 0.0012457547129305802,
+      "gap": 2.6074745760366236,
+      "objective": -0.0012457547129305802,
+      "difference_from_slsqp_k": 4.688092487613545e-08
+    },
+    "branch2_min_own": {
+      "success": true,
+      "k": [
+        1.1148921469848752e-07,
+        0.2758562400228203,
+        -0.6557684085595009
+      ],
+      "shell_residual": 2.220446049250313e-16,
+      "own": 0.999884494032963,
+      "leak": 0.0001155059670358639,
+      "gap": 0.9495438878281754,
+      "objective": 0.999884494032963,
+      "difference_from_slsqp_k": 5.35904368639125e-07
+    },
+    "branch2_min_gap": {
+      "success": true,
+      "k": [
+        0.5058297662800821,
+        -0.5058298389330604,
+        -2.2157926041448983e-08
+      ],
+      "shell_residual": -1.1102230246251565e-15,
+      "own": 1.0000000000000004,
+      "leak": -6.488839426543713e-18,
+      "gap": 0.9390908339470073,
+      "objective": 0.9390908339470073,
+      "difference_from_slsqp_k": 2.755427700707362e-08
+    }
+  },
+  "direction_global_optimization": {
+    "b0_own": {
+      "success": true,
+      "fun": -0.0006539941966265582,
+      "k": [
+        -0.8594869499498391,
+        0.8594873253062458,
+        -0.3611920515124626
+      ],
+      "shell_residual": -8.881784197001252e-16,
+      "own": 0.0006539941966265582,
+      "leak": 0.0006539941966275073,
+      "gap": 2.5415071148595842,
+      "nfev": 1431
+    },
+    "b0_leak": {
+      "success": true,
+      "fun": -0.0012457547129301645,
+      "k": [
+        -0.02039630283982856,
+        -0.48189486603080606,
+        -1.1683006162317588
+      ],
+      "shell_residual": -8.881784197001252e-16,
+      "own": 0.0006130731043589866,
+      "leak": 0.0012457547129301645,
+      "gap": 2.6074745932582335,
+      "nfev": 983
+    },
+    "b1_own": {
+      "success": true,
+      "fun": -0.0006535746016000554,
+      "k": [
+        -0.25117972150907775,
+        0.25117910526454246,
+        1.2042049693434775
+      ],
+      "shell_residual": -2.220446049250313e-16,
+      "own": 0.0006535746016000554,
+      "leak": 0.000653574601602206,
+      "gap": 2.629864979169775,
+      "nfev": 1123
+    },
+    "b2_own": {
+      "success": true,
+      "fun": 0.9998844940362821,
+      "k": [
+        -1.7883340514465388e-05,
+        -0.27587916707313664,
+        -0.6557593547713113
+      ],
+      "shell_residual": 2.220446049250313e-16,
+      "own": 0.9998844940362821,
+      "leak": 0.00011550596371844505,
+      "gap": 0.9495416642642216,
+      "nfev": 1011
+    },
+    "b2_gap": {
+      "success": true,
+      "fun": 0.9390908339493121,
+      "k": [
+        -0.505826458152449,
+        -2.3461556327885416e-06,
+        -0.5058331470306224
+      ],
+      "shell_residual": 2.220446049250313e-16,
+      "own": 0.9999999999998948,
+      "leak": 1.0517558554627225e-13,
+      "gap": 0.9390908339493121,
+      "nfev": 983
+    }
+  },
+  "page_test": {
+    "main_pages": 16,
+    "supplement_pages": 9,
+    "combined_pages": 25,
+    "section_IV_start_page": 6,
+    "section_V_start_page": 7,
+    "section_IV_approx_pages": 1.5,
+    "undefined_references": 0,
+    "overfull_boxes": 0,
+    "figure_render_inspected": true
+  },
+  "actual_full_source_branch_overlap_examples": [
+    {
+      "branch": 0,
+      "X_overlap_sq": 0.6882299034289153,
+      "R_overlap_sq": 0.05934737605781433,
+      "full_overlap_sq": 1.1517784120582701
+    },
+    {
+      "branch": 1,
+      "X_overlap_sq": 2.2659717588936874,
+      "R_overlap_sq": 0.13279010258875779,
+      "full_overlap_sq": 3.4958464021204407
+    }
+  ]
+}

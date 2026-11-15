@@ -1,0 +1,13 @@
+{
+  "best_qT": 0.7358742883948081,
+  "gain_percentage_points_vs_refined_s2": 21.375373704061996,
+  "relative_gain_vs_refined_s2": 0.4093953714065106,
+  "max_closure": 1.2396195181452185e-11,
+  "max_full_block_relative_residual": 8.297122442451313e-17,
+  "max_condition": 17.565788025222588,
+  "max_cache_qT_difference_percentage_points": 0.03402340658613667,
+  "new_saved_arrays": 336,
+  "combined_arrays": 560,
+  "combined_parameter_cache_states": 40,
+  "increasing_decreasing_Tline_max_abs_difference": 1.6653345369377348e-16
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "evolution": "Fresh full run with the archived producer and input.",
+  "physical_bulk_shape": [
+    120,
+    80,
+    80
+  ],
+  "time_step": 0.04,
+  "steps": 1650,
+  "archived_raw_hash_matches": {
+    "line.bin": true,
+    "corner.bin": true,
+    "snap_times.bin": true,
+    "snap.bin": true,
+    "checkpoint_0.bin": true,
+    "checkpoint_1650.bin": true
+  },
+  "selector_rows_recalculated": 91,
+  "window": [
+    57.4,
+    64.2
+  ],
+  "qT_allocations_recalculated": 35,
+  "mean_qT_lower_upper": [
+    0.7164564182492906,
+    0.7164564186765725
+  ],
+  "qT_midpoint": 0.7164564184629316,
+  "independent_snapshot_times": [
+    57.4,
+    60.8,
+    64.2
+  ],
+  "max_independent_snapshot_difference": 3.3306690738754696e-16,
+  "scope": "The original dynamical and analysis codes were re-executed. A separate spectral implementation checked three snapshots. Other box/time-step controls are archival in this revision."
+}

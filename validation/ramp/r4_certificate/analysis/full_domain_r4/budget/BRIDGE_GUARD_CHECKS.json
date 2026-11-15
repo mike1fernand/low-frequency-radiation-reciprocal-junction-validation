@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual incomplete campaign recomputed and rejected before original proof subprocess",
+    "Fresh proof output directory not created on prerequisite failure"
+  ],
+  "observed_exit_code": 1,
+  "observed_error": "Both unchanged actual global operator budgets must pass before bridge replay",
+  "original_proof_executed": false,
+  "note": "This check tests the fail-closed path. Successful prerequisite discharge and positive bridge run remain unperformed until complete budgets pass."
+}

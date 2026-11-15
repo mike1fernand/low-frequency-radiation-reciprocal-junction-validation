@@ -1,0 +1,71 @@
+--- a/paper1_main.tex
++++ b/paper1_main.tex
+@@ -52,7 +52,7 @@
+ \date{\today}
+ 
+ \begin{abstract}
+-We study how a finite junction transfers energy from a prepared longitudinal line wave into a three-dimensional elastic medium. A scalar axial channel is coupled to a vector harmonic lattice by passive paired central-force springs, with no incident bulk wave. The paired geometry produces axial and radial source patterns whose forces and reciprocal response follow from one Hamiltonian. At the dimensionless reference frequency $\omega=1.2$, approximately $12.6\%$ of the incident power enters the separated lower acoustic cluster, identified as quasi-transverse (qT); this is about $91.9\%$ of the radiated bulk power. An exact centered source-sector reduction retains the infinite exterior through a projected Green matrix. Separately implemented frequency-domain formulations corroborate the reference coefficient. Direct packet evolution from zero bulk displacement and velocity supplies further numerical corroboration when compared with the frequency-domain response using the packet's energy spectrum. Source controls and a decomposition of the full state show that axial and radial patterns affect the modal power through their combined response and interference. A perturbation bound quantifies joint-coupling sensitivity of the computed response. The result connects local source geometry to incident-normalized elastic radiation in a specified finite reciprocal junction.
++We study how a finite junction transfers energy from a prepared longitudinal line wave into a three-dimensional elastic medium. A scalar axial channel is coupled to a vector harmonic lattice by passive paired central-force springs, with no incident bulk wave. The paired geometry produces axial and radial source patterns whose forces and reciprocal response follow from one Hamiltonian. At the dimensionless reference frequency $\omega=1.2$, approximately $12.6\%$ of the incident power enters the separated lower acoustic cluster, identified as quasi-transverse (qT); this is about $91.9\%$ of the radiated bulk power. An exact centered source-sector reduction retains the infinite exterior through a projected Green matrix. Separately implemented frequency-domain formulations corroborate the reference coefficient. Direct packet evolution from zero bulk displacement and velocity supplies further numerical corroboration when compared with the frequency-domain response using the packet's energy spectrum. Source controls and a decomposition of the full state show that axial and radial patterns affect the modal power through their combined response and interference. A certified bound retains more than $10.3\%$ incident-qT conversion throughout simultaneous $\pm5\%$ changes of the six segment couplings at the reference frequency. The result connects local source geometry to incident-normalized elastic radiation in a specified finite reciprocal junction.
+ \end{abstract}
+ \maketitle
+ 
+@@ -1421,7 +1421,7 @@
+ 
+ The overall-coupling family illustrates how the partition changes at fixed frequency and profile shape. At $\omega=1.2$, scaling the complete reference coupling as $g_i\mapsto s g_i$ gives $T_{\qT}^{\rm modal}\simeq0.1257,0.3089,0.5222$ at $s=1,1.5,2$, respectively, in the surface calculation with grid $N=80$ and PV order $M=256$. At $s=2$, the incident-power fractions $(R_q,T_q,T_{\qT}^{\rm modal},T_{\qL}^{\rm modal})$ are approximately $(0.0445,0.3837,0.5222,0.0496)$, giving total bulk transfer $0.5718$. Over these sampled values, stronger coupling reduces forward line transmission and increases bulk radiation, whose qT share remains above $91\%$. The reference coefficient is therefore below the largest sampled conversion. These finite-scale numerical results concern one reference profile; the weak-coupling and continuity statements above retain their separate domains.
+ 
+-The reduced response also gives a quantitative bound for simultaneous coupling changes. At the reference frequency, write $g_s=g_s^\star(1+\delta_s)$ with $|\delta_s|\leq0.05$ for all six segments; each segment's eight links vary together, with bare media and geometry fixed. An inverse-perturbation estimate in the qT output norm controls every point of this box, including reciprocal feedback. For the computed $N=192$, $M=256$ reference Green matrices, an outward-rounded evaluation certifies $T_{\qT}^{\rm modal}>0.108$ throughout the box, compared with the nominal $0.126$. Numerical floor evaluations across the stated surface, tetrahedron and principal-value refinements span $0.10799$--$0.10805$. The certificate applies to the supplied finite matrices; it does not enclose the infinite-lattice integration error. The Supplemental Material gives the whole-box inequality and its numerical checks.
++The reduced response also gives a quantitative bound for simultaneous coupling changes. At the reference frequency, write $g_s=g_s^\star(1+\delta_s)$ with $|\delta_s|\leq0.05$ for all six segments; each segment's eight links vary together, with bare media and geometry fixed. An inverse-perturbation estimate in the qT output norm controls every point of this box, including reciprocal feedback. Validated integration of the infinite-lattice Green and lower-cluster spectral matrices, combined with the whole-box bound, certifies $T_{\qT}^{\rm modal}>0.1037$, compared with the nominal numerical value $0.126$. The Supplemental Material gives the bounds, and the validation archive supplies the executable certificate.
+ 
+ \subsection{Scaling and effective-model status}
+ \label{sec:s9-scaling-scope}
+@@ -1462,7 +1462,7 @@
+ 
+ A passive finite-range quadratic Hamiltonian transfers energy from a prepared one-dimensional longitudinal channel into a three-dimensional vector elastic bulk. At the reference frequency $\omega=1.2$, about $13.7\%$ of incident power enters the bulk, including $12.6\%$ in the separated lower acoustic cluster; the latter carries about $91.9\%$ of the bulk radiation. The exact centered source-sector representation retains the infinite exterior and connects the paired-link geometry to modal power. Separately implemented frequency-domain formulations and direct packet evolution from zero bulk displacement and velocity corroborate the result, with the packet comparison using its energy spectrum.
+ 
+-Weak-coupling positivity, continuity near the reference point, and the 85 positive sampled configurations establish complementary robustness results. For the computed reference response, a whole-box perturbation bound retains approximately $10.8\%$ incident-qT conversion under simultaneous $\pm5\%$ changes of the six segment couplings. Complete mass/stiffness scaling preserves conversion at corresponding frequencies, while fixed source springs map the response onto the existing coupling scan. The discrete mechanical model and its limits are specified in Sec.~\ref{sec:s9-limitations}.
++Weak-coupling positivity, continuity near the reference point, and the 85 positive sampled configurations establish complementary robustness results. For the infinite reference lattice, a certified whole-box bound retains more than $10.3\%$ incident-qT conversion under simultaneous $\pm5\%$ changes of the six segment couplings. Complete mass/stiffness scaling preserves conversion at corresponding frequencies, while fixed source springs map the response onto the existing coupling scan. The discrete mechanical model and its limits are specified in Sec.~\ref{sec:s9-limitations}.
+ 
+ The radial source is independently active but weak in isolation at the reference point. Its role in the complete interaction is explained jointly by the positive cross term in the full state and by the separately redressed controls. In this junction, the isolated strength of one source sector does not determine its effect on the combined modal power; that effect follows from the complete reciprocal scattering response.
+ 
+--- a/paper1_supplement.tex
++++ b/paper1_supplement.tex
+@@ -486,7 +486,38 @@
+ \end{tabular}
+ \end{table}
+ 
+-The 18 configurations varying surface grid, PV order, sample size and sampling rule, and tetrahedron resolution give numerical floors $0.1079863$--$0.1080508$. These shared-input evaluations measure sensitivity. The outward-rounded certificate encloses the finite-matrix evaluation for the selected cache, including rounding; it does not enclose bulk-integration error. A guarantee for the exact infinite lattice would additionally require bounds on errors in both $g_0$ and $Q$. The matrices, certificate and reproduction code accompany the validation archive.
++The 18 configurations varying surface grid, PV order, sample size and sampling rule, and tetrahedron resolution give numerical floors $0.1079863$--$0.1080508$. These shared-input evaluations measure sensitivity. To transfer the selected finite-matrix certificate to the infinite lattice, let a subscript $c$ denote its cached matrices and response, and define
++\begin{equation}
++ \Delta G=k_\star(g_0-g_{0,c}),\quad
++ \Delta Q_\star=k_\star(Q-Q_c),\quad
++ e_G=\|\Delta G\|_2\leq\frac1{50},\quad
++ e_Q=\|\Delta Q_\star\|_2\leq\frac1{200}.
++ \label{eq:sm-certified-kernel-errors}
++\end{equation}
++Validated contour integration certifies these inequalities at $\omega=1.2$ over all three angular charts, including the regular exterior contribution to $g_0$. The comparison uses every entry of the actual cached matrices. The exact $Q\succeq0$ follows from its positive lower-cluster spectral measure, including complete tied eigenspaces. The contour identities, outward integral enclosures and executable checks are provided in the validation archive.
++
++Here the quantities in Eqs.~\eqref{eq:sm-box-core}--\eqref{eq:sm-box-maxima} refer to the cached response. Put $\mathcal R_c=\mathcal A_{0,c}^{-1}$ and $D_g=k_\star^{-1}\binom{V^\dagger}{U}$. Then $\mathcal A=\mathcal A_c+D_g\Delta G P_\eta$. Define the additional vertex bounds
++\begin{align}
++ h_g&=\max_{\mathcal V}\|\mathcal R_cD_g\|_2,&
++ h_c&=\max_{\mathcal V}\|\mathcal W_{0,c}^{-1}U/k_\star\|_2,\\
++ d_\eta&=\max_{\mathcal V}\|P_\eta\mathcal B y_{0,c}\|_2,&
++ w_\eta&=\max_{\mathcal V}\|P_\eta\mathcal B\|_2.
++\end{align}
++Convexity extends these bounds throughout the coupling box. With
++\begin{align}
++ L&=\|F_cy_{0,c}\|_2-d_{\rm out}-\frac{wv}{1-r},&
++ Z&=\|P_\eta y_{0,c}\|_2+d_\eta+\frac{w_\eta v}{1-r},\\
++ \rho&=r+h_ge_G,&
++ \sigma&=\frac{h_ge_G Z}{1-\rho},
++\end{align}
++the same inverse identity gives $\|y-y_c\|_2\leq\sigma$ when $\rho<1$. The core inverse also persists if $r_c+h_ce_G<1$. Hence, when $L>\|F_c\|_2\sigma$,
++\begin{equation}
++ T_{\qT}^{\rm modal}\geq
++ (L-\|F_c\|_2\sigma)^2-2e_Q(Z+\sigma)^2
++ >\frac{1037}{10000}.
++ \label{eq:sm-certified-lattice-floor}
++\end{equation}
++The first term bounds the squared cached output norm of the perturbed state; the second bounds the change of spectral matrix. An outward-rounded replay verifies both inverse conditions and the last inequality using Eq.~\eqref{eq:sm-certified-kernel-errors}. This certifies the infinite-lattice reference-frequency floor throughout the same six-coupling box.
+ 
+ \subsection{Packet preparation, estimator, and numerical controls}
+ 

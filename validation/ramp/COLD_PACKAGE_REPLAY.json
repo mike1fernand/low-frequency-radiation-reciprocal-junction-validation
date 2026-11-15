@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Cold extracted core replays. Final packaging removes unused transfer helper code and adds verification metadata only; scientific proof sources and input/result hashes are unchanged.",
+  "runs": {
+    "saved_payload_and_proof_bindings": {
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 397,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "stderr": ""
+    },
+    "exact_response_point_and_box": {
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"point_interval\": {\n    \"eG\": \"1/250\",\n    \"eQ\": \"1/500\",\n    \"lower_rational\": \"1135358893260054489/1550684920225000000\",\n    \"upper_rational\": \"4587863886935057969/6202739680900000000\",\n    \"lower_display\": 0.7321660760687072,\n    \"upper_display\": 0.7396512062343026\n  },\n  \"whole_plus_minus5_percent_box_lower\": {\n    \"eG\": \"1/250\",\n    \"eQ\": \"1/500\",\n    \"lower_rational\": \"42767052725496289/61936276900000000\",\n    \"lower_display\": 0.6905008642115569\n  },\n  \"scope\": \"Exact response propagation replay only; upstream contour-enclosure replay is a separate linked dependency.\",\n  \"output_directory\": \"/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/proof-core-cold-8hbl5w0s/ResponseReplay\"\n}\n",
+      "stderr": ""
+    },
+    "packet_spectrum": {
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"reference_regressions\": 70,\n  \"new_ramp_states\": 70,\n  \"maximum_packet_prediction_difference\": 0.0,\n  \"scope\": \"Replay of the same saved cases, not new kernels or new predictions.\",\n  \"output_dir\": \"/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/proof-core-cold-8hbl5w0s/SpectrumReplay\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "original_manuscript_payloads_still_matching": 468,
+  "report_sha256": "4afbba9ccf71396e96895947ddcda8ed2fe9a9128370b1e71f3b695940958d3d"
+}

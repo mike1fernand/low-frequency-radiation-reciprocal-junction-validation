@@ -1,0 +1,26 @@
+{
+  "actual_bytes": 101489,
+  "actual_sha256": "326576ede36f382808f5b6543ced6fb5ae73519707c2172f0f4b67c3326b2df9",
+  "last_success_record": {
+    "version": "candidate",
+    "document": "paper1_supplement",
+    "passes": [
+      {
+        "exit": 0,
+        "wall_seconds": 0.9996631539979717
+      },
+      {
+        "exit": 0,
+        "wall_seconds": 0.9962594810058363
+      }
+    ],
+    "source_sha256": "5c60a7c86a5d4dd73f5435a81dfcc29244a448e77c8afe4f0f7f23bbcac647a5",
+    "revtex_class_path": "/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+    "revtex_class_sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+    "pages": 11,
+    "pdf_sha256": "182bea874cddffde7f6b1758e4ecaf437fff09b3d47be8ace2bd9b2c585b25b0",
+    "overfull_boxes": [],
+    "reference_warnings": []
+  },
+  "cause": "Unresolved: file did not match completed build record; subsequently observed invalid by both pdfinfo and pdftoppm."
+}

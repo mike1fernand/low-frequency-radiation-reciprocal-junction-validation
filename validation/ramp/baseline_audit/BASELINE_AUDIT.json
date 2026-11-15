@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_AUDIT_AND_SAVED_CERTIFICATE_REPLAY_PASS",
+  "date": "2026-11-08",
+  "supplement_path": "/workspace/scratch/044aa7b17d80/p1_implemented_2026_11_08/revision/paper1-significance/manuscript_revision/candidate/paper1_supplement.tex",
+  "supplement_sha256": "46bd022cfe1c03b24c1f4d7b6c1d8fe12d38cabdc33a5ee14a8ee4cd5c58b4a4",
+  "source_binding_sha256": "5b718df77962dc7ff96c6e029b51934378cad9cb1c6712d09b0f52edd112f3c8",
+  "baseline_central_qT": 0.12565925539196318,
+  "finite_matrix_whole_box_floor_strict": 0.10804017,
+  "infinite_lattice_whole_box_floor_strict": 0.1037,
+  "claimed_scaled_kernel_error_bounds": {
+    "kstar": 1.69,
+    "eG": 0.02,
+    "eQ": 0.005
+  },
+  "box_scope": "six independent motif scales\u00b15%, each8springscorrelated;fixedomega1.2,baremedia,positions",
+  "current_certificate_replay": "PASSED standard export verify_saved --expected-ledger --physical-check --bridge on separate copy",
+  "actual_certificate_archive": "PAPER1_VALIDATION_INTEGRATED_R8(1).zip",
+  "generalized_Bloch_original_generator_and_eta_convention": "UNRESOLVED_IN_CURRENT_MANUSCRIPT",
+  "physical_source_or_engine_changes": 0,
+  "kernel_exact_array_binding": "PASS to current REFERENCE_KERNEL.npz G0/PV/Im_total/branches/floatqT",
+  "recomputed_saved_scaled_operator_upper": {
+    "eG": 0.003903451143041911,
+    "eQ": 0.0019669086816087237
+  },
+  "fresh_global_quadrature_performed": false,
+  "replay_record": "r4_replay_out/VERIFICATION.json",
+  "exact_rational_physical_parameters": "omega=6/5,energy=36/25,kstar=169/100;cachedmatrixentriesdyadic;cachedQsavedfloatbranchsum"
+}

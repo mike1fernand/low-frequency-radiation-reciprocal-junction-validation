@@ -1,0 +1,57 @@
+{
+  "REFERENCE_METHODS.json": {
+    "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+    "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generated/data/reference.json",
+    "sha256": "956c9f0dd9d7ae3f0c39cd59f7dc681f43e197575e0cfadecb6f1e37dcdd04b9"
+  },
+  "ACTIVE85.json": {
+    "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+    "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/robustness/ACTIVE85.json",
+    "sha256": "93ae058159343720a54fb272b2d9f9dd5b0cce839d652bf1e0e66f69b8174ef5"
+  },
+  "BACKWARD_FREQUENCY_REFINEMENT.json": {
+    "archive": "Backward_Emission_Audit_Evidence_2026-09-27.zip",
+    "member": "Backward_Emission_Audit_2026-09-27/fd_audit/refined_fd_results.json",
+    "sha256": "e0bbf030a1a20bb2d3d9db3e5f3375c627eb2d298a000c91b4a876389cd6a199"
+  },
+  "BACKWARD_PV_REFINEMENT.json": {
+    "archive": "Backward_Emission_Audit_Evidence_2026-09-27.zip",
+    "member": "Backward_Emission_Audit_2026-09-27/fd_audit/refine_29_pv_results.json",
+    "sha256": "2e19b4e6439f492f3fb1c75c5f9c60821b887a2da00fd1e94831ffa48797cfad"
+  },
+  "REFERENCE_EXACT_LATTICE_BRIDGE.json": {
+    "archive": "Paper1_VIA_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-via/evidence/REFERENCE_EXACT_LATTICE_BRIDGE.json",
+    "sha256": "41aaa3b2571fabd9c8816177fe30b04a2e6a3fed3c427b4ecfd8b180a2d10315"
+  },
+  "RAMP_CERTIFICATE_CHAIN.json": {
+    "archive": "Paper1_VIA_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-via/evidence/tolerance/VALIDATED_PROOF_CHAIN.json",
+    "sha256": "2e6479af3c223dd7568be5adc06f48d3a16f98675b715dee4306b72e0296a6a1"
+  },
+  "SCALE_PROBE.json": {
+    "archive": "Paper1_VIA_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-via/evidence/selection/SCALE_PROBE.json",
+    "sha256": "a8b7a6c13f219cd9aabebe1e453722e01e99fe37afd74c16e9d8ee154ffccb17"
+  },
+  "PROFILE_COMPARISON.json": {
+    "archive": "Paper1_VIA_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-via/evidence/selection/profile_comparison/PROFILE_COMPARISON.json",
+    "sha256": "075292177c03c646af9fae3826c044491827977b1013b4b829a089220cfea396"
+  },
+  "EQUAL_TOTAL.json": {
+    "archive": "Paper1_II_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-ii/evidence/TWO_PROFILE_RESULT.json",
+    "sha256": "ce0ed6d4fc3844d77303494f7ec3aa2154c54b52f8b254148ea1d66d5edb8a3d"
+  },
+  "REFERENCE_KERNEL.npz": {
+    "archive": "Paper1_V_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-v/evidence/REFERENCE_KERNEL.npz",
+    "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+  },
+  "REFERENCE_KERNEL.json": {
+    "archive": "Paper1_V_LaTeX_and_Checks_2026-11-10.zip",
+    "member": "paper1-v/evidence/REFERENCE_KERNEL.json",
+    "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  }
+}

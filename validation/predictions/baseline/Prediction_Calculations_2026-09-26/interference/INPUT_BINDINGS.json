@@ -1,0 +1,115 @@
+{
+  "scope": "Exact copies of already supplied read-only saved kernels and metadata; all finite results are new execution outputs.",
+  "files": [
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/selected/REFERENCE_KERNEL.npz",
+      "bundled_path": "inputs/selected/REFERENCE_KERNEL.npz",
+      "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+      "bundled_path": "inputs/selected/REFERENCE_KERNEL.json",
+      "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.8.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.8.json",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega0.8.json",
+      "sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.4.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.4.json",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.4.json",
+      "sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.6.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.6.json",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.6.json",
+      "sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.7.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.7.json",
+      "bundled_path": "inputs/surface/selected_nodes/N128/omega1.7.json",
+      "sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.8.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N160/omega0.8.npz",
+      "sha256": "c49c3d5b5cc25d95c47c21f9c35c78659652db9ae5cb23988af77b7bd2b5e03e"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.8.json",
+      "bundled_path": "inputs/surface/selected_nodes/N160/omega0.8.json",
+      "sha256": "87338d09b2be48505457e93e5b0f15efba118ca271ca74a96d6e8492d4c66cb9"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.6.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N160/omega1.6.npz",
+      "sha256": "de375df61802e4a581e60bf6275eaf449bf32c46857cb670146919e7c9ed9cd2"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.6.json",
+      "bundled_path": "inputs/surface/selected_nodes/N160/omega1.6.json",
+      "sha256": "d6171b15b932a312a14652a76d72306c3d04206d0ec62594e1691d9d83e57a24"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N192/omega1.npz",
+      "bundled_path": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N192/omega1.json",
+      "bundled_path": "inputs/surface/selected_nodes/N192/omega1.json",
+      "sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_000.npz",
+      "bundled_path": "inputs/tetra/packet_N128/omega_000.npz",
+      "sha256": "89c8e1777c2f70b33dbf8f1bd67dca1386664fc9f6cad30b7ac77e06564be520"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_000.json",
+      "bundled_path": "inputs/tetra/packet_N128/omega_000.json",
+      "sha256": "df17313686e46d94606be0d1e90ae59be293abe2f6f91d331aa3de9ac26fea56"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_000.npz",
+      "bundled_path": "inputs/tetra/packet_N96/omega_000.npz",
+      "sha256": "324b99bfd13d5d059d259d321d65a34ad37f6dba6af13ffdd454f253964f9700"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_000.json",
+      "bundled_path": "inputs/tetra/packet_N96/omega_000.json",
+      "sha256": "6719280fde4ac9aac21a88fcfb8d38cc1f117ff558fac1e00315d0620ba679d0"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/reference_N192/omega_000.npz",
+      "bundled_path": "inputs/tetra/reference_N192/omega_000.npz",
+      "sha256": "609c5990149bfe8f5975571897d3b069c94661b7d23955e2fd513e4dea18c4ef"
+    },
+    {
+      "original_path": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/reference_N192/omega_000.json",
+      "bundled_path": "inputs/tetra/reference_N192/omega_000.json",
+      "sha256": "a1bef0849ead8eb6832064af31267445c20326170add1df6ca46aed0d9b00776"
+    }
+  ]
+}

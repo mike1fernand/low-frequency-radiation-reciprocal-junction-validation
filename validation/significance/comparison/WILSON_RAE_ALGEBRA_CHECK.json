@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "Exact rational exponent cancellation and3rational material identity examples; polynomial identity also displayed in audit. No scattering/quadrature run.",
+  "identity": "WR Eq63 compression coefficient =4*Z_b*u_c(alpha)*omega^2/(rho_s*c_t^3), Z_b=S*sqrt(E_b*rho_b).",
+  "resulting_monomial": {
+    "Eb": "1/2",
+    "rho_s": "-1",
+    "rho_b": "1/2",
+    "S": "1",
+    "c_t": "-3",
+    "omega": "2"
+  },
+  "not_run": "SymPy check unavailable because sympy is not installed; no symbolic engine result claimed."
+}

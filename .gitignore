@@ -1,0 +1,8 @@
+.venv*/
+.venv/
+__pycache__/
+*.py[cod]
+/results/
+/run-output/
+/manuscript/build/
+.DS_Store

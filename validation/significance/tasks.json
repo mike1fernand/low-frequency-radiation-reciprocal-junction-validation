@@ -1,0 +1,92 @@
+[
+  {
+    "script": "tradeoff_validation/check_two_profiles.py",
+    "output": "TWO_PROFILE_RESULT.json",
+    "output_argument": false
+  },
+  {
+    "script": "post_revision_audit/check_one_active_static.py",
+    "output": "ONE_ACTIVE_STATIC_CHECK.json",
+    "output_argument": false
+  },
+  {
+    "script": "uniform_integration/source_evidence/check_static_concavity.py",
+    "output": "static_concavity_results.json",
+    "output_argument": false
+  },
+  {
+    "script": "checks/check_packet_bound_independent.py",
+    "output": "check_packet_bound_independent.json",
+    "output_argument": false
+  },
+  {
+    "script": "bulk_proposition/check_bulk_units.py",
+    "output": "BULK_UNITS_RESULT.json",
+    "output_argument": true
+  },
+  {
+    "script": "comparison/check_comparison_normalization.py",
+    "output": "COMPARISON_NORMALIZATION_RESULT.json",
+    "output_argument": true
+  },
+  {
+    "script": "comparison/check_chang_geller_normalization.py",
+    "output": "check_chang_geller_normalization.json",
+    "output_argument": false
+  },
+  {
+    "script": "comparison/check_wilson_rae_coefficient.py",
+    "output": "WILSON_RAE_ALGEBRA_CHECK.json",
+    "output_argument": true
+  },
+  {
+    "script": "significance_audit/check_curvature_algebra.py",
+    "output": "CURVATURE_ALGEBRA_CHECK.json",
+    "output_argument": false
+  },
+  {
+    "script": "significance_audit/check_purity_curvature_algebra.py",
+    "output": "PURITY_CURVATURE_ALGEBRA.json",
+    "output_argument": false
+  },
+  {
+    "script": "significance_audit/check_purity_curvature_shells.py",
+    "output": "PURITY_CURVATURE_SHELL_CHECK.json",
+    "output_argument": false
+  },
+  {
+    "script": "recheck/check_purity_relaxation.py",
+    "output": "PURITY_RELAXATION_RECHECK.json",
+    "output_argument": true
+  },
+  {
+    "script": "recheck/check_cached_pv_refinement.py",
+    "output": "CACHED_PV_REFINEMENT_RESULT.json",
+    "output_argument": true
+  },
+  {
+    "script": "recheck/check_disorder_selection.py",
+    "output": "check_disorder_selection.json",
+    "output_argument": false
+  },
+  {
+    "script": "recheck/check_prediction_corollaries.py",
+    "output": "check_prediction_corollaries.json",
+    "output_argument": false
+  },
+  {
+    "script": "recheck/check_endpoint_imbalance.py",
+    "output": "ENDPOINT_IMBALANCE_RESULT.json",
+    "output_argument": true
+  },
+  {
+    "script": "microscopic_correspondence/check_vector_parent.py",
+    "output": "vector_parent_check_results.json",
+    "output_argument": false
+  },
+  {
+    "script": "correspondence_next/check_controlled_bulk_bridge.py",
+    "output": "CONTROLLED_BULK_CHECK.json",
+    "output_argument": false
+  }
+]

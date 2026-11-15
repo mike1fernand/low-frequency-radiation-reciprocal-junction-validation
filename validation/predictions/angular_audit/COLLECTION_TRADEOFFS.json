@@ -1,0 +1,45 @@
+{
+  "description": "Derived from archived finite-cone/full-shell powers with the same frozen selected source. Capture fraction divides by each mode cluster total. F/B compares equal cones; neither is physical loaded receiver efficiency.",
+  "rows": [
+    {
+      "half_angle_deg": 10,
+      "forward_qT_per_incident": 9.165951399024102e-06,
+      "forward_qL_per_incident": 0.0007608045289846639,
+      "backward_qT_per_incident": 3.2206741498575205e-08,
+      "backward_qL_per_incident": 2.7486303070003737e-06,
+      "forward_qT_capture_fraction": 7.295449253135108e-05,
+      "forward_qL_capture_fraction": 0.06900540048091487,
+      "forward_to_backward_qT": 284.5972915151815,
+      "forward_to_backward_qL": 276.7940552234333,
+      "forward_qT_share": 0.011904289362439672,
+      "backward_qT_share": 0.011581671610697177
+    },
+    {
+      "half_angle_deg": 20,
+      "forward_qT_per_incident": 0.00019898501337161403,
+      "forward_qL_per_incident": 0.002688243400037895,
+      "backward_qT_per_incident": 7.410408061841039e-07,
+      "backward_qL_per_incident": 8.327461609929905e-06,
+      "forward_qT_capture_fraction": 0.0015837800180149133,
+      "forward_qL_capture_fraction": 0.2438251947019239,
+      "forward_to_backward_qT": 268.5209933259442,
+      "forward_to_backward_qL": 322.81666682586155,
+      "forward_qT_share": 0.06891904099012171,
+      "backward_qT_share": 0.08171589664764638
+    },
+    {
+      "half_angle_deg": 30,
+      "forward_qT_per_incident": 0.002872381151857452,
+      "forward_qL_per_incident": 0.0050905283030408845,
+      "backward_qT_per_incident": 1.2705438037066449e-05,
+      "backward_qL_per_incident": 1.2271852942673677e-05,
+      "forward_qT_capture_fraction": 0.022862123108430315,
+      "forward_qL_capture_fraction": 0.4617137922135701,
+      "forward_to_backward_qT": 226.0749407834391,
+      "forward_to_backward_qL": 414.8133396660315,
+      "forward_qT_share": 0.3607200569247367,
+      "backward_qT_share": 0.5086795860837043
+    }
+  ],
+  "exact_opposite_hemisphere_exclusion_half_angle_deg": 5.928053450975504
+}

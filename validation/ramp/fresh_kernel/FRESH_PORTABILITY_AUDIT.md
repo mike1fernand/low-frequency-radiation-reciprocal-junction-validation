@@ -1,0 +1,11 @@
+# Fresh-quadrature portability audit and correction
+
+8 November 2026. All 64 original frozen-file hashes match and no original file was edited. All necessary scientific inputs are bundled: the six surface/PV inputs, four fresh-tetrahedron modules, and all five fine-tetrahedron kernel/config/metadata sets.
+
+The three frozen drivers contain historical absolute PACKAGE/R8 input roots. The added `reproduce.py` verifies the frozen manifest and exact source hashes, reconstructs those upstream layouts from bundled files, and changes exactly one input-root assignment per staged driver. Scientific code is unchanged. It requires a new output directory, preserves assertion guards by setting `PYTHONOPTIMIZE=0`, disables bytecode writing, checks scientific dependencies before staging, and verifies original files again after child execution. Original/staged hashes, I/O substitutions and copied-input hashes are recorded.
+
+One relocated declared N48 surface/Sobol 2^18 pilot executed once as a portability smoke: nine fixed responses and all saved internal arrays matched the original pilot exactly (maximum difference zero). qT was 0.7359900867582685–0.736226778756027; maximum closure residual was 1.1908030117524504e-11. This was not a full refinement campaign, new search, or independent scientific recertification. The first attempt used a Python environment missing scikit-image and failed before numerical computation; it is distinguished from the successful scientific run. Final adapter staging, overwrite rejection, input-tamper rejection and missing-dependency preflight were checked separately.
+
+The added pinned fresh requirements and instructions keep the original fresh mpmath1.4.1 environment distinct from the complete-domain proof's mpmath1.3.0 environment. Fresh NumPy2.3.5/SciPy1.17.0 pins now accompany the previously recorded exact versions. Pure exact-rational response replay remains a separate calculation.
+
+Compact smoke receipts include the result comparison, relocation manifest and execution log. Temporary relocated-release and smoke worktrees, vendored dependencies, and bytecode caches are excluded from delivery. The original accuracy limits remain: these checks support numerical consistency/convergence evidence, not a rigorous infinite-lattice error enclosure or a measured physical efficiency.

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "check_count": 31,
+  "checks": [
+    "Complete compact sample accepted",
+    "Hash identifies same byte snapshot used for audit",
+    "Q moment0 uses canonical imaginary endpoints",
+    "Q moment1 uses canonical imaginary endpoints",
+    "Q moment2 uses canonical imaginary endpoints",
+    "Q moment3 uses canonical imaginary endpoints",
+    "Q moment4 uses canonical imaginary endpoints",
+    "Q moment5 uses canonical imaginary endpoints",
+    "Q moment6 uses canonical imaginary endpoints",
+    "Q moment7 uses canonical imaginary endpoints",
+    "Q moment8 uses canonical imaginary endpoints",
+    "Q moment9 uses canonical imaginary endpoints",
+    "Q moment10 uses canonical imaginary endpoints",
+    "Q moment11 uses canonical imaginary endpoints",
+    "Q moment12 uses canonical imaginary endpoints",
+    "Q moment13 uses canonical imaginary endpoints",
+    "Q moment14 uses canonical imaginary endpoints",
+    "Q moment15 uses canonical imaginary endpoints",
+    "Q moment16 uses canonical imaginary endpoints",
+    "Producer change rejected despite recomputed checkpoint hash",
+    "Different producer Python build accepted for audit with original identity preserved",
+    "Strict computation resume rejects changed producer Python build",
+    "Changed Flint version rejected despite recomputed checkpoint hash",
+    "Endpoint certificate change rejected despite recomputed checkpoint hash",
+    "Canonical endpoint change rejected despite recomputed checkpoint hash",
+    "Settings change rejected despite recomputed checkpoint hash",
+    "Permitted chart0 reflected rectangle accepted",
+    "Wrong reflected rectangle rejected",
+    "Chart1 reflected u/v rejected",
+    "Permitted chart1to2 identity accepted",
+    "Chart0to2 unsupported physical exchange rejected"
+  ],
+  "source_sha256": {
+    "campaign_ledger.py": "219df9dbed5621785acd43ea03f5616f60ef3585787f4f604a20d26618ad46cc",
+    "inherited_reader.py": "4e1f345803bf83ace62104c2f824d398aad3db7f316729b3276552cb3427cdc1",
+    "check_campaign_adapter.py": "cebde1b08fcf619494ba569d8bacd814da742be07d8388315fb342149555c142"
+  },
+  "sample_sha256": "df54359a07700f2d5cc5759045b1d7ff3f62e606f809833dec7d08166f13f3a9"
+}

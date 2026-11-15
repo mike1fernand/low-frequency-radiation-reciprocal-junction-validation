@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "scope": "Exact target/center binding and upward norm-cap arithmetic, consuming the separately passed saved-evidence R4 replay. No fresh global contour integration.",
+  "hashes": {
+    "kernel": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "targets": "d51a0fb10eae4e6969fd254d31add73d29784e08b41f6bb4af10c3cc8f139892",
+    "ledger": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+    "saved_evidence_replay": "2f42280750fd38747360c1d1794f357d4823403f66e7c2e6cf0ca7ae3aea9446"
+  },
+  "G_exact_center_matches_targets": true,
+  "Q_target_matches_exact_sum_of_branch_dyads": false,
+  "Q_float_sum_to_certified_target_max_entry": "0",
+  "scaled_Q_centering_operator_allowance": "0",
+  "eG_replayed_exact_rational": "2920908921240031996224142382068647683126967228896016121966257/748288838313422294120286634350736906063837462003712000000000000",
+  "eQ_replayed_exact_rational": "75356969596394341029463595415563914524939493598722171/38312388521647221458958675678757729590468478054590054400",
+  "safe_caps": {
+    "eG": "1/250",
+    "eQ": "1/500"
+  },
+  "safe_caps_cover_center_shift": true,
+  "saved_evidence_status": {
+    "all_stages_passed": true,
+    "physical_controls_and_bridge_passed": true,
+    "saved_ledger_reproduced_exactly": true
+  }
+}

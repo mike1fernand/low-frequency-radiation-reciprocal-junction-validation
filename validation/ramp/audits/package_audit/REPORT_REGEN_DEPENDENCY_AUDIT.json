@@ -1,0 +1,21 @@
+{
+  "finding": "Optional report regeneration hardcodes Linux DejaVu font locations. Existing final PDF is complete; proof/response replay does not need report regeneration.",
+  "files": [
+    {
+      "path": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+      "exists": true,
+      "bytes": 759720
+    },
+    {
+      "path": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+      "exists": true,
+      "bytes": 708920
+    }
+  ],
+  "imports": [
+    "numpy",
+    "matplotlib",
+    "reportlab"
+  ],
+  "minimal_improvement": "For portable report regeneration, bundle the two fonts and their license, or provide a new staged font-path adapter. Preserve frozen report/source and scientific results."
+}

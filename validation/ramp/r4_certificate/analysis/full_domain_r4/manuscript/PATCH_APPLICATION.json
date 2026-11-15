@@ -1,0 +1,13 @@
+{
+  "status": "applied_and_verified",
+  "main_whitespace_token_change": -10,
+  "supplement_whitespace_token_change": 176,
+  "equations_changed": false,
+  "integration_error_premise_now_discharged": true,
+  "build_pages": {
+    "main": 18,
+    "supplement": 11
+  },
+  "provenance": "PROVENANCE.json",
+  "historical_proposal_record": "../review/PATCH_SCOPE.json"
+}

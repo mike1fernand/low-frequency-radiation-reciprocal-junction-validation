@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "frozen_window_record_sha256": "a24233b2b7fa11fc8691bbaf69b1b205d703f7d81db48198d7b9dfbe8cedf5e8",
+  "cases": [
+    {
+      "file": "CANDIDATE_PACKET_BOX80_RESULT.json",
+      "sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+      "dt": 0.04,
+      "box": 80,
+      "frozen_window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "mean_low_high_total": [
+        0.7164564182492906,
+        0.7164564186765725,
+        0.7834437501219385
+      ],
+      "qT_midpoint": 0.7164564184629316,
+      "same_endpoint_coarse_mean": [
+        0.7164548321956213,
+        0.7164548326394735,
+        0.7834430438344749
+      ],
+      "same_endpoint_coarse_relative_difference_percent": 0.0002213736025341807,
+      "current_balance_residual_percent": 0.030620941962588112,
+      "postselection_unique_six_face_shell_max": 0.0018742568007564428,
+      "difference_from_selected_stationary_sum_percentage_points": 0.014993225542092592,
+      "relative_difference_from_selected_stationary_sum_percent": 0.02093129942390208
+    },
+    {
+      "file": "CONTROL_DT002_BOX80_RESULT.json",
+      "sha256": "02a6758a4c2b53a1b7c164144b52f06223b570c20be240a875b460a33cbdca5d",
+      "dt": 0.02,
+      "box": 80,
+      "frozen_window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "mean_low_high_total": [
+        0.7164540864979505,
+        0.7164540869295927,
+        0.7834389982746194
+      ],
+      "qT_midpoint": 0.7164540867137716,
+      "same_endpoint_coarse_mean": [
+        0.7164524731258485,
+        0.7164524735743573,
+        0.7834382568717265
+      ],
+      "same_endpoint_coarse_relative_difference_percent": 0.0002251873076994161,
+      "current_balance_residual_percent": 0.007653528991837446,
+      "postselection_unique_six_face_shell_max": 0.0018673939744987113,
+      "relative_difference_from_base_percent": 0.00032545582674530806,
+      "difference_from_base_percentage_points": -0.0002331749159978358,
+      "difference_from_selected_stationary_sum_percentage_points": 0.014760050626094756,
+      "relative_difference_from_selected_stationary_sum_percent": 0.020605775475023184
+    },
+    {
+      "file": "CONTROL_DT004_BOX96_RESULT.json",
+      "sha256": "847407288772bc2550d1391726f3d028162441432738e77b5fb9b4c6154e2bd3",
+      "dt": 0.04,
+      "box": 96,
+      "frozen_window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "mean_low_high_total": [
+        0.7162667758115238,
+        0.716266776094018,
+        0.782723376192888
+      ],
+      "qT_midpoint": 0.7162667759527709,
+      "same_endpoint_coarse_mean": [
+        0.716264520988801,
+        0.7162645212821225,
+        0.7827214803120812
+      ],
+      "same_endpoint_coarse_relative_difference_percent": 0.00031480132611208934,
+      "current_balance_residual_percent": 0.030619237719956185,
+      "postselection_unique_six_face_shell_max": 0.00037581363373565576,
+      "relative_difference_from_base_percent": 0.02646951095330981,
+      "difference_from_base_percentage_points": -0.018964251016073685,
+      "difference_from_selected_stationary_sum_percentage_points": -0.0039710254739810935,
+      "relative_difference_from_selected_stationary_sum_percent": 0.00554375194200141
+    }
+  ],
+  "spectral_comparison": {
+    "source_sha256": "b0180bf8ba75859e916c8d008c55c5f7651f5415923efe1f6f0c8e74f424f812",
+    "family": "surface_N160",
+    "prediction_per_initial_open_total_energy": 0.7163064862075107,
+    "tail_only_interval": [
+      0.7163064862075107,
+      0.7166229934523113
+    ],
+    "normalization_note": "Use the explicitly open-normalized field for comparison with direct open initial line energy. Initial coupling is negligible. A tail-only interval is not a total numerical/time-domain error enclosure."
+  },
+  "cadence_erratum_rechecked": true,
+  "scope": "Same-window numerical controls passed; observed timestep, box, cadence and method differences remain separate sensitivities, not a combined error bar or statistical confidence interval."
+}

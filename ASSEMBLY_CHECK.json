@@ -1,0 +1,52 @@
+{
+  "release": "Wave Motion source edition, November 13, 2026",
+  "predecessor_validation_archive_sha256": "57607517a075da818841a0fcf1465e474ee56479982044d7991dd7a6fab864ea",
+  "predecessor_build_receipt": "history/2026-11-12_ASSEMBLY_CHECK.json",
+  "source_build_archive": "Paper1_Wave_Motion_Source_Build_2026-11-13.zip",
+  "build_archive_sha256": "86d9d571058b058aae33b2b56ac5adbee691316cbc349d5e90e93a94f0ecd4a7",
+  "matched_members": [
+    "artwork/submission/export_reference_panels.py",
+    "build.py",
+    "revision/PRESERVATION_CHECK.md",
+    "revision/exact-replacements.json",
+    "revision/history/2026-11-11/build-inputs.json",
+    "revision/history/2026-11-11/preservation.json",
+    "revision/history/2026-11-12/build-inputs.json",
+    "revision/history/2026-11-12/preservation.json",
+    "revision/preservation.json",
+    "revision/source-changes.patch",
+    "source/figures/Halpha_transmission_scan_p06.png",
+    "source/figures/continuum_lattice_share_comparison_p06.png",
+    "source/figures/figure4_reference_power.pdf",
+    "source/figures/paper1_frequency_partition.pdf",
+    "source/figures/paper1_low_frequency_ratio.pdf",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "source/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "source/figures/sm4_method_comparison.pdf",
+    "source/paper1_SM5D.tex",
+    "source/paper1_main.tex",
+    "source/paper1_methods_references.tex",
+    "source/paper1_source_binding.tex",
+    "source/paper1_supplement.tex",
+    "third_party/LPPL-1.3c.tex",
+    "third_party/README-REVTeX.txt",
+    "third_party/revtex-4.2f-tds.zip",
+    "verification/build-inputs.json",
+    "verification/verify_reference_shell.py"
+  ],
+  "build_members_compared": 30,
+  "validation_files_byte_identical_to_predecessor": 2074,
+  "previous_repository_files_removed": [],
+  "checks_performed": {
+    "source_and_shared_build_files": "Every listed shared file compared byte for byte with the author source tree, itself verified against its ZIP.",
+    "protected_validation_files": "All 2074 predecessor validation files, including input data, solvers, certificates, proofs, recorded responses, and validators, match the preceding release byte for byte.",
+    "scope": "Current manuscript and provenance synchronization. No changes to scientific calculations or proof inputs.",
+    "compact_validation": {
+      "status": "PASS",
+      "entry_point": "python -B verify.py --compact",
+      "scope": "Inventory/binding checks, all five Table 3 contacts on two archived kernels, saved-packet/spectrum comparisons, analytic and shell identities, stiffness bounds and directional records. No new bulk quadrature or wave-packet time evolution."
+    }
+  }
+}

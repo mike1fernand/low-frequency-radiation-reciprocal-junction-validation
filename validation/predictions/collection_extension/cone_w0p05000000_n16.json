@@ -1,0 +1,243 @@
+{
+  "omega": 0.05,
+  "order": 16,
+  "source_tag": "validation",
+  "source_input": {
+    "path": "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.05000000.npz",
+    "sha256": "7c1dd38b2a5bcd7f7d02095a2e52bd9bcca3b78f03819f53c31fc452906cdf6c"
+  },
+  "rows": [
+    {
+      "angle": 10.0,
+      "kind": "full",
+      "powers": [
+        1.186056921336818e-07,
+        1.4948132495803486e-06
+      ],
+      "leading_prediction": [
+        1.1877981011354206e-07,
+        1.4894605615495366e-06
+      ],
+      "relative_corrections": [
+        -0.0014658886867542353,
+        0.003593709138054235
+      ],
+      "qT_share": 0.07351202410434078,
+      "predicted_share": 0.07385700061161384,
+      "actual_fractions_of_global": [
+        0.00017153627277697656,
+        0.02246044469737487
+      ],
+      "limiting_fractions_of_global": [
+        0.00017222666716038197,
+        0.022443917147367147
+      ]
+    },
+    {
+      "angle": 10.0,
+      "kind": "R",
+      "powers": [
+        9.305004682399844e-12,
+        1.2294598932210141e-14
+      ],
+      "leading_prediction": [
+        9.314875562613176e-12,
+        1.227463681967607e-14
+      ],
+      "relative_corrections": [
+        -0.001059689970840938,
+        0.001626289463984243
+      ],
+      "qT_share": 0.9986804546509692,
+      "predicted_share": 0.998683988511258,
+      "actual_fractions_of_global": [
+        0.0008467247398578453,
+        4.3509161273677985e-06
+      ],
+      "limiting_fractions_of_global": [
+        0.0008438003089247336,
+        4.33325671929408e-06
+      ]
+    },
+    {
+      "angle": 20.0,
+      "kind": "full",
+      "powers": [
+        1.8430560515694157e-06,
+        5.668643364528404e-06
+      ],
+      "leading_prediction": [
+        1.8434232958952572e-06,
+        5.6485609377190874e-06
+      ],
+      "relative_corrections": [
+        -0.00019921866380834263,
+        0.0035553173685731743
+      ],
+      "qT_share": 0.24535806739280405,
+      "predicted_share": 0.24605274629708312,
+      "actual_fractions_of_global": [
+        0.0026655631775997007,
+        0.08517468709477583
+      ],
+      "limiting_fractions_of_global": [
+        0.002672900807926533,
+        0.08511526720528434
+      ]
+    },
+    {
+      "angle": 20.0,
+      "kind": "R",
+      "powers": [
+        1.3596762515920385e-10,
+        7.429560598068601e-13
+      ],
+      "leading_prediction": [
+        1.3596783185293027e-10,
+        7.419287743713267e-13
+      ],
+      "relative_corrections": [
+        -1.5201663776664986e-06,
+        0.001384614630162817
+      ],
+      "qT_share": 0.9945654823995179,
+      "predicted_share": 0.9945729641324297,
+      "actual_fractions_of_global": [
+        0.012372605492587842,
+        0.000262923542310152
+      ],
+      "limiting_fractions_of_global": [
+        0.01231682567846808,
+        0.00026191959029114615
+      ]
+    },
+    {
+      "angle": 30.0,
+      "kind": "full",
+      "powers": [
+        8.880663204403724e-06,
+        1.1670617800204947e-05
+      ],
+      "leading_prediction": [
+        8.869664384785363e-06,
+        1.1629599791876657e-05
+      ],
+      "relative_corrections": [
+        0.0012400491316479911,
+        0.003527035243030552
+      ],
+      "qT_share": 0.4321221242808278,
+      "predicted_share": 0.4326820859688851,
+      "actual_fractions_of_global": [
+        0.012843868101659613,
+        0.175357868790159
+      ],
+      "limiting_fractions_of_global": [
+        0.012860710371253256,
+        0.17524047358083547
+      ]
+    },
+    {
+      "angle": 30.0,
+      "kind": "R",
+      "powers": [
+        5.907267842093904e-10,
+        7.690415243131219e-12
+      ],
+      "leading_prediction": [
+        5.901073198651921e-10,
+        7.682099732411966e-12
+      ],
+      "relative_corrections": [
+        0.0010497486191831662,
+        0.0010824528460842142
+      ],
+      "qT_share": 0.9871487396248521,
+      "predicted_share": 0.9871491540656857,
+      "actual_fractions_of_global": [
+        0.053754189251816256,
+        0.002721548859949656
+      ],
+      "limiting_fractions_of_global": [
+        0.053455651173648804,
+        0.002711975170654369
+      ]
+    }
+  ],
+  "scan": [
+    {
+      "branch": 0,
+      "angle": 10.0,
+      "boundary_degrees": [
+        9.996204888175274,
+        10.001857185943665
+      ]
+    },
+    {
+      "branch": 0,
+      "angle": 20.0,
+      "boundary_degrees": [
+        19.994162287966905,
+        20.002490423412386
+      ]
+    },
+    {
+      "branch": 0,
+      "angle": 30.0,
+      "boundary_degrees": [
+        29.994778527743623,
+        30.00129190377266
+      ]
+    },
+    {
+      "branch": 1,
+      "angle": 10.0,
+      "boundary_degrees": [
+        9.991406595127046,
+        9.996118080798626
+      ]
+    },
+    {
+      "branch": 1,
+      "angle": 20.0,
+      "boundary_degrees": [
+        19.991510664713136,
+        19.994075595295726
+      ]
+    },
+    {
+      "branch": 1,
+      "angle": 30.0,
+      "boundary_degrees": [
+        29.994837650392576,
+        30.00032306097637
+      ]
+    },
+    {
+      "branch": 2,
+      "angle": 10.0,
+      "boundary_degrees": [
+        10.001182021896968,
+        10.001279072439504
+      ]
+    },
+    {
+      "branch": 2,
+      "angle": 20.0,
+      "boundary_degrees": [
+        20.00136897322591,
+        20.001959521196117
+      ]
+    },
+    {
+      "branch": 2,
+      "angle": 30.0,
+      "boundary_degrees": [
+        30.000538537333334,
+        30.00172302707142
+      ]
+    }
+  ],
+  "seconds": 3.372647083000629,
+  "scope": "Finite discrete-lattice samples approaching a low-frequency-first cone law. Polar support search numerical, not interval complete."
+}

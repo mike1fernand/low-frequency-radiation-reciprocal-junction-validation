@@ -1,0 +1,1 @@
+{"both_budgets_pass": true, "results": {"g": {"remaining_area": "0", "scaled_upper": 0.003903451143041911}, "Q": {"remaining_area": "0", "scaled_upper": 0.0019669086816087237}}}

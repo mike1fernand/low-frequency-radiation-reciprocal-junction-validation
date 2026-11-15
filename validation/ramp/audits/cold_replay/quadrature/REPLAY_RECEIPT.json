@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "task": "quadrature",
+  "mode": "pilot",
+  "case": null,
+  "commands": [
+    {
+      "label": "quadrature",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_replay/paper1-736-full-validation/fresh_kernel/reproduce.py",
+        "--mode",
+        "pilot",
+        "--output",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/quadrature/quadrature"
+      ],
+      "returncode": 0,
+      "wall_seconds": 4.7365552250012115
+    }
+  ],
+  "task_result": {},
+  "frozen_repository_unchanged": true,
+  "wall_seconds": 4.994386186997872,
+  "error": null,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "child_optimization": "0",
+    "threads": "2"
+  }
+}

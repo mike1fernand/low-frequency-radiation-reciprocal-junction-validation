@@ -1,0 +1,136 @@
+{
+  "schema": "paper1-736-package-audit-v1",
+  "date_utc": "2026-11-08",
+  "scope": "Read-only inspection of original scientific sources and payloads; temporary adverse fixtures for the compact integrity verifier. New adapters must operate in new external output worktrees.",
+  "full_r4_inventory": {
+    "regular_files": 683,
+    "uncompressed_bytes": 93922169,
+    "inherited_r3_archive": {
+      "path": "baseline/PAPER1_COMPLETE_DOMAIN_VALIDATION_R3.zip",
+      "bytes": 53490635,
+      "sha256": "d1b3dcac19297522b6e271711a956fce24f681662c7c978c25fb679289039c88"
+    }
+  },
+  "confirmed_issues": [
+    {
+      "id": "PKG1",
+      "issue": "Documented expected-ledger argument duplicated the r4_certificate root after the unchanged upstream verifier resolved it against its package root.",
+      "minimal_fix": "Top-level wrapper passes an absolute expected-ledger path in the staged full R4 worktree.",
+      "evidence": "CONFIRMED_REPLAY_FINDINGS.json"
+    },
+    {
+      "id": "PKG2",
+      "issue": "Compact verifier accepted a manifest omission, an untracked extra payload, and an altered payload under python -O in executed temporary fixtures.",
+      "minimal_fix": "New strict top-level inventory checker uses explicit exceptions, exact inventory equality, safe paths and duplicate-key handling. Preserve old verifier as historical source.",
+      "evidence": "CONFIRMED_REPLAY_FINDINGS.json"
+    },
+    {
+      "id": "PKG3",
+      "issue": "Unchanged R4 bootstrap extracts inherited R3 under its package root; direct replay mutates a frozen distribution.",
+      "minimal_fix": "Copy complete R4 into a new external output worktree before calling unchanged verifier."
+    },
+    {
+      "id": "PKG4",
+      "issue": "Three fresh-quadrature drivers contain absolute host input roots. All required scientific input files are present.",
+      "minimal_fix": "Hash-pinned staging adapter reconstructs bundled historical input layouts and changes only input-root assignments in staged copies.",
+      "evidence": "fresh_portability/FRESH_PORTABILITY_AUDIT.json"
+    },
+    {
+      "id": "PKG5",
+      "issue": "Packet regeneration writes under the script parent; the pilot also rewrites configuration/initial-state receipts.",
+      "minimal_fix": "Stage packet code and frozen inputs into a new external worktree before compilation/regeneration."
+    },
+    {
+      "id": "PKG6",
+      "issue": "Complete-domain proof and fresh quadrature preserve distinct pinned mpmath environments.",
+      "minimal_fix": "Document separate proof/fresh environment files; do not claim one exact environment reproduces both."
+    },
+    {
+      "id": "PKG7",
+      "issue": "Optional report regeneration hardcodes installed Linux DejaVu fonts.",
+      "minimal_fix": "Bundle fonts+license and adapt staged font paths, or explicitly document the report-only installed-font requirement. Existing PDF and proof replay are unaffected.",
+      "evidence": "REPORT_REGEN_DEPENDENCY_AUDIT.json"
+    }
+  ],
+  "required_inclusions": [
+    "All 683 complete R4 files with inherited R3 ZIP and original R4 manifest preserved.",
+    "All new point and continuous box proof code, rational certificates, proofs and exact kernel inputs.",
+    "Fresh quadrature recorded outputs, original drivers, all bundled scientific inputs, source hashes, and portable staging adapter.",
+    "Packet producer/analyzer, exact preparation and configurations, frozen window, final diagnostics, correction receipts, raw inventory and original producer+patch provenance.",
+    "Packet-spectrum signed-bin preparation, weights, kernel inputs, preserved outputs and relative-path replay.",
+    "Current final report, top-level claim-scope explanation, strict integrity checker and external-output replay instructions."
+  ],
+  "raw_recording_policy": {
+    "all_raw_packet_snapshots_included": false,
+    "description": "Multi-gigabyte raw packet traces/checkpoints are not necessary to the exact stationary proof. A regenerable validation repository must disclose the omission and include complete source, initial state, configurations, selector, diagnostics and raw size/hash manifest. Do not label the ZIP a complete raw-data archive unless the raw records themselves are included.",
+    "cross_platform_note": "Hashes bind the saved executions; regenerated floating-point dynamics need not be bitwise identical across platforms.",
+    "recorded_raw_files": 58,
+    "recorded_raw_bytes": 3162169048
+  },
+  "scientific_effect": "No mathematical or numerical result was refuted by these packaging findings. No new physical-model premise is justified by a portability smoke test.",
+  "verification_boundary": "R4 saved-job replay verifies 222 saved jobs with physical checks and bridge; it does not recompute 449,698 quadrature leaves. Fresh staging smoke proves portability of one declared pilot only, not a new scientific certification.",
+  "executed_adverse_fixtures": [
+    {
+      "case": "manifest_omits_readme_but_payload_present",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 396,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject"
+    },
+    {
+      "case": "python_optimization_disables_hash_assertions",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 397,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject altered payload even with -O"
+    },
+    {
+      "case": "untracked_extra_payload",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 397,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject or explicitly report extra payload"
+    }
+  ],
+  "replay_environment_hardening": {
+    "inference_from_source": "Historical proof/response scripts use assert. Their child processes should run without Python optimization even if a caller exports PYTHONOPTIMIZE.",
+    "minimal_fix": "New wrapper sanitizes child environment with PYTHONOPTIMIZE=0 and PYTHONDONTWRITEBYTECODE=1. The strict outer checker itself uses explicit exceptions.",
+    "scope": "Prevents accidental skipped predicates; no scientific formula or original source change."
+  },
+  "fresh_portability_resolution": {
+    "status": "PASS",
+    "delivery": "fresh_portability/delivery",
+    "adapter_sha256": "9e9320d6f44a93de0acae53352a4daea3722a1e9258307bf855192325107bac9",
+    "original_fresh_manifest_sha256": "e551893c6b73e200c0f4aa4262a7ac6f21f3314d886f69f3bd8bb71c5dc6d570",
+    "smoke": {
+      "status": "PASS",
+      "scope": "One declared relocated surface N48/Sobol2^18 pilot; no new parameter campaign.",
+      "fresh_pilot_states": 9,
+      "maximum_response_difference_from_frozen_pilot": 0.0,
+      "maximum_internal_array_difference_from_frozen_pilot": 0.0,
+      "qT_range": [
+        0.7359900867582685,
+        0.736226778756027
+      ],
+      "maximum_closure": 1.1908030117524504e-11,
+      "scientific_runtime_seconds": 2.3997200039993913,
+      "wrapper_runtime_seconds": 3.5597296519990778,
+      "frozen_source_unchanged_after_execution": true,
+      "final_adapter_stage_only_passed": true,
+      "overwrite_guard_passed": true,
+      "tampered_source_guard_passed": true,
+      "missing_dependency_preflight_passed": true,
+      "dependency_environment": "Original scientific dependency installation via PYTHONPATH; no scientific input dependency outside bundled upstream staged inputs.",
+      "scientific_dependency_path": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/fresh_kernel/vendor",
+      "first_attempt": "Default Python lacked scikit-image; failed before numerical calculation. Added explicit preflight before staging.",
+      "final_adapter_sha256": "9e9320d6f44a93de0acae53352a4daea3722a1e9258307bf855192325107bac9",
+      "final_adapter_stage_manifest": "smoke_receipts/FINAL_ADAPTER_STAGE_MANIFEST.json",
+      "pilot_relocation_manifest": "smoke_receipts/PILOT_RELOCATION_MANIFEST.json",
+      "pilot_execution_log": "smoke_receipts/PILOT_EXECUTION.log",
+      "note": "Dependency-preflight/reporting was added after the successful pilot; final adapter staging and guards were tested separately without redundant quadrature.",
+      "guard_environment_addition": "Final adapter sets PYTHONOPTIMIZE=0 and PYTHONDONTWRITEBYTECODE=1 for historical drivers; final staging rechecked without repeating quadrature.",
+      "python_optimize_guard_test_passed": true
+    },
+    "packaging_instruction": "Copy adapter/readme/requirements as additions beside original fresh manifest. Include compact audit and receipts, not temporary worktrees or installed packages."
+  }
+}

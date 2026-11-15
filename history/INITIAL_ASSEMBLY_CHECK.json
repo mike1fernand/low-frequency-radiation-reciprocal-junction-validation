@@ -1,0 +1,258 @@
+{
+  "status": "PASS",
+  "date": "2026-11-11",
+  "scope": "Initial November 11 archive assembly and its selected numerical replays. The earlier checks alone did not test normal Git staging.",
+  "new_replays": [
+    "lowfreq",
+    "scattering",
+    "results",
+    "packet-spectrum",
+    "packet",
+    "exact-rational-response",
+    "16 integrity failure controls",
+    "reference-shell rational certificate"
+  ],
+  "all_files_below_100_MiB": true,
+  "largest_file_bytes": 53490635,
+  "exact_rational_response_pass": true,
+  "frozen_ramp_repository_unchanged": true,
+  "selected_results": {
+    "lowfreq": {
+      "status": "PASS",
+      "static_profile_grid_cases": 18,
+      "static_grid_orders": [
+        10,
+        14
+      ],
+      "checked_static_quantities": [
+        "unit axial resultant",
+        "translation identity",
+        "vertex lower bound",
+        "single-motif force moments",
+        "uniform line zero mode when disconnected"
+      ],
+      "C_T": 0.275868568,
+      "C_L": 0.0265454653,
+      "emitted_qT_share": 0.91222145,
+      "scope": "Numerical static-identity and acoustic-normalization checks. No finite-frequency error or interval certificate."
+    },
+    "scattering": {
+      "status": "PASS",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "reference_Rq_Tq_TqT_TqL": [
+        0.0035721492713804803,
+        0.859745958539447,
+        0.12565925539283654,
+        0.011022636796334603
+      ],
+      "weak_qT_qL": [
+        0.0969632610492761,
+        0.007624950791304689
+      ],
+      "SM3_gradient_lower_gap_upper_gap_squared_overlap": [
+        1.8578005171875684,
+        0.10072395873730722,
+        2.6995795646092917,
+        0.7492079017115738
+      ],
+      "qT_qL_weak_coefficient_errors_at_scales_0.004_0.002_0.001": [
+        0.00012047505738173105,
+        6.024506551154807e-05,
+        3.0124413862512547e-05
+      ],
+      "cell_current_finite_difference_max_absolute_error": 2.337192661627796e-10,
+      "note": "Numerical identity checks using retained quadrature. The contact Hessian, shell witness, and bond current are independently constructed."
+    },
+    "results": {
+      "status": "PASS",
+      "stationary_reference": {
+        "profiles": {
+          "reference": {
+            "Rq_Tline_TqT_TqL": [
+              0.0035721492713804096,
+              0.8597459585394486,
+              0.12565925539283657,
+              0.011022636796334608
+            ],
+            "emitted_qT_share": 0.9193555443241962
+          },
+          "endpoint": {
+            "Rq_Tline_TqT_TqL": [
+              0.0550648425667624,
+              0.7618639412778488,
+              0.15857729679969412,
+              0.0244939193556954
+            ],
+            "emitted_qT_share": 0.8662055135149966
+          },
+          "doubled": {
+            "Rq_Tline_TqT_TqL": [
+              0.04441815109590786,
+              0.3837870034716502,
+              0.5221205513589237,
+              0.04967429407351822
+            ],
+            "emitted_qT_share": 0.9131256700365143
+          },
+          "ramp": {
+            "Rq_Tline_TqT_TqL": [
+              0.1195482344354838,
+              0.07631462564603332,
+              0.7358742884023648,
+              0.06826285151611745
+            ],
+            "emitted_qT_share": 0.9151104356117199
+          }
+        },
+        "archived_flux_residual": 1.2954304295931252e-11,
+        "central_estimates_surface_tetra_retained_GB": [
+          0.1256592553919631,
+          0.12560796330551227,
+          0.1256063099667304
+        ],
+        "central_estimate_spread": 5.294542523270884e-05
+      },
+      "frequency_scan": {
+        "rows": 49,
+        "min_frequency_TqT": [
+          1.575,
+          0.10486397198471414
+        ],
+        "max_frequency_TqT": [
+          0.825,
+          0.21774263089260212
+        ],
+        "samples_above_10_percent": 49,
+        "reference_frequency_sweep_TqT": 0.12569143926167411
+      },
+      "certificate_reporting": {
+        "nominal_interval": [
+          0.7321660760687072,
+          0.7396512062343026
+        ],
+        "box_floor": 0.6905008642115569,
+        "scope": "Arithmetic check on the endpoints of the existing proofs."
+      },
+      "directional_example": {
+        "percent_bulk_upstream_upstream_share": {
+          "2.6": [
+            33.24957441979684,
+            17.117813305264143,
+            51.48280422823148
+          ],
+          "2.9": [
+            72.07220476430238,
+            70.9751220218111,
+            98.47780049732201
+          ]
+        },
+        "scope": "Saved directional integrations; forward and backward branch powers summed here."
+      },
+      "scope": "New coupled solves on saved numerical kernel. Scan and integration records rechecked; no fresh bulk quadrature or new error certificate."
+    },
+    "packet-spectrum": {
+      "status": "PASS",
+      "direct_stationary_contact_solves": 140,
+      "positive_bin_range": [
+        12,
+        25
+      ],
+      "distinct_evaluated_frequencies": 14,
+      "signed_grid_size": 120,
+      "energy_quantiles_01_99": [
+        0.9317566688177807,
+        1.4726562160045653
+      ],
+      "energy_coverage": 0.9996834927581062,
+      "nyquist_fraction": 2.5768734723116623e-07,
+      "periodic_to_open_factor": 1.0000000091839119,
+      "omitted_weight_at_most": 0.0003165072418938042,
+      "reference_qT_surface_tail_only_interval": [
+        0.12767301846274443,
+        0.12798952570463823
+      ],
+      "stationary_in_band_contributions": {
+        "surface_N128": {
+          "reference_qT_per_periodic_packet_energy": 0.12768113293472028,
+          "ramp_qT_per_open_line_energy": 0.7163305061988908
+        },
+        "surface_N160": {
+          "reference_qT_per_periodic_packet_energy": 0.12767301846274443,
+          "ramp_qT_per_open_line_energy": 0.7163064862147751
+        },
+        "tetra_N96": {
+          "reference_qT_per_periodic_packet_energy": 0.12756756192306123,
+          "ramp_qT_per_open_line_energy": 0.7161938975600635
+        },
+        "tetra_N128": {
+          "reference_qT_per_periodic_packet_energy": 0.12759466873816686,
+          "ramp_qT_per_open_line_energy": 0.7162026719320974
+        },
+        "tetra_N160": {
+          "reference_qT_per_periodic_packet_energy": 0.12760941962631991,
+          "ramp_qT_per_open_line_energy": 0.716226962851047
+        }
+      },
+      "scope": "Independent coupled line-and-corner solves from archived on-frequency Green and branch matrices; no fresh bulk quadrature. Omitted-weight intervals take computed in-band values as given."
+    },
+    "packet": {
+      "status": "PASS",
+      "evaluated_periodic_packet_energy_fraction": 0.9996834927581062,
+      "comparisons": {
+        "reference": {
+          "primary": {
+            "window": [
+              52.8,
+              55.4
+            ],
+            "samples": 14,
+            "mean_qT_per_initial_line": 0.12762638690944605,
+            "mean_bulk_per_initial_line": 0.13892844304455843,
+            "mean_qT_divided_by_mean_bulk": 0.9186483639531794
+          },
+          "larger_box": {
+            "window": [
+              52.8,
+              55.4
+            ],
+            "samples": 14,
+            "mean_qT_per_initial_line": 0.1275702522732546,
+            "mean_bulk_per_initial_line": 0.13878259453433736,
+            "mean_qT_divided_by_mean_bulk": 0.9192093050378258
+          },
+          "stationary_in_band_per_initial_line": 0.12767301963436767,
+          "direct_minus_stationary_pp": -0.004663272492161363,
+          "larger_box_minus_stationary_pp": -0.010276736111305973,
+          "larger_box_minus_primary_pp": -0.00561346361914461
+        },
+        "ramp": {
+          "primary": {
+            "window": [
+              57.4,
+              64.2
+            ],
+            "samples": 35,
+            "mean_qT_per_initial_line": 0.7164564184629316,
+            "mean_bulk_per_initial_line": 0.7834437501219385,
+            "mean_qT_divided_by_mean_bulk": 0.914496309851753
+          },
+          "larger_box": {
+            "window": [
+              57.4,
+              64.2
+            ],
+            "samples": 35,
+            "mean_qT_per_initial_line": 0.7162667759527712,
+            "mean_bulk_per_initial_line": 0.782723376192888,
+            "mean_qT_divided_by_mean_bulk": 0.9150956745876723
+          },
+          "stationary_in_band_per_initial_line": 0.7163064862075108,
+          "direct_minus_stationary_pp": 0.01499322554208149,
+          "larger_box_minus_stationary_pp": -0.003971025473958889,
+          "larger_box_minus_primary_pp": -0.01896425101604038
+        }
+      },
+      "scope": "Stored modal-energy averages on each primary window and the same-window larger box, compared with the evaluated-band prediction. The signed differences describe central estimates; these controls supply no combined error interval."
+    }
+  }
+}

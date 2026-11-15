@@ -1,0 +1,302 @@
+{
+  "stored_fits": [
+    {
+      "file": "input/rev/g0_0.4.npz",
+      "omega": 0.4,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 5.782811522969666e-07,
+          "fit_maxabs_residual": 3.2692296306076436e-07,
+          "Re_deg2_vs_deg3": 4.872768636837721e-06
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 1.6857505208411894e-07,
+          "fit_maxabs_residual": 3.3915667900078355e-09,
+          "Re_deg2_vs_deg3": 4.872768636837721e-06
+        },
+        {
+          "Nperp": 4096,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 5.780075861966383e-07,
+          "fit_maxabs_residual": 3.2692570659833986e-07,
+          "Re_deg2_vs_deg3": 4.872789985660604e-06
+        },
+        {
+          "Nperp": 4096,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 1.6942227869243265e-07,
+          "fit_maxabs_residual": 3.3624365984559114e-09,
+          "Re_deg2_vs_deg3": 4.872789985660604e-06
+        }
+      ],
+      "shell_160_240_maxabs_total": 7.384727360103723e-15,
+      "Re_2048_vs_4096_degree2_maxabs": 3.461197149745056e-10,
+      "Re_2048_vs_4096_degree3_maxabs": 1.0427731755337233e-09
+    },
+    {
+      "file": "input/rev/g0_0.8.npz",
+      "omega": 0.8,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 2.3652291553100113e-07,
+          "fit_maxabs_residual": 6.191614247115002e-08,
+          "Re_deg2_vs_deg3": 1.7725034158759707e-07
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 6.939547249062983e-07,
+          "fit_maxabs_residual": 2.3892148107243577e-08,
+          "Re_deg2_vs_deg3": 1.7725034158759707e-07
+        }
+      ],
+      "shell_160_240_maxabs_total": 3.4029145820563346e-15
+    },
+    {
+      "file": "input/rev/g0_1.1125.npz",
+      "omega": 1.1125,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 5.411432017310251e-07,
+          "fit_maxabs_residual": 2.587501081634037e-07,
+          "Re_deg2_vs_deg3": 2.5845523940644377e-06
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 1.1573829718607154e-06,
+          "fit_maxabs_residual": 1.261370837014265e-07,
+          "Re_deg2_vs_deg3": 2.5845523940644377e-06
+        }
+      ],
+      "shell_160_240_maxabs_total": 5.384640634842085e-15
+    },
+    {
+      "file": "input/rev/g0_1.2375.npz",
+      "omega": 1.2375,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 1.3565629707248256e-06,
+          "fit_maxabs_residual": 4.285979240416639e-07,
+          "Re_deg2_vs_deg3": 3.864570547532087e-06
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 3.2707896618910937e-06,
+          "fit_maxabs_residual": 2.084749123571536e-07,
+          "Re_deg2_vs_deg3": 3.864570547532087e-06
+        }
+      ],
+      "shell_160_240_maxabs_total": 4.626536979346221e-15
+    },
+    {
+      "file": "input/rev/g0_1.29.npz",
+      "omega": 1.29,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 2.04381542258489e-06,
+          "fit_maxabs_residual": 6.149114252507585e-07,
+          "Re_deg2_vs_deg3": 6.266379419223034e-06
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 4.384005263646795e-06,
+          "fit_maxabs_residual": 3.0048191215568445e-07,
+          "Re_deg2_vs_deg3": 6.266379419223034e-06
+        }
+      ],
+      "shell_160_240_maxabs_total": 1.3145734500952244e-14
+    },
+    {
+      "file": "input/rev/g0_1.3.npz",
+      "omega": 1.3,
+      "nmax": 6,
+      "epsilon": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "fits": [
+        {
+          "Nperp": 2048,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 3.5907163818404975e-06,
+          "fit_maxabs_residual": 6.657297704893366e-07,
+          "Re_deg2_vs_deg3": 8.249580616178503e-07
+        },
+        {
+          "Nperp": 2048,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 1.0329468078107418e-05,
+          "fit_maxabs_residual": 3.2560850383699723e-07,
+          "Re_deg2_vs_deg3": 8.249580616178503e-07
+        },
+        {
+          "Nperp": 4096,
+          "degree": 2,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 5.5317682018385383e-08,
+          "fit_maxabs_residual": 8.429306988285534e-09,
+          "Re_deg2_vs_deg3": 8.966465503239263e-08
+        },
+        {
+          "Nperp": 4096,
+          "degree": 3,
+          "refit_vs_saved_maxabs": 0.0,
+          "extrap_Im_vs_shell_maxabs": 5.041788721466076e-08,
+          "fit_maxabs_residual": 3.8061222613907415e-09,
+          "Re_deg2_vs_deg3": 8.966465503239263e-08
+        }
+      ],
+      "shell_160_240_maxabs_total": 5.398459457239824e-15,
+      "Re_2048_vs_4096_degree2_maxabs": 7.045377066229597e-07,
+      "Re_2048_vs_4096_degree3_maxabs": 1.606459012129871e-06
+    }
+  ],
+  "finite_width_comparison": [
+    {
+      "omega": 1.3,
+      "epsilon_squared_frequency": 0.2,
+      "N": 64,
+      "nmax": 6,
+      "maxabs_vs_axial_N256": 0.00024609789233689776,
+      "wall_seconds": 0.31613802909851074
+    },
+    {
+      "omega": 1.3,
+      "epsilon_squared_frequency": 0.2,
+      "N": 96,
+      "nmax": 6,
+      "maxabs_vs_axial_N256": 2.633644931985043e-05,
+      "wall_seconds": 1.0512113571166992,
+      "maxabs_vs_previous_direct": 0.00022335073047913975
+    },
+    {
+      "omega": 1.3,
+      "epsilon_squared_frequency": 0.2,
+      "N": 128,
+      "nmax": 6,
+      "maxabs_vs_axial_N256": 4.50198064841321e-06,
+      "wall_seconds": 2.5182151794433594,
+      "maxabs_vs_previous_direct": 2.22974017346772e-05
+    }
+  ],
+  "source": {
+    "D_bond_vs_axial_blocks_maxabs": 3.552713678800501e-15,
+    "literal_phi_vs_solver_maxabs": 4.449557262054371e-16,
+    "quadrant_full_N128_maxabs": 9.390741240049066e-15,
+    "axial_N128_256_maxabs": 6.301403953574802e-07,
+    "axial_N256_stats": {
+      "n_prop": 0.0,
+      "n_fallback": 0.0,
+      "min_absv": null,
+      "max_resid": 1.008800953389545e-08
+    }
+  },
+  "reference_frequency_1p2": [
+    {
+      "Nperp": 1536,
+      "degree": 2,
+      "nmax": 48,
+      "extrap_Im_vs_shell_maxabs_all48": 8.352606118144923e-06,
+      "extrap_Im_vs_shell_maxabs_first6": 8.352606118144923e-06
+    },
+    {
+      "Nperp": 1536,
+      "degree": 3,
+      "nmax": 48,
+      "extrap_Im_vs_shell_maxabs_all48": 2.193358478469465e-05,
+      "extrap_Im_vs_shell_maxabs_first6": 2.193358478469465e-05
+    },
+    {
+      "Nperp": 2048,
+      "degree": 2,
+      "nmax": 48,
+      "extrap_Im_vs_shell_maxabs_all48": 1.5765825036313623e-06,
+      "extrap_Im_vs_shell_maxabs_first6": 6.554522025011521e-07
+    },
+    {
+      "Nperp": 2048,
+      "degree": 3,
+      "nmax": 48,
+      "extrap_Im_vs_shell_maxabs_all48": 2.1028058236581006e-06,
+      "extrap_Im_vs_shell_maxabs_first6": 1.7125502306258866e-06
+    }
+  ],
+  "notes": [
+    "Saved fits recomputed from supplied arrays; no historical 2048/4096 scans rerun.",
+    "Fresh full 3D comparison is only at z=1.3^2+0.2i and tests model/form-factor/contour agreement, not epsilon-zero extrapolation.",
+    "Imaginary Green blocks in production assembly are set to the same shell used for branch powers; closure is not an independent quadrature certificate.",
+    "No shell-root completeness proof or rigorous quadrature/error enclosure is furnished by this test."
+  ]
+}

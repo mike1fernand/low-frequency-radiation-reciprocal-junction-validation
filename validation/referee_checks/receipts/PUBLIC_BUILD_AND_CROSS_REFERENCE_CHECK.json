@@ -1,0 +1,231 @@
+{
+  "zip_sha256": "7c98b788cf9bd9287de8af291f9ccded6496208c58031cf0ecde219c4ebf4988",
+  "archive_files_with_verified_checksums": 21,
+  "rebuild_errors": [],
+  "all_previews_removed_before_build": true,
+  "visual_reference_comparison_dpi": 96,
+  "per_document_staged_inputs": {
+    "paper1_main": [
+      "aps10pt4-2.rtx",
+      "aps4-2.rtx",
+      "figures/paper1_frequency_partition.pdf",
+      "figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+      "figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+      "figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+      "paper1_main.tex",
+      "paper1_methods_references.tex",
+      "paper1_source_binding.tex",
+      "revsymb4-2.sty",
+      "revtex4-2.cls"
+    ],
+    "paper1_supplement": [
+      "aps10pt4-2.rtx",
+      "aps4-2.rtx",
+      "figures/Halpha_transmission_scan_p06.png",
+      "figures/continuum_lattice_share_comparison_p06.png",
+      "figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+      "figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+      "paper1_SM5D.tex",
+      "paper1_methods_references.tex",
+      "paper1_source_binding.tex",
+      "paper1_supplement.tex",
+      "revsymb4-2.sty",
+      "revtex4-2.cls"
+    ]
+  },
+  "number_of_scientific_inputs_observed": 12,
+  "status": "PASS",
+  "paper1_main": {
+    "pages": 29,
+    "labels": 152,
+    "cited_works": 50,
+    "bibitems": 50,
+    "numbered_and_unnumbered_displays": 103,
+    "links": {
+      "internal": 188,
+      "external": 45
+    },
+    "named_destinations": 267,
+    "bookmarks": 36,
+    "explicit_tags_and_occurrence_pages": {},
+    "blocking_log_warnings": []
+  },
+  "paper1_supplement": {
+    "pages": 35,
+    "labels": 97,
+    "cited_works": 3,
+    "bibitems": 3,
+    "numbered_and_unnumbered_displays": 151,
+    "links": {
+      "internal": 40,
+      "external": 3
+    },
+    "named_destinations": 247,
+    "bookmarks": 18,
+    "explicit_tags_and_occurrence_pages": {
+      "SM3a": {
+        "anchor_pages": [
+          6
+        ],
+        "printed_occurrence_pages": [
+          6
+        ]
+      },
+      "SM3b": {
+        "anchor_pages": [
+          6
+        ],
+        "printed_occurrence_pages": [
+          6
+        ]
+      },
+      "SM3c": {
+        "anchor_pages": [
+          6
+        ],
+        "printed_occurrence_pages": [
+          6
+        ]
+      },
+      "SM4a": {
+        "anchor_pages": [
+          9
+        ],
+        "printed_occurrence_pages": [
+          9
+        ]
+      },
+      "SM4b": {
+        "anchor_pages": [
+          9
+        ],
+        "printed_occurrence_pages": [
+          9
+        ]
+      },
+      "SM4c": {
+        "anchor_pages": [
+          9
+        ],
+        "printed_occurrence_pages": [
+          9
+        ]
+      },
+      "SM5Ca": {
+        "anchor_pages": [
+          14
+        ],
+        "printed_occurrence_pages": [
+          14
+        ]
+      },
+      "SM5Cb": {
+        "anchor_pages": [
+          15
+        ],
+        "printed_occurrence_pages": [
+          15,
+          18
+        ]
+      },
+      "SM5Cc": {
+        "anchor_pages": [
+          15
+        ],
+        "printed_occurrence_pages": [
+          15
+        ]
+      },
+      "SM5Cd": {
+        "anchor_pages": [
+          15
+        ],
+        "printed_occurrence_pages": [
+          15,
+          16
+        ]
+      },
+      "SM5Ce": {
+        "anchor_pages": [
+          15
+        ],
+        "printed_occurrence_pages": [
+          15
+        ]
+      },
+      "SM5Cf": {
+        "anchor_pages": [
+          15
+        ],
+        "printed_occurrence_pages": [
+          15
+        ]
+      },
+      "SM5Cg": {
+        "anchor_pages": [
+          16
+        ],
+        "printed_occurrence_pages": [
+          16
+        ]
+      },
+      "SM5Ch": {
+        "anchor_pages": [
+          17
+        ],
+        "printed_occurrence_pages": [
+          17
+        ]
+      },
+      "SM7Ea": {
+        "anchor_pages": [
+          33
+        ],
+        "printed_occurrence_pages": [
+          33
+        ]
+      }
+    },
+    "blocking_log_warnings": []
+  },
+  "abstract_word_count": 244,
+  "abstract_matches_printed_pdf": true,
+  "old_numbered_or_unnumbered_display_differences": {
+    "prior_displays_missing_or_changed": [],
+    "new_or_changed_displays": [
+      "\\mathsfD=2\\,\\operatorname{diag}_{i}\\!\\left[H(1-h_i)+2h_i^2\\right]+2\\bmv\\bmv^{T}."
+    ]
+  },
+  "new_labels": [
+    "fig:sm-packet-selection"
+  ],
+  "missing_labels": [],
+  "cited_works_lost": [],
+  "moved_equations": [
+    [
+      "eq:s6-central-range",
+      "122",
+      "SM4a",
+      9
+    ],
+    [
+      "eq:s6-headline",
+      "123",
+      "SM4b",
+      9
+    ],
+    [
+      "eq:s6-closure",
+      "124",
+      "SM4c",
+      9
+    ]
+  ],
+  "comparison": "Every extracted-build PDF page compared with its packaged PDF by 96 dpi color pixels, exact word positions, bookmark outline, named destinations and link rectangles/targets. All agreed.",
+  "manual_figure_checks": {
+    "main_reference_power": "Fig. 4, main p. 19. Companion from original panel (b) typeset with caption on supplement p. 8.",
+    "packet_energy": "Fig. 6, main p. 25. Selector diagnostics are supplemental Fig. 3 on p. 16.",
+    "manual_equations": "Main V.C references SM7A (97)-(99). The three supplemental labels are the static matrix, resultant identity, and spectral prefactors in the stated order.",
+    "visual_review": "All-page thumbnails and enlarged samples of changed figures and equations inspected."
+  }
+}

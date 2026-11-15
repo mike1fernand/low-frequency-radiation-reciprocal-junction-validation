@@ -1,0 +1,262 @@
+{
+  "schema": "paper1.packet-frequency-contract.v1",
+  "status": "frozen_finite_DFT_comparison_not_claim_of_physical_asymptotic_equality",
+  "preparation": {
+    "schema": "paper1.packet-preparation.v1",
+    "source": "Current Paper 1 Section VII.A and canonical model ModelParameters",
+    "n": 120,
+    "a": 1.0,
+    "m_q": 1.0,
+    "K_q": 1.69,
+    "amplitude": 0.002,
+    "center": 18.0,
+    "sigma": 7.0,
+    "omega0": 1.2,
+    "band": [
+      0.8,
+      1.6
+    ],
+    "nyquist_velocity": "zero",
+    "grid": "full unnormalized forward DFT; conjugate +/-k describe one real packet"
+  },
+  "input_sha256": "6e77b32d3ac6ebe8075cb43b31bf20b73aef5d7261ea1c4118a0a832761451e1",
+  "packet_qv_sha256": "702bdd20fa010dc1d9755a45ecc4ce672d9d153363efb23e5812347883769e55",
+  "central_nodes": [
+    {
+      "node_id": "dft_012",
+      "positive_k_index": 12,
+      "negative_k_index": 108,
+      "omega": 0.8034441853748633,
+      "paired_energy_weight": 1.3682025290118154e-08,
+      "weight_over_full_periodic_energy": 0.0003803417401000693
+    },
+    {
+      "node_id": "dft_013",
+      "positive_k_index": 13,
+      "negative_k_index": 107,
+      "omega": 0.8678978340078045,
+      "paired_energy_weight": 8.111746861330792e-08,
+      "weight_over_full_periodic_energy": 0.0022549555720512674
+    },
+    {
+      "node_id": "dft_014",
+      "positive_k_index": 14,
+      "negative_k_index": 106,
+      "omega": 0.9317566688177807,
+      "paired_energy_weight": 3.6110225285884963e-07,
+      "weight_over_full_periodic_energy": 0.01003815270723009
+    },
+    {
+      "node_id": "dft_015",
+      "positive_k_index": 15,
+      "negative_k_index": 105,
+      "omega": 0.9949769241492334,
+      "paired_energy_weight": 1.171491321738241e-06,
+      "weight_over_full_periodic_energy": 0.03256586933396941
+    },
+    {
+      "node_id": "dft_016",
+      "positive_k_index": 16,
+      "negative_k_index": 104,
+      "omega": 1.0575152719970804,
+      "paired_energy_weight": 2.8116773860589772e-06,
+      "weight_over_full_periodic_energy": 0.0781608166143399
+    },
+    {
+      "node_id": "dft_017",
+      "positive_k_index": 17,
+      "negative_k_index": 103,
+      "omega": 1.1193288517015672,
+      "paired_energy_weight": 5.0790700087755305e-06,
+      "weight_over_full_periodic_energy": 0.14119125526123605
+    },
+    {
+      "node_id": "dft_018",
+      "positive_k_index": 18,
+      "negative_k_index": 102,
+      "omega": 1.1803752993228216,
+      "paired_energy_weight": 6.9877958308045015e-06,
+      "weight_over_full_periodic_energy": 0.19425124346698544
+    },
+    {
+      "node_id": "dft_019",
+      "positive_k_index": 19,
+      "negative_k_index": 101,
+      "omega": 1.240612776674982,
+      "paired_energy_weight": 7.3659636465212e-06,
+      "weight_over_full_periodic_energy": 0.20476379566811423
+    },
+    {
+      "node_id": "dft_020",
+      "positive_k_index": 20,
+      "negative_k_index": 100,
+      "omega": 1.2999999999999998,
+      "paired_energy_weight": 5.95174141499013e-06,
+      "weight_over_full_periodic_energy": 0.16545033636489107
+    },
+    {
+      "node_id": "dft_021",
+      "positive_k_index": 21,
+      "negative_k_index": 99,
+      "omega": 1.358496268261467,
+      "paired_energy_weight": 3.6675151076583215e-06,
+      "weight_over_full_periodic_energy": 0.10195194412464159
+    },
+    {
+      "node_id": "dft_022",
+      "positive_k_index": 22,
+      "negative_k_index": 98,
+      "omega": 1.41606149103907,
+      "paired_energy_weight": 1.7047679879036018e-06,
+      "weight_over_full_periodic_energy": 0.04739023713502802
+    },
+    {
+      "node_id": "dft_023",
+      "positive_k_index": 23,
+      "negative_k_index": 97,
+      "omega": 1.4726562160045653,
+      "paired_energy_weight": 5.882240112649359e-07,
+      "weight_over_full_periodic_energy": 0.016351829445508684
+    },
+    {
+      "node_id": "dft_024",
+      "positive_k_index": 24,
+      "negative_k_index": 96,
+      "omega": 1.5282416559604302,
+      "paired_energy_weight": 1.487777318790156e-07,
+      "weight_over_full_periodic_energy": 0.0041358190933820215
+    },
+    {
+      "node_id": "dft_025",
+      "positive_k_index": 25,
+      "negative_k_index": 95,
+      "omega": 1.5827797154226737,
+      "paired_energy_weight": 2.8666731077658996e-08,
+      "weight_over_full_periodic_energy": 0.0007968962306283971
+    }
+  ],
+  "central_node_count": 14,
+  "full_periodic_energy_denominator": 3.597297863368444e-05,
+  "physical_open_energy": 3.5972978303311774e-05,
+  "inside_coverage": 0.9996834927581062,
+  "outside_fraction": 0.0003165072418938042,
+  "band_edges_for_continuous_sensitivity": [
+    {
+      "node_id": "edge_low",
+      "omega": 0.8
+    },
+    {
+      "node_id": "edge_high",
+      "omega": 1.6
+    }
+  ],
+  "optional_midpoint_refinement_intervals": [
+    {
+      "omega_left": 0.8,
+      "omega_right": 0.8034441853748633,
+      "midpoint_omega": 0.8017220926874317,
+      "incident_halfline_energy_fraction_between_nodes": 1.9266336527100567e-05,
+      "energy_mass_priority": 15
+    },
+    {
+      "omega_left": 0.8034441853748633,
+      "omega_right": 0.8678978340078045,
+      "midpoint_omega": 0.8356710096913339,
+      "incident_halfline_energy_fraction_between_nodes": 0.001078599660620473,
+      "energy_mass_priority": 13
+    },
+    {
+      "omega_left": 0.8678978340078045,
+      "omega_right": 0.9317566688177807,
+      "midpoint_omega": 0.8998272514127926,
+      "incident_halfline_energy_fraction_between_nodes": 0.005331474421111306,
+      "energy_mass_priority": 11
+    },
+    {
+      "omega_left": 0.9317566688177807,
+      "omega_right": 0.9949769241492334,
+      "midpoint_omega": 0.9633667964835071,
+      "incident_halfline_energy_fraction_between_nodes": 0.019575965778421876,
+      "energy_mass_priority": 9
+    },
+    {
+      "omega_left": 0.9949769241492334,
+      "omega_right": 1.0575152719970804,
+      "midpoint_omega": 1.026246098073157,
+      "incident_halfline_energy_fraction_between_nodes": 0.05328802907562767,
+      "energy_mass_priority": 7
+    },
+    {
+      "omega_left": 1.0575152719970804,
+      "omega_right": 1.1193288517015672,
+      "midpoint_omega": 1.0884220618493239,
+      "incident_halfline_energy_fraction_between_nodes": 0.10911039467223277,
+      "energy_mass_priority": 5
+    },
+    {
+      "omega_left": 1.1193288517015672,
+      "omega_right": 1.1803752993228216,
+      "midpoint_omega": 1.1498520755121944,
+      "incident_halfline_energy_fraction_between_nodes": 0.17024291192534574,
+      "energy_mass_priority": 3
+    },
+    {
+      "omega_left": 1.1803752993228216,
+      "omega_right": 1.240612776674982,
+      "midpoint_omega": 1.2104940379989018,
+      "incident_halfline_energy_fraction_between_nodes": 0.20407840110121822,
+      "energy_mass_priority": 1
+    },
+    {
+      "omega_left": 1.240612776674982,
+      "omega_right": 1.2999999999999998,
+      "midpoint_omega": 1.2703063883374908,
+      "incident_halfline_energy_fraction_between_nodes": 0.1885570116731863,
+      "energy_mass_priority": 2
+    },
+    {
+      "omega_left": 1.2999999999999998,
+      "omega_right": 1.358496268261467,
+      "midpoint_omega": 1.3292481341307334,
+      "incident_halfline_energy_fraction_between_nodes": 0.1340515588403485,
+      "energy_mass_priority": 4
+    },
+    {
+      "omega_left": 1.358496268261467,
+      "omega_right": 1.41606149103907,
+      "midpoint_omega": 1.3872788796502684,
+      "incident_halfline_energy_fraction_between_nodes": 0.07283956347346282,
+      "energy_mass_priority": 6
+    },
+    {
+      "omega_left": 1.41606149103907,
+      "omega_right": 1.4726562160045653,
+      "midpoint_omega": 1.4443588535218177,
+      "incident_halfline_energy_fraction_between_nodes": 0.02989805333805534,
+      "energy_mass_priority": 8
+    },
+    {
+      "omega_left": 1.4726562160045653,
+      "omega_right": 1.5282416559604302,
+      "midpoint_omega": 1.5004489359824977,
+      "incident_halfline_energy_fraction_between_nodes": 0.009140898244493554,
+      "energy_mass_priority": 10
+    },
+    {
+      "omega_left": 1.5282416559604302,
+      "omega_right": 1.5827797154226737,
+      "midpoint_omega": 1.555510685691552,
+      "incident_halfline_energy_fraction_between_nodes": 0.002081399217637865,
+      "energy_mass_priority": 12
+    },
+    {
+      "omega_left": 1.5827797154226737,
+      "omega_right": 1.6,
+      "midpoint_omega": 1.591389857711337,
+      "incident_halfline_energy_fraction_between_nodes": 0.00019635589699406973,
+      "energy_mass_priority": 14
+    }
+  ],
+  "refinement_rule": "Central finite sum needs exactly the14 declared frequencies and no interpolation. For continuous-sensitivity curve, addedges; inspect methodspread and curvature weightedby each intervalenergy, then validate high-contribution intervals with independent midpointfrequency solves. Recomputeintegrals for each stage. Samplingvariation is empiricalsensitivity, not arigorouserrorbound. Do notuseoriginalGBvalues as replacementcentralvalues.",
+  "initial_scope": "No new transmission curve evaluated by this producer."
+}

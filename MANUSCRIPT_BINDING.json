@@ -1,0 +1,28 @@
+{
+  "edition": "Wave Motion source edition, November 13, 2026",
+  "date": "2026-11-13",
+  "abstract_words": 249,
+  "source_build_archive": "Paper1_Wave_Motion_Source_Build_2026-11-13.zip",
+  "source_build_sha256": "86d9d571058b058aae33b2b56ac5adbee691316cbc349d5e90e93a94f0ecd4a7",
+  "predecessor_validation_archive_sha256": "57607517a075da818841a0fcf1465e474ee56479982044d7991dd7a6fab864ea",
+  "sources": {
+    "figures/Halpha_transmission_scan_p06.png": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+    "figures/continuum_lattice_share_comparison_p06.png": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+    "figures/figure4_reference_power.pdf": "1f852669e87054bd49f3e387b5e2624151087c2e444d22cc3ae0d66f78c86a57",
+    "figures/paper1_frequency_partition.pdf": "a446ec83b61e2b8c6c70c6f638c9e95d60ffa74b3b8967304ce45ce392636aa5",
+    "figures/paper1_low_frequency_ratio.pdf": "45a9fb0be8d7ecfedb66b1059d362c339a1767c8dc4180f2c8266d71d38d5056",
+    "figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+    "figures/paper1_sectionVII_fig6a_qT_window_v2.pdf": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+    "figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+    "figures/paper1_sectionVI_fig4_reference_partition_v2.pdf": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb",
+    "figures/sm4_method_comparison.pdf": "06767db566b45b1f4e7f31b31eb4f15f055d0b7b36d3433e0b0b2f702224f1d9",
+    "paper1_SM5D.tex": "c10960a937ceeacc80813831dfbaeb8e8dd34f09534059c0fcd732324833e407",
+    "paper1_main.tex": "583e73b88c5ce60dff6f510c8edd2669948c0bad24e20d59492cc7d8b37cbcd5",
+    "paper1_methods_references.tex": "e219c707377f6ed3c2c86cffd6a7cffc9f358cbcb9a334450dad7127de9b8d08",
+    "paper1_source_binding.tex": "91c0163c37d91faa6e499b3ec6b957cb113f76b2193db0b5415b30b0390a4979",
+    "paper1_supplement.tex": "7b0524a0d8b8cb00d7c989d1585a4c0436cbe4162d84bce46583b83203a610bf"
+  },
+  "source_build_comparison": "All 30 shared source, build, distribution, preservation and verification files are byte-identical to the author build. ASSEMBLY_CHECK.json lists them. The manuscript README and inventory describe the validation copy. Submission documents and artwork exports are in the author build.",
+  "reference_validation_scope": "Original numerical evidence from the November 11 cumulative archive; Table 3 also has a printed-row transcription check and five coupled solves on each of two archived kernels.",
+  "ramp_validation_scope": "Public edition of the November 8 increasing-ramp replay; all original R4 certificate files and proof-chain bindings retain their hashes."
+}

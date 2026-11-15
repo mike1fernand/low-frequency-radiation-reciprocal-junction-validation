@@ -1,0 +1,46 @@
+{
+  "checkpoint_source": {
+    "path": "run/p07_trajectory_checkpoint.cpp",
+    "sha256": "393ce334d170fc8f2ad535b23175a6e1fa7e16666e771a602fe0658357ba3d2f"
+  },
+  "dt": 0.04,
+  "geometry": [
+    120,
+    56,
+    56
+  ],
+  "monolithic_source": {
+    "path": "run/p07_trajectory.cpp",
+    "sha256": "1700b1def660755e5fc0bb70afc0dd63105e07d049cef10614b6208b9ab7cf9f"
+  },
+  "rows": {
+    "byte_identical": true,
+    "monolithic_sha256": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+    "segmented_sha256": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+    "size_bytes": 8633
+  },
+  "schema": "paper1.pass12.production-checkpoint-equivalence.v1",
+  "scope": "Same-host full-state checkpoint/restart equivalence between the original monolithic producer and a versioned checkpoint-capable successor; not separate-person or cross-platform replication.",
+  "segments": [
+    [
+      0.0,
+      30.0
+    ],
+    [
+      30.0,
+      47.8
+    ],
+    [
+      47.8,
+      57.0
+    ]
+  ],
+  "snapshots": {
+    "byte_identical": true,
+    "monolithic_sha256": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+    "segmented_sha256": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+    "size_bytes": 415457680
+  },
+  "status": "passed",
+  "tmax": 57.0
+}

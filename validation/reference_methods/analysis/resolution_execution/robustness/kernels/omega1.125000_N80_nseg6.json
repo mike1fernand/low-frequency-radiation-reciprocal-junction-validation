@@ -1,0 +1,59 @@
+{
+  "schema": "paper1.corrected-robustness-kernel.v1",
+  "family": "shell",
+  "omega": 1.125,
+  "nseg": 6,
+  "surface_grid": 80,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "geometry": [
+    {
+      "triangles": 8504,
+      "minimum_gradient": 1.796023205299853,
+      "minimum_area": 1.5471118786081206e-06,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    },
+    {
+      "triangles": 8504,
+      "minimum_gradient": 1.8581842825904151,
+      "minimum_area": 1.1636667185399574e-09,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    },
+    {
+      "triangles": 2696,
+      "minimum_gradient": 3.559201755728205,
+      "minimum_area": 3.135922088404186e-05,
+      "omitted_gradient_cells": 0,
+      "nonpositive_areas": 0
+    }
+  ],
+  "shell_min_eigenvalues": [
+    5.619961609217216e-08,
+    1.5277053159100467e-09,
+    2.011749932584866e-09,
+    3.2954231898454416e-11
+  ],
+  "raw_reciprocity_residual": 1.5162681985465678e-08,
+  "source_sha256": {
+    "analysis/resolution_execution/robustness/worker.py": "13518511daf6583a33066beaa8e3fa9fbf7ae0a40339defe0da459aa220bfb05",
+    "analysis/resolution_execution/robustness/src/model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "analysis/resolution_execution/robustness/src/on_shell_basis.py": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+    "analysis/resolution_execution/robustness/src/reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "analysis/resolution_execution/robustness/src/spectral_histogram.py": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+  },
+  "status": "completed_for_declared_finite_sample_scope",
+  "matrix_file": "omega1.125000_N80_nseg6.npz",
+  "matrix_sha256": "fd11d9c38b593c7f034a3c405f4c30871dc0d0af28e8d663922546ed5748bb96",
+  "seconds": 2.6409340239988524,
+  "peak_RSS_KiB": 524928,
+  "scope": "Corrected finite-resolution numerical sample; no uniform accuracy or exact-lattice error bound."
+}

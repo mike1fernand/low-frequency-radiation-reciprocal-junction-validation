@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "grid": 48,
+    "shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parameters": {
+      "a": 1.0,
+      "m_bulk": 1.0,
+      "m_spine": 1.0,
+      "k_axis": 1.0,
+      "k_diag": 1.0,
+      "k_spine": 1.69
+    },
+    "accepted_source_sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818"
+  },
+  "eigenvalues_sha256": "1466561d81cd9089057435333def8b6339c3cb4d0c207c4f2f4d908cee5abf31",
+  "seconds": 0.1128089900012128
+}

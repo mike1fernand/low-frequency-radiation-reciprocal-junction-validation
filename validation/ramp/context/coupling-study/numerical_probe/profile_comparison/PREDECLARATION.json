@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-08",
+  "protocol_fixed_before_response_loop": true,
+  "omega": 1.2,
+  "total_sum_g": [
+    2.5,
+    3.0,
+    4.0
+  ],
+  "normalized_shapes": {
+    "uniform": [
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    "endpoint_only": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "increasing_linear": [
+      0.047619047619047616,
+      0.09523809523809523,
+      0.14285714285714285,
+      0.19047619047619047,
+      0.23809523809523808,
+      0.2857142857142857
+    ],
+    "decreasing_linear": [
+      0.2857142857142857,
+      0.23809523809523808,
+      0.19047619047619047,
+      0.14285714285714285,
+      0.09523809523809523,
+      0.047619047619047616
+    ]
+  },
+  "same_model_profiles": 12,
+  "parameter_cache_states": 24,
+  "previous_scale_probe_states": 16,
+  "combined_state_budget": 40,
+  "new_green_evaluations": 0,
+  "optimizer": false,
+  "adaptive_expansion": false,
+  "model": "Unchanged actual P1 complete paired-spring contact on six available motif positions; gi are actual per-link spring stiffnesses.",
+  "cache_scope": "N192/M256 selected kernel plus historical N80/M192 sensitivity cache. N80/M192 is not the published N80/M256 family.",
+  "comparison": "At each fixed sum_g compare four shapes against existing reference-taper scale from the prior batch. Across totals physical contact stiffness changes.",
+  "active_count_warning": "Endpoint-only uses16activecontactsprings instead of48; available span/line/bulk retained. This is not a fixed active-count comparison.",
+  "finish_condition": "Exactly12profiles/24parameter-cache states, full saved q/t systems and flux/residual checks; stop even if a boundary profile wins.",
+  "input_hashes": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "on_shell_N80.npz": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5",
+    "pv_mean_M192.npy": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18",
+    "N80_INPUT_PROVENANCE.json": "97653e788824fa36cd1940f7cff9fe5d19da8164b353f5ccdfb5aa7cf713f074",
+    "REFERENCE_KERNEL.npz": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "REFERENCE_KERNEL.json": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "prior_scale_result_sha256": "a8b7a6c13f219cd9aabebe1e453722e01e99fe37afd74c16e9d8ee154ffccb17"
+}

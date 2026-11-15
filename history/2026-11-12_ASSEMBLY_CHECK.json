@@ -1,0 +1,46 @@
+{
+  "release": "Wave Motion source edition, November 12, 2026",
+  "predecessor_validation_archive_sha256": "c5465e1d36fb7c843fa32d07e594a3a587c7babf627074b53d881f2fc26f9778",
+  "predecessor_build_receipt": "history/2026-11-11_ASSEMBLY_CHECK.json",
+  "source_build_archive": "Paper1_Wave_Motion_Source_Build_2026-11-12.zip",
+  "build_archive_sha256": "9b44e8b4c0c49bd4e46d074a084e4c3ea57dcf6f0d4d11e7fc1360e2c73c18d9",
+  "matched_members": [
+    "artwork/submission/export_reference_panels.py",
+    "build.py",
+    "revision/history/2026-11-11/build-inputs.json",
+    "revision/history/2026-11-11/preservation.json",
+    "revision/preservation.json",
+    "source/figures/Halpha_transmission_scan_p06.png",
+    "source/figures/continuum_lattice_share_comparison_p06.png",
+    "source/figures/figure4_reference_power.pdf",
+    "source/figures/paper1_frequency_partition.pdf",
+    "source/figures/paper1_low_frequency_ratio.pdf",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "source/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "source/figures/sm4_method_comparison.pdf",
+    "source/paper1_SM5D.tex",
+    "source/paper1_main.tex",
+    "source/paper1_methods_references.tex",
+    "source/paper1_source_binding.tex",
+    "source/paper1_supplement.tex",
+    "third_party/LPPL-1.3c.tex",
+    "third_party/README-REVTeX.txt",
+    "third_party/revtex-4.2f-tds.zip",
+    "verification/build-inputs.json",
+    "verification/verify_reference_shell.py"
+  ],
+  "build_members_compared": 25,
+  "validation_files_byte_identical_to_predecessor": 2071,
+  "updated_validation_readers": [
+    "artwork/README.md",
+    "referee_checks/README.md"
+  ],
+  "new_validation_script": "validation/referee_checks/verify_contact_table.py",
+  "checks_performed": {
+    "source_and_shared_build_files": "Each listed member compared byte-for-byte with the corresponding member of the author ZIP.",
+    "contact_table": "All five rows matched exact rational total/peak stiffnesses and published-precision reflections and qT conversions from ten new coupled solves on the two archived kernels. Nine deliberately mutated table copies (printed percentages, stiffnesses, header or profile identity) failed the transcription check.",
+    "scope": "No new bulk quadrature, packet time evolution, certified enclosure or physical measurement."
+  }
+}

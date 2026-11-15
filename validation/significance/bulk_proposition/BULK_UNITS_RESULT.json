@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "scope": "Nine targeted static physical-unit calibrations. Not a global proof, reference-shell enclosure, generated-power result or production simulation.",
+  "cases": [
+    {
+      "a": 1.0,
+      "mass": 1.0,
+      "stiffness": 1.0,
+      "rho": 0.2,
+      "relative_engine_symbol_error": 0.0,
+      "physical_gap": 0.0797336886350335,
+      "sufficient_gap_lower_bound": 0.07920000000000002,
+      "amplitude_leakage": 0.0,
+      "squared_projector_leakage": 0.0
+    },
+    {
+      "a": 1.0,
+      "mass": 1.0,
+      "stiffness": 1.0,
+      "rho": 1.1,
+      "relative_engine_symbol_error": 1.328740137686835e-16,
+      "physical_gap": 2.0181562850238404,
+      "sufficient_gap_lower_bound": 1.6879500000000003,
+      "amplitude_leakage": 0.015620549018450586,
+      "squared_projector_leakage": 0.00024400155163783682
+    },
+    {
+      "a": 1.0,
+      "mass": 1.0,
+      "stiffness": 1.0,
+      "rho": 1.99,
+      "relative_engine_symbol_error": 3.629104179980106e-17,
+      "physical_gap": 3.893822692522503,
+      "sufficient_gap_lower_bound": 0.07900399500000077,
+      "amplitude_leakage": 3.251767952832689e-17,
+      "squared_projector_leakage": 5.9779208748350985e-34
+    },
+    {
+      "a": 0.25,
+      "mass": 2.0,
+      "stiffness": 3.0,
+      "rho": 0.2,
+      "relative_engine_symbol_error": 9.813077866773595e-18,
+      "physical_gap": 0.11960053295255026,
+      "sufficient_gap_lower_bound": 0.11880000000000003,
+      "amplitude_leakage": 0.0,
+      "squared_projector_leakage": 0.0
+    },
+    {
+      "a": 0.25,
+      "mass": 2.0,
+      "stiffness": 3.0,
+      "rho": 1.1,
+      "relative_engine_symbol_error": 4.175827385747147e-17,
+      "physical_gap": 3.0272344275357614,
+      "sufficient_gap_lower_bound": 2.531925,
+      "amplitude_leakage": 0.015620549018450577,
+      "squared_projector_leakage": 0.00024400155163784026
+    },
+    {
+      "a": 0.25,
+      "mass": 2.0,
+      "stiffness": 3.0,
+      "rho": 1.99,
+      "relative_engine_symbol_error": 0.0,
+      "physical_gap": 5.840734038783754,
+      "sufficient_gap_lower_bound": 0.11850599250000116,
+      "amplitude_leakage": 3.251767952832689e-17,
+      "squared_projector_leakage": 5.9779208748350985e-34
+    },
+    {
+      "a": 2.0,
+      "mass": 0.5,
+      "stiffness": 0.7,
+      "rho": 0.2,
+      "relative_engine_symbol_error": 2.943923360032078e-17,
+      "physical_gap": 0.11162716408904684,
+      "sufficient_gap_lower_bound": 0.11088000000000002,
+      "amplitude_leakage": 0.0,
+      "squared_projector_leakage": 0.0
+    },
+    {
+      "a": 2.0,
+      "mass": 0.5,
+      "stiffness": 0.7,
+      "rho": 1.1,
+      "relative_engine_symbol_error": 1.049269638236287e-16,
+      "physical_gap": 2.8254187990333763,
+      "sufficient_gap_lower_bound": 2.3631300000000004,
+      "amplitude_leakage": 0.015620549018450528,
+      "squared_projector_leakage": 0.00024400155163779847
+    },
+    {
+      "a": 2.0,
+      "mass": 0.5,
+      "stiffness": 0.7,
+      "rho": 1.99,
+      "relative_engine_symbol_error": 0.0,
+      "physical_gap": 5.451351769531504,
+      "sufficient_gap_lower_bound": 0.11060559300000107,
+      "amplitude_leakage": 3.251767952832689e-17,
+      "squared_projector_leakage": 5.9779208748350985e-34
+    }
+  ],
+  "wrong_units_adverse_max_difference": 13.688640188140607,
+  "engine_sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+  "source_sha256": "8f2e2dc34544014a5881a13ef24a5ec0af97e407b662b8d5be5fc6edc154f37e",
+  "existing_35_plus_320_cases_rerun": false,
+  "new_time_domain_simulations": 0
+}

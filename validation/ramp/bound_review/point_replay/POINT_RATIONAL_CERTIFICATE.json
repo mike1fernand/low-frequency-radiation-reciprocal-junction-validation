@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "acceptance_arithmetic": "Exact Fraction comparisons; NumPy proposes inverse only. sqrt2/sqrt133 enclosed by integer-isqrt rational intervals of width1e-80.",
+  "physical_parameters": {
+    "g": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "5/7",
+      "6/7"
+    ],
+    "omega": "6/5",
+    "Kq": "169/100",
+    "a": 1,
+    "m_bulk": 1,
+    "m_spine": 1,
+    "K_axis": 1,
+    "K_diag": 1,
+    "lead_eta": 0
+  },
+  "source_kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "source_kernel_path": "/workspace/scratch/044aa7b17d80/p1_coupling_assessment_2026_11_08/numerical_probe/inputs/REFERENCE_KERNEL.npz",
+  "cached_metric": "Im_qT leading12; entrywise identical to saved floating sum Im_branch_0+Im_branch_1",
+  "exact_Qc_LDL": "All12rationalpivotsstrictlypositive; exactreconstruction verified",
+  "preconditioner_frobenius_cap": 6,
+  "residual_frobenius_cap": "1/1000000000000",
+  "operator_caps": {
+    "H_Frobenius": "947/1000",
+    "J_Frobenius": "3/5",
+    "eta_c_norm": "569/1000",
+    "a_c_lower": "4289/5000",
+    "a_c_upper": "8579/10000"
+  },
+  "coarse_conditional_interval": {
+    "eG": "1/50",
+    "eQ": "1/200",
+    "lower_rational": "43345541439854489/60154920225000000",
+    "upper_rational": "180788714525857969/240619680900000000",
+    "lower_display": 0.7205651886450405,
+    "upper_display": 0.7513463314789808
+  },
+  "tighter_conditional_interval": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "lower_rational": "1135358893260054489/1550684920225000000",
+    "upper_rational": "4587863886935057969/6202739680900000000",
+    "lower_display": 0.7321660760687072,
+    "upper_display": 0.7396512062343026
+  },
+  "scope": "Rigorous candidate-specific propagation of assumed/authenticated kernel-error norm caps, fixed contact/real frequency. This script does not itself authenticate or rerun the contour integration. Not a bandwidth, packet or coupling-box certificate; not proof that exact value rounds to73.6%.",
+  "script_sha256": "8cc7821ddc6c2adb20f9ff3079cda17519086479e11b1ddeb833053dcdcf3359",
+  "seconds": 0.3190005279975594
+}

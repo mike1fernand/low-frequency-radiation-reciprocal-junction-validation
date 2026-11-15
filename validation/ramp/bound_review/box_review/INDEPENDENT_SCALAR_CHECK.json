@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact scalar reconstruction from the declared auxiliary caps; matrixcaps validated separately by isolated replay.",
+  "finite_floor_rational": "3634096757/5225000000",
+  "kernel_propagated_floor_rational": "42767052725496289/61936276900000000",
+  "kernel_propagated_floor_display": 0.6905008642115569,
+  "uniform_caps_verified_above_reconstructed_values": true,
+  "transmission_vertex_extrema_assumption_used": false
+}

@@ -1,0 +1,4790 @@
+{
+  "scope": "Observed sensitivities from fresh sample/count/bin/order/surface changes; no true-error bound or statistical confidence claim.",
+  "surface_records": [
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.2,
+      "grid": 128,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 14.867838621139526,
+      "peak_RSS_KiB": 1838152,
+      "geometry": [
+        {
+          "triangles": 25496,
+          "min_gradient": 1.844831031632925,
+          "max_gradient": 2.170456477745547,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 24920,
+          "min_gradient": 1.9193115156385825,
+          "max_gradient": 2.194959410314399,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 7976,
+          "min_gradient": 3.7612380543359794,
+          "max_gradient": 3.890263569836094,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 2.1275553555151707e-09,
+      "branch_min_eigenvalues": [
+        4.156049683781318e-09,
+        5.178434878829905e-09,
+        6.995143622886956e-11
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.0035745066044311634,
+        "Tline": 0.8597585033199006,
+        "Tbulk": 0.13666699006271377,
+        "qT": 0.125649691922249,
+        "qL": 0.011017298140464746,
+        "closure": 1.2954526340536177e-11,
+        "partition_residual": 0.0
+      },
+      "matrix_file": "omega1.2_N128.npz",
+      "matrix_sha256": "68c20aca5071ee14f2ee9c6c8c1ce9280d72a2b9ef72ce9888ff49cb92d44778",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    },
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.2,
+      "grid": 160,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 32.47778630256653,
+      "peak_RSS_KiB": 3494368,
+      "geometry": [
+        {
+          "triangles": 39560,
+          "min_gradient": 1.84508055127393,
+          "max_gradient": 2.1712642495733814,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 38984,
+          "min_gradient": 1.9195231341427637,
+          "max_gradient": 2.195520592503376,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 12296,
+          "min_gradient": 3.7638944587192453,
+          "max_gradient": 3.896202177888722,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 3.260152801262763e-09,
+      "branch_min_eigenvalues": [
+        4.06172045513198e-09,
+        5.0631220794373e-09,
+        6.79807681442706e-11
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.003573934027123912,
+        "Tline": 0.8597613973327076,
+        "Tbulk": 0.1366646686272134,
+        "qT": 0.12564525425726572,
+        "qL": 0.011019414369947677,
+        "closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "matrix_file": "omega1.2_N160.npz",
+      "matrix_sha256": "fa84dbec9338c9183c568a734e6672e317dd12c3805e8cfb03d9ed837f1b321b",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    },
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.2,
+      "grid": 192,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 65.03118562698364,
+      "peak_RSS_KiB": 5866300,
+      "geometry": [
+        {
+          "triangles": 57176,
+          "min_gradient": 1.8451791000921647,
+          "max_gradient": 2.1719495709657184,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 56024,
+          "min_gradient": 1.9196326250327709,
+          "max_gradient": 2.1961678097124007,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 17768,
+          "min_gradient": 3.764757317794936,
+          "max_gradient": 3.8953994525009277,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 5.401035627175714e-10,
+      "branch_min_eigenvalues": [
+        4.008084865114592e-09,
+        5.002883607800443e-09,
+        6.725331519047624e-11
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.003573674984079255,
+        "Tline": 0.8597674039406848,
+        "Tbulk": 0.1366589210622808,
+        "qT": 0.1256383704211448,
+        "qL": 0.011020550641135989,
+        "closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "matrix_file": "omega1.2_N192.npz",
+      "matrix_sha256": "c01cd02f6ed95b66f09e77861abbf7a651fa4fd14cecf1c038e508f74fce4c2c",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    },
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.0,
+      "grid": 128,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 15.714067220687866,
+      "peak_RSS_KiB": 1838016,
+      "geometry": [
+        {
+          "triangles": 16952,
+          "min_gradient": 1.6879320549224723,
+          "max_gradient": 1.8677250155642189,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 16760,
+          "min_gradient": 1.7307845667706196,
+          "max_gradient": 1.8822212637470868,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 5240,
+          "min_gradient": 3.23272546537293,
+          "max_gradient": 3.308198270370948,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 2.7637196837227167e-09,
+      "branch_min_eigenvalues": [
+        1.904678140007285e-10,
+        2.7804799499434575e-10,
+        5.8160658874932104e-12
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.01082415920384466,
+        "Tline": 0.7972116792771319,
+        "Tbulk": 0.19196416150540194,
+        "qT": 0.17569903691395242,
+        "qL": 0.016265124591449527,
+        "closure": 1.362154833373097e-11,
+        "partition_residual": 0.0
+      },
+      "matrix_file": "omega1_N128.npz",
+      "matrix_sha256": "8fe4df8586d4732a4aee5e628f2b2c1fe828875d06e29bf4236d90e05c3c026f",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    },
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.0,
+      "grid": 160,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 30.157966375350952,
+      "peak_RSS_KiB": 3495932,
+      "geometry": [
+        {
+          "triangles": 26120,
+          "min_gradient": 1.6886410120298738,
+          "max_gradient": 1.868767025863023,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 26120,
+          "min_gradient": 1.7312175476045442,
+          "max_gradient": 1.8820745637286351,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 8456,
+          "min_gradient": 3.236201414753262,
+          "max_gradient": 3.31115528329831,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 2.7658500393595993e-09,
+      "branch_min_eigenvalues": [
+        1.837757363094519e-10,
+        2.693791320937624e-10,
+        5.631376867461988e-12
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.01082316779374958,
+        "Tline": 0.7972229650572294,
+        "Tbulk": 0.19195386713539858,
+        "qT": 0.17568667092621754,
+        "qL": 0.016267196209181087,
+        "closure": 1.362243651215067e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "matrix_file": "omega1_N160.npz",
+      "matrix_sha256": "89a396dafaba2d2c7b59189e91b9bda23bca60613b125d8c2964659669421ab5",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    },
+    {
+      "schema": "paper1.surface-convergence.v1",
+      "omega": 1.0,
+      "grid": 192,
+      "model": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "seconds_surface": 61.76791572570801,
+      "peak_RSS_KiB": 5866436,
+      "geometry": [
+        {
+          "triangles": 37688,
+          "min_gradient": 1.6888674063152787,
+          "max_gradient": 1.8697168353123372,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 37688,
+          "min_gradient": 1.7317386821275875,
+          "max_gradient": 1.883523683842808,
+          "skipped_gradient_cells": 0
+        },
+        {
+          "triangles": 12056,
+          "min_gradient": 3.238346004436038,
+          "max_gradient": 3.312766935464418,
+          "skipped_gradient_cells": 0
+        }
+      ],
+      "raw_reciprocity_residual": 1.835461433187213e-09,
+      "branch_min_eigenvalues": [
+        1.8007894688221895e-10,
+        2.648277362871912e-10,
+        5.524780980690491e-12
+      ],
+      "fixed_old_PV_baseline": {
+        "order": 192,
+        "ensembles": [
+          "grid80x4",
+          "grid96x2",
+          "sobol20a",
+          "sobol20b",
+          "sobol20c"
+        ],
+        "Rq": 0.010822735459622847,
+        "Tline": 0.7972300699926507,
+        "Tbulk": 0.1919471945341048,
+        "qT": 0.1756791327838042,
+        "qL": 0.01626806175030058,
+        "closure": 1.3621659356033433e-11,
+        "partition_residual": 0.0
+      },
+      "matrix_file": "omega1_N192.npz",
+      "matrix_sha256": "d8a4831e75a94daa7e3246142686e4789147a715bb793f13c8c314adee9971a8",
+      "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+      "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+      "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+    }
+  ],
+  "PV_individual_records": [
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12568317880380747,
+        "qL": 0.011024573052046157,
+        "Tbulk": 0.1367077518558536,
+        "Rq": 0.0035711045524198497,
+        "Tline": 0.8597211435787723,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1963834727869331
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12568395035044422,
+        "qL": 0.011024666405928751,
+        "Tbulk": 0.1367086167563729,
+        "Rq": 0.003567947426942075,
+        "Tline": 0.8597234358037297,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.198205749765577
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17573023005846744,
+        "qL": 0.016273120209774016,
+        "Tbulk": 0.19200335026824147,
+        "Rq": 0.01083274994709947,
+        "Tline": 0.7971638997710366,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2577696778658032
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17592651140991789,
+        "qL": 0.016292576038497555,
+        "Tbulk": 0.19221908744841545,
+        "Rq": 0.010879720264816489,
+        "Tline": 0.796901192273144,
+        "amplitude_closure": 1.3623990824385146e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2523480687593234
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1256556660154483,
+        "qL": 0.011021238459131024,
+        "Tbulk": 0.13667690447457934,
+        "Rq": 0.003568934846725605,
+        "Tline": 0.8597541606657403,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1975716760266724
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565595414808894,
+        "qL": 0.011021561117188765,
+        "Tbulk": 0.13667751526527772,
+        "Rq": 0.0035640718766171415,
+        "Tline": 0.8597584128451492,
+        "amplitude_closure": 1.295596963046819e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2002618220448655
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17574520145440362,
+        "qL": 0.016274600479657758,
+        "Tbulk": 0.19201980193406143,
+        "Rq": 0.010835707739251696,
+        "Tline": 0.7971444903130634,
+        "amplitude_closure": 1.3623435712872833e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2571242582988482
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17614323453060882,
+        "qL": 0.016313938709529796,
+        "Tbulk": 0.19245717324013856,
+        "Rq": 0.010945881053756245,
+        "Tline": 0.79659694569248,
+        "amplitude_closure": 1.3625212069712234e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.248581148506227
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12563058171105196,
+        "qL": 0.011018142376604811,
+        "Tbulk": 0.13664872408765677,
+        "Rq": 0.0035650527176928643,
+        "Tline": 0.8597862231816966,
+        "amplitude_closure": 1.2953638162116476e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1992437528342448
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12563243929949836,
+        "qL": 0.011018727398332834,
+        "Tbulk": 0.1366511666978312,
+        "Rq": 0.003562835387753481,
+        "Tline": 0.85978599790146,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2012300607975788
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1758043276582465,
+        "qL": 0.016280482026524466,
+        "Tbulk": 0.19208480968477099,
+        "Rq": 0.010851739066372794,
+        "Tline": 0.7970634512352323,
+        "amplitude_closure": 1.3623990824385146e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2556600066058554
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17632179078474675,
+        "qL": 0.016331468593310496,
+        "Tbulk": 0.19265325937805722,
+        "Rq": 0.011000882857450996,
+        "Tline": 0.796345857750865,
+        "amplitude_closure": 1.3626766381946709e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2454645453862785
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1256178087469731,
+        "qL": 0.01101635663198053,
+        "Tbulk": 0.13663416537895365,
+        "Rq": 0.003560471367182715,
+        "Tline": 0.8598053632409093,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.200701755587459
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12560667619837454,
+        "qL": 0.01101552644153743,
+        "Tbulk": 0.13662220263991198,
+        "Rq": 0.0035635022159030087,
+        "Tline": 0.85981429513123,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2016348938663617
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17585914667874014,
+        "qL": 0.01628599387315287,
+        "Tbulk": 0.19214514055189297,
+        "Rq": 0.010867059737085136,
+        "Tline": 0.7969877996973984,
+        "amplitude_closure": 1.3623546735175296e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2543496023646847
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17645633686709158,
+        "qL": 0.016344574324383132,
+        "Tbulk": 0.19280091119147474,
+        "Rq": 0.01103977157937352,
+        "Tline": 0.7961593172155227,
+        "amplitude_closure": 1.3629097850298422e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2426149479029804
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12568246248888193,
+        "qL": 0.011024502052789887,
+        "Tbulk": 0.13670696454167183,
+        "Rq": 0.0035711506161591436,
+        "Tline": 0.859721884829214,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1963873108069962
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12568542610403452,
+        "qL": 0.011024803495089814,
+        "Tbulk": 0.1367102295991243,
+        "Rq": 0.0035677841568715345,
+        "Tline": 0.8597219862310491,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1981999580109095
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17573208132022072,
+        "qL": 0.016273301361286237,
+        "Tbulk": 0.19200538268150694,
+        "Rq": 0.010833312055682418,
+        "Tline": 0.7971613052491885,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2577378563416943
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17592990551831722,
+        "qL": 0.01629290811186819,
+        "Tbulk": 0.1922228136301854,
+        "Rq": 0.010881026493361291,
+        "Tline": 0.7968961598628287,
+        "amplitude_closure": 1.3624656958199921e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2523390654922166
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565441679014777,
+        "qL": 0.011021113870280463,
+        "Tbulk": 0.13667553066042828,
+        "Rq": 0.003569040995633153,
+        "Tline": 0.859755428330984,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1975760996831017
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565824942024012,
+        "qL": 0.011021768762497438,
+        "Tbulk": 0.13668001818273756,
+        "Rq": 0.003563866598056999,
+        "Tline": 0.8597561152062493,
+        "amplitude_closure": 1.2956191675073114e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2002400974125804
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1757455182572199,
+        "qL": 0.01627462782711829,
+        "Tbulk": 0.1920201460843381,
+        "Rq": 0.010835729919234673,
+        "Tline": 0.7971441239828043,
+        "amplitude_closure": 1.3622880601360521e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2571082686861073
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17614932518787574,
+        "qL": 0.016314532024156052,
+        "Tbulk": 0.19246385721203177,
+        "Rq": 0.010948129733920746,
+        "Tline": 0.7965880130404219,
+        "amplitude_closure": 1.3625545136619621e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2485468263794752
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1256290555739481,
+        "qL": 0.011017991092464277,
+        "Tbulk": 0.13664704666641236,
+        "Rq": 0.0035651897640395437,
+        "Tline": 0.8597877635565939,
+        "amplitude_closure": 1.2954193273628789e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1992484355899802
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12563528207525995,
+        "qL": 0.01101898250102731,
+        "Tbulk": 0.1366542645762873,
+        "Rq": 0.00356265582246,
+        "Tline": 0.8597830795882982,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.201186402208801
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17580197167730288,
+        "qL": 0.01628024549436858,
+        "Tbulk": 0.19208221717167154,
+        "Rq": 0.010850925604933627,
+        "Tline": 0.7970668572097712,
+        "amplitude_closure": 1.3623657757477758e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2556901656947863
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.176329996611635,
+        "qL": 0.016332267763987524,
+        "Tbulk": 0.19266226437562253,
+        "Rq": 0.011003897005055344,
+        "Tline": 0.796333838605695,
+        "amplitude_closure": 1.3627210471156559e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2454163361891992
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1256161564475936,
+        "qL": 0.011016195302263457,
+        "Tbulk": 0.13663235174985708,
+        "Rq": 0.0035606182237343195,
+        "Tline": 0.8598070300134539,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.200706464047331
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561009958287442,
+        "qL": 0.011015835460753408,
+        "Tbulk": 0.1366259350436278,
+        "Rq": 0.003563413554401256,
+        "Tline": 0.8598106513890166,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2015512689587073
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1758540207321696,
+        "qL": 0.01628548545513351,
+        "Tbulk": 0.19213950618730308,
+        "Rq": 0.010865453470656887,
+        "Tline": 0.7969950403284165,
+        "amplitude_closure": 1.3623546735175296e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2544413213702872
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count": 1048576,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17646620705780974,
+        "qL": 0.016345537879222573,
+        "Tbulk": 0.19281174493703232,
+        "Rq": 0.011043407055426585,
+        "Tline": 0.7961448479939119,
+        "amplitude_closure": 1.3629097850298422e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2425605887029074
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12565699886231502,
+        "qL": 0.01102222986555855,
+        "Tbulk": 0.1366792287278736,
+        "Rq": 0.003571752913889967,
+        "Tline": 0.8597490183452813,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.197323275268496
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12561594334505088,
+        "qL": 0.011018273465723212,
+        "Tbulk": 0.13663421681077412,
+        "Rq": 0.003571812759342916,
+        "Tline": 0.8597939704169288,
+        "amplitude_closure": 1.2954082251326327e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1986958148624027
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17570298993186964,
+        "qL": 0.016270392537401535,
+        "Tbulk": 0.19197338246927123,
+        "Rq": 0.01082731598251676,
+        "Tline": 0.7971993015345892,
+        "amplitude_closure": 1.3622880601360521e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2588515649446772
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17576531493654068,
+        "qL": 0.01627637555675937,
+        "Tbulk": 0.1920416904933,
+        "Rq": 0.0108367830681224,
+        "Tline": 0.7971215264249552,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2560030223059873
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12563305009662035,
+        "qL": 0.011019754759172676,
+        "Tbulk": 0.136652804855793,
+        "Rq": 0.0035704417452106486,
+        "Tline": 0.8597767533860421,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1985129620432269
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.125583091463071,
+        "qL": 0.01101513181047048,
+        "Tbulk": 0.13659822327354149,
+        "Rq": 0.00357200358459226,
+        "Tline": 0.8598297731289113,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1995811326476427
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17568278998109854,
+        "qL": 0.016268382519358547,
+        "Tbulk": 0.19195117250045712,
+        "Rq": 0.01082284851330903,
+        "Tline": 0.7972259789726115,
+        "amplitude_closure": 1.3622325489848208e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2594804557772454
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17580129929060156,
+        "qL": 0.016279835520222326,
+        "Tbulk": 0.1920811348108239,
+        "Rq": 0.010843741086145576,
+        "Tline": 0.7970751240894075,
+        "amplitude_closure": 1.3622991623662983e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2545541031484022
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12561854593579033,
+        "qL": 0.01101814558978837,
+        "Tbulk": 0.13663669152557872,
+        "Rq": 0.0035671750124156086,
+        "Tline": 0.8597961334490504,
+        "amplitude_closure": 1.2955192474350952e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1999559630284755
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12558447740808815,
+        "qL": 0.011015079044216907,
+        "Tbulk": 0.13659955645230507,
+        "Rq": 0.0035738067648268187,
+        "Tline": 0.8598266367699136,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.198748185963469
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17569468883756453,
+        "qL": 0.016269549897545883,
+        "Tbulk": 0.19196423873511037,
+        "Rq": 0.010826095577576729,
+        "Tline": 0.7972096656736904,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2591972764301673
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1758381976613859,
+        "qL": 0.016283350838775402,
+        "Tbulk": 0.19212154850016128,
+        "Rq": 0.010851232627570647,
+        "Tline": 0.7970272188586456,
+        "amplitude_closure": 1.3622547534453133e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2531874186608376
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561842305384263,
+        "qL": 0.011017963888641819,
+        "Tbulk": 0.13663638694248445,
+        "Rq": 0.003562939019336737,
+        "Tline": 0.8598006740252244,
+        "amplitude_closure": 1.2954415318233714e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2011125877547943
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12559684530581275,
+        "qL": 0.011015854448393486,
+        "Tbulk": 0.13661269975420626,
+        "Rq": 0.003576473822082828,
+        "Tline": 0.8598108264107571,
+        "amplitude_closure": 1.2953860206721401e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.197222264615981
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17571984555121029,
+        "qL": 0.01627206191846135,
+        "Tbulk": 0.19199190746967165,
+        "Rq": 0.010832527650927102,
+        "Tline": 0.7971755648657787,
+        "amplitude_closure": 1.3622547534453133e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2585233542196212
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17588021202811172,
+        "qL": 0.01628732966539229,
+        "Tbulk": 0.19216754169350397,
+        "Rq": 0.010861168078504622,
+        "Tline": 0.796971290214369,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2519226691284011
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12565684697245483,
+        "qL": 0.011022211567364801,
+        "Tbulk": 0.13667905853981963,
+        "Rq": 0.0035717636585284934,
+        "Tline": 0.8597491777886965,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1973191939480086
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12561663949895582,
+        "qL": 0.011018338346649096,
+        "Tbulk": 0.1366349778456049,
+        "Rq": 0.0035717852250819913,
+        "Tline": 0.8597932369163588,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1986836305217121
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17570515557626062,
+        "qL": 0.016270604032072627,
+        "Tbulk": 0.19197575960833324,
+        "Rq": 0.010828025327013643,
+        "Tline": 0.7971962150510304,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2588220863157156
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17576687426293214,
+        "qL": 0.016276527612549524,
+        "Tbulk": 0.1920434018754817,
+        "Rq": 0.010837468784916482,
+        "Tline": 0.7971191293259797,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2560161407350412
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12563282545527568,
+        "qL": 0.011019728192429136,
+        "Tbulk": 0.13665255364770482,
+        "Rq": 0.0035704708098341763,
+        "Tline": 0.8597769755295064,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1985047519277907
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1255844230062068,
+        "qL": 0.011015254991487929,
+        "Tbulk": 0.13659967799769474,
+        "Rq": 0.0035719819572193764,
+        "Tline": 0.8598283400321316,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1995470897078244
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1756848112837493,
+        "qL": 0.016268578905783093,
+        "Tbulk": 0.1919533901895324,
+        "Rq": 0.01082353128406466,
+        "Tline": 0.7972230785127803,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.259456853325342
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17580422652313715,
+        "qL": 0.016280119349681422,
+        "Tbulk": 0.19208434587281853,
+        "Rq": 0.01084493329350973,
+        "Tline": 0.7970707208200489,
+        "amplitude_closure": 1.3622769579058058e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.254559336427949
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.125618395436632,
+        "qL": 0.011018125679482888,
+        "Tbulk": 0.1366365211161149,
+        "Rq": 0.003567179481562972,
+        "Tline": 0.8597962993893663,
+        "amplitude_closure": 1.2955858608165727e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1999502357968497
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1255861625434583,
+        "qL": 0.011015236320965993,
+        "Tbulk": 0.13660139886442432,
+        "Rq": 0.0035738292288402013,
+        "Tline": 0.8598247718937808,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1986915685921813
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17569637862565257,
+        "qL": 0.016269711002196346,
+        "Tbulk": 0.19196608962784897,
+        "Rq": 0.0108267131665301,
+        "Tline": 0.797207197191998,
+        "amplitude_closure": 1.3622991623662983e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2591871381664441
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17584159925035056,
+        "qL": 0.016283680136263457,
+        "Tbulk": 0.192125279386614,
+        "Rq": 0.0108526315069228,
+        "Tline": 0.7970220890928419,
+        "amplitude_closure": 1.3621326289126046e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2531960446802357
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561829383305148,
+        "qL": 0.011017946619152178,
+        "Tbulk": 0.1366362404522037,
+        "Rq": 0.0035628952433819747,
+        "Tline": 0.8598008642914591,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2011185407449039
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12559867231073363,
+        "qL": 0.011016029158016697,
+        "Tbulk": 0.13661470146875035,
+        "Rq": 0.003576572804953499,
+        "Tline": 0.8598087257133411,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1971419771787435
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17572139529416744,
+        "qL": 0.01627220440343337,
+        "Tbulk": 0.19199359969760083,
+        "Rq": 0.01083315834962364,
+        "Tline": 0.7971732419391524,
+        "amplitude_closure": 1.3623102645965446e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2585272293241985
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count": 2097152,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1758837441670777,
+        "qL": 0.01628767351811088,
+        "Tbulk": 0.19217141768518856,
+        "Rq": 0.010862680744716689,
+        "Tline": 0.7969659015564716,
+        "amplitude_closure": 1.3623213668267908e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.251942949282357
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1256673900246384,
+        "qL": 0.01102326960739783,
+        "Tbulk": 0.13669065963203622,
+        "Rq": 0.003571876936109301,
+        "Tline": 0.8597374634188996,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1969533313354555
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12563456614000765,
+        "qL": 0.011020079541889657,
+        "Tbulk": 0.13665464568189736,
+        "Rq": 0.003571568094947814,
+        "Tline": 0.8597737862101994,
+        "amplitude_closure": 1.2955414518955877e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1981128784787463
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17568923397310598,
+        "qL": 0.016268997240112767,
+        "Tbulk": 0.19195823121321873,
+        "Rq": 0.010822759218748094,
+        "Tline": 0.7972190095544104,
+        "amplitude_closure": 1.3622769579058058e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2590122152208572
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17567295946267328,
+        "qL": 0.01626715497173638,
+        "Tbulk": 0.19194011443440967,
+        "Rq": 0.010813973918378808,
+        "Tline": 0.79724591163359,
+        "amplitude_closure": 1.362154833373097e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2586580990808276
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565465601514064,
+        "qL": 0.011021968118564898,
+        "Tbulk": 0.13667662413370557,
+        "Rq": 0.003571328894330773,
+        "Tline": 0.859752046959008,
+        "amplitude_closure": 1.2955636563560802e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1975564686315496
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12560284918922268,
+        "qL": 0.01101693341694865,
+        "Tbulk": 0.13661978260617139,
+        "Rq": 0.0035720030819886895,
+        "Tline": 0.8598082142988852,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1988970968162376
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1756601837280315,
+        "qL": 0.0162660662840726,
+        "Tbulk": 0.1919262500121041,
+        "Rq": 0.010814791673192619,
+        "Tline": 0.7972589583010817,
+        "amplitude_closure": 1.362154833373097e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2596319402511
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17569462536006286,
+        "qL": 0.016269268984734558,
+        "Tbulk": 0.19196389434479735,
+        "Rq": 0.010818003342803731,
+        "Tline": 0.7972181022987768,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2577305597050867
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12564398089671247,
+        "qL": 0.011020858254058177,
+        "Tbulk": 0.13666483915077063,
+        "Rq": 0.003569860083873934,
+        "Tline": 0.8597653007524007,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1983609663471386
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12559928049156105,
+        "qL": 0.01101628687144404,
+        "Tbulk": 0.13661556736300515,
+        "Rq": 0.0035736113373721176,
+        "Tline": 0.8598108212866677,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1982114486233018
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.175643331430343,
+        "qL": 0.016264290262722757,
+        "Tbulk": 0.19190762169306577,
+        "Rq": 0.010809486240993942,
+        "Tline": 0.7972828920523185,
+        "amplitude_closure": 1.3621770378335896e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2598903469836416
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.175720799107127,
+        "qL": 0.016271799288127765,
+        "Tbulk": 0.19199259839525473,
+        "Rq": 0.010822442807614121,
+        "Tline": 0.7971849587835096,
+        "amplitude_closure": 1.362154833373097e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2565955812887626
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12563372323792923,
+        "qL": 0.011019796654566483,
+        "Tbulk": 0.1366535198924957,
+        "Rq": 0.003567613281341336,
+        "Tline": 0.8597788668132088,
+        "amplitude_closure": 1.2954082251326327e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1993077425156324
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561067934184547,
+        "qL": 0.011016958793489651,
+        "Tbulk": 0.13662763813533513,
+        "Rq": 0.0035757943624324428,
+        "Tline": 0.8597965674892788,
+        "amplitude_closure": 1.2953638162116476e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.196725403811291
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17562529901091717,
+        "qL": 0.016262419171005234,
+        "Tbulk": 0.1918877181819224,
+        "Rq": 0.010803317641464527,
+        "Tline": 0.7973089641629911,
+        "amplitude_closure": 1.3621881400638358e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.260093595539571
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17575692325338865,
+        "qL": 0.01627525988689193,
+        "Tbulk": 0.1920321831402806,
+        "Rq": 0.010829573158166147,
+        "Tline": 0.7971382436879312,
+        "amplitude_closure": 1.3622103445243283e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2552594554975613
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12566751936919895,
+        "qL": 0.011023279416558857,
+        "Tbulk": 0.13669079878575782,
+        "Rq": 0.0035718817350285383,
+        "Tline": 0.859737319466259,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1969412760701301
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12563562061497172,
+        "qL": 0.011020180862560462,
+        "Tbulk": 0.13665580147753215,
+        "Rq": 0.0035715340918842293,
+        "Tline": 0.8597726644176289,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.198090061379924
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1756896502169459,
+        "qL": 0.016269036796802912,
+        "Tbulk": 0.1919586870137488,
+        "Rq": 0.010822983806899139,
+        "Tline": 0.7972183291657289,
+        "amplitude_closure": 1.3623102645965446e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2590228867669695
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17567397416324018,
+        "qL": 0.016267255970146305,
+        "Tbulk": 0.19194123013338654,
+        "Rq": 0.01081441671271996,
+        "Tline": 0.7972443531402718,
+        "amplitude_closure": 1.3621770378335896e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2586650673427402
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565502609303575,
+        "qL": 0.011022000129778489,
+        "Tbulk": 0.13667702622281422,
+        "Rq": 0.003571334128395617,
+        "Tline": 0.8597516396358349,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1975330461430609
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12560432990464002,
+        "qL": 0.011017074683091028,
+        "Tbulk": 0.13662140458773106,
+        "Rq": 0.003571966798918597,
+        "Tline": 0.8598066286003954,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1988617693264143
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17566058549987834,
+        "qL": 0.01626610433637995,
+        "Tbulk": 0.19192668983625832,
+        "Rq": 0.010815060672010523,
+        "Tline": 0.7972582494781085,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.259651581724655
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17569609810368952,
+        "qL": 0.016269414140121015,
+        "Tbulk": 0.19196551224381053,
+        "Rq": 0.01081860813900383,
+        "Tline": 0.7972158796035632,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2577343884131715
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12564481584188425,
+        "qL": 0.011020934681423088,
+        "Tbulk": 0.13666575052330734,
+        "Rq": 0.0035698349339249196,
+        "Tline": 0.8597644145298129,
+        "amplitude_closure": 1.2954859407443564e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1983281703328323
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12560085336538662,
+        "qL": 0.011016438420271606,
+        "Tbulk": 0.13661729178565826,
+        "Rq": 0.0035735989481332146,
+        "Tline": 0.8598091092532539,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1981678515105112
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17564382490616828,
+        "qL": 0.01626433634418776,
+        "Tbulk": 0.19190816125035606,
+        "Rq": 0.01080983906341377,
+        "Tline": 0.7972819996726082,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2599182243203884
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17572213625626354,
+        "qL": 0.01627193119582258,
+        "Tbulk": 0.19199406745208614,
+        "Rq": 0.01082300422426214,
+        "Tline": 0.7971829283100306,
+        "amplitude_closure": 1.362110424452112e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2566029540506354
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1256350183256904,
+        "qL": 0.01101991835637473,
+        "Tbulk": 0.13665493668206508,
+        "Rq": 0.0035675469404861503,
+        "Tline": 0.8597775163644944,
+        "amplitude_closure": 1.2954415318233714e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1992710504840953
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561227125168464,
+        "qL": 0.011017115805156626,
+        "Tbulk": 0.1366293870568413,
+        "Rq": 0.003575818164586839,
+        "Tline": 0.8597947947656176,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1966724917124152
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1756260395730249,
+        "qL": 0.016262487242148026,
+        "Tbulk": 0.191888526815173,
+        "Rq": 0.010803799773504173,
+        "Tline": 0.7973076733977008,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2601267708188622
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count": 4194304,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17575808481846927,
+        "qL": 0.01627537710710792,
+        "Tbulk": 0.1920334619255772,
+        "Rq": 0.010830098837601991,
+        "Tline": 0.7971364392231982,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2552744143921635
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12566694880222795,
+        "qL": 0.011023222317003027,
+        "Tbulk": 0.13669017111923096,
+        "Rq": 0.0035719299906077414,
+        "Tline": 0.859737898877207,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1969530275435762
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12567018363838744,
+        "qL": 0.011023725363338073,
+        "Tbulk": 0.1366939090017255,
+        "Rq": 0.003572416767610918,
+        "Tline": 0.859733674217709,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.196756283503607
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17568986714583684,
+        "qL": 0.016269065649611426,
+        "Tbulk": 0.1919589327954483,
+        "Rq": 0.010823073413228171,
+        "Tline": 0.7972179937777009,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2590213952790572
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17570444549389058,
+        "qL": 0.016270530716041513,
+        "Tbulk": 0.1919749762099321,
+        "Rq": 0.010825419347172573,
+        "Tline": 0.7971996044292716,
+        "amplitude_closure": 1.3623657757477758e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2583970935588036
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565523401006934,
+        "qL": 0.011022031486778718,
+        "Tbulk": 0.13667726549684808,
+        "Rq": 0.003571424348063757,
+        "Tline": 0.8597513101421338,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1975074615442993
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12566251129145026,
+        "qL": 0.011023175006517632,
+        "Tbulk": 0.1366856862979679,
+        "Rq": 0.0035729754932499304,
+        "Tline": 0.8597413381958267,
+        "amplitude_closure": 1.2955414518955877e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.196845587539727
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1756620318984111,
+        "qL": 0.01626626701836487,
+        "Tbulk": 0.19192829891677593,
+        "Rq": 0.010815584400555547,
+        "Tline": 0.7972561166690465,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2596396190082886
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17571814319495904,
+        "qL": 0.016272026574032126,
+        "Tbulk": 0.19199016976899116,
+        "Rq": 0.01082916584872157,
+        "Tline": 0.797180664368665,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2579893620068285
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1256455468814399,
+        "qL": 0.011021029505209902,
+        "Tbulk": 0.13666657638664984,
+        "Rq": 0.003570040156441384,
+        "Tline": 0.859763383443954,
+        "amplitude_closure": 1.2954859407443564e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.198256285794471
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1256773079717473,
+        "qL": 0.011024663989117575,
+        "Tbulk": 0.13670197196086487,
+        "Rq": 0.003574201788656767,
+        "Tline": 0.8597238262375239,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.195906566853473
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17564592220709344,
+        "qL": 0.016264574313449964,
+        "Tbulk": 0.19191049652054343,
+        "Rq": 0.010810566704409072,
+        "Tline": 0.7972789367614251,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2599007845941144
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17573021509945536,
+        "qL": 0.0162732987659385,
+        "Tbulk": 0.1920035138653938,
+        "Rq": 0.01083162647804546,
+        "Tline": 0.7971648596429375,
+        "amplitude_closure": 1.3623213668267908e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2574983485007614
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12563530434561088,
+        "qL": 0.01101997378272123,
+        "Tbulk": 0.1366552781283321,
+        "Rq": 0.0035678571539660598,
+        "Tline": 0.8597768647047468,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1991932015809998
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12571024256684954,
+        "qL": 0.011027782623590287,
+        "Tbulk": 0.13673802519043987,
+        "Rq": 0.003575831861438605,
+        "Tline": 0.8596861429351668,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1941387883049408
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17562778135394183,
+        "qL": 0.01626269005582559,
+        "Tbulk": 0.1918904714097674,
+        "Rq": 0.010804286343312918,
+        "Tline": 0.7973052422332992,
+        "amplitude_closure": 1.3620438110706345e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2600984796586565
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17573840547484545,
+        "qL": 0.016274146615695134,
+        "Tbulk": 0.19201255209054058,
+        "Rq": 0.010832710613396083,
+        "Tline": 0.7971547372824412,
+        "amplitude_closure": 1.3622103445243283e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2570504301715013
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12566704471909035,
+        "qL": 0.01102322949151841,
+        "Tbulk": 0.13669027421060875,
+        "Rq": 0.0035718965202932696,
+        "Tline": 0.859737829256143,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1969536771263518
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12567084605070838,
+        "qL": 0.011023787245934337,
+        "Tbulk": 0.1366946332966427,
+        "Rq": 0.0035723877961481225,
+        "Tline": 0.8597329788942547,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1967445942182866
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17568994751261593,
+        "qL": 0.01626907395099676,
+        "Tbulk": 0.19195902146361268,
+        "Rq": 0.01082317248680098,
+        "Tline": 0.7972178060359641,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2590331087675606
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17570540963828588,
+        "qL": 0.016270626776821336,
+        "Tbulk": 0.19197603641510722,
+        "Rq": 0.010825809002921499,
+        "Tline": 0.7971981545683485,
+        "amplitude_closure": 1.3622769579058058e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2583982813050698
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1256552813305077,
+        "qL": 0.011022032610778026,
+        "Tbulk": 0.13667731394128577,
+        "Rq": 0.0035713708190500686,
+        "Tline": 0.8597513152267089,
+        "amplitude_closure": 1.2955192474350952e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.197510697133692
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12566322991764362,
+        "qL": 0.011023241052599981,
+        "Tbulk": 0.13668647097024364,
+        "Rq": 0.0035729278704454467,
+        "Tline": 0.8597406011463569,
+        "amplitude_closure": 1.2953971229023864e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1968378319880077
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17566206227398845,
+        "qL": 0.016266271619203982,
+        "Tbulk": 0.19192833389319258,
+        "Rq": 0.010815716355823669,
+        "Tline": 0.7972559497373616,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 1.3877787807814457e-16
+      },
+      "PV_norm": 1.2596601077122411
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1757197699018952,
+        "qL": 0.01627218822107514,
+        "Tbulk": 0.1919919581229703,
+        "Rq": 0.010829780843560708,
+        "Tline": 0.7971782610198467,
+        "amplitude_closure": 1.3622325489848208e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2579837858615281
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12564558530211575,
+        "qL": 0.011021028513197527,
+        "Tbulk": 0.13666661381531323,
+        "Rq": 0.003569951633756004,
+        "Tline": 0.8597634345379755,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.198264261119148
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12567784453687636,
+        "qL": 0.01102471283231722,
+        "Tbulk": 0.1367025573691935,
+        "Rq": 0.003574156752181141,
+        "Tline": 0.8597232858656703,
+        "amplitude_closure": 1.2955192474350952e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1959050561779176
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17564624695818937,
+        "qL": 0.016264608723240297,
+        "Tbulk": 0.19191085568142963,
+        "Rq": 0.010810839946291631,
+        "Tline": 0.7972783043586562,
+        "amplitude_closure": 1.3622547534453133e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2599244671401124
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1757325204085974,
+        "qL": 0.016273528209770648,
+        "Tbulk": 0.19200604861836806,
+        "Rq": 0.010832462146755763,
+        "Tline": 0.7971614892212542,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2574839959089936
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12563540686983402,
+        "qL": 0.011019977722008247,
+        "Tbulk": 0.1366553845918423,
+        "Rq": 0.003567727322804426,
+        "Tline": 0.8597768880723989,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1992058339982328
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12571060317884764,
+        "qL": 0.011027815838437437,
+        "Tbulk": 0.1367384190172851,
+        "Rq": 0.003575800472613715,
+        "Tline": 0.8596857804971465,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1941398094716
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260920,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17562875439762432,
+        "qL": 0.016262787796193,
+        "Tbulk": 0.1918915421938173,
+        "Rq": 0.010804817905544809,
+        "Tline": 0.7973036398870158,
+        "amplitude_closure": 1.3622103445243283e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.260120638598566
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count": 8388608,
+      "seed": 20260921,
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1757413174610012,
+        "qL": 0.016274437943754383,
+        "Tbulk": 0.19201575540475552,
+        "Rq": 0.0108337495403277,
+        "Tline": 0.7971504950412936,
+        "amplitude_closure": 1.3623102645965446e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2570292634217652
+    }
+  ],
+  "PV_mean_records": [
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12568356378640122,
+        "qL": 0.011024619660534892,
+        "Tbulk": 0.13670818344693614,
+        "Rq": 0.00356952578808438,
+        "Tline": 0.8597222907520232,
+        "amplitude_closure": 1.2956302697375577e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1972932057450827
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1758283378013192,
+        "qL": 0.01628284472696753,
+        "Tbulk": 0.19211118252828668,
+        "Rq": 0.010856212067579422,
+        "Tline": 0.7970326053905104,
+        "amplitude_closure": 1.3623546735175296e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.255049634649477
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1256558079343644,
+        "qL": 0.011021399604375443,
+        "Tbulk": 0.13667720753873985,
+        "Rq": 0.00356650288427102,
+        "Tline": 0.8597562895640346,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1989139239819648
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17594407068813156,
+        "qL": 0.01629425453253456,
+        "Tbulk": 0.19223832522066614,
+        "Rq": 0.01089067373354168,
+        "Tline": 0.7968710010321673,
+        "amplitude_closure": 1.3624879002804846e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.252830748968575
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12563150956986033,
+        "qL": 0.01101843481424225,
+        "Tbulk": 0.13664994438410258,
+        "Rq": 0.003563943971313943,
+        "Tline": 0.8597861116316287,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.200234193322887
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17606280435108218,
+        "qL": 0.0163059493823224,
+        "Tbulk": 0.19236875373340456,
+        "Rq": 0.010926093502406748,
+        "Tline": 0.7967051527505643,
+        "amplitude_closure": 1.3624434913594996e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2505316902738897
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561224180274905,
+        "qL": 0.011015941468084758,
+        "Tbulk": 0.13662818327083376,
+        "Rq": 0.0035619865830055428,
+        "Tline": 0.8598098301332056,
+        "amplitude_closure": 1.2955192474350952e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2011657098247182
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17615740460700235,
+        "qL": 0.016315249997188076,
+        "Tbulk": 0.19247265460419044,
+        "Rq": 0.01095312543190927,
+        "Tline": 0.7965742199502744,
+        "amplitude_closure": 1.3625767181224546e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2484449728379055
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1256839433526249,
+        "qL": 0.01102465269185075,
+        "Tbulk": 0.13670859604447566,
+        "Rq": 0.0035694671703276025,
+        "Tline": 0.8597219367722418,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.197292153469493
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1758309598389466,
+        "qL": 0.01628310127417085,
+        "Tbulk": 0.19211406111311743,
+        "Rq": 0.01085714556145448,
+        "Tline": 0.7970287933118044,
+        "amplitude_closure": 1.3623657757477758e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2550292800001632
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565633057760275,
+        "qL": 0.011021441096687734,
+        "Tbulk": 0.13667777167429046,
+        "Rq": 0.003566453289562276,
+        "Tline": 0.8597557750231926,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1989051042755021
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1759472695016877,
+        "qL": 0.016294564366000908,
+        "Tbulk": 0.1922418338676886,
+        "Rq": 0.01089180447120159,
+        "Tline": 0.7968663616474849,
+        "amplitude_closure": 1.3624879002804846e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2528053818398344
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12563216759188875,
+        "qL": 0.011018486694585607,
+        "Tbulk": 0.13665065428647433,
+        "Rq": 0.003563922709733576,
+        "Tline": 0.8597854229908366,
+        "amplitude_closure": 1.2955414518955877e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2002145496600634
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17606571766332235,
+        "qL": 0.016306229526960443,
+        "Tbulk": 0.19237194719028278,
+        "Rq": 0.010927182924349636,
+        "Tline": 0.7967008698717414,
+        "amplitude_closure": 1.3626211270434396e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2505219487529908
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12561312759626578,
+        "qL": 0.011016015336655414,
+        "Tbulk": 0.13662914293292117,
+        "Rq": 0.0035620156845616153,
+        "Tline": 0.8598088413695625,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2011261842560352
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 20,
+      "sample_count_per_seed": 1048576,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17615975803533598,
+        "qL": 0.016315475676576898,
+        "Tbulk": 0.19247523371191289,
+        "Rq": 0.010954122646948193,
+        "Tline": 0.796570643627513,
+        "amplitude_closure": 1.3625989225829471e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2484623936656551
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12563646861700806,
+        "qL": 0.011020251419573166,
+        "Tbulk": 0.13665672003658125,
+        "Rq": 0.003571782925706259,
+        "Tline": 0.8597714970247575,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1980091084551208
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17573414948629257,
+        "qL": 0.016273383755934446,
+        "Tbulk": 0.19200753324222697,
+        "Rq": 0.01083204846543811,
+        "Tline": 0.7971604182787128,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.257426298990337
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12560806664695248,
+        "qL": 0.011017442899700343,
+        "Tbulk": 0.1366255095466528,
+        "Rq": 0.0035712228644680043,
+        "Tline": 0.8598032675759246,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1990462018116514
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17574203388560125,
+        "qL": 0.016274107946057503,
+        "Tbulk": 0.19201614183165874,
+        "Rq": 0.01083328982824562,
+        "Tline": 0.7971505683264727,
+        "amplitude_closure": 1.3622991623662983e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2570145706077034
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12560150616983967,
+        "qL": 0.011016611809268691,
+        "Tbulk": 0.13661811797910833,
+        "Rq": 0.003570490367085542,
+        "Tline": 0.8598113916408516,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1993496685308154
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17576642755494667,
+        "qL": 0.016276448814058084,
+        "Tbulk": 0.1920428763690048,
+        "Rq": 0.010838656910183266,
+        "Tline": 0.7971184667071898,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2561883957272355
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12560762049172255,
+        "qL": 0.01101690787898164,
+        "Tbulk": 0.13662452837070416,
+        "Rq": 0.003569702937080601,
+        "Tline": 0.8598057686792604,
+        "amplitude_closure": 1.2954859407443564e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.199159121087048
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.1758000092741533,
+        "qL": 0.0162796938944059,
+        "Tbulk": 0.19207970316855918,
+        "Rq": 0.010846838608621148,
+        "Tline": 0.7970734582091965,
+        "amplitude_closure": 1.3623213668267908e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2552183584586114
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12563674086368565,
+        "qL": 0.01102027472224132,
+        "Tbulk": 0.13665701558592702,
+        "Rq": 0.003571774524300943,
+        "Tline": 0.8597712098768171,
+        "amplitude_closure": 1.2954970429746027e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.198000999718482
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17573601202976963,
+        "qL": 0.016273565537036096,
+        "Tbulk": 0.19200957756680573,
+        "Rq": 0.010832746003486828,
+        "Tline": 0.7971576764160851,
+        "amplitude_closure": 1.3622325489848208e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2574181476285191
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12560862036139295,
+        "qL": 0.011017491231870978,
+        "Tbulk": 0.136626111593264,
+        "Rq": 0.003571226570043739,
+        "Tline": 0.8598026618237378,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.199025136185995
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17574450797141267,
+        "qL": 0.016274348036059472,
+        "Tbulk": 0.19201885600747212,
+        "Rq": 0.010834227097174905,
+        "Tline": 0.7971469168817309,
+        "amplitude_closure": 1.3622103445243283e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2570054391902477
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12560227373961746,
+        "qL": 0.011016680515580168,
+        "Tbulk": 0.13661895425519766,
+        "Rq": 0.0035705038007235253,
+        "Tline": 0.8598105419311225,
+        "amplitude_closure": 1.2956302697375577e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.199318561160694
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1757689728395498,
+        "qL": 0.016276693974651757,
+        "Tbulk": 0.1920456668142015,
+        "Rq": 0.010839664731376195,
+        "Tline": 0.7971146684407998,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2561877050927037
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12560846948379867,
+        "qL": 0.011016986607486321,
+        "Tbulk": 0.13662545609128504,
+        "Rq": 0.003569730404464233,
+        "Tline": 0.859804813491296,
+        "amplitude_closure": 1.2954637362838639e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.1991219244798157
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 21,
+      "sample_count_per_seed": 2097152,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17580254969190653,
+        "qL": 0.016279937009661904,
+        "Tbulk": 0.19208248670156847,
+        "Rq": 0.010847909763022336,
+        "Tline": 0.7970696035217864,
+        "amplitude_closure": 1.3622880601360521e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2552305035075835
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12565097654304852,
+        "qL": 0.011021674420155418,
+        "Tbulk": 0.13667265096320388,
+        "Rq": 0.0035717225523939733,
+        "Tline": 0.8597556264714478,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.197532793345381
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17568109593390885,
+        "qL": 0.016268076022501944,
+        "Tbulk": 0.1919491719564108,
+        "Rq": 0.010818365902618305,
+        "Tline": 0.7972324621273483,
+        "amplitude_closure": 1.3622547534453133e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2588348560385716
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12562874827932907,
+        "qL": 0.011019450340210341,
+        "Tbulk": 0.13664819861953942,
+        "Rq": 0.003571666189428807,
+        "Tline": 0.859780135178077,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1982258213817736
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17567740358479395,
+        "qL": 0.0162676675445035,
+        "Tbulk": 0.19194507112929743,
+        "Rq": 0.010816397380582687,
+        "Tline": 0.7972385314764977,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2586805320883283
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12562162498418156,
+        "qL": 0.011018571998929099,
+        "Tbulk": 0.1366401969831107,
+        "Rq": 0.0035717358585589942,
+        "Tline": 0.8597880671453751,
+        "amplitude_closure": 1.2955192474350952e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1982838799893032
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1756820606921081,
+        "qL": 0.016268044315830222,
+        "Tbulk": 0.19195010500793833,
+        "Rq": 0.010815962586267436,
+        "Tline": 0.7972339323921732,
+        "amplitude_closure": 1.3620993222218658e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2582411765733537
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12562219287644477,
+        "qL": 0.011018376920165152,
+        "Tbulk": 0.1366405697966099,
+        "Rq": 0.0035717028429485638,
+        "Tline": 0.859787727347486,
+        "amplitude_closure": 1.295552554125834e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1980106104843173
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17569109751752326,
+        "qL": 0.016268838149340104,
+        "Tbulk": 0.19195993566686337,
+        "Rq": 0.010816437808399939,
+        "Tline": 0.7972236265111147,
+        "amplitude_closure": 1.362199242294082e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2576730032998018
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12565156854963377,
+        "qL": 0.011021729994741247,
+        "Tbulk": 0.13667329854437502,
+        "Rq": 0.003571707944583553,
+        "Tline": 0.8597549934980867,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.197515377416692
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.17568181144225098,
+        "qL": 0.016268146303911803,
+        "Tbulk": 0.19194995774616272,
+        "Rq": 0.010818699627909273,
+        "Tline": 0.7972313426123054,
+        "amplitude_closure": 1.3622547534453133e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2588436815654276
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1256296738767888,
+        "qL": 0.011019536998696502,
+        "Tbulk": 0.1366492108754853,
+        "Rq": 0.003571650654117284,
+        "Tline": 0.8597791384574429,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1981965002431256
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17567834079530453,
+        "qL": 0.016267759143643,
+        "Tbulk": 0.19194609993894757,
+        "Rq": 0.010816834249530739,
+        "Tline": 0.7972370657978994,
+        "amplitude_closure": 1.3622214467545746e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2586922627456758
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.12562282902475563,
+        "qL": 0.011018686000215083,
+        "Tbulk": 0.13664151502497077,
+        "Rq": 0.003571717077417963,
+        "Tline": 0.8597867678846564,
+        "amplitude_closure": 1.2954859407443564e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.19824574911418
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17568297590159898,
+        "qL": 0.016268133299660953,
+        "Tbulk": 0.19195110920126002,
+        "Rq": 0.010816419645514302,
+        "Tline": 0.7972324711396029,
+        "amplitude_closure": 1.3622769579058058e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2582587724266396
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12562363634330065,
+        "qL": 0.01101851627422227,
+        "Tbulk": 0.13664215261752294,
+        "Rq": 0.0035716815370034844,
+        "Tline": 0.8597861658325193,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1979658265319293
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 22,
+      "sample_count_per_seed": 4194304,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17569204849011688,
+        "qL": 0.016268930784334296,
+        "Tbulk": 0.1919609792744512,
+        "Rq": 0.010816941684174169,
+        "Tline": 0.7972220790277526,
+        "amplitude_closure": 1.3622103445243283e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.257697007569508
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12566856617845676,
+        "qL": 0.01102347383395258,
+        "Tbulk": 0.13669204001240934,
+        "Rq": 0.0035721733724030126,
+        "Tline": 0.8597357866022329,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.19685460183935
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1756971561521209,
+        "qL": 0.01626979816497591,
+        "Tbulk": 0.19196695431709676,
+        "Rq": 0.010824246315647748,
+        "Tline": 0.7972087993536329,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2587091584027033
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1256588724318668,
+        "qL": 0.01102260321314493,
+        "Tbulk": 0.13668147564501174,
+        "Rq": 0.0035721998483642776,
+        "Tline": 0.8597463244936688,
+        "amplitude_closure": 1.2955081452048489e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1971762745091319
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.1756900846458248,
+        "qL": 0.01626914648247502,
+        "Tbulk": 0.19195923112829985,
+        "Rq": 0.010822373169700132,
+        "Tline": 0.7972183956883774,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2588138826610185
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1256614257410992,
+        "qL": 0.011022846526184894,
+        "Tbulk": 0.1366842722672841,
+        "Rq": 0.0035721204072263696,
+        "Tline": 0.8597436073125354,
+        "amplitude_closure": 1.2954193273628789e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1970803260972562
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17568806184589203,
+        "qL": 0.016268935796938992,
+        "Tbulk": 0.19195699764283108,
+        "Rq": 0.010821091914637399,
+        "Tline": 0.7972219104289089,
+        "amplitude_closure": 1.3622658556755596e-11,
+        "partition_residual": 5.551115123125783e-17
+      },
+      "PV_norm": 1.2586982904878947
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12567276553345874,
+        "qL": 0.011023877283242674,
+        "Tbulk": 0.1366966428167014,
+        "Rq": 0.0035718423376993173,
+        "Tline": 0.8597315148326446,
+        "amplitude_closure": 1.2954526340536177e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1966620426031591
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 8192,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17568308146075046,
+        "qL": 0.016268417032446716,
+        "Tbulk": 0.19195149849319706,
+        "Rq": 0.010818490033131305,
+        "Tline": 0.7972300114600493,
+        "amplitude_closure": 1.3622325489848208e-11,
+        "partition_residual": 8.326672684688674e-17
+      },
+      "PV_norm": 1.2585725594669055
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.12566894533675388,
+        "qL": 0.011023508361671349,
+        "Tbulk": 0.13669245369842523,
+        "Rq": 0.0035721421513438775,
+        "Tline": 0.8597354041372768,
+        "amplitude_closure": 1.2954193273628789e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1968490765560595
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 192,
+      "coefficient": {
+        "qT": 0.1756976783862404,
+        "qL": 0.016269850343827524,
+        "Tbulk": 0.19196752873006792,
+        "Rq": 0.010824490664526502,
+        "Tline": 0.7972079805917832,
+        "amplitude_closure": 1.3622325489848208e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2587156063957001
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.12565925539196318,
+        "qL": 0.011022636796258718,
+        "Tbulk": 0.1366818921882219,
+        "Rq": 0.0035721492712359523,
+        "Tline": 0.8597459585275878,
+        "amplitude_closure": 1.2954304295931252e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1971740001077964
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 256,
+      "coefficient": {
+        "qT": 0.17569091301710726,
+        "qL": 0.016269229588687203,
+        "Tbulk": 0.19196014260579444,
+        "Rq": 0.010822746509512347,
+        "Tline": 0.7972171108710708,
+        "amplitude_closure": 1.362243651215067e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.2588213141348996
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.1256617131937082,
+        "qL": 0.011022870446899025,
+        "Tbulk": 0.13668458364060723,
+        "Rq": 0.0035720536153390787,
+        "Tline": 0.859743362731099,
+        "amplitude_closure": 1.2954748385141102e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.1970835198768734
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 320,
+      "coefficient": {
+        "qT": 0.17568937656083744,
+        "qL": 0.016269067690631717,
+        "Tbulk": 0.19195844425146913,
+        "Rq": 0.010821646125753858,
+        "Tline": 0.7972199096091538,
+        "amplitude_closure": 1.3623213668267908e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2587028990541136
+    },
+    {
+      "omega": 1.2,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.12567299703792817,
+        "qL": 0.011023895852496772,
+        "Tbulk": 0.13669689289042497,
+        "Rq": 0.0035717616774748498,
+        "Tline": 0.8597313454191449,
+        "amplitude_closure": 1.2955303496653414e-11,
+        "partition_residual": 2.7755575615628914e-17
+      },
+      "PV_norm": 1.1966687704683217
+    },
+    {
+      "omega": 1.0,
+      "surface_grid": 192,
+      "power": 23,
+      "sample_count_per_seed": 8388608,
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "nseg": 10,
+      "bins": 16384,
+      "order": 384,
+      "coefficient": {
+        "qT": 0.17568502357218058,
+        "qL": 0.016268611523776105,
+        "Tbulk": 0.1919536350959567,
+        "Rq": 0.010819274978250913,
+        "Tline": 0.7972270899121706,
+        "amplitude_closure": 1.3621770378335896e-11,
+        "partition_residual": 0.0
+      },
+      "PV_norm": 1.2585729641095125
+    }
+  ],
+  "summary": [
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 20,
+      "order": 192,
+      "mean_qT": 0.1256839433526249,
+      "seed_qT_min": 0.12568246248888193,
+      "seed_qT_max": 0.12568542610403452,
+      "seed_span_relative": 2.3579902679178264e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 20,
+      "order": 256,
+      "mean_qT": 0.12565633057760275,
+      "seed_qT_min": 0.12565441679014777,
+      "seed_qT_max": 0.12565824942024012,
+      "seed_span_relative": 3.0500891397442357e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 20,
+      "order": 320,
+      "mean_qT": 0.12563216759188875,
+      "seed_qT_min": 0.1256290555739481,
+      "seed_qT_max": 0.12563528207525995,
+      "seed_span_relative": 4.956136180088651e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 20,
+      "order": 384,
+      "mean_qT": 0.12561312759626578,
+      "seed_qT_min": 0.12561009958287442,
+      "seed_qT_max": 0.1256161564475936,
+      "seed_span_relative": 4.821840547316715e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 21,
+      "order": 192,
+      "mean_qT": 0.12563674086368565,
+      "seed_qT_min": 0.12561663949895582,
+      "seed_qT_max": 0.12565684697245483,
+      "seed_span_relative": 0.00032002958069908034
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 21,
+      "order": 256,
+      "mean_qT": 0.12560862036139295,
+      "seed_qT_min": 0.1255844230062068,
+      "seed_qT_max": 0.12563282545527568,
+      "seed_span_relative": 0.0003853433699821556
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 21,
+      "order": 320,
+      "mean_qT": 0.12560227373961746,
+      "seed_qT_min": 0.1255861625434583,
+      "seed_qT_max": 0.125618395436632,
+      "seed_span_relative": 0.000256626669358836
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 21,
+      "order": 384,
+      "mean_qT": 0.12560846948379867,
+      "seed_qT_min": 0.12559867231073363,
+      "seed_qT_max": 0.12561829383305148,
+      "seed_span_relative": 0.000156211777744684
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 22,
+      "order": 192,
+      "mean_qT": 0.12565156854963377,
+      "seed_qT_min": 0.12563562061497172,
+      "seed_qT_max": 0.12566751936919895,
+      "seed_span_relative": 0.0002538667411432933
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 22,
+      "order": 256,
+      "mean_qT": 0.1256296738767888,
+      "seed_qT_min": 0.12560432990464002,
+      "seed_qT_max": 0.12565502609303575,
+      "seed_span_relative": 0.000403536734843813
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 22,
+      "order": 320,
+      "mean_qT": 0.12562282902475563,
+      "seed_qT_min": 0.12560085336538662,
+      "seed_qT_max": 0.12564481584188425,
+      "seed_span_relative": 0.00034995610940241005
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 22,
+      "order": 384,
+      "mean_qT": 0.12562363634330065,
+      "seed_qT_min": 0.12561227125168464,
+      "seed_qT_max": 0.1256350183256904,
+      "seed_span_relative": 0.0001810732014125178
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 23,
+      "order": 192,
+      "mean_qT": 0.12566894533675388,
+      "seed_qT_min": 0.12566704471909035,
+      "seed_qT_max": 0.12567084605070838,
+      "seed_span_relative": 3.024877472990575e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 23,
+      "order": 256,
+      "mean_qT": 0.12565925539196318,
+      "seed_qT_min": 0.1256552813305077,
+      "seed_qT_max": 0.12566322991764362,
+      "seed_span_relative": 6.325508702967726e-05
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 23,
+      "order": 320,
+      "mean_qT": 0.1256617131937082,
+      "seed_qT_min": 0.12564558530211575,
+      "seed_qT_max": 0.12567784453687636,
+      "seed_span_relative": 0.0002567149049677428
+    },
+    {
+      "omega": 1.2,
+      "N": 192,
+      "power": 23,
+      "order": 384,
+      "mean_qT": 0.12567299703792817,
+      "seed_qT_min": 0.12563540686983402,
+      "seed_qT_max": 0.12571060317884764,
+      "seed_span_relative": 0.0005983489754042037
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 20,
+      "order": 192,
+      "mean_qT": 0.1758309598389466,
+      "seed_qT_min": 0.17573208132022072,
+      "seed_qT_max": 0.17592990551831722,
+      "seed_span_relative": 0.001125081716426362
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 20,
+      "order": 256,
+      "mean_qT": 0.1759472695016877,
+      "seed_qT_min": 0.1757455182572199,
+      "seed_qT_max": 0.17614932518787574,
+      "seed_span_relative": 0.0022950451677908154
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 20,
+      "order": 320,
+      "mean_qT": 0.17606571766332235,
+      "seed_qT_min": 0.17580197167730288,
+      "seed_qT_max": 0.176329996611635,
+      "seed_span_relative": 0.002999021850135704
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 20,
+      "order": 384,
+      "mean_qT": 0.17615975803533598,
+      "seed_qT_min": 0.1758540207321696,
+      "seed_qT_max": 0.17646620705780974,
+      "seed_span_relative": 0.0034751769216062487
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 21,
+      "order": 192,
+      "mean_qT": 0.17573601202976963,
+      "seed_qT_min": 0.17570515557626062,
+      "seed_qT_max": 0.17576687426293214,
+      "seed_span_relative": 0.0003512011337838852
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 21,
+      "order": 256,
+      "mean_qT": 0.17574450797141267,
+      "seed_qT_min": 0.1756848112837493,
+      "seed_qT_max": 0.17580422652313715,
+      "seed_span_relative": 0.0006794820547523401
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 21,
+      "order": 320,
+      "mean_qT": 0.1757689728395498,
+      "seed_qT_min": 0.17569637862565257,
+      "seed_qT_max": 0.17584159925035056,
+      "seed_span_relative": 0.0008262017030193007
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 21,
+      "order": 384,
+      "mean_qT": 0.17580254969190653,
+      "seed_qT_min": 0.17572139529416744,
+      "seed_qT_max": 0.1758837441670777,
+      "seed_span_relative": 0.000923472800563852
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 22,
+      "order": 192,
+      "mean_qT": 0.17568181144225098,
+      "seed_qT_min": 0.17567397416324018,
+      "seed_qT_max": 0.1756896502169459,
+      "seed_span_relative": 8.92298045940828e-05
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 22,
+      "order": 256,
+      "mean_qT": 0.17567834079530453,
+      "seed_qT_min": 0.17566058549987834,
+      "seed_qT_max": 0.17569609810368952,
+      "seed_span_relative": 0.00020214560116184915
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 22,
+      "order": 320,
+      "mean_qT": 0.17568297590159898,
+      "seed_qT_min": 0.17564382490616828,
+      "seed_qT_max": 0.17572213625626354,
+      "seed_span_relative": 0.00044575377718509586
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 22,
+      "order": 384,
+      "mean_qT": 0.17569204849011688,
+      "seed_qT_min": 0.1756260395730249,
+      "seed_qT_max": 0.17575808481846927,
+      "seed_span_relative": 0.0007515721205323201
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 23,
+      "order": 192,
+      "mean_qT": 0.1756976783862404,
+      "seed_qT_min": 0.17568994751261593,
+      "seed_qT_max": 0.17570540963828588,
+      "seed_span_relative": 8.800415470459308e-05
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 23,
+      "order": 256,
+      "mean_qT": 0.17569091301710726,
+      "seed_qT_min": 0.17566206227398845,
+      "seed_qT_max": 0.1757197699018952,
+      "seed_span_relative": 0.0003284610849573392
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 23,
+      "order": 320,
+      "mean_qT": 0.17568937656083744,
+      "seed_qT_min": 0.17564624695818937,
+      "seed_qT_max": 0.1757325204085974,
+      "seed_span_relative": 0.0004910567280553095
+    },
+    {
+      "omega": 1.0,
+      "N": 192,
+      "power": 23,
+      "order": 384,
+      "mean_qT": 0.17568502357218058,
+      "seed_qT_min": 0.17562875439762432,
+      "seed_qT_max": 0.1757413174610012,
+      "seed_span_relative": 0.000640709498670628
+    }
+  ],
+  "producer_sha256": "5feacb5d734b19ec868e726911865cf9da63161fa9956033c94c9c1d79f38dd9"
+}

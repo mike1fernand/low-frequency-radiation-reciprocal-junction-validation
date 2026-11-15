@@ -1,0 +1,29 @@
+{
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "quadrant_vs_full_same_grid_max_abs": 2.860034121616084e-13,
+  "finite_core_same_inputs_two_implementations": {
+    "qT_difference": 8.326672684688674e-17,
+    "qL_difference": 1.734723475976807e-18,
+    "reflection_difference": 2.168404344971009e-17,
+    "line_transmission_difference": 4.440892098500626e-16,
+    "eta_lead": 0,
+    "lead_eta_1e12_vs_zero_qT_abs": 8.732459200189169e-13,
+    "note": "Same kernels and physical model; a check of finite-core algebra, not independent bulk integration accuracy."
+  },
+  "spectral_matrices_N1536": {
+    "total_min_eig": 1.2614074740610648e-07,
+    "qL_min_eig": 1.3409657478931123e-12,
+    "subtracted_qT_min_eig": 2.499304659614352e-08
+  },
+  "low_pair_last_grid_change_abs": 5.456727670272166e-07,
+  "N1536_fit_change_abs": 1.1835711613839006e-06,
+  "fresh_minus_retained_central_qT": 2.445232636796857e-05,
+  "limitations": [
+    "Regulator and shift here are chosen and explicit; this does not authenticate the missing historical producer or convention.",
+    "Grid/fit differences are sensitivities, not rigorous error bounds.",
+    "Fresh low-pair row is an additional corroboration; original table values remain unchanged."
+  ]
+}

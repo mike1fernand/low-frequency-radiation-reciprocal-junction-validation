@@ -1,0 +1,71 @@
+{
+  "schema": "paper1.surface-convergence.v1",
+  "omega": 1.2,
+  "grid": 160,
+  "model": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69
+  },
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "seconds_surface": 32.47778630256653,
+  "peak_RSS_KiB": 3494368,
+  "geometry": [
+    {
+      "triangles": 39560,
+      "min_gradient": 1.84508055127393,
+      "max_gradient": 2.1712642495733814,
+      "skipped_gradient_cells": 0
+    },
+    {
+      "triangles": 38984,
+      "min_gradient": 1.9195231341427637,
+      "max_gradient": 2.195520592503376,
+      "skipped_gradient_cells": 0
+    },
+    {
+      "triangles": 12296,
+      "min_gradient": 3.7638944587192453,
+      "max_gradient": 3.896202177888722,
+      "skipped_gradient_cells": 0
+    }
+  ],
+  "raw_reciprocity_residual": 3.260152801262763e-09,
+  "branch_min_eigenvalues": [
+    4.06172045513198e-09,
+    5.0631220794373e-09,
+    6.79807681442706e-11
+  ],
+  "fixed_old_PV_baseline": {
+    "order": 192,
+    "ensembles": [
+      "grid80x4",
+      "grid96x2",
+      "sobol20a",
+      "sobol20b",
+      "sobol20c"
+    ],
+    "Rq": 0.003573934027123912,
+    "Tline": 0.8597613973327076,
+    "Tbulk": 0.1366646686272134,
+    "qT": 0.12564525425726572,
+    "qL": 0.011019414369947677,
+    "closure": 1.2955081452048489e-11,
+    "partition_residual": 0.0
+  },
+  "matrix_file": "omega1.2_N160.npz",
+  "matrix_sha256": "fa84dbec9338c9183c568a734e6672e317dd12c3805e8cfb03d9ed837f1b321b",
+  "producer_sha256": "4472b44595e713975523a6180a247e24f088dd17505547659e86b39dd9bd1f3a",
+  "source_sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+  "scope": "Fresh basis-invariant spectral quadrature; coefficient baseline uses old PV; no true-error certificate."
+}

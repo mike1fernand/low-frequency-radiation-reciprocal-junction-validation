@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "cases": {
+    "first_box_56": {
+      "passing_window": null
+    },
+    "primary_80": {
+      "passing_window": [
+        57.4,
+        64.2
+      ],
+      "sample_count": 35,
+      "qT_allocation_mean_endpoints": [
+        0.7164564182492906,
+        0.7164564186765725
+      ],
+      "midpoint": 0.7164564184629316
+    },
+    "half_step_80": {
+      "passing_window": [
+        57.4,
+        64.2
+      ],
+      "sample_count": 35,
+      "qT_allocation_mean_endpoints": [
+        0.7164540864979505,
+        0.7164540869295927
+      ],
+      "midpoint": 0.7164540867137716
+    },
+    "larger_96": {
+      "passing_window": [
+        57.4,
+        64.2
+      ],
+      "sample_count": 35,
+      "qT_allocation_mean_endpoints": [
+        0.7162667758115238,
+        0.716266776094018
+      ],
+      "midpoint": 0.7162667759527709
+    }
+  },
+  "stationary_from_signed_bins": {
+    "evaluated_distinct_frequencies": 14,
+    "periodic_energy_coverage": 0.9996834927581072,
+    "periodic_to_open_line_energy_factor": 1.0000000091839107,
+    "qT_in_band_per_open_line_energy": 0.7163064862075108,
+    "unevaluated_full_weight_allowance_per_open_line_energy": 0.0003165072447996195
+  },
+  "primary_minus_in_band_percentage_points": 0.01499322554208149,
+  "scope": "Five-predicate re-selection, archived modal allocations, and reweighted stationary samples. Rerun the primary evolution separately with replay_ramp_packet.py."
+}

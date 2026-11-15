@@ -1,0 +1,90 @@
+{
+  "status": "compiled",
+  "records": [
+    {
+      "version": "parent_rc4",
+      "document": "paper1_main",
+      "passes": [
+        {
+          "exit": 0,
+          "wall_seconds": 6.856884811000782
+        },
+        {
+          "exit": 0,
+          "wall_seconds": 1.4759245029999875
+        }
+      ],
+      "source_sha256": "01acf82a2d5d3a01850ae25fdf5f155dc8ebecb3d6f20545f769ae41ab48b214",
+      "revtex_class_path": "/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+      "revtex_class_sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+      "pages": 18,
+      "pdf_sha256": "359110093d32592ea3c981df410c8331fa3e7fc2b0de070c20166e8b4ac636dd",
+      "overfull_boxes": [],
+      "reference_warnings": []
+    },
+    {
+      "version": "parent_rc4",
+      "document": "paper1_supplement",
+      "passes": [
+        {
+          "exit": 0,
+          "wall_seconds": 1.4419603459973587
+        },
+        {
+          "exit": 0,
+          "wall_seconds": 1.5605884860051447
+        }
+      ],
+      "source_sha256": "66d8fe655b73f168110b3cb803504a8618def7d214ed4a0d50f891f2b1f7e3ac",
+      "revtex_class_path": "/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+      "revtex_class_sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+      "pages": 11,
+      "pdf_sha256": "1373b2dd268916feab45a3923e569cd9fc3ee7b373e3fd698f4c12a455b64f50",
+      "overfull_boxes": [],
+      "reference_warnings": []
+    },
+    {
+      "version": "candidate",
+      "document": "paper1_main",
+      "passes": [
+        {
+          "exit": 0,
+          "wall_seconds": 1.9625963700018474
+        },
+        {
+          "exit": 0,
+          "wall_seconds": 1.6527059789950727
+        }
+      ],
+      "source_sha256": "7640b48297430f5c71c6e1f3c8426dff5de71dd0cd9c6feb8399d82696dc5e41",
+      "revtex_class_path": "/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+      "revtex_class_sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+      "pages": 18,
+      "pdf_sha256": "fa6c303de4f3f6225948389e7529346c2e30010b08102c083c98df15adac2f74",
+      "overfull_boxes": [],
+      "reference_warnings": []
+    },
+    {
+      "version": "candidate",
+      "document": "paper1_supplement",
+      "passes": [
+        {
+          "exit": 0,
+          "wall_seconds": 0.9604888329995447
+        },
+        {
+          "exit": 0,
+          "wall_seconds": 0.9083372399982181
+        }
+      ],
+      "source_sha256": "5c60a7c86a5d4dd73f5435a81dfcc29244a448e77c8afe4f0f7f23bbcac647a5",
+      "revtex_class_path": "/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+      "revtex_class_sha256": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+      "pages": 11,
+      "pdf_sha256": "d3747237d054793ef5ed3cdcff1def3fc6bd97c57211088d0e5bc7983c130be0",
+      "overfull_boxes": [],
+      "reference_warnings": []
+    }
+  ],
+  "visual_review": "separate requirement"
+}

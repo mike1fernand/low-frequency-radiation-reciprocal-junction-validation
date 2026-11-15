@@ -1,0 +1,9 @@
+{
+  "scalar_initial_energy_periodic": 3.597297863368444e-05,
+  "copy_same_coordinates_energy": 7.825228521921653e-05,
+  "copy_to_scalar_energy_ratio": 2.1753073610074236,
+  "central_site": 18,
+  "scalar_initial_axial_acceleration": -0.0029193905228905134,
+  "ordinary_row_initial_axial_acceleration_with_other_nodes_at_rest": -0.009727450013544681,
+  "off_strand_nodes_laterally_respond_maximum_initial_acceleration": 0.0014489707651458897
+}

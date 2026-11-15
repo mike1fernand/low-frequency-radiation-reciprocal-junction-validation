@@ -1,0 +1,66 @@
+{
+  "omega": 2.9,
+  "Nc": 24,
+  "cq": 1.5,
+  "s": 1,
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "z_convention": "omega**2+1j*epsilon",
+  "epsilons": [
+    0.02,
+    0.03,
+    0.04,
+    0.06
+  ],
+  "minimum_abs_dlambda_dkx": 0.004561927006487663,
+  "rows": [
+    {
+      "N_shell": 1536,
+      "N_green": 1024,
+      "fit_degree": 2,
+      "T_minus": 0.7099182758005873,
+      "B_minus": 0.9847687515146891,
+      "Tbulk": 0.7208984593678975,
+      "R": 0.0071444641321634006,
+      "Tq": 0.27195707650015616,
+      "closure": 2.1715962361668062e-13
+    },
+    {
+      "N_shell": 1536,
+      "N_green": 1024,
+      "fit_degree": 3,
+      "T_minus": 0.7097666535974908,
+      "B_minus": 0.9847772873584335,
+      "Tbulk": 0.7207382447876807,
+      "R": 0.007127067083190676,
+      "Tq": 0.27213468812946456,
+      "closure": 3.3595348725157237e-13
+    }
+  ],
+  "seconds": 12.23106927099434,
+  "scope": "Fresh1536 shell and previously generated fresh1024 complex Green inputs. Replays the specified SM7E alternative PV estimates, not the separate historical real-axis central estimate."
+}

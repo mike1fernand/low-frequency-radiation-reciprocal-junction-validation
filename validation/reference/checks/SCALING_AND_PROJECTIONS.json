@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "similarity": {
+    "complete_rescaling_operator_identity": "K' - (Omega omega)^2 M' = alpha_K (K - omega^2 M)",
+    "fixed_contact_operator_identity": "K' - (Omega omega)^2 M' = alpha_K (K_bare + K_c/alpha_K - omega^2 M)",
+    "equal_displacement_power_factor": "alpha_K sqrt(alpha_K/alpha_M)"
+  },
+  "corner_projection_orders": {
+    "X_SV": {
+      "order": 0,
+      "coefficient_for_unnormalized_polarization": "8*(y**2 + z**2)/3"
+    },
+    "R_SV": {
+      "order": 2,
+      "coefficient_for_unnormalized_polarization": "2*b*x*(y**2 + z**2)/3"
+    },
+    "R_SH": {
+      "order": 4,
+      "coefficient_for_unnormalized_polarization": "b*y*z*(y - z)*(y + z)/18"
+    }
+  },
+  "scope": "Exact operator and four-corner Taylor identities. A finite motif sum adds analytic phase factors. The source orders are upper orders and can vanish in special directions. They concern prescribed line motion; radiated power needs the coupled scattering solution."
+}

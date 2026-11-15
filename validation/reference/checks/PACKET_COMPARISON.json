@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "evaluated_periodic_packet_energy_fraction": 0.9996834927581062,
+  "comparisons": {
+    "reference": {
+      "primary": {
+        "window": [
+          52.8,
+          55.4
+        ],
+        "samples": 14,
+        "mean_qT_per_initial_line": 0.12762638690944605,
+        "mean_bulk_per_initial_line": 0.13892844304455843,
+        "mean_qT_divided_by_mean_bulk": 0.9186483639531794
+      },
+      "larger_box": {
+        "window": [
+          52.8,
+          55.4
+        ],
+        "samples": 14,
+        "mean_qT_per_initial_line": 0.1275702522732546,
+        "mean_bulk_per_initial_line": 0.13878259453433736,
+        "mean_qT_divided_by_mean_bulk": 0.9192093050378258
+      },
+      "stationary_in_band_per_initial_line": 0.12767301963436767,
+      "direct_minus_stationary_pp": -0.004663272492161363,
+      "larger_box_minus_stationary_pp": -0.010276736111305973,
+      "larger_box_minus_primary_pp": -0.00561346361914461
+    },
+    "ramp": {
+      "primary": {
+        "window": [
+          57.4,
+          64.2
+        ],
+        "samples": 35,
+        "mean_qT_per_initial_line": 0.7164564184629316,
+        "mean_bulk_per_initial_line": 0.7834437501219385,
+        "mean_qT_divided_by_mean_bulk": 0.914496309851753
+      },
+      "larger_box": {
+        "window": [
+          57.4,
+          64.2
+        ],
+        "samples": 35,
+        "mean_qT_per_initial_line": 0.7162667759527712,
+        "mean_bulk_per_initial_line": 0.782723376192888,
+        "mean_qT_divided_by_mean_bulk": 0.9150956745876723
+      },
+      "stationary_in_band_per_initial_line": 0.7163064862075108,
+      "direct_minus_stationary_pp": 0.01499322554208149,
+      "larger_box_minus_stationary_pp": -0.003971025473958889,
+      "larger_box_minus_primary_pp": -0.01896425101604038
+    }
+  },
+  "scope": "Stored modal-energy averages on each primary window and the same-window larger box, compared with the evaluated-band prediction. The signed differences describe central estimates; these controls supply no combined error interval."
+}

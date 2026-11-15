@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "checks": {
+    "bundled_inputs_match": true,
+    "original_inputs_unchanged": true,
+    "main_source_unchanged": true,
+    "all_results_use_bundled_inputs": true,
+    "confirmation_script_hashes_match": true
+  },
+  "scope": "Saved-kernel finite numerical execution and exact single-motif reflection deduction. No new interval certificate, bulk quadrature, simulation trajectory, or manuscript edit.",
+  "outcomes": {
+    "redressed_radial_decrease": "confirmed by refined surface and independent tetra kernels",
+    "same_state_qT_negative_cross": "not found in 31 screened rows",
+    "single_complete_motif_integrated_XR_null": "analytic and numerically confirmed; entire reflection-symmetric shell only"
+  },
+  "files": {
+    "extended.stdout.json": "2c53e3e38b6842903b5fef677b3d7afb3f9a514060e786fec88e1a9d89eb14f4",
+    "confirm_candidates.py": "43b5b28a9f5553074f74292068a424ca5132be4249eb2fa2990e6adce8a5a2da",
+    "confirmation.csv": "04dde6114d14f7ca912e417ba318f06048ddfef2f36c9bc261fdd032f1b8caab",
+    "INPUT_BINDINGS.json": "3ba4c8476d739f11c5c219be596ff7ca4391e7e47ec29c7bc8c6175d23bee874",
+    "confirmation.json": "4431c7519e9a665dd71713bac4249affda271af886aba62765148d8f0da0035d",
+    "extended.csv": "a89c48443dbc0c08553665c218b31f98933da92d15a83b59ec0511772aac7806",
+    "MAIN_SOURCE_BINDING.json": "95b47c4fd8762a9fa1dad36b6c37eee94337033e480814076dc236980c042256",
+    "INTERFERENCE_RESULTS.md": "daa3a9a89a52b2eccd821de7dbeb39796bee34d654e3e2dfb3a29c0046e3591e",
+    "pilot.csv": "178ba880605784ad1de6e50c5612c03de5383487a220a5d10f7c3b743c25003d",
+    "pilot.stdout.json": "9a6c1928e60f6e5d219dd76efa8c30b9d9978505199909bf425fa2c4247a0e9c",
+    "interference_screen.py": "939992b6f5d6dfb1422aa5e0eb263795d25ed5838addccad3a37a9bfbd344156",
+    "pilot.json": "6345633ac956d9a22443037e84a02dbbdc203ced661e5522ba5e8033b1068ee9",
+    "extended.json": "30107a44341f5dc95e269ff71750d3ab6a5047fd345afc23a3076664aafeef19",
+    "confirmation.stdout.json": "0c5d56735912c8e8c6ff079b1b56360d4b54e857120b780a7428a53aa9af6b63"
+  }
+}

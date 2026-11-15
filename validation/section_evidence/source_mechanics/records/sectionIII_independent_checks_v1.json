@@ -1,0 +1,100 @@
+{
+  "seed": 20260718,
+  "symbolic": {
+    "paired_energy_residual": "0",
+    "eL_residual": "0",
+    "eR_residual": "0",
+    "HX_spring_residual": "0",
+    "HR_spring_residual": "0",
+    "corner_force_residual": [
+      "0",
+      "0",
+      "0"
+    ],
+    "left_endpoint_generalized_force_residual": "0",
+    "right_endpoint_generalized_force_residual": "0",
+    "work_X_residual": "0",
+    "work_R_residual": "0"
+  },
+  "finite_difference": {
+    "cases": 5000,
+    "five_point_step_factor": 0.01,
+    "max_scale_aware_error": 4.204130575684652e-14
+  },
+  "source_vs_total_R": {
+    "simple_total_R_force_counterexample": [
+      0.0,
+      -0.6666666666666666,
+      -0.6666666666666666
+    ],
+    "same_counterexample_total_R_torque": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "simple_full_force_torque_counterexample": [
+      0.0,
+      -0.3333333333333333,
+      0.3333333333333333
+    ],
+    "max_random_total_R_torque_norm": 0.0,
+    "note": "The total R force need not balance off symmetry, but every total-R corner force is radial, so total R torque about the segment midpoint is identically zero. Full X+R bulk torque can be nonzero off symmetry."
+  },
+  "A1_balance": {
+    "bulk_force": [
+      -0.13066666666666665,
+      0.0,
+      0.0
+    ],
+    "endpoint_axial_sum": 0.13066666666666668,
+    "bulk_plus_line_force": [
+      2.7755575615628914e-17,
+      0.0,
+      0.0
+    ],
+    "bulk_torque": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "radial_source_moment": {
+    "computed": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.14,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.14
+      ]
+    ],
+    "expected_coefficient": 0.14
+  },
+  "endpoint_embedding": {
+    "A1_left_transverse_norm": 0.0,
+    "A1_right_transverse_norm": 0.0,
+    "off_symmetry_left_transverse_norm": 0.22191868122999925,
+    "off_symmetry_right_transverse_norm": 1.002518013790632
+  },
+  "fourier": {
+    "local_max_scaled_error": 1.084689173462224e-15,
+    "full_slab_kappa_not_kx_max_scaled_error": 5.721734242499794e-15
+  },
+  "long_wave": {
+    "source_amplitude_slope": 1.9999623649046905,
+    "post_leading_remainder_slope": 3.9999776474184507,
+    "continuum_projection_slopes": {
+      "X_to_SV": 2.747039804813938e-19,
+      "R_to_SV": 1.9999623648086542,
+      "R_to_SH": 3.999962782995552
+    }
+  }
+}

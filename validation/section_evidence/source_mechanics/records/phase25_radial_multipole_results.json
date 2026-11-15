@@ -1,0 +1,86 @@
+{
+  "net_force": [
+    "0",
+    "0",
+    "0"
+  ],
+  "net_torque": [
+    "0",
+    "0",
+    "0"
+  ],
+  "force_moment_M_alpha_beta": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-2*Delta_q*a*g/3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-2*Delta_q*a*g/3"
+    ]
+  ],
+  "force_moment_trace": "-4*Delta_q*a*g/3",
+  "force_moment_isotropic_part": [
+    [
+      "-4*Delta_q*a*g/9",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-4*Delta_q*a*g/9",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-4*Delta_q*a*g/9"
+    ]
+  ],
+  "force_moment_deviatoric_part": [
+    [
+      "4*Delta_q*a*g/9",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-2*Delta_q*a*g/9",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-2*Delta_q*a*g/9"
+    ]
+  ],
+  "exact_fourier_force": [
+    "0",
+    "Delta_q*g*(exp(I*a*k_y) - exp(I*a*k_z) + exp(I*a*(k_y + k_z)) - 1)*exp(-I*a*(k_y + k_z)/2)/3",
+    "-Delta_q*g*(exp(I*a*k_y) - exp(I*a*k_z) - exp(I*a*(k_y + k_z)) + 1)*exp(-I*a*(k_y + k_z)/2)/3"
+  ],
+  "small_k_for_fixed_segment_extension": [
+    "0",
+    "2*I*Delta_q*a*g*k_y/3",
+    "2*I*Delta_q*a*g*k_z/3"
+  ],
+  "line_bloch_extension": "Delta_q=q(exp(i k_x a)-1)=i k_x a q+O(k_x^2)",
+  "leading_full_bloch_radial_force": [
+    "0",
+    "-2*a**2*g*k_x*k_y*q/3",
+    "-2*a**2*g*k_x*k_z*q/3"
+  ],
+  "interpretation": {
+    "multipole": "balanced transverse contractile force dipole with isotropic and deviatoric parts; not a pure traceless stresslet",
+    "fixed_Delta_q_scaling": "O(k_perp)",
+    "longitudinal_line_mode_scaling": "O(k_x k_perp)=O(k^2)",
+    "reason": "net force and torque cancel, leaving the first force moment nonzero"
+  }
+}

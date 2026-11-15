@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "scope": "Analytic bond-sum/Loewner deduction with bounded matrix and continuum-energy checks. No Green-kernel, scattering, optimizer or trajectory run.",
+  "units": {
+    "a": 1.0,
+    "mass": 1.0,
+    "axial_stiffness": 1.0,
+    "face_diagonal_stiffness": 1.0
+  },
+  "model_api_sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+  "P3_text_sha256": "7410acf62e2f99c23777dfebdfbcd777a1abd989be9e44a31b815b4fcfaed65d",
+  "bond_families": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ]
+  ],
+  "exact_symbolic_quadratic_sum": "|k|^2 I + 2 k k^T",
+  "analytic_claim": "0 <= D(k) <= |k|^2 I + 2 k k^T in Loewner order; ascending lambda0,lambda1 <= |k|^2.",
+  "frequency_consequence": "At omega=1.2, either lower-branch shell requires |k|>=1.2 and is disjoint from P3 selected 0<|k|<=1. This concerns the lower pair, not upper branch.",
+  "numerical_points": 5463,
+  "selected_band_points": 1024,
+  "api_max_abs_difference": 5.329070518200751e-15,
+  "minimum_D2_minus_D_eigenvalue": -2.519796355814445e-16,
+  "maximum_lower_eigenvalue_minus_rho_squared": 2.324179408803115e-16,
+  "largest_checked_selected_band_lower_eigenvalue": 0.9628455039442203,
+  "adverse_controls": {
+    "upper_branch_not_bounded_by_rho_squared": 0.019975008331845075,
+    "omitting_unit_bond_normalization_breaks_coefficient": 0.009983338887896716,
+    "quadrupling_spring_stiffness_requires_rescaling": 0.029966677775793427
+  },
+  "continuum_transverse_energy_cases": 128,
+  "continuum_energy_max_relative_difference": 2.9509852300645237e-16,
+  "extra_factor_two_rejected": true,
+  "important_limits": [
+    "Bound does not invalidate P1 lower-cluster qT power outside P3 selected band.",
+    "No efficiency improvement follows from relabelling selected modes or Maxwell E/B readouts.",
+    "Equal stiffness/mass/spacing units are necessary for the numerical threshold1; with commonK,m and dimensionless theta=ak, lower omega<=sqrt(K/m)|theta|.",
+    "Maxwell energy identity is the leading continuum transverse subsystem, not exact finite-k Dy/current."
+  ]
+}

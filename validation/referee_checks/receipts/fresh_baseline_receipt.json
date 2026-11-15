@@ -1,0 +1,41 @@
+{
+  "run": "baseline",
+  "fresh_wrapper_result": "PASS",
+  "frozen_repository_unchanged": true,
+  "child_exit_code": 0,
+  "elapsed_seconds": 35.30748907399902,
+  "precheck": "PASS_SAVED_BYTES_AND_SCIENTIFIC_BINDINGS",
+  "postcheck": "PASS_SAVED_BYTES_AND_SCIENTIFIC_BINDINGS",
+  "postcheck_payloads": 1163,
+  "postcheck_proof_bindings": 19,
+  "saved_upstream_jobs": 222,
+  "stages": [
+    {
+      "name": "budget_controls",
+      "returncode": 0,
+      "wall_seconds": 0.13742208199982997,
+      "status": "passed"
+    },
+    {
+      "name": "audited_campaign_ledger",
+      "returncode": 0,
+      "wall_seconds": 11.59498026700021,
+      "status": "passed"
+    },
+    {
+      "name": "compact_physical_controls",
+      "returncode": 0,
+      "wall_seconds": 8.714256701001432,
+      "status": "passed"
+    },
+    {
+      "name": "exact_lattice_bridge",
+      "returncode": 0,
+      "wall_seconds": 12.593120071000158,
+      "status": "passed"
+    }
+  ],
+  "fresh_global_quadrature_performed": false,
+  "scope": "Saved certificate states, fresh compact physical checks and bridge; not reintegration of all 449,698 leaves.",
+  "environment_correction": "First baseline invocation lacked python-flint. Installed the package pinned in proof-requirements.txt into a temporary isolated directory and restarted in a new output folder. No verification bypass or scientific input change."
+}

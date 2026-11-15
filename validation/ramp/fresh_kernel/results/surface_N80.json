@@ -1,0 +1,32 @@
+{
+  "surface_grid": 80,
+  "seconds": 2.3305804720002925,
+  "geometry": [
+    {
+      "triangles": 10040,
+      "minimum_gradient": 1.842942008440545,
+      "maximum_gradient": 2.16604358110954,
+      "skipped_cells": 0
+    },
+    {
+      "triangles": 9848,
+      "minimum_gradient": 1.917779586713337,
+      "maximum_gradient": 2.190324296422339,
+      "skipped_cells": 0
+    },
+    {
+      "triangles": 3032,
+      "minimum_gradient": 3.748610942687133,
+      "maximum_gradient": 3.892834161166353,
+      "skipped_cells": 0
+    }
+  ],
+  "minimum_eigenvalues": [
+    1.3722420273009778e-07,
+    4.581943754089131e-09,
+    5.6655494259774594e-09,
+    7.497847147429191e-11
+  ],
+  "raw_reciprocity_residual": 5.839840605409353e-09,
+  "matrix_sha256": "2da09c392917dc77ee8a167a58483f197813842c02e13ff8e0b805da93976181"
+}

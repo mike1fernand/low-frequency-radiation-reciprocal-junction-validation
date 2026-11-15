@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "scope": "One final actual four-page visual and source-bound claims review. No new scientific parameter search, proof derivation, trajectory or source edit.",
+  "report_sha256": "4afbba9ccf71396e96895947ddcda8ed2fe9a9128370b1e71f3b695940958d3d",
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "render_sha256": {
+    "page-01.png": "5d2982a04457f6769048d879c7e0df3e3ed746bc017be677d8afe249316d37bf",
+    "page-02.png": "f2638d7f4baae83c28f2387e3e67ca0ba24cf9b33ad41b02b9ab694165f64073",
+    "page-03.png": "3fe801957b585344a445c200a65a31018892fc2415c7bdaec1be0d7cb4b9b440",
+    "page-04.png": "2ce05eff151eeb6f2d0f059e4cb16fe60098d5d3ab8f7c96f35eacf7b34aa50b"
+  },
+  "layout_findings": "No clipped text, overlapping table/figure elements, missing figure/table content, truncated ending or invalid page transition observed. All four final pages were actually viewed; stale pages05/06were ignored.",
+  "claim_checks": {
+    "nominal_outward_percentage_interval": [
+      73.2166,
+      73.9652
+    ],
+    "exact_fraction_endpoints_match_source": true,
+    "whole_six_motif_plusminus5percent_box_floor_greater_than_69": true,
+    "report_lower_bound_69p05008642percent_is_conservative": true,
+    "222_saved_job_states_not_449698_new_leaf_integrations": true,
+    "fresh_kernel_table_and27_variant_range_match_saved_summary": true,
+    "packet_carrier_and_spectrum_weighted_values_separated": true,
+    "direct_packet_base_halfstep_box96_percentages": [
+      71.64564185,
+      71.64540867,
+      71.6266776
+    ],
+    "packet_open_energy_stationary_percent": 71.63064862,
+    "packet_periodic_stationary_percent": 71.63064796,
+    "packet_difference_not_presented_as_combined_error_bar": true,
+    "no_exact_rounding_bandwidth_independent48link_or_experimental_proof_claim": true
+  },
+  "confirmed_material_or_layout_issues": [],
+  "source_sha256": {
+    "tolerance/POINT_RATIONAL_CERTIFICATE.json": "398e1907f4dc55d3ae8e31b962ffe05ebcbdd24af120777f852833ef308e772a",
+    "tolerance/BOX_RATIONAL_CERTIFICATE.json": "0773073a8e5e55883c48409822b03fbcbefb3e73ae183342fbed05deab8f50ed",
+    "fresh_kernel/SUMMARY.json": "cb0ea7be34a1c71fc1ad9973b51817f90f2b8aedc9114fd58d33e9ab5ebcac9c",
+    "packet/FINAL_SUMMARY.json": "bfb2a6659aee95bc74b5ce1c1e64b3ebb160345d2bb7f37f353e404a11486c2a",
+    "packet_review/FINAL_PACKET_REVIEW.json": "1cb1338ac6dc5355b036211fc8dd11d9b747797f154450540f9bc6236b23d108",
+    "baseline_audit/r4_replay_out/VERIFICATION.json": "2f42280750fd38747360c1d1794f357d4823403f66e7c2e6cf0ca7ae3aea9446",
+    "baseline_audit/SELECTED_CACHE_BINDING.json": "c391266da68ebe09105ab3530ca524c534d98dc8ef4c0e2a62f8099af07b1c95"
+  },
+  "review_limit": "This is a final report-source/layout review, not a fresh replay of all new proofs or packet trajectories. Those have separate completed reviews."
+}

@@ -1,0 +1,91 @@
+{
+  "status": "PORTABILITY_GAP_CORRECTED_WITH_VERIFIED_IO_ONLY_ADAPTER",
+  "date": "2026-11-08",
+  "frozen_files_hash_checked": 64,
+  "hash_mismatches": [],
+  "no_numerical_recalculation_performed": false,
+  "confirmed_issues": [
+    {
+      "id": "FP1",
+      "severity": "Major for one-click fresh replay; no numerical-claim defect",
+      "issue": "Three driver scripts retain absolute execution-host PACKAGE/R8 roots. After relocation, direct execution reads missing external paths before bundled inputs.",
+      "files": [
+        "run_fresh_kernel.py",
+        "run_fresh_tetra_N48.py",
+        "check_independent_tetra.py"
+      ],
+      "minimal_fix": "Add a new portable staging adapter. Create a fresh output tree, reconstruct only expected upstream input layouts from bundled files, replace exactly one input-root assignment in each staged script, record original/staged hashes and I/O-only adaptation. Preserve original scripts/results.",
+      "status": "CORRECTED_BY_ADDED_FILES_OR_DOCUMENTATION"
+    },
+    {
+      "id": "FP2",
+      "severity": "Reproduction documentation",
+      "issue": "Fresh requirements leave NumPy/SciPy unpinned although ENVIRONMENT records exact versions. Fresh mpmath1.4.1 differs from baseline-proof pinned mpmath1.3.0.",
+      "minimal_fix": "Document separate baseline-proof and optional fresh-quadrature environments. Pin fresh NumPy2.3.5/SciPy1.17.0 plus existing scikit-image0.26.0,lazy_loader0.6,mpmath1.4.1. Do not silently merge incompatible exact pins.",
+      "status": "CORRECTED_BY_ADDED_FILES_OR_DOCUMENTATION"
+    }
+  ],
+  "surface_upstream_layout_from_bundled_files": {
+    "recheck/purity_inputs/model_api_v1_1.py": "inputs/model_api_v1_1.py",
+    "recheck/purity_inputs/reduced_core.py": "inputs/reduced_core.py",
+    "tradeoff_validation/inputs/refined_surface_pv/surface/src/on_shell_basis.py": "inputs/on_shell_basis.py",
+    "tradeoff_validation/inputs/refined_surface_pv/surface/src/spectral_histogram.py": "inputs/spectral_histogram.py",
+    "tradeoff_validation/inputs/refined_surface_pv/selected/REFERENCE_KERNEL.npz": "inputs/REFERENCE_KERNEL.npz",
+    "tradeoff_validation/inputs/refined_surface_pv/selected/REFERENCE_KERNEL.json": "inputs/REFERENCE_KERNEL.json"
+  },
+  "fresh_tetra_upstream_layout_from_bundled_files": {
+    "analysis/resolution_execution/tetra/multifrequency_tetra.py": "fresh_tetra_N48/sources/analysis/resolution_execution/tetra/multifrequency_tetra.py",
+    "analysis/math_resolution/tetra/combined_tetra_diagnostic.py": "fresh_tetra_N48/sources/analysis/math_resolution/tetra/combined_tetra_diagnostic.py",
+    "analysis/math_resolution/tetra/stable_scalar.py": "fresh_tetra_N48/sources/analysis/math_resolution/tetra/stable_scalar.py",
+    "analysis/math_resolution/tetra/centroid_weights.py": "fresh_tetra_N48/sources/analysis/math_resolution/tetra/centroid_weights.py"
+  },
+  "fine_tetra_upstream_layout_from_bundled_files": {
+    "analysis/math_resolution/tetra/combined_tetra_diagnostic.py": "independent_tetra/inputs/combined_tetra_diagnostic.py",
+    "analysis/math_resolution/tetra/stable_scalar.py": "independent_tetra/inputs/stable_scalar.py",
+    "analysis/math_resolution/tetra/centroid_weights.py": "independent_tetra/inputs/centroid_weights.py",
+    "analysis/resolution_execution/tetra/reference_N96/omega_001.npz": "independent_tetra/inputs/reference_N96/omega_001.npz",
+    "analysis/resolution_execution/tetra/reference_N96/omega_001.json": "independent_tetra/inputs/reference_N96/omega_001.json",
+    "analysis/resolution_execution/tetra/reference_N96/CONFIG.json": "independent_tetra/inputs/reference_N96/CONFIG.json",
+    "analysis/resolution_execution/tetra/reference_N128/omega_001.npz": "independent_tetra/inputs/reference_N128/omega_001.npz",
+    "analysis/resolution_execution/tetra/reference_N128/omega_001.json": "independent_tetra/inputs/reference_N128/omega_001.json",
+    "analysis/resolution_execution/tetra/reference_N128/CONFIG.json": "independent_tetra/inputs/reference_N128/CONFIG.json",
+    "analysis/resolution_execution/tetra/reference_N128_halfshift/omega_001.npz": "independent_tetra/inputs/reference_N128_halfshift/omega_001.npz",
+    "analysis/resolution_execution/tetra/reference_N128_halfshift/omega_001.json": "independent_tetra/inputs/reference_N128_halfshift/omega_001.json",
+    "analysis/resolution_execution/tetra/reference_N128_halfshift/CONFIG.json": "independent_tetra/inputs/reference_N128_halfshift/CONFIG.json",
+    "analysis/resolution_execution/tetra/reference_N160/omega_001.npz": "independent_tetra/inputs/reference_N160/omega_001.npz",
+    "analysis/resolution_execution/tetra/reference_N160/omega_001.json": "independent_tetra/inputs/reference_N160/omega_001.json",
+    "analysis/resolution_execution/tetra/reference_N160/CONFIG.json": "independent_tetra/inputs/reference_N160/CONFIG.json",
+    "analysis/resolution_execution/tetra/reference_N192/omega_000.npz": "independent_tetra/inputs/reference_N192/omega_000.npz",
+    "analysis/resolution_execution/tetra/reference_N192/omega_000.json": "independent_tetra/inputs/reference_N192/omega_000.json",
+    "analysis/resolution_execution/tetra/reference_N192/CONFIG.json": "independent_tetra/inputs/reference_N192/CONFIG.json"
+  },
+  "execution_contract": {
+    "surface": "Fresh staged run_fresh_kernel.py --phase pilot, then --phase refine. New predeclaration/results must not exist beforehand.",
+    "fine_tetra": "Fresh staged check_independent_tetra.py, with expected upstream math_resolution and resolution_execution layouts.",
+    "fresh_tetra": "Fresh staged run_fresh_tetra_N48.py, with four preserved tetra source files at expected upstream paths.",
+    "environment_threads": "OMP_NUM_THREADS=1; OPENBLAS_NUM_THREADS=1",
+    "fresh_requirements": {
+      "python": "3.12.14 used",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "scikit-image": "0.26.0",
+      "lazy_loader": "0.6",
+      "mpmath": "1.4.1"
+    }
+  },
+  "verification_for_adapter": [
+    "Stage into path unrelated to original workspace; assert old absolute prefix absent from staged executable assignments.",
+    "All staged input bytes equal preserved manifest hashes.",
+    "Original scripts/result files remain unchanged.",
+    "Execute at least the declared fresh N48 pilot or fresh N48 tetra route from cold extracted full ZIP once; label it a repeat of the same predetermined check, not a new parameter search."
+  ],
+  "execution_scope": "One declared relocated N48 surface/Sobol2^18 pilot rerun with nine responses as a portability smoke; not a full campaign or scientific recertification.",
+  "all_original_files_unchanged": true,
+  "implemented_files": [
+    "reproduce.py",
+    "REPRODUCE_FRESH.md",
+    "requirements-fresh-pinned.txt"
+  ],
+  "smoke_test": "RELOCATION_SMOKE_TEST.json",
+  "initial_environment_failure": "Default Python lacked scikit-image; failed before quadrature. Successful pilot used the original installed scientific dependency environment, then explicit dependency preflight was added."
+}

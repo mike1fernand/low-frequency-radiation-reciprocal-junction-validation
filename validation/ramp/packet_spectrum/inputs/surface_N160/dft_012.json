@@ -1,0 +1,51 @@
+{
+  "schema": "paper1.selected-frequency-kernel.v1",
+  "omega": 0.8034441853748633,
+  "energy": 0.6455225590126776,
+  "grid": 160,
+  "support_segments": 6,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "kernel_sha256": "f9e7a1251bad439eabb49d70997c3adf52a4f6f7ae6b40c7e911fb80dbf6a0c2",
+  "kernel_path": "analysis/resolution_execution/surface/selected_nodes/N160/omega0.803444185374863.npz",
+  "geometry_record": {
+    "path": "analysis/resolution_execution/surface/results/omega0.803444185374863_N160.json",
+    "sha256": "7aaf6689522325645cf7f18e921abc827888e95707337ad6aa0ca32dd106f9ab"
+  },
+  "PV_contract": {
+    "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+    "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "frequency_binding": {
+    "packet_contract_sha256": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348",
+    "node_id": "dft_012",
+    "roles": [
+      "central_packet"
+    ]
+  },
+  "coefficient": {
+    "qT": 0.2165560187667223,
+    "qL": 0.021044991347166087,
+    "Tbulk": 0.23760101011388843,
+    "Rq": 0.2314798349237846,
+    "Tline": 0.5309191549474342,
+    "amplitude_closure": 1.4892642674624312e-11,
+    "partition_residual": 2.7755575615628914e-17
+  },
+  "producer_sha256": "b1e76461778e4a7c2517f774c9e2a19e2879d3a8b8ac5c9b738ad4170ae6b17c"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "omega": 0.2,
+    "branch_relative_differences": [
+      0.00013782950632186468,
+      0.00013991685351729378,
+      1.543844259540955e-15
+    ],
+    "qT_relative_difference": 4.0444172178137236e-13,
+    "qL_relative_difference": 1.543844259540955e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 5.620504062164855e-16,
+      "min_radial_derivative": 0.3976615728083185,
+      "max_k_bond_dot": 0.2830615457969343
+    }
+  },
+  {
+    "omega": 0.05,
+    "branch_relative_differences": [
+      0.00012710938113547198,
+      0.0001272333336141501,
+      2.466869668967918e-15
+    ],
+    "qT_relative_difference": 3.315587553000086e-12,
+    "qL_relative_difference": 2.466869668967918e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 3.3393426912553537e-17,
+      "min_radial_derivative": 0.09996354044147442,
+      "max_k_bond_dot": 0.07070998536682957
+    }
+  },
+  {
+    "omega": 0.0125,
+    "branch_relative_differences": [
+      0.00012646698464259697,
+      0.0001264747071365793,
+      1.832631748360334e-15
+    ],
+    "qT_relative_difference": 5.768248132613661e-13,
+    "qL_relative_difference": 1.832631748360334e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 2.1141942363467336e-18,
+      "min_radial_derivative": 0.02499943039557096,
+      "max_k_bond_dot": 0.01767663264213689
+    }
+  },
+  {
+    "omega": 0.003125,
+    "branch_relative_differences": [
+      0.00012642784940690546,
+      0.00012642870201321223,
+      3.198348312436803e-15
+    ],
+    "qT_relative_difference": 1.8495536139841206e-10,
+    "qL_relative_difference": 3.198348312436803e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 1.3552527156068805e-19,
+      "min_radial_derivative": 0.006249991100005138,
+      "max_k_bond_dot": 0.004419144667119605
+    }
+  },
+  {
+    "omega": 0.00078125,
+    "branch_relative_differences": [
+      0.00012640570574791297,
+      0.0001264282484816455,
+      2.0530529812988697e-15
+    ],
+    "qT_relative_difference": 1.1256237907286076e-08,
+    "qL_relative_difference": 2.0530529812988697e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 8.046812998915853e-21,
+      "min_radial_derivative": 0.0015624998609376508,
+      "max_k_bond_dot": 0.0011047859559471466
+    }
+  }
+]

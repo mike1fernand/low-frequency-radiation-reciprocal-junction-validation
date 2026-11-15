@@ -1,0 +1,98 @@
+{
+  "date_utc": "2026-11-11",
+  "runtime_scope": "Candidate runtime tests against the originally delivered scientific modules. The final assembled release has its own Git and clean-checkout checks.",
+  "recorded_platform": "linux",
+  "python": "3.12.14",
+  "original_release_git": {
+    "packaged": 1537,
+    "tracked_with_normal_git_add": 1522,
+    "omitted": 15,
+    "clone_file_verification": "FAIL",
+    "first_missing": "validation/ramp/fresh_kernel/results/PV_hist_p18_seed20261108.npz"
+  },
+  "candidate_checkouts": {
+    "standard_git_add_commit_clone": "PASS",
+    "existing_repository_subfolder": "PASS",
+    "ordinary_and_sha256_blobs": "sha1 Git repositories tested."
+  },
+  "adverse_tests": {
+    "omitted_git_index_entry": "rejected",
+    "altered_staged_blob_with_unchanged_working_file": "rejected",
+    "changed_reference_packet_bytes": "rejected",
+    "changed_ramp_packet_bytes": "rejected"
+  },
+  "compact_run": {
+    "status": "PASS",
+    "optimization_in_parent": 2,
+    "assertions_in_children": true,
+    "commands": [
+      "validation/reference/tools/verify_package.py",
+      "validation/ramp/verify_repository.py",
+      "validation/referee_checks/verify_reference_shell.py",
+      "validation/reference/tools/verify_incident_power.py",
+      "validation/reference/tools/verify_lowfreq.py",
+      "validation/reference/tools/verify_scattering.py",
+      "validation/reference/tools/verify_vi_results.py",
+      "validation/reference/tools/verify_viii_clarifications.py",
+      "validation/reference/tools/verify_angles_controls.py",
+      "validation/reference/tools/verify_clarity_observables.py",
+      "validation/reference/tools/verify_robustness.py",
+      "validation/reference/tools/verify_line_mass.py",
+      "validation/reference/tools/verify_scaling_and_projections.py",
+      "validation/reference/tools/verify_packet_comparison.py",
+      "validation/reference/tools/verify_packet_reference.py",
+      "validation/reference/tools/verify_ramp_packet.py",
+      "validation/reference/tools/verify_packet_spectrum.py",
+      "validation/reference/tools/verify_robustness_bounds.py",
+      "validation/referee_checks/reference_shell_algebra.py",
+      "validation/referee_checks/independent_shell.py",
+      "validation/referee_checks/check_force_moment.py"
+    ]
+  },
+  "fresh_reference_taper_this_audit": {
+    "status": "PASS",
+    "integration_steps": 1425,
+    "dimensions": [
+      120,
+      56,
+      56
+    ],
+    "stored_snapshots": 46,
+    "reporting_samples": 14,
+    "fresh_integrator": "archived single-thread velocity-Verlet implementation",
+    "fresh_projection": "Explicit nine-family stiffness matrix; full symmetric eigensolve at every wavevector, degenerate Hermitian energy extrema",
+    "qT_window_allocation_bounds": [
+      0.12762638643388619,
+      0.12762638738500592
+    ],
+    "qT_midpoint": 0.12762638690944605,
+    "max_periodic_bulk_deviation_from_archived_per_snapshot": 5.551115123125783e-17,
+    "max_qT_bound_deviation_from_archived_per_reporting_snapshot": 8.326672684688674e-17,
+    "raw_file_sha256": {
+      "rows": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+      "snapshots": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+      "final_checkpoint": "b7da5019c405fee76dc7b56ed1c3a7056b5e1bf31b1356d39af105c5b2a2fa42"
+    },
+    "all_raw_hashes_match_original_release": true,
+    "original_recipe": "PAPER1_VALIDATION_INTEGRATED_R8.zip / legacy_rc4/validation/direct_dynamics/run/PASS12_PRODUCTION_REGENERATION_RUNBOOK.md"
+  },
+  "strict_byte_checks": {
+    "fresh_reference_this_audit": {
+      "trajectory.csv": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+      "snapshots.bin": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+      "final.bin": "b7da5019c405fee76dc7b56ed1c3a7056b5e1bf31b1356d39af105c5b2a2fa42"
+    },
+    "primary_ramp_files_from_preceding_replay": {
+      "line.bin": "045773d62bc84830c5511e23cfcb325c2fabfa4ffb8f0f6c8f61c67071659f13",
+      "corner.bin": "1a50aafcb8f157621b3610278557a12e1ca86542c16a87fe2f06caa9472ea84e",
+      "snap_times.bin": "e3fe732e725f32a18e9e1dbe31f4995b40b4e3bd060f9022e9952ab91d98cb27",
+      "snap.bin": "872a1c6f1dd531fb7ab8309174291709d055ed5fb3f6a65108e081bee2b91e67",
+      "checkpoint_0.bin": "33ae6c7897473f0360e07a2e6d0be7348fb706d7b71767ed80de5cb0a5b4b224",
+      "checkpoint_1650.bin": "9bc2744e79274ef57de60949416edce588b8c79e2d8ef24e57cd9046925f69ac"
+    }
+  },
+  "controls": {
+    "ramp_integrity_controls": 16,
+    "ramp_replay_control_fixtures": 11
+  }
+}

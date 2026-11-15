@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "samples_per_curve": 49,
+  "curves": 4,
+  "max_chart_coordinate_difference_in_power_fraction": {
+    "Rq": 7.7479335421635e-08,
+    "Tq": 7.977358268407286e-08,
+    "T_qT_modal": 6.121083021004559e-08,
+    "T_qL_modal": 7.10986089707405e-08
+  },
+  "scope": "Agreement of plotted vector vertices with archived samples, at PDF coordinate precision."
+}

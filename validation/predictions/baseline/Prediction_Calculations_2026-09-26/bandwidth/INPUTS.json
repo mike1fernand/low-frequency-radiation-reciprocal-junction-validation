@@ -1,0 +1,91 @@
+{
+  "current_main_sha256": "de18909953cd48e9828af791d7c755cdf63eefc84d3b6ce9c4d22151de3d36b0",
+  "current_supplement_sha256": "e4cf3a1573c3583bab964eccb0e5b93b266aa635cd08926e766b10c9e47f6186",
+  "R8_active85_sha256": "93ae058159343720a54fb272b2d9f9dd5b0cce839d652bf1e0e66f69b8174ef5",
+  "copied_sources": {
+    "reduced_core.py": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/src/reduced_core.py",
+      "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+    },
+    "model_api_v1_1.py": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/src/model_api_v1_1.py",
+      "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+    },
+    "spectral_histogram.py": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/src/spectral_histogram.py",
+      "sha256": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+    },
+    "on_shell_basis.py": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/src/on_shell_basis.py",
+      "sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a"
+    }
+  },
+  "derived_inputs": {
+    "histogram_0.npz": {
+      "R8_relative_path": "analysis/resolution_execution/surface/histograms/sobol_seed20260920_p23_nseg10_bins16384.npz",
+      "original_sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987",
+      "operation": "retain exact first six separation blocks; metadata omitted",
+      "sha256": "ac26a88b87e98a0155999711b853e9a386126ac192000c60a9cb2d2c1d3a6de7"
+    },
+    "histogram_1.npz": {
+      "R8_relative_path": "analysis/resolution_execution/surface/histograms/sobol_seed20260921_p23_nseg10_bins16384.npz",
+      "original_sha256": "72ac7e19d54638dd91487812b3504a49276a3cab190598eb7534b89b473921d2",
+      "operation": "retain exact first six separation blocks; metadata omitted",
+      "sha256": "55b3de1c81acf11e1f60ce95bb9bd227b46e7d9702ceb829c92c667b1516efc6"
+    },
+    "shell_1.100000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.100000_N80_nseg6.npz",
+      "original_sha256": "68aad946a6da38f87a5da38105a2dc0229e65438dbb7acfc3f18033ab2b08b80",
+      "operation": "retain exact first 12x12 active block",
+      "sha256": "68aad946a6da38f87a5da38105a2dc0229e65438dbb7acfc3f18033ab2b08b80"
+    },
+    "shell_1.200000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.200000_N80_nseg10.npz",
+      "original_sha256": "948b05f48da4e2bf7cb35b60598f0c6e6079a44385dcc40fd541afcf65b42e0b",
+      "operation": "retain exact first 12x12 active block",
+      "sha256": "dc3f5b1b04ae5354f43ad154eb7b6fcf2d9968ee6c22e7685515745022ebc18f"
+    },
+    "shell_1.300000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.300000_N80_nseg6.npz",
+      "original_sha256": "86f863f5ff7fbff7890e17c2386a412a95d31cd85c24874ca1df387e0f2fec1c",
+      "operation": "retain exact first 12x12 active block",
+      "sha256": "86f863f5ff7fbff7890e17c2386a412a95d31cd85c24874ca1df387e0f2fec1c"
+    },
+    "shell_1.125000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.125000_N80_nseg6.npz",
+      "original_sha256": "fd11d9c38b593c7f034a3c405f4c30871dc0d0af28e8d663922546ed5748bb96",
+      "operation": "copy named spectral arrays",
+      "sha256": "fd11d9c38b593c7f034a3c405f4c30871dc0d0af28e8d663922546ed5748bb96"
+    },
+    "shell_1.150000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.150000_N80_nseg6.npz",
+      "original_sha256": "36a0cf6c29319c56c3f2b97fe407b06f3dbcd8c5339030f8ca06788ab090e61a",
+      "operation": "copy named spectral arrays",
+      "sha256": "36a0cf6c29319c56c3f2b97fe407b06f3dbcd8c5339030f8ca06788ab090e61a"
+    },
+    "shell_1.175000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.175000_N80_nseg6.npz",
+      "original_sha256": "3e44df54d9bd9e1a7cf73309c36bf279f7b410e6ec0d677c100b36fee18b9366",
+      "operation": "copy named spectral arrays",
+      "sha256": "3e44df54d9bd9e1a7cf73309c36bf279f7b410e6ec0d677c100b36fee18b9366"
+    },
+    "shell_1.225000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.225000_N80_nseg6.npz",
+      "original_sha256": "005f49c877841767a8545d98a0a099d61d74ac6fe432d1e6cfa3c1959bcbfe21",
+      "operation": "copy named spectral arrays",
+      "sha256": "005f49c877841767a8545d98a0a099d61d74ac6fe432d1e6cfa3c1959bcbfe21"
+    },
+    "shell_1.250000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.250000_N80_nseg6.npz",
+      "original_sha256": "12484bc0bc371ad4e10ef0ddd2b02adb10f54aa4d694515ade51233eb88ddd5a",
+      "operation": "copy named spectral arrays",
+      "sha256": "12484bc0bc371ad4e10ef0ddd2b02adb10f54aa4d694515ade51233eb88ddd5a"
+    },
+    "shell_1.275000_N80.npz": {
+      "R8_relative_path": "analysis/resolution_execution/robustness/kernels/omega1.275000_N80_nseg6.npz",
+      "original_sha256": "423ca42c87263e24c23d5bd1f08affc12f3bce345d8e001ec3df51fbd0de8d01",
+      "operation": "copy named spectral arrays",
+      "sha256": "423ca42c87263e24c23d5bd1f08affc12f3bce345d8e001ec3df51fbd0de8d01"
+    }
+  }
+}

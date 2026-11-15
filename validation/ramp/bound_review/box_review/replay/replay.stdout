@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "domain": "g_j=(j/7)(1+delta_j), all six delta_j independently in[-1/20,1/20]; eachmotif8linksvariedtogether;omega6/5,remainingparametersfixed",
+  "vertex_count": 64,
+  "uses_transmission_vertex_extrema_assumption": false,
+  "acceptance_arithmetic": "Exact Fraction inequalities with the independently verified point inverse residual; interval radicals width1e-80.",
+  "source_kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "point_verifier_sha256": "8cc7821ddc6c2adb20f9ff3079cda17519086479e11b1ddeb833053dcdcf3359",
+  "auxiliary_norm_caps": {
+    "r": "41/250",
+    "w": "17/250",
+    "v": "103/625",
+    "ell": "173/10000",
+    "w_eta": "649/10000",
+    "d_eta": "63/1250",
+    "h0": "497/500",
+    "j0": "6289/10000",
+    "RD": "218/125"
+  },
+  "finite_matrix_energy_floor_rational": "3634096757/5225000000",
+  "finite_matrix_energy_floor_display": 0.695520910430622,
+  "finite_matrix_output_amplitude_lower": "8339/10000",
+  "uniform_source_caps": {
+    "eta_c_norm": "633/1000",
+    "Hnorm": "113/100",
+    "Jnorm": "193/250"
+  },
+  "coarse_kernel_box_lower": {
+    "eG": "1/50",
+    "eQ": "1/200",
+    "lower_rational": "59673105184307/88454700000000",
+    "lower_display": 0.6746176877464624
+  },
+  "tight_kernel_box_lower": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "lower_rational": "42767052725496289/61936276900000000",
+    "lower_display": 0.6905008642115569
+  },
+  "conclusion": "Under authenticatedscaledkernelerrorcaps eG<=1/250,eQ<=1/500, T_qT>69/100 throughout the entire six-motif \u00b15% coupling box.",
+  "scope": "Candidate-specific continuous coupling-box lowerbound with realphysicallead and completeqTmetric. Not a bandwidth or packet result, no claim that exactnominalpoint rounds to73.6%. Kernelpremiseauthentication belongs to the linked contour-replay chain.",
+  "script_sha256": "dce88db6b788ec1b0341c97debc1db24deb4be80f333f64dc037815638662d60",
+  "seconds": 29.384444319999602
+}
+

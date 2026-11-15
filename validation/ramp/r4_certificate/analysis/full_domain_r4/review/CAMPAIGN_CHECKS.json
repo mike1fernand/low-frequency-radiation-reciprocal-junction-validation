@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": [
+    "222 job settings and physical copies independently matched",
+    "all six observable/chart covers have unit area and pairwise disjoint interiors"
+  ],
+  "coverage": {
+    "Q_chart0": {
+      "rectangles": 82,
+      "exact_area": "1"
+    },
+    "Q_chart1": {
+      "rectangles": 76,
+      "exact_area": "1"
+    },
+    "Q_chart2": {
+      "rectangles": 76,
+      "exact_area": "1"
+    },
+    "g_chart0": {
+      "rectangles": 82,
+      "exact_area": "1"
+    },
+    "g_chart1": {
+      "rectangles": 67,
+      "exact_area": "1"
+    },
+    "g_chart2": {
+      "rectangles": 67,
+      "exact_area": "1"
+    }
+  },
+  "campaign_sha256": "0fc0fb1113e0278a78ab13481f50913f19e49dcdd4633de55714273dd27dde10",
+  "limits": "Partition only; scheduled jobs remain unperformed until separately validated complete checkpoints exist."
+}

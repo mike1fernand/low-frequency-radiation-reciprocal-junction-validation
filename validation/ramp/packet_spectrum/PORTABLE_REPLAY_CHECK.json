@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_output_directory": "packet_spectrum_portable_replay",
+  "new_kernel_evaluations": 0,
+  "replayed_same_new_ramp_states": 70,
+  "replayed_same_reference_checks": 70,
+  "maximum_prediction_difference": 0.0,
+  "note": "Portability replay of the same saved cases; not additional physics predictions."
+}

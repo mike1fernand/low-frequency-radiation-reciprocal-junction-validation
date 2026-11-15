@@ -1,0 +1,27 @@
+{
+  "project_release": "Paper1_Validation_GitHub_2026-11-11.zip, audited edition",
+  "repository_archive_sha256": "3330b1dde2c49f1b850f2d2fc8d56f324f0561ca90757970fb093e6672c1269b",
+  "source_base": "validation/predictions/upstream/",
+  "original_sources": {
+    "replay_sources/p1solver.py": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6",
+    "replay_sources/p1split.py": "4622f9527fae0c7654cda06053444b5e0ddaa2ee8c38d05e66245c6603db3814",
+    "reconstruct_realaxis.py": "20a9103c609c4aea0286fac1457ebcdbd46b1d91c23b67d97c84a34a56797155",
+    "prior_staged/dressed_26/shell_N2048.npz": "2cf647e41a449b20b131df7668c0061d4d3869b5e0a069cb295b7455a0d881ff",
+    "prior_staged/replay_sources/r3_eps_scan.npy": "c9fccf6f405c34f8b6ba3ea65456219b956e109c328c35992734b87cd7e7c589",
+    "reconstruct_cartesian.py": "6f1ec684aa11efa06b55142ba285fa87c4c2bdf8f2a293bc698c8d1b219a9a18"
+  },
+  "changed_source": {
+    "path": "reconstruct_cartesian.py",
+    "change": "Only w=2.9 replaced by w=2.6 in the line fixing the frequency and motif count.",
+    "sha256": "fdf06909b15fd72fb386c7d4dfc19d078c1feca7eb3f56d0973b3826524b9c53"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux x86_64",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "OMP_NUM_THREADS": 1,
+  "OPENBLAS_NUM_THREADS": 1,
+  "MKL_NUM_THREADS": 1,
+  "cartesian_concurrent_stages": 3,
+  "method": "Three Cartesian midpoint grids, five energy-denominator widths. At each grid 16 disjoint axial chunks were accumulated before solving. The fits are deterministic diagnostics and have no rigorous error bars. Root integration independently regenerates real and directional inputs; finite contact assembly is shared."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "octants": {
+    "80": {
+      "least_octant_percent_of_emitted_qT": 1.3934431927430955,
+      "least_octant_percent_of_total_bulk": 1.3290158488346167
+    },
+    "96": {
+      "least_octant_percent_of_emitted_qT": 1.3769698599525153,
+      "least_octant_percent_of_total_bulk": 1.3137315530731943
+    }
+  },
+  "contact_order": [
+    "reference taper",
+    "doubled taper",
+    "increasing ramp"
+  ],
+  "power_partition": [
+    {
+      "percent_incident_emitted": 13.668189218822194,
+      "qT_percent_emitted": 91.93555443241914,
+      "qT_percent_incident": 12.565925539196321
+    },
+    {
+      "percent_incident_emitted": 57.17948454272628,
+      "qT_percent_emitted": 91.31256700365032,
+      "qT_percent_incident": 52.21205513541881
+    },
+    {
+      "percent_incident_emitted": 80.41371399102334,
+      "qT_percent_emitted": 91.51104356117096,
+      "qT_percent_incident": 73.58742883948081
+    }
+  ],
+  "ten_degree_forward_cone": {
+    "incident_fraction_qT": 9.165951399024102e-06,
+    "qT_percent_collected": 1.1904289362439673,
+    "percent_of_all_emitted_qT_captured": 0.007295449253135108
+  },
+  "same_state_wave_normal_projection": 0.12563158149876255,
+  "same_state_modal_qT": 0.1256592553919631,
+  "scope": "Recomputed ratios and branch/octant sums from stored integrations; angular data are numerical quadratures."
+}

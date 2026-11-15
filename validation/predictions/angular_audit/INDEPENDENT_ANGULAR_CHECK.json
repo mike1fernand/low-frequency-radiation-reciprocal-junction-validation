@@ -1,0 +1,174 @@
+{
+  "method": "Independent bond-symbol and literal Fourier finite-cone check.\nInputs: frozen dressed sources rebuilt by the archived source core. No archived\nsymbol, root, gradient, density, symmetry sector, or cone integrator is used.\nThe new integration uses a full 2pi midpoint azimuth grid and scalar brent roots.\nIt verifies observed local connected cone patches, not global preimage completeness.\n",
+  "baseline_core_sha256": "59161aabdb5ff6d1422bf190f0c7e0d4fd10f882a4b935a15078d056245a07ce",
+  "local_coefficients": {
+    "forward": {
+      "qT_theta4": 0.009106242362651739,
+      "qL_theta2": 0.0261711344993605,
+      "share_theta2": 0.3479498515004863,
+      "qT_amplitude_C_abs2": 0.8328984621283018,
+      "qL_axial_f_abs2": 2.1422999672722973
+    },
+    "backward": {
+      "qT_theta4": 3.146363125149459e-05,
+      "qL_theta2": 9.95141425877616e-05,
+      "share_theta2": 0.31617245984656694,
+      "qT_amplitude_C_abs2": 0.0028778072270317467,
+      "qL_axial_f_abs2": 0.008145964952879737
+    }
+  },
+  "cones": [
+    {
+      "half_angle_deg": 0.25,
+      "forward": {
+        "qT": 3.3008799343571175e-12,
+        "qL": 4.982463719991349e-07,
+        "qT_relative_to_local_law": 4.839630282926777e-05,
+        "qL_relative_to_local_law": -3.0294347970971636e-05
+      },
+      "backward": {
+        "qT": 1.1405223910677694e-14,
+        "qL": 1.8944908622169427e-09,
+        "qT_relative_to_local_law": 5.8642270974296196e-05,
+        "qL_relative_to_local_law": -6.226720343849301e-05
+      }
+    },
+    {
+      "half_angle_deg": 0.5,
+      "forward": {
+        "qT": 5.2821748255230035e-11,
+        "qL": 1.9928043821008755e-06,
+        "qT_relative_to_local_law": 0.00019361660837491357,
+        "qL_relative_to_local_law": -0.00012116325307320874
+      },
+      "backward": {
+        "qT": 1.825156916911271e-13,
+        "qL": 7.576548027237247e-09,
+        "qT_relative_to_local_law": 0.00023460880332404344,
+        "qL_relative_to_local_law": -0.00024903684223764877
+      }
+    },
+    {
+      "half_angle_deg": 1,
+      "forward": {
+        "qT": 8.456392073057594e-10,
+        "qL": 7.968321523620491e-06,
+        "qT_relative_to_local_law": 0.0007749708204249917,
+        "qL_relative_to_local_law": -0.0004844269431346637
+      },
+      "backward": {
+        "qT": 2.922307796565397e-12,
+        "qL": 3.028355989027399e-08,
+        "qT_relative_to_local_law": 0.0009390729014346899,
+        "qL_relative_to_local_law": -0.0009956361621846765
+      }
+    },
+    {
+      "half_angle_deg": 10,
+      "forward": {
+        "qT": 9.165951399047497e-06,
+        "qL": 0.000760804528984628,
+        "qT_relative_to_local_law": 0.08474804203425168,
+        "qL_relative_to_local_law": -0.04567609060682487
+      },
+      "backward": {
+        "qT": 3.2206741498655084e-08,
+        "qL": 2.748630307000254e-06,
+        "qT_relative_to_local_law": 0.10313451631372583,
+        "qL_relative_to_local_law": -0.09327249464089205
+      }
+    },
+    {
+      "half_angle_deg": 20,
+      "forward": {
+        "qT": 0.0001989850133720644,
+        "qL": 0.002688243400037829,
+        "qT_relative_to_local_law": 0.47180986902200295,
+        "qL_relative_to_local_law": -0.15699274478939873
+      },
+      "backward": {
+        "qT": 7.410408061852649e-07,
+        "qL": 8.327461609929692e-06,
+        "qT_relative_to_local_law": 0.5863675842021541,
+        "qL_relative_to_local_law": -0.31322716697158637
+      }
+    },
+    {
+      "half_angle_deg": 30,
+      "forward": {
+        "qT": 0.0028723811523905414,
+        "qL": 0.005090528303040838,
+        "qT_relative_to_local_law": 3.1967043422711274,
+        "qL_relative_to_local_law": -0.29051525414403434
+      },
+      "backward": {
+        "qT": 1.2705438039853187e-05,
+        "qL": 1.2271852942673581e-05,
+        "qT_relative_to_local_law": 4.37262229316939,
+        "qL_relative_to_local_law": -0.5501910502476146
+      }
+    }
+  ],
+  "archive_comparison": [
+    {
+      "angle": 0.5,
+      "side": "forward",
+      "qT_relative_difference": -6.6915362140207435e-12,
+      "qL_relative_difference": -3.1984415116426135e-12
+    },
+    {
+      "angle": 0.5,
+      "side": "backward",
+      "qT_relative_difference": -7.119749234618666e-12,
+      "qL_relative_difference": -3.1968871994081383e-12
+    },
+    {
+      "angle": 1,
+      "side": "forward",
+      "qT_relative_difference": 7.014389069581739e-13,
+      "qL_relative_difference": -3.248512570053208e-13
+    },
+    {
+      "angle": 1,
+      "side": "backward",
+      "qT_relative_difference": 6.978861932793734e-13,
+      "qL_relative_difference": -3.2585045772748344e-13
+    },
+    {
+      "angle": 10,
+      "side": "forward",
+      "qT_relative_difference": 2.552402733613235e-12,
+      "qL_relative_difference": -4.718447854656915e-14
+    },
+    {
+      "angle": 10,
+      "side": "backward",
+      "qT_relative_difference": 2.4802382370125997e-12,
+      "qL_relative_difference": -4.363176486776865e-14
+    },
+    {
+      "angle": 20,
+      "side": "forward",
+      "qT_relative_difference": 2.263300658000844e-12,
+      "qL_relative_difference": -2.453592884421596e-14
+    },
+    {
+      "angle": 20,
+      "side": "backward",
+      "qT_relative_difference": 1.566746732351021e-12,
+      "qL_relative_difference": -2.5646151868841116e-14
+    },
+    {
+      "angle": 30,
+      "side": "forward",
+      "qT_relative_difference": 1.85591320089884e-10,
+      "qL_relative_difference": -9.2148511043888e-15
+    },
+    {
+      "angle": 30,
+      "side": "backward",
+      "qT_relative_difference": 2.1933432847731638e-10,
+      "qL_relative_difference": -7.882583474838611e-15
+    }
+  ]
+}

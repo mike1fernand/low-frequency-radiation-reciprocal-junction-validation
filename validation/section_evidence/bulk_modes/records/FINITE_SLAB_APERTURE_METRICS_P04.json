@@ -1,0 +1,17 @@
+{
+  "central_null_to_null_width_delta_k_a": 2.5132741228718345,
+  "first_positive_null_delta_k_a": 1.2566370614359172,
+  "interaction_length_over_lambda": 0.9162142083460427,
+  "midpoint_extent_over_lambda": 0.7635118402883689,
+  "normalization": "A(0)=sum_i g_i=1",
+  "phase_removed_closed_form": "0.2 cos(5q/2) + 0.4 cos(3q/2) + 0.4 cos(q/2)",
+  "power_FWHM_delta_k_a": 1.075901129748061,
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ]
+}

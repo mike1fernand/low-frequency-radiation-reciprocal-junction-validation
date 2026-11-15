@@ -1,0 +1,845 @@
+{
+  "status": "PASS",
+  "scope": "Exact fourteen in-band positive-index DFT nodes for five already-computed bulk kernel families. Original reference and new ramp will be solved separately; no new Green quadrature.",
+  "source_archive_sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+  "source_archive_library_id": "libfile_a5d9914430088191891ba57eddc56542",
+  "copied_sources": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "packet_definition.py": "2d40df244f6311d980c2a4e35649da85fb00e2efc270e7182030cbc4733ff302",
+    "FREQUENCY_CONTRACT.json": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348",
+    "preparation.json": "6e77b32d3ac6ebe8075cb43b31bf20b73aef5d7261ea1c4118a0a832761451e1"
+  },
+  "families": [
+    {
+      "label": "surface_N128",
+      "method": "surface",
+      "grid": 128,
+      "source_directory": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128",
+      "nodes": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "kernel": "inputs/surface_N128/dft_012.npz",
+          "metadata": "inputs/surface_N128/dft_012.json",
+          "kernel_sha256": "9980d7a8b3da8af44676d11d7c6545fa84cdc560233b1be66e78d03932ab3b70",
+          "metadata_sha256": "257e8da55867bfc247a2ecb9fbc4f9954b6f19ed8d9e55a9e9ec5ee7fcae795f",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.803444185374863.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.803444185374863.json"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "kernel": "inputs/surface_N128/dft_013.npz",
+          "metadata": "inputs/surface_N128/dft_013.json",
+          "kernel_sha256": "ab73990088db678755f907cc569bc2c868ddc43d64f5764b20270bf390a0ba77",
+          "metadata_sha256": "15ff5c099cb4458b4c0d0bb0c8a069d8d8639233a48d8ab40f7c2faba68d45c9",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.867897834007805.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.867897834007805.json"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "kernel": "inputs/surface_N128/dft_014.npz",
+          "metadata": "inputs/surface_N128/dft_014.json",
+          "kernel_sha256": "0a9009a5ed8281f74bb2dd2ce414fa989bd7a5c1bfeb0f66fd744957220725a8",
+          "metadata_sha256": "b933b507f078a74cc72f053b1ad33b5286f57f76eae8634079a1b7b1ee60dba8",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.931756668817781.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.931756668817781.json"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "kernel": "inputs/surface_N128/dft_015.npz",
+          "metadata": "inputs/surface_N128/dft_015.json",
+          "kernel_sha256": "850e0ccad5a329b226659f30cdbfe5fd4fd8e0d388a65503bda47087ba5eea76",
+          "metadata_sha256": "deefbfc0fd171f6a4315f478d71a03ffd3e904a76c25648354a48e27ebb3035e",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.994976924149233.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega0.994976924149233.json"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "kernel": "inputs/surface_N128/dft_016.npz",
+          "metadata": "inputs/surface_N128/dft_016.json",
+          "kernel_sha256": "82c04c931c14d92f64f6e23c2d13cf1abd0613f9d6c08689ba7774a28f8f4875",
+          "metadata_sha256": "d0dd934b6a838bfac50a622dd0968c3bc0af91d53194b31345058620f5923054",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.05751527199708.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.05751527199708.json"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "kernel": "inputs/surface_N128/dft_017.npz",
+          "metadata": "inputs/surface_N128/dft_017.json",
+          "kernel_sha256": "0afe21b070e7ed50b4bbe60a64399221855d8d204f3dafbde129bb14554f126f",
+          "metadata_sha256": "ac7c2cce2ae13ef577955803a27d249059dcfe1f42c23ee1eaccfc9be4c0b65a",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.11932885170157.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.11932885170157.json"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "kernel": "inputs/surface_N128/dft_018.npz",
+          "metadata": "inputs/surface_N128/dft_018.json",
+          "kernel_sha256": "6f06d5975cc1cd302a5e20bf22d4727a5f9b73605c3eb2ffe022e0037e36473b",
+          "metadata_sha256": "88652d25ded2f9dc1ac4a37f9281a5276dd7de445e1718a55a899fa67d5b0fb4",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.18037529932282.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.18037529932282.json"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "kernel": "inputs/surface_N128/dft_019.npz",
+          "metadata": "inputs/surface_N128/dft_019.json",
+          "kernel_sha256": "70eee1c6b24227e65135872d6139f6fa3e0d1aaf4d39bac211609d7d60db9059",
+          "metadata_sha256": "adab642cc233891ae458aa22d91f96bc9713616b3bcdf0ff48e62f031989fd24",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.24061277667498.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.24061277667498.json"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "kernel": "inputs/surface_N128/dft_020.npz",
+          "metadata": "inputs/surface_N128/dft_020.json",
+          "kernel_sha256": "99f8c408f126dcfd57954e65bb861634c1260a8414d4a47ae61e4b1a6ee39a36",
+          "metadata_sha256": "1fcfe74d738a70f9e0400f983279156288fc706b43b03bc67895dcf2e17240ae",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.3.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.3.json"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "kernel": "inputs/surface_N128/dft_021.npz",
+          "metadata": "inputs/surface_N128/dft_021.json",
+          "kernel_sha256": "a7c117e68386c4a7ee6f71cbbf98aedc5a24bed5db9509d5c618e02b748b436a",
+          "metadata_sha256": "e8469cb3341c83cd6f9bec72c7a8f0f30a5a250a180fe66faf1706f68adb1e9d",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.35849626826147.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.35849626826147.json"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "kernel": "inputs/surface_N128/dft_022.npz",
+          "metadata": "inputs/surface_N128/dft_022.json",
+          "kernel_sha256": "8afe44cd599a89e6972f3e714a80a640ee0499a7eeffdc8ae1ab0046ef21d3ed",
+          "metadata_sha256": "959a5aba39ae7d22d2c57c5a13a712ad1e8899748089e9422dc853de44546455",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.41606149103907.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.41606149103907.json"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "kernel": "inputs/surface_N128/dft_023.npz",
+          "metadata": "inputs/surface_N128/dft_023.json",
+          "kernel_sha256": "46e91be65cd5a993f32bb8839e35d94b7ee2091049aaa57fb69f2db257b578dc",
+          "metadata_sha256": "311005c344cd64a0929c546e6006f9b77409c35af977212892d1342c67380579",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.47265621600457.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.47265621600457.json"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "kernel": "inputs/surface_N128/dft_024.npz",
+          "metadata": "inputs/surface_N128/dft_024.json",
+          "kernel_sha256": "7230ddcf2274ecb985d29229dad92e6515e20a3b078d89fe9ff3891b8046f47e",
+          "metadata_sha256": "f67c555c8f5e06200ddc9a1f437aa0eff873ce44a77612bc5c2ce30b82f328c3",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.52824165596043.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.52824165596043.json"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "kernel": "inputs/surface_N128/dft_025.npz",
+          "metadata": "inputs/surface_N128/dft_025.json",
+          "kernel_sha256": "8db17bc29281bc3ae4f2177f978127645d8ccc45fcd99fe761a7a869c55ea744",
+          "metadata_sha256": "aa580470d2080a86632b6cc20e9c863ff77950671688962a8d3209b8dcb2f5ad",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.58277971542267.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N128/omega1.58277971542267.json"
+        }
+      ],
+      "selected_producer_checks": {
+        "070a2fcbe841dbb8aac5e8656009c22e2d28801c2ac9cf2add9bced23f5d076d": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/export_fresh_curve.py"
+      }
+    },
+    {
+      "label": "surface_N160",
+      "method": "surface",
+      "grid": 160,
+      "source_directory": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160",
+      "nodes": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "kernel": "inputs/surface_N160/dft_012.npz",
+          "metadata": "inputs/surface_N160/dft_012.json",
+          "kernel_sha256": "f9e7a1251bad439eabb49d70997c3adf52a4f6f7ae6b40c7e911fb80dbf6a0c2",
+          "metadata_sha256": "86e66e12b7ae99e67010641e9baa66742e8e8614cf32133273ffbd0de3d63121",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.803444185374863.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.803444185374863.json"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "kernel": "inputs/surface_N160/dft_013.npz",
+          "metadata": "inputs/surface_N160/dft_013.json",
+          "kernel_sha256": "a9ebaa4b24ae1f6825e26bb271a0f6905a20be888b1fc9eb3092c54b0c424e42",
+          "metadata_sha256": "5b65cad152187ec809301934218f9e5dfa6c80eba38309fd17336c494a496022",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.867897834007805.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.867897834007805.json"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "kernel": "inputs/surface_N160/dft_014.npz",
+          "metadata": "inputs/surface_N160/dft_014.json",
+          "kernel_sha256": "e651daca7156aea6bdc8071ff857e0e6fe70ae6c1702f6883753986ca360d582",
+          "metadata_sha256": "9503892176c76d8c20f54963f2b48708368f93f49e6def809a5680136096a6f4",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.931756668817781.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.931756668817781.json"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "kernel": "inputs/surface_N160/dft_015.npz",
+          "metadata": "inputs/surface_N160/dft_015.json",
+          "kernel_sha256": "955d5da14609613b7e20bb907de2138a6b904b5fee3c74899ec8d8e8b7500a09",
+          "metadata_sha256": "c48913d51960161f2b331d7e3b57e15089cc0819980c9c04cbfb10d76985b637",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.994976924149233.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega0.994976924149233.json"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "kernel": "inputs/surface_N160/dft_016.npz",
+          "metadata": "inputs/surface_N160/dft_016.json",
+          "kernel_sha256": "6b705ca1a2503277cd1d15e86b15efec5e5ee146f2bfb28384d8b4812ff21dcd",
+          "metadata_sha256": "9bc7d2024ab64280388ed143e0d263c219a5f1770584e9170f688c97bfca7eea",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.05751527199708.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.05751527199708.json"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "kernel": "inputs/surface_N160/dft_017.npz",
+          "metadata": "inputs/surface_N160/dft_017.json",
+          "kernel_sha256": "5e55321bd111d34014759aa85e3c3edd85b526f4be7a2c59388d13868ab4e2c0",
+          "metadata_sha256": "2cc7b10a09c19cf33ee39afd21800192f69e212da2fd0afa26f9c2c28e4eb363",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.11932885170157.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.11932885170157.json"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "kernel": "inputs/surface_N160/dft_018.npz",
+          "metadata": "inputs/surface_N160/dft_018.json",
+          "kernel_sha256": "a5c46cb9349262d71b2e76ce868d379c867f0e0f5a9d0390a1e96f91b9089e8c",
+          "metadata_sha256": "1874071c4f4848ff806125dab2d67deeb4a5085093eacd55580dcc4b17af0eb5",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.18037529932282.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.18037529932282.json"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "kernel": "inputs/surface_N160/dft_019.npz",
+          "metadata": "inputs/surface_N160/dft_019.json",
+          "kernel_sha256": "2979a1ac9c1588cc966410a7d0dc8516b4b8977d9c48af90d8d615fa32c26540",
+          "metadata_sha256": "311c8518e205cec240478e4688220659d55f1bef7cfeaca28826ebc2406cd243",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.24061277667498.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.24061277667498.json"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "kernel": "inputs/surface_N160/dft_020.npz",
+          "metadata": "inputs/surface_N160/dft_020.json",
+          "kernel_sha256": "dbc153ab3a33238f3717c5a050528e4ed2ccc873966e56727658781d3f8e0679",
+          "metadata_sha256": "2dcbae9ac7dcb0afac45dc6f203fbba9391dda1792b99c678c504b52821ebfa7",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.3.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.3.json"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "kernel": "inputs/surface_N160/dft_021.npz",
+          "metadata": "inputs/surface_N160/dft_021.json",
+          "kernel_sha256": "5a6b541c7a478e9e726bc95b111da4ec20c7586ef5a357b45aef3a514d90bdee",
+          "metadata_sha256": "9fbb66d468b5e36a8f1295c9aeaa8cb5af1d1f8f850b5fd43c0c5690a93d8dc6",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.35849626826147.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.35849626826147.json"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "kernel": "inputs/surface_N160/dft_022.npz",
+          "metadata": "inputs/surface_N160/dft_022.json",
+          "kernel_sha256": "f21c2a5c1be4f8a6f1f4907d3b9c8f4a987229d3af96e101aa0d01bdceae35a6",
+          "metadata_sha256": "90c62d0c75a5bee7593748ae1864cfbb6ed0bd3f1027379a10b8fb7feec46501",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.41606149103907.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.41606149103907.json"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "kernel": "inputs/surface_N160/dft_023.npz",
+          "metadata": "inputs/surface_N160/dft_023.json",
+          "kernel_sha256": "8690c088e5ee5f7a21683bd411d4fded6964a0d0231f31382cdce87ade8af117",
+          "metadata_sha256": "cbb8861ccc2eaa54c2946cca96dc86155cd55f41bacb1d1af2793974555386fa",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.47265621600457.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.47265621600457.json"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "kernel": "inputs/surface_N160/dft_024.npz",
+          "metadata": "inputs/surface_N160/dft_024.json",
+          "kernel_sha256": "71318d3355eecdc1153ecfd9b3cebd16d7c1957dcc5f626954228280dc1f30f6",
+          "metadata_sha256": "4b1dc91eb085543073338b6496023e92c0ce76b47e6974598346a9bcdd10aaef",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.52824165596043.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.52824165596043.json"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "kernel": "inputs/surface_N160/dft_025.npz",
+          "metadata": "inputs/surface_N160/dft_025.json",
+          "kernel_sha256": "dbaee9d8cdcd4e1dd7db33354fa5e4175e8543227df4b4021c9a0178606ac97c",
+          "metadata_sha256": "036983d4d6deee308e31bf07a9ec98dc2c0c3935f79cc252bc22fb158d370d15",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.58277971542267.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/selected_nodes/N160/omega1.58277971542267.json"
+        }
+      ],
+      "selected_producer_checks": {
+        "b1e76461778e4a7c2517f774c9e2a19e2879d3a8b8ac5c9b738ad4170ae6b17c": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/export_fresh_curve_N160.py"
+      }
+    },
+    {
+      "label": "tetra_N96",
+      "method": "tetrahedron",
+      "grid": 96,
+      "source_directory": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96",
+      "nodes": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "kernel": "inputs/tetra_N96/dft_012.npz",
+          "metadata": "inputs/tetra_N96/dft_012.json",
+          "kernel_sha256": "f5e78fa171b0332762bb7ed4f2c070d2a8e0965500d1303729722097ee748014",
+          "metadata_sha256": "44fd292a430f395f12b86665e29745194f31aca718449bc7e057c0b51b33849f",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_001.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_001.json"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "kernel": "inputs/tetra_N96/dft_013.npz",
+          "metadata": "inputs/tetra_N96/dft_013.json",
+          "kernel_sha256": "27277b5e6768aad088bc88a82e98c8937dc554865611ec74595f938d2118e6bd",
+          "metadata_sha256": "e01ab80f531e3035fd4cd8c1b94825c589a015fdec3ca17f1cc55a8a7818bf7d",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_002.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_002.json"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "kernel": "inputs/tetra_N96/dft_014.npz",
+          "metadata": "inputs/tetra_N96/dft_014.json",
+          "kernel_sha256": "b46921ca08a10b2c2f427fe8b4f887b4a8e23c21baed3485b24483a53e0a5f74",
+          "metadata_sha256": "48417171a3c03d7a32c034f6301b2b5d4ce33b0cb518cd3f05ffe98613b617fa",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_003.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_003.json"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "kernel": "inputs/tetra_N96/dft_015.npz",
+          "metadata": "inputs/tetra_N96/dft_015.json",
+          "kernel_sha256": "602ed6c0d13b7d188a7cc8b31a29f4dac6d263a6525656bdf575b5acd469ead7",
+          "metadata_sha256": "0a5d5414071ce1486b253c6b949dcaf29f7ac0b6d408a122a37b9093247590f7",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_004.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_004.json"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "kernel": "inputs/tetra_N96/dft_016.npz",
+          "metadata": "inputs/tetra_N96/dft_016.json",
+          "kernel_sha256": "adf8df7903807d2203fbf85a30ff3f053cfce6900dba932bd3f010d2733c6751",
+          "metadata_sha256": "fbd2c123dc0d496b5d1c44c6fcfe3034e361405ff9f53f9ba0615c3d9fafc429",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_005.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_005.json"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "kernel": "inputs/tetra_N96/dft_017.npz",
+          "metadata": "inputs/tetra_N96/dft_017.json",
+          "kernel_sha256": "a9dabdd7222871b6ab8b4de47cecd95521a04eccd3a7755272288b0763b18918",
+          "metadata_sha256": "32364bf9b14020f36b885078e7240b9c43252d63274fc441e93ed69fc7b21224",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_006.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_006.json"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "kernel": "inputs/tetra_N96/dft_018.npz",
+          "metadata": "inputs/tetra_N96/dft_018.json",
+          "kernel_sha256": "9af4808b474456c2dbdc2cb28e0bb7e07617cc6f57e5804568e5c31c2ec1db7d",
+          "metadata_sha256": "4c5ea6497527aa8701841a564cff2e6ca4bdf05f516e0f03c36465b7680c6189",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_007.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_007.json"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "kernel": "inputs/tetra_N96/dft_019.npz",
+          "metadata": "inputs/tetra_N96/dft_019.json",
+          "kernel_sha256": "87711e49e35d288d40f89be152a27e4e3a1c8cccd3797d94f30144d3f22affbc",
+          "metadata_sha256": "a5368e3e726569ccb5fdbaec7c192e48ba9c29fbc7612da11091b5d3f9a62825",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_008.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_008.json"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "kernel": "inputs/tetra_N96/dft_020.npz",
+          "metadata": "inputs/tetra_N96/dft_020.json",
+          "kernel_sha256": "86f65d42ca1831d53222ccc24d2295dcc2e4a375d9e4e84e011199bcc57a69ff",
+          "metadata_sha256": "aa7f294c583c40cfdf4a6814de93346c76993551e0fe014fba41e9836151b379",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_009.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_009.json"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "kernel": "inputs/tetra_N96/dft_021.npz",
+          "metadata": "inputs/tetra_N96/dft_021.json",
+          "kernel_sha256": "09707907fab1e67618bf2f20d7c2f38612b2b6b4b6ae0cea8f08c33e558d5549",
+          "metadata_sha256": "9a9e08269d8761e5e88243baea0acd8f6648175cc54f2fd9c9eaaffb69fa5e9b",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_010.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_010.json"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "kernel": "inputs/tetra_N96/dft_022.npz",
+          "metadata": "inputs/tetra_N96/dft_022.json",
+          "kernel_sha256": "ac6384c0af61b363a3f1f2673302323fa03228797f402a2838347dfa0be1f0d1",
+          "metadata_sha256": "0055c4bb6bb4023eecba51b4baa2541194b4f510764cf6bf0c5c6f25b7619119",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_011.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_011.json"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "kernel": "inputs/tetra_N96/dft_023.npz",
+          "metadata": "inputs/tetra_N96/dft_023.json",
+          "kernel_sha256": "8eda08fc1d8e81ce2df8b96cf55eff741fdf10db89ce92d555c230a3ae972ec3",
+          "metadata_sha256": "ff3fcafa84af32e2497968b648f91dca570fcd5f509d19abcea0dd6e5de91b9b",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_012.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_012.json"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "kernel": "inputs/tetra_N96/dft_024.npz",
+          "metadata": "inputs/tetra_N96/dft_024.json",
+          "kernel_sha256": "48104a82793bc8902fd30f4e15b2f12618df1c8ed016a2fa0fa03298c7766788",
+          "metadata_sha256": "a1412c602ad63dff8d115957745bbad7ce4b88254f21dcb3a10fdac5c3f238f9",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_013.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_013.json"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "kernel": "inputs/tetra_N96/dft_025.npz",
+          "metadata": "inputs/tetra_N96/dft_025.json",
+          "kernel_sha256": "f42c45fd0901cf51e2d9d266d3254ad11984785c2eabc16e321714ac5888d252",
+          "metadata_sha256": "d1c134cd9c77b0fe4c26f614334eb2629c90bdbc1aef66b414cf6491a481a70b",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_014.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/omega_014.json"
+        }
+      ],
+      "bulk_regulator": 1e-10,
+      "source_checks": [
+        {
+          "path": "analysis/resolution_execution/tetra/multifrequency_tetra.py",
+          "sha256": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/combined_tetra_diagnostic.py",
+          "sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/stable_scalar.py",
+          "sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/centroid_weights.py",
+          "sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+          "matches": true
+        },
+        {
+          "path": "analysis/resolution_execution/tetra/campaign.py",
+          "sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "label": "tetra_N128",
+      "method": "tetrahedron",
+      "grid": 128,
+      "source_directory": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128",
+      "nodes": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "kernel": "inputs/tetra_N128/dft_012.npz",
+          "metadata": "inputs/tetra_N128/dft_012.json",
+          "kernel_sha256": "4f9593153753c78af694464e32db21cd4dbf75acb5b3f6e42b8d05c5cf698b8b",
+          "metadata_sha256": "bae5e68de4fc0685f346fe3dbba363a9559bb4f8d499d35f085fa0c9e9b2e229",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_001.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_001.json"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "kernel": "inputs/tetra_N128/dft_013.npz",
+          "metadata": "inputs/tetra_N128/dft_013.json",
+          "kernel_sha256": "662afc2333458871122cb89d34e9eb6831bfd54ceb6d71d7eeab5845c7137324",
+          "metadata_sha256": "ccf9f0ce51dc084f704aa770f79f9d1e2a487067f823ba5163cafc6815d03cf1",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_002.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_002.json"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "kernel": "inputs/tetra_N128/dft_014.npz",
+          "metadata": "inputs/tetra_N128/dft_014.json",
+          "kernel_sha256": "5dce1b6ea34cfdb9e634bd70f482341784ae984911883ae02c7c1fdd27464926",
+          "metadata_sha256": "8be54894275297489da05c9879b1154c4f1f168fe497d6df879008837c353b21",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_003.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_003.json"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "kernel": "inputs/tetra_N128/dft_015.npz",
+          "metadata": "inputs/tetra_N128/dft_015.json",
+          "kernel_sha256": "3f55233bdc570f7b9051a449cb6802f6bf0eb2ccfbc4507b7fc1e2a1fd00e4b7",
+          "metadata_sha256": "5c4df7a0dafb76669fb0dd6f513e335e6b4f8729eddf0411da21de0eff5f158f",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_004.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_004.json"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "kernel": "inputs/tetra_N128/dft_016.npz",
+          "metadata": "inputs/tetra_N128/dft_016.json",
+          "kernel_sha256": "61c6409afa82969027ec0424e2370b99b8433eeeb2769b09cc6364a8392aff43",
+          "metadata_sha256": "84497b634d818b400f536c6bd677b5f26e5a972502b0112ad6d3eb145bf86f71",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_005.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_005.json"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "kernel": "inputs/tetra_N128/dft_017.npz",
+          "metadata": "inputs/tetra_N128/dft_017.json",
+          "kernel_sha256": "3df292fcd7806c7ae10d30cca526bec134e18218f69f326006743a14ef3e00e9",
+          "metadata_sha256": "ae57e2fb99a5b4d4d38c28c7e91b2e8e80633e1051f499d63aa84bfd2fa91843",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_006.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_006.json"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "kernel": "inputs/tetra_N128/dft_018.npz",
+          "metadata": "inputs/tetra_N128/dft_018.json",
+          "kernel_sha256": "c404825f319b1739ee27782d7cb81b7ecfa7e47076f013f6eaf8c8057f409f30",
+          "metadata_sha256": "229c61b10c724cd86dbb8829c19a7bbb577d42e00bf31badd66b839776b8207c",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_007.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_007.json"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "kernel": "inputs/tetra_N128/dft_019.npz",
+          "metadata": "inputs/tetra_N128/dft_019.json",
+          "kernel_sha256": "62bc42887221ee78a4a5870d3dbab2494036758271faf47e899b1a470f1ad5bf",
+          "metadata_sha256": "646a33b403a86edffa8298ddcef934ee267b08b73538b8c0c61f4e7fbb0fe448",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_008.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_008.json"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "kernel": "inputs/tetra_N128/dft_020.npz",
+          "metadata": "inputs/tetra_N128/dft_020.json",
+          "kernel_sha256": "509bdb07e4a4c6676bc405862cbb08e16e0abecf2d48447706a445e0dce5ee0e",
+          "metadata_sha256": "555d2f8d57884ace0bc0c9388ba486aac8eb7b275fffe7b88aa91d8b9413d4b5",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_009.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_009.json"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "kernel": "inputs/tetra_N128/dft_021.npz",
+          "metadata": "inputs/tetra_N128/dft_021.json",
+          "kernel_sha256": "095e84ca58a462c311aca3ebc2c5bddf6822e9b16aa6d7f6f003871e4e059c97",
+          "metadata_sha256": "837f7656d1e0d6581f96c44cfa10a3c8cea8111b6446c5a801c64267904d77f8",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_010.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_010.json"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "kernel": "inputs/tetra_N128/dft_022.npz",
+          "metadata": "inputs/tetra_N128/dft_022.json",
+          "kernel_sha256": "0bc4e6894a33ffdb9dd877d3864ab3ac2ee7d1688bb8b344ad184e514f71211c",
+          "metadata_sha256": "8a200e950fadbf4acc170dd5ce3268ea0c496c5841b3d36571091399a61019e7",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_011.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_011.json"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "kernel": "inputs/tetra_N128/dft_023.npz",
+          "metadata": "inputs/tetra_N128/dft_023.json",
+          "kernel_sha256": "8a781ff3ba49b1be45de0a02f2fd65c450c11fa570bbbd390908bac0dd662984",
+          "metadata_sha256": "5c291ba8f50fb2a25cae87d88627689bf1f0cb356e13463514eb27e91402a4e3",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_012.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_012.json"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "kernel": "inputs/tetra_N128/dft_024.npz",
+          "metadata": "inputs/tetra_N128/dft_024.json",
+          "kernel_sha256": "30907d7175aeda1470df3b0be9f8439b6955e03184ea03079ebbd0d51837e796",
+          "metadata_sha256": "d9d1cf867a2b02d1e8f2f75ae200894dcbcef8afaba078311f39e993a8014113",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_013.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_013.json"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "kernel": "inputs/tetra_N128/dft_025.npz",
+          "metadata": "inputs/tetra_N128/dft_025.json",
+          "kernel_sha256": "1f7ab84d6d0de9c7fbda7f5367964ce9d26b2d47e8d901b0f52a7d5e54c638ae",
+          "metadata_sha256": "d0a165c5a940edbed0b3fc7bafb6466eec09fdbe7af0f11830d714d2c84b4d2b",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_014.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/omega_014.json"
+        }
+      ],
+      "bulk_regulator": 1e-10,
+      "source_checks": [
+        {
+          "path": "analysis/resolution_execution/tetra/multifrequency_tetra.py",
+          "sha256": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/combined_tetra_diagnostic.py",
+          "sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/stable_scalar.py",
+          "sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/centroid_weights.py",
+          "sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+          "matches": true
+        },
+        {
+          "path": "analysis/resolution_execution/tetra/campaign.py",
+          "sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "label": "tetra_N160",
+      "method": "tetrahedron",
+      "grid": 160,
+      "source_directory": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete",
+      "nodes": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "kernel": "inputs/tetra_N160/dft_012.npz",
+          "metadata": "inputs/tetra_N160/dft_012.json",
+          "kernel_sha256": "edc3a82fb7cb3c30ee4e5c5c8d8ae45b7b0a7cc9f83cc239a5ab85d7376aeff6",
+          "metadata_sha256": "e363f4f96c3620aab14a5471d6436beb31ef7d11fdcbe595b7f479f5e190ebc7",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_001.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_001.json"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "kernel": "inputs/tetra_N160/dft_013.npz",
+          "metadata": "inputs/tetra_N160/dft_013.json",
+          "kernel_sha256": "00c87f37bd85b74d33158521d74fa0bd85e76cc429dd1f6b6a5a501a3ccaf329",
+          "metadata_sha256": "ce496fb2488b30fec37b6e6508ea798ae1aa1b257f8ee8d1fe48acb5fc435c25",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_002.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_002.json"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "kernel": "inputs/tetra_N160/dft_014.npz",
+          "metadata": "inputs/tetra_N160/dft_014.json",
+          "kernel_sha256": "500c2cc101874c1a6ce5dc8d7053e4668598ab5ffed8a8d9bfbdd5a8e251d132",
+          "metadata_sha256": "c3a97436e14db8429cbac3ca882249c43b97175d733dd29a2eeaa734a2c33d19",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_003.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_003.json"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "kernel": "inputs/tetra_N160/dft_015.npz",
+          "metadata": "inputs/tetra_N160/dft_015.json",
+          "kernel_sha256": "af1ae65ca06c52ea6c4624cd50559314b7f23b8d7808bbaf22410913a225c8ce",
+          "metadata_sha256": "73c22ccd81da4230b68d7399a892544098ee1fa5faec63f0a33b563dce27e1c4",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_004.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_004.json"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "kernel": "inputs/tetra_N160/dft_016.npz",
+          "metadata": "inputs/tetra_N160/dft_016.json",
+          "kernel_sha256": "19fbf22e8ba8cd2a6950628dddda34b499b572786ea0681a0e381c3e41e488f8",
+          "metadata_sha256": "a62d2e980546977f3489511250ea1b0634fa8836e4d5434830440a5b3ea7cc59",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_005.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_005.json"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "kernel": "inputs/tetra_N160/dft_017.npz",
+          "metadata": "inputs/tetra_N160/dft_017.json",
+          "kernel_sha256": "64f723a31ee503110aaf9f200c8215cd0ff323c5b2642f52464518e19d21fe6d",
+          "metadata_sha256": "7bbfa1f6ca8d0bfdbd1f8a6435e4d158080ca1bcf2c053eb085f0756a04c5764",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_006.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_006.json"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "kernel": "inputs/tetra_N160/dft_018.npz",
+          "metadata": "inputs/tetra_N160/dft_018.json",
+          "kernel_sha256": "17c5f1bc6e885cd6a5053523ac377c3687ce6aed70b14d357dd177e08e241888",
+          "metadata_sha256": "41168d77ae8fe9a0a4d3dca982b026562d27f311f022a196cf1f10fb97949b7d",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_007.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_007.json"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "kernel": "inputs/tetra_N160/dft_019.npz",
+          "metadata": "inputs/tetra_N160/dft_019.json",
+          "kernel_sha256": "2430b922a620dc8e539ac734cbb024a16b5f45fd8c888425db3399e12a5087e1",
+          "metadata_sha256": "2acad878198f80671d0817ab1f13a74acf791d37fe8a703f90c87a6167cb880c",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_008.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_008.json"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "kernel": "inputs/tetra_N160/dft_020.npz",
+          "metadata": "inputs/tetra_N160/dft_020.json",
+          "kernel_sha256": "b7c25d02c76ee7f4290b65f210169ec662909cbab53573ee5bc0d65b819c2123",
+          "metadata_sha256": "f4ffdc33b46f9a56c0907bed5bd8b9c5159110476a7abf4687abebcaa950089a",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_009.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_009.json"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "kernel": "inputs/tetra_N160/dft_021.npz",
+          "metadata": "inputs/tetra_N160/dft_021.json",
+          "kernel_sha256": "fba7f2468351f472173895aa0d75127acf6d94147d70b2b0abd5176c4512bd4d",
+          "metadata_sha256": "ece300cd7bca87ed24943015f5303cc492d44b4fc75abf6c84b1a18f0cc21f5a",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_010.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_010.json"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "kernel": "inputs/tetra_N160/dft_022.npz",
+          "metadata": "inputs/tetra_N160/dft_022.json",
+          "kernel_sha256": "586f383f649d54e49f47386b048fc71d6bf836248c9500dbbb61e76ee1ad9c16",
+          "metadata_sha256": "698d99fe26d452c7cb64060075e4f89d2d1ae966cb1f73329691b58ed66f1b40",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_011.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_011.json"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "kernel": "inputs/tetra_N160/dft_023.npz",
+          "metadata": "inputs/tetra_N160/dft_023.json",
+          "kernel_sha256": "63980ad47bd2cd16ee4155074cce29fc65e43f652b0ecc24512d30290021c4c0",
+          "metadata_sha256": "307d1934c414963e23c02dccc6b7e02f52b2b5fe824c81d4159022563104ee5c",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_012.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_012.json"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "kernel": "inputs/tetra_N160/dft_024.npz",
+          "metadata": "inputs/tetra_N160/dft_024.json",
+          "kernel_sha256": "f0a84d8946743e48e73a1313c8e045f6990ab2616d162e65b70cf4b80ebbc905",
+          "metadata_sha256": "ead00c5a7cc5dd92b78202f052da694966a4d999f8c2f5bd9b41863fc5462dde",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_013.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_013.json"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "kernel": "inputs/tetra_N160/dft_025.npz",
+          "metadata": "inputs/tetra_N160/dft_025.json",
+          "kernel_sha256": "181dc0d9e8e4262fd177e10f5566ae45b4e5c7dfbfe819187265b187966057bd",
+          "metadata_sha256": "714699be63f91b7532e41d7cbc23801f99ff0f5d2b8909f82869dd8ca2ca65cb",
+          "archive_relative_kernel": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_014.npz",
+          "archive_relative_metadata": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/omega_014.json"
+        }
+      ],
+      "bulk_regulator": 1e-10,
+      "source_checks": [
+        {
+          "path": "analysis/resolution_execution/tetra/multifrequency_tetra.py",
+          "sha256": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/combined_tetra_diagnostic.py",
+          "sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/stable_scalar.py",
+          "sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+          "matches": true
+        },
+        {
+          "path": "analysis/math_resolution/tetra/centroid_weights.py",
+          "sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+          "matches": true
+        },
+        {
+          "path": "analysis/resolution_execution/tetra/campaign.py",
+          "sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc",
+          "matches": true
+        }
+      ]
+    }
+  ]
+}

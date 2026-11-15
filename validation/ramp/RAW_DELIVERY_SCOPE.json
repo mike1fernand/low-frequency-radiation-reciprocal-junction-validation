@@ -1,0 +1,360 @@
+{
+  "status": "PASS",
+  "raw_inventory_files": 58,
+  "raw_inventory_bytes": 3162169048,
+  "included_files": 1,
+  "included_bytes": 9218168,
+  "omitted_files": 57,
+  "omitted_bytes": 3152950880,
+  "regeneration": "replay.py packet --case all regenerates the three successful production/control cases; packet/run_candidate.py preserves failed first-box and small restart cases.",
+  "files": [
+    {
+      "path": "candidate_dt004_box56/checkpoint_0.bin",
+      "bytes": 4518008,
+      "sha256": "04f2b4f62bb9abe4d8fa2ba20c1e30dceeaa5a9803bc1e636383752c51a16b77",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_1200.bin",
+      "bytes": 4518008,
+      "sha256": "6234364f11fbcb8e2272765d1e5426ff5ba27c2405971cb5bfd2bf4979ef27b4",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_1425.bin",
+      "bytes": 4518008,
+      "sha256": "8a0e08e46a38b4170c1e530b629e26e5dd822cb1cca0c5e1d46f865c9159cb7b",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_300.bin",
+      "bytes": 4518008,
+      "sha256": "400b26f43a241272fa0870447163702eb52b1dbf22095b918a86b821ba67bb0d",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_50.bin",
+      "bytes": 4518008,
+      "sha256": "2eecbded830f1b3c98785858c68da95d686225f5dc0b5ddf0da947c3ffc62ab2",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_600.bin",
+      "bytes": 4518008,
+      "sha256": "0574622862f392e7d4807c6645ae3ac9bc9766bb8ddd9b1c70dc01f51b6768bb",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/checkpoint_900.bin",
+      "bytes": 4518008,
+      "sha256": "e7c736653a0e01c85559b8b422cdf99a4f7e601cd8b4cd8e193f8058285b9be7",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/corner.bin",
+      "bytes": 410688,
+      "sha256": "12ef391e9f918e3e15dce56c0be5f0e1bcb402db7945c6a16654e090ea81e307",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/line.bin",
+      "bytes": 2737920,
+      "sha256": "3e92812314bb43d1b1621114d0e0f80664ba8937b701720be584db6814a20df1",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/snap.bin",
+      "bytes": 207816960,
+      "sha256": "8fde46850faeedb4312bbf8828e5376e2a83f90efa0cd204085fdb5712fb8d8c",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box56/snap_times.bin",
+      "bytes": 368,
+      "sha256": "349147e92799715147ed3f3d5b21148d7ea0b1292cca5f6aad5ff69f4c7df610",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_0.bin",
+      "bytes": 9218168,
+      "sha256": "33ae6c7897473f0360e07a2e6d0be7348fb706d7b71767ed80de5cb0a5b4b224",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_1200.bin",
+      "bytes": 9218168,
+      "sha256": "2e790c2691dc0b112129b93679bdf60c2e921a894fd5599f83cdbb4b6e407017",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_1500.bin",
+      "bytes": 9218168,
+      "sha256": "492af93b1244b0492182e04c1fb4b32bf1c525ae66c627aed78df2436e8c4a14",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_1650.bin",
+      "bytes": 9218168,
+      "sha256": "9bc2744e79274ef57de60949416edce588b8c79e2d8ef24e57cd9046925f69ac",
+      "included_in_full_replay_zip": true
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_300.bin",
+      "bytes": 9218168,
+      "sha256": "8c669a3c3a51ca720ce125438fc9bb28a2f03e5d8fb82ffa22a6eb92387b3d94",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_600.bin",
+      "bytes": 9218168,
+      "sha256": "ebcd67eed15e023ef13f4b163927029b41a1cab383095975296b99599430701b",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/checkpoint_900.bin",
+      "bytes": 9218168,
+      "sha256": "d5ab354a105724d31864fc51b0cdcfc6b578263b53c838f8ff76f9c46d5a4a64",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/corner.bin",
+      "bytes": 475488,
+      "sha256": "1a50aafcb8f157621b3610278557a12e1ca86542c16a87fe2f06caa9472ea84e",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/line.bin",
+      "bytes": 3169920,
+      "sha256": "045773d62bc84830c5511e23cfcb325c2fabfa4ffb8f0f6c8f61c67071659f13",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/snap.bin",
+      "bytes": 838830720,
+      "sha256": "872a1c6f1dd531fb7ab8309174291709d055ed5fb3f6a65108e081bee2b91e67",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "candidate_dt004_box80/snap_times.bin",
+      "bytes": 728,
+      "sha256": "e3fe732e725f32a18e9e1dbe31f4995b40b4e3bd060f9022e9952ab91d98cb27",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_0.bin",
+      "bytes": 9218168,
+      "sha256": "9121d5eeb2cf2b2349551e5a767d7d1e2fb4b7b5cfab9ff31e8acfbff6bfbc8f",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_1200.bin",
+      "bytes": 9218168,
+      "sha256": "8fcdb922dc686a0d781e8e9b646de333d60fc2e8d17d7b73df69a76e0d3ad056",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_1800.bin",
+      "bytes": 9218168,
+      "sha256": "eeafff138fdd5b1e0809df5169c02937430eecf6f8bc83a69601b32adc130a24",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_2400.bin",
+      "bytes": 9218168,
+      "sha256": "580192c237c745f5fe1e8fd2d051445e00cae9d38d5c7d6528833b6536ce0681",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_3000.bin",
+      "bytes": 9218168,
+      "sha256": "3d60ac38501158f0307ecc86a3e9817ff927ae6bcc68e0d1ad2b3f435ac0dae5",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_3210.bin",
+      "bytes": 9218168,
+      "sha256": "939ff20e6708082e4ea4485fb2995d9010d917d2e069491f4aff916055e0d5c0",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/checkpoint_600.bin",
+      "bytes": 9218168,
+      "sha256": "97b6395fc0a3985faaca35b9b73af111e17f719f2b89897e9acba90ccb0b86b4",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/corner.bin",
+      "bytes": 924768,
+      "sha256": "50801a000605525e82d5e6a9d82d8c5c471de8fea627a499861ada12d282cd41",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/line.bin",
+      "bytes": 6165120,
+      "sha256": "d45081b209c8ae59b9e6234605d8281253de8518456454b0a9fe3afaab832d99",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/snap.bin",
+      "bytes": 755869440,
+      "sha256": "fcb61c17975f8f558012a377da76a587fcd0655e3d2be085e3ef0a37c9b7e4de",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt002_box80/snap_times.bin",
+      "bytes": 656,
+      "sha256": "a15056305bc107e8997a6e1139a6e523b7e5f62cf06b718471a984bc291553e7",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_0.bin",
+      "bytes": 13273208,
+      "sha256": "07075b56796d97ded743c6d621ca1721aa259f9c9ef6b41889f3cc82415b0a9f",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_1200.bin",
+      "bytes": 13273208,
+      "sha256": "65355fdb3535341a302f29f73775bd50da42c98c90305dd543bf24b8c68bfb5e",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_1500.bin",
+      "bytes": 13273208,
+      "sha256": "e8389f1fdbb190eed5cfb2538daae5ab186877df2030aeb665be2471c59c0d9c",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_1605.bin",
+      "bytes": 13273208,
+      "sha256": "a07f36a8e6de8d4b17ee3c35ea9d684d8980278ade5ec51f3e51e1b6b3e85ec6",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_300.bin",
+      "bytes": 13273208,
+      "sha256": "fda7025dbd1eb62618125ff0f14761d6a99ac59b10f6016fc2f13573defa63e2",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_600.bin",
+      "bytes": 13273208,
+      "sha256": "05a5fc4cd148101991fd7a5d241c12952b16e8ea3d9da1ff8cb303d94eaee4a9",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/checkpoint_900.bin",
+      "bytes": 13273208,
+      "sha256": "5df8626bcfe70714e18b20b99c5dc0de90eff5c81f056212e73ae66c988b7388",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/corner.bin",
+      "bytes": 462528,
+      "sha256": "c4aa650445e298a121eab00793b4689e93109dc03122b82142e431c185a93186",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/line.bin",
+      "bytes": 3083520,
+      "sha256": "a74134a86441b7433c7543b3e405ab77de75454ea0e453533bf2a91d7c856279",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/snap.bin",
+      "bytes": 1088382720,
+      "sha256": "1b7eae46c267414ca12e88ec70da817bbc0d8b2b223ad1974788264d1fb270bd",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "control_dt004_box96/snap_times.bin",
+      "bytes": 656,
+      "sha256": "a15056305bc107e8997a6e1139a6e523b7e5f62cf06b718471a984bc291553e7",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/checkpoint_0.bin",
+      "bytes": 25208,
+      "sha256": "fb5eacdc284b13377570882aa4614acdf411d6008b43dc37be061376e5c9a744",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/checkpoint_10.bin",
+      "bytes": 25208,
+      "sha256": "1dd7aa826d599a217ab3e2a5d9ca32b0387af213d98e49d3f01534d240d83422",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/checkpoint_20.bin",
+      "bytes": 25208,
+      "sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/corner.bin",
+      "bytes": 6048,
+      "sha256": "6fcf22d83bc4860a4fc1dcdca657f98d6c47ccec4f2ee84ffb00498b9912462d",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/line.bin",
+      "bytes": 40320,
+      "sha256": "10656fafb0d23075623d9a92227897f63b19e2f50036e89594a7346bcbf340c2",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/snap.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_continuous/snap_times.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/checkpoint_0.bin",
+      "bytes": 25208,
+      "sha256": "fb5eacdc284b13377570882aa4614acdf411d6008b43dc37be061376e5c9a744",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/checkpoint_10.bin",
+      "bytes": 25208,
+      "sha256": "1dd7aa826d599a217ab3e2a5d9ca32b0387af213d98e49d3f01534d240d83422",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/checkpoint_20.bin",
+      "bytes": 25208,
+      "sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/corner.bin",
+      "bytes": 6048,
+      "sha256": "6fcf22d83bc4860a4fc1dcdca657f98d6c47ccec4f2ee84ffb00498b9912462d",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/line.bin",
+      "bytes": 40320,
+      "sha256": "10656fafb0d23075623d9a92227897f63b19e2f50036e89594a7346bcbf340c2",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/snap.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included_in_full_replay_zip": false
+    },
+    {
+      "path": "resume_control_staged/snap_times.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "included_in_full_replay_zip": false
+    }
+  ]
+}

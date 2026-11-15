@@ -1,0 +1,4100 @@
+[
+  {
+    "name": "MANIFEST.json",
+    "bytes": 93427,
+    "compressed_bytes": 30825,
+    "crc32": "cc2495f7"
+  },
+  {
+    "name": "README.md",
+    "bytes": 5139,
+    "compressed_bytes": 2424,
+    "crc32": "0aab422b"
+  },
+  {
+    "name": "analysis/full_domain_r4/CAMPAIGN.json",
+    "bytes": 134331,
+    "compressed_bytes": 5936,
+    "crc32": "c25f184f"
+  },
+  {
+    "name": "analysis/full_domain_r4/PLAN.md",
+    "bytes": 7837,
+    "compressed_bytes": 3477,
+    "crc32": "067d00ff"
+  },
+  {
+    "name": "analysis/full_domain_r4/PREFLIGHT.json",
+    "bytes": 349,
+    "compressed_bytes": 254,
+    "crc32": "0c525a62"
+  },
+  {
+    "name": "analysis/full_domain_r4/RESULT.md",
+    "bytes": 9618,
+    "compressed_bytes": 4279,
+    "crc32": "51593995"
+  },
+  {
+    "name": "analysis/full_domain_r4/WORK_IN_PROGRESS.json",
+    "bytes": 1040,
+    "compressed_bytes": 603,
+    "crc32": "d00dffa0"
+  },
+  {
+    "name": "analysis/full_domain_r4/bridge_replay/EXACT_LATTICE_BRIDGE.json",
+    "bytes": 1302,
+    "compressed_bytes": 753,
+    "crc32": "6039b313"
+  },
+  {
+    "name": "analysis/full_domain_r4/bridge_replay/GLOBAL_GATE.json",
+    "bytes": 608818,
+    "compressed_bytes": 131813,
+    "crc32": "47054957"
+  },
+  {
+    "name": "analysis/full_domain_r4/bridge_replay/finite_proof/finite_kernel_certificate.json",
+    "bytes": 29992,
+    "compressed_bytes": 3932,
+    "crc32": "a67e4909"
+  },
+  {
+    "name": "analysis/full_domain_r4/bridge_replay/finite_proof.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/bridge_replay/finite_proof.stdout.txt",
+    "bytes": 3558,
+    "compressed_bytes": 1764,
+    "crc32": "36cb042b"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/ALLOCATION_PLAN.json",
+    "bytes": 14088,
+    "compressed_bytes": 2424,
+    "crc32": "deaa289d"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/BRIDGE_GUARD_CHECKS.json",
+    "bytes": 527,
+    "compressed_bytes": 309,
+    "crc32": "37372ebc"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/BRIDGE_READINESS.json",
+    "bytes": 1184,
+    "compressed_bytes": 695,
+    "crc32": "31a68cd2"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/BUDGET_CHECKS.json",
+    "bytes": 1743,
+    "compressed_bytes": 810,
+    "crc32": "455ec10e"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/BUDGET_STRATEGY.md",
+    "bytes": 8579,
+    "compressed_bytes": 3844,
+    "crc32": "55dba899"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/CAMPAIGN_ADAPTER_CHECKS.json",
+    "bytes": 2212,
+    "compressed_bytes": 676,
+    "crc32": "de6f05e1"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/FINAL_CAMPAIGN_LEDGER.json",
+    "bytes": 608818,
+    "compressed_bytes": 131813,
+    "crc32": "47054957"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/INITIAL_CAMPAIGN_LEDGER.json",
+    "bytes": 163252,
+    "compressed_bytes": 30882,
+    "crc32": "10dcfdd0"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/INTERIM_CAMPAIGN_LEDGER.json",
+    "bytes": 255205,
+    "compressed_bytes": 50280,
+    "crc32": "8f27531b"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/TARGETS.json",
+    "bytes": 39811,
+    "compressed_bytes": 3243,
+    "crc32": "3c9ef0aa"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/PREPARATION.json",
+    "bytes": 2031,
+    "compressed_bytes": 966,
+    "crc32": "0d117488"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/finite_kernel_certificate.py",
+    "bytes": 13236,
+    "compressed_bytes": 5052,
+    "crc32": "6d63fe1a"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/proof160/finite_kernel_certificate.json",
+    "bytes": 29992,
+    "compressed_bytes": 3933,
+    "crc32": "3f5746d8"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/selection.json",
+    "bytes": 2837,
+    "compressed_bytes": 1176,
+    "crc32": "f24256c3"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/staged_repo/validation/frequency_domain/methods/surface/raw/pv_mean_M192.npy",
+    "bytes": 3328,
+    "compressed_bytes": 503,
+    "crc32": "b42bc987"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/bridge_inputs/staged_repo/validation/frequency_domain/results/surface/surface_N128_matrices.npz",
+    "bytes": 1736,
+    "compressed_bytes": 1153,
+    "crc32": "640b8264"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/budget_ledger.py",
+    "bytes": 11599,
+    "compressed_bytes": 3972,
+    "crc32": "36760b45"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/campaign_ledger.py",
+    "bytes": 12291,
+    "compressed_bytes": 4049,
+    "crc32": "92d1a1d1"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/check_budget_ledger.py",
+    "bytes": 5411,
+    "compressed_bytes": 2033,
+    "crc32": "3e06c0b6"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/check_campaign_adapter.py",
+    "bytes": 4204,
+    "compressed_bytes": 1628,
+    "crc32": "7f43de9f"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/inherited_reader.py",
+    "bytes": 745,
+    "compressed_bytes": 427,
+    "crc32": "2066645c"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/matrix_budget.py",
+    "bytes": 5378,
+    "compressed_bytes": 1987,
+    "crc32": "6f556401"
+  },
+  {
+    "name": "analysis/full_domain_r4/budget/replay_bridge.py",
+    "bytes": 4615,
+    "compressed_bytes": 1988,
+    "crc32": "65903d2b"
+  },
+  {
+    "name": "analysis/full_domain_r4/build_campaign.py",
+    "bytes": 3507,
+    "compressed_bytes": 1451,
+    "crc32": "584cc36c"
+  },
+  {
+    "name": "analysis/full_domain_r4/build_manuscript.py",
+    "bytes": 2960,
+    "compressed_bytes": 1424,
+    "crc32": "280edb24"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/EXECUTION_SUMMARY.json",
+    "bytes": 2215,
+    "compressed_bytes": 623,
+    "crc32": "b7ecced0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/LAST_RUN.json",
+    "bytes": 235,
+    "compressed_bytes": 157,
+    "crc32": "c1543c59"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/RUN_0000_FIRST_EIGHT.json",
+    "bytes": 228,
+    "compressed_bytes": 146,
+    "crc32": "2f9f3b21"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/RUN_0001.json",
+    "bytes": 240,
+    "compressed_bytes": 159,
+    "crc32": "93028dcc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/RUN_0002.json",
+    "bytes": 235,
+    "compressed_bytes": 160,
+    "crc32": "644ae7ea"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/RUN_0003.json",
+    "bytes": 235,
+    "compressed_bytes": 157,
+    "crc32": "c1543c59"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/RUN_LOG.jsonl",
+    "bytes": 296381,
+    "compressed_bytes": 79592,
+    "crc32": "b4ca67d1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_000.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "51c360d1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_001.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "f93ae6ae"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_002.json",
+    "bytes": 199,
+    "compressed_bytes": 120,
+    "crc32": "c32d845a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_003.json",
+    "bytes": 199,
+    "compressed_bytes": 122,
+    "crc32": "386dceb9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_004.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "e4382176"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_005.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "a79d52b9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_006.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "d0604ab4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_007.json",
+    "bytes": 197,
+    "compressed_bytes": 123,
+    "crc32": "ba54ca4e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_009.json",
+    "bytes": 203,
+    "compressed_bytes": 121,
+    "crc32": "d38d36bd"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_010.json",
+    "bytes": 203,
+    "compressed_bytes": 127,
+    "crc32": "7b74b0c2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_011.json",
+    "bytes": 203,
+    "compressed_bytes": 127,
+    "crc32": "e878b402"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_013.json",
+    "bytes": 201,
+    "compressed_bytes": 119,
+    "crc32": "fc288cf3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_014.json",
+    "bytes": 201,
+    "compressed_bytes": 120,
+    "crc32": "0768c610"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_015.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "fc1c676b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_016.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "db3d29df"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_017.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "98985a10"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_018.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "ef65421d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_019.json",
+    "bytes": 199,
+    "compressed_bytes": 120,
+    "crc32": "64b84e34"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_022.json",
+    "bytes": 201,
+    "compressed_bytes": 120,
+    "crc32": "7b2b9c3d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_023.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "805f3d46"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_024.json",
+    "bytes": 201,
+    "compressed_bytes": 126,
+    "crc32": "a77e73f2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_025.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "e4db003d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_026.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "93261830"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_027.json",
+    "bytes": 199,
+    "compressed_bytes": 123,
+    "crc32": "6ec62572"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_030.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "3627304a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_033.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "18e4248d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_034.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "3fc56a39"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_035.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "0b9d01fb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_036.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "517399e1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_038.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "43399648"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_039.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "bab526aa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_044.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "39eeb727"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_045.json",
+    "bytes": 201,
+    "compressed_bytes": 125,
+    "crc32": "7a4bc4e8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_046.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "0db6dce5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_047.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "eb057364"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_053.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "c478ec3f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_054.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "b385f432"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_055.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "0b00c5c6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_064.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "0fcb09ac"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_065.json",
+    "bytes": 199,
+    "compressed_bytes": 123,
+    "crc32": "773ceafe"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_066.json",
+    "bytes": 205,
+    "compressed_bytes": 126,
+    "crc32": "ef4e393e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c0_067.json",
+    "bytes": 203,
+    "compressed_bytes": 125,
+    "crc32": "1032c777"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_000.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "009d718a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_001.json",
+    "bytes": 199,
+    "compressed_bytes": 120,
+    "crc32": "92739501"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_002.json",
+    "bytes": 199,
+    "compressed_bytes": 122,
+    "crc32": "6933dfe2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_003.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "92477e99"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_004.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "b566302d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_005.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "f6c343e2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_006.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "813e5bef"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_007.json",
+    "bytes": 197,
+    "compressed_bytes": 123,
+    "crc32": "eb0adb15"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_008.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "81d79b61"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_009.json",
+    "bytes": 203,
+    "compressed_bytes": 121,
+    "crc32": "82d327e6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_010.json",
+    "bytes": 199,
+    "compressed_bytes": 121,
+    "crc32": "42701473"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_011.json",
+    "bytes": 201,
+    "compressed_bytes": 119,
+    "crc32": "ad769da8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_012.json",
+    "bytes": 201,
+    "compressed_bytes": 120,
+    "crc32": "5636d74b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_013.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "ad427630"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_014.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "8a633884"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_015.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "c9c64b4b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_016.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "be3b5346"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_017.json",
+    "bytes": 199,
+    "compressed_bytes": 120,
+    "crc32": "35e65f6f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_018.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "480e7f35"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_019.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "d135c785"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_020.json",
+    "bytes": 201,
+    "compressed_bytes": 120,
+    "crc32": "2a758d66"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_021.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "d1012c1d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_022.json",
+    "bytes": 201,
+    "compressed_bytes": 126,
+    "crc32": "f62062a9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_023.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "b5851166"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_024.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "c278096b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_025.json",
+    "bytes": 199,
+    "compressed_bytes": 123,
+    "crc32": "3f983429"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_026.json",
+    "bytes": 201,
+    "compressed_bytes": 129,
+    "crc32": "d23da775"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_027.json",
+    "bytes": 203,
+    "compressed_bytes": 129,
+    "crc32": "8312dfde"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_028.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "67792111"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_029.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "498ede4e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_030.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "b2ce94ad"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_031.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "49ba35d6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_032.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "6e9b7b62"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_033.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "5ac310a0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_034.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "002d88ba"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_035.json",
+    "bytes": 203,
+    "compressed_bytes": 126,
+    "crc32": "c278cc80"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_036.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "12678713"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_037.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "ebeb37f1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_038.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "cdcd2923"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_039.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "4fa50350"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_040.json",
+    "bytes": 201,
+    "compressed_bytes": 126,
+    "crc32": "b4e549b3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_041.json",
+    "bytes": 201,
+    "compressed_bytes": 125,
+    "crc32": "4f91e8c8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_042.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "68b0a67c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_043.json",
+    "bytes": 201,
+    "compressed_bytes": 125,
+    "crc32": "2b15d5b3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_044.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "5ce8cdbe"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_045.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "ba5b623f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_046.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "2dc89f81"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_047.json",
+    "bytes": 201,
+    "compressed_bytes": 125,
+    "crc32": "f1962b87"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_048.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "0ad66164"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_049.json",
+    "bytes": 201,
+    "compressed_bytes": 126,
+    "crc32": "f1a2c01f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_050.json",
+    "bytes": 201,
+    "compressed_bytes": 127,
+    "crc32": "d6838eab"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_051.json",
+    "bytes": 201,
+    "compressed_bytes": 123,
+    "crc32": "9526fd64"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_052.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "e2dbe569"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_053.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "5a5ed49d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_054.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "51f4b0b9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_055.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "4dd8d619"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_056.json",
+    "bytes": 201,
+    "compressed_bytes": 124,
+    "crc32": "b6989cfa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_057.json",
+    "bytes": 201,
+    "compressed_bytes": 127,
+    "crc32": "4dec3d81"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_058.json",
+    "bytes": 201,
+    "compressed_bytes": 128,
+    "crc32": "6acd7335"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_059.json",
+    "bytes": 201,
+    "compressed_bytes": 125,
+    "crc32": "296800fa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_060.json",
+    "bytes": 201,
+    "compressed_bytes": 122,
+    "crc32": "5e9518f7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_061.json",
+    "bytes": 199,
+    "compressed_bytes": 123,
+    "crc32": "2662fba5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_062.json",
+    "bytes": 205,
+    "compressed_bytes": 126,
+    "crc32": "be102865"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_063.json",
+    "bytes": 203,
+    "compressed_bytes": 125,
+    "crc32": "416cd62c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_064.json",
+    "bytes": 197,
+    "compressed_bytes": 123,
+    "crc32": "8201c5e7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_065.json",
+    "bytes": 199,
+    "compressed_bytes": 122,
+    "crc32": "498ff085"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_066.json",
+    "bytes": 199,
+    "compressed_bytes": 123,
+    "crc32": "b2cfba66"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_067.json",
+    "bytes": 199,
+    "compressed_bytes": 124,
+    "crc32": "49bb1b1d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_068.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "6e9a55a9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_069.json",
+    "bytes": 199,
+    "compressed_bytes": 126,
+    "crc32": "2d3f2666"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_070.json",
+    "bytes": 199,
+    "compressed_bytes": 125,
+    "crc32": "5ac23e6b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/Q_c1_071.json",
+    "bytes": 203,
+    "compressed_bytes": 128,
+    "crc32": "107f4a92"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_000.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "93b32dd4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_001.json",
+    "bytes": 204,
+    "compressed_bytes": 130,
+    "crc32": "65a67764"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_002.json",
+    "bytes": 202,
+    "compressed_bytes": 123,
+    "crc32": "037320b0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_003.json",
+    "bytes": 202,
+    "compressed_bytes": 124,
+    "crc32": "d49da8ad"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_004.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "8c893354"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_005.json",
+    "bytes": 202,
+    "compressed_bytes": 126,
+    "crc32": "b4d49f38"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_006.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "fd1b1ae4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_007.json",
+    "bytes": 200,
+    "compressed_bytes": 125,
+    "crc32": "5f7f8076"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_009.json",
+    "bytes": 206,
+    "compressed_bytes": 124,
+    "crc32": "affb8957"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_010.json",
+    "bytes": 206,
+    "compressed_bytes": 129,
+    "crc32": "59eed3e7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_011.json",
+    "bytes": 206,
+    "compressed_bytes": 129,
+    "crc32": "a59bcc1b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_013.json",
+    "bytes": 204,
+    "compressed_bytes": 121,
+    "crc32": "6d6938e7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_014.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "ba87b0fa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_015.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "02570f3d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_016.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "e2932b03"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_017.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "dace876f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_018.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "930102b3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_019.json",
+    "bytes": 202,
+    "compressed_bytes": 123,
+    "crc32": "f04a9e32"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_022.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "2593c0c1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_023.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "9d437f06"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_024.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "7d875b38"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_025.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "45daf754"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_026.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "0c157288"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_027.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "b5e9811d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_030.json",
+    "bytes": 207,
+    "compressed_bytes": 130,
+    "crc32": "7f290197"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_033.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "c70ac523"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_034.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "27cee11d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_035.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "565cc8ad"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_036.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "b9c7213c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_038.json",
+    "bytes": 207,
+    "compressed_bytes": 130,
+    "crc32": "7efff380"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_039.json",
+    "bytes": 207,
+    "compressed_bytes": 130,
+    "crc32": "d4529604"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_044.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "a95c2d73"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_045.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "9101811f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_046.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "d8ce04c3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_047.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "43ce3782"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_053.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "fb4a6da8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_054.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "b285e874"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_055.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "5bc743dd"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_064.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "757e8e55"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_065.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "4cccb363"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_066.json",
+    "bytes": 208,
+    "compressed_bytes": 128,
+    "crc32": "c97da377"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c0_067.json",
+    "bytes": 206,
+    "compressed_bytes": 127,
+    "crc32": "65bae4e3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_000.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "2c50b337"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_001.json",
+    "bytes": 202,
+    "compressed_bytes": 122,
+    "crc32": "bc90be53"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_002.json",
+    "bytes": 202,
+    "compressed_bytes": 124,
+    "crc32": "6b7e364e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_003.json",
+    "bytes": 202,
+    "compressed_bytes": 126,
+    "crc32": "d3ae8989"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_004.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "336aadb7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_005.json",
+    "bytes": 202,
+    "compressed_bytes": 126,
+    "crc32": "0b3701db"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_006.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "42f88407"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_007.json",
+    "bytes": 200,
+    "compressed_bytes": 125,
+    "crc32": "e09c1e95"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_008.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "bb7f3f1f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_009.json",
+    "bytes": 206,
+    "compressed_bytes": 124,
+    "crc32": "101817b4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_010.json",
+    "bytes": 202,
+    "compressed_bytes": 123,
+    "crc32": "5074fa0d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_011.json",
+    "bytes": 204,
+    "compressed_bytes": 120,
+    "crc32": "d28aa604"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_012.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "05642e19"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_013.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "bdb491de"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_014.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "5d70b5e0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_015.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "652d198c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_016.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "2ce29c50"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_017.json",
+    "bytes": 202,
+    "compressed_bytes": 123,
+    "crc32": "4fa900d1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_018.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "15d7e522"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_019.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "4d9ed63f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_020.json",
+    "bytes": 204,
+    "compressed_bytes": 123,
+    "crc32": "9a705e22"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_021.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "22a0e1e5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_022.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "c264c5db"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_023.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "fa3969b7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_024.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "b3f6ec6b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_025.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "0a0a1ffe"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_026.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "19f94503"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_027.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "17d76c1a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_028.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "c039e407"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_029.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "78e95bc0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_030.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "982d7ffe"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_031.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "a070d392"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_032.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "e9bf564e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_033.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "0624bfdf"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_034.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "e3f053bd"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_035.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "9945a074"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_036.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "4eab2869"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_037.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "f67b97ae"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_038.json",
+    "bytes": 204,
+    "compressed_bytes": 125,
+    "crc32": "16bfb390"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_039.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "2ee21ffc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_040.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "672d9a20"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_041.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "fc2da961"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_042.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "fbf927e2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_043.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "f30e4cc3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_044.json",
+    "bytes": 204,
+    "compressed_bytes": 124,
+    "crc32": "24e0c4de"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_045.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "9c307b19"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_046.json",
+    "bytes": 204,
+    "compressed_bytes": 127,
+    "crc32": "7cf45f27"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_047.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "44a9f34b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_048.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "0d667697"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_049.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "e424dd3e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_050.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "ecf2d75c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_051.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "34f52ae2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_052.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "e31ba2ff"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_053.json",
+    "bytes": 204,
+    "compressed_bytes": 128,
+    "crc32": "5bcb1d38"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_054.json",
+    "bytes": 204,
+    "compressed_bytes": 129,
+    "crc32": "bb0f3906"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_055.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "8352956a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_056.json",
+    "bytes": 204,
+    "compressed_bytes": 126,
+    "crc32": "ca9d10b6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_057.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "f32f2d80"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_058.json",
+    "bytes": 200,
+    "compressed_bytes": 126,
+    "crc32": "154f5f15"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_059.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "f62d2c01"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_060.json",
+    "bytes": 202,
+    "compressed_bytes": 125,
+    "crc32": "21c3a41c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_061.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "99131bdb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_062.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "79d73fe5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_063.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "418a9389"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_064.json",
+    "bytes": 202,
+    "compressed_bytes": 127,
+    "crc32": "08451655"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/settings/g_c1_065.json",
+    "bytes": 200,
+    "compressed_bytes": 124,
+    "crc32": "0a92a5c9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_000.json",
+    "bytes": 18251,
+    "compressed_bytes": 5511,
+    "crc32": "d0dfd253"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_001.json",
+    "bytes": 16180,
+    "compressed_bytes": 5187,
+    "crc32": "074c717e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_002.json",
+    "bytes": 43888,
+    "compressed_bytes": 12600,
+    "crc32": "c7c60dd4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_003.json",
+    "bytes": 32783,
+    "compressed_bytes": 7880,
+    "crc32": "7cd4e4e7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_004.json",
+    "bytes": 40976,
+    "compressed_bytes": 12246,
+    "crc32": "ab4cd7b1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_005.json",
+    "bytes": 38340,
+    "compressed_bytes": 11810,
+    "crc32": "33b86395"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_006.json",
+    "bytes": 35849,
+    "compressed_bytes": 11457,
+    "crc32": "7da34fd4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_007.json",
+    "bytes": 36709,
+    "compressed_bytes": 11592,
+    "crc32": "857e0222"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_009.json",
+    "bytes": 34880,
+    "compressed_bytes": 8054,
+    "crc32": "ad89bb37"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_010.json",
+    "bytes": 20604,
+    "compressed_bytes": 6057,
+    "crc32": "d763c9a7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_011.json",
+    "bytes": 20919,
+    "compressed_bytes": 6165,
+    "crc32": "2e70882d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_013.json",
+    "bytes": 54562,
+    "compressed_bytes": 15476,
+    "crc32": "852b4bcb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_014.json",
+    "bytes": 73642,
+    "compressed_bytes": 18093,
+    "crc32": "31edc299"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_015.json",
+    "bytes": 64175,
+    "compressed_bytes": 16818,
+    "crc32": "6e45d18e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_016.json",
+    "bytes": 73452,
+    "compressed_bytes": 17957,
+    "crc32": "b94d9bb2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_017.json",
+    "bytes": 41629,
+    "compressed_bytes": 12451,
+    "crc32": "8346992a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_018.json",
+    "bytes": 39275,
+    "compressed_bytes": 12030,
+    "crc32": "2f0fb78a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_019.json",
+    "bytes": 35495,
+    "compressed_bytes": 8236,
+    "crc32": "9381fb65"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_022.json",
+    "bytes": 99977,
+    "compressed_bytes": 23109,
+    "crc32": "059e571d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_023.json",
+    "bytes": 111184,
+    "compressed_bytes": 28475,
+    "crc32": "5341d094"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_024.json",
+    "bytes": 74997,
+    "compressed_bytes": 19714,
+    "crc32": "991a000d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_025.json",
+    "bytes": 46323,
+    "compressed_bytes": 13076,
+    "crc32": "d8616c2a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_026.json",
+    "bytes": 74589,
+    "compressed_bytes": 18032,
+    "crc32": "7f736d1a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_027.json",
+    "bytes": 49388,
+    "compressed_bytes": 13498,
+    "crc32": "11a6a6c5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_030.json",
+    "bytes": 56701,
+    "compressed_bytes": 15405,
+    "crc32": "053e85d5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_033.json",
+    "bytes": 112071,
+    "compressed_bytes": 26065,
+    "crc32": "e469fbf8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_034.json",
+    "bytes": 70514,
+    "compressed_bytes": 17752,
+    "crc32": "7265bb8b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_035.json",
+    "bytes": 99915,
+    "compressed_bytes": 24389,
+    "crc32": "78b4c7d8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_036.json",
+    "bytes": 86791,
+    "compressed_bytes": 21206,
+    "crc32": "e34a5e98"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_038.json",
+    "bytes": 25324,
+    "compressed_bytes": 6814,
+    "crc32": "fbfe3618"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_039.json",
+    "bytes": 35763,
+    "compressed_bytes": 8230,
+    "crc32": "04ef3300"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_044.json",
+    "bytes": 86901,
+    "compressed_bytes": 19843,
+    "crc32": "2ef83728"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_045.json",
+    "bytes": 151588,
+    "compressed_bytes": 33014,
+    "crc32": "888590d8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_046.json",
+    "bytes": 133432,
+    "compressed_bytes": 29813,
+    "crc32": "3b32cfa2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_047.json",
+    "bytes": 125281,
+    "compressed_bytes": 27552,
+    "crc32": "5b8c5353"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_053.json",
+    "bytes": 144169,
+    "compressed_bytes": 30896,
+    "crc32": "f0d293f9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_054.json",
+    "bytes": 144222,
+    "compressed_bytes": 30933,
+    "crc32": "5a943605"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_055.json",
+    "bytes": 151460,
+    "compressed_bytes": 31522,
+    "crc32": "781d9592"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_064.json",
+    "bytes": 156306,
+    "compressed_bytes": 30548,
+    "crc32": "3f819033"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_065.json",
+    "bytes": 153911,
+    "compressed_bytes": 33116,
+    "crc32": "ccf5f468"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_066.json",
+    "bytes": 135343,
+    "compressed_bytes": 28311,
+    "crc32": "4b44ffae"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c0_067.json",
+    "bytes": 42853,
+    "compressed_bytes": 12425,
+    "crc32": "5e08c328"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_000.json",
+    "bytes": 18601,
+    "compressed_bytes": 5477,
+    "crc32": "1f35c8e3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_001.json",
+    "bytes": 41118,
+    "compressed_bytes": 8868,
+    "crc32": "8221f37b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_002.json",
+    "bytes": 39865,
+    "compressed_bytes": 12017,
+    "crc32": "966c9676"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_003.json",
+    "bytes": 30279,
+    "compressed_bytes": 7532,
+    "crc32": "c7c609a1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_004.json",
+    "bytes": 34454,
+    "compressed_bytes": 8075,
+    "crc32": "233c3ff8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_005.json",
+    "bytes": 33167,
+    "compressed_bytes": 7906,
+    "crc32": "09acd363"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_006.json",
+    "bytes": 30704,
+    "compressed_bytes": 7556,
+    "crc32": "e63b4917"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_007.json",
+    "bytes": 35990,
+    "compressed_bytes": 11449,
+    "crc32": "2b51f895"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_008.json",
+    "bytes": 18830,
+    "compressed_bytes": 5572,
+    "crc32": "1aef03b9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_009.json",
+    "bytes": 43719,
+    "compressed_bytes": 12236,
+    "crc32": "ff9d54ad"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_010.json",
+    "bytes": 48371,
+    "compressed_bytes": 13055,
+    "crc32": "b116b191"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_011.json",
+    "bytes": 50787,
+    "compressed_bytes": 13532,
+    "crc32": "c083b383"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_012.json",
+    "bytes": 69482,
+    "compressed_bytes": 17576,
+    "crc32": "88479c43"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_013.json",
+    "bytes": 70603,
+    "compressed_bytes": 19142,
+    "crc32": "69091568"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_014.json",
+    "bytes": 76974,
+    "compressed_bytes": 19925,
+    "crc32": "d1b81d34"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_015.json",
+    "bytes": 40397,
+    "compressed_bytes": 12248,
+    "crc32": "2bba8aa1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_016.json",
+    "bytes": 38479,
+    "compressed_bytes": 11894,
+    "crc32": "ddc532cf"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_017.json",
+    "bytes": 38193,
+    "compressed_bytes": 11835,
+    "crc32": "1164a050"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_018.json",
+    "bytes": 48092,
+    "compressed_bytes": 13224,
+    "crc32": "5382d40f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_019.json",
+    "bytes": 88030,
+    "compressed_bytes": 21505,
+    "crc32": "fc816be6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_020.json",
+    "bytes": 103701,
+    "compressed_bytes": 25030,
+    "crc32": "f95fd9ee"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_021.json",
+    "bytes": 98012,
+    "compressed_bytes": 21359,
+    "crc32": "827cfe60"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_022.json",
+    "bytes": 61916,
+    "compressed_bytes": 16574,
+    "crc32": "adb30ccf"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_023.json",
+    "bytes": 45171,
+    "compressed_bytes": 12916,
+    "crc32": "8981316b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_024.json",
+    "bytes": 61637,
+    "compressed_bytes": 16389,
+    "crc32": "f888f665"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_025.json",
+    "bytes": 45836,
+    "compressed_bytes": 12989,
+    "crc32": "24141c96"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_026.json",
+    "bytes": 17092,
+    "compressed_bytes": 5360,
+    "crc32": "5585044d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_027.json",
+    "bytes": 30262,
+    "compressed_bytes": 7470,
+    "crc32": "86c08f33"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_028.json",
+    "bytes": 33334,
+    "compressed_bytes": 7827,
+    "crc32": "f432fa1c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_029.json",
+    "bytes": 104632,
+    "compressed_bytes": 26405,
+    "crc32": "f6662c5d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_030.json",
+    "bytes": 114096,
+    "compressed_bytes": 26321,
+    "crc32": "dd790f2c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_031.json",
+    "bytes": 115908,
+    "compressed_bytes": 26530,
+    "crc32": "bf6851d6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_032.json",
+    "bytes": 69730,
+    "compressed_bytes": 17665,
+    "crc32": "0da319f2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_033.json",
+    "bytes": 88287,
+    "compressed_bytes": 20010,
+    "crc32": "1025090a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_034.json",
+    "bytes": 81162,
+    "compressed_bytes": 19153,
+    "crc32": "f6c1aa71"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_035.json",
+    "bytes": 32564,
+    "compressed_bytes": 10926,
+    "crc32": "a52de545"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_036.json",
+    "bytes": 25826,
+    "compressed_bytes": 6908,
+    "crc32": "f48d02f8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_037.json",
+    "bytes": 33421,
+    "compressed_bytes": 7934,
+    "crc32": "a5b8b798"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_038.json",
+    "bytes": 71705,
+    "compressed_bytes": 17771,
+    "crc32": "7962e089"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_039.json",
+    "bytes": 94483,
+    "compressed_bytes": 22286,
+    "crc32": "e031afa9"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_040.json",
+    "bytes": 77609,
+    "compressed_bytes": 18710,
+    "crc32": "5308b848"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_041.json",
+    "bytes": 82548,
+    "compressed_bytes": 20801,
+    "crc32": "cca49d2d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_042.json",
+    "bytes": 100629,
+    "compressed_bytes": 24647,
+    "crc32": "6978b3e0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_043.json",
+    "bytes": 142530,
+    "compressed_bytes": 30846,
+    "crc32": "abd80766"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_044.json",
+    "bytes": 129836,
+    "compressed_bytes": 28138,
+    "crc32": "44a4e332"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_045.json",
+    "bytes": 129313,
+    "compressed_bytes": 29339,
+    "crc32": "65a661fa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_046.json",
+    "bytes": 43796,
+    "compressed_bytes": 12725,
+    "crc32": "01131d71"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_047.json",
+    "bytes": 55328,
+    "compressed_bytes": 15718,
+    "crc32": "3f811041"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_048.json",
+    "bytes": 58591,
+    "compressed_bytes": 14821,
+    "crc32": "7cd7ac85"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_049.json",
+    "bytes": 84245,
+    "compressed_bytes": 19561,
+    "crc32": "f28132d4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_050.json",
+    "bytes": 150057,
+    "compressed_bytes": 31494,
+    "crc32": "c46e8502"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_051.json",
+    "bytes": 145231,
+    "compressed_bytes": 31014,
+    "crc32": "3beb4f7c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_052.json",
+    "bytes": 141135,
+    "compressed_bytes": 29249,
+    "crc32": "ee69c1df"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_053.json",
+    "bytes": 146325,
+    "compressed_bytes": 29704,
+    "crc32": "199a444a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_054.json",
+    "bytes": 35232,
+    "compressed_bytes": 8263,
+    "crc32": "146ce4ab"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_055.json",
+    "bytes": 44901,
+    "compressed_bytes": 12918,
+    "crc32": "e2d6c6dd"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_056.json",
+    "bytes": 103350,
+    "compressed_bytes": 23295,
+    "crc32": "b80c4e6b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_057.json",
+    "bytes": 121872,
+    "compressed_bytes": 27136,
+    "crc32": "e0b17fe3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_058.json",
+    "bytes": 140555,
+    "compressed_bytes": 30523,
+    "crc32": "0ecce0d2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_059.json",
+    "bytes": 146889,
+    "compressed_bytes": 31208,
+    "crc32": "29b6a6f8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_060.json",
+    "bytes": 159393,
+    "compressed_bytes": 32342,
+    "crc32": "998d6abc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_061.json",
+    "bytes": 150002,
+    "compressed_bytes": 31495,
+    "crc32": "1ae02666"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_062.json",
+    "bytes": 135840,
+    "compressed_bytes": 28412,
+    "crc32": "9da02c2a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_063.json",
+    "bytes": 42965,
+    "compressed_bytes": 12438,
+    "crc32": "682d0f75"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_064.json",
+    "bytes": 37057,
+    "compressed_bytes": 8437,
+    "crc32": "6dedff72"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_065.json",
+    "bytes": 50135,
+    "compressed_bytes": 13536,
+    "crc32": "55f8ce66"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_066.json",
+    "bytes": 74621,
+    "compressed_bytes": 18239,
+    "crc32": "4695db67"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_067.json",
+    "bytes": 108246,
+    "compressed_bytes": 24033,
+    "crc32": "67cd5a98"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_068.json",
+    "bytes": 129549,
+    "compressed_bytes": 26649,
+    "crc32": "915c96c1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_069.json",
+    "bytes": 159913,
+    "compressed_bytes": 33694,
+    "crc32": "99087201"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_070.json",
+    "bytes": 150806,
+    "compressed_bytes": 31492,
+    "crc32": "ca1c852f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/Q_c1_071.json",
+    "bytes": 42953,
+    "compressed_bytes": 12443,
+    "crc32": "2068a0ff"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_000.json",
+    "bytes": 22046,
+    "compressed_bytes": 6648,
+    "crc32": "09b2a05c"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_001.json",
+    "bytes": 20886,
+    "compressed_bytes": 6510,
+    "crc32": "87fd33cc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_002.json",
+    "bytes": 49397,
+    "compressed_bytes": 13942,
+    "crc32": "85025958"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_003.json",
+    "bytes": 45615,
+    "compressed_bytes": 13429,
+    "crc32": "225e4b27"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_004.json",
+    "bytes": 53265,
+    "compressed_bytes": 14544,
+    "crc32": "c1e2825a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_005.json",
+    "bytes": 67545,
+    "compressed_bytes": 16390,
+    "crc32": "2379be1e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_006.json",
+    "bytes": 86094,
+    "compressed_bytes": 21601,
+    "crc32": "5a55f06e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_007.json",
+    "bytes": 89895,
+    "compressed_bytes": 22106,
+    "crc32": "d5f38df0"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_009.json",
+    "bytes": 36157,
+    "compressed_bytes": 8860,
+    "crc32": "6e712758"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_010.json",
+    "bytes": 25818,
+    "compressed_bytes": 7392,
+    "crc32": "7dd37f2f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_011.json",
+    "bytes": 26499,
+    "compressed_bytes": 7529,
+    "crc32": "fb4a74f1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_013.json",
+    "bytes": 64882,
+    "compressed_bytes": 17463,
+    "crc32": "03310dcf"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_014.json",
+    "bytes": 69228,
+    "compressed_bytes": 16787,
+    "crc32": "798a78bc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_015.json",
+    "bytes": 80025,
+    "compressed_bytes": 19600,
+    "crc32": "0024bd9f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_016.json",
+    "bytes": 90711,
+    "compressed_bytes": 22365,
+    "crc32": "93d9bf38"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_017.json",
+    "bytes": 98508,
+    "compressed_bytes": 23349,
+    "crc32": "cfe5fbbb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_018.json",
+    "bytes": 102111,
+    "compressed_bytes": 23762,
+    "crc32": "75327eac"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_019.json",
+    "bytes": 104599,
+    "compressed_bytes": 24030,
+    "crc32": "e045c2aa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_022.json",
+    "bytes": 115695,
+    "compressed_bytes": 27135,
+    "crc32": "ab6229a4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_023.json",
+    "bytes": 120152,
+    "compressed_bytes": 28826,
+    "crc32": "cd2ad07d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_024.json",
+    "bytes": 114456,
+    "compressed_bytes": 26868,
+    "crc32": "612ec87f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_025.json",
+    "bytes": 121111,
+    "compressed_bytes": 27096,
+    "crc32": "ee947f5e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_026.json",
+    "bytes": 120467,
+    "compressed_bytes": 26193,
+    "crc32": "f0582872"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_027.json",
+    "bytes": 118988,
+    "compressed_bytes": 25983,
+    "crc32": "a9a01010"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_030.json",
+    "bytes": 45112,
+    "compressed_bytes": 13470,
+    "crc32": "e2c058f3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_033.json",
+    "bytes": 123916,
+    "compressed_bytes": 26275,
+    "crc32": "0eb40c22"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_034.json",
+    "bytes": 132675,
+    "compressed_bytes": 28950,
+    "crc32": "ece4e087"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_035.json",
+    "bytes": 131051,
+    "compressed_bytes": 27353,
+    "crc32": "25caeba1"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_036.json",
+    "bytes": 127992,
+    "compressed_bytes": 27006,
+    "crc32": "132168f6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_038.json",
+    "bytes": 45214,
+    "compressed_bytes": 13454,
+    "crc32": "31991b56"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_039.json",
+    "bytes": 45817,
+    "compressed_bytes": 13581,
+    "crc32": "469d2d7b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_044.json",
+    "bytes": 138528,
+    "compressed_bytes": 29527,
+    "crc32": "d3a7ef36"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_045.json",
+    "bytes": 147697,
+    "compressed_bytes": 30426,
+    "crc32": "e7a6c0ac"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_046.json",
+    "bytes": 154822,
+    "compressed_bytes": 31128,
+    "crc32": "1e8f4eb5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_047.json",
+    "bytes": 156633,
+    "compressed_bytes": 32610,
+    "crc32": "c76246b4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_053.json",
+    "bytes": 189941,
+    "compressed_bytes": 37024,
+    "crc32": "d243e9df"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_054.json",
+    "bytes": 230875,
+    "compressed_bytes": 42129,
+    "crc32": "ff2e6acc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_055.json",
+    "bytes": 242357,
+    "compressed_bytes": 44407,
+    "crc32": "90199d4f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_064.json",
+    "bytes": 308654,
+    "compressed_bytes": 53850,
+    "crc32": "3d95e647"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_065.json",
+    "bytes": 330551,
+    "compressed_bytes": 58850,
+    "crc32": "a9a6288d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_066.json",
+    "bytes": 137178,
+    "compressed_bytes": 29101,
+    "crc32": "4f80f887"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c0_067.json",
+    "bytes": 63010,
+    "compressed_bytes": 15758,
+    "crc32": "dce85bf5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_000.json",
+    "bytes": 22649,
+    "compressed_bytes": 6641,
+    "crc32": "5a2ffb42"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_001.json",
+    "bytes": 52065,
+    "compressed_bytes": 13722,
+    "crc32": "4f1a3407"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_002.json",
+    "bytes": 48588,
+    "compressed_bytes": 13821,
+    "crc32": "9f3d5e70"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_003.json",
+    "bytes": 38395,
+    "compressed_bytes": 9293,
+    "crc32": "36c01664"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_004.json",
+    "bytes": 53729,
+    "compressed_bytes": 15526,
+    "crc32": "5862ff2f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_005.json",
+    "bytes": 66030,
+    "compressed_bytes": 16229,
+    "crc32": "17f2d6bc"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_006.json",
+    "bytes": 80161,
+    "compressed_bytes": 19392,
+    "crc32": "a562f924"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_007.json",
+    "bytes": 82233,
+    "compressed_bytes": 19184,
+    "crc32": "bca3d518"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_008.json",
+    "bytes": 23792,
+    "compressed_bytes": 6915,
+    "crc32": "234f57fa"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_009.json",
+    "bytes": 49479,
+    "compressed_bytes": 13648,
+    "crc32": "1ebdd1b7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_010.json",
+    "bytes": 65077,
+    "compressed_bytes": 16890,
+    "crc32": "38798aa5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_011.json",
+    "bytes": 70677,
+    "compressed_bytes": 17722,
+    "crc32": "8956e45a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_012.json",
+    "bytes": 77122,
+    "compressed_bytes": 19264,
+    "crc32": "a8cea3ec"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_013.json",
+    "bytes": 85700,
+    "compressed_bytes": 21778,
+    "crc32": "7cbc1982"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_014.json",
+    "bytes": 85989,
+    "compressed_bytes": 20371,
+    "crc32": "96eda198"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_015.json",
+    "bytes": 100593,
+    "compressed_bytes": 25109,
+    "crc32": "71cdc931"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_016.json",
+    "bytes": 99586,
+    "compressed_bytes": 23471,
+    "crc32": "11d38520"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_017.json",
+    "bytes": 97374,
+    "compressed_bytes": 21663,
+    "crc32": "4568e350"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_018.json",
+    "bytes": 66143,
+    "compressed_bytes": 17629,
+    "crc32": "b2838938"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_019.json",
+    "bytes": 95013,
+    "compressed_bytes": 23108,
+    "crc32": "b3568b62"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_020.json",
+    "bytes": 119944,
+    "compressed_bytes": 27682,
+    "crc32": "ab1d5fc8"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_021.json",
+    "bytes": 115234,
+    "compressed_bytes": 25766,
+    "crc32": "9a730291"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_022.json",
+    "bytes": 113425,
+    "compressed_bytes": 26845,
+    "crc32": "389916b5"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_023.json",
+    "bytes": 115894,
+    "compressed_bytes": 25695,
+    "crc32": "f1418b71"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_024.json",
+    "bytes": 123072,
+    "compressed_bytes": 27761,
+    "crc32": "79ac9f90"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_025.json",
+    "bytes": 117402,
+    "compressed_bytes": 25818,
+    "crc32": "a439a844"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_026.json",
+    "bytes": 74803,
+    "compressed_bytes": 18913,
+    "crc32": "016718b3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_027.json",
+    "bytes": 114054,
+    "compressed_bytes": 26945,
+    "crc32": "ae5ad127"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_028.json",
+    "bytes": 126983,
+    "compressed_bytes": 28455,
+    "crc32": "2f47a274"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_029.json",
+    "bytes": 134189,
+    "compressed_bytes": 30077,
+    "crc32": "1956394f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_030.json",
+    "bytes": 131786,
+    "compressed_bytes": 28905,
+    "crc32": "7a8f9ca7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_031.json",
+    "bytes": 128075,
+    "compressed_bytes": 27084,
+    "crc32": "08b4db81"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_032.json",
+    "bytes": 130139,
+    "compressed_bytes": 27297,
+    "crc32": "a7ecb399"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_033.json",
+    "bytes": 127325,
+    "compressed_bytes": 26912,
+    "crc32": "1d94a1a2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_034.json",
+    "bytes": 89111,
+    "compressed_bytes": 22192,
+    "crc32": "cd40aae2"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_035.json",
+    "bytes": 106331,
+    "compressed_bytes": 24459,
+    "crc32": "fae25c7b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_036.json",
+    "bytes": 121497,
+    "compressed_bytes": 26360,
+    "crc32": "a4195d6e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_037.json",
+    "bytes": 136104,
+    "compressed_bytes": 29360,
+    "crc32": "f048b55d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_038.json",
+    "bytes": 143879,
+    "compressed_bytes": 31502,
+    "crc32": "336fc4ea"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_039.json",
+    "bytes": 147448,
+    "compressed_bytes": 30462,
+    "crc32": "94197b35"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_040.json",
+    "bytes": 153270,
+    "compressed_bytes": 31013,
+    "crc32": "d501f876"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_041.json",
+    "bytes": 153577,
+    "compressed_bytes": 32333,
+    "crc32": "ae6aaadb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_042.json",
+    "bytes": 97167,
+    "compressed_bytes": 23188,
+    "crc32": "52a4920b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_043.json",
+    "bytes": 118142,
+    "compressed_bytes": 26821,
+    "crc32": "3ade20c7"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_044.json",
+    "bytes": 130498,
+    "compressed_bytes": 28692,
+    "crc32": "8e9e4424"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_045.json",
+    "bytes": 141271,
+    "compressed_bytes": 31247,
+    "crc32": "5a2a4313"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_046.json",
+    "bytes": 159637,
+    "compressed_bytes": 32949,
+    "crc32": "58b78183"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_047.json",
+    "bytes": 197182,
+    "compressed_bytes": 37680,
+    "crc32": "c5a5812d"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_048.json",
+    "bytes": 237342,
+    "compressed_bytes": 44117,
+    "crc32": "e5c3383e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_049.json",
+    "bytes": 236651,
+    "compressed_bytes": 42529,
+    "crc32": "446cade4"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_050.json",
+    "bytes": 102768,
+    "compressed_bytes": 23769,
+    "crc32": "ba0bc6fb"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_051.json",
+    "bytes": 119943,
+    "compressed_bytes": 26091,
+    "crc32": "eda9746f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_052.json",
+    "bytes": 128996,
+    "compressed_bytes": 27147,
+    "crc32": "740fca9a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_053.json",
+    "bytes": 148915,
+    "compressed_bytes": 31913,
+    "crc32": "d08a1f3e"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_054.json",
+    "bytes": 182838,
+    "compressed_bytes": 36401,
+    "crc32": "4d102ac3"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_055.json",
+    "bytes": 265054,
+    "compressed_bytes": 46904,
+    "crc32": "0737209b"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_056.json",
+    "bytes": 319868,
+    "compressed_bytes": 56501,
+    "crc32": "cfdcd08a"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_057.json",
+    "bytes": 335050,
+    "compressed_bytes": 59387,
+    "crc32": "4d556398"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_058.json",
+    "bytes": 105366,
+    "compressed_bytes": 24161,
+    "crc32": "82d4d472"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_059.json",
+    "bytes": 122902,
+    "compressed_bytes": 27695,
+    "crc32": "5a3b3a2f"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_060.json",
+    "bytes": 130995,
+    "compressed_bytes": 28660,
+    "crc32": "711ee7c6"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_061.json",
+    "bytes": 147516,
+    "compressed_bytes": 31739,
+    "crc32": "6491bf03"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_062.json",
+    "bytes": 182371,
+    "compressed_bytes": 34902,
+    "crc32": "5bee2609"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_063.json",
+    "bytes": 287787,
+    "compressed_bytes": 51178,
+    "crc32": "8c42c490"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_064.json",
+    "bytes": 343061,
+    "compressed_bytes": 58906,
+    "crc32": "ad1aca89"
+  },
+  {
+    "name": "analysis/full_domain_r4/campaign/states/g_c1_065.json",
+    "bytes": 377134,
+    "compressed_bytes": 64005,
+    "crc32": "3eb03a63"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/BRIDGE_RUNNER_CHECKS.json",
+    "bytes": 889,
+    "compressed_bytes": 354,
+    "crc32": "44c7430c"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/EXPORT_HELPER_CHECKS.json",
+    "bytes": 1561,
+    "compressed_bytes": 700,
+    "crc32": "fa907d9b"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/README.md",
+    "bytes": 4387,
+    "compressed_bytes": 2015,
+    "crc32": "6abf39e0"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/bootstrap.py",
+    "bytes": 3771,
+    "compressed_bytes": 1575,
+    "crc32": "0e4933dd"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/check_bridge_runner.py",
+    "bytes": 4070,
+    "compressed_bytes": 1535,
+    "crc32": "ca424590"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/check_export.py",
+    "bytes": 4968,
+    "compressed_bytes": 1828,
+    "crc32": "9e3918eb"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/requirements.txt",
+    "bytes": 61,
+    "compressed_bytes": 55,
+    "crc32": "547bf7b1"
+  },
+  {
+    "name": "analysis/full_domain_r4/export/verify_saved.py",
+    "bytes": 12770,
+    "compressed_bytes": 4101,
+    "crc32": "fb807dbc"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/BODY_SAMPLE.json",
+    "bytes": 20364,
+    "compressed_bytes": 5959,
+    "crc32": "b2e9a059"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/BODY_SAMPLE_SETTINGS.json",
+    "bytes": 202,
+    "compressed_bytes": 124,
+    "crc32": "88141155"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/COMPACTION_PROOF.md",
+    "bytes": 4014,
+    "compressed_bytes": 1890,
+    "crc32": "c4324e30"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/COMPACT_CHECKS.json",
+    "bytes": 4889,
+    "compressed_bytes": 2116,
+    "crc32": "dc64c265"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/EXPORT_NOTES.md",
+    "bytes": 11728,
+    "compressed_bytes": 4818,
+    "crc32": "ee869417"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/PRIMITIVE_COPY_CHECKS.json",
+    "bytes": 171,
+    "compressed_bytes": 116,
+    "crc32": "d87b9367"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/README.md",
+    "bytes": 2133,
+    "compressed_bytes": 1183,
+    "crc32": "1b14d853"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/arbitrary_tile_sharp.py",
+    "bytes": 11524,
+    "compressed_bytes": 4097,
+    "crc32": "6ca45b5a"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/certified_tensor_sharp.py",
+    "bytes": 5646,
+    "compressed_bytes": 2282,
+    "crc32": "59ed8af1"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/check_compact.py",
+    "bytes": 8737,
+    "compressed_bytes": 2763,
+    "crc32": "a9ff509f"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/compact_controller.py",
+    "bytes": 16258,
+    "compressed_bytes": 4812,
+    "crc32": "bfd2dc00"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/run_stage.py",
+    "bytes": 564,
+    "compressed_bytes": 321,
+    "crc32": "ec0fbf11"
+  },
+  {
+    "name": "analysis/full_domain_r4/integrator/source_moments.py",
+    "bytes": 4306,
+    "compressed_bytes": 1755,
+    "crc32": "4517c5c5"
+  },
+  {
+    "name": "analysis/full_domain_r4/make_package.py",
+    "bytes": 2814,
+    "compressed_bytes": 1393,
+    "crc32": "a9b876ce"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/APPLIED_PATCH.diff",
+    "bytes": 11187,
+    "compressed_bytes": 3570,
+    "crc32": "b2272ed2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/BUILD_RECORDS.json",
+    "bytes": 3230,
+    "compressed_bytes": 844,
+    "crc32": "ea0438d1"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/DEPENDENCY_REPAIR.json",
+    "bytes": 550,
+    "compressed_bytes": 365,
+    "crc32": "4dce7791"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/PATCH_APPLICATION.json",
+    "bytes": 363,
+    "compressed_bytes": 233,
+    "crc32": "518ba2fd"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/PROVENANCE.json",
+    "bytes": 1165,
+    "compressed_bytes": 637,
+    "crc32": "8f7b7caa"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.aux",
+    "bytes": 25503,
+    "compressed_bytes": 6155,
+    "crc32": "34cc9cac"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.log",
+    "bytes": 41334,
+    "compressed_bytes": 10093,
+    "crc32": "8809a371"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.out",
+    "bytes": 8583,
+    "compressed_bytes": 1404,
+    "crc32": "ad2c5f48"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.pass1.stdout.txt",
+    "bytes": 25589,
+    "compressed_bytes": 4604,
+    "crc32": "02b39b39"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.pass2.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.pass2.stdout.txt",
+    "bytes": 16968,
+    "compressed_bytes": 3163,
+    "crc32": "fe4f367d"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.pdf",
+    "bytes": 633372,
+    "compressed_bytes": 614649,
+    "crc32": "765fa4ec"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_main.txt",
+    "bytes": 132690,
+    "compressed_bytes": 35714,
+    "crc32": "740277d6"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_mainNotes.bib",
+    "bytes": 104,
+    "compressed_bytes": 83,
+    "crc32": "d7f12976"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.aux",
+    "bytes": 5662,
+    "compressed_bytes": 1850,
+    "crc32": "6dd94a6a"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.log",
+    "bytes": 12288,
+    "compressed_bytes": 3969,
+    "crc32": "daed2e5a"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.out",
+    "bytes": 3493,
+    "compressed_bytes": 687,
+    "crc32": "3b2e4e63"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.pass1.stdout.txt",
+    "bytes": 9057,
+    "compressed_bytes": 1922,
+    "crc32": "5b67f93e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.pass2.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.pass2.stdout.txt",
+    "bytes": 8475,
+    "compressed_bytes": 1666,
+    "crc32": "7bf1dcd1"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.pdf",
+    "bytes": 553433,
+    "compressed_bytes": 515448,
+    "crc32": "ad44ca5d"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplement.txt",
+    "bytes": 58103,
+    "compressed_bytes": 16976,
+    "crc32": "a64f5998"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/candidate/paper1_supplementNotes.bib",
+    "bytes": 104,
+    "compressed_bytes": 83,
+    "crc32": "d7f12976"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_main.log",
+    "bytes": 1094,
+    "compressed_bytes": 662,
+    "crc32": "ce95b4a7"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_main.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_main.pass1.stdout.txt",
+    "bytes": 713,
+    "compressed_bytes": 475,
+    "crc32": "78a410c2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_supplement.log",
+    "bytes": 1119,
+    "compressed_bytes": 667,
+    "crc32": "d40e088c"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_supplement.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/candidate/paper1_supplement.pass1.stdout.txt",
+    "bytes": 738,
+    "compressed_bytes": 479,
+    "crc32": "65e685d2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_main.log",
+    "bytes": 1094,
+    "compressed_bytes": 662,
+    "crc32": "98e07019"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_main.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_main.pass1.stdout.txt",
+    "bytes": 714,
+    "compressed_bytes": 474,
+    "crc32": "e1676850"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_supplement.log",
+    "bytes": 1119,
+    "compressed_bytes": 667,
+    "crc32": "d87479be"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_supplement.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/initial_missing_revtex_failure/parent_rc4/paper1_supplement.pass1.stdout.txt",
+    "bytes": 739,
+    "compressed_bytes": 478,
+    "crc32": "6990658a"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/interrupted_pdf_observation/RECORD.json",
+    "bytes": 1014,
+    "compressed_bytes": 574,
+    "crc32": "188321ef"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.aux",
+    "bytes": 25503,
+    "compressed_bytes": 6155,
+    "crc32": "34cc9cac"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.log",
+    "bytes": 41339,
+    "compressed_bytes": 10095,
+    "crc32": "46eab270"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.out",
+    "bytes": 8583,
+    "compressed_bytes": 1404,
+    "crc32": "ad2c5f48"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.pass1.stdout.txt",
+    "bytes": 25592,
+    "compressed_bytes": 4605,
+    "crc32": "15a51d40"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.pass2.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.pass2.stdout.txt",
+    "bytes": 16974,
+    "compressed_bytes": 3164,
+    "crc32": "3e6b23e7"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.pdf",
+    "bytes": 633404,
+    "compressed_bytes": 614719,
+    "crc32": "26493323"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_main.txt",
+    "bytes": 132645,
+    "compressed_bytes": 35749,
+    "crc32": "41446505"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_mainNotes.bib",
+    "bytes": 104,
+    "compressed_bytes": 83,
+    "crc32": "d7f12976"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.aux",
+    "bytes": 5523,
+    "compressed_bytes": 1807,
+    "crc32": "46f4af23"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.log",
+    "bytes": 26249,
+    "compressed_bytes": 7213,
+    "crc32": "fc4dbc32"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.out",
+    "bytes": 3493,
+    "compressed_bytes": 687,
+    "crc32": "3b2e4e63"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.pass1.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.pass1.stdout.txt",
+    "bytes": 8718,
+    "compressed_bytes": 1860,
+    "crc32": "6040c679"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.pass2.stderr.txt",
+    "bytes": 0,
+    "compressed_bytes": 2,
+    "crc32": "00000000"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.pass2.stdout.txt",
+    "bytes": 8336,
+    "compressed_bytes": 1635,
+    "crc32": "d1a824a3"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.pdf",
+    "bytes": 549616,
+    "compressed_bytes": 511668,
+    "crc32": "e3ca2806"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplement.txt",
+    "bytes": 54883,
+    "compressed_bytes": 16267,
+    "crc32": "ec02e1d9"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/build/parent_rc4/paper1_supplementNotes.bib",
+    "bytes": 104,
+    "compressed_bytes": 83,
+    "crc32": "d7f12976"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/Halpha_transmission_scan_p06.png",
+    "bytes": 78973,
+    "compressed_bytes": 64930,
+    "crc32": "1d950c75"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/continuum_lattice_share_comparison_p06.png",
+    "bytes": 85266,
+    "compressed_bytes": 68463,
+    "crc32": "1cf8cbd9"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "bytes": 46525,
+    "compressed_bytes": 41522,
+    "crc32": "e0c2ab3f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "bytes": 21453,
+    "compressed_bytes": 18084,
+    "crc32": "9423e659"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "bytes": 17695,
+    "compressed_bytes": 15510,
+    "crc32": "bfea2d47"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "bytes": 20064,
+    "compressed_bytes": 17761,
+    "crc32": "2e1e2a5e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/paper1_main.tex",
+    "bytes": 102214,
+    "compressed_bytes": 34202,
+    "crc32": "4ef43959"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/candidate/paper1_supplement.tex",
+    "bytes": 43975,
+    "compressed_bytes": 16423,
+    "crc32": "fdfeb172"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/bibtex/bst/revtex/aapmrev4-2.bst",
+    "bytes": 68591,
+    "compressed_bytes": 14112,
+    "crc32": "b614da8d"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/bibtex/bst/revtex/aipauth4-2.bst",
+    "bytes": 68708,
+    "compressed_bytes": 14125,
+    "crc32": "b6872a62"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/bibtex/bst/revtex/aipnum4-2.bst",
+    "bytes": 68586,
+    "compressed_bytes": 14115,
+    "crc32": "7a5706ce"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/bibtex/bst/revtex/apsrev4-2.bst",
+    "bytes": 69609,
+    "compressed_bytes": 14392,
+    "crc32": "718781eb"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/bibtex/bst/revtex/apsrmp4-2.bst",
+    "bytes": 68258,
+    "compressed_bytes": 14171,
+    "crc32": "9921b10e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/README",
+    "bytes": 8694,
+    "compressed_bytes": 2713,
+    "crc32": "edbafe85"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/aip/aipguide4-2.pdf",
+    "bytes": 270691,
+    "compressed_bytes": 268739,
+    "crc32": "6ef29166"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/aip/aipguide4-2.tex",
+    "bytes": 16789,
+    "compressed_bytes": 5768,
+    "crc32": "219547c4"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/aip4-2.pdf",
+    "bytes": 517329,
+    "compressed_bytes": 487744,
+    "crc32": "03d9996e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/aps/apsguide4-2.pdf",
+    "bytes": 232285,
+    "compressed_bytes": 230670,
+    "crc32": "7edd23c5"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/aps/apsguide4-2.tex",
+    "bytes": 20714,
+    "compressed_bytes": 7362,
+    "crc32": "2c98a224"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/auguide/auguide4-2.pdf",
+    "bytes": 452319,
+    "compressed_bytes": 448436,
+    "crc32": "ca1bb36b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/auguide/auguide4-2.tex",
+    "bytes": 85974,
+    "compressed_bytes": 27492,
+    "crc32": "f6d4a2f1"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/auguide/docs.sty",
+    "bytes": 3573,
+    "compressed_bytes": 1254,
+    "crc32": "339ccf7f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/auguide/summary4-2.pdf",
+    "bytes": 230858,
+    "compressed_bytes": 229148,
+    "crc32": "25fdcca9"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/auguide/summary4-2.tex",
+    "bytes": 22384,
+    "compressed_bytes": 6970,
+    "crc32": "b9a36732"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/ltxdocext.pdf",
+    "bytes": 324392,
+    "compressed_bytes": 313880,
+    "crc32": "76dbb1ca"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/ltxfront.pdf",
+    "bytes": 546403,
+    "compressed_bytes": 522281,
+    "crc32": "b24a2afe"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/ltxgrid.pdf",
+    "bytes": 801758,
+    "compressed_bytes": 757784,
+    "crc32": "9d8eb800"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/ltxutil.pdf",
+    "bytes": 622979,
+    "compressed_bytes": 589957,
+    "crc32": "4b14a2be"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/revtex4-2.pdf",
+    "bytes": 840035,
+    "compressed_bytes": 793549,
+    "crc32": "017a1435"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/aapmsamp.bib",
+    "bytes": 13187,
+    "compressed_bytes": 3745,
+    "crc32": "8db5f643"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/aapmsamp.pdf",
+    "bytes": 352536,
+    "compressed_bytes": 349391,
+    "crc32": "49c1716b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/aapmsamp.tex",
+    "bytes": 24343,
+    "compressed_bytes": 8793,
+    "crc32": "e0ff379f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/aapmtemplate.tex",
+    "bytes": 3548,
+    "compressed_bytes": 1501,
+    "crc32": "0f34f997"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/fig_1.eps",
+    "bytes": 187,
+    "compressed_bytes": 129,
+    "crc32": "1d24f728"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aapm/fig_2.eps",
+    "bytes": 190,
+    "compressed_bytes": 137,
+    "crc32": "ebd15a66"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/aipsamp.bib",
+    "bytes": 13145,
+    "compressed_bytes": 3737,
+    "crc32": "b557ed6b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/aipsamp.pdf",
+    "bytes": 377909,
+    "compressed_bytes": 374391,
+    "crc32": "8f8f0e30"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/aipsamp.tex",
+    "bytes": 24409,
+    "compressed_bytes": 8827,
+    "crc32": "9746b47c"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/aiptemplate.tex",
+    "bytes": 3357,
+    "compressed_bytes": 1412,
+    "crc32": "b496fc50"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/fig_1.eps",
+    "bytes": 187,
+    "compressed_bytes": 129,
+    "crc32": "1d24f728"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aip/fig_2.eps",
+    "bytes": 190,
+    "compressed_bytes": 137,
+    "crc32": "ebd15a66"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/apssamp.bib",
+    "bytes": 13050,
+    "compressed_bytes": 3691,
+    "crc32": "ecf13421"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/apssamp.pdf",
+    "bytes": 356378,
+    "compressed_bytes": 352265,
+    "crc32": "1f6e96b2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/apssamp.tex",
+    "bytes": 31473,
+    "compressed_bytes": 11144,
+    "crc32": "893beb88"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/apstemplate.tex",
+    "bytes": 5754,
+    "compressed_bytes": 2229,
+    "crc32": "89b40f92"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/fig_1.eps",
+    "bytes": 193,
+    "compressed_bytes": 135,
+    "crc32": "ea7c3cb2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/fig_2.eps",
+    "bytes": 196,
+    "compressed_bytes": 141,
+    "crc32": "3b7f5db6"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/vid_1a.eps",
+    "bytes": 194,
+    "compressed_bytes": 136,
+    "crc32": "f6337108"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/aps/vid_1b.eps",
+    "bytes": 194,
+    "compressed_bytes": 136,
+    "crc32": "599a3cc2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/fig_1.eps",
+    "bytes": 187,
+    "compressed_bytes": 129,
+    "crc32": "1d24f728"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/fig_2.eps",
+    "bytes": 190,
+    "compressed_bytes": 137,
+    "crc32": "ebd15a66"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/sorsamp.bib",
+    "bytes": 13145,
+    "compressed_bytes": 3737,
+    "crc32": "b557ed6b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/sorsamp.pdf",
+    "bytes": 396057,
+    "compressed_bytes": 392400,
+    "crc32": "60646209"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/sorsamp.tex",
+    "bytes": 24447,
+    "compressed_bytes": 8851,
+    "crc32": "98e97c49"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/doc/latex/revtex/sample/sor/sortemplate.tex",
+    "bytes": 3357,
+    "compressed_bytes": 1412,
+    "crc32": "66e73a95"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/aip4-2.dtx",
+    "bytes": 113090,
+    "compressed_bytes": 27687,
+    "crc32": "496bb0fb"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/ltxdocext.dtx",
+    "bytes": 42603,
+    "compressed_bytes": 13858,
+    "crc32": "8a089eed"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/ltxfront.dtx",
+    "bytes": 135033,
+    "compressed_bytes": 35528,
+    "crc32": "dbeb27a1"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/ltxgrid.dtx",
+    "bytes": 262422,
+    "compressed_bytes": 71877,
+    "crc32": "fec0d354"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/ltxutil.dtx",
+    "bytes": 147305,
+    "compressed_bytes": 40820,
+    "crc32": "27ef2317"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/revtex-bst.dtx",
+    "bytes": 79743,
+    "compressed_bytes": 16891,
+    "crc32": "fdbda9ac"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/source/latex/revtex/revtex4-2.dtx",
+    "bytes": 291846,
+    "compressed_bytes": 77358,
+    "crc32": "d323cf76"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aapm4-2.rtx",
+    "bytes": 17058,
+    "compressed_bytes": 5484,
+    "crc32": "f9f779e4"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aip4-2.rtx",
+    "bytes": 31338,
+    "compressed_bytes": 7908,
+    "crc32": "d4448888"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aps10pt4-2.rtx",
+    "bytes": 4721,
+    "compressed_bytes": 1533,
+    "crc32": "bef4cb55"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aps11pt4-2.rtx",
+    "bytes": 4885,
+    "compressed_bytes": 1591,
+    "crc32": "587e3d9d"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aps12pt4-2.rtx",
+    "bytes": 4805,
+    "compressed_bytes": 1571,
+    "crc32": "7b210714"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/aps4-2.rtx",
+    "bytes": 16396,
+    "compressed_bytes": 4843,
+    "crc32": "64a363b1"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/apsrmp4-2.rtx",
+    "bytes": 7653,
+    "compressed_bytes": 2724,
+    "crc32": "11b12fcf"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/ltxdocext.sty",
+    "bytes": 9996,
+    "compressed_bytes": 3576,
+    "crc32": "59a85d86"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/ltxfront.sty",
+    "bytes": 30263,
+    "compressed_bytes": 7474,
+    "crc32": "8749ca64"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/ltxgrid.sty",
+    "bytes": 74109,
+    "compressed_bytes": 16937,
+    "crc32": "3a0acd82"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/ltxutil.sty",
+    "bytes": 54952,
+    "compressed_bytes": 13450,
+    "crc32": "e137cbbe"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revsymb4-2.sty",
+    "bytes": 5569,
+    "compressed_bytes": 1797,
+    "crc32": "7a07f93b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/revtex4-2.cls",
+    "bytes": 202907,
+    "compressed_bytes": 46495,
+    "crc32": "3151c69b"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/dependencies/revtex-tds/tex/latex/revtex/sor4-2.rtx",
+    "bytes": 20046,
+    "compressed_bytes": 6213,
+    "crc32": "505a8612"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/Halpha_transmission_scan_p06.png",
+    "bytes": 78973,
+    "compressed_bytes": 64930,
+    "crc32": "1d950c75"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/continuum_lattice_share_comparison_p06.png",
+    "bytes": 85266,
+    "compressed_bytes": 68463,
+    "crc32": "1cf8cbd9"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "bytes": 46525,
+    "compressed_bytes": 41522,
+    "crc32": "e0c2ab3f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "bytes": 21453,
+    "compressed_bytes": 18084,
+    "crc32": "9423e659"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "bytes": 17695,
+    "compressed_bytes": 15510,
+    "crc32": "bfea2d47"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "bytes": 20064,
+    "compressed_bytes": 17761,
+    "crc32": "2e1e2a5e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/paper1_main.tex",
+    "bytes": 102327,
+    "compressed_bytes": 34241,
+    "crc32": "5f9cbe8e"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/parent_rc4/paper1_supplement.tex",
+    "bytes": 42052,
+    "compressed_bytes": 15806,
+    "crc32": "e7382ab2"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/QA_RESULTS.json",
+    "bytes": 11322,
+    "compressed_bytes": 3101,
+    "crc32": "1a68daa8"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/main-17.png",
+    "bytes": 492142,
+    "compressed_bytes": 453503,
+    "crc32": "2dabbe12"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/main-18.png",
+    "bytes": 487319,
+    "compressed_bytes": 447587,
+    "crc32": "d1c027ef"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/main_p01.png",
+    "bytes": 458969,
+    "compressed_bytes": 423560,
+    "crc32": "764c851f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/main_p16.png",
+    "bytes": 428177,
+    "compressed_bytes": 397703,
+    "crc32": "3559b833"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/supplement-08.png",
+    "bytes": 343988,
+    "compressed_bytes": 314550,
+    "crc32": "f709498f"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/supplement-09.png",
+    "bytes": 280295,
+    "compressed_bytes": 254829,
+    "crc32": "cbcb1eb0"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/supplement-10.png",
+    "bytes": 343269,
+    "compressed_bytes": 315353,
+    "crc32": "c704295d"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/supplement_p11.png",
+    "bytes": 229539,
+    "compressed_bytes": 208420,
+    "crc32": "49ef45a5"
+  },
+  {
+    "name": "analysis/full_domain_r4/manuscript/qa/supplement_squared_verified_p09.png",
+    "bytes": 280295,
+    "compressed_bytes": 254829,
+    "crc32": "cbcb1eb0"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/BRIDGE_REVIEW_CHECKS.json",
+    "bytes": 932,
+    "compressed_bytes": 541,
+    "crc32": "1c92241f"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/CAMPAIGN_CHECKS.json",
+    "bytes": 862,
+    "compressed_bytes": 368,
+    "crc32": "777480fa"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/FINAL_DIAGNOSTIC_CHECKS.json",
+    "bytes": 16216,
+    "compressed_bytes": 2081,
+    "crc32": "d14d185c"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/FINAL_GATE_CHECKS.json",
+    "bytes": 1117,
+    "compressed_bytes": 627,
+    "crc32": "623fbb89"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/FINAL_REVIEW.md",
+    "bytes": 7255,
+    "compressed_bytes": 3392,
+    "crc32": "30811b8a"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/FIRST_PRODUCTION_CHECKS.json",
+    "bytes": 2419,
+    "compressed_bytes": 927,
+    "crc32": "2c4e062b"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/MANUSCRIPT_EDIT_ASSESSMENT.md",
+    "bytes": 4911,
+    "compressed_bytes": 2399,
+    "crc32": "d2871b4d"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/NEW_ARITHMETIC_CHECKS.json",
+    "bytes": 528,
+    "compressed_bytes": 308,
+    "crc32": "3c0f1ead"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/PATCH_SCOPE.json",
+    "bytes": 470,
+    "compressed_bytes": 285,
+    "crc32": "321e2a1d"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/PLAN_REVIEW.md",
+    "bytes": 7184,
+    "compressed_bytes": 3292,
+    "crc32": "7d5b142f"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/PROPOSED_CERTIFIED_FLOOR_PATCH.diff",
+    "bytes": 11187,
+    "compressed_bytes": 3570,
+    "crc32": "b2272ed2"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/REVIEW_BEFORE_FINAL_GATE.md",
+    "bytes": 7019,
+    "compressed_bytes": 3220,
+    "crc32": "f6401d39"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_bridge_evidence.py",
+    "bytes": 3232,
+    "compressed_bytes": 1303,
+    "crc32": "1422a6a1"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_campaign.py",
+    "bytes": 2992,
+    "compressed_bytes": 1199,
+    "crc32": "3eeb62a7"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_final_diagnostic.py",
+    "bytes": 3333,
+    "compressed_bytes": 1427,
+    "crc32": "ace84f71"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_final_gate.py",
+    "bytes": 6098,
+    "compressed_bytes": 2342,
+    "crc32": "95703e41"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_first_production.py",
+    "bytes": 3134,
+    "compressed_bytes": 1385,
+    "crc32": "8413cb14"
+  },
+  {
+    "name": "analysis/full_domain_r4/review/check_new_arithmetic.py",
+    "bytes": 3726,
+    "compressed_bytes": 1554,
+    "crc32": "80c0a299"
+  },
+  {
+    "name": "analysis/full_domain_r4/run_campaign.py",
+    "bytes": 4428,
+    "compressed_bytes": 1815,
+    "crc32": "2825b824"
+  },
+  {
+    "name": "analysis/full_domain_r4/summarize_campaign.py",
+    "bytes": 1640,
+    "compressed_bytes": 812,
+    "crc32": "cd6daf99"
+  },
+  {
+    "name": "baseline/PAPER1_COMPLETE_DOMAIN_VALIDATION_R3.zip",
+    "bytes": 53490635,
+    "compressed_bytes": 53490635,
+    "crc32": "d764b669"
+  }
+]

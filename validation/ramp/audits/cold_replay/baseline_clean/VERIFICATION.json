@@ -1,0 +1,83 @@
+{
+  "schema": "paper1-saved-evidence-replay-r4.v1",
+  "status": "passed",
+  "fresh_global_quadrature_performed": false,
+  "stages": [
+    {
+      "name": "budget_controls",
+      "returncode": 0,
+      "wall_seconds": 0.1579831990020466,
+      "status": "passed"
+    },
+    {
+      "name": "audited_campaign_ledger",
+      "returncode": 0,
+      "wall_seconds": 11.625486056997033,
+      "status": "passed"
+    },
+    {
+      "name": "compact_physical_controls",
+      "returncode": 0,
+      "wall_seconds": 8.376119349999499,
+      "status": "passed"
+    },
+    {
+      "name": "exact_lattice_bridge",
+      "returncode": 0,
+      "wall_seconds": 12.150109989001066,
+      "status": "passed"
+    }
+  ],
+  "outer_manifest": {
+    "manifest_sha256": "e9acff005ca2620b8f435bbf7243226c3075fed6077699b623ee2b6b482a582f",
+    "verified_payloads": 682
+  },
+  "inherited": {
+    "status": "passed",
+    "archive_sha256": "d1b3dcac19297522b6e271711a956fce24f681662c7c978c25fb679289039c88",
+    "archive_bytes": 53490635,
+    "baseline": "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/baseline_clean/r4_certificate/output_r3/paper1-complete-domain-validation-r3",
+    "manifest_sha256": "eae0c9dc4cd4873d58e359f565f779a200ea168cdf04f24e0c64269002ca965a",
+    "verified_payloads": 234
+  },
+  "audit_runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "python_flint": "0.8.0",
+    "flint": "3.3.1"
+  },
+  "checkpoint_producer_runtimes": [
+    {
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "python_flint": "0.8.0"
+    }
+  ],
+  "python_build_matches_all_producers": true,
+  "runtime_policy": "Read-only saved-evidence audit permits a different Python build; unchanged source/Flint and all certificate, exact-sum and coverage checks remain required. Checkpoint resume retains exact producer-runtime identity.",
+  "ledger_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+  "both_arithmetic_budgets_pass": true,
+  "exact_lattice_floor_certified": true,
+  "physical_replay_performed": true,
+  "saved_ledger_reproduced_exactly": true,
+  "selected_saved_ledger_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+  "bridge_summary_sha256": "dfe3aed5621d7e98e94a250b0a663dc517d93373b36306062b03a50f1ef1260e",
+  "bridge": {
+    "status": "exact_reference_lattice_floor_certified_from_complete_enclosures_and_original_bridge",
+    "exact_lattice_floor_certified": true,
+    "rational_floor": "1037/10000",
+    "claim": "At the specified reference energy E=36/25 and the specified source, T_qT>1037/10000 throughout the same six independent complete-motif coupling-factor box [19/20,21/20].",
+    "scope_limits": "No packet-averaged guarantee, no frequency-band theorem, and no experimental/model-validity certification.",
+    "psd_premise": "Exact-Q PSD follows from the complete lower-pair spectral-residue quadratic form in the bound inherited proof; no midpoint PSD inference is used.",
+    "bindings": {
+      "global_gate_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+      "fresh_original_proof_sha256": "a77cead2e0365ba610a3ba529026f8c71d79ef7a1a6b25b896cd0f79dc192de7",
+      "original_producer_sha256": "02e6dd6cabcabae6043c1d9744d4c8a0ec26b8d7ac2bad317368d37aca9ec96e",
+      "exact_Q_psd_proof_sha256": "914010959c1b11f3b2549ee592b8edc0b4ae4c60f6a8fade9ac6e70ec4fcde07",
+      "targets_sha256": "d51a0fb10eae4e6969fd254d31add73d29784e08b41f6bb4af10c3cc8f139892"
+    },
+    "fresh_original_process_exit": 0,
+    "original_conditional_floor_enclosure": "[0.1037986667791380149124393077511413006385 +/- 4.04e-41]"
+  },
+  "rational_floor": "1037/10000",
+  "scientific_result": "exact_reference_lattice_floor_certified",
+  "limits": "Saved evidence audit and exact budget recomputation; optional bridge only if all prerequisites and output bindings pass. No global quadrature rerun, second-platform validation, packet-average or frequency-band guarantee."
+}

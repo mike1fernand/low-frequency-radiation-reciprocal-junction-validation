@@ -1,0 +1,47 @@
+[
+  {
+    "omega": 0.2,
+    "branch_relative_differences": [
+      0.004408949357005874,
+      0.004475718613706934,
+      1.4055460066856838e-15
+    ],
+    "qT_relative_difference": 1.2883395236581256e-13,
+    "qL_relative_difference": 1.4055460066856838e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 5.204170427930421e-16,
+      "min_radial_derivative": 0.3976627258169811,
+      "max_k_bond_dot": 0.28305073471332076
+    }
+  },
+  {
+    "omega": 0.05,
+    "branch_relative_differences": [
+      0.004404179766428951,
+      0.00440847423181304,
+      8.654534739299565e-16
+    ],
+    "qT_relative_difference": 2.5570040393936745e-12,
+    "qL_relative_difference": 8.654534739299565e-16,
+    "independent_diagnostics": {
+      "max_root_residual": 3.0357660829594124e-17,
+      "min_radial_derivative": 0.09996355839157778,
+      "max_k_bond_dot": 0.07070724376157013
+    }
+  },
+  {
+    "omega": 0.0125,
+    "branch_relative_differences": [
+      0.004403865731120156,
+      0.004404134636577132,
+      1.1416281522550385e-15
+    ],
+    "qT_relative_difference": 1.8281338284158264e-11,
+    "qL_relative_difference": 1.1416281522550385e-15,
+    "independent_diagnostics": {
+      "max_root_residual": 2.032879073410321e-18,
+      "min_radial_derivative": 0.024999430675977513,
+      "max_k_bond_dot": 0.01767594663653166
+    }
+  }
+]

@@ -1,0 +1,446 @@
+{
+  "schema": "paper1.fresh-frequency-curve.v1",
+  "status": "complete_for_declared18_nodes",
+  "method": "basis-invariant nodal surface N128 plus selected frequency-specific p23 Sobol-mean M256 PV",
+  "frequency_binding": {
+    "packet_contract_sha256": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348",
+    "packet_contract": {
+      "path": "analysis/resolution_execution/packet/FREQUENCY_CONTRACT.json",
+      "sha256": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348"
+    }
+  },
+  "PV_contract": {
+    "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+    "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "geometry_campaign": {
+    "path": "analysis/resolution_execution/surface/GEOMETRY_CAMPAIGN.json",
+    "sha256": "d426401e894bc0bf70036840177a9d685726cb8ccd4b6f1b86d655df8817669d"
+  },
+  "source": {
+    "path": "analysis/resolution_execution/surface/src/on_shell_basis.py",
+    "sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a"
+  },
+  "producer": {
+    "path": "analysis/resolution_execution/surface/export_fresh_curve.py",
+    "sha256": "070a2fcbe841dbb8aac5e8656009c22e2d28801c2ac9cf2add9bced23f5d076d"
+  },
+  "rows": [
+    {
+      "omega": 0.8,
+      "T_qT": 0.21620270923811719,
+      "T_qL": 0.02101890687446275,
+      "T_bulk": 0.2372216161125799,
+      "Rq": 0.238738031660515,
+      "Tline": 0.5240403522120246,
+      "amplitude_closure": 1.4880541243655898e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "diagnostic_0.8",
+      "node_roles": [
+        "band_endpoint",
+        "R_only"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.8.json",
+        "sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.8.npz",
+        "sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533"
+      }
+    },
+    {
+      "omega": 0.8034441853748633,
+      "T_qT": 0.21656882632406496,
+      "T_qL": 0.021042029168652693,
+      "T_bulk": 0.23761085549271768,
+      "Rq": 0.23147586605241707,
+      "Tline": 0.530913278439972,
+      "amplitude_closure": 1.4893197786136625e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "dft_012",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.803444185374863.json",
+        "sha256": "257e8da55867bfc247a2ecb9fbc4f9954b6f19ed8d9e55a9e9ec5ee7fcae795f"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.803444185374863.npz",
+        "sha256": "9980d7a8b3da8af44676d11d7c6545fa84cdc560233b1be66e78d03932ab3b70"
+      }
+    },
+    {
+      "omega": 0.8678978340078045,
+      "T_qT": 0.2142699104425557,
+      "T_qL": 0.020560602783107427,
+      "T_bulk": 0.23483051322566306,
+      "Rq": 0.11560085380015364,
+      "Tline": 0.649568632959409,
+      "amplitude_closure": 1.477429290019927e-11,
+      "partition_residual": 5.551115123125783e-17,
+      "node_id": "dft_013",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.867897834007805.json",
+        "sha256": "15ff5c099cb4458b4c0d0bb0c8a069d8d8639233a48d8ab40f7c2faba68d45c9"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.867897834007805.npz",
+        "sha256": "ab73990088db678755f907cc569bc2c868ddc43d64f5764b20270bf390a0ba77"
+      }
+    },
+    {
+      "omega": 0.9317566688177807,
+      "T_qT": 0.1986458417578429,
+      "T_qL": 0.018757217024287225,
+      "T_bulk": 0.2174030587821301,
+      "Rq": 0.04487132620828585,
+      "Tline": 0.7377256149953489,
+      "amplitude_closure": 1.4235168599441295e-11,
+      "partition_residual": 0.0,
+      "node_id": "dft_014",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.931756668817781.json",
+        "sha256": "b933b507f078a74cc72f053b1ad33b5286f57f76eae8634079a1b7b1ee60dba8"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.931756668817781.npz",
+        "sha256": "0a9009a5ed8281f74bb2dd2ce414fa989bd7a5c1bfeb0f66fd744957220725a8"
+      }
+    },
+    {
+      "omega": 0.9949769241492334,
+      "T_qT": 0.17740246031856582,
+      "T_qL": 0.016446942571189616,
+      "T_bulk": 0.19384940288975538,
+      "Rq": 0.01223812193728967,
+      "Tline": 0.7939124751592946,
+      "amplitude_closure": 1.3660295117290389e-11,
+      "partition_residual": 5.551115123125783e-17,
+      "node_id": "dft_015",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.994976924149233.json",
+        "sha256": "deefbfc0fd171f6a4315f478d71a03ffd3e904a76c25648354a48e27ebb3035e"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.994976924149233.npz",
+        "sha256": "850e0ccad5a329b226659f30cdbfe5fd4fd8e0d388a65503bda47087ba5eea76"
+      }
+    },
+    {
+      "omega": 1.0575152719970804,
+      "T_qT": 0.15714820315267433,
+      "T_qL": 0.014303452507625544,
+      "T_bulk": 0.1714516556602999,
+      "Rq": 0.002229010740333138,
+      "Tline": 0.8263193335861091,
+      "amplitude_closure": 1.325783927086377e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "dft_016",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.05751527199708.json",
+        "sha256": "d0dd934b6a838bfac50a622dd0968c3bc0af91d53194b31345058620f5923054"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.05751527199708.npz",
+        "sha256": "82c04c931c14d92f64f6e23c2d13cf1abd0613f9d6c08689ba7774a28f8f4875"
+      }
+    },
+    {
+      "omega": 1.1193288517015672,
+      "T_qT": 0.1408539258686997,
+      "T_qL": 0.012605726963577877,
+      "T_bulk": 0.15345965283227753,
+      "Rq": 0.0016376761457238557,
+      "Tline": 0.8449026710089533,
+      "amplitude_closure": 1.3045342583950514e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "dft_017",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.11932885170157.json",
+        "sha256": "ac7c2cce2ae13ef577955803a27d249059dcfe1f42c23ee1eaccfc9be4c0b65a"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.11932885170157.npz",
+        "sha256": "0afe21b070e7ed50b4bbe60a64399221855d8d204f3dafbde129bb14554f126f"
+      }
+    },
+    {
+      "omega": 1.1803752993228216,
+      "T_qT": 0.1287790100030529,
+      "T_qL": 0.011348164903322477,
+      "T_bulk": 0.1401271749063754,
+      "Rq": 0.0031675558605457482,
+      "Tline": 0.8567052692201155,
+      "amplitude_closure": 1.2963408124733178e-11,
+      "partition_residual": 5.551115123125783e-17,
+      "node_id": "dft_018",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.18037529932282.json",
+        "sha256": "88652d25ded2f9dc1ac4a37f9281a5276dd7de445e1718a55a899fa67d5b0fb4"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.18037529932282.npz",
+        "sha256": "6f06d5975cc1cd302a5e20bf22d4727a5f9b73605c3eb2ffe022e0037e36473b"
+      }
+    },
+    {
+      "omega": 1.240612776674982,
+      "T_qT": 0.12027023890818139,
+      "T_qL": 0.010431180094965884,
+      "T_bulk": 0.13070141900314725,
+      "Rq": 0.0040310865564549625,
+      "Tline": 0.865267494427445,
+      "amplitude_closure": 1.2952749983696776e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "dft_019",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.24061277667498.json",
+        "sha256": "adab642cc233891ae458aa22d91f96bc9713616b3bcdf0ff48e62f031989fd24"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.24061277667498.npz",
+        "sha256": "70eee1c6b24227e65135872d6139f6fa3e0d1aaf4d39bac211609d7d60db9059"
+      }
+    },
+    {
+      "omega": 1.2999999999999998,
+      "T_qT": 0.1144061098944062,
+      "T_qL": 0.00973460691309735,
+      "T_bulk": 0.12414071680750353,
+      "Rq": 0.0038076380003293857,
+      "Tline": 0.8720516451791934,
+      "amplitude_closure": 1.2973733198862192e-11,
+      "partition_residual": 1.3877787807814457e-17,
+      "node_id": "dft_020",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.3.json",
+        "sha256": "1fcfe74d738a70f9e0400f983279156288fc706b43b03bc67895dcf2e17240ae"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.3.npz",
+        "sha256": "99f8c408f126dcfd57954e65bb861634c1260a8414d4a47ae61e4b1a6ee39a36"
+      }
+    },
+    {
+      "omega": 1.358496268261467,
+      "T_qT": 0.11036739443195087,
+      "T_qL": 0.00915429489310933,
+      "T_bulk": 0.11952168932506015,
+      "Rq": 0.002931769035609691,
+      "Tline": 0.8775465416263171,
+      "amplitude_closure": 1.3013146116236385e-11,
+      "partition_residual": 4.163336342344337e-17,
+      "node_id": "dft_021",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.35849626826147.json",
+        "sha256": "e8469cb3341c83cd6f9bec72c7a8f0f30a5a250a180fe66faf1706f68adb1e9d"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.35849626826147.npz",
+        "sha256": "a7c117e68386c4a7ee6f71cbbf98aedc5a24bed5db9509d5c618e02b748b436a"
+      }
+    },
+    {
+      "omega": 1.4,
+      "T_qT": 0.10829514214409461,
+      "T_qL": 0.008771272119308981,
+      "T_bulk": 0.11706641426340356,
+      "Rq": 0.002200361431230527,
+      "Tline": 0.8807332242923125,
+      "amplitude_closure": 1.3053447212030278e-11,
+      "partition_residual": 4.163336342344337e-17,
+      "node_id": "diagnostic_1.4",
+      "node_roles": [
+        "R_only"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.4.json",
+        "sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.4.npz",
+        "sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5"
+      }
+    },
+    {
+      "omega": 1.41606149103907,
+      "T_qT": 0.10764252905630436,
+      "T_qL": 0.008626888296828525,
+      "T_bulk": 0.11626941735313288,
+      "Rq": 0.0019294798640072954,
+      "Tline": 0.8818011027697867,
+      "amplitude_closure": 1.3073098159566143e-11,
+      "partition_residual": 0.0,
+      "node_id": "dft_022",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.41606149103907.json",
+        "sha256": "959a5aba39ae7d22d2c57c5a13a712ad1e8899748089e9422dc853de44546455"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.41606149103907.npz",
+        "sha256": "8afe44cd599a89e6972f3e714a80a640ee0499a7eeffdc8ae1ab0046ef21d3ed"
+      }
+    },
+    {
+      "omega": 1.4726562160045653,
+      "T_qT": 0.10591653396851677,
+      "T_qL": 0.008117490587254113,
+      "T_bulk": 0.1140340245557709,
+      "Rq": 0.0011161549441411458,
+      "Tline": 0.8848498204869276,
+      "amplitude_closure": 1.3160250666999218e-11,
+      "partition_residual": 1.3877787807814457e-17,
+      "node_id": "dft_023",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.47265621600457.json",
+        "sha256": "311005c344cd64a0929c546e6006f9b77409c35af977212892d1342c67380579"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.47265621600457.npz",
+        "sha256": "46e91be65cd5a993f32bb8839e35d94b7ee2091049aaa57fb69f2db257b578dc"
+      }
+    },
+    {
+      "omega": 1.5282416559604302,
+      "T_qT": 0.10499496486493333,
+      "T_qL": 0.007611164182754287,
+      "T_bulk": 0.11260612904768759,
+      "Rq": 0.0005815367180180595,
+      "Tline": 0.886812334221015,
+      "amplitude_closure": 1.3279266575239035e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "node_id": "dft_024",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.52824165596043.json",
+        "sha256": "f67c555c8f5e06200ddc9a1f437aa0eff873ce44a77612bc5c2ce30b82f328c3"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.52824165596043.npz",
+        "sha256": "7230ddcf2274ecb985d29229dad92e6515e20a3b078d89fe9ff3891b8046f47e"
+      }
+    },
+    {
+      "omega": 1.5827797154226737,
+      "T_qT": 0.10486812421566123,
+      "T_qL": 0.00711391878101214,
+      "T_bulk": 0.11198204299667336,
+      "Rq": 0.0002850719252711588,
+      "Tline": 0.8877328850646262,
+      "amplitude_closure": 1.3429257705865894e-11,
+      "partition_residual": 1.3877787807814457e-17,
+      "node_id": "dft_025",
+      "node_roles": [
+        "central_packet"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.58277971542267.json",
+        "sha256": "aa580470d2080a86632b6cc20e9c863ff77950671688962a8d3209b8dcb2f5ad"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.58277971542267.npz",
+        "sha256": "8db17bc29281bc3ae4f2177f978127645d8ccc45fcd99fe761a7a869c55ea744"
+      }
+    },
+    {
+      "omega": 1.6,
+      "T_qT": 0.10499998431479965,
+      "T_qL": 0.006958429389658513,
+      "T_bulk": 0.11195841370445815,
+      "Rq": 0.00022646519883544127,
+      "Tline": 0.8878151210832231,
+      "amplitude_closure": 1.3483325567165139e-11,
+      "partition_residual": 1.3877787807814457e-17,
+      "node_id": "diagnostic_1.6",
+      "node_roles": [
+        "band_endpoint"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.6.json",
+        "sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.6.npz",
+        "sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140"
+      }
+    },
+    {
+      "omega": 1.7,
+      "T_qT": 0.10743387504173058,
+      "T_qL": 0.0060707183622831454,
+      "T_bulk": 0.11350459340401371,
+      "Rq": 6.581930129948391e-05,
+      "Tline": 0.8864295872808332,
+      "amplitude_closure": 1.3853584945877628e-11,
+      "partition_residual": 1.3877787807814457e-17,
+      "node_id": "diagnostic_1.7",
+      "node_roles": [
+        "R_only"
+      ],
+      "grid": 128,
+      "selected_kernel_record": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.7.json",
+        "sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55"
+      },
+      "kernel": {
+        "path": "analysis/resolution_execution/surface/selected_nodes/N128/omega1.7.npz",
+        "sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc"
+      }
+    }
+  ],
+  "scope": "FiniteDFTcentral weighting usesall14exactcontractnodes. Additionalendpoints/R-onlyfrequenciesareexplicit. Numericalapproximation; no exact-lattice guarantee."
+}

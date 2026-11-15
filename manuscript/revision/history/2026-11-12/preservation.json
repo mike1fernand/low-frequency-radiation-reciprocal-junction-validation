@@ -1,0 +1,77 @@
+{
+  "edition": "Paper 1, Wave Motion source edition, 2026-11-12",
+  "predecessor": {
+    "file": "Paper1_Wave_Motion_Revised_Source_Build_2026-11-11.zip",
+    "sha256": "46e94ef869043f67213f36d46e7bfb4a89e8cc0406c71887ffb4bbfa4fced93b"
+  },
+  "reviewed_plan": {
+    "file": "Paper1_Audit_of_the_Reply_and_Final_Recommendations_2026-11-12.md",
+    "sha256": "3178c529489232342f81f3230d6506473065dcfb5ea97b23f54998f69abb0ec4"
+  },
+  "prior_patch": {
+    "file": "Paper1_Proposed_Source_Edits_2026-11-12.zip",
+    "sha256": "1092e086d04cb0a03d9f2ec2be8f54a4a40e53d8d0030a11b8ea020fbc8e6e39"
+  },
+  "changes_in_context": [
+    "Defined the emitted qT share by its total emitted bulk power denominator at first use in the reordered introduction.",
+    "Moved the diagonal-spring label in Figure 1 clear of the orange line, with identical geometry and data.",
+    "Pointed the main and SM4 figures to their separate vector panels and retained the original combined graphic as a reproducible source."
+  ],
+  "source_files_changed": [
+    "paper1_main.tex",
+    "paper1_supplement.tex"
+  ],
+  "source_files_added": [
+    "figures/figure4_reference_power.pdf",
+    "figures/sm4_method_comparison.pdf"
+  ],
+  "source_files_removed": [],
+  "before_after_sha256": {
+    "paper1_main.tex": [
+      "d4c64ef5d5752127e93584bb1a0832b8e31bde682bef87d2611370f438e04ef3",
+      "d1e0581a4dbe17ca86675b71d9ea8bf184eed96f0052fc16f0b05d7cb5052069"
+    ],
+    "paper1_supplement.tex": [
+      "93f138778ef2ed57383a7bea62582270cb9daaa84abdfe11975f965ab68c6e68",
+      "365dee5c0ed07c4924b52cd00b90cb26ef620fc910befd0945f2e32b659cf2c7"
+    ],
+    "figures/figure4_reference_power.pdf": [
+      null,
+      "1f852669e87054bd49f3e387b5e2624151087c2e444d22cc3ae0d66f78c86a57"
+    ],
+    "figures/sm4_method_comparison.pdf": [
+      null,
+      "06767db566b45b1f4e7f31b31eb4f15f055d0b7b36d3433e0b0b2f702224f1d9"
+    ]
+  },
+  "patch_replays_entire_source_tree_from_predecessor": true,
+  "patch_sha256": "34f2bc8a20c0c75f4714cb32504ff779231a45db39daf60482036c44cf530f4a",
+  "preserved_math_and_labels": {
+    "paper1_main.tex": {
+      "displayed_math_blocks_after_documented_notation_normalization": 103,
+      "explicit_labels_in_same_order": 150
+    },
+    "paper1_supplement.tex": {
+      "displayed_math_blocks_after_documented_notation_normalization": 131,
+      "explicit_labels_in_same_order": 70
+    },
+    "paper1_SM5D.tex": {
+      "displayed_math_blocks_after_documented_notation_normalization": 20,
+      "explicit_labels_in_same_order": 26
+    }
+  },
+  "notation_normalization": "Only for the mathematical comparison, replace the new bare corner-matrix symbol G_{cc,0}^R with its old name G_{cc}^R.",
+  "lengths": {
+    "main_body_detex_ln": [
+      13324,
+      12830
+    ],
+    "abstract_whitespace": [
+      248,
+      249
+    ]
+  },
+  "prior_release_records": "revision/history/2026-11-11/",
+  "current_latex_check": "verification/build-inputs.json",
+  "scope": "This source comparison checks preservation and typesetting inputs. The corresponding validation repository records tests of the numerical tables and the scopes of the scientific validations."
+}

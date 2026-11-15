@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "phase": "pilot",
+  "omega": 1.2,
+  "g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "spectral_timings": [
+    {
+      "surface_grid": 48,
+      "seconds": 0.4901436170002853,
+      "geometry": [
+        {
+          "triangles": 3512,
+          "minimum_gradient": 1.84006697545014,
+          "maximum_gradient": 2.1507498788022836,
+          "skipped_cells": 0
+        },
+        {
+          "triangles": 3512,
+          "minimum_gradient": 1.9147881344491506,
+          "maximum_gradient": 2.187549360717982,
+          "skipped_cells": 0
+        },
+        {
+          "triangles": 1160,
+          "minimum_gradient": 3.723592605556741,
+          "maximum_gradient": 3.8348910549139372,
+          "skipped_cells": 0
+        }
+      ],
+      "minimum_eigenvalues": [
+        1.6576387401719458e-07,
+        5.863117071501083e-09,
+        7.2243922651950126e-09,
+        1.0949710382101341e-10
+      ],
+      "raw_reciprocity_residual": 8.953004239377331e-09,
+      "matrix_sha256": "4ee49a078ebb74cf76fb0b0175e83f66345eaec871d99dede9d43b93dc046d05"
+    }
+  ],
+  "PV_histograms": [
+    {
+      "seed": 20261108,
+      "power": 18,
+      "sample_count": 262144,
+      "seconds": 0.9331803850000142,
+      "sha256": "d2687f4616ef4054e9c60302f97fd5e1afec8d88ca560de2004c8d44f78878c1"
+    },
+    {
+      "seed": 20261109,
+      "power": 18,
+      "sample_count": 262144,
+      "seconds": 0.9583331050016568,
+      "sha256": "d82584b6f4beb654c0bb572b0577b50244d4ad81f1ea845e4f285ee76334aa30"
+    }
+  ],
+  "states": [
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 192,
+      "PV_selection": "seedA",
+      "Rq": 0.1198412855703549,
+      "Tline": 0.07579078470709552,
+      "TqT": 0.7360906445093393,
+      "TqL": 0.06827728520132051,
+      "Tbulk": 0.8043679297106597,
+      "bulk_qT_share": 0.9151168480500204,
+      "closure": 1.1889822459920651e-11,
+      "spectral_selfenergy_residual": 0.0
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 192,
+      "PV_selection": "seedB",
+      "Rq": 0.11809427742434063,
+      "Tline": 0.07741337083759253,
+      "TqT": 0.736226778756027,
+      "TqL": 0.06826557297014255,
+      "Tbulk": 0.8044923517261696,
+      "bulk_qT_share": 0.9151445345332773,
+      "closure": 1.189726095418564e-11,
+      "spectral_selfenergy_residual": 0.0
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 192,
+      "PV_selection": "mean",
+      "Rq": 0.11896652846915529,
+      "Tline": 0.07659854198607231,
+      "TqT": 0.7361631076288828,
+      "TqL": 0.06827182190399605,
+      "Tbulk": 0.8044349295328789,
+      "bulk_qT_share": 0.9151307092748443,
+      "closure": 1.1893486195901914e-11,
+      "spectral_selfenergy_residual": 1.1102230246251565e-16
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 256,
+      "PV_selection": "seedA",
+      "Rq": 0.12000203431454046,
+      "Tline": 0.07568273674190283,
+      "TqT": 0.7360405811006467,
+      "TqL": 0.06827464783101939,
+      "Tbulk": 0.8043152289316662,
+      "bulk_qT_share": 0.9151145653157589,
+      "closure": 1.1890488593735427e-11,
+      "spectral_selfenergy_residual": 2.220446049250313e-16
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 256,
+      "PV_selection": "seedB",
+      "Rq": 0.1176755602760634,
+      "Tline": 0.0779033889627618,
+      "TqT": 0.7361681354719154,
+      "TqL": 0.06825291527735579,
+      "Tbulk": 0.8044210507492712,
+      "bulk_qT_share": 0.9151527484098257,
+      "closure": 1.1903589225426003e-11,
+      "spectral_selfenergy_residual": 2.220446049250313e-16
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 256,
+      "PV_selection": "mean",
+      "Rq": 0.11883658437745136,
+      "Tline": 0.07678668566554893,
+      "TqT": 0.7361122467903277,
+      "TqL": 0.06826448315477426,
+      "Tbulk": 0.804376729945102,
+      "bulk_qT_share": 0.9151336921949081,
+      "closure": 1.189770504339549e-11,
+      "spectral_selfenergy_residual": 0.0
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 320,
+      "PV_selection": "seedA",
+      "Rq": 0.12028602995053925,
+      "Tline": 0.07544721552142782,
+      "TqT": 0.7359900867582685,
+      "TqL": 0.06827666775787432,
+      "Tbulk": 0.8042667545161428,
+      "bulk_qT_share": 0.9151069376242582,
+      "closure": 1.1890044504525576e-11,
+      "spectral_selfenergy_residual": 0.0
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 320,
+      "PV_selection": "seedB",
+      "Rq": 0.11753010776878445,
+      "Tline": 0.07811640313705209,
+      "TqT": 0.7361078156650483,
+      "TqL": 0.06824567341720715,
+      "Tbulk": 0.8043534890822555,
+      "bulk_qT_share": 0.9151546249956926,
+      "closure": 1.1908030117524504e-11,
+      "spectral_selfenergy_residual": 1.1102230246251565e-16
+    },
+    {
+      "surface_N": 48,
+      "PV_power": 18,
+      "PV_order": 320,
+      "PV_selection": "mean",
+      "Rq": 0.11890499084729152,
+      "Tline": 0.07677273035001186,
+      "TqT": 0.7360601177722426,
+      "TqL": 0.06826216101855569,
+      "Tbulk": 0.8043222787907982,
+      "bulk_qT_share": 0.9151308339721989,
+      "closure": 1.1898482199512728e-11,
+      "spectral_selfenergy_residual": 1.1102230246251565e-16
+    }
+  ],
+  "coupled_states": 9,
+  "new_surface_matrices": 1,
+  "new_PV_histograms": 2,
+  "cached_selected_reference_qT": 0.7358742883948081,
+  "seconds": 2.4314107640020666,
+  "peak_RSS_KiB": 183172,
+  "source_files_unchanged": true,
+  "input_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "on_shell_basis.py": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+    "spectral_histogram.py": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738",
+    "REFERENCE_KERNEL.npz": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "REFERENCE_KERNEL.json": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "internal_states_sha256": "a7178986880a3c6964e5d4e1867f0e0846f3570626ee08516a2f8d0611b8205c",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "accuracy_scope": "Fresh independent samples/grids under the archived same quadrature algorithms; convergence/sensitivity evidence, not a rigorous exact-lattice enclosure or independent-method proof."
+}

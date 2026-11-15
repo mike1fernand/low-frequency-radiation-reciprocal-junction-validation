@@ -1,0 +1,21 @@
+test_absolute_path (__main__.IntegrityVerifierTests.test_absolute_path) ... ok
+test_bad_digest (__main__.IntegrityVerifierTests.test_bad_digest) ... ok
+test_directory_symlink (__main__.IntegrityVerifierTests.test_directory_symlink) ... ok
+test_duplicate_json_keys (__main__.IntegrityVerifierTests.test_duplicate_json_keys) ... ok
+test_empty_manifest (__main__.IntegrityVerifierTests.test_empty_manifest) ... ok
+test_extra_file (__main__.IntegrityVerifierTests.test_extra_file) ... ok
+test_file_symlink (__main__.IntegrityVerifierTests.test_file_symlink) ... ok
+test_manifest_omission (__main__.IntegrityVerifierTests.test_manifest_omission) ... ok
+test_manifest_self_listing (__main__.IntegrityVerifierTests.test_manifest_self_listing) ... ok
+test_missing_file (__main__.IntegrityVerifierTests.test_missing_file) ... ok
+test_noncanonical_paths (__main__.IntegrityVerifierTests.test_noncanonical_paths) ... ok
+test_payload_mutation (__main__.IntegrityVerifierTests.test_payload_mutation) ... ok
+test_payload_mutation_with_optimized_python (__main__.IntegrityVerifierTests.test_payload_mutation_with_optimized_python) ... ok
+test_traversal_path (__main__.IntegrityVerifierTests.test_traversal_path) ... ok
+test_valid_inventory_is_only_a_file_integrity_pass (__main__.IntegrityVerifierTests.test_valid_inventory_is_only_a_file_integrity_pass) ... ok
+test_valid_inventory_with_optimized_python (__main__.IntegrityVerifierTests.test_valid_inventory_with_optimized_python) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.056s
+
+OK

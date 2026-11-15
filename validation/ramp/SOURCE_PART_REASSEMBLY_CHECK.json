@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "bytes": 71926283,
+  "sha256": "8068c897d9780a81670f0fe3d98b9a70d7ed04b828e3fff3b269de9775f257ce",
+  "assembler_stdout": "PASS: exact unchanged certificate archive reconstructed: /workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/proof-parts-cold-ey0iviel/baseline_certificate/PAPER1_COMPLETE_DOMAIN_VALIDATION_R4.zip\n"
+}

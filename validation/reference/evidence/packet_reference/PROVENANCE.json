@@ -1,0 +1,71 @@
+{
+  "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+  "archive_sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+  "files": {
+    "REFERENCE_MODAL_ANALYSIS.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/REFERENCE_MODAL_ANALYSIS.json",
+      "sha256": "55758107b5203313ade56e4dd0753de41ee5ae8310e33abcfb5412f115d34468"
+    },
+    "REFERENCE_TRAJECTORY_ROWS.csv": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/REFERENCE_TRAJECTORY_ROWS.csv",
+      "sha256": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec"
+    },
+    "REFERENCE_SHELL_AUDIT.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/REFERENCE_SHELL_AUDIT.json",
+      "sha256": "bc439ebef8ad65dd9fba18d8f9574ce451140d4f74a8d576eda8d0d57cda42c5"
+    },
+    "BOX64_MODAL_ANALYSIS.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/BOX64_MODAL_ANALYSIS.json",
+      "sha256": "be70d28e673dce3dd21bba255a96625b7e1412ba8f1e266638dd9732fd0fd698"
+    },
+    "BOX64_ROWS.csv": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/BOX64_ROWS.csv",
+      "sha256": "5554eee2036651f535383d47110532ff08f1abaaf88041918b1c364a6d2d4377"
+    },
+    "DT003_MODAL_CORRECTED.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/DT003_MODAL_CORRECTED.json",
+      "sha256": "28f2cf90b6f9961d514d305ec7cb47f33fb17dc6453e68a75053fbfd5d207e33"
+    },
+    "DT005_MODAL_CORRECTED.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/DT005_MODAL_CORRECTED.json",
+      "sha256": "45ba183bbdbda5f081218d418a9d142b91f7ee26acc599037184d009b07cf20c"
+    },
+    "FULL_STEP_DIRECT_THRESHOLDS.csv": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/records/FULL_STEP_DIRECT_THRESHOLDS.csv",
+      "sha256": "24b4b846222a293429c0925524e9a25e6c6ebffa755d7c3b7ef505fbab8e13b3"
+    },
+    "surface_128.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/FRESH_CURVE_N128.json",
+      "sha256": "72fdd9dbe1383302d19fda2092b2f6723df40111fcad7fc91c77aeae8558878b"
+    },
+    "surface_160.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/surface/FRESH_CURVE_N160.json",
+      "sha256": "481e68bf87957b75735b282b7bdd812961b03037a8808bc89e48a28a01050557"
+    },
+    "tetra_96.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N96/FRESH_CURVE.json",
+      "sha256": "598d981a2f177a5d21a16a0a9f0eb9e1f3b253d8e341114722c5d1b65b834079"
+    },
+    "tetra_128.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/packet_N128/FRESH_CURVE.json",
+      "sha256": "d5f788e6253ea2dbeaf8b0a2607d243adc8fdfdc1b523733a29e5d9936ab1a32"
+    },
+    "tetra_160.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/remaining_resolution/packet/worktree/analysis/resolution_execution/tetra/packet_N160_complete/FRESH_CURVE.json",
+      "sha256": "7ee85aac71f95bfe361360b26d72b9a7fb0a3bf43623e04076d280a51df9f1c2"
+    },
+    "preparation.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/packet/inputs/preparation.json",
+      "sha256": "6e77b32d3ac6ebe8075cb43b31bf20b73aef5d7261ea1c4118a0a832761451e1"
+    },
+    "figure6a_data.json": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generated/data/packet.json",
+      "sha256": "bc4e55aeedb6537c753904eae41a991d2a10aa8ad880ccb0c016cd3d1b737887"
+    },
+    "p07_trajectory_checkpoint.cpp": {
+      "member": "paper1-validation-integrated-r8/legacy_rc4/validation/direct_dynamics/run/p07_trajectory_checkpoint.cpp",
+      "sha256": "393ce334d170fc8f2ad535b23175a6e1fa7e16666e771a602fe0658357ba3d2f"
+    }
+  },
+  "scope": "Original archived trajectory and modal rows, pointwise stationary calculations, input and figure data, and the checkpointed C++ producer. Reference taper only."
+}

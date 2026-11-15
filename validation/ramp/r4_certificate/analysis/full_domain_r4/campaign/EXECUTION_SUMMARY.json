@@ -1,0 +1,83 @@
+{
+  "schema": "paper1-r4-execution-summary-v1",
+  "claim": "Execution diagnostics, not an independent mathematical certificate",
+  "groups": {
+    "Q": {
+      "planned_jobs": 114,
+      "complete_jobs": 114,
+      "not_started_jobs": 0,
+      "partial_jobs": 0,
+      "new_complete_physical_parameter_area": "1521/512",
+      "accepted_leaves": 180150,
+      "stages": 365,
+      "summed_integration_loop_wall_seconds_not_CPU_time": 6248.875126494069,
+      "maximum_complete_tile_component_radius_density": 3.7033658513255246e-05
+    },
+    "g": {
+      "planned_jobs": 108,
+      "complete_jobs": 108,
+      "not_started_jobs": 0,
+      "partial_jobs": 0,
+      "new_complete_physical_parameter_area": "191/64",
+      "accepted_leaves": 269548,
+      "stages": 494,
+      "summed_integration_loop_wall_seconds_not_CPU_time": 8825.776800311003,
+      "maximum_complete_tile_component_radius_density": 0.0001133698878390451
+    }
+  },
+  "job_count": 222,
+  "coordinator_runs": {
+    "RUN_0000_FIRST_EIGHT.json": {
+      "wall_seconds": 16.87,
+      "stages_this_run": 8,
+      "jobs": 8,
+      "complete": 8,
+      "partial": 0,
+      "new_complete_physical_area": {
+        "Q": "27/1024",
+        "g": "27/1024"
+      },
+      "failed": false,
+      "all_selected_complete": true
+    },
+    "RUN_0001.json": {
+      "wall_seconds": 917.51,
+      "stages_this_run": 318,
+      "jobs": 222,
+      "complete": 113,
+      "partial": 4,
+      "new_complete_physical_area": {
+        "Q": "1437/1024",
+        "g": "1489/1024"
+      },
+      "failed": false,
+      "all_selected_complete": false
+    },
+    "RUN_0002.json": {
+      "wall_seconds": 919.25,
+      "stages_this_run": 301,
+      "jobs": 222,
+      "complete": 183,
+      "partial": 4,
+      "new_complete_physical_area": {
+        "Q": "609/256",
+        "g": "155/64"
+      },
+      "failed": false,
+      "all_selected_complete": false
+    },
+    "RUN_0003.json": {
+      "wall_seconds": 781.52,
+      "stages_this_run": 232,
+      "jobs": 222,
+      "complete": 222,
+      "partial": 0,
+      "new_complete_physical_area": {
+        "Q": "1521/512",
+        "g": "191/64"
+      },
+      "failed": false,
+      "all_selected_complete": true
+    }
+  }
+}

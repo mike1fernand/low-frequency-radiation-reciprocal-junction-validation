@@ -1,0 +1,110 @@
+{
+  "scope": "Finite sampled evidence; no frequency-continuous or whole-box certificate. Observed method differences are not rigorous error bounds.",
+  "samples": 2123,
+  "frequencies": [
+    1.1,
+    1.1125,
+    1.125,
+    1.15,
+    1.175,
+    1.2,
+    1.225,
+    1.2375,
+    1.25,
+    1.275,
+    1.3
+  ],
+  "couplings_per_frequency": 193,
+  "minimum_surface": {
+    "shell_grid": 128,
+    "PV_order": 256,
+    "setting": "corner_0",
+    "omega": 1.3,
+    "g": [
+      0.095,
+      0.19,
+      0.19,
+      0.19,
+      0.19,
+      0.095
+    ],
+    "Rq": 0.003519304990677575,
+    "Tline": 0.8852483597080889,
+    "TqT": 0.10255362732434635,
+    "TqL": 0.008678707976886454,
+    "closure": 7.771561172376096e-16,
+    "modal_residual": 1.3877787807814457e-17
+  },
+  "independent_samples": 579,
+  "minimum_tetra": {
+    "setting": "corner_0",
+    "g": [
+      0.095,
+      0.19,
+      0.19,
+      0.19,
+      0.19,
+      0.095
+    ],
+    "omega": 1.3,
+    "Rq_amplitude": 0.0035158142121617247,
+    "Rq_flux": 0.0035158142121616553,
+    "Tq": 0.8854492079870737,
+    "Tbulk": 0.11103497780076463,
+    "T_branches": [
+      0.04804283683174906,
+      0.05434746607695342,
+      0.00864467489206216
+    ],
+    "TL_modal": 0.00864467489206216,
+    "TT_modal": 0.10239030290870248,
+    "TL_projector": 0.00867513657784502,
+    "TT_projector": 0.1023598412229196,
+    "branch_longitudinal_powers": [
+      1.9947851414036225e-05,
+      1.1127099518185304e-05,
+      0.0086440616269128
+    ],
+    "branch_transverse_powers": [
+      0.04802288898033502,
+      0.054336338977435235,
+      6.132651493608032e-07
+    ],
+    "branch_longitudinal_fractions": [
+      0.0004152096905496161,
+      0.00020473998736996978,
+      0.999929058621982
+    ],
+    "closure_amplitude": 0.0,
+    "closure_flux": 0.0,
+    "component_closure_modal": 1.3877787807814457e-17,
+    "component_closure_projector": 0.0,
+    "min_gamma_bulk_eigenvalue": 1.4233490887903158e-06,
+    "reciprocity_matrix_residual": 3.041533562631803e-16
+  },
+  "max_surface_closure": 1.5543122344752192e-15,
+  "max_independent_closure": 1.887379141862766e-15,
+  "comparisons": [
+    {
+      "omega": 1.1125,
+      "setting": "all factors 0.95",
+      "surface_N128": 0.12646697293671486,
+      "tetra_N64": 0.1262803054473649,
+      "absolute_method_difference": 0.00018666748934995092
+    },
+    {
+      "omega": 1.2375,
+      "setting": "all factors 0.95",
+      "surface_N128": 0.10785498705680746,
+      "tetra_N64": 0.10763143596172671,
+      "absolute_method_difference": 0.00022355109508075122
+    },
+    {
+      "omega": 1.3,
+      "setting": "all factors 0.95",
+      "surface_N128": 0.10255362732434635,
+      "tetra_N64": 0.10239030290870248,
+      "absolute_method_difference": 0.0001633244156438729
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "omega": 1.2,
+  "method": "existing N192 basis-invariant marching-surface spectrum and M256 mean two scrambled Sobol23 PV; no new quadrature",
+  "source_basis": "X1,R1,...,X6,R6; leading12 of archived20 for ten available segments",
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "kernel_metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+  "module_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+  },
+  "tolerances": {
+    "matrix_absolute": 1e-12,
+    "reference_absolute": 1e-11,
+    "flux_absolute": 1e-09
+  },
+  "matrix_checks": {
+    "G_reciprocity_max_abs": 0.0,
+    "PV_hermiticity_max_abs": 0.0,
+    "branch_hermiticity_max_abs": 0.0,
+    "spectral_branch_sum_max_abs": 5.551115123125783e-17,
+    "G_imaginary_spectral_sum_max_abs": 5.551115123125783e-17,
+    "qT_key_sum_max_abs": 0.0,
+    "qL_key_max_abs": 0.0,
+    "PV_key_max_abs": 0.0,
+    "branch_min_eigenvalues": [
+      4.008084865114592e-09,
+      5.002883607800443e-09,
+      6.725331519047624e-11
+    ]
+  },
+  "states": [
+    {
+      "name": "reference",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "sum_g": 1.0,
+      "physical_total_spring_stiffness": 8.0,
+      "active_motifs": 6,
+      "active_springs": 48,
+      "peak_g": 0.2,
+      "Rq": 0.0035721492712359353,
+      "Tline": 0.8597459585275878,
+      "TqT": 0.1256592553919632,
+      "TqL": 0.011022636796258718,
+      "Tbulk": 0.13668189218822194,
+      "bulk_qT_share": 0.9193555443241913,
+      "flux_closure_abs": 1.2954304295931252e-11,
+      "source_vs_selfenergy_bulk_residual": 5.551115123125783e-17,
+      "gamma_in": 2.7678150227185907,
+      "P_inc_unit_displacement": 0.8303445068155771,
+      "solver_result": {
+        "omega": 1.2,
+        "Rq": 0.0035721492712359353,
+        "Tq": 0.8597459585275878,
+        "Tbulk": 0.13668189218822188,
+        "closure_error": 1.2954304295931252e-11,
+        "min_gamma_bulk_eigenvalue": 7.66551214744589e-07
+      },
+      "unit_incident_power_vs_dispersion_abs": 7.200906537718765e-13,
+      "reference_regression_abs": {
+        "Rq": 1.691355389077387e-17,
+        "Tline": 0.0,
+        "Tbulk": 2.7755575615628914e-17,
+        "TqT": 2.7755575615628914e-17,
+        "TqL": 0.0
+      }
+    },
+    {
+      "name": "endpoint_only",
+      "g": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "sum_g": 1.0,
+      "physical_total_spring_stiffness": 8.0,
+      "active_motifs": 2,
+      "active_springs": 16,
+      "peak_g": 0.5,
+      "Rq": 0.05506484256583626,
+      "Tline": 0.7618639412668499,
+      "TqT": 0.1585772967982793,
+      "TqL": 0.02449391935545824,
+      "Tbulk": 0.18307121615373756,
+      "bulk_qT_share": 0.8662055135150847,
+      "flux_closure_abs": 1.3576362256628727e-11,
+      "source_vs_selfenergy_bulk_residual": 0.0,
+      "gamma_in": 2.7678150227185907,
+      "P_inc_unit_displacement": 0.8303445068155771,
+      "solver_result": {
+        "omega": 1.2,
+        "Rq": 0.05506484256583626,
+        "Tq": 0.7618639412668499,
+        "Tbulk": 0.18307121615373756,
+        "closure_error": 1.3576362256628727e-11,
+        "min_gamma_bulk_eigenvalue": -1.914359973655956e-18
+      },
+      "unit_incident_power_vs_dispersion_abs": 7.200906537718765e-13
+    }
+  ],
+  "differences": {
+    "TqT_endpoint_minus_reference": 0.0329180414063161,
+    "bulk_qT_share_endpoint_minus_reference": -0.05315003080910663,
+    "TqT_relative_increase": 0.2619627285203652,
+    "TqL_relative_increase": 1.2221470060386928
+  },
+  "direction_survives": true,
+  "accuracy_scope": "Approximate selected-kernel point results. Internal consistency and reference regression; no endpoint-specific exact-lattice error enclosure or statistical95percent confidence.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "seconds": 0.0017496910004410893
+  }
+}

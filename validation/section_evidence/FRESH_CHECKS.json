@@ -1,0 +1,150 @@
+{
+  "audit_date": "2026-11-11",
+  "scope": "Same-host replay and comparison of the listed observables.",
+  "shell_and_core": {
+    "P04_CORE_CHECKS": {
+      "status": "passed",
+      "byte_identical_to_archived": true
+    },
+    "P04_SHELL_BRANCH_0": {
+      "status": "passed",
+      "byte_identical_to_archived": true
+    },
+    "P04_SHELL_BRANCH_1": {
+      "status": "passed",
+      "byte_identical_to_archived": true
+    },
+    "P04_SHELL_BRANCH_2": {
+      "status": "passed",
+      "byte_identical_to_archived": true
+    },
+    "P04_FRESH_AUDIT_RESULTS": {
+      "status": "passed",
+      "byte_identical_to_archived": true
+    }
+  },
+  "source_forces": {
+    "byte_identical_to_archived": true,
+    "cases": 5000,
+    "five_point_step_factor": 0.01,
+    "max_scale_aware_error": 4.204130575684652e-14
+  },
+  "packet_crosscheck": {
+    "status": "PASS",
+    "samples": 10,
+    "times": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "maximum_absolute_difference": 2.825564047502013e-15,
+    "maximum_by_field": {
+      "T_current": 6.38378239159465e-16,
+      "T_coupling": 7.28583859910259e-17,
+      "T_bulk_open": 7.216449660063518e-16,
+      "current": 9.702254191029658e-17,
+      "historical_shell": 1.8908485888147197e-16,
+      "drift": 2.825564047502013e-15
+    },
+    "historical_reproduction_cap": 2.83e-15
+  },
+  "ramp_packet": {
+    "comparisons": [
+      {
+        "case": "candidate_dt004_box80",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      },
+      {
+        "case": "control_dt002_box80",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      },
+      {
+        "case": "control_dt004_box96",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      }
+    ],
+    "cadence_note": "The current analyzer includes the final cadence endpoint; legacy secondary common-mean fields are superseded.",
+    "raw_files_verified": 33,
+    "total_verified_raw_bytes": 2919333072,
+    "every_sha256_matches_original": true,
+    "source_unchanged_after_replay": true
+  },
+  "python_checkpoint": {
+    "dt": 0.04,
+    "full_equals_segmented": true,
+    "geometry": [
+      40,
+      12,
+      12
+    ],
+    "maximum_absolute_numeric_difference": 0.0,
+    "snapshots": 3,
+    "tmax": 10.0,
+    "trace_points": 10,
+    "identical_output_bytes_to_v32": true,
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  },
+  "new_python_vs_new_cpp": {
+    "status": "PASS",
+    "samples": 10,
+    "times": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "maximum_absolute_difference": 2.825564047502013e-15,
+    "maximum_by_field": {
+      "T_current": 6.38378239159465e-16,
+      "T_coupling": 7.28583859910259e-17,
+      "T_bulk_open": 7.216449660063518e-16,
+      "current": 9.702254191029658e-17,
+      "historical_shell": 1.8908485888147197e-16,
+      "drift": 2.825564047502013e-15
+    },
+    "historical_reproduction_cap": 2.83e-15
+  },
+  "python_reference_replay": {
+    "finite_geometry": [
+      120,
+      56,
+      56
+    ],
+    "dt": 0.04,
+    "steps": 1425,
+    "trace_rows": 285,
+    "trace_cadence": 0.2,
+    "trace_values_equal_to_archived": true,
+    "snapshot_interval": [
+      48,
+      57
+    ],
+    "snapshot_cadence": 1,
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0",
+    "scope": "Trace and six cross-language scalar fields. Modal-field representation changed in the producer retained in v32."
+  }
+}

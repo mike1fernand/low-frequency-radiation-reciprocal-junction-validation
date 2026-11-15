@@ -1,0 +1,118 @@
+{
+  "release": "Paper 1 validation documentation and packaging update",
+  "date": "2026-11-15",
+  "scientific_snapshot": "2026-11-13",
+  "zip_name": "P1_validation_2026-11-15.zip",
+  "outer_folder": "p1val",
+  "baseline": {
+    "zip_name": "Paper1_Wave_Motion_Validation_Repository_2026-11-13.zip",
+    "sha256": "4f5b087d675f1b97087d810bda1880bf0ccb3a95508678d88f90701ff467ed24",
+    "regular_files": 2130
+  },
+  "scope": "Documentation and delivery wrapper only. No scientific code, data, inputs, outputs, manuscript sources, figures, requirements, proof capsule, Git configuration or workflow was changed.",
+  "original_files_removed": [],
+  "internal_original_files_renamed": [],
+  "original_files_retained": 2130,
+  "original_files_unchanged": 2118,
+  "edited_guidance": [
+    {
+      "path": "README.md",
+      "before_sha256": "c52dc1b0081839f03a609fef42e46a7e7524b0e6b206d6341b1066e90a4ae565",
+      "after_sha256": "0a544871d442f55866e1e63c789baa0d61c50504a563d09d95af452e2b5163f6",
+      "original_copy": "docs/history/2026-11-13/README.md"
+    },
+    {
+      "path": "RUNNING_VALIDATIONS.md",
+      "before_sha256": "8972ebb3a7a9e390d5889b91a62118c22848831e2630d8de00c6688e9c8be99b",
+      "after_sha256": "b393e5cc0039b59ced6d436f3929ef5b8c97a7c0be96b5a6ecda4966955bc7a2",
+      "original_copy": "docs/history/2026-11-13/RUNNING_VALIDATIONS.md"
+    },
+    {
+      "path": "EVIDENCE_BY_SECTION.md",
+      "before_sha256": "9a823a40c93580695cccc4e2fe11bbe87ecc08b62106c07a17fba841d7e616a1",
+      "after_sha256": "30b6de377484cf0932b899bb5e9bf971e53121d4781432a5956b2387ce6eaf52",
+      "original_copy": "docs/history/2026-11-13/EVIDENCE_BY_SECTION.md"
+    },
+    {
+      "path": "manuscript/README.md",
+      "before_sha256": "eaef9e0bea441a0658029ca1b0702b88a74443e9528010a25d4a606d53d99838",
+      "after_sha256": "00c5577fceef84ed6db303c3ba9559dd866528fd3b3ab416cf38edfd4ede873b",
+      "original_copy": "docs/history/2026-11-13/manuscript/README.md"
+    },
+    {
+      "path": "validation/artwork/README.md",
+      "before_sha256": "70741af00f2d1ca937cc7a1c3f3b8809cf5550d29d13ddb1bdcef09586c2cdf6",
+      "after_sha256": "8f70bdbe56a9fbece3e59739ee8572991c8bd8f4fdd4c622c1d17a53d9085596",
+      "original_copy": "docs/history/2026-11-13/validation/artwork/README.md"
+    },
+    {
+      "path": "validation/artwork/low_frequency_ratio/README.md",
+      "before_sha256": "aa3a07e2b55e19bc9bcab70e7c8e787f0dad388fd6b4b676de1a011bd7ce5df9",
+      "after_sha256": "d962b7ca32c8925c9d172f4e0e4f2b828dc5a524a0e10b4fb24186d885fe8c36",
+      "original_copy": "docs/history/2026-11-13/validation/artwork/low_frequency_ratio/README.md"
+    },
+    {
+      "path": "validation/referee_checks/README.md",
+      "before_sha256": "7e8c93657e9af52da3317e68aacbf76c199c768456821bad658d7b23e255a12b",
+      "after_sha256": "f30468903172df9b37c1211c91b2806647c09f4158ddb994fcadf19ded237f49",
+      "original_copy": "docs/history/2026-11-13/validation/referee_checks/README.md"
+    },
+    {
+      "path": "validation/reference/README.md",
+      "before_sha256": "6fc8bf37a034ab99762ec1f38b2e988e526b4bf327a4551938d84f0c148c843b",
+      "after_sha256": "7142eae89e263523d1b56aae4fcfec3bcb78fc03ecc288e6a6c4e63a9e15229b",
+      "original_copy": "docs/history/2026-11-13/validation/reference/README.md"
+    },
+    {
+      "path": "validation/reference/checks/sm2_replay/README.md",
+      "before_sha256": "76295a72da9a4d6d79fa52c0b17c7bd8e1d0775c2f5bfbb1bd66bfeabe05d52d",
+      "after_sha256": "3f19d999e6b929fd2e43644878845e4717716b91bdfc045ccc82f33b92ed00d4",
+      "original_copy": "docs/history/2026-11-13/validation/reference/checks/sm2_replay/README.md"
+    }
+  ],
+  "refreshed_inventories": [
+    {
+      "path": "REPOSITORY_SHA256SUMS.json",
+      "before_sha256": "00b42e4f79902ed4e4bbfd70d06792d0c37c97b8ea87ac3d4d79483ae1e0e6d8",
+      "original_copy": "docs/history/2026-11-13/REPOSITORY_SHA256SUMS.json"
+    },
+    {
+      "path": "validation/reference/PACKAGE_SHA256SUMS.json",
+      "before_sha256": "c6a482c876d66abd43bc29454dbe7743c09a8bcea3ce0a4092f8e5897bde62ab",
+      "original_copy": "docs/history/2026-11-13/validation/reference/PACKAGE_SHA256SUMS.json"
+    },
+    {
+      "path": "manuscript/SHA256SUMS.txt",
+      "before_sha256": "7e2e5b7da5e65407b5c253d96981ae39f2452b68dd31d4513572200fc1f64e6a",
+      "original_copy": "docs/history/2026-11-13/manuscript/SHA256SUMS.txt"
+    }
+  ],
+  "inventory_explanation": "Subordinate manifests were refreshed only for the edited README files. The root manifest covers every current regular file except itself, including this record and the retained originals. Its current hash is intentionally not embedded here, which would create a circular hash dependency.",
+  "additions": [
+    "DOCUMENTATION_REVIEW.md",
+    "DOCUMENTATION_UPDATE.json",
+    "GITHUB_GUIDE.md",
+    "README_INDEX.md",
+    "WINDOWS_GUIDE.md",
+    "docs/history/2026-11-13/EVIDENCE_BY_SECTION.md",
+    "docs/history/2026-11-13/README.md",
+    "docs/history/2026-11-13/REPOSITORY_SHA256SUMS.json",
+    "docs/history/2026-11-13/RUNNING_VALIDATIONS.md",
+    "docs/history/2026-11-13/manuscript/README.md",
+    "docs/history/2026-11-13/manuscript/SHA256SUMS.txt",
+    "docs/history/2026-11-13/validation/artwork/README.md",
+    "docs/history/2026-11-13/validation/artwork/low_frequency_ratio/README.md",
+    "docs/history/2026-11-13/validation/referee_checks/README.md",
+    "docs/history/2026-11-13/validation/reference/PACKAGE_SHA256SUMS.json",
+    "docs/history/2026-11-13/validation/reference/README.md",
+    "docs/history/2026-11-13/validation/reference/checks/sm2_replay/README.md"
+  ],
+  "preservation": "Each edited original and refreshed original inventory is retained byte for byte at original_copy. Other original files retain their exact relative paths and bytes.",
+  "readme_scope": "All 27 inherited READMEs were reviewed; 9 guidance files were edited, including 7 README files and 2 root run/evidence guides. Historical/third-party/proof-capsule instructions were preserved and indexed.",
+  "windows_path_check": {
+    "destination": "C:\\p1",
+    "repository_root": "C:\\p1\\p1val",
+    "method": "Static filename/collision/full-path audit; no native Windows execution."
+  },
+  "verification_report": "DOCUMENTATION_REVIEW.md"
+}

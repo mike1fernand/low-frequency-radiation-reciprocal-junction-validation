@@ -1,0 +1,432 @@
+{
+  "core": {
+    "checks": {
+      "C4v_projector": true,
+      "D_identity": true,
+      "U2_scope": true,
+      "aperture_formula": true,
+      "exact_reduction": true,
+      "fixed_kappa_ranges": true,
+      "line_carrier": true,
+      "long_wave_order4": true,
+      "off_symmetry_control": true,
+      "outside_core_positive_control": true,
+      "polynomial_projector": true,
+      "projector_counterexample": true,
+      "single_shell_root_census": true,
+      "source_nodal_identity": true,
+      "speed_limit": true
+    },
+    "metrics": {
+      "C4v": {
+        "closure": 0.0,
+        "group_vs_XR": 2.220446049250313e-16,
+        "idempotence": 0.0,
+        "rank": 2,
+        "unitarity": 0.0
+      },
+      "D_closed_vs_bond_max_fro": 5.656964906726779e-15,
+      "U2": {
+        "covariant_scalar_max_change": 2.4868995751603507e-14,
+        "fixed_unequal_weight_max_change": 12.999376469977356,
+        "projector_max_change": 1.7676160238887283e-15
+      },
+      "aperture": {
+        "amplitude_FWHM_delta_k_a": 1.4720693340554751,
+        "analytic_max_abs_error": 6.973588373426765e-16,
+        "central_null_to_null_width_delta_k_a": 2.5132741228718345,
+        "first_positive_null_delta_k_a": 1.2566370614359172,
+        "interaction_length_over_lambda": 0.9162142083460427,
+        "midpoint_extent_over_lambda": 0.7635118402883689,
+        "power_FWHM_delta_k_a": 1.0759011297480607
+      },
+      "fixed_kappa_ranges": [
+        {
+          "branch": 0,
+          "max": 2.6735611072247933,
+          "max_kperp": [
+            3.1415926535867302,
+            3.1415926535793806
+          ],
+          "max_optimizer_success": true,
+          "min": 0.9230769230770627,
+          "min_kperp": [
+            6.774209977166054e-08,
+            5.17990518906599e-07
+          ],
+          "min_optimizer_success": true
+        },
+        {
+          "branch": 1,
+          "max": 2.8284271247461152,
+          "max_kperp": [
+            -3.141592653492819,
+            2.1821347668733164
+          ],
+          "max_optimizer_success": true,
+          "min": 0.9230769230770125,
+          "min_kperp": [
+            -2.4184294307920243e-07,
+            2.7840159235853164e-07
+          ],
+          "min_optimizer_success": true
+        },
+        {
+          "branch": 2,
+          "max": 3.3388514483399883,
+          "max_kperp": [
+            5.645327198528701e-07,
+            3.141592178816213
+          ],
+          "max_optimizer_success": true,
+          "min": 1.598816130064196,
+          "min_kperp": [
+            -9.107031618417209e-07,
+            -2.9885758080253643e-07
+          ],
+          "min_optimizer_success": true
+        }
+      ],
+      "line": {
+        "kappa_a": 0.9594572753515053,
+        "lambda_over_a": 6.548686917692805,
+        "vg_over_cT": 1.1532562594670797,
+        "vphase_over_cT": 1.2507070724544456
+      },
+      "long_wave_slope": 3.9986978744202473,
+      "off_symmetry_complement_norms": [
+        0.8660254037844386,
+        0.9354143466934853,
+        0.9354143466934853,
+        0.9354143466934853,
+        0.9354143466934853
+      ],
+      "outside_core": {
+        "R": {
+          "core_norm": 7.999999999999998,
+          "outside_fraction": 0.25630729731502827,
+          "outside_norm": 2.121320343559642,
+          "outside_sites": 36
+        },
+        "X": {
+          "core_norm": 6.0,
+          "outside_fraction": 0.48377944684689667,
+          "outside_norm": 3.3166247903553994,
+          "outside_sites": 24
+        }
+      },
+      "polynomial_projector": {
+        "max_error_all_sampled_BZ": 2.2346969999532005e-12,
+        "max_error_gap_above_0p3": 4.6992427049860946e-14,
+        "max_hermiticity": 1.3345785898812087e-15,
+        "max_idempotence": 2.0369455423216778e-12,
+        "mean_error_all_sampled_BZ": 2.218381789235541e-15,
+        "mean_error_gap_above_0p3": 1.5447902209372338e-15,
+        "samples": 20000
+      },
+      "projector_overlap_counterexample": {
+        "PT_norm_sq": 1.0,
+        "lower_split": 0.00460873308937404,
+        "resonant_branch0_overlap_sq": 1.4573952573264018e-32
+      },
+      "reduction": {
+        "24": {
+          "G_commutator": 7.881304448218189e-17,
+          "G_leak": 1.596785532240107e-16,
+          "U_leak": 1.9997524858506222e-16,
+          "V_leak": 2.170178819273686e-16,
+          "direct_source_rank": 7,
+          "effective_self_energy_max": 6.530477343845815e-16,
+          "full_reduced_field_max": 6.892511352564595e-16,
+          "krylov_rank": 12,
+          "krylov_smallest_retained_singular_value": 0.00016534568001635536,
+          "orth": 2.7194799110210365e-16
+        },
+        "32": {
+          "G_commutator": 6.681108311925377e-17,
+          "G_leak": 1.2548045204039984e-16,
+          "U_leak": 1.9997524858506222e-16,
+          "V_leak": 2.170178819273686e-16,
+          "direct_source_rank": 7,
+          "effective_self_energy_max": 4.47675168733873e-16,
+          "full_reduced_field_max": 4.844960803973112e-16,
+          "krylov_rank": 12,
+          "krylov_smallest_retained_singular_value": 0.0001517416369163345,
+          "orth": 2.7194799110210365e-16
+        }
+      },
+      "root_census": {
+        "0": {
+          "directions": 1200,
+          "max": 1,
+          "min": 1
+        },
+        "1": {
+          "directions": 1200,
+          "max": 1,
+          "min": 1
+        },
+        "2": {
+          "directions": 1200,
+          "max": 1,
+          "min": 1
+        }
+      },
+      "source_nodal_identity_max": 3.3306690738754696e-16,
+      "speed_samples": [
+        [
+          0.9999999919128841,
+          1.0000000017220294,
+          1.7320508024716883
+        ],
+        [
+          0.9999999991444503,
+          1.0000000006047842,
+          1.7320508037489895
+        ],
+        [
+          0.999999988699477,
+          0.9999999934416093,
+          1.7320507842373338
+        ],
+        [
+          0.9999999559232627,
+          0.9999999734467042,
+          1.7320507138774082
+        ]
+      ]
+    },
+    "producer_contract": {
+      "contains_timestamps": false,
+      "deterministic_inputs": true,
+      "external_reproduction_claim": false,
+      "fixed_random_seed": 20260813
+    },
+    "schema": "paper1.p04.core-checks.v1",
+    "status": "passed",
+    "summary": {
+      "passed": 15,
+      "total": 15
+    }
+  },
+  "parts": [
+    {
+      "file": "P04_CORE_CHECKS.json",
+      "sha256": "86359e184226e4602d5d337835a6f96643a5f7b6642c4f76512ad833e3c4b7ab",
+      "status": "passed"
+    },
+    {
+      "file": "P04_SHELL_BRANCH_0.json",
+      "sha256": "9165d27d518a65200b4c9cf971f7dfbc2179aaad824fab2f8c18da96b7ca9e9a",
+      "status": "passed"
+    },
+    {
+      "file": "P04_SHELL_BRANCH_1.json",
+      "sha256": "68e6775baec740e6119e03d465b4eedca48d163e6b4c2c3d6f4fa79e0daa7d32",
+      "status": "passed"
+    },
+    {
+      "file": "P04_SHELL_BRANCH_2.json",
+      "sha256": "25f2710f5fd26e7418b26018cdcc35792ce47a184b240940057c853d6c0f8487",
+      "status": "passed"
+    }
+  ],
+  "schema": "paper1.p04.bulk-modes-symmetry-audit.v1",
+  "shells": [
+    {
+      "branch": 0,
+      "checks": {
+        "cluster_bound": true,
+        "optimization_success": true,
+        "regular_positive_witness": true,
+        "shell_residual": true
+      },
+      "producer_contract": {
+        "contains_timestamps": false,
+        "deterministic_inputs": true,
+        "external_reproduction_claim": false,
+        "fixed_random_seeds": [
+          20260813,
+          20260814
+        ]
+      },
+      "results": {
+        "cluster_leak": {
+          "cluster_leak": 0.0012457547129255796,
+          "gap": 2.6074748064495603,
+          "group_speed": 0.858101211869307,
+          "k": [
+            -0.48189450727173816,
+            -0.020395647682044785,
+            -1.1683007264461631
+          ],
+          "nfev": 1251,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.0006130733317531512,
+          "raw_objective": -0.0012457547129255796,
+          "shell_residual": 1.5543122344752192e-15,
+          "success": true
+        },
+        "own": {
+          "cluster_leak": 0.0006539941966273114,
+          "gap": 2.5415069989262493,
+          "group_speed": 0.8481219382399723,
+          "k": [
+            -0.361191909922637,
+            0.859486967821107,
+            -0.8594873412458498
+          ],
+          "nfev": 2147,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.000653994196626428,
+          "raw_objective": -0.000653994196626428,
+          "shell_residual": -6.661338147750939e-16,
+          "success": true
+        }
+      },
+      "schema": "paper1.p04.shell-check.v1",
+      "status": "passed",
+      "witness": {
+        "full_normalized_overlap": 0.22783802420180013,
+        "full_overlap_sq": 1.1517784120579229,
+        "group_speed": 0.8942760758684599,
+        "k": [
+          1.022121111600022,
+          0.7119903394245296,
+          -0.020431525569168604
+        ],
+        "lower_gap": 0.005962890667742027,
+        "radial_normalized_overlap": 0.3251938124543027,
+        "radial_overlap_sq": 0.05934737605779648,
+        "shell_residual": 2.6423307986078726e-14,
+        "source_definition": "complete bare finite-slab X+R line-driven source; radial component also reported",
+        "upper_gap": 2.418429822634147
+      }
+    },
+    {
+      "branch": 1,
+      "checks": {
+        "cluster_bound": true,
+        "optimization_success": true,
+        "regular_positive_witness": true,
+        "shell_residual": true
+      },
+      "producer_contract": {
+        "contains_timestamps": false,
+        "deterministic_inputs": true,
+        "external_reproduction_claim": false,
+        "fixed_random_seeds": [
+          20260823,
+          20260824
+        ]
+      },
+      "results": {
+        "cluster_leak": {
+          "cluster_leak": 0.0012410455173473825,
+          "gap": 2.6044770814379365,
+          "group_speed": 0.8628957313285921,
+          "k": [
+            0.4812590760164384,
+            1.2584590335629618e-11,
+            -1.1662658302397382
+          ],
+          "nfev": 3427,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.0006206653112889122,
+          "raw_objective": -0.0012410455173473825,
+          "shell_residual": 4.440892098500626e-16,
+          "success": true
+        },
+        "own": {
+          "cluster_leak": 0.0006535746015998157,
+          "gap": 2.629864870096247,
+          "group_speed": 0.8747528060395644,
+          "k": [
+            0.2511793649035769,
+            0.2511796086201531,
+            -1.2042049246290971
+          ],
+          "nfev": 1923,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.0006535746015997702,
+          "raw_objective": -0.0006535746015997702,
+          "shell_residual": 6.661338147750939e-16,
+          "success": true
+        }
+      },
+      "schema": "paper1.p04.shell-check.v1",
+      "status": "passed",
+      "witness": {
+        "full_normalized_overlap": 0.7298074130954296,
+        "full_overlap_sq": 3.4958464021204416,
+        "group_speed": 0.8957746536880795,
+        "k": [
+          0.8807183236959493,
+          0.21703145119419856,
+          -0.8514466270114215
+        ],
+        "lower_gap": 0.015966688729755374,
+        "radial_normalized_overlap": 0.49862466186805227,
+        "radial_overlap_sq": 0.13279010258875695,
+        "shell_residual": 6.661338147750939e-16,
+        "source_definition": "complete bare finite-slab X+R line-driven source; radial component also reported",
+        "upper_gap": 2.4136860886672995
+      }
+    },
+    {
+      "branch": 2,
+      "checks": {
+        "optimization_success": true,
+        "purity_and_gap": true,
+        "shell_residual": true
+      },
+      "producer_contract": {
+        "contains_timestamps": false,
+        "deterministic_inputs": true,
+        "external_reproduction_claim": false,
+        "fixed_random_seeds": [
+          20260833,
+          20260834
+        ]
+      },
+      "results": {
+        "gap": {
+          "cluster_leak": 5.3367035077787044e-14,
+          "gap": 0.9390908339491106,
+          "group_speed": 1.570067972774161,
+          "k": [
+            -0.5058324561980616,
+            3.518727119722841e-07,
+            -0.5058271489997564
+          ],
+          "nfev": 1123,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.9999999999999465,
+          "raw_objective": 0.9390908339491106,
+          "shell_residual": 0.0,
+          "success": true
+        },
+        "own": {
+          "cluster_leak": 0.00011550596643418829,
+          "gap": 0.9495434600274746,
+          "group_speed": 1.5976508314121576,
+          "k": [
+            0.2758540923852297,
+            0.6557692564538916,
+            1.3036794146942407e-05
+          ],
+          "nfev": 1187,
+          "optimizer_message": "Optimization terminated successfully.",
+          "own": 0.9998844940335657,
+          "raw_objective": 0.9998844940335657,
+          "shell_residual": 1.887379141862766e-14,
+          "success": true
+        }
+      },
+      "schema": "paper1.p04.shell-check.v1",
+      "status": "passed",
+      "witness": null
+    }
+  ],
+  "status": "passed"
+}

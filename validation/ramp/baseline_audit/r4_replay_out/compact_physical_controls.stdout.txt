@@ -1,0 +1,1 @@
+{"status": "passed", "check_count": 29, "fresh_compact_bytes": 24357, "old_reference_bytes": 3220497}

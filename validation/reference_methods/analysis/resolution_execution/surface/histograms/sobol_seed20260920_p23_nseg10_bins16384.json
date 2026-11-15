@@ -1,0 +1,30 @@
+{
+  "schema": "paper1.fresh-spectral-histogram.v1",
+  "sampler": "sobol",
+  "sample_count": 8388608,
+  "elapsed_seconds": 17.364376544952393,
+  "peak_RSS_KiB": 204336,
+  "metadata": {
+    "seed": 20260920,
+    "power": 23,
+    "nbins": 16384,
+    "energy_range": [
+      0.0,
+      12.0
+    ],
+    "nseg": 10,
+    "chunk": 65536,
+    "sequence": "SciPy scrambled Sobol random(65536), contiguous initial prefix",
+    "sample_sequence_sha256": "6f33ae5c9e99fa210a10b0e16a609ea71579eb0933133f93cfd28b7a020bd733",
+    "prefixes_are_nested_not_independent": true,
+    "resumed_from_count": 4194304,
+    "resumed_from_histogram_sha256": "cec0127a3cdef1fc1cb7a6447ae2940f4c299bedea35147c28948adf01697a7c"
+  },
+  "sum_rule_max_abs_error": 2.6980693862732173e-10,
+  "degenerate_pair_samples": 0,
+  "degenerate_pairs_split_across_bins": 0,
+  "histogram_file": "sobol_seed20260920_p23_nseg10_bins16384.npz",
+  "histogram_sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987",
+  "producer_sha256": "092006b8e5958b3ef6462f78e394af32ca4186d05184575923f60b1f6d8ad936",
+  "spectral_source_sha256": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+}

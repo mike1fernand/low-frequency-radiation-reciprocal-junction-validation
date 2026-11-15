@@ -1,0 +1,70 @@
+{
+  "branch": 0,
+  "checks": {
+    "cluster_bound": true,
+    "optimization_success": true,
+    "regular_positive_witness": true,
+    "shell_residual": true
+  },
+  "producer_contract": {
+    "contains_timestamps": false,
+    "deterministic_inputs": true,
+    "external_reproduction_claim": false,
+    "fixed_random_seeds": [
+      20260813,
+      20260814
+    ]
+  },
+  "results": {
+    "cluster_leak": {
+      "cluster_leak": 0.0012457547129255796,
+      "gap": 2.6074748064495603,
+      "group_speed": 0.858101211869307,
+      "k": [
+        -0.48189450727173816,
+        -0.020395647682044785,
+        -1.1683007264461631
+      ],
+      "nfev": 1251,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.0006130733317531512,
+      "raw_objective": -0.0012457547129255796,
+      "shell_residual": 1.5543122344752192e-15,
+      "success": true
+    },
+    "own": {
+      "cluster_leak": 0.0006539941966273114,
+      "gap": 2.5415069989262493,
+      "group_speed": 0.8481219382399723,
+      "k": [
+        -0.361191909922637,
+        0.859486967821107,
+        -0.8594873412458498
+      ],
+      "nfev": 2147,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.000653994196626428,
+      "raw_objective": -0.000653994196626428,
+      "shell_residual": -6.661338147750939e-16,
+      "success": true
+    }
+  },
+  "schema": "paper1.p04.shell-check.v1",
+  "status": "passed",
+  "witness": {
+    "full_normalized_overlap": 0.22783802420180013,
+    "full_overlap_sq": 1.1517784120579229,
+    "group_speed": 0.8942760758684599,
+    "k": [
+      1.022121111600022,
+      0.7119903394245296,
+      -0.020431525569168604
+    ],
+    "lower_gap": 0.005962890667742027,
+    "radial_normalized_overlap": 0.3251938124543027,
+    "radial_overlap_sq": 0.05934737605779648,
+    "shell_residual": 2.6423307986078726e-14,
+    "source_definition": "complete bare finite-slab X+R line-driven source; radial component also reported",
+    "upper_gap": 2.418429822634147
+  }
+}

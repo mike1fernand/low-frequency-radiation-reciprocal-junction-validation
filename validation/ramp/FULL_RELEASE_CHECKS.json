@@ -1,0 +1,106 @@
+{
+  "status": "PASS_FULL_RELEASE_REPLAY_CHECKS",
+  "date": "2026-11-08",
+  "scientific_results_modified": false,
+  "model_modified": false,
+  "original_archive_payloads_preserved": 1078,
+  "full_original_R4_regular_files": 683,
+  "proof_chain_bindings": 19,
+  "replay_modes": [
+    {
+      "name": "response_clean",
+      "receipt": "audits/cold_replay/response_clean/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 27.273848659999203,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "baseline_clean",
+      "receipt": "audits/cold_replay/baseline_clean/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 34.291228562997276,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "spectrum",
+      "receipt": "audits/cold_replay/spectrum/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 0.7627635959979671,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "guards",
+      "receipt": "audits/cold_replay/guards/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 1.657301651997841,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "report",
+      "receipt": "audits/cold_replay/report/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 2.437568960001954,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "quadrature",
+      "receipt": "audits/cold_replay/quadrature/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 4.994386186997872,
+      "frozen_repository_unchanged": true
+    },
+    {
+      "name": "packet_clean",
+      "receipt": "audits/cold_replay/packet_clean/REPLAY_RECEIPT.json",
+      "status": "PASS",
+      "wall_seconds": 103.75441902300008,
+      "frozen_repository_unchanged": true
+    }
+  ],
+  "integrity_tests": {
+    "test_methods": 16,
+    "status": "PASS",
+    "receipt": "audits/STRICT_INTEGRITY_TEST.json"
+  },
+  "runner_guard_tests": {
+    "controls": 11,
+    "status": "PASS",
+    "receipt": "audits/cold_replay/REPLAY_GUARD_TESTS_COLD.json"
+  },
+  "resume_guard_tests": {
+    "controls": 15,
+    "status": "PASS",
+    "receipt": "audits/cold_replay/guards/SAFE_RESUME_TESTS.json"
+  },
+  "report_text_rebuild": "PASS_IDENTICAL_TEXT_FOUR_PAGES",
+  "packet_main_and_two_control_mean_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "raw_replay_byte_comparison": "PASS",
+  "raw_replay_checked_files": 33,
+  "early_attempts_rejected_by_postcheck": [
+    {
+      "attempt": "response",
+      "status": "FAIL",
+      "error": "Post-replay frozen-repository check failed.",
+      "scientific_child_commands_all_exited_zero": true
+    },
+    {
+      "attempt": "baseline",
+      "status": "FAIL",
+      "error": "Post-replay frozen-repository check failed.",
+      "scientific_child_commands_all_exited_zero": true
+    },
+    {
+      "attempt": "packet",
+      "status": "FAIL",
+      "error": "Post-replay frozen-repository check failed.",
+      "scientific_child_commands_all_exited_zero": true
+    }
+  ],
+  "early_attempt_correction": "An unmanifested temporary copy file was removed; no original archive payload was removed or changed. Baseline, response and all three packet cases were rerun serially and passed pre/post integrity checks.",
+  "raw_delivery_scope": "RAW_DELIVERY_SCOPE.json",
+  "archive_scope": "This receipt covers source and replay checks before packaging. ZIP CRC, final extraction and split reassembly are checked separately at delivery; this manifest cannot contain its own ZIP hash."
+}

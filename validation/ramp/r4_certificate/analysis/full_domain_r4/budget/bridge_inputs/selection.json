@@ -1,0 +1,64 @@
+{
+  "schema": "paper1.fixed-kernel-selection.v1",
+  "status": "selected_for_fixed_kernel_certificate",
+  "revision": "basis_invariant_n192_sobol23_m256_v1",
+  "scope": "specified_computed_matrices_only",
+  "physical_parameters": {
+    "omega": "6/5",
+    "kstar": "169/100",
+    "profile": [
+      "1/10",
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/10"
+    ],
+    "relative_half_width": "1/20"
+  },
+  "numerical_reference": {
+    "method": "basis-invariant nodal surface plus fresh two-Sobol-ensemble Jackson PV",
+    "resolution": "N192;2x2^23 samples;16384 energy bins;M256",
+    "description": "M256 balances sample/order sensitivity at both pilot frequencies; higher orders increase scramble/shift spread. N192 is finest executed surface grid. No historical or direct-packet target was used to choose a value."
+  },
+  "decision": {
+    "numerical_convergence_assessment": "accepted_for_stated_precision",
+    "explanation": "Parent selected this numerical reference after the declared surface/PV/sampling checks; acceptance is numerical, not an exact-lattice enclosure. M256 balances sample/order sensitivity at both pilot frequencies; higher orders increase scramble/shift spread. N192 is finest executed surface grid. No historical or direct-packet target was used to choose a value."
+  },
+  "inputs": {
+    "surface": {
+      "path": "analysis/resolution_execution/certificate/canonical_selected/surface_selected_12.npz",
+      "sha256": "af6620513ca1e81def55d0ddcc1ddffdaa3d2f4a46d5c2cd3d0acf1f13e8c0bb"
+    },
+    "pv": {
+      "path": "analysis/resolution_execution/certificate/canonical_selected/pv_selected_20.npy",
+      "sha256": "ce45000dbd154d556c1cb2a967cc5992149bb2f0b8a98153d654c855b8280e24"
+    }
+  },
+  "evidence": [
+    {
+      "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+      "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/SPECTRAL_SUPPORT_EXTENSION_CHECK.json",
+      "sha256": "cfd1c7372585784cd6eb0d58d2239712c39ad7d2a9692498b2d4cc37d23d9002"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/P23_EXTENSION_CHECKS.json",
+      "sha256": "658941e006a67471eabc2d44c78369b1d9e26464fad55562a0b7347cc23328aa"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/SUPPORT_EXTENSION_CHECKS.json",
+      "sha256": "0b7e824e15d47ed38bb9e81252b574fd27c02f8d2a9b6c06f12d5eba7784da5d"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/REFINEMENT_RESULTS.json",
+      "sha256": "963fd539be4ec0d896ee4e759b8cf62397f68f2b56e7ccfac4c31748ad28054e"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/GRID_REFINEMENT_RESULTS.json",
+      "sha256": "00a1632172a472d829d1caf379fe6d71e4ca10f52371fcfb6a7e2e317668ebe9"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Exact time-average/force normalization; rounded published preprint coefficient conversion only. No simulation, full-space/half-space equivalence, independent half-space integral or novelty proof.",
+  "exact_T_over_Z_b_omega_squared": "4",
+  "exact_qT_multiplier_without_pi_rho_cubedspeed": "2/3",
+  "exact_qL_multiplier_without_pi_rho_cubedspeed": "1/3",
+  "CG_preprint_p": 0.694,
+  "CG_c0_squared_over_ct_squared": 2.070853685826948,
+  "CG_rounded_1_91_bk_squared_converted_to_bomega_over_ct_squared": 0.9223249392615998,
+  "CG_printed_rounded_value": 0.923,
+  "source_sha256": "29b6a82c696305484a4e58230b0937d4a61b47e038de3b7974a05f1c485239f6"
+}

@@ -1,0 +1,6583 @@
+{
+  "schema": "paper1-r4-campaign-v1",
+  "baseline": "../../output_r3/paper1-complete-domain-validation-r3",
+  "baseline_manifest_sha256": "57a8e39305db035e3e9709783b75603723c6946c41eb23f6b1cf7a4dae81c67f",
+  "inherited_evidence": [
+    {
+      "path": "provenance/r2/high_order/results/certified_axis_a2_c32_tol001.json",
+      "sha256": "e1c0140688e4616a833a381e84d17a718eb71104f738c000fbaf2e73fdd572f1",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "provenance/r2/high_order/results/certified_coordinate_plane_a2_c32_tol001.json",
+      "sha256": "f865bbd6c3580a2bb4edd1ca80e5a8944774b4c508b8b5078b0cf17ec3a87c11",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "7/16",
+        "1/2",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "provenance/r2/high_order/results/certified_coordinate_plane_a2_c32_tol001.json",
+      "sha256": "f865bbd6c3580a2bb4edd1ca80e5a8944774b4c508b8b5078b0cf17ec3a87c11",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "0",
+        "1/32",
+        "7/16",
+        "1/2"
+      ],
+      "transform": "swap_uv_chart0"
+    },
+    {
+      "path": "provenance/r2/high_order/results/certified_ordinary_merged.json",
+      "sha256": "033f8b5d52cd6d634514e6041fa86f936c3d4b37b086c229891233fa553bb9c7",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "3/8",
+        "7/16",
+        "5/8",
+        "11/16"
+      ]
+    },
+    {
+      "path": "provenance/r2/high_order/results/certified_ordinary_merged.json",
+      "sha256": "033f8b5d52cd6d634514e6041fa86f936c3d4b37b086c229891233fa553bb9c7",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "5/8",
+        "11/16",
+        "3/8",
+        "7/16"
+      ],
+      "transform": "swap_uv_chart0"
+    },
+    {
+      "path": "provenance/r2/high_order/results/certified_body_diagonal_merged.json",
+      "sha256": "aa3705ee5ad9d00f194a16e87205be3380d9e3baf82009fc383fdd9baf0e13e7",
+      "format": "r2_qt",
+      "kind": "Q",
+      "chart": 0,
+      "bounds": [
+        "31/32",
+        "1",
+        "31/32",
+        "1"
+      ]
+    },
+    {
+      "path": "provenance/r2/green/axis_a8_n256.json",
+      "sha256": "849cd142f91a4fe2db0ccffbe19ce7bcb273d1ec555d5978b8340bc32f2f5cab",
+      "format": "r2_green",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "provenance/r2/green/plane_a8_n256.json",
+      "sha256": "ce0b06bfe6f4cfbc5e5e74072083e4d3fdfe14f24ac9e052cf84800dd4085ed6",
+      "format": "r2_green",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "7/16",
+        "1/2",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "provenance/r2/green/plane_a8_n256.json",
+      "sha256": "ce0b06bfe6f4cfbc5e5e74072083e4d3fdfe14f24ac9e052cf84800dd4085ed6",
+      "format": "r2_green",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "0",
+        "1/32",
+        "7/16",
+        "1/2"
+      ],
+      "transform": "swap_uv_chart0"
+    },
+    {
+      "path": "provenance/r2/green/body_a8_n256.json",
+      "sha256": "1fcbf9f536ff196c9c18b0980501f133eabd3ba9e95876d0496c59944a386d7a",
+      "format": "r2_green",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "31/32",
+        "1",
+        "31/32",
+        "1"
+      ]
+    },
+    {
+      "path": "quadrature/green_chart0_ordinary_sharp.json",
+      "sha256": "4390557a09f5504f68c1d08977523a7ace018d43cd2389074f868ae600fea34f",
+      "format": "r3_tile_sharp",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "3/8",
+        "7/16",
+        "5/8",
+        "11/16"
+      ]
+    },
+    {
+      "path": "quadrature/green_chart0_ordinary_sharp.json",
+      "sha256": "4390557a09f5504f68c1d08977523a7ace018d43cd2389074f868ae600fea34f",
+      "format": "r3_tile_sharp",
+      "kind": "g",
+      "chart": 0,
+      "bounds": [
+        "5/8",
+        "11/16",
+        "3/8",
+        "7/16"
+      ],
+      "transform": "swap_uv_chart0"
+    },
+    {
+      "path": "quadrature/green_chart1_axis_sharp.json",
+      "sha256": "e78e6d0a3032f389f60fa479dcba554358d7e88082a1bfb24cb39db88036d6e4",
+      "format": "r3_tile_sharp",
+      "kind": "g",
+      "chart": 1,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "quadrature/green_chart1_axis_sharp.json",
+      "sha256": "e78e6d0a3032f389f60fa479dcba554358d7e88082a1bfb24cb39db88036d6e4",
+      "format": "r3_tile_sharp",
+      "kind": "g",
+      "chart": 2,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ],
+      "transform": "chart1_to_chart2"
+    },
+    {
+      "path": "quadrature/qt_chart1_axis_sharp_gl5.json",
+      "sha256": "c77d348d556822ea200c74382e7ca91128597a615dc5e62ce3eff8d6139e263a",
+      "format": "r3_tile_sharp",
+      "kind": "Q",
+      "chart": 1,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "quadrature/qt_chart1_axis_sharp_gl5.json",
+      "sha256": "c77d348d556822ea200c74382e7ca91128597a615dc5e62ce3eff8d6139e263a",
+      "format": "r3_tile_sharp",
+      "kind": "Q",
+      "chart": 2,
+      "bounds": [
+        "0",
+        "1/32",
+        "0",
+        "1/32"
+      ],
+      "transform": "chart1_to_chart2"
+    },
+    {
+      "path": "quadrature/qt_chart1_plane_sharp_gl5.json",
+      "sha256": "70e88d433740d017351008cc604fe33426a3b843d4dfbb54d53bac16a99fabed",
+      "format": "r3_tile_sharp",
+      "kind": "Q",
+      "chart": 1,
+      "bounds": [
+        "7/16",
+        "1/2",
+        "0",
+        "1/32"
+      ]
+    },
+    {
+      "path": "quadrature/qt_chart1_plane_sharp_gl5.json",
+      "sha256": "70e88d433740d017351008cc604fe33426a3b843d4dfbb54d53bac16a99fabed",
+      "format": "r3_tile_sharp",
+      "kind": "Q",
+      "chart": 2,
+      "bounds": [
+        "7/16",
+        "1/2",
+        "0",
+        "1/32"
+      ],
+      "transform": "chart1_to_chart2"
+    },
+    {
+      "path": "quadrature/qt_chart1_ordinary_preconditioned_gl5.json",
+      "sha256": "fef6db96ca50864896db277433d3636d30a0e01bb0cee80e11e7cb5d670cd066",
+      "format": "r3_tile_preconditioned",
+      "kind": "Q",
+      "chart": 1,
+      "bounds": [
+        "3/8",
+        "7/16",
+        "5/8",
+        "11/16"
+      ]
+    },
+    {
+      "path": "quadrature/qt_chart1_ordinary_preconditioned_gl5.json",
+      "sha256": "fef6db96ca50864896db277433d3636d30a0e01bb0cee80e11e7cb5d670cd066",
+      "format": "r3_tile_preconditioned",
+      "kind": "Q",
+      "chart": 2,
+      "bounds": [
+        "3/8",
+        "7/16",
+        "5/8",
+        "11/16"
+      ],
+      "transform": "chart1_to_chart2"
+    },
+    {
+      "path": "quadrature/qt_chart1_body_preconditioned_gl5.json",
+      "sha256": "2bca8a2d9c5f9f251999b2e23e425eaaa5ce909fa37d0ba9b596c178544591ea",
+      "format": "r3_tile_preconditioned",
+      "kind": "Q",
+      "chart": 1,
+      "bounds": [
+        "31/32",
+        "1",
+        "31/32",
+        "1"
+      ]
+    },
+    {
+      "path": "quadrature/qt_chart1_body_preconditioned_gl5.json",
+      "sha256": "2bca8a2d9c5f9f251999b2e23e425eaaa5ce909fa37d0ba9b596c178544591ea",
+      "format": "r3_tile_preconditioned",
+      "kind": "Q",
+      "chart": 2,
+      "bounds": [
+        "31/32",
+        "1",
+        "31/32",
+        "1"
+      ],
+      "transform": "chart1_to_chart2"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "Q_c0_000",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_000.json",
+      "state": "campaign/states/Q_c0_000.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_001",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_001.json",
+      "state": "campaign/states/Q_c0_001.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/32",
+            "3/8",
+            "7/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "0",
+            "1/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_002",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_002.json",
+      "state": "campaign/states/Q_c0_002.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_003",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_003.json",
+      "state": "campaign/states/Q_c0_003.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_004",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_004.json",
+      "state": "campaign/states/Q_c0_004.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_005",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_005.json",
+      "state": "campaign/states/Q_c0_005.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_006",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_006.json",
+      "state": "campaign/states/Q_c0_006.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_007",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_007.json",
+      "state": "campaign/states/Q_c0_007.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_009",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_009.json",
+      "state": "campaign/states/Q_c0_009.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ]
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_010",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_010.json",
+      "state": "campaign/states/Q_c0_010.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "3/8",
+            "7/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_011",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_011.json",
+      "state": "campaign/states/Q_c0_011.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "7/16",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_013",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_013.json",
+      "state": "campaign/states/Q_c0_013.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_014",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_014.json",
+      "state": "campaign/states/Q_c0_014.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_015",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_015.json",
+      "state": "campaign/states/Q_c0_015.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_016",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_016.json",
+      "state": "campaign/states/Q_c0_016.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_017",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_017.json",
+      "state": "campaign/states/Q_c0_017.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_018",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_018.json",
+      "state": "campaign/states/Q_c0_018.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_019",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_019.json",
+      "state": "campaign/states/Q_c0_019.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_022",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_022.json",
+      "state": "campaign/states/Q_c0_022.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_023",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_023.json",
+      "state": "campaign/states/Q_c0_023.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_024",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_024.json",
+      "state": "campaign/states/Q_c0_024.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_025",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_025.json",
+      "state": "campaign/states/Q_c0_025.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_026",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_026.json",
+      "state": "campaign/states/Q_c0_026.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_027",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_027.json",
+      "state": "campaign/states/Q_c0_027.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_030",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_030.json",
+      "state": "campaign/states/Q_c0_030.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "11/16",
+            "3/4",
+            "3/8",
+            "7/16"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_033",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_033.json",
+      "state": "campaign/states/Q_c0_033.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_034",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_034.json",
+      "state": "campaign/states/Q_c0_034.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_035",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_035.json",
+      "state": "campaign/states/Q_c0_035.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_036",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_036.json",
+      "state": "campaign/states/Q_c0_036.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_038",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_038.json",
+      "state": "campaign/states/Q_c0_038.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "5/8",
+            "11/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "11/16",
+            "7/16",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_039",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_039.json",
+      "state": "campaign/states/Q_c0_039.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "11/16",
+            "3/4",
+            "7/16",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_044",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_044.json",
+      "state": "campaign/states/Q_c0_044.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_045",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_045.json",
+      "state": "campaign/states/Q_c0_045.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_046",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_046.json",
+      "state": "campaign/states/Q_c0_046.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_047",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_047.json",
+      "state": "campaign/states/Q_c0_047.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_053",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_053.json",
+      "state": "campaign/states/Q_c0_053.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_054",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_054.json",
+      "state": "campaign/states/Q_c0_054.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_055",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_055.json",
+      "state": "campaign/states/Q_c0_055.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_064",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_064.json",
+      "state": "campaign/states/Q_c0_064.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_065",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_065.json",
+      "state": "campaign/states/Q_c0_065.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c0_066",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_066.json",
+      "state": "campaign/states/Q_c0_066.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "7/8",
+            "31/32"
+          ]
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 1
+    },
+    {
+      "id": "Q_c0_067",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c0_067.json",
+      "state": "campaign/states/Q_c0_067.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "31/32",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "31/32",
+            "1",
+            "7/8",
+            "31/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_000",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_000.json",
+      "state": "campaign/states/Q_c1_000.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_001",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_001.json",
+      "state": "campaign/states/Q_c1_001.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_002",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_002.json",
+      "state": "campaign/states/Q_c1_002.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_003",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_003.json",
+      "state": "campaign/states/Q_c1_003.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_004",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_004.json",
+      "state": "campaign/states/Q_c1_004.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_005",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_005.json",
+      "state": "campaign/states/Q_c1_005.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_006",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_006.json",
+      "state": "campaign/states/Q_c1_006.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_007",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_007.json",
+      "state": "campaign/states/Q_c1_007.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_008",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_008.json",
+      "state": "campaign/states/Q_c1_008.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_009",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_009.json",
+      "state": "campaign/states/Q_c1_009.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_010",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_010.json",
+      "state": "campaign/states/Q_c1_010.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_011",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_011.json",
+      "state": "campaign/states/Q_c1_011.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_012",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_012.json",
+      "state": "campaign/states/Q_c1_012.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_013",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_013.json",
+      "state": "campaign/states/Q_c1_013.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_014",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_014.json",
+      "state": "campaign/states/Q_c1_014.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_015",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_015.json",
+      "state": "campaign/states/Q_c1_015.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_016",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_016.json",
+      "state": "campaign/states/Q_c1_016.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_017",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_017.json",
+      "state": "campaign/states/Q_c1_017.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_018",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_018.json",
+      "state": "campaign/states/Q_c1_018.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_019",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_019.json",
+      "state": "campaign/states/Q_c1_019.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_020",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_020.json",
+      "state": "campaign/states/Q_c1_020.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_021",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_021.json",
+      "state": "campaign/states/Q_c1_021.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_022",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_022.json",
+      "state": "campaign/states/Q_c1_022.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_023",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_023.json",
+      "state": "campaign/states/Q_c1_023.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_024",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_024.json",
+      "state": "campaign/states/Q_c1_024.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_025",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_025.json",
+      "state": "campaign/states/Q_c1_025.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_026",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_026.json",
+      "state": "campaign/states/Q_c1_026.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "0",
+            "1/32"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "0",
+            "1/32"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_027",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_027.json",
+      "state": "campaign/states/Q_c1_027.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_028",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_028.json",
+      "state": "campaign/states/Q_c1_028.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "11/16",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_029",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_029.json",
+      "state": "campaign/states/Q_c1_029.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_030",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_030.json",
+      "state": "campaign/states/Q_c1_030.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_031",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_031.json",
+      "state": "campaign/states/Q_c1_031.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_032",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_032.json",
+      "state": "campaign/states/Q_c1_032.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_033",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_033.json",
+      "state": "campaign/states/Q_c1_033.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_034",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_034.json",
+      "state": "campaign/states/Q_c1_034.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_035",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_035.json",
+      "state": "campaign/states/Q_c1_035.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_036",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_036.json",
+      "state": "campaign/states/Q_c1_036.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "5/8",
+            "11/16"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "5/8",
+            "11/16"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_037",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_037.json",
+      "state": "campaign/states/Q_c1_037.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "11/16",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_038",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_038.json",
+      "state": "campaign/states/Q_c1_038.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_039",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_039.json",
+      "state": "campaign/states/Q_c1_039.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_040",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_040.json",
+      "state": "campaign/states/Q_c1_040.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_041",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_041.json",
+      "state": "campaign/states/Q_c1_041.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_042",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_042.json",
+      "state": "campaign/states/Q_c1_042.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_043",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_043.json",
+      "state": "campaign/states/Q_c1_043.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_044",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_044.json",
+      "state": "campaign/states/Q_c1_044.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_045",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_045.json",
+      "state": "campaign/states/Q_c1_045.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_046",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_046.json",
+      "state": "campaign/states/Q_c1_046.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_047",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_047.json",
+      "state": "campaign/states/Q_c1_047.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_048",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_048.json",
+      "state": "campaign/states/Q_c1_048.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_049",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_049.json",
+      "state": "campaign/states/Q_c1_049.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_050",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_050.json",
+      "state": "campaign/states/Q_c1_050.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_051",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_051.json",
+      "state": "campaign/states/Q_c1_051.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_052",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_052.json",
+      "state": "campaign/states/Q_c1_052.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_053",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_053.json",
+      "state": "campaign/states/Q_c1_053.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_054",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_054.json",
+      "state": "campaign/states/Q_c1_054.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_055",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_055.json",
+      "state": "campaign/states/Q_c1_055.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_056",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_056.json",
+      "state": "campaign/states/Q_c1_056.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_057",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_057.json",
+      "state": "campaign/states/Q_c1_057.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_058",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_058.json",
+      "state": "campaign/states/Q_c1_058.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_059",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_059.json",
+      "state": "campaign/states/Q_c1_059.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_060",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_060.json",
+      "state": "campaign/states/Q_c1_060.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_061",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_061.json",
+      "state": "campaign/states/Q_c1_061.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_062",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_062.json",
+      "state": "campaign/states/Q_c1_062.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "7/8",
+            "31/32"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "7/8",
+            "31/32"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_063",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_063.json",
+      "state": "campaign/states/Q_c1_063.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "31/32",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "31/32",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_064",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_064.json",
+      "state": "campaign/states/Q_c1_064.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_065",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_065.json",
+      "state": "campaign/states/Q_c1_065.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_066",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_066.json",
+      "state": "campaign/states/Q_c1_066.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_067",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_067.json",
+      "state": "campaign/states/Q_c1_067.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_068",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_068.json",
+      "state": "campaign/states/Q_c1_068.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_069",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_069.json",
+      "state": "campaign/states/Q_c1_069.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_070",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_070.json",
+      "state": "campaign/states/Q_c1_070.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "Q_c1_071",
+      "kind": "Q",
+      "settings": "campaign/settings/Q_c1_071.json",
+      "state": "campaign/states/Q_c1_071.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "31/32",
+            "1",
+            "7/8",
+            "31/32"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "31/32",
+            "1",
+            "7/8",
+            "31/32"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_000",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_000.json",
+      "state": "campaign/states/g_c0_000.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_001",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_001.json",
+      "state": "campaign/states/g_c0_001.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/32",
+            "3/8",
+            "7/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "0",
+            "1/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_002",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_002.json",
+      "state": "campaign/states/g_c0_002.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_003",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_003.json",
+      "state": "campaign/states/g_c0_003.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_004",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_004.json",
+      "state": "campaign/states/g_c0_004.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_005",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_005.json",
+      "state": "campaign/states/g_c0_005.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_006",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_006.json",
+      "state": "campaign/states/g_c0_006.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_007",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_007.json",
+      "state": "campaign/states/g_c0_007.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_009",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_009.json",
+      "state": "campaign/states/g_c0_009.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ]
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_010",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_010.json",
+      "state": "campaign/states/g_c0_010.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "3/8",
+            "7/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_011",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_011.json",
+      "state": "campaign/states/g_c0_011.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "7/16",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/512",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_013",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_013.json",
+      "state": "campaign/states/g_c0_013.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_014",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_014.json",
+      "state": "campaign/states/g_c0_014.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_015",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_015.json",
+      "state": "campaign/states/g_c0_015.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_016",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_016.json",
+      "state": "campaign/states/g_c0_016.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_017",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_017.json",
+      "state": "campaign/states/g_c0_017.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_018",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_018.json",
+      "state": "campaign/states/g_c0_018.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_019",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_019.json",
+      "state": "campaign/states/g_c0_019.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_022",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_022.json",
+      "state": "campaign/states/g_c0_022.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_023",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_023.json",
+      "state": "campaign/states/g_c0_023.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_024",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_024.json",
+      "state": "campaign/states/g_c0_024.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_025",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_025.json",
+      "state": "campaign/states/g_c0_025.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_026",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_026.json",
+      "state": "campaign/states/g_c0_026.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_027",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_027.json",
+      "state": "campaign/states/g_c0_027.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_030",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_030.json",
+      "state": "campaign/states/g_c0_030.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "7/16",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "11/16",
+            "3/4",
+            "3/8",
+            "7/16"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_033",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_033.json",
+      "state": "campaign/states/g_c0_033.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_034",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_034.json",
+      "state": "campaign/states/g_c0_034.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_035",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_035.json",
+      "state": "campaign/states/g_c0_035.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_036",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_036.json",
+      "state": "campaign/states/g_c0_036.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_038",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_038.json",
+      "state": "campaign/states/g_c0_038.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "5/8",
+            "11/16"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "11/16",
+            "7/16",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_039",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_039.json",
+      "state": "campaign/states/g_c0_039.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/16",
+            "1/2",
+            "11/16",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "11/16",
+            "3/4",
+            "7/16",
+            "1/2"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/256",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_044",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_044.json",
+      "state": "campaign/states/g_c0_044.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_045",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_045.json",
+      "state": "campaign/states/g_c0_045.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_046",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_046.json",
+      "state": "campaign/states/g_c0_046.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_047",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_047.json",
+      "state": "campaign/states/g_c0_047.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_053",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_053.json",
+      "state": "campaign/states/g_c0_053.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_054",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_054.json",
+      "state": "campaign/states/g_c0_054.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_055",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_055.json",
+      "state": "campaign/states/g_c0_055.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_064",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_064.json",
+      "state": "campaign/states/g_c0_064.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ]
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_065",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_065.json",
+      "state": "campaign/states/g_c0_065.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c0_066",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_066.json",
+      "state": "campaign/states/g_c0_066.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "7/8",
+            "31/32"
+          ]
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 1
+    },
+    {
+      "id": "g_c0_067",
+      "kind": "g",
+      "settings": "campaign/settings/g_c0_067.json",
+      "state": "campaign/states/g_c0_067.json",
+      "physical_entries": [
+        {
+          "chart": 0,
+          "bounds": [
+            "7/8",
+            "31/32",
+            "31/32",
+            "1"
+          ]
+        },
+        {
+          "chart": 0,
+          "bounds": [
+            "31/32",
+            "1",
+            "7/8",
+            "31/32"
+          ],
+          "transform": "swap_uv_chart0"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_000",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_000.json",
+      "state": "campaign/states/g_c1_000.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/32",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_001",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_001.json",
+      "state": "campaign/states/g_c1_001.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_002",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_002.json",
+      "state": "campaign/states/g_c1_002.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_003",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_003.json",
+      "state": "campaign/states/g_c1_003.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_004",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_004.json",
+      "state": "campaign/states/g_c1_004.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_005",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_005.json",
+      "state": "campaign/states/g_c1_005.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_006",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_006.json",
+      "state": "campaign/states/g_c1_006.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_007",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_007.json",
+      "state": "campaign/states/g_c1_007.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "0",
+            "1/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_008",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_008.json",
+      "state": "campaign/states/g_c1_008.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "0",
+            "1/32"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "3/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_009",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_009.json",
+      "state": "campaign/states/g_c1_009.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/32",
+            "1/8",
+            "1/32",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "9/1024",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_010",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_010.json",
+      "state": "campaign/states/g_c1_010.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_011",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_011.json",
+      "state": "campaign/states/g_c1_011.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_012",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_012.json",
+      "state": "campaign/states/g_c1_012.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_013",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_013.json",
+      "state": "campaign/states/g_c1_013.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_014",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_014.json",
+      "state": "campaign/states/g_c1_014.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_015",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_015.json",
+      "state": "campaign/states/g_c1_015.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_016",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_016.json",
+      "state": "campaign/states/g_c1_016.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_017",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_017.json",
+      "state": "campaign/states/g_c1_017.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/8",
+            "1/4",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_018",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_018.json",
+      "state": "campaign/states/g_c1_018.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_019",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_019.json",
+      "state": "campaign/states/g_c1_019.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_020",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_020.json",
+      "state": "campaign/states/g_c1_020.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_021",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_021.json",
+      "state": "campaign/states/g_c1_021.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_022",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_022.json",
+      "state": "campaign/states/g_c1_022.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_023",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_023.json",
+      "state": "campaign/states/g_c1_023.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_024",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_024.json",
+      "state": "campaign/states/g_c1_024.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_025",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_025.json",
+      "state": "campaign/states/g_c1_025.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/4",
+            "3/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_026",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_026.json",
+      "state": "campaign/states/g_c1_026.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_027",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_027.json",
+      "state": "campaign/states/g_c1_027.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_028",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_028.json",
+      "state": "campaign/states/g_c1_028.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_029",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_029.json",
+      "state": "campaign/states/g_c1_029.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_030",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_030.json",
+      "state": "campaign/states/g_c1_030.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_031",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_031.json",
+      "state": "campaign/states/g_c1_031.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_032",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_032.json",
+      "state": "campaign/states/g_c1_032.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_033",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_033.json",
+      "state": "campaign/states/g_c1_033.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/8",
+            "1/2",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_034",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_034.json",
+      "state": "campaign/states/g_c1_034.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_035",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_035.json",
+      "state": "campaign/states/g_c1_035.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_036",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_036.json",
+      "state": "campaign/states/g_c1_036.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_037",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_037.json",
+      "state": "campaign/states/g_c1_037.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_038",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_038.json",
+      "state": "campaign/states/g_c1_038.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_039",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_039.json",
+      "state": "campaign/states/g_c1_039.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_040",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_040.json",
+      "state": "campaign/states/g_c1_040.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_041",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_041.json",
+      "state": "campaign/states/g_c1_041.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "1/2",
+            "5/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_042",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_042.json",
+      "state": "campaign/states/g_c1_042.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_043",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_043.json",
+      "state": "campaign/states/g_c1_043.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_044",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_044.json",
+      "state": "campaign/states/g_c1_044.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_045",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_045.json",
+      "state": "campaign/states/g_c1_045.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_046",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_046.json",
+      "state": "campaign/states/g_c1_046.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_047",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_047.json",
+      "state": "campaign/states/g_c1_047.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_048",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_048.json",
+      "state": "campaign/states/g_c1_048.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_049",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_049.json",
+      "state": "campaign/states/g_c1_049.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "5/8",
+            "3/4",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_050",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_050.json",
+      "state": "campaign/states/g_c1_050.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_051",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_051.json",
+      "state": "campaign/states/g_c1_051.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_052",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_052.json",
+      "state": "campaign/states/g_c1_052.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_053",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_053.json",
+      "state": "campaign/states/g_c1_053.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_054",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_054.json",
+      "state": "campaign/states/g_c1_054.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_055",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_055.json",
+      "state": "campaign/states/g_c1_055.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_056",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_056.json",
+      "state": "campaign/states/g_c1_056.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_057",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_057.json",
+      "state": "campaign/states/g_c1_057.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "3/4",
+            "7/8",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_058",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_058.json",
+      "state": "campaign/states/g_c1_058.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "0",
+            "1/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_059",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_059.json",
+      "state": "campaign/states/g_c1_059.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/8",
+            "1/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_060",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_060.json",
+      "state": "campaign/states/g_c1_060.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/4",
+            "3/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_061",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_061.json",
+      "state": "campaign/states/g_c1_061.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/8",
+            "1/2"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_062",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_062.json",
+      "state": "campaign/states/g_c1_062.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "1/2",
+            "5/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_063",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_063.json",
+      "state": "campaign/states/g_c1_063.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "5/8",
+            "3/4"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_064",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_064.json",
+      "state": "campaign/states/g_c1_064.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "3/4",
+            "7/8"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    },
+    {
+      "id": "g_c1_065",
+      "kind": "g",
+      "settings": "campaign/settings/g_c1_065.json",
+      "state": "campaign/states/g_c1_065.json",
+      "physical_entries": [
+        {
+          "chart": 1,
+          "bounds": [
+            "7/8",
+            "1",
+            "7/8",
+            "1"
+          ]
+        },
+        {
+          "chart": 2,
+          "bounds": [
+            "7/8",
+            "1",
+            "7/8",
+            "1"
+          ],
+          "transform": "chart1_to_chart2"
+        }
+      ],
+      "area": "1/64",
+      "multiplicity": 2
+    }
+  ],
+  "initial_tolerances_are_exploratory": true
+}

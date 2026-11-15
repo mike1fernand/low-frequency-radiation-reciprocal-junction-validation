@@ -1,0 +1,54 @@
+{
+  "branch": 2,
+  "checks": {
+    "optimization_success": true,
+    "purity_and_gap": true,
+    "shell_residual": true
+  },
+  "producer_contract": {
+    "contains_timestamps": false,
+    "deterministic_inputs": true,
+    "external_reproduction_claim": false,
+    "fixed_random_seeds": [
+      20260833,
+      20260834
+    ]
+  },
+  "results": {
+    "gap": {
+      "cluster_leak": 5.3367035077787044e-14,
+      "gap": 0.9390908339491106,
+      "group_speed": 1.570067972774161,
+      "k": [
+        -0.5058324561980616,
+        3.518727119722841e-07,
+        -0.5058271489997564
+      ],
+      "nfev": 1123,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.9999999999999465,
+      "raw_objective": 0.9390908339491106,
+      "shell_residual": 0.0,
+      "success": true
+    },
+    "own": {
+      "cluster_leak": 0.00011550596643418829,
+      "gap": 0.9495434600274746,
+      "group_speed": 1.5976508314121576,
+      "k": [
+        0.2758540923852297,
+        0.6557692564538916,
+        1.3036794146942407e-05
+      ],
+      "nfev": 1187,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.9998844940335657,
+      "raw_objective": 0.9998844940335657,
+      "shell_residual": 1.887379141862766e-14,
+      "success": true
+    }
+  },
+  "schema": "paper1.p04.shell-check.v1",
+  "status": "passed",
+  "witness": null
+}

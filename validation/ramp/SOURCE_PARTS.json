@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "original_bytes": 71926283,
+  "original_sha256": "8068c897d9780a81670f0fe3d98b9a70d7ed04b828e3fff3b269de9775f257ce",
+  "parts": [
+    {
+      "file": "Paper1_736_Proof_Source_Part01.zip",
+      "bytes": 36002928,
+      "sha256": "2c3722775207a18f828648397b35de848861a64a50d358d1155625465c26368f",
+      "chunk_bytes": 36000000,
+      "chunk_sha256": "59a7510472c9e5e45bc9a26cdd93509704483074615972044679d212d1a79276"
+    },
+    {
+      "file": "Paper1_736_Proof_Source_Part02.zip",
+      "bytes": 35926519,
+      "sha256": "bf7fa33248c5080322a45fe0c3a042b0fc1b43c37703c58aaf0830d9fda20ada",
+      "chunk_bytes": 35926283,
+      "chunk_sha256": "06bd389b7e77442eb539441ab8fd53f5e3517be905296e8f95c5e271f76f2829"
+    }
+  ]
+}

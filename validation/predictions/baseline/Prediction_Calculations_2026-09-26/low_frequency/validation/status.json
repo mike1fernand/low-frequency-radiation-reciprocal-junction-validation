@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "args": {
+    "nang": 40,
+    "nrad": 128,
+    "frequencies": [
+      0.0,
+      0.2,
+      0.05,
+      0.0125,
+      0.003125,
+      0.00078125
+    ],
+    "tag": "validation",
+    "shellcheck": true
+  },
+  "script_sha256": "4ca90b99bc2771f6d5ef08dacee593f8d61b3f04a2740b3c105ebdbac5c374c8",
+  "threads": 1,
+  "finished": [
+    0.0,
+    0.2,
+    0.05,
+    0.0125,
+    0.003125,
+    0.00078125
+  ]
+}

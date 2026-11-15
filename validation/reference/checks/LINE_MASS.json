@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "omega": 1.2,
+  "Kq": 1.69,
+  "mb": 1,
+  "a": 1,
+  "K_axis": 1,
+  "K_diag": 1,
+  "g": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "surface_N192_M256": [
+    {
+      "mq_over_mb": 0.75,
+      "Rq": 0.004602430187102453,
+      "Tq": 0.7903670005999532,
+      "TqT": 0.18756123955748252,
+      "TqL": 0.017469329655462114,
+      "closure": 4.440892098500626e-16,
+      "formulation_max_abs_difference": 8.881784197001252e-16
+    },
+    {
+      "mq_over_mb": 1.0,
+      "Rq": 0.0035721492713804474,
+      "Tq": 0.8597459585394488,
+      "TqT": 0.1256592553928365,
+      "TqL": 0.011022636796334603,
+      "closure": 4.440892098500626e-16,
+      "formulation_max_abs_difference": 7.771561172376096e-16
+    },
+    {
+      "mq_over_mb": 1.25,
+      "Rq": 0.003207015557246164,
+      "Tq": 0.8984483483628608,
+      "TqT": 0.09094909065730375,
+      "TqL": 0.007395545422589695,
+      "closure": 4.440892098500626e-16,
+      "formulation_max_abs_difference": 3.3306690738754696e-16
+    }
+  ],
+  "tetra_N192": [
+    {
+      "mq_over_mb": 0.75,
+      "Rq": 0.004600216191169658,
+      "Tq": 0.7904594831262746,
+      "TqT": 0.1874811063240727,
+      "TqL": 0.017459194358483424,
+      "closure": 4.440892098500626e-16,
+      "formulation_max_abs_difference": 3.3306690738754696e-16
+    },
+    {
+      "mq_over_mb": 1.0,
+      "Rq": 0.003570069951044044,
+      "Tq": 0.8598069969729774,
+      "TqT": 0.12560796330638538,
+      "TqL": 0.0110149697695935,
+      "closure": 2.220446049250313e-16,
+      "formulation_max_abs_difference": 5.551115123125783e-16
+    },
+    {
+      "mq_over_mb": 1.25,
+      "Rq": 0.003205169631397672,
+      "Tq": 0.898491164603505,
+      "TqT": 0.09091390074073201,
+      "TqL": 0.007389765024365418,
+      "closure": 2.220446049250313e-16,
+      "formulation_max_abs_difference": 1.0191500421363742e-16
+    }
+  ],
+  "max_qT_difference_percentage_points": 0.008013323340982925,
+  "scope": "Three finite one-factor examples, selected before evaluation. All seven scalar contact sites and both scalar leads have the selected mass. New contact solves with archived numerical bare-bulk matrices. The inter-method difference is not an error bound."
+}

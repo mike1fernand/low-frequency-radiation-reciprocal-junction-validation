@@ -1,0 +1,49 @@
+{
+  "carrier": 0.9594572753515055,
+  "group_speed": 1.1532562594670797,
+  "periodic_energy": 3.597297863368441e-05,
+  "open_energy": 3.597297830331178e-05,
+  "relative_closing_energy": 9.18391099902861e-09,
+  "independent_closing_formula": 9.183911859855322e-09,
+  "right_fraction": 0.9999997423126528,
+  "nyquist_fraction": 2.576873472311469e-07,
+  "inband_coverage": 0.9996834927581068,
+  "distinct_band_positive_frequencies": 14,
+  "weighted_percentiles": [
+    0.9317566688177807,
+    1.4726562160045653
+  ],
+  "coupling_over_open_energy": 2.0502029229148587e-18,
+  "times": [
+    0.0,
+    5.0,
+    10.0,
+    20.0,
+    54.0
+  ],
+  "evolution": [
+    {
+      "model": "open",
+      "maximum_node_u_or_v_error": [
+        4.7284661368405655e-17,
+        8.221566483846256e-16,
+        1.637874152304224e-15,
+        4.03397281195845e-15,
+        6.3458931255563076e-15
+      ],
+      "maximum_relative_energy_drift": 2.886579864025407e-15
+    },
+    {
+      "model": "periodic",
+      "maximum_node_u_or_v_error": [
+        2.6020852139652106e-18,
+        2.3410906459936376e-15,
+        1.6412707544227138e-15,
+        3.748532237854408e-15,
+        6.793159344233284e-15
+      ],
+      "maximum_relative_energy_drift": 1.6653345369377348e-15,
+      "max_DFT_vs_real_eigensystem_error": 2.461138931542095e-17
+    }
+  ]
+}

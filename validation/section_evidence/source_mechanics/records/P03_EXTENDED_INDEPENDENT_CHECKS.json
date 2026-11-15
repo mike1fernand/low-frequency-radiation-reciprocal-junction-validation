@@ -1,0 +1,136 @@
+{
+  "checks": {
+    "A1_complete_force_closure": true,
+    "A1_complete_torque_closure": true,
+    "A1_total_R_proof_sentence_missing_detected": true,
+    "centered_A1_scope_present": true,
+    "continuum_basis_orthonormal": true,
+    "corner_indices_present": true,
+    "endpoint_generalized_force_wording_present": true,
+    "exact_transverse_BZ_nodal_set": true,
+    "figure_redundant_equation_inset_detected": true,
+    "fourth_order_remainder_present": true,
+    "gauge_em_reference_absent": true,
+    "general_dressed_phasor_transform": true,
+    "kappa_kx_separated": true,
+    "local_work_definitions_present": true,
+    "main_hash_expected": true,
+    "moment_fourier_leading_relation": true,
+    "moment_tensor_symbolic": true,
+    "norm_identity_numerical": true,
+    "paper2_reference_absent": true,
+    "prior_force_gradient": true,
+    "prior_local_fourier": true,
+    "prior_longwave_slopes": true,
+    "prior_slab_fourier_kappa_ne_kx": true,
+    "prior_symbolic_all_zero": true,
+    "radial_only_full_source_wording_detected": true,
+    "source_force_balance_symbolic": true,
+    "source_norm_identity": true,
+    "source_torque_balance_symbolic": true,
+    "source_total_split_present": true,
+    "supp_hash_expected": true,
+    "total_R_torque_arbitrary_state": true,
+    "undefined_V_symbols_detected": true,
+    "undefined_full_phasor_symbol_detected": true,
+    "undefined_output_interference_formula_absent": true,
+    "work_R_identity": true,
+    "work_X_identity": true
+  },
+  "confirmed_text_findings": [
+    {
+      "finding": "The SV/SH hierarchy symbols V_X^SV, V_R^SV and V_R^SH occur in the main text and supplement without a definition of the polarization basis or whether V is an amplitude or a power.",
+      "id": "P03-I01"
+    },
+    {
+      "finding": "The arbitrary dressed-state slab formula uses the undefined complex-looking symbol Delta q_i^full while q_i elsewhere denotes a real time-domain coordinate.",
+      "id": "P03-I02"
+    },
+    {
+      "finding": "The phrase full outgoing-k source is applied to the radial R source only and can be misread as the full X+R coupling source.",
+      "id": "P03-I03"
+    },
+    {
+      "finding": "The centered-sector closure sentence does not explicitly show that the complete R-channel restoring force also has the common A1 sign pattern; the conclusion is correct but the proof sentence is incomplete.",
+      "id": "P03-I04"
+    },
+    {
+      "finding": "Figure 2 repeats the balance and moment equations in a small inset immediately before the same displayed equations, reducing graphical legibility.",
+      "id": "P03-S01"
+    }
+  ],
+  "exact_deductions": {
+    "first_BZ_nodal_set": [
+      [
+        -3.141592653589793,
+        -3.141592653589793
+      ],
+      [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      [
+        4.440892098500626e-16,
+        4.440892098500626e-16
+      ],
+      [
+        3.141592653589793,
+        -3.141592653589793
+      ],
+      [
+        3.141592653589793,
+        3.141592653589793
+      ]
+    ],
+    "moment_fourier_relation": "F_tilde_R(k_perp)=-i M_R k_perp+O(|k_perp|^3) for fixed segment extension",
+    "source_norm_identity": "||s_perp||^2=[1-cos(k_y a)cos(k_z a)]/2",
+    "total_R_torque_scope": "The complete R-channel force can have a nonzero transverse resultant off symmetry, but its torque about the segment midpoint is identically zero because each corner force is radial."
+  },
+  "metrics": {
+    "Delta_q_full_occurrences": 1,
+    "V_hierarchy_occurrences": 2,
+    "continuum_basis_max_orthonormality_residual": 8.035778691833395e-16,
+    "full_outgoing_source_phrase_occurrences": 1,
+    "general_dressed_phasor_max_scaled_error": 9.036604010968872e-15,
+    "main_sha256": "585e61d0a441d75bd0ea10474c542d1b1ae49dde0351b0229b775e0b12f3b161",
+    "nodal_points_first_BZ": [
+      [
+        -3.141592653589793,
+        -3.141592653589793
+      ],
+      [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      [
+        4.440892098500626e-16,
+        4.440892098500626e-16
+      ],
+      [
+        3.141592653589793,
+        -3.141592653589793
+      ],
+      [
+        3.141592653589793,
+        3.141592653589793
+      ]
+    ],
+    "prior_force_gradient_max_scaled_error": 4.204130575684652e-14,
+    "prior_local_fourier_max_scaled_error": 1.084689173462224e-15,
+    "prior_slab_fourier_max_scaled_error": 5.721734242499794e-15,
+    "source_norm_identity_max_numeric_error": 4.440892098500626e-16,
+    "supp_sha256": "2ff5a31f768cab097bea2eb438846bfb80449777491b0e066e3467aeee53614b"
+  },
+  "producer_contract": {
+    "contains_timestamps": false,
+    "deterministic": true,
+    "external_reproduction_claim": false
+  },
+  "schema": "paper1-P03-extended-independent-checks-v1",
+  "seed": 20260813,
+  "status": "passed",
+  "summary": {
+    "passed": 36,
+    "total": 36
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "task": "report",
+  "mode": null,
+  "case": null,
+  "commands": [
+    {
+      "label": "report",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/report/report/make_validation_report.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.194593439999153
+    }
+  ],
+  "task_result": {
+    "io_adapter": {
+      "original_sha256": "b6ac7ca1852367308a63312a2725920db5ca570832c7941b1dbd2a605836c114",
+      "staged_sha256": "462171cc129881945a8f3179869c042e7c5e06486fd69d66b96299edee827810",
+      "exact_substitutions": [
+        {
+          "old": "'/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'",
+          "new": "str(T/'assets/fonts/DejaVuSans.ttf')"
+        },
+        {
+          "old": "'/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'",
+          "new": "str(T/'assets/fonts/DejaVuSans-Bold.ttf')"
+        }
+      ]
+    },
+    "scope": "Rebuild of the dated four-page scientific report; its historical split-delivery paragraph is superseded by the current root README."
+  },
+  "frozen_repository_unchanged": true,
+  "wall_seconds": 2.437568960001954,
+  "error": null,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "child_optimization": "0",
+    "threads": "2"
+  }
+}

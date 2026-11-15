@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "input_provenance": {
+    "schema": "p1-purity-audit-small-inputs/1",
+    "source_archive_relative_to_base": "sources/nov2/records/development/earlier_native/paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+    "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+    "files": [
+      {
+        "path": "model_api_v1_1.py",
+        "archive_member": "paper1_phase12_harmonic/model_api_v1_1.py",
+        "bytes": 10879,
+        "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+      },
+      {
+        "path": "reduced_core.py",
+        "archive_member": "paper1_phase12_harmonic/reduced_core.py",
+        "bytes": 5156,
+        "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+      },
+      {
+        "path": "on_shell_N80.npz",
+        "archive_member": "paper1_phase12_harmonic/raw/on_shell_N80.npz",
+        "bytes": 5534,
+        "sha256": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5"
+      },
+      {
+        "path": "pv_mean_M192.npy",
+        "archive_member": "paper1_phase12_harmonic/raw/pv_mean_M192.npy",
+        "bytes": 3328,
+        "sha256": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+      }
+    ],
+    "context": {
+      "omega": 1.2,
+      "surface_grid": 80,
+      "PV_cache_label": "M192",
+      "cached_source_dimension": 20,
+      "consumed_source_dimension": 12,
+      "model": "Original ModelParameters default: a=m_bulk=m_spine=k_axis=k_diag=1, k_spine=1.69.",
+      "historical_consumer_member": "paper1_phase12_harmonic/run_exact_flux_partition.py",
+      "historical_consumer_sha256": "f333857fb8ed4234eb630a1312af4224c89c1dd74163f1e81a12a8757dbf0b04",
+      "normalization": "Archived physical-compliance convention; source power 2*gamma_in*f\u2020 Im_G_branch*f.",
+      "qT": "Im_branch_0+Im_branch_1; NOT geometric Im_T.",
+      "claim_scope": "Historical approximate kernels, not current P1 coefficient update or rigorous enclosure."
+    }
+  },
+  "alternate_PV_provenance": {
+    "schema": "p1-purity-alternate-PV-inputs/1",
+    "source_archive_name": "paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+    "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+    "files": [
+      {
+        "path": "pv_direct_eta_extrapolated.npy",
+        "archive_member": "paper1_phase12_harmonic/raw/pv_direct_eta_extrapolated.npy",
+        "bytes": 3328,
+        "sha256": "87724af204de815f0e51d1537d6ce2533cafec71a60eaf8c9a1765ead695aa86"
+      },
+      {
+        "path": "direct_eta_extrapolation.json",
+        "archive_member": "paper1_phase12_harmonic/raw/direct_eta_extrapolation.json",
+        "bytes": 992,
+        "sha256": "bd5c0874d99d88323b991a1facfbbacb8e22951122540c237de7a4bf02602c89"
+      }
+    ],
+    "context": "Same omega1.2; alternate historical real Green estimate only. Same N80 on-shell branch cache remains shared."
+  },
+  "profiles": [
+    {
+      "name": "reference",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "incident_qT_alternate_PV": 0.12554059709031237,
+      "incident_qL_alternate_PV": 0.010999332916976275,
+      "qT_share_alternate_PV": 0.919442371792712,
+      "original_PV_incident_qT": 0.12562469453379452,
+      "qT_absolute_PV_difference": 8.40974434821451e-05,
+      "four_channel_closure": 1.2954304295931252e-11
+    },
+    {
+      "name": "sparse_endpoints",
+      "g": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "incident_qT_alternate_PV": 0.15833287884986696,
+      "incident_qL_alternate_PV": 0.024395334458045825,
+      "qT_share_alternate_PV": 0.8664938817251084,
+      "original_PV_incident_qT": 0.15853987038893336,
+      "qT_absolute_PV_difference": 0.00020699153906639234,
+      "four_channel_closure": 1.3575585100511489e-11
+    }
+  ],
+  "endpoint_minus_reference_qT_alternate_PV": 0.03279228175955459,
+  "limits": [
+    "Exactly two rechecks of previously seen profiles using an existing same-archive alternate PV estimate; no new quadrature.",
+    "The on-shell N80 branch matrices are SHARED, so this is not an independent complete method or enclosure.",
+    "No beta endpoint-imbalance state was refined, optimized or added.",
+    "The existing historical direct-eta extrapolation metadata is retained; its difference is sensitivity, not a statistical confidence interval."
+  ]
+}

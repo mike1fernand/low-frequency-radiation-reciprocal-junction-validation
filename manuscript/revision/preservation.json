@@ -1,0 +1,109 @@
+{
+  "edition": "Paper 1, Wave Motion source edition, 2026-11-13",
+  "predecessor": {
+    "file": "Paper1_Wave_Motion_Source_Build_2026-11-12.zip",
+    "sha256": "9b44e8b4c0c49bd4e46d074a084e4c3ea57dcf6f0d4d11e7fc1360e2c73c18d9"
+  },
+  "approved_change_package": {
+    "file": "Paper1_Fresh_Read_Exact_Proposed_Edits_2026-11-13_v3.zip",
+    "sha256": "670ffb110697690646a02b3caa1894ae56b57b1bcd5412f75e14859c9ae63983"
+  },
+  "source_substitutions": 44,
+  "source_files_changed": [
+    "paper1_main.tex",
+    "paper1_supplement.tex",
+    "paper1_SM5D.tex"
+  ],
+  "source_files_added": [],
+  "source_files_removed": [],
+  "patch_sha256": "09926834d5c15c010e089e8f0f8d1fb980e58a64badc45d9a5d834d3d243bade",
+  "patch_replays_entire_source_tree_from_predecessor": true,
+  "reverse_patch_restores_entire_predecessor_source_tree": true,
+  "exact_candidate_match": true,
+  "displayed_mathematics": {
+    "paper1_main.tex": {
+      "display_blocks": 103,
+      "punctuation_changes": 1
+    },
+    "paper1_supplement.tex": {
+      "display_blocks": 131,
+      "punctuation_changes": 0
+    },
+    "paper1_SM5D.tex": {
+      "display_blocks": 20,
+      "punctuation_changes": 0
+    }
+  },
+  "abstract_words": 249,
+  "before_after_sha256": {
+    "README.md": [
+      "fd95ac9b0c22f5787a04670275971ba7697f379e25809bf6475410fbc9cb9a0d",
+      "a61fca760cec6118c185e59b50bcea8dfa23a56db63d5dde55fb7abdab2ca659"
+    ],
+    "revision/source-changes.patch": [
+      "34f2bc8a20c0c75f4714cb32504ff779231a45db39daf60482036c44cf530f4a",
+      "09926834d5c15c010e089e8f0f8d1fb980e58a64badc45d9a5d834d3d243bade"
+    ],
+    "source/paper1_SM5D.tex": [
+      "7cb060da3b3d4fd4b57dd0cf912374ee002f989b01a096fd8130e104c3fd68ef",
+      "c10960a937ceeacc80813831dfbaeb8e8dd34f09534059c0fcd732324833e407"
+    ],
+    "source/paper1_main.tex": [
+      "d1e0581a4dbe17ca86675b71d9ea8bf184eed96f0052fc16f0b05d7cb5052069",
+      "583e73b88c5ce60dff6f510c8edd2669948c0bad24e20d59492cc7d8b37cbcd5"
+    ],
+    "source/paper1_supplement.tex": [
+      "365dee5c0ed07c4924b52cd00b90cb26ef620fc910befd0945f2e32b659cf2c7",
+      "7b0524a0d8b8cb00d7c989d1585a4c0436cbe4162d84bce46583b83203a610bf"
+    ],
+    "submission/Cover_letter_Wave_Motion.docx": [
+      "fe7e7ed7abb53505dabc3b1a747a97179a6c73a97dc7b2cb7a59bb6f7e98ca42",
+      "cabf1a2f1fc63c2a26c823e84a36451c4e3a25e30a756c33622cc80a8a6047f7"
+    ],
+    "submission/Paper1_highlights.docx": [
+      "ae3a93448e48e1286d28a7383497d29db55fa36284c075838150ce7f33766bef",
+      "370ab1ccbdedec453163be454a741083cafb5f6179815d210925d090a5d7e0e2"
+    ],
+    "verification/build-inputs.json": [
+      "0ff287ca286d52b36819ef4c1875d3dd6b216562f7bdbcb72b0ed441fdc5a304",
+      "b0003e280762081cb3ddbc4d77a7af5be5fc2ff14726f898963ad057ac6e66c3"
+    ]
+  },
+  "preserved_predecessor_files": [
+    "artwork/low_frequency_ratio/README.md",
+    "artwork/low_frequency_ratio/points.csv",
+    "artwork/low_frequency_ratio/render.py",
+    "artwork/submission/README.md",
+    "artwork/submission/export_reference_panels.py",
+    "artwork/submission/figure1_geometry.pdf",
+    "artwork/submission/figure2_paired_link_forces.pdf",
+    "artwork/submission/figure5_frequency_comparison.pdf",
+    "build.py",
+    "revision/history/2026-11-11/build-inputs.json",
+    "revision/history/2026-11-11/preservation.json",
+    "revision/history/2026-11-11/source-changes.patch",
+    "source/figures/Halpha_transmission_scan_p06.png",
+    "source/figures/continuum_lattice_share_comparison_p06.png",
+    "source/figures/figure4_reference_power.pdf",
+    "source/figures/paper1_frequency_partition.pdf",
+    "source/figures/paper1_low_frequency_ratio.pdf",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "source/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "source/figures/sm4_method_comparison.pdf",
+    "source/paper1_methods_references.tex",
+    "source/paper1_source_binding.tex",
+    "submission/AUTHOR_ACTIONS.md",
+    "submission/Author_biography.docx",
+    "third_party/LPPL-1.3c.tex",
+    "third_party/README-REVTeX.txt",
+    "third_party/revtex-4.2f-tds.zip",
+    "verification/verify_reference_shell.py"
+  ],
+  "predecessor_files_removed": [],
+  "submission_check": "All four letter body paragraphs and five highlights match the approved text. Other paragraphs and all other DOCX members retain predecessor bytes. Biography and author checklist retain predecessor bytes.",
+  "current_latex_check": "verification/build-inputs.json",
+  "prior_release_records": "revision/history/2026-11-12/",
+  "scope": "Applied the reviewed v3 wording and submission text with current-edition provenance updates. Scientific model, displayed formulas, figures, numerical evidence and bound inputs retain their reviewed meanings. No new packet evolution or bulk integration."
+}

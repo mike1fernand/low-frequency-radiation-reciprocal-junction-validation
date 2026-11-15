@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-26",
+  "source_files": {
+    "paper_update_20260926/build/paper1_main.tex": "de18909953cd48e9828af791d7c755cdf63eefc84d3b6ce9c4d22151de3d36b0",
+    "paper_update_20260926/build/paper1_supplement.tex": "e4cf3a1573c3583bab964eccb0e5b93b266aa635cd08926e766b10c9e47f6186",
+    "prediction_plan_20260926/Prediction_Assessment_Plan_2026-09-26.md": "285ff5592e13bedccb5e0e3f2ea1952b7f473bc89c08809b5d99cc393c06d231"
+  },
+  "units": {
+    "a": 1,
+    "m_b": 1,
+    "m_q": 1,
+    "K_axis": 1,
+    "K_diag": 1,
+    "K_q": 1.69
+  },
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "profile_scale_cases": "s=[1,.1,.01,.001,.1*omega,omega,10*omega] for each omega > 0; coincident entries retained",
+  "phasor": "exp(-i omega tau)",
+  "normalization": "chi=GD sqrt(gamma) eL; eta=(I+U g0)^-1 V chi; T_C=2 eta^dagger Im_H(g0,C) eta",
+  "branch_definition": "qT=sorted eigenbranches 0+1; qL=2; only cluster results used near lower degeneracy",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "threads": 1
+  },
+  "runs": {
+    "pilot": {
+      "nang": 12,
+      "nrad": 64,
+      "frequencies": [
+        0.0,
+        0.2,
+        0.05,
+        0.0125
+      ],
+      "tag": "pilot",
+      "shellcheck": true
+    },
+    "refined": {
+      "nang": 24,
+      "nrad": 96,
+      "frequencies": [
+        0.0,
+        0.4,
+        0.2,
+        0.1,
+        0.05,
+        0.025,
+        0.0125,
+        0.00625,
+        0.003125,
+        0.0015625,
+        0.00078125
+      ],
+      "tag": "refined",
+      "shellcheck": true
+    },
+    "validation": {
+      "nang": 40,
+      "nrad": 128,
+      "frequencies": [
+        0.0,
+        0.2,
+        0.05,
+        0.0125,
+        0.003125,
+        0.00078125
+      ],
+      "tag": "validation",
+      "shellcheck": true
+    }
+  },
+  "dependencies": "numpy only; no imported R8 kernel/code; model formulas reimplemented here",
+  "precision_status": "ordinary float64 computations and convergence diagnostics, not interval enclosures"
+}

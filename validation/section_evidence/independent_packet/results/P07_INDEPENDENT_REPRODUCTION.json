@@ -1,0 +1,28 @@
+{
+  "schema": "paper1.p07.independent-reproduction.v1",
+  "csv_rows": 46,
+  "max_absolute_difference_by_field": {
+    "time": 0.0,
+    "T_current": 0.0,
+    "T_coupling": 0.0,
+    "T_bulk_open": 0.0,
+    "current": 0.0,
+    "drift": 0.0,
+    "historical_shell": 0.0,
+    "total_shell_union": 0.0,
+    "total_shell_xlow": 0.0,
+    "total_shell_xhigh": 0.0,
+    "total_shell_ylow": 0.0,
+    "total_shell_yhigh": 0.0,
+    "total_shell_zlow": 0.0,
+    "total_shell_zhigh": 0.0,
+    "node_closure": 0.0
+  },
+  "max_absolute_scalar_difference": 0.0,
+  "modal_prior_absolute_differences": {
+    "qT_prod_avg_abs": 0.0,
+    "qT_lower_avg_abs": 0.0,
+    "qT_upper_avg_abs": 0.0
+  },
+  "same_host_independent_cpp_vs_python_note": "Fresh OpenMP C++ trajectory compared with archived Python scalar diagnostics; complete state arrays were not cross-compared."
+}

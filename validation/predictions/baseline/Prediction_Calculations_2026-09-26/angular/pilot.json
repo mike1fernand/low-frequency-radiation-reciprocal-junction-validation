@@ -1,0 +1,265 @@
+{
+  "reference": {
+    "full": {
+      "Rq": 0.0035721492713804803,
+      "Tq": 0.859745958539447,
+      "qT": 0.12565925539283654,
+      "qL": 0.011022636796334605,
+      "branch": [
+        0.06108919564790829,
+        0.06457005974492824,
+        0.011022636796334605
+      ],
+      "closure": 1.3322676295501878e-15
+    },
+    "X_only": {
+      "Rq": 0.008299971641451166,
+      "Tq": 0.8764741600018118,
+      "qT": 0.10223376916224287,
+      "qL": 0.01299209919449339,
+      "branch": [
+        0.05084206981669471,
+        0.051391699345548165,
+        0.01299209919449339
+      ],
+      "closure": 8.881784197001252e-16
+    },
+    "R_only": {
+      "Rq": 0.0007221254584712767,
+      "Tq": 0.9968468609160352,
+      "qT": 0.0022311074081711995,
+      "qL": 0.0001999062173226981,
+      "branch": [
+        0.0007264021441836721,
+        0.0015047052639875272,
+        0.0001999062173226981
+      ],
+      "closure": 4.440892098500626e-16
+    }
+  },
+  "axial_cluster_checks": [
+    {
+      "k": [
+        1.2870022175865687,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 0,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.0986064980352277
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.114983819873826
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.00010529812430758581
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.241631922790023
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        0.7074832117793429,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 2,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.1422999672722973
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.160478744963748
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.00012588078512668026
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.219822505320051
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        -1.2870022175865687,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 0,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.01592407353295688
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.015739000032498392
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 7.406893526023598e-07
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.014985692554382105
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        -0.7074832117793429,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 2,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.008145964952879732
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.008143206507133053
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 4.342423036123176e-07
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.010880962816980916
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    }
+  ],
+  "global_sample": [
+    {
+      "branch": 0,
+      "min_angle_degrees": 2.4508497450226203,
+      "min_radial_derivative": 1.8463431446445608,
+      "max_shell_residual": 1.0591527654923993e-13,
+      "min_vg_component_times_k": [
+        -0.006766072067949063,
+        -0.008777056436125447,
+        -0.008777056436125454
+      ]
+    },
+    {
+      "branch": 1,
+      "min_angle_degrees": 4.156887697028196,
+      "min_radial_derivative": 1.9231375622940539,
+      "max_shell_residual": 1.0658141036401503e-13,
+      "min_vg_component_times_k": [
+        0.0033070055306699993,
+        0.00016201414232691537,
+        0.0001620141423269155
+      ]
+    },
+    {
+      "branch": 2,
+      "min_angle_degrees": 2.599161912970072,
+      "min_radial_derivative": 3.7691130700569255,
+      "max_shell_residual": 2.0672352718520415e-13,
+      "min_vg_component_times_k": [
+        0.002649256726498455,
+        1.4941899937765057e-05,
+        1.4941899937765155e-05
+      ]
+    }
+  ],
+  "axial_ray_candidates": [
+    {
+      "branch": 0,
+      "k": [
+        1.2870022175865603,
+        4.226103815446148e-15,
+        -2.8979790178997304e-15
+      ],
+      "residual": 2.1276049452215432e-14,
+      "gap": 0.0
+    },
+    {
+      "branch": 0,
+      "k": [
+        -1.2870022175865607,
+        -2.6354513731883537e-15,
+        -3.92856531960258e-15
+      ],
+      "residual": 1.990523834521846e-14,
+      "gap": 0.0
+    },
+    {
+      "branch": 1,
+      "k": [
+        -1.287002217586569,
+        -1.8898770264215853e-14,
+        1.963753765668812e-14
+      ],
+      "residual": 3.492523027205158e-14,
+      "gap": 0.0
+    },
+    {
+      "branch": 1,
+      "k": [
+        1.2870022175865845,
+        -4.416860763302904e-12,
+        -1.7949163648131024e-12
+      ],
+      "residual": 8.7311066239532e-12,
+      "gap": 8.881784197001252e-16
+    },
+    {
+      "branch": 2,
+      "k": [
+        -0.707483211779343,
+        -2.9809281787506467e-18,
+        5.446598029650324e-19
+      ],
+      "residual": 4.441130956800384e-16,
+      "gap": 0.9599999999999991
+    },
+    {
+      "branch": 2,
+      "k": [
+        0.707483211779343,
+        -2.9865949773177808e-18,
+        5.4571079491162845e-19
+      ],
+      "residual": 4.441131866229381e-16,
+      "gap": 0.9599999999999991
+    }
+  ],
+  "search_attempts": 240,
+  "search_scope": "Numerical multi-start, not completeness proof; lower-plane degeneracies require separate treatment."
+}

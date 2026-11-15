@@ -1,0 +1,319 @@
+{
+  "purpose": "Inventory comparison against the first November 11 GitHub ZIP (1,537 files); identities refer to the historical comparison inputs. A byte match does not establish independent scientific replication.",
+  "method": "All non-directory ZIP members decompressed and SHA-256 hashed. Nested .zip files traversed recursively. Top directory stripped for pairwise paths. Occurrence counts include repeated identical payloads; per-path counts do not deduplicate by hash. Byte match anywhere searches nested and top-level members of the first GitHub ZIP.",
+  "release_sequence": [
+    "pass17_rc1",
+    "pass17_rc3",
+    "pass18_rc4",
+    "pass18_ext",
+    "r7",
+    "r8",
+    "r18",
+    "nov11"
+  ],
+  "release_and_companion_identities": {
+    "pass17_rc3": {
+      "archive": "paper1-validation-repository-pass17-v11-enhanced-rc3.zip",
+      "bytes": 78390522,
+      "sha256": "c351e133bbd367f92e9978f0988061cc420fb127d58a292a082cb1097d885fef",
+      "outer_members": 1567,
+      "nested_members": 0,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 87,
+        "outer_members_without_byte_match": 1480
+      }
+    },
+    "r7": {
+      "archive": "PAPER1_VALIDATION_INTEGRATED_R7(1).zip",
+      "bytes": 459439317,
+      "sha256": "e2d3a219de57202001ccd1b20dd985079067c920959c8823368145f73d67137a",
+      "outer_members": 4641,
+      "nested_members": 2359,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 530,
+        "outer_members_without_byte_match": 4111
+      }
+    },
+    "pass18_rc4": {
+      "archive": "paper1-validation-repository-pass18-numerical-correction-rc4.zip",
+      "bytes": 292589924,
+      "sha256": "d8e5240376547dd24cb6ebe05f1a5453d1344e30f81370dabfc592e370567354",
+      "outer_members": 3863,
+      "nested_members": 0,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 341,
+        "outer_members_without_byte_match": 3522
+      }
+    },
+    "nov11": {
+      "archive": "Paper1_Validation_GitHub_2026-11-11.zip",
+      "bytes": 121728204,
+      "sha256": "1f48ae05ec4daf4702fa574b590611cfce8cff15e51cb661650179a7a0daf05a",
+      "outer_members": 1537,
+      "nested_members": 430,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 1537,
+        "outer_members_without_byte_match": 0
+      }
+    },
+    "r18": {
+      "archive": "Paper1_Latest_2026-11-06.zip",
+      "bytes": 18506230,
+      "sha256": "f8202a01ccf948f9e69f2b44706ea6c4bfdf2cba926f2b0d3794f835a50a1f23",
+      "outer_members": 468,
+      "nested_members": 0,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 26,
+        "outer_members_without_byte_match": 442
+      }
+    },
+    "pass18_ext": {
+      "archive": "paper1-validation-repository-pass18-rc4-validation-extension1.zip",
+      "bytes": 295800545,
+      "sha256": "0b64dd1c22622fc1ce85880100a863e57f691d287a60a33e0ce211bb3ed274ea",
+      "outer_members": 4298,
+      "nested_members": 0,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 433,
+        "outer_members_without_byte_match": 3865
+      }
+    },
+    "r8": {
+      "archive": "PAPER1_VALIDATION_INTEGRATED_R8(1).zip",
+      "bytes": 462897627,
+      "sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+      "outer_members": 4764,
+      "nested_members": 2359,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 555,
+        "outer_members_without_byte_match": 4209
+      }
+    },
+    "repair": {
+      "archive": "PAPER1_VALIDATION_REPAIR_CHECKS.zip",
+      "bytes": 4510641,
+      "sha256": "cb6106fa0f5cd41731864ae571174d35300c92abb18949f1f6d1161d919f9bf1",
+      "outer_members": 1242,
+      "nested_members": 1150,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 367,
+        "outer_members_without_byte_match": 875
+      }
+    },
+    "pass17_rc1": {
+      "archive": "paper1-validation-repository-pass17-v11-pre-submission-rc1.zip",
+      "bytes": 78620128,
+      "sha256": "01c5bc70fae010c1358f511c3a0635e99b71648bd3fbfaadb95caf551a12fe11",
+      "outer_members": 1523,
+      "nested_members": 0,
+      "comparing_against_initial_nov11_zip": {
+        "outer_members_matching_any_payload_byte_for_byte": 82,
+        "outer_members_without_byte_match": 1441
+      }
+    }
+  },
+  "release_pairwise_comparisons": {
+    "pass17_rc1 -> pass17_rc3": {
+      "matched_paths": 1378,
+      "different_bytes_at_path": 33,
+      "only_earlier_path": 112,
+      "only_newer_path": 156
+    },
+    "pass17_rc3 -> pass18_rc4": {
+      "matched_paths": 1544,
+      "different_bytes_at_path": 23,
+      "only_earlier_path": 0,
+      "only_newer_path": 2296
+    },
+    "pass18_rc4 -> pass18_ext": {
+      "matched_paths": 3856,
+      "different_bytes_at_path": 7,
+      "only_earlier_path": 0,
+      "only_newer_path": 435
+    },
+    "r7 -> r8": {
+      "matched_paths": 4635,
+      "different_bytes_at_path": 6,
+      "only_earlier_path": 0,
+      "only_newer_path": 123
+    },
+    "pass18_ext -> r8/legacy_rc4": {
+      "matched_paths": 4298,
+      "different_bytes_at_path": 0,
+      "only_earlier_path": 0,
+      "only_newer_path": 0
+    }
+  },
+  "r4_mirror": {
+    "historical_container": "assets/PAPER1_COMPLETE_DOMAIN_VALIDATION_R4.zip",
+    "first_november_github_root": "validation/ramp/r4_certificate",
+    "all_zip_layers_relative_paths_and_sha256_match": true,
+    "compared_member_occurrences": 918,
+    "direct_r4_members": 683,
+    "members_inside_nested_r3": 235
+  },
+  "repair_report": {
+    "archive": "repair",
+    "member": "PAPER1_VALIDATION_REPAIR_REPORT.md",
+    "separately_supplied_copy_sha256": "8dd6bbb9286e2a00e76b19bd129ec6ca306c54f0b8763fe2adf3a85134b081f0",
+    "matches": true
+  },
+  "selected_scientific_locators": [
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/model/tests/run_p02_independent_checks.py",
+      "sha256": "d0086a2334067d48a941533fbae0aecc6fc1f87348d82d4cccfbc64206fd8cbb",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/model/records/P02_INDEPENDENT_CHECKS.json",
+      "sha256": "9137b82399a8dd8a845560cb6b9b821ce3044ca31bf3bda04c7a013fafb655a8",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/model/derivations/BLOCK_INCIDENCE_AND_NULLSPACE_DERIVATION.md",
+      "sha256": "0dc3752a8adf90fe3459b6c5ca86110b93f3a29c972a5e107f4547ef29bc6cf2",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/scattering/run/p05_weak_coupling.py",
+      "sha256": "5cc974d4df797ea8b723bc2095dde5698529448dfaa766ac995335ff96b4085b",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/current_numerics/README.md",
+      "sha256": "224050487473ff18e095509f58ced0b1167c4c4413e3df977df0e817dc59b634",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/current_numerics/analysis/resolution_execution/review/recompute_downstream.py",
+      "sha256": "ca56595d5957cbc923e4c26370ae398b908e2877fc456ec4b81702e434e77739",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/current_numerics/verify_live_frequency.py",
+      "sha256": "23788f2ad87d002f4585b5181452e82176c6a7ee6d5967e2f116ef323e07f408",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/remaining_resolution/packet/README.md",
+      "sha256": "8392efaee75c16f0101f6906026fb3fdb2a8d4b438c454d6f92b3079e023b756",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/remaining_resolution/lattice/RADIAL_SHELL_PROOF.md",
+      "sha256": "9abce3f655b7a90bef748dcdc5024a82c92bc361a05fbf7e17e63cbe6327f8aa",
+      "exact_bytes_in_first_github_zip": true
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/remaining_resolution/alternate/README.md",
+      "sha256": "5b71b0f8b1e089e1c5bab8e211ce59a9647e1c2df46b41e13439642eb360371c",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/cleanroom/run/bounded_regression.py",
+      "sha256": "cf8c4c06564543de16a649992b1f0e54d379be95568116833199e44ea154d14e",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/scripts/verify_bounded_replays.py",
+      "sha256": "e8f905971590453210ffbefc7c67ff347629143c8e9245ca74fc3e6f5d89e56f",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/frequency_domain/methods/generalized_bloch/code/reproduce_generalized_bloch_reference.py",
+      "sha256": "fa625f2da55ac67f71fcf75a24caaf3e71f332564410e8597959b4768c3c11bb",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "legacy_rc4/validation/packet_prediction_current/README.md",
+      "sha256": "072866136cae51aac908bbae43001bbef5aba39a87c09f4806bf7ce25d225942",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "validation/r8/perspectives/validate_r7_nonaffine_fixture.py",
+      "sha256": "1dbd7b580e603a780916e7c15a60e9808de4f48e4398fad528e4c9491dd9dcf8",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "assets/PAPER1_COMPLETE_DOMAIN_VALIDATION_R4.zip",
+      "sha256": "8068c897d9780a81670f0fe3d98b9a70d7ed04b828e3fff3b269de9775f257ce",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r8",
+      "path": "assets/PAPER1_EXTERNAL_AUTHORITY_COMPANION.zip",
+      "sha256": "3515d928a1519596da3eb943ba9a9dfe1255637ec6e52a0218424a68aa5def3e",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "comparison/check_chang_geller_normalization.py",
+      "sha256": "29b6a82c696305484a4e58230b0937d4a61b47e038de3b7974a05f1c485239f6",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "comparison/check_wilson_rae_coefficient.py",
+      "sha256": "2c1542975d42ec46808b029b2a880d2368b0f5507a2fded6c95b7d0c643d3126",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "tradeoff_validation/check_two_profiles.py",
+      "sha256": "7692f14953d550603df9316a033ea00ec5abc9ce4702835b2071d8bbe076418b",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "uniform_integration/source_evidence/check_static_concavity.py",
+      "sha256": "b1c3d5f70204d3facc04db71152e0649a989e22cc64d1ecc0de853775d678741",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "post_revision_audit/check_one_active_static.py",
+      "sha256": "93a25927ce546699a58402b568004d473f62b50f3f4d7fb17e12a878cf9559b0",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "significance_audit/check_purity_curvature_algebra.py",
+      "sha256": "87ef1ba39522e70f08d874e4636ba4652ec33c907b085d07f725b2c57773908a",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "bulk_proposition/check_bulk_units.py",
+      "sha256": "8f2e2dc34544014a5881a13ef24a5ec0af97e407b662b8d5be5fc6edc154f37e",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "r18",
+      "path": "correspondence_next/check_controlled_bulk_bridge.py",
+      "sha256": "f62660870f2092b3f8d08a50926fbad6e7146bee086a8b6f71c345e157095c68",
+      "exact_bytes_in_first_github_zip": false
+    },
+    {
+      "archive": "repair",
+      "path": "PAPER1_VALIDATION_REPAIR_REPORT.md",
+      "sha256": "8dd6bbb9286e2a00e76b19bd129ec6ca306c54f0b8763fe2adf3a85134b081f0",
+      "exact_bytes_in_first_github_zip": false
+    }
+  ]
+}

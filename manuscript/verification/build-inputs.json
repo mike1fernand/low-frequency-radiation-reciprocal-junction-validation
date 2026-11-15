@@ -1,0 +1,121 @@
+{
+  "compiler": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)",
+  "basis": "Three fresh draft-mode passes per document using the supplied build.py source staging, bundled REVTeX and compile_one function, with -draftmode added to the engine. Source and assets are the assembled November 13 edition.",
+  "scope": "Checks project inputs, reference resolution, layout diagnostics and pagination. No new manuscript or supplement PDF was generated. PDF rendering, font embedding and final clickable links were not inspected.",
+  "build_py_sha256": "152e38bda9fdf9427c08d7a1b5000cfd27cfd71f2bdda235258c64aafc6a5001",
+  "project_inputs": {
+    "paper1_main": [
+      "source/figures/figure4_reference_power.pdf",
+      "source/figures/paper1_frequency_partition.pdf",
+      "source/figures/paper1_low_frequency_ratio.pdf",
+      "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+      "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+      "source/paper1_main.tex",
+      "source/paper1_source_binding.tex",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps10pt4-2.rtx",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps4-2.rtx",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revsymb4-2.sty",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revtex4-2.cls"
+    ],
+    "paper1_supplement": [
+      "source/figures/Halpha_transmission_scan_p06.png",
+      "source/figures/continuum_lattice_share_comparison_p06.png",
+      "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+      "source/figures/sm4_method_comparison.pdf",
+      "source/paper1_SM5D.tex",
+      "source/paper1_methods_references.tex",
+      "source/paper1_source_binding.tex",
+      "source/paper1_supplement.tex",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps10pt4-2.rtx",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps4-2.rtx",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revsymb4-2.sty",
+      "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revtex4-2.cls"
+    ]
+  },
+  "project_input_sha256": {
+    "source/figures/figure4_reference_power.pdf": "1f852669e87054bd49f3e387b5e2624151087c2e444d22cc3ae0d66f78c86a57",
+    "source/figures/paper1_frequency_partition.pdf": "a446ec83b61e2b8c6c70c6f638c9e95d60ffa74b3b8967304ce45ce392636aa5",
+    "source/figures/paper1_low_frequency_ratio.pdf": "45a9fb0be8d7ecfedb66b1059d362c339a1767c8dc4180f2c8266d71d38d5056",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+    "source/paper1_main.tex": "583e73b88c5ce60dff6f510c8edd2669948c0bad24e20d59492cc7d8b37cbcd5",
+    "source/paper1_source_binding.tex": "91c0163c37d91faa6e499b3ec6b957cb113f76b2193db0b5415b30b0390a4979",
+    "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps10pt4-2.rtx": "0cc5d7fab6ffd59ba5779f9ddfad990cb8a71438ea390277bafff1824bbcb8e4",
+    "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/aps4-2.rtx": "52d33501cae6dfdf339efeb2a79fda0a2780d1d39d96b61a1c6a6311da6ca05e",
+    "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revsymb4-2.sty": "7614d7446d929f49917e54c8590d7ff7408572a9d2d293d209ea718540947d3e",
+    "third_party/revtex-4.2f-tds.zip!tex/latex/revtex/revtex4-2.cls": "58727044fa47fff2663615774f8f24baab978944bbc55f84f8dc08ef91f67358",
+    "source/figures/Halpha_transmission_scan_p06.png": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+    "source/figures/continuum_lattice_share_comparison_p06.png": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+    "source/figures/sm4_method_comparison.pdf": "06767db566b45b1f4e7f31b31eb4f15f055d0b7b36d3433e0b0b2f702224f1d9",
+    "source/paper1_SM5D.tex": "c10960a937ceeacc80813831dfbaeb8e8dd34f09534059c0fcd732324833e407",
+    "source/paper1_methods_references.tex": "e219c707377f6ed3c2c86cffd6a7cffc9f358cbcb9a334450dad7127de9b8d08",
+    "source/paper1_supplement.tex": "7b0524a0d8b8cb00d7c989d1585a4c0436cbe4162d84bce46583b83203a610bf"
+  },
+  "draft_results": {
+    "paper1_main": {
+      "successful_draft_passes": 3,
+      "final_lastpage_label": 30,
+      "bibliography_entries": 48,
+      "auxiliary_labels": 153,
+      "label_numbers_and_pages_match_Nov12": true,
+      "citation_events_match_Nov12": true,
+      "selected_labels": {
+        "pred:eq-lowfreq": {
+          "number": "118",
+          "page": 17
+        },
+        "tab:s6-coupling-comparison": {
+          "number": "III",
+          "page": 20
+        },
+        "tab:s6-ablation": {
+          "number": "V",
+          "page": 22
+        },
+        "LastBibItem": {
+          "number": "48",
+          "page": 30
+        }
+      },
+      "overfull_boxes": 0,
+      "underfull_box_warnings": [
+        "Underfull \\hbox (badness 1137) in paragraph at lines 1704--1708",
+        "Underfull \\hbox (badness 1845) in paragraph at lines 1722--1726"
+      ],
+      "unresolved_reference_or_citation_warnings": 0,
+      "other_package_or_class_warnings_in_final_log": [
+        "Class revtex4-2 Warning: No journal specified, using default pra.",
+        "Package nameref Warning: The definition of \\label has changed! ",
+        "Package epstopdf Warning: Shell escape feature is not enabled."
+      ],
+      "complete_label_identifiers_numbers_and_pages_match_Nov12": true
+    },
+    "paper1_supplement": {
+      "successful_draft_passes": 3,
+      "final_lastpage_label": 35,
+      "bibliography_entries": 3,
+      "auxiliary_labels": 99,
+      "label_numbers_and_pages_match_Nov12": true,
+      "citation_events_match_Nov12": true,
+      "selected_labels": {
+        "LastBibItem": {
+          "number": "3",
+          "page": 35
+        }
+      },
+      "overfull_boxes": 0,
+      "underfull_box_warnings": [],
+      "unresolved_reference_or_citation_warnings": 0,
+      "other_package_or_class_warnings_in_final_log": [
+        "Class revtex4-2 Warning: No journal specified, using default pra.",
+        "Package nameref Warning: The definition of \\label has changed! ",
+        "Package epstopdf Warning: Shell escape feature is not enabled."
+      ],
+      "complete_label_identifiers_numbers_and_pages_match_Nov12": true
+    }
+  },
+  "format": "LaTeX2e <2024-11-01> patch level 2",
+  "date": "2026-11-13",
+  "revtex": "2022/06/05 4.2f"
+}

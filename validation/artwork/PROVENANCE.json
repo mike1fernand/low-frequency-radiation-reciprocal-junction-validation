@@ -1,0 +1,40 @@
+{
+  "PAPER1_VALIDATION_INTEGRATED_R8(1).zip": {
+    "archive_sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+    "members": {
+      "generate_current_figures.py": {
+        "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generate_current_figures.py",
+        "sha256": "57d3e8bee464a65967455cb1f6e887806cebbcef12a1226a4847d723ccb3df91"
+      },
+      "data/packet.json": {
+        "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generated/data/packet.json",
+        "sha256": "bc4e55aeedb6537c753904eae41a991d2a10aa8ad880ccb0c016cd3d1b737887"
+      },
+      "data/alpha.json": {
+        "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generated/data/alpha.json",
+        "sha256": "74388b14a84ed87fe8664cb3d956179d6e83f31c6f135e285eef6a537e24a03b"
+      },
+      "data/continuum.json": {
+        "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/figures/generated/data/continuum.json",
+        "sha256": "37c350df8d4815dc8e29eceb04bcbadcfd573cdcf6c712ed53f57b52ce4c9b2d"
+      }
+    }
+  },
+  "Paper1_IV_LaTeX_and_Checks_2026-11-10.zip": {
+    "archive_sha256": "0575736379cf42ff0dcff192007d115f6282236526eef78f026cd06a8be510a5",
+    "members": {
+      "section4/tools/revise_figure3.py": {
+        "archive_member": "paper1-iv/tools/revise_figure3.py",
+        "sha256": "de1078ab449230b2be6e2354a35b2b7037bdbe3ca6684fde2dcf66e8fe3e834f"
+      },
+      "section4/baseline/paper1_figure3_v0.pdf": {
+        "archive_member": "paper1-iv/baseline/paper1_figure3_v0.pdf",
+        "sha256": "9882955f2a34701f5154841c2325fff32d3344f619e7a1438d2a8672c56575b8"
+      },
+      "section4/context/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf": {
+        "archive_member": "paper1-iv/context/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+        "sha256": "7c5313c544de0373b3e234355c143d404ec3c569efcd946d7e477b47798f67c1"
+      }
+    }
+  }
+}

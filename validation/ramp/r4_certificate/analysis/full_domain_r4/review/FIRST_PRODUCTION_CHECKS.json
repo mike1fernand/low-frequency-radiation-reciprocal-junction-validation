@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "production_states": [
+    {
+      "id": "g_c0_000",
+      "sha256": "462bc562479665a6672adb1c0d01208f32f48d2234a2ff0be9ce65af0ca01604",
+      "accepted_leaves": 121,
+      "legs": 4,
+      "normalized_maximum_radius_diagnostic": 5.243828612507329e-05
+    },
+    {
+      "id": "g_c1_000",
+      "sha256": "137a0544e59d297561e57bbbed00bea6c1eda8601e396eedeeaaa7b79ab7b4f0",
+      "accepted_leaves": 142,
+      "legs": 4,
+      "normalized_maximum_radius_diagnostic": 4.3755832056644894e-05
+    },
+    {
+      "id": "Q_c1_000",
+      "sha256": "45fe959d5d69c01b4e7eadecaed159c09829a158de8f3d8336e99b3cbdf226fd",
+      "accepted_leaves": 161,
+      "legs": 3,
+      "normalized_maximum_radius_diagnostic": 1.9022102954916743e-05
+    },
+    {
+      "id": "Q_c0_000",
+      "sha256": "cbaf3556e98105ff582ad4d6dcea3fc87c4a1c2a4eff03e496f9bc31ee51c804",
+      "accepted_leaves": 146,
+      "legs": 3,
+      "normalized_maximum_radius_diagnostic": 3.286161406827786e-05
+    },
+    {
+      "id": "g_c1_008",
+      "sha256": "bbc6631ea328214ceaca949e5ef6e7abe37feecacde1a47b94ecd3014c2418d5",
+      "accepted_leaves": 180,
+      "legs": 4,
+      "normalized_maximum_radius_diagnostic": 4.585449222389902e-05
+    },
+    {
+      "id": "Q_c1_008",
+      "sha256": "f2457c8dc70ec584f9e39671ed5bcc4b27cf94cc4ed79f73e73e43fdf6c2a41b",
+      "accepted_leaves": 167,
+      "legs": 3,
+      "normalized_maximum_radius_diagnostic": 2.2793359412332046e-05
+    },
+    {
+      "id": "Q_c0_009",
+      "sha256": "80efd2e229eb385c47a8eaa59b2f991c42d9e3c940155cabdab3a1e90f02ddd9",
+      "accepted_leaves": 655,
+      "legs": 3,
+      "normalized_maximum_radius_diagnostic": 1.5647888670714586e-05
+    },
+    {
+      "id": "g_c0_009",
+      "sha256": "1d85c373d7bfd7133dbaa2276783f1c0d2c8621dcb79c6a4c793c2eaa5914f66",
+      "accepted_leaves": 554,
+      "legs": 4,
+      "normalized_maximum_radius_diagnostic": 3.074597353193744e-05
+    }
+  ],
+  "unchanged_R3_primitives": [
+    "arbitrary_tile_sharp.py",
+    "certified_tensor_sharp.py",
+    "source_moments.py"
+  ],
+  "checks": "Settings, runtime/source identities, tile endpoint certificates, compact split-tree coverage, public moments/radii, and independent exact stage sums checked.",
+  "interpretation": "These are complete local integral enclosures for the unchanged reference model. Global matrix budgets and the bridge are not tested by this local audit."
+}

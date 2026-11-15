@@ -1,0 +1,109 @@
+{
+  "status": "all_changed_medium_sample_checks_passed",
+  "rows": [
+    {
+      "k_diag": 0.75,
+      "sample_points": 1048576,
+      "numerically_tied_pairs": 0,
+      "tied_pairs_split_across_bins": 0,
+      "outside_spectral_support": 0,
+      "histogram_sum_rule_checks": [
+        {
+          "sampler": "grid64x2",
+          "maximum_sum_rule_error": 2.220446049250313e-16,
+          "file_sha256": "5ed52055d40b1122f34cd1f839fff3dbf22a8acee6945a9c2659645baf816086"
+        },
+        {
+          "sampler": "sobol19",
+          "maximum_sum_rule_error": 6.554855352483152e-08,
+          "file_sha256": "3b71bad3d3eed4c64711bd6fe0786084d1653827fffaa2e540894e92842c152a"
+        }
+      ]
+    },
+    {
+      "k_diag": 0.9,
+      "sample_points": 1048576,
+      "numerically_tied_pairs": 0,
+      "tied_pairs_split_across_bins": 0,
+      "outside_spectral_support": 0,
+      "histogram_sum_rule_checks": [
+        {
+          "sampler": "grid64x2",
+          "maximum_sum_rule_error": 1.1102230246251565e-16,
+          "file_sha256": "a588170f3e81996b7e5aae5ac765d7a3ce0dd5c0571746029682dff7ca9a40f0"
+        },
+        {
+          "sampler": "sobol19",
+          "maximum_sum_rule_error": 6.554855353524145e-08,
+          "file_sha256": "79c6ae065a145bc27c0aa5a774f651941835a1797ceb4ef130bd9eb3333203f2"
+        }
+      ]
+    },
+    {
+      "k_diag": 1.0,
+      "sample_points": 1048576,
+      "numerically_tied_pairs": 0,
+      "tied_pairs_split_across_bins": 0,
+      "outside_spectral_support": 0,
+      "histogram_sum_rule_checks": [
+        {
+          "sampler": "grid64x2",
+          "maximum_sum_rule_error": 2.220446049250313e-16,
+          "file_sha256": "49acda61f45a70faf4645a9a045f218022370e7556b486a406ca63068b99c6be"
+        },
+        {
+          "sampler": "sobol19",
+          "maximum_sum_rule_error": 6.554855353524087e-08,
+          "file_sha256": "47227f9d6b464c7b2e620217d37cda3d99efd6814c868aa63165ace019d27023"
+        }
+      ]
+    },
+    {
+      "k_diag": 1.1,
+      "sample_points": 1048576,
+      "numerically_tied_pairs": 0,
+      "tied_pairs_split_across_bins": 0,
+      "outside_spectral_support": 0,
+      "histogram_sum_rule_checks": [
+        {
+          "sampler": "grid64x2",
+          "maximum_sum_rule_error": 2.220446049250313e-16,
+          "file_sha256": "2e0fd01182c2dca55e7c1414ab1d83989539fb8a20e4dfd165c17fee93f25657"
+        },
+        {
+          "sampler": "sobol19",
+          "maximum_sum_rule_error": 6.554855354217928e-08,
+          "file_sha256": "1fb18a4d317071755cfec4897dfeb2a381294555cfef559de0e0ebd41c0ffdde"
+        }
+      ]
+    },
+    {
+      "k_diag": 1.25,
+      "sample_points": 1048576,
+      "numerically_tied_pairs": 0,
+      "tied_pairs_split_across_bins": 0,
+      "outside_spectral_support": 0,
+      "histogram_sum_rule_checks": [
+        {
+          "sampler": "grid64x2",
+          "maximum_sum_rule_error": 1.1102230246251565e-16,
+          "file_sha256": "909837899edf1356b42bcff1b3023bc9860c46ad729dda32d86a1cfbf348951a"
+        },
+        {
+          "sampler": "sobol19",
+          "maximum_sum_rule_error": 6.554855354217923e-08,
+          "file_sha256": "08ae77188f5d34f61445610e45a9efe6e472295447d9de8bf29bcb9d5de38dc1"
+        }
+      ]
+    }
+  ],
+  "seconds": 9.819914175001031,
+  "source_sha256": {
+    "analysis/resolution_execution/robustness/audit_stiffness_samples.py": "a46e675a191261b62caf4375ca574a70ec0824e33d069161290058e0bab1aa03",
+    "analysis/resolution_execution/robustness/src/model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "analysis/resolution_execution/robustness/src/on_shell_basis.py": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+    "analysis/resolution_execution/robustness/src/reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "analysis/resolution_execution/robustness/src/spectral_histogram.py": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+  },
+  "scope": "Actual original sampler points, no omitted samples; ties use the same finite-precision 64eps rule as the nodal source audit. No quadrature convergence or exact-error conclusion."
+}

@@ -1,0 +1,106 @@
+{
+  "all_pass": true,
+  "boundary_convention": "free boundary; include only declared axial and face-diagonal bulk bonds whose two endpoints lie in the finite node set; no exterior or clamped bonds",
+  "bulk_fixtures": [
+    {
+      "bonds": 24,
+      "constraints": 24,
+      "dof": 24,
+      "nullity": 6,
+      "rank": 18,
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "smallest_nonzero_singular": 0.9999999999999996
+    },
+    {
+      "bonds": 42,
+      "constraints": 42,
+      "dof": 36,
+      "nullity": 6,
+      "rank": 30,
+      "shape": [
+        3,
+        2,
+        2
+      ],
+      "smallest_nonzero_singular": 0.7071067811865477
+    },
+    {
+      "bonds": 126,
+      "constraints": 126,
+      "dof": 81,
+      "nullity": 6,
+      "rank": 75,
+      "shape": [
+        3,
+        3,
+        3
+      ],
+      "smallest_nonzero_singular": 0.8057412367762911
+    },
+    {
+      "bonds": 179,
+      "constraints": 179,
+      "dof": 108,
+      "nullity": 6,
+      "rank": 102,
+      "shape": [
+        4,
+        3,
+        3
+      ],
+      "smallest_nonzero_singular": 0.6209369800759654
+    }
+  ],
+  "combined_fixtures": [
+    {
+      "active_segments": 1,
+      "axial_translation_residual": 0.0,
+      "constraints": 15,
+      "dof": 14,
+      "nullity": 2,
+      "rank": 12,
+      "smallest_nonzero_singular": 0.6817743332745839,
+      "x_rotation_residual": 0.0
+    },
+    {
+      "active_segments": 2,
+      "axial_translation_residual": 0.0,
+      "constraints": 42,
+      "dof": 27,
+      "nullity": 2,
+      "rank": 25,
+      "smallest_nonzero_singular": 0.7142519869381074,
+      "x_rotation_residual": 0.0
+    },
+    {
+      "active_segments": 3,
+      "axial_translation_residual": 0.0,
+      "constraints": 69,
+      "dof": 40,
+      "nullity": 2,
+      "rank": 38,
+      "smallest_nonzero_singular": 0.7071067811865474,
+      "x_rotation_residual": 0.0
+    },
+    {
+      "active_segments": 4,
+      "axial_translation_residual": 0.0,
+      "constraints": 96,
+      "dof": 53,
+      "nullity": 2,
+      "rank": 51,
+      "smallest_nonzero_singular": 0.5411961001461971,
+      "x_rotation_residual": 0.0
+    }
+  ],
+  "conditional_theorem": "If the retained finite bulk is infinitesimally rigid, the scalar line is connected, and at least one complete positive four-corner/eight-link source motif is present, the combined kernel is common axial translation plus rigid bulk rotation about the line.",
+  "coordinate_order": "bulk lexicographic (x,y,z) with Cartesian components; combined fixtures order q_0...q_N then bulk lexicographic Cartesian coordinates",
+  "schema": "paper1.nullspace-fixture-registry.v6",
+  "spring_weights": "all compatibility rows normalized; positive weights do not change nullity",
+  "status": "passed",
+  "tolerance": 1e-10
+}

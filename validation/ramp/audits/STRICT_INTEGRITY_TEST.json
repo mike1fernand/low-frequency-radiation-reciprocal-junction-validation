@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "test_command": [
+    "python3",
+    "-B",
+    "test_integrity_verifier.py"
+  ],
+  "tests": 16,
+  "noncanonical_path_subcases": 6,
+  "returncode": 0,
+  "seconds": 1.0394649699992442,
+  "scope": "Integrity fixtures only; tests do not claim scientific proof re-execution. Original scientific sources untouched.",
+  "files": {
+    "verify_repository.py": "719513879dc70bd59ba8a346cc643c1b17fe3b598630d5ec457bfddc03fea32f",
+    "test_integrity_verifier.py": "ae199b732cb9a60db8755c65853a6eedbc2ef88c08b49a106f3322cf30c6cfa9"
+  },
+  "final_root_manifest_generated_by_this_task": false,
+  "full_r4_original_manifest_pin": "e9acff005ca2620b8f435bbf7243226c3075fed6077699b623ee2b6b482a582f",
+  "full_r4_regular_files": 683
+}

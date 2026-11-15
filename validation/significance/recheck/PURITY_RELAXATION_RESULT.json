@@ -1,0 +1,120 @@
+{
+  "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+  "cached_member_sha256": {
+    "on_shell_N80.npz": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5",
+    "pv_mean_M192.npy": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+  },
+  "omega": 1.2,
+  "nseg": 6,
+  "all_12_source_vectors": {
+    "radiating_rank": 12,
+    "smallest_total_eigenvalue": 1.372139171413498e-07,
+    "qL_eigen_min": 7.497847147429191e-11,
+    "maximum_relaxed_qT_share": 0.9999943460775172,
+    "minimum_relaxed_qT_share": 0.001572312211489526
+  },
+  "profiles": [
+    {
+      "name": "reference",
+      "g": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 3.9574506806456015e-07,
+        "qL_eigen_min": 5.528348679420916e-09,
+        "maximum_relaxed_qT_share": 0.9995396087878008,
+        "minimum_relaxed_qT_share": 0.18120872348945974
+      },
+      "actual_left_incident_qT": 0.12562469453379452,
+      "actual_left_incident_qL": 0.011008297868250359,
+      "actual_qT_share": 0.9194316272027604,
+      "line_reflection": 0.0035762527995269935,
+      "line_transmission": 0.8597907547854731,
+      "closure": 1.2955081452048489e-11
+    },
+    {
+      "name": "uniform",
+      "g": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 2.065100474846098e-06,
+        "qL_eigen_min": 3.6634026099622692e-09,
+        "maximum_relaxed_qT_share": 0.9995710973309909,
+        "minimum_relaxed_qT_share": 0.029924513252033588
+      },
+      "actual_left_incident_qT": 0.10757448306949649,
+      "actual_left_incident_qL": 0.010220871315037136,
+      "actual_qT_share": 0.9132319659935662,
+      "line_reflection": 0.015454752923943984,
+      "line_transmission": 0.866749892678513,
+      "closure": 1.3009482380255122e-11
+    },
+    {
+      "name": "left_heavy",
+      "g": [
+        0.4,
+        0.2,
+        0.15,
+        0.1,
+        0.1,
+        0.05
+      ],
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 7,
+        "smallest_total_eigenvalue": 2.210407666764323e-06,
+        "qL_eigen_min": 1.644858842867078e-08,
+        "maximum_relaxed_qT_share": 0.9991876457283717,
+        "minimum_relaxed_qT_share": 0.007623025518314918
+      },
+      "actual_left_incident_qT": 0.12228379285945054,
+      "actual_left_incident_qL": 0.012274791401985835,
+      "actual_qT_share": 0.908777344311702,
+      "line_reflection": 0.0649870877853811,
+      "line_transmission": 0.8004543279413464,
+      "closure": 1.1836087665528794e-11
+    },
+    {
+      "name": "sparse_endpoints",
+      "g": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "arbitrary_line_coordinate_relaxation": {
+        "radiating_rank": 4,
+        "smallest_total_eigenvalue": -4.333342374871281e-34,
+        "qL_eigen_min": -6.543738972922196e-20,
+        "maximum_relaxed_qT_share": 0.9961556136604968,
+        "minimum_relaxed_qT_share": 0.6941343586065125
+      },
+      "actual_left_incident_qT": 0.15853987038893336,
+      "actual_left_incident_qL": 0.024432193813551616,
+      "actual_qT_share": 0.8664703602703314,
+      "line_reflection": 0.055037244710750347,
+      "line_transmission": 0.7619906910731875,
+      "closure": 1.3577139412745964e-11
+    }
+  ],
+  "limits": [
+    "Exploratory evaluation of historic approximate N80 matrices; not a rigorous enclosure or update to current P1 coefficient.",
+    "qT is lower two BRANCH sum; geometric Im_T is deliberately not used as qT.",
+    "Relaxed source maximum is not proven physically attainable by positive passive profile or scalar incident state.",
+    "No infinite-lattice quadrature, production trajectory, optimization, or field-wide novelty claim executed."
+  ]
+}

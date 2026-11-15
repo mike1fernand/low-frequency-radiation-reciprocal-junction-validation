@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "preparation": {
+    "initial_open_line_energy": 3.597297830331177e-05,
+    "initial_link_energy_over_open_line_energy": 2.0502029229148537e-18,
+    "periodic_to_open_energy_ratio": 1.000000009183912,
+    "Nyquist_weight": 2.5768734723115845e-07,
+    "one_to_99_percent_omega": [
+      0.9317566688177807,
+      1.4726562160045653
+    ]
+  },
+  "trajectory": {
+    "reporting_window": [
+      52.800000000000004,
+      55.4
+    ],
+    "samples_in_window": 14,
+    "qT_allocation_interval": [
+      0.12762638643388616,
+      0.12762638738500592
+    ],
+    "direct_qT_fraction": 0.12762638690944605,
+    "qT_fraction_of_periodic_bulk": 0.9186483639531794,
+    "periodic_bulk_fraction": 0.13892844304455843,
+    "max_current_relative_residual_percent": 0.029679908536373034,
+    "max_fullstep_energy_drift_fraction": 3.541669276352873e-07,
+    "postselection_total_six_face_shell_fraction": 0.0018578390188481795,
+    "coarsened_window": [
+      52.800000000000004,
+      55.2
+    ],
+    "coarse_window_change_percent": 0.0074861563031269895,
+    "common_interval_cadence_change_percent": 8.15846083912497e-05,
+    "three_step_sizes_qT_relative_span_percent": 0.001603505166328581,
+    "fixed_window_larger_box_qT_change_percent": 0.0439835660561716,
+    "fixed_window_larger_box_qL_change_percent": 0.7937836527897701,
+    "larger_box_open_energy_and_current_relative_changes": {
+      "T_bulk_open": 4.377688767043253e-08,
+      "T_current": 2.063695447862557e-08
+    }
+  },
+  "stationary": {
+    "central_frequencies": 14,
+    "periodic_packet_energy_covered": 0.9996834927581062,
+    "weighted_in_band_contributions": {
+      "surface_128": 0.12768113293380565,
+      "surface_160": 0.12767301846182993,
+      "tetra_96": 0.12756756192214755,
+      "tetra_128": 0.12759466873725295,
+      "tetra_160": 0.12760941962540592
+    },
+    "surface_tail_only_range": [
+      0.12767301846182993,
+      0.1279895257037238
+    ],
+    "fraction_difference_in_percentage_points": 0.004663155238388006,
+    "prediction_normalized_difference_percent": 0.036524202956650056,
+    "two_method_difference_percent": 0.06136748822963803
+  },
+  "figure_6a_original_curve_points_matched": 46,
+  "scope": "DFT preparation reconstructed; reference calculations reanalysed from original step and snapshot reductions. Optional trajectory reproduction and independent Fourier projection have a separate receipt."
+}

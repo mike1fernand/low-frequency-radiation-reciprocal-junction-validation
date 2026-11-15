@@ -1,0 +1,647 @@
+{
+  "purpose": "Present-file provenance and explicit historical gaps; not reconstructed historical metadata or new physical validation.",
+  "inventory_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "historical_settings_policy": "Unknown fields remain null. Future regenerated kernels must receive their own source hash, settings, environment and run record; they must not be labelled as the original historical run.",
+  "current_source_and_control_hashes": {
+    "input/p1solver.py": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6",
+    "input/build_g0.py": "1ce65df02da77beadc11e2ba9aaf60f7d3943917af0e3c03a899070bbcc122e0",
+    "input/rev/build_g0_freq.py": "eabc006abf8142a336d6727f6c6c63aff839266d4ee5f0353e76d7ca4f16830c",
+    "input/rev/alpha_solver.py": "c8e9039f3c809e1896faff0ceb36c9f339fecd41aa28deb4c77c96606ebdc386",
+    "controls/paper1_main.tex": "de18909953cd48e9828af791d7c755cdf63eefc84d3b6ce9c4d22151de3d36b0",
+    "controls/paper1_supplement.tex": "e4cf3a1573c3583bab964eccb0e5b93b266aa635cd08926e766b10c9e47f6186",
+    "controls/Prediction_Findings_2026-09-26_R2.md": "b0b5d15565d0d2ab4f1fb729ad07cfee66cb64fdfd409a74f3101b33908e99ac",
+    "controls/Prediction_Assessment_Plan_2026-09-26.md": "285ff5592e13bedccb5e0e3f2ea1952b7f473bc89c08809b5d99cc393c06d231",
+    "controls/Backward_Emission_Prediction_Audit_2026-09-27.md": "02c4b137607904deb08eab402d491d8c2289c13730f766403988a35e6d8b219e",
+    "portable_checks/comparison_inputs/FINAL_SCREEN.json": "4b5da237ca9fe53908e41012d69c99811575c40e7b95218cab49f0379ae3398a",
+    "portable_checks/comparison_inputs/cone_results.csv": "89745f8626e4cf7921f8c13e6512bd5411c5673dc9764e086d79e1b3b9117a8d"
+  },
+  "kernels": [
+    {
+      "path": "input/rev/g0_0.4.npz",
+      "sha256": "ae7d9ea30d9eb86c2c63f516d0c28f44e87ca832f42f53e4c1a30ffb3ef926d1",
+      "embedded_frequency": 0.4,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048,
+        4096
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3",
+        "c0_4096_deg2",
+        "c0_4096_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "c0_4096_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_4096_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ],
+        "scan_4096": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/rev/g0_0.8.npz",
+      "sha256": "ae927e3ce001304b5016f450cee95a5ddd11d38327c5a71661e25361a74473ee",
+      "embedded_frequency": 0.8,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/rev/g0_1.1125.npz",
+      "sha256": "fd10c993e2c105ad07326bf6ec3d5ff37a4c22fc0a359b2d1d3f7e100933dabe",
+      "embedded_frequency": 1.1125,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/rev/g0_1.2375.npz",
+      "sha256": "7a42277e3dae6849b740cfa969938d3e3d7abc5c3a82305857b72c3320a0d103",
+      "embedded_frequency": 1.2375,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/rev/g0_1.29.npz",
+      "sha256": "789cb3c3c727c460c22abb3e814df8f7f093063d5dffcb553bc37ceb8e2ae86d",
+      "embedded_frequency": 1.29,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/rev/g0_1.3.npz",
+      "sha256": "9a559fcd624f523f0e0d616ad3e00c3c916f76854462009209b3fab33dd1a959",
+      "embedded_frequency": 1.3,
+      "embedded_nmax": 6,
+      "embedded_epsilon_values": [
+        0.006,
+        0.008,
+        0.012,
+        0.016,
+        0.024
+      ],
+      "grid_sizes_from_array_keys": [
+        2048,
+        4096
+      ],
+      "fit_labels_from_array_keys": [
+        "c0_2048_deg2",
+        "c0_2048_deg3",
+        "c0_4096_deg2",
+        "c0_4096_deg3"
+      ],
+      "shell_labels_from_array_keys": [
+        "ImL_160",
+        "ImL_240",
+        "ImT_160",
+        "ImT_240"
+      ],
+      "array_shapes": {
+        "ImL_160": [
+          11,
+          2,
+          2
+        ],
+        "ImL_240": [
+          11,
+          2,
+          2
+        ],
+        "ImT_160": [
+          11,
+          2,
+          2
+        ],
+        "ImT_240": [
+          11,
+          2,
+          2
+        ],
+        "c0_2048_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_2048_deg3": [
+          6,
+          2,
+          2
+        ],
+        "c0_4096_deg2": [
+          6,
+          2,
+          2
+        ],
+        "c0_4096_deg3": [
+          6,
+          2,
+          2
+        ],
+        "eps": [
+          5
+        ],
+        "nmax": [],
+        "omega": [],
+        "scan_2048": [
+          5,
+          6,
+          2,
+          2
+        ],
+        "scan_4096": [
+          5,
+          6,
+          2,
+          2
+        ]
+      },
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "metadata_limit": "Stored settings and array labels are recorded literally; current code and log agreement do not establish an original-run source hash or environment."
+    },
+    {
+      "path": "input/eps_scan_n48.npy",
+      "sha256": "fe2229ea57d4dbbec2b59889c5fdc5772b077fe2a0720d57b68bc5a7dcf855ef",
+      "embedded_frequency": null,
+      "frequency_from_filename_or_loader": 1.2,
+      "frequency_source": "Filename and current reference loader; no embedded frequency field.",
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "historical_shell_angular_settings": null,
+      "historical_radial_solver_settings": null,
+      "unknown_fields_are_unresolved": true,
+      "scan_labels_epsilon_grid": [
+        [
+          0.004,
+          1536
+        ],
+        [
+          0.004,
+          2048
+        ],
+        [
+          0.006,
+          1536
+        ],
+        [
+          0.006,
+          2048
+        ],
+        [
+          0.008,
+          1536
+        ],
+        [
+          0.008,
+          2048
+        ],
+        [
+          0.012,
+          1536
+        ],
+        [
+          0.012,
+          2048
+        ],
+        [
+          0.016,
+          1536
+        ],
+        [
+          0.016,
+          2048
+        ],
+        [
+          0.024,
+          1536
+        ],
+        [
+          0.024,
+          2048
+        ]
+      ],
+      "array_shapes": {
+        "(0.004, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.004, 2048)": [
+          48,
+          2,
+          2
+        ],
+        "(0.006, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.006, 2048)": [
+          48,
+          2,
+          2
+        ],
+        "(0.008, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.008, 2048)": [
+          48,
+          2,
+          2
+        ],
+        "(0.012, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.012, 2048)": [
+          48,
+          2,
+          2
+        ],
+        "(0.016, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.016, 2048)": [
+          48,
+          2,
+          2
+        ],
+        "(0.024, 1536)": [
+          48,
+          2,
+          2
+        ],
+        "(0.024, 2048)": [
+          48,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "path": "input/onshell_w1.2_n48.npy",
+      "sha256": "0edbbc76505b352571209125530c9c41537093f5aa8b27af9c84c722f8e650b5",
+      "embedded_frequency": null,
+      "frequency_from_filename_or_loader": 1.2,
+      "frequency_source": "Filename and current reference loader; no embedded frequency field.",
+      "historical_source_hash": null,
+      "historical_environment": null,
+      "historical_shell_angular_settings": null,
+      "historical_radial_solver_settings": null,
+      "unknown_fields_are_unresolved": true,
+      "embedded_nmax": 48,
+      "stored_fields": [
+        "L",
+        "T",
+        "nmax"
+      ],
+      "array_shapes": {
+        "T": [
+          95,
+          2,
+          2
+        ],
+        "L": [
+          95,
+          2,
+          2
+        ]
+      }
+    }
+  ]
+}

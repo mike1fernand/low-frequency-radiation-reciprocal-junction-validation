@@ -1,0 +1,50 @@
+{
+  "archive": "Paper1_736_Full_Validations_2026-11-08.zip",
+  "archive_sha256": "d26193212f0c9b4649d61d409bf4794cea3a6d92dd68a16206d46882c0b47286",
+  "members": {
+    "CANDIDATE_PACKET_BOX80_RESULT.json": {
+      "archive_member": "paper1-736-full-validation/packet/CANDIDATE_PACKET_BOX80_RESULT.json",
+      "sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f"
+    },
+    "CANDIDATE_PACKET_RESULT.json": {
+      "archive_member": "paper1-736-full-validation/packet/CANDIDATE_PACKET_RESULT.json",
+      "sha256": "d6c092eeff512879c592bad6fd508b4af8be61ead8ff0ab50f5ed8d26552cc4f"
+    },
+    "CONTROL_DT002_BOX80_RESULT.json": {
+      "archive_member": "paper1-736-full-validation/packet/CONTROL_DT002_BOX80_RESULT.json",
+      "sha256": "02a6758a4c2b53a1b7c164144b52f06223b570c20be240a875b460a33cbdca5d"
+    },
+    "CONTROL_DT004_BOX96_RESULT.json": {
+      "archive_member": "paper1-736-full-validation/packet/CONTROL_DT004_BOX96_RESULT.json",
+      "sha256": "847407288772bc2550d1391726f3d028162441432738e77b5fb9b4c6154e2bd3"
+    },
+    "initial_qv.txt": {
+      "archive_member": "paper1-736-full-validation/packet/initial_qv.txt",
+      "sha256": "300b6f9a089f0a6b62fabf61f1b9e4679e238a3f9d9838c80278409440d2d4fd"
+    },
+    "evolve_candidate.cpp": {
+      "archive_member": "paper1-736-full-validation/packet/evolve_candidate.cpp",
+      "sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542"
+    },
+    "analyze_candidate.py": {
+      "archive_member": "paper1-736-full-validation/packet/analyze_candidate.py",
+      "sha256": "6c890abaf312bfafa082b2e99f61075ce9e720f5c6fc7fb98434472f7a800fc8"
+    },
+    "configuration.json": {
+      "archive_member": "paper1-736-full-validation/packet/candidate_dt004_box80/configuration.json",
+      "sha256": "57dd89b7845ecde52159767a2b6f58f74da0b363c84c6127d21ef4d6720ee10d"
+    },
+    "PACKET_SPECTRUM.json": {
+      "archive_member": "paper1-736-full-validation/packet_spectrum/PACKET_SPECTRUM.json",
+      "sha256": "b0180bf8ba75859e916c8d008c55c5f7651f5415923efe1f6f0c8e74f424f812"
+    },
+    "check_box80_analysis.py": {
+      "archive_member": "paper1-736-full-validation/packet_review/check_box80_analysis.py",
+      "sha256": "9515e49994703dcf9939b210cc82e6d519430a89b1f4759c90deb9e407e687ef"
+    },
+    "RAW_DELIVERY_SCOPE.json": {
+      "archive_member": "paper1-736-full-validation/RAW_DELIVERY_SCOPE.json",
+      "sha256": "70a8bddf68d0a39ead31fc9ef62d5d3f95496918ca1c6d9846655b7142456bcd"
+    }
+  }
+}

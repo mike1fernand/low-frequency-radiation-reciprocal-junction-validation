@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "compact_replays": {
+    "PACKET_REFERENCE": {
+      "sha256": "39705421c351baf07da79faa3022125262ddb624cf5771b7557fc942cba6db24",
+      "matches_release_and_followup_byte_for_byte": true
+    },
+    "RAMP_PACKET": {
+      "sha256": "66e34fdb6c8df39338381979263af088008bcd922c8a02a8186a9a5c7151d868",
+      "matches_release_and_followup_byte_for_byte": true
+    },
+    "VIII_CERTIFICATES": {
+      "sha256": "6fd0d4c033d3ce5b2e9c09f55c52f39aaabbd74e202af0257fb7f8a743776074",
+      "matches_release_and_followup_byte_for_byte": true
+    }
+  },
+  "archived_primary_integrations": {
+    "REFERENCE_FULL_REPLAY": {
+      "sha256": "9e1f2670be6e674cf47898d3f92fa34cf6d8c95baa7b57071cac7d3667fcba7d",
+      "existing_full_rerun_steps": 1425,
+      "full_rerun_recorded_matching_raw_hashes": true,
+      "fresh_compact_reanalysis_qT_midpoint_fraction_of_initial_line_energy": 0.12762638690944605
+    },
+    "RAMP_DYNAMIC_REPLAY": {
+      "sha256": "76840c5f85e6b38a10096c8201e3e7d8260ed0ca76c867d29cb47c88ea2b98f5",
+      "existing_full_rerun_steps": 1650,
+      "full_rerun_recorded_matching_raw_hashes": true,
+      "fresh_compact_reanalysis_qT_midpoint_fraction_of_initial_line_energy": 0.7164564184629316
+    }
+  },
+  "stationary_bounds": {
+    "quantity": "Cycle-averaged power radiated into both quasi-transverse bulk branches, summed over outgoing directions, divided by incident line power.",
+    "omega": 1.2,
+    "variation": "For each of the six motifs at either profile, all eight springs share one per-spring stiffness. The six factors vary independently and simultaneously in [0.95, 1.05] relative to the respective nominal values. Bare media, geometry and support fixed.",
+    "reference_floor_strict": 0.1037,
+    "ramp_floor_strict": 0.6905,
+    "ramp_nominal_outer_open_interval": [
+      0.732166,
+      0.739652
+    ],
+    "proof_inputs": "Retained contour-job ledger and interval kernel enclosures with recalculation of certificate endpoints. No fresh 222-job contour integration."
+  },
+  "packet_scope": "Reconstructed packet inputs/weights and reprocessed retained diagnostics with shipped scripts; prior separate primary full-integration receipts match these outputs. Auxiliary control time evolutions were not regenerated during the present review."
+}

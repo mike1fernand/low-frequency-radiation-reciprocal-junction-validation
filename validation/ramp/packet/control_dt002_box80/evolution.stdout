@@ -1,0 +1,2 @@
+{"status":"PASS","start_step":0,"target_step":3210,"N":120,"H":40,"dofs":576120,"nonzeros":10680910,"dt":0.02,"weighted_reciprocity_max_abs":0,"gershgorin_omega2_upper":18.285714285714285,"dt_omega_upper":0.085523597411975807,"independent_spring_energy_relative_difference":7.7299536424027584e-14,"assembly_seconds":2.5708856019991799,"evolution_seconds":18.983660991998477,"sampled_max_relative_energy_drift":1.0357740867088126e-05}
+

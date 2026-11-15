@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "scope": "Static concavity with actual motif blocks and synthetic SPD compliance; no physical bulk/scattering calculation",
+  "cases": [
+    {
+      "motifs": 1,
+      "compliance_scale": 0.2,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 1.0548803695829885,
+      "profile_static_gap": 1.0548803695829885
+    },
+    {
+      "motifs": 1,
+      "compliance_scale": 0.2,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 1.0548803695829885,
+      "profile_static_gap": 1.0548803695829885
+    },
+    {
+      "motifs": 1,
+      "compliance_scale": 1.0,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 0.579961349651286,
+      "profile_static_gap": 0.579961349651286
+    },
+    {
+      "motifs": 1,
+      "compliance_scale": 1.0,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 0.579961349651286,
+      "profile_static_gap": 0.579961349651286
+    },
+    {
+      "motifs": 1,
+      "compliance_scale": 3.0,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 0.2741085609285149,
+      "profile_static_gap": 0.2741085609285149
+    },
+    {
+      "motifs": 1,
+      "compliance_scale": 3.0,
+      "profile": [
+        1.0
+      ],
+      "min_concavity_slack_eigenvalue": 0.0,
+      "max_concavity_slack_eigenvalue": 0.0,
+      "minimum_vertex_static_gap": 0.2741085609285149,
+      "profile_static_gap": 0.2741085609285149
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.06088785802719021,
+      "max_concavity_slack_eigenvalue": 0.18179657726799853,
+      "minimum_vertex_static_gap": 0.5637253292535185,
+      "profile_static_gap": 0.7630076860194343
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.05303963347982096,
+      "max_concavity_slack_eigenvalue": 0.16223397493515707,
+      "minimum_vertex_static_gap": 0.5637253292535185,
+      "profile_static_gap": 0.738273361245771
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.06088785802719021,
+      "max_concavity_slack_eigenvalue": 0.18179657726799853,
+      "minimum_vertex_static_gap": 0.5637253292535185,
+      "profile_static_gap": 0.7630076860194343
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.09606440289877735,
+      "max_concavity_slack_eigenvalue": 0.2550822344553824,
+      "minimum_vertex_static_gap": 0.3426039586127656,
+      "profile_static_gap": 0.5193464394817654
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.08199328338893049,
+      "max_concavity_slack_eigenvalue": 0.2344725902883497,
+      "minimum_vertex_static_gap": 0.3426039586127656,
+      "profile_static_gap": 0.50080747108373
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.09606440289877735,
+      "max_concavity_slack_eigenvalue": 0.2550822344553824,
+      "minimum_vertex_static_gap": 0.3426039586127656,
+      "profile_static_gap": 0.5193464394817654
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.062316658198340716,
+      "max_concavity_slack_eigenvalue": 0.18125518644912608,
+      "minimum_vertex_static_gap": 0.17291685076965457,
+      "profile_static_gap": 0.29299870696413005
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.053821498148362915,
+      "max_concavity_slack_eigenvalue": 0.17228520324170837,
+      "minimum_vertex_static_gap": 0.17291685076965457,
+      "profile_static_gap": 0.2846832923026029
+    },
+    {
+      "motifs": 2,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.5,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": 0.062316658198340716,
+      "max_concavity_slack_eigenvalue": 0.18125518644912608,
+      "minimum_vertex_static_gap": 0.17291685076965457,
+      "profile_static_gap": 0.29299870696413005
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.039540416230632286,
+      "max_concavity_slack_eigenvalue": 0.1196264049948472,
+      "minimum_vertex_static_gap": 0.09699859908115592,
+      "profile_static_gap": 0.35692989566949357
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.047619047619047616,
+        0.09523809523809523,
+        0.14285714285714285,
+        0.19047619047619047,
+        0.23809523809523808,
+        0.2857142857142857
+      ],
+      "min_concavity_slack_eigenvalue": 0.018002514875765853,
+      "max_concavity_slack_eigenvalue": 0.14823981083670562,
+      "minimum_vertex_static_gap": 0.09699859908115592,
+      "profile_static_gap": 0.28385314378137794
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 0.2,
+      "profile": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": -1.4287300470311013e-17,
+      "max_concavity_slack_eigenvalue": 0.09300667439505722,
+      "minimum_vertex_static_gap": 0.09699859908115592,
+      "profile_static_gap": 0.27727570618331737
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.08688907345646793,
+      "max_concavity_slack_eigenvalue": 0.19816532324774067,
+      "minimum_vertex_static_gap": 0.0784487414083614,
+      "profile_static_gap": 0.30196382200351024
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.047619047619047616,
+        0.09523809523809523,
+        0.14285714285714285,
+        0.19047619047619047,
+        0.23809523809523808,
+        0.2857142857142857
+      ],
+      "min_concavity_slack_eigenvalue": 0.03689353603608383,
+      "max_concavity_slack_eigenvalue": 0.23763751434168803,
+      "minimum_vertex_static_gap": 0.0784487414083614,
+      "profile_static_gap": 0.24879007689929108
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 1.0,
+      "profile": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": -8.190253250245169e-19,
+      "max_concavity_slack_eigenvalue": 0.11386860676372226,
+      "minimum_vertex_static_gap": 0.0784487414083614,
+      "profile_static_gap": 0.20246514153287987
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "min_concavity_slack_eigenvalue": 0.07516199709600649,
+      "max_concavity_slack_eigenvalue": 0.17900241063361716,
+      "minimum_vertex_static_gap": 0.05262503158349292,
+      "profile_static_gap": 0.2210954487360472
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.047619047619047616,
+        0.09523809523809523,
+        0.14285714285714285,
+        0.19047619047619047,
+        0.23809523809523808,
+        0.2857142857142857
+      ],
+      "min_concavity_slack_eigenvalue": 0.03915345274316557,
+      "max_concavity_slack_eigenvalue": 0.19693234591620956,
+      "minimum_vertex_static_gap": 0.05262503158349292,
+      "profile_static_gap": 0.19149396570774646
+    },
+    {
+      "motifs": 6,
+      "compliance_scale": 3.0,
+      "profile": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "min_concavity_slack_eigenvalue": -5.6136830904269856e-18,
+      "max_concavity_slack_eigenvalue": 0.0920510218392891,
+      "minimum_vertex_static_gap": 0.05262503158349292,
+      "profile_static_gap": 0.12078931189176717
+    }
+  ],
+  "weak_total_coupling_adverse_control": [
+    {
+      "total_strength": 0.1,
+      "static_gap": 0.03709298245313984
+    },
+    {
+      "total_strength": 0.01,
+      "static_gap": 0.0037992037889664682
+    },
+    {
+      "total_strength": 0.001,
+      "static_gap": 0.0003808488704915361
+    }
+  ],
+  "input_hashes": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+  },
+  "source_hash": "b1c3d5f70204d3facc04db71152e0649a989e22cc64d1ecc0de853775d678741",
+  "certification": "Floating-point diagnostics; no physical static gap or finite-frequency accuracy window inferred"
+}

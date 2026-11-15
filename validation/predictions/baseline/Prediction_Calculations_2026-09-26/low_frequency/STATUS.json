@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "derivation": "independent_math/LOW_FREQUENCY_DERIVATION.md",
+  "report": "LOW_FREQUENCY_RESULT.md",
+  "reproduce": "REPRODUCE.md",
+  "main_rows": 70,
+  "frequencies": [
+    0.00078125,
+    0.0015625,
+    0.003125,
+    0.00625,
+    0.0125,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "fresh_grid_checks_completed": true,
+  "independent_spherical_shell_completed": true,
+  "independent_complex_contour_completed": true,
+  "augmented_solve_completed": true,
+  "held_out_profiles_completed": true,
+  "X_only_R_only_controls_completed": true,
+  "max_main_closure_abs": 1.1102230246251565e-15,
+  "max_validation_spherical_cluster_relative": 1.1256237907286076e-08,
+  "max_main_refined_qT_relative": 1.3028531018949466e-09,
+  "max_contour_relative": 4.467179363419314e-10,
+  "remaining_work": "none within low-frequency execution scope; literature significance adjudicated separately",
+  "known_limits": [
+    "No rigorous numerical enclosure",
+    "No individual lower-branch quadrature accuracy claim",
+    "No continuum a->0 limit",
+    "No fixed-physical-radius or infinite-contact uniform theorem",
+    "Smallest frequency at s=.001 still crosses over; no fixed-s asymptotic numerical claim for that row",
+    "No new packet or material experiment"
+  ]
+}

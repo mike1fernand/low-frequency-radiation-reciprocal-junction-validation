@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "model": "transparent seven-site scalar device between identical leads",
+  "dimensionless_wavenumbers": [
+    0.13,
+    0.57,
+    1.31,
+    2.63
+  ],
+  "bonds_per_case": 6,
+  "incoming_Caroli_displacement_magnitude": "1/sqrt(gamma_q)",
+  "Caroli_power": "omega/4",
+  "amplitude_factor_for_unit_incident_power": "2/sqrt(omega)",
+  "max_unit_power_absolute_error": 4.440892098500626e-16
+}

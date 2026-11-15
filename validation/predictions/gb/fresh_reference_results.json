@@ -1,0 +1,236 @@
+[
+  {
+    "Nperp": 384,
+    "omega": 1.2,
+    "eta": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "shift": [
+      0.5,
+      0.5
+    ],
+    "regulator": "z=(omega+i*eta)^2",
+    "kernels": [
+      {
+        "file": "fresh_G_N384_eta0.01.npz",
+        "seconds": 0.7689073085784912,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 6.754251345676379e-07
+        }
+      },
+      {
+        "file": "fresh_G_N384_eta0.005.npz",
+        "seconds": 0.7527661323547363,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 1.338281726997488e-07
+        }
+      },
+      {
+        "file": "fresh_G_N384_eta0.0025.npz",
+        "seconds": 0.7638742923736572,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 5.078261604774425e-07
+        }
+      }
+    ],
+    "residue": {
+      "file": "fresh_residue_N384.npz",
+      "seconds": 0.8582663536071777,
+      "stats": {
+        "n_prop": 21794,
+        "n_fallback": 0,
+        "min_absv": 0.025885946357567743,
+        "max_resid": 4.081683685343556e-07
+      }
+    },
+    "results": {
+      "low_pair_linear_richardson": {
+        "Rq": 0.0036147606460718937,
+        "Tq": 0.8593304655026625,
+        "Tbulk": 0.13705477383831696,
+        "closure": 1.2948642158505663e-11,
+        "partials": {
+          "qL": 0.010984844397579381,
+          "qT": 0.12606992944073758
+        }
+      },
+      "three_point_quadratic": {
+        "Rq": 0.003625489473221952,
+        "Tq": 0.8592183782550702,
+        "Tbulk": 0.13715613225876136,
+        "closure": 1.2946532734758875e-11,
+        "partials": {
+          "qL": 0.010979299634935442,
+          "qT": 0.1261768326238259
+        }
+      }
+    }
+  },
+  {
+    "Nperp": 768,
+    "omega": 1.2,
+    "eta": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "shift": [
+      0.5,
+      0.5
+    ],
+    "regulator": "z=(omega+i*eta)^2",
+    "kernels": [
+      {
+        "file": "fresh_G_N768_eta0.01.npz",
+        "seconds": 2.9774506092071533,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 5.620607476000415e-09
+        }
+      },
+      {
+        "file": "fresh_G_N768_eta0.005.npz",
+        "seconds": 2.992696523666382,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 8.660950349535687e-09
+        }
+      },
+      {
+        "file": "fresh_G_N768_eta0.0025.npz",
+        "seconds": 3.0266194343566895,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 1.5917235088220756e-08
+        }
+      }
+    ],
+    "residue": {
+      "file": "fresh_residue_N768.npz",
+      "seconds": 3.0631184577941895,
+      "stats": {
+        "n_prop": 87188,
+        "n_fallback": 0,
+        "min_absv": 0.007287473051230807,
+        "max_resid": 1.333360864128581e-08
+      }
+    },
+    "results": {
+      "low_pair_linear_richardson": {
+        "Rq": 0.003571064784814905,
+        "Tq": 0.8597767017304768,
+        "Tbulk": 0.13665223347175295,
+        "closure": 1.2955303496653414e-11,
+        "partials": {
+          "qL": 0.011022016851421616,
+          "qT": 0.12563021662033133
+        }
+      },
+      "three_point_quadratic": {
+        "Rq": 0.0035714830600115923,
+        "Tq": 0.8597750546958326,
+        "Tbulk": 0.13665346223120078,
+        "closure": 1.2955081452048489e-11,
+        "partials": {
+          "qL": 0.011021732827402741,
+          "qT": 0.12563172940379805
+        }
+      }
+    }
+  },
+  {
+    "Nperp": 1536,
+    "omega": 1.2,
+    "eta": [
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "shift": [
+      0.5,
+      0.5
+    ],
+    "regulator": "z=(omega+i*eta)^2",
+    "kernels": [
+      {
+        "file": "fresh_G_N1536_eta0.01.npz",
+        "seconds": 12.997798442840576,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 5.980093881033234e-08
+        }
+      },
+      {
+        "file": "fresh_G_N1536_eta0.005.npz",
+        "seconds": 11.424968719482422,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 1.0651842147768761e-07
+        }
+      },
+      {
+        "file": "fresh_G_N1536_eta0.0025.npz",
+        "seconds": 11.409825086593628,
+        "stats": {
+          "n_prop": 0,
+          "n_fallback": 0,
+          "min_absv": null,
+          "max_resid": 3.761036047456399e-08
+        }
+      }
+    ],
+    "residue": {
+      "file": "fresh_residue_N1536.npz",
+      "seconds": 12.806419610977173,
+      "stats": {
+        "n_prop": 348808,
+        "n_fallback": 0,
+        "min_absv": 0.010716178184322245,
+        "max_resid": 6.50861976030964e-08
+      }
+    },
+    "results": {
+      "low_pair_linear_richardson": {
+        "Rq": 0.0035698119643638566,
+        "Tq": 0.859775956719614,
+        "Tbulk": 0.13665423130306778,
+        "closure": 1.2954304295931252e-11,
+        "partials": {
+          "qL": 0.011023469009969384,
+          "qT": 0.12563076229309836
+        }
+      },
+      "three_point_quadratic": {
+        "Rq": 0.003569825941349824,
+        "Tq": 0.8597747946793307,
+        "Tbulk": 0.13665537936636465,
+        "closure": 1.2954859407443564e-11,
+        "partials": {
+          "qL": 0.01102343350210492,
+          "qT": 0.12563194586425974
+        }
+      }
+    }
+  }
+]

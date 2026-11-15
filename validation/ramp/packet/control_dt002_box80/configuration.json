@@ -1,0 +1,104 @@
+{
+  "N_line": 120,
+  "bulk_shape": [
+    120,
+    80,
+    80,
+    3
+  ],
+  "quarter_shape": [
+    120,
+    40,
+    40,
+    3
+  ],
+  "profile": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "frequency_carrier": 1.2,
+  "carrier_k": 0.9594572753515055,
+  "amplitude": 0.002,
+  "gaussian_sigma": 7.0,
+  "center_index": 18,
+  "contact_segments": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "dt": 0.02,
+  "target_final_step": 3210,
+  "target_time": 64.2,
+  "save_cadence": 0.2,
+  "snapshot_start": 48.0,
+  "initial_open_line_energy": 3.5972978303311774e-05,
+  "initial_contact_energy": 1.064211764392121e-22,
+  "initial_contact_over_line": 2.958364346201901e-18,
+  "scalar_line_stiffness": 1.69,
+  "masses": 1.0,
+  "bulk_axis_and_face_stiffness": 1.0,
+  "B_plus": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      -1
+    ]
+  ],
+  "boundary": "Allphysicalouterboundariesfree;noaxialortransversewrapbonds. Onlyexact y/zreflectionreduction;noaxialreflections.",
+  "checkpoint": "Binarycompletequarterbulk+fullline x/v atintegralVerletstep, time,dt,profile,Bplus,constants,cumulativecurrent,lastJ,initialH; reconstructfullbulkexactlybyrecordedtransversereflections.",
+  "source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+  "binary_sha256": "908294be68c9d4e796ed337e5f6a55848588f65766b161e3371fd4154850d620",
+  "initial_arrays_sha256": "0647507ffb0ee269abeb53d52c016c8f2c1377c710f7b4171cf2ea895b66dc96",
+  "numerical_control_name": "control_dt002_box80",
+  "frozen_window": [
+    57.4,
+    64.2
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "branch": 1,
+  "checks": {
+    "cluster_bound": true,
+    "optimization_success": true,
+    "regular_positive_witness": true,
+    "shell_residual": true
+  },
+  "producer_contract": {
+    "contains_timestamps": false,
+    "deterministic_inputs": true,
+    "external_reproduction_claim": false,
+    "fixed_random_seeds": [
+      20260823,
+      20260824
+    ]
+  },
+  "results": {
+    "cluster_leak": {
+      "cluster_leak": 0.0012410455173473825,
+      "gap": 2.6044770814379365,
+      "group_speed": 0.8628957313285921,
+      "k": [
+        0.4812590760164384,
+        1.2584590335629618e-11,
+        -1.1662658302397382
+      ],
+      "nfev": 3427,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.0006206653112889122,
+      "raw_objective": -0.0012410455173473825,
+      "shell_residual": 4.440892098500626e-16,
+      "success": true
+    },
+    "own": {
+      "cluster_leak": 0.0006535746015998157,
+      "gap": 2.629864870096247,
+      "group_speed": 0.8747528060395644,
+      "k": [
+        0.2511793649035769,
+        0.2511796086201531,
+        -1.2042049246290971
+      ],
+      "nfev": 1923,
+      "optimizer_message": "Optimization terminated successfully.",
+      "own": 0.0006535746015997702,
+      "raw_objective": -0.0006535746015997702,
+      "shell_residual": 6.661338147750939e-16,
+      "success": true
+    }
+  },
+  "schema": "paper1.p04.shell-check.v1",
+  "status": "passed",
+  "witness": {
+    "full_normalized_overlap": 0.7298074130954296,
+    "full_overlap_sq": 3.4958464021204416,
+    "group_speed": 0.8957746536880795,
+    "k": [
+      0.8807183236959493,
+      0.21703145119419856,
+      -0.8514466270114215
+    ],
+    "lower_gap": 0.015966688729755374,
+    "radial_normalized_overlap": 0.49862466186805227,
+    "radial_overlap_sq": 0.13279010258875695,
+    "shell_residual": 6.661338147750939e-16,
+    "source_definition": "complete bare finite-slab X+R line-driven source; radial component also reported",
+    "upper_gap": 2.4136860886672995
+  }
+}

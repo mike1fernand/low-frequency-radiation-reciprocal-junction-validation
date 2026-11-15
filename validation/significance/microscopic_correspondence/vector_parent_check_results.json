@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Declared microscopic mechanical parent, one actual P1 motif; static and finite-dimensional harmonic checks only",
+  "nodes": 6,
+  "full_displacement_dofs": 18,
+  "invariant_displacement_dofs": 4,
+  "group_elements": 8,
+  "contact_stiffness": 0.2,
+  "mass_fixture": {
+    "line": 1.7,
+    "bulk": 0.8
+  },
+  "max_hessian_covariance_error": 0.0,
+  "fixed_projector_error": 2.7755575615628914e-17,
+  "excluded_sector_hessian_leakage": 1.0408340855860843e-17,
+  "actual_P1_reduced_contact_block_error": 1.1102230246251565e-16,
+  "canonical_pullback_error": 1.1102230246251565e-16,
+  "finite_harmonic_flow_error": 2.220446049250313e-16,
+  "arbitrary_bulk_transverse_line_force_norm": 0.1333333333333334,
+  "limitations": [
+    "No infinite-bulk radiation coefficient or scattering state computed",
+    "Not a derivation of graph, masses or stiffnesses from homogeneous H18/DST",
+    "No finite-amplitude error bound for nonlinear radial parent",
+    "Scalar vector-line sector requires C4v-invariant prepared state; arbitrary bulk is excluded"
+  ],
+  "source_hashes": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+  }
+}

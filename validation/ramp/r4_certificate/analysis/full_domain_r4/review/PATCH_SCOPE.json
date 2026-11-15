@@ -1,0 +1,10 @@
+{
+  "status": "conditional_proposal_not_applied",
+  "authority_candidate": "pass18-numerical-correction-rc4",
+  "main_whitespace_token_change": -10,
+  "supplement_whitespace_token_change": 176,
+  "required_gate": "Complete integral enclosures, both original actual-cache operator bounds, exact-Q PSD and fresh original bridge replay must pass before application.",
+  "physical_numerics_changed": false,
+  "patch_dry_run_passed": true,
+  "latex_build_performed": false
+}

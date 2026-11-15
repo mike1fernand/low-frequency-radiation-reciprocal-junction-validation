@@ -1,0 +1,32 @@
+{
+  "integral_fine.json": {
+    "archive": "Prediction_Calculations_2026-09-26.zip",
+    "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integral_fine.json",
+    "sha256": "55b3f7f7494751c59787103b20fcce861bbd889945aa1544fa9db1e20c90dd52"
+  },
+  "INDEPENDENT_ANGULAR_CHECK.json": {
+    "archive": "Prediction_Calculations_2026-09-26.zip",
+    "member": "Prediction_Calculations_2026-09-26/angular_audit/INDEPENDENT_ANGULAR_CHECK.json",
+    "sha256": "4f80110a6e13a233b4c226dd9537925df5191ae7b2d750f8528ca037e0210e61"
+  },
+  "interference_reaudit.json": {
+    "archive": "Prediction_Calculations_2026-09-26.zip",
+    "member": "Prediction_Calculations_2026-09-26/controls_audit/interference_reaudit.json",
+    "sha256": "6c79ccf5c6226a0e02776a00c22f0e5fd0c111bb297f2d7b0e5c1ee8857bc9d3"
+  },
+  "REFERENCE_KERNEL.npz": {
+    "archive": "Prediction_Calculations_2026-09-26.zip",
+    "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL.npz",
+    "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+  },
+  "DOWNSTREAM_TETRA_N192.json": {
+    "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+    "member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/review/DOWNSTREAM_TETRA_N192.json",
+    "sha256": "699bbfff2ca8d0ae03b4a0ed7a80585ace228ca0b5872753f4a1996121fcf765"
+  },
+  "R_only_frequency_N48.json": {
+    "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+    "member": "paper1-validation-integrated-r8/legacy_rc4/validation/frequency_domain/results/R_only_frequency_N48.json",
+    "sha256": "8f227f185bb98ece75580c774533236a27a70452ef13e8fa8027efdfe381dc19"
+  }
+}

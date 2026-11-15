@@ -1,0 +1,40 @@
+{
+  "status": "predeclared",
+  "phase": "refine",
+  "omega": 1.2,
+  "g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "surface_grids": [
+    80,
+    128
+  ],
+  "PV_power": 20,
+  "PV_seeds": [
+    20261108,
+    20261109
+  ],
+  "PV_orders": [
+    192,
+    256,
+    320
+  ],
+  "nseg": 6,
+  "nbins": 16384,
+  "new_parameter_search": false,
+  "phase_finish": "Only these declared matrices and their candidate responses; no automatic next refinement.",
+  "input_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "on_shell_basis.py": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a",
+    "spectral_histogram.py": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738",
+    "REFERENCE_KERNEL.npz": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "REFERENCE_KERNEL.json": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "script_sha256": "4f9132bc190ccf64f07a8060eb08ee5f2bcbae1afa629bc0b50bb0903a9ec9c3"
+}

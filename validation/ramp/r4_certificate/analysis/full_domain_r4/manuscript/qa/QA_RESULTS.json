@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "scope": "Compiled all four parent/candidate PDFs twice, compared every page render, and visually inspected changed pages plus adjacent transitions. This is layout/build QA, not an independent mathematical proof.",
+  "visual_inspection": {
+    "paper1_main": [
+      1,
+      16,
+      17,
+      18
+    ],
+    "paper1_supplement": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "visual_findings": [
+    "New abstract statement fits cleanly.",
+    "Main reference-frequency robustness statement and conclusion are readable without clipping or equation-number collision.",
+    "Supplement equations56\u201361 and explanatory paragraphs fit onpage9; subsequent packet section and table remain readable.",
+    "No new blank page or page-count increase."
+  ],
+  "new_latex_source_changes_for_layout": false,
+  "page_comparisons": {
+    "paper1_main": {
+      "parent_pages": 18,
+      "candidate_pages": 18,
+      "changed_render_pages": [
+        1,
+        17
+      ],
+      "page_comparisons": [
+        {
+          "page": 1,
+          "parent_pixel_sha256": "032fc192afc2323afd751725a1e9b8d74731d80f21ab3c9751aba3f4dc6fb4ae",
+          "candidate_pixel_sha256": "f562a87d8088deeff0287fb9ff4acff513cf0fe5c14de67a0477117e0016f0e0",
+          "pixel_identical": false
+        },
+        {
+          "page": 2,
+          "parent_pixel_sha256": "d99cf3a04540efc3fe9cf38d72d2ded868e62f1dc1b45165e285721f1e32e965",
+          "candidate_pixel_sha256": "d99cf3a04540efc3fe9cf38d72d2ded868e62f1dc1b45165e285721f1e32e965",
+          "pixel_identical": true
+        },
+        {
+          "page": 3,
+          "parent_pixel_sha256": "68628d918abc4f20c3ba0b88050451cc4822d1045efb19b8bc52c677a3d0833f",
+          "candidate_pixel_sha256": "68628d918abc4f20c3ba0b88050451cc4822d1045efb19b8bc52c677a3d0833f",
+          "pixel_identical": true
+        },
+        {
+          "page": 4,
+          "parent_pixel_sha256": "9bcb0b21bcd6a383b771521c0098b233207d1f80bc2c044940ade9b08cbfa3a8",
+          "candidate_pixel_sha256": "9bcb0b21bcd6a383b771521c0098b233207d1f80bc2c044940ade9b08cbfa3a8",
+          "pixel_identical": true
+        },
+        {
+          "page": 5,
+          "parent_pixel_sha256": "3b33ea52dd5a89e669711bfe8adaf6ef5184fe654f989c4f9ba3a8c047c8351d",
+          "candidate_pixel_sha256": "3b33ea52dd5a89e669711bfe8adaf6ef5184fe654f989c4f9ba3a8c047c8351d",
+          "pixel_identical": true
+        },
+        {
+          "page": 6,
+          "parent_pixel_sha256": "d754989fed0d0995afc2f5533a0851383c3d22e1d785b7f698ebe6883d530f06",
+          "candidate_pixel_sha256": "d754989fed0d0995afc2f5533a0851383c3d22e1d785b7f698ebe6883d530f06",
+          "pixel_identical": true
+        },
+        {
+          "page": 7,
+          "parent_pixel_sha256": "273c594710389bb0a4a3f36b0124ecb6e516cc265ab01f81d6794c236583db1b",
+          "candidate_pixel_sha256": "273c594710389bb0a4a3f36b0124ecb6e516cc265ab01f81d6794c236583db1b",
+          "pixel_identical": true
+        },
+        {
+          "page": 8,
+          "parent_pixel_sha256": "519200733e429d79ead9de3b43a6c87c309652609658bbc56050673ae0a5688b",
+          "candidate_pixel_sha256": "519200733e429d79ead9de3b43a6c87c309652609658bbc56050673ae0a5688b",
+          "pixel_identical": true
+        },
+        {
+          "page": 9,
+          "parent_pixel_sha256": "dd9bf6aad5de13a6e6a68f6fdb62847b80c1c178fd31e56db5b2dbb7d87773b3",
+          "candidate_pixel_sha256": "dd9bf6aad5de13a6e6a68f6fdb62847b80c1c178fd31e56db5b2dbb7d87773b3",
+          "pixel_identical": true
+        },
+        {
+          "page": 10,
+          "parent_pixel_sha256": "b27b6daf6d49a13185d6e49bdb400cd614fc0dc2491b9b56561b71f41597126f",
+          "candidate_pixel_sha256": "b27b6daf6d49a13185d6e49bdb400cd614fc0dc2491b9b56561b71f41597126f",
+          "pixel_identical": true
+        },
+        {
+          "page": 11,
+          "parent_pixel_sha256": "6254cbbd173a2b9597cccef0cab401e9e73042cc0c8962dd9409d776d8bc5518",
+          "candidate_pixel_sha256": "6254cbbd173a2b9597cccef0cab401e9e73042cc0c8962dd9409d776d8bc5518",
+          "pixel_identical": true
+        },
+        {
+          "page": 12,
+          "parent_pixel_sha256": "fbdb396c425e0a531b2e6801186e7d3e682ec0344b1cfa56148160683e7bf2c7",
+          "candidate_pixel_sha256": "fbdb396c425e0a531b2e6801186e7d3e682ec0344b1cfa56148160683e7bf2c7",
+          "pixel_identical": true
+        },
+        {
+          "page": 13,
+          "parent_pixel_sha256": "fa2d067f38844346344531bdb2936ef717f3e22869185d6adb0f494fef78b969",
+          "candidate_pixel_sha256": "fa2d067f38844346344531bdb2936ef717f3e22869185d6adb0f494fef78b969",
+          "pixel_identical": true
+        },
+        {
+          "page": 14,
+          "parent_pixel_sha256": "46d07fe96c9b43ed3ebf94d93ffa1e19a0bf877e3c05639c99246be8396cafd0",
+          "candidate_pixel_sha256": "46d07fe96c9b43ed3ebf94d93ffa1e19a0bf877e3c05639c99246be8396cafd0",
+          "pixel_identical": true
+        },
+        {
+          "page": 15,
+          "parent_pixel_sha256": "e8fa298afc6c64ba89ed70b530096883130b0e39785c3e0cfe1d442bf18b9e70",
+          "candidate_pixel_sha256": "e8fa298afc6c64ba89ed70b530096883130b0e39785c3e0cfe1d442bf18b9e70",
+          "pixel_identical": true
+        },
+        {
+          "page": 16,
+          "parent_pixel_sha256": "c2b9a269347097128f692b48706021619bbbe99016259d08e6194e750d9456e7",
+          "candidate_pixel_sha256": "c2b9a269347097128f692b48706021619bbbe99016259d08e6194e750d9456e7",
+          "pixel_identical": true
+        },
+        {
+          "page": 17,
+          "parent_pixel_sha256": "3264acbfa32a260b45f24c6e393873d23f109ad402c57e1794343c8784e1c828",
+          "candidate_pixel_sha256": "1cdad447969f6c97d52a9048c8088080d4f1b8c141762600a6057b73003d254f",
+          "pixel_identical": false
+        },
+        {
+          "page": 18,
+          "parent_pixel_sha256": "26b357c5d49345ea9ce7506934c6a7b052d532bc0293b2a93e1445bc5bae9ebd",
+          "candidate_pixel_sha256": "26b357c5d49345ea9ce7506934c6a7b052d532bc0293b2a93e1445bc5bae9ebd",
+          "pixel_identical": true
+        }
+      ]
+    },
+    "paper1_supplement": {
+      "parent_pages": 11,
+      "candidate_pages": 11,
+      "changed_render_pages": [
+        9,
+        10,
+        11
+      ],
+      "page_comparisons": [
+        {
+          "page": 1,
+          "parent_pixel_sha256": "5cbdfbffb062af5fadbf12f8d30ec45d031266c19c69dbee90f87d26bf066615",
+          "candidate_pixel_sha256": "5cbdfbffb062af5fadbf12f8d30ec45d031266c19c69dbee90f87d26bf066615",
+          "pixel_identical": true
+        },
+        {
+          "page": 2,
+          "parent_pixel_sha256": "fbc946e9dafc5bfc0979de8ccd21f34aba1accb432ff68743da41191d6b6906a",
+          "candidate_pixel_sha256": "fbc946e9dafc5bfc0979de8ccd21f34aba1accb432ff68743da41191d6b6906a",
+          "pixel_identical": true
+        },
+        {
+          "page": 3,
+          "parent_pixel_sha256": "0110d060d822ae0888e65997b6945444774cc480c1baa0446ba62cee1295dff1",
+          "candidate_pixel_sha256": "0110d060d822ae0888e65997b6945444774cc480c1baa0446ba62cee1295dff1",
+          "pixel_identical": true
+        },
+        {
+          "page": 4,
+          "parent_pixel_sha256": "4896f69425c2b8cadf9b7561b9f6cfe916c10d54e5ff47ed1129d33519de6992",
+          "candidate_pixel_sha256": "4896f69425c2b8cadf9b7561b9f6cfe916c10d54e5ff47ed1129d33519de6992",
+          "pixel_identical": true
+        },
+        {
+          "page": 5,
+          "parent_pixel_sha256": "ead0774d036c462a4f0824f3c7899da92376fc6af861ceb17a7d331784ba1e85",
+          "candidate_pixel_sha256": "ead0774d036c462a4f0824f3c7899da92376fc6af861ceb17a7d331784ba1e85",
+          "pixel_identical": true
+        },
+        {
+          "page": 6,
+          "parent_pixel_sha256": "6c2c5de682b620db7892b699371e4327b68dbf2d124ac63b2a121f4be7811569",
+          "candidate_pixel_sha256": "6c2c5de682b620db7892b699371e4327b68dbf2d124ac63b2a121f4be7811569",
+          "pixel_identical": true
+        },
+        {
+          "page": 7,
+          "parent_pixel_sha256": "a05d9c54f9ed5139a0f622275a1ec93e865bad178d8f6dc39c36a3aca5abb326",
+          "candidate_pixel_sha256": "a05d9c54f9ed5139a0f622275a1ec93e865bad178d8f6dc39c36a3aca5abb326",
+          "pixel_identical": true
+        },
+        {
+          "page": 8,
+          "parent_pixel_sha256": "8201b859b2011fa2578734246c2a6315ff15e01f1574fdc2e537d0d07d79bc1c",
+          "candidate_pixel_sha256": "8201b859b2011fa2578734246c2a6315ff15e01f1574fdc2e537d0d07d79bc1c",
+          "pixel_identical": true
+        },
+        {
+          "page": 9,
+          "parent_pixel_sha256": "d5e101d57d7932d2ef30da2d65306d178b04fbad048fe3716e9df914a692c9b3",
+          "candidate_pixel_sha256": "8f00e3ef1826d8e2e708f6b57a29c3b8f1b415774a2d37fe2883e1babb3435cf",
+          "pixel_identical": false
+        },
+        {
+          "page": 10,
+          "parent_pixel_sha256": "c712d2e316534c9651361493681024a5a37196a64c6416965ffbf60754e908b1",
+          "candidate_pixel_sha256": "bf38275ff782413ae4f445fc47023a1a605f7301649f235db020d8c3f7882838",
+          "pixel_identical": false
+        },
+        {
+          "page": 11,
+          "parent_pixel_sha256": "1ef8f44c37dd1779d33ec14018ee7ea203c565dea72210ba5ac2bd3d4316905e",
+          "candidate_pixel_sha256": "ae74511e4b9ccfdf8a5499df7e7f5ae62f83aea3c06d209ab8aed544d5700267",
+          "pixel_identical": false
+        }
+      ]
+    }
+  },
+  "warnings": {
+    "new_relative_to_parent": [],
+    "common_inherited": [
+      "Package nameref Warning: The definition of \\label has changed!"
+    ]
+  },
+  "build_counts": {
+    "overfull_boxes": 0,
+    "undefined_or_multiply_defined_reference_warnings": 0
+  },
+  "dependency_repair_record": "DEPENDENCY_REPAIR.json",
+  "build_record": "BUILD_RECORDS.json",
+  "final_file_identity_checks": [
+    {
+      "document": "paper1_main",
+      "version": "parent_rc4",
+      "pdf_sha256": "359110093d32592ea3c981df410c8331fa3e7fc2b0de070c20166e8b4ac636dd",
+      "pdfinfo_recheck": "passed"
+    },
+    {
+      "document": "paper1_supplement",
+      "version": "parent_rc4",
+      "pdf_sha256": "1373b2dd268916feab45a3923e569cd9fc3ee7b373e3fd698f4c12a455b64f50",
+      "pdfinfo_recheck": "passed"
+    },
+    {
+      "document": "paper1_main",
+      "version": "candidate",
+      "pdf_sha256": "fa6c303de4f3f6225948389e7529346c2e30010b08102c083c98df15adac2f74",
+      "pdfinfo_recheck": "passed"
+    },
+    {
+      "document": "paper1_supplement",
+      "version": "candidate",
+      "pdf_sha256": "d3747237d054793ef5ed3cdcff1def3fc6bd97c57211088d0e5bc7983c130be0",
+      "pdfinfo_recheck": "passed"
+    }
+  ],
+  "confirmed_word_correction": "Supplement explanation changed to \"squared cached output norm\", matching the squared first term; equations unchanged.",
+  "delivery_recovery": {
+    "observed_issue": "After an initially successful word-correction rebuild, the public supplement PDF did not match the successful build hash and was invalid; the cause was not established.",
+    "repair": "Recompiled into a distinct directory, checked closed-process output with pdfinfo and rendered page9, then atomically published validated PDF and build records. All four final PDF hashes and pdfinfo were rechecked.",
+    "final_supplement_sha256": "d3747237d054793ef5ed3cdcff1def3fc6bd97c57211088d0e5bc7983c130be0"
+  }
+}

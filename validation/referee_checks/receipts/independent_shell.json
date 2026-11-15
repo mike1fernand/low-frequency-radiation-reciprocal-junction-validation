@@ -1,0 +1,16 @@
+{
+  "cert": {
+    "sub": 54,
+    "radius": 1.5,
+    "threshold": "29/20",
+    "inside": 1537,
+    "exterior": 26183
+  },
+  "numerical": {
+    "root_count": 375,
+    "maximum_sample_radius": 1.301844064482957,
+    "minimum_sample_upper_gap": 0.9390908339477604,
+    "minimum_sample_radial_matrix_eig": 1.2896530785602272
+  },
+  "analytic_gap": "528/625"
+}

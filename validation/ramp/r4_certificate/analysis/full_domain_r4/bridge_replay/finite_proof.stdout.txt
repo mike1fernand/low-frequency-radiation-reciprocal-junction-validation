@@ -1,0 +1,54 @@
+{"stage": "finite_vertices", "completed": 16, "elapsed_seconds": 0.26173212400317425}
+{"stage": "finite_vertices", "completed": 32, "elapsed_seconds": 0.5015019260026747}
+{"stage": "finite_vertices", "completed": 48, "elapsed_seconds": 0.7935190429998329}
+{"stage": "finite_vertices", "completed": 64, "elapsed_seconds": 1.0396692209978937}
+{
+  "status": "finite_cached_kernel_certificate_passed",
+  "certificate_revision": "basis_invariant_n192_sobol23_m256_v1",
+  "selection_sha256": "d13f65f7fc1aa666fe29bca774584acd88644027204f0729106b2b0c78af14b6",
+  "original_reviewed_producer_sha256": "1ccabcafc3165fcd790e667c49573075cfe0e6dd35f10694fdb85bff3bca3324",
+  "precision_bits": 160,
+  "python_flint": "0.8.0",
+  "elapsed_seconds": 1.0415534950006986,
+  "checked_positive_LDL_pivots": 5987,
+  "claim": "For the specified exact dyadic cached g0,Q matrices and exact rational mechanical parameters, all six independent complete-motif coupling factors in [19/20,21/20] have T_qT > 27/250.",
+  "exact_lattice_claim": false,
+  "input_interpretation": "Complex and qT matrices use the exact dyadic values of the loaded NumPy arrays (including the saved-in-memory float sum of the two qT branch arrays). Physical decimal parameters 1.69,1.2,0.1,0.2 and0.05 are exact rationals; sqrt2 and scalar-lead radicals are outward-enclosed.",
+  "T0_enclosure": "[0.1256592553928365776507332430114044107617 +/- 5.67e-42]",
+  "finite_floor_enclosure": "[0.1080401795285133773085230187856824608202 +/- 3.00e-41]",
+  "finite_rational_floor": "27/250",
+  "uniform_norm_upper_rationals": {
+    "r": "562691/10000000",
+    "v": "699883/10000000",
+    "w": "14671/625000",
+    "d": "24049/1000000",
+    "wE": "149373/10000000",
+    "dE": "41829/2500000",
+    "h": "5069331/10000000",
+    "hcore": "792909/5000000",
+    "beta": "57297/10000000"
+  },
+  "hypothetical_kernel_error_conclusion": {
+    "hypotheses": "IF exact lattice satisfies ||1.69*(g0_exact-g0_cached)||2<=1/50 and ||1.69*(Q_exact-Q_cached)||2<=1/200 with exact Q>=0, THEN T_qT>1037/10000 throughout same box.",
+    "errors_measured_or_certified": false,
+    "eG": "1/50",
+    "eQ": "1/200",
+    "floor_enclosure": "[0.1037986667791380149124393077511413006385 +/- 4.04e-41]",
+    "rational_floor": "1037/10000",
+    "source_norm_upper": "[0.2944987694219718777884670301671800722007 +/- 3.35e-41]",
+    "full_inverse_upper": "[0.06640776200000000000000000000000000000000 +/- 3e-45]",
+    "core_inverse_upper": "[0.008901336000000000000000000000000000000000 +/- 3e-46]"
+  },
+  "method": "Arb/acb outward ball arithmetic; interval LDL* positivity proves all chosen operator norm bounds; no approximate flint solve/eigen modes.",
+  "ldl_controls": "Known positive complex-Hermitian matrix accepted; known indefinite and singular matrices rejected using explicit runtime checks.",
+  "failed_threshold_proposals": [],
+  "source_sha256": {
+    "validation/frequency_domain/methods/surface/raw/pv_mean_M192.npy": "ce45000dbd154d556c1cb2a967cc5992149bb2f0b8a98153d654c855b8280e24",
+    "validation/frequency_domain/results/surface/surface_N128_matrices.npz": "af6620513ca1e81def55d0ddcc1ddffdaa3d2f4a46d5c2cd3d0acf1f13e8c0bb"
+  },
+  "input_validation": "Raw PV is a finite real 20x20 array; its selected 12x12 block and each finite real 12x12 spectral array are exactly Hermitian. The source files must match the two specified archived SHA256 identities before arithmetic.",
+  "remaining": [
+    "No rigorous on-shell/PV integration enclosure for exact lattice.",
+    "No experimental or model-validity certification."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "START_HERE.md": "318b687455265aeffb0f836f3138fa3b9d1a2bf97a5cc0e2f8f13b39b5c764fc",
+  "device/README.md": "cc51205d509b15d7c5ae6b2f7948964e7530233c4c89a9de3e00b5944331681a",
+  "device/analyze.py": "83c4fcac44fcd68b377b5565f08a03d6145b3fdf3469ed92804a723174863ab8",
+  "device/evolve.cpp": "354638905722e7c0b5803f9f8cb3ba00f7bf06d77aa86b15c01e2d4e90c967fe",
+  "device/prepare.py": "c472448fcf8bc957ce81a485eeaaa6a495bdd2fc48209330f8880a4569af0024",
+  "device/replay.py": "2d6e99c0cdde59eef66060504d5937e93226e18647d9a1227cd3850fdda171f0",
+  "device/results.json": "9e816e9bbc1e42240a7b7a79392f3479b5c8dee38e2d5f77a5be08d098ecec89",
+  "free_line/check.py": "98cf4be726188a511384605b9ef46283946c3f265ef928012655c6d92e5b8d1e",
+  "free_line/results.json": "a918222218bb5334bbaf1d7377b079fc64001355d324c39c4b46d5c140c024f4",
+  "geometry/contact_check.py": "d64306696868cdfaad474f54c9d384ce61dd02bdab01e28dd35f9c589a849306",
+  "geometry/contact_checks.txt": "302b82f57f3bf4650004b3fc3b2735660119c12d2f0f3d6b3dfac68485d3e27e",
+  "geometry/row_control.json": "56374e406590df28f2046e190015100bf7738b7d59850e4a99b5b412993762c0",
+  "geometry/row_control.py": "addafd11839a166085cc5fec40f11e25e8da779b91d1b006efdfc90e890cb014"
+}

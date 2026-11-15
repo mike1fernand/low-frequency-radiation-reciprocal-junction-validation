@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_sha256": "956c9f0dd9d7ae3f0c39cd59f7dc681f43e197575e0cfadecb6f1e37dcdd04b9",
+  "panel_a_percentages_Tq_Rq_qT_qL": [
+    85.97459585275867,
+    0.35721492712360414,
+    12.56592553919631,
+    1.1022636796258707
+  ],
+  "panel_b_differences_in_units_of_1e-5": [
+    0.0,
+    -5.129208645082706,
+    -5.294542523270884
+  ],
+  "figure_sha256": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb"
+}

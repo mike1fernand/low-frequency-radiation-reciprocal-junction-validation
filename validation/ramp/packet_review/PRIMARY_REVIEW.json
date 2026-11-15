@@ -1,0 +1,58 @@
+{
+  "status": "PASS_PRIMARY_SOURCE_AND_ANALYSIS_CONTROL_SENSITIVITY_PENDING",
+  "date": "2026-11-08",
+  "engine_source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+  "binary_sha256": "908294be68c9d4e796ed337e5f6a55848588f65766b161e3371fd4154850d620",
+  "preserved_original_engine_sha256": "354638905722e7c0b5803f9f8cb3ba00f7bf06d77aa86b15c01e2d4e90c967fe",
+  "current_analyzer_sha256_after_cadence_fix": "6c890abaf312bfafa082b2e99f61075ce9e720f5c6fc7fb98434472f7a800fc8",
+  "primary_result_sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+  "checked_source_relations": [
+    "Six actual positive per-link motif stiffnesses=(1,2,3,4,5,6)/7; full8links per motif,48springs total.",
+    "Full scalar line N120 retained; only y/zreflection reduction, with four physical nodes per bulk representative and correct reduced mass metric.",
+    "Bulk18neighbor forces from9undirected axial/face-diagonal bonds; physical outer bonds omitted, no wrap in dynamics.",
+    "Hamiltonian energy, symmetric pair current, full interaction storage and actual unit masses/lineK1.69 match physical spring expansion.",
+    "Velocity-Verlet fixed-step restart and complete state history preserve time/cadence/parameters.",
+    "All five coefficient-blind selector predicates recomputed; longest admissible>=2interval with earliest-start tie-break exactly57.4to64.2.",
+    "No stationary coefficient or target packet value enters selection.",
+    "Global Fourier energy normalization, both lower branches and complete top-degenerate energy-coherence allocations retained.",
+    "Full6face unique-union energy-shell recertification includes kinetic plus half of each physical incident bulk bond, afterselection only."
+  ],
+  "actual_independent_tests": {
+    "one_step_full_physical_spring_controls": [
+      2,
+      3
+    ],
+    "modal_spot_check_times": [
+      57.4,
+      60.8,
+      64.2
+    ],
+    "modal_max_abs_difference": 3.3306690738754696e-16,
+    "primary_mean": [
+      0.7164564182492906,
+      0.7164564186765725,
+      0.7834437501219385
+    ]
+  },
+  "confirmed_issue": {
+    "kind": "secondarycadencefieldendpointmismatch",
+    "old_interval": [
+      57.4,
+      64.0
+    ],
+    "required_interval": [
+      57.4,
+      64.2
+    ],
+    "primary_result_affected": false,
+    "producer_fix_record": "packet/CADENCE_FIELD_CORRECTION.json",
+    "review_independent_corrected_mean": [
+      0.7164548321956213,
+      0.7164548326394735,
+      0.7834430438344749
+    ],
+    "resolution": "Producer corrected future source and preserved original SHA-bound primary JSON. Corrected value is supplied as a separate erratum; no new dynamics needed."
+  },
+  "remaining_review": "Check completed frozen-window dt.02/box80 and dt.04/box96 numerical controls when available; no additional long simulations will be run by this reviewer.",
+  "scope": "Finite-packet global stored qT diagnostic and numerical corroboration; not a unique local qT current, monochromatic73.6%measurement or an asymptoticfluxclaim."
+}

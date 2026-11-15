@@ -1,0 +1,310 @@
+{
+  "source_module_sha256": "62a78653665a204000f46d057276746884c42794ead6ef1d1570bf1bd80bbed9",
+  "date_utc": "2026-11-11",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0"
+  },
+  "profile_replays": {
+    "predictions": {
+      "status": "PASS",
+      "profile": "predictions",
+      "executed": [
+        [
+          "lowfreq_audit/audit_lowfreq.py"
+        ],
+        [
+          "controls_audit/interference_reaudit.py"
+        ],
+        [
+          "controls_audit/bandwidth/independent_reaudit.py"
+        ],
+        [
+          "angular_audit/check_angular_independent.py"
+        ],
+        [
+          "angular_audit/make_tradeoffs.py"
+        ],
+        [
+          "collection_extension/cone_limits.py",
+          "--omega",
+          ".003125",
+          "--order",
+          "24"
+        ]
+      ],
+      "verified": [
+        "lowfreq_audit/audit_results.json.independent_point_force_coefficients",
+        "lowfreq_audit/audit_results.json.cache_reproduction",
+        "lowfreq_audit/audit_results.json.nonnegative_sparse_profile_checks",
+        "controls_audit/interference_reaudit.json.replayed_31_rows",
+        "controls_audit/interference_reaudit.json.single_motif_checks",
+        "controls_audit/bandwidth/INDEPENDENT_CHECKS.json.surface_count",
+        "controls_audit/bandwidth/INDEPENDENT_CHECKS.json.tetra_count",
+        "controls_audit/bandwidth/INDEPENDENT_CHECKS.json.minimum_surface",
+        "controls_audit/bandwidth/INDEPENDENT_CHECKS.json.minimum_tetra",
+        "controls_audit/bandwidth/INDEPENDENT_CHECKS.json.all_declared_input_hashes_match",
+        "angular_audit/INDEPENDENT_ANGULAR_CHECK.json.cones",
+        "angular_audit/INDEPENDENT_ANGULAR_CHECK.json.local_coefficients",
+        "angular_audit/COLLECTION_TRADEOFFS.json.rows",
+        "collection_extension/cone_w0p00312500_n24.json.omega",
+        "collection_extension/cone_w0p00312500_n24.json.order",
+        "collection_extension/cone_w0p00312500_n24.json.source_input",
+        "collection_extension/cone_w0p00312500_n24.json.rows"
+      ]
+    },
+    "upstream": {
+      "status": "PASS",
+      "profile": "upstream",
+      "executed": [
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          "combine"
+        ],
+        [
+          "upstream/reconstruct_reflection_check.py"
+        ],
+        [
+          "upstream/reconstruct_root_checks.py"
+        ],
+        [
+          "upstream/reconstruct_realaxis.py",
+          2.9,
+          768
+        ]
+      ],
+      "verified": [
+        "three zero-width fits using all 16 Cartesian chunks",
+        "upstream/reflection_check_results.json.rows",
+        "upstream/root_checks_results.json.all_root_counts_match",
+        "upstream/root_checks_results.json.difficult_count",
+        "upstream/root_checks_results.json.random_count",
+        "upstream/root_checks_results.json.precision_decimal_digits",
+        "upstream/realaxis/w2.90_N768_result.json.T_minus",
+        "upstream/realaxis/w2.90_N768_result.json.T_plus",
+        "upstream/realaxis/w2.90_N768_result.json.simultaneous_T_minus",
+        "upstream/realaxis/w2.90_N768_result.json.simultaneous_T_plus"
+      ]
+    },
+    "fresh-gb": {
+      "status": "PASS",
+      "profile": "fresh-gb",
+      "executed": [
+        [
+          "gb/fresh_reference_check.py"
+        ]
+      ],
+      "verified": [
+        "reference regulator grid 384",
+        "reference regulator grid 768",
+        "reference regulator grid 1536"
+      ]
+    },
+    "fresh-cartesian": {
+      "status": "PASS",
+      "profile": "fresh-cartesian",
+      "executed": [
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          0,
+          24
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          24,
+          48
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          48,
+          72
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          72,
+          96
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          96,
+          120
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          120,
+          144
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          144,
+          168
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          168,
+          192
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          192,
+          216
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          216,
+          240
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          240,
+          264
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          264,
+          288
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          288,
+          312
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          312,
+          336
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          336,
+          360
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          360,
+          384
+        ],
+        [
+          "upstream/reconstruct_cartesian.py",
+          384,
+          "combine"
+        ]
+      ],
+      "verified": [
+        "three zero-width fits using all 16 Cartesian chunks"
+      ]
+    }
+  },
+  "fresh_11_case_upstream_realaxis": {
+    "scope": "Cleared both station matrices and results in an isolated copy. Reran all 11 original parameter cases and compared outgoing powers, both same-kernel solves, reflected and line-transmitted powers to their archived records using absolute tolerance 1e-10, relative tolerance 1e-9. These tolerances test reproducibility only.",
+    "cases": [
+      {
+        "omega": 2.88,
+        "Nperp": 512,
+        "T_minus": 0.4910651007173671,
+        "T_plus": 0.012962336040367855,
+        "Tbulk": 0.5040274367577349,
+        "simultaneous_T_minus": 0.49106510071736664
+      },
+      {
+        "omega": 2.88,
+        "Nperp": 768,
+        "T_minus": 0.49106755538897634,
+        "T_plus": 0.012942892239519745,
+        "Tbulk": 0.504010447628496,
+        "simultaneous_T_minus": 0.4910675553889766
+      },
+      {
+        "omega": 2.89,
+        "Nperp": 512,
+        "T_minus": 0.6082545222630252,
+        "T_plus": 0.011868895015479525,
+        "Tbulk": 0.6201234172785048,
+        "simultaneous_T_minus": 0.6082545222630256
+      },
+      {
+        "omega": 2.89,
+        "Nperp": 768,
+        "T_minus": 0.6082556595217617,
+        "T_plus": 0.011876829424457586,
+        "Tbulk": 0.6201324889462194,
+        "simultaneous_T_minus": 0.6082556595217624
+      },
+      {
+        "omega": 2.9,
+        "Nperp": 1024,
+        "T_minus": 0.7097557619966255,
+        "T_plus": 0.010959343323326017,
+        "Tbulk": 0.7207151053199514,
+        "simultaneous_T_minus": 0.7097557619966263
+      },
+      {
+        "omega": 2.9,
+        "Nperp": 1536,
+        "T_minus": 0.7097512202181111,
+        "T_plus": 0.010970827424912712,
+        "Tbulk": 0.7207220476430239,
+        "simultaneous_T_minus": 0.7097512202181108
+      },
+      {
+        "omega": 2.9,
+        "Nperp": 768,
+        "T_minus": 0.709742725006079,
+        "T_plus": 0.010986424773925878,
+        "Tbulk": 0.720729149780005,
+        "simultaneous_T_minus": 0.7097427250060795
+      },
+      {
+        "omega": 2.91,
+        "Nperp": 512,
+        "T_minus": 0.7705567522847709,
+        "T_plus": 0.011008260016959748,
+        "Tbulk": 0.7815650123017308,
+        "simultaneous_T_minus": 0.7705567522847712
+      },
+      {
+        "omega": 2.91,
+        "Nperp": 768,
+        "T_minus": 0.7705617521817696,
+        "T_plus": 0.011021674682164239,
+        "Tbulk": 0.7815834268639339,
+        "simultaneous_T_minus": 0.7705617521817694
+      },
+      {
+        "omega": 2.92,
+        "Nperp": 512,
+        "T_minus": 0.7963125650275688,
+        "T_plus": 0.011837894275857302,
+        "Tbulk": 0.8081504593034261,
+        "simultaneous_T_minus": 0.7963125650275688
+      },
+      {
+        "omega": 2.92,
+        "Nperp": 768,
+        "T_minus": 0.796318247626399,
+        "T_plus": 0.011824101157292837,
+        "Tbulk": 0.8081423487836921,
+        "simultaneous_T_minus": 0.7963182476263981
+      }
+    ]
+  }
+}

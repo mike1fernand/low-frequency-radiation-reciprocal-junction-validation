@@ -1,0 +1,38 @@
+{
+  "status": "PASS_RAW_ARRAY_BINDING",
+  "current_npz_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "records": {
+    "Im_total": {
+      "canonical_vs_bridge_exact": true,
+      "canonical_vs_current_exact": true,
+      "maxdiff_current": 0.0
+    },
+    "Im_branch_0": {
+      "canonical_vs_bridge_exact": true,
+      "canonical_vs_current_exact": true,
+      "maxdiff_current": 0.0
+    },
+    "Im_branch_1": {
+      "canonical_vs_bridge_exact": true,
+      "canonical_vs_current_exact": true,
+      "maxdiff_current": 0.0
+    },
+    "Im_branch_2": {
+      "canonical_vs_bridge_exact": true,
+      "canonical_vs_current_exact": true,
+      "maxdiff_current": 0.0
+    },
+    "PV": {
+      "canonical_vs_bridge_exact": true,
+      "canonical_vs_current_exact": true,
+      "G0real_vs_exact": true
+    },
+    "Qsum": {
+      "Im_qT_equals_float_branchsum": true,
+      "current_G0imag_equals_Im_total": true
+    }
+  },
+  "canonical_paths": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r8_selected/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/certificate/canonical_selected",
+  "bridge_paths": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r4_certificate/analysis/full_domain_r4/budget/bridge_inputs/staged_repo/validation/frequency_domain",
+  "scope": "Exact float-array equality before dyadic algebra. Fractional reconstruction of Q sum still follows producer convention."
+}

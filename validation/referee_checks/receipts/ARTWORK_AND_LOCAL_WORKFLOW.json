@@ -1,0 +1,92 @@
+{
+  "status": "PASS_LOCAL_WORKFLOW_SHELLS_AND_ARTWORK",
+  "scope": "Local Linux Python 3.12 shell jobs with pinned packages already installed. No hosted GitHub dispatch or GitHub publication.",
+  "manual_workflow": {
+    "workflow_dispatch_only": true,
+    "permissions": {
+      "contents": "read"
+    },
+    "default_smoke": "PASS",
+    "compact": "PASS",
+    "checkout_clean_both": true,
+    "upstream_pins": {
+      "actions/checkout/v7.0.1": "https://github.com/actions/checkout/commit/3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "actions/setup-python/v7.0.0": "https://github.com/actions/setup-python/commit/5fda3b95a4ea91299a34e894583c3862153e4b97"
+    }
+  },
+  "artwork": {
+    "paper1_sectionVII_fig6a_qT_window_v2.pdf": {
+      "expected": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+      "actual": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+      "match": true
+    },
+    "Halpha_transmission_scan_p06.png": {
+      "expected": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+      "actual": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+      "match": true
+    },
+    "continuum_lattice_share_comparison_p06.png": {
+      "expected": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+      "actual": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+      "match": true
+    },
+    "paper1_sectionVI_fig4_reference_partition_v2.pdf": {
+      "expected": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb",
+      "actual": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb",
+      "match": true
+    },
+    "paper1_sectionVII_fig6b_selector_controls_v2.pdf": {
+      "expected": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+      "actual": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+      "match": true
+    },
+    "paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf": {
+      "expected": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+      "actual": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+      "match": true
+    }
+  },
+  "frequency_vector_comparison": {
+    "status": "PASS",
+    "samples_per_curve": 49,
+    "curves": 4,
+    "max_chart_coordinate_difference_in_power_fraction": {
+      "Rq": 7.7479335421635e-08,
+      "Tq": 7.977358268407286e-08,
+      "T_qT_modal": 6.121083021004559e-08,
+      "T_qL_modal": 7.10986089707405e-08
+    },
+    "scope": "Agreement of plotted vector vertices with archived samples, at PDF coordinate precision."
+  },
+  "packet_vector_comparison": {
+    "status": "PASS",
+    "reference_taper": true,
+    "direct_trace_points": 46,
+    "direct_trace_max_absolute_difference_in_energy_fraction": 3.546945515076061e-10,
+    "selector_and_shell_curves_checked": [
+      "coupling",
+      "current",
+      "kinetic shell",
+      "periodic/open",
+      "drift",
+      "total shell"
+    ],
+    "selector_curve_points": 230,
+    "post_selection_total_shell_points": 14,
+    "largest_curve_differences_in_threshold_units": {
+      "coupling": 4.896693509906513e-07,
+      "current": 4.88787796820711e-07,
+      "kinetic shell": 4.749100782075466e-07,
+      "periodic/open": 5.022435995982732e-07,
+      "drift": 5.172793773114415e-07,
+      "total shell": 3.2015184292522036e-07
+    },
+    "accepted_interval_on_both_panels": [
+      52.800000000000004,
+      55.4
+    ],
+    "panel_b_minimum_legend_clearance_points": 10.281621932983398,
+    "surface_line_and_two_method_band_match": true,
+    "scope": "Vector artwork versus archived time-domain outputs and overlays; no additional trajectory simulation."
+  }
+}

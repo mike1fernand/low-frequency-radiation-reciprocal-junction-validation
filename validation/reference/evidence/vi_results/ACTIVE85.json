@@ -1,0 +1,1723 @@
+{
+  "schema": "paper1.corrected-active-robustness.v1",
+  "status": "passed_for_85_declared_finite_samples",
+  "scope": "Finite sampled positivity and numerical ranges at declared resolutions; not a uniform accuracy bound, nonlinear extremum certificate or exact-lattice guarantee.",
+  "reference_at_robustness_N80": {
+    "Rq": 0.0035751458745579504,
+    "Tq": 0.8597234671980312,
+    "Tbulk": 0.13670138691445677,
+    "T_qT_modal": 0.12569143926167411,
+    "T_qL_modal": 0.011009947652782653,
+    "qT_fraction_of_bulk": 0.9194598686868312,
+    "flux_closure_abs": 1.2954082251326327e-11,
+    "modal_sum_residual_abs": 0.0,
+    "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+  },
+  "PV_contract": {
+    "schema": "paper1.robustness-pv-contract.v1",
+    "status": "selected_for_declared_finite_robustness",
+    "physical_bulk": {
+      "k_axis": 1.0,
+      "k_diag": 1.0,
+      "m_bulk": 1.0
+    },
+    "order": 256,
+    "bins": 16384,
+    "histograms": [
+      {
+        "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260920_p23_nseg10_bins16384.npz",
+        "sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987"
+      },
+      {
+        "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260921_p23_nseg10_bins16384.npz",
+        "sha256": "72ac7e19d54638dd91487812b3504a49276a3cab190598eb7534b89b473921d2"
+      }
+    ],
+    "reference_metadata": {
+      "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+      "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+    },
+    "scope": "Same selected fresh common-medium PV contract across the finite robustness frequencies; finite sampled evidence, not uniform accuracy."
+  },
+  "PV_contract_sha256": "da3d5eb2e5b398d85e80ce212d8e37712ca876b640050122c71edeff8f76a7a1",
+  "kernel_run_sha256": "b3cb4a4f21caca69e469d171b93b05283ab065c9ac12fb7a5a1a1da9bd442b53",
+  "stiffness_sample_audit_sha256": "728811ec4d5de74bd70004a407f2251313095444fb38b29fb7c0d304a0ab7104",
+  "families": {
+    "frequency": [
+      {
+        "index": 0,
+        "omega": 0.6,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.6740297509242444,
+        "Tq": 0.1776585332405365,
+        "Tbulk": 0.14831171582457453,
+        "T_qT_modal": 0.13503737090285267,
+        "T_qL_modal": 0.013274344921721913,
+        "qT_fraction_of_bulk": 0.910496990423717,
+        "flux_closure_abs": 1.0644596315501076e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 4.557032349881296e-09
+      },
+      {
+        "index": 1,
+        "omega": 0.625,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.6284771588850568,
+        "Tq": 0.2088466990953357,
+        "Tbulk": 0.16267614200818195,
+        "T_qT_modal": 0.14811542002273384,
+        "T_qL_modal": 0.014560721985448147,
+        "qT_fraction_of_bulk": 0.9104925786553522,
+        "flux_closure_abs": 1.1425527191022411e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 6.38465279745213e-09
+      },
+      {
+        "index": 2,
+        "omega": 0.65,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.5789142896506307,
+        "Tq": 0.2440662949192889,
+        "Tbulk": 0.17701941541790844,
+        "T_qT_modal": 0.16118306818878653,
+        "T_qL_modal": 0.015836347229121948,
+        "qT_fraction_of_bulk": 0.910538924830729,
+        "flux_closure_abs": 1.2171930130477904e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 8.719427169319566e-09
+      },
+      {
+        "index": 3,
+        "omega": 0.675,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.52565779472659,
+        "Tq": 0.2833237007325226,
+        "Tbulk": 0.19101850452802385,
+        "T_qT_modal": 0.17392920174289853,
+        "T_qL_modal": 0.017089302785125313,
+        "qT_fraction_of_bulk": 0.910535878043071,
+        "flux_closure_abs": 1.2863599074819376e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.1688825132117013e-08
+      },
+      {
+        "index": 4,
+        "omega": 0.7,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.46903369004542095,
+        "Tq": 0.3268772687262822,
+        "Tbulk": 0.20408904121481167,
+        "T_qT_modal": 0.18584827577147758,
+        "T_qL_modal": 0.01824076544333413,
+        "qT_fraction_of_bulk": 0.91062349386935,
+        "flux_closure_abs": 1.3485212946307001e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 1.5427683253075712e-08
+      },
+      {
+        "index": 5,
+        "omega": 0.725,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.4105438702878708,
+        "Tq": 0.3737033232763912,
+        "Tbulk": 0.21575280642172753,
+        "T_qT_modal": 0.19650024889966006,
+        "T_qL_modal": 0.019252557522067455,
+        "qT_fraction_of_bulk": 0.9107656681673243,
+        "flux_closure_abs": 1.40103484369547e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 2.0234323569124033e-08
+      },
+      {
+        "index": 6,
+        "omega": 0.75,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.35158571702726726,
+        "Tq": 0.4229576290056235,
+        "Tbulk": 0.22545665395268627,
+        "T_qT_modal": 0.20538494306755933,
+        "T_qL_modal": 0.020071710885126864,
+        "qT_fraction_of_bulk": 0.9109730827046731,
+        "flux_closure_abs": 1.4422907312905409e-11,
+        "modal_sum_residual_abs": 8.326672684688674e-17,
+        "min_bulk_linewidth_eigenvalue": 2.6267574424278172e-08
+      },
+      {
+        "index": 7,
+        "omega": 0.775,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.2937023711633711,
+        "Tq": 0.47354409695570343,
+        "Tbulk": 0.23275353186621206,
+        "T_qT_modal": 0.2120796235308148,
+        "T_qL_modal": 0.020673908335397184,
+        "qT_fraction_of_bulk": 0.91117682223924,
+        "flux_closure_abs": 1.4713452678449812e-11,
+        "modal_sum_residual_abs": 8.326672684688674e-17,
+        "min_bulk_linewidth_eigenvalue": 3.3634127154182316e-08
+      },
+      {
+        "index": 8,
+        "omega": 0.8,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.23872177918048545,
+        "Tq": 0.5240180206549832,
+        "Tbulk": 0.23726020014965243,
+        "T_qT_modal": 0.21625322260623336,
+        "T_qL_modal": 0.021006977543419104,
+        "qT_fraction_of_bulk": 0.9114601710267087,
+        "flux_closure_abs": 1.4878986931421423e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 4.2385449014846356e-08
+      },
+      {
+        "index": 9,
+        "omega": 0.825,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.18819609297005394,
+        "Tq": 0.5730028999347229,
+        "Tbulk": 0.23880100708029756,
+        "T_qT_modal": 0.21774263089260212,
+        "T_qL_modal": 0.02105837618769545,
+        "qT_fraction_of_bulk": 0.9118162170035804,
+        "flux_closure_abs": 1.492561629845568e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 5.264300280294103e-08
+      },
+      {
+        "index": 10,
+        "omega": 0.85,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.14351730357217143,
+        "Tq": 0.619010547709357,
+        "Tbulk": 0.23747214870360542,
+        "T_qT_modal": 0.21662078697056678,
+        "T_qL_modal": 0.02085136173303865,
+        "qT_fraction_of_bulk": 0.912194495873014,
+        "flux_closure_abs": 1.486610834433577e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 6.52412686473999e-08
+      },
+      {
+        "index": 11,
+        "omega": 0.875,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.10550431517349172,
+        "Tq": 0.6609831683579934,
+        "Tbulk": 0.23351251645378907,
+        "T_qT_modal": 0.2131096709174904,
+        "T_qL_modal": 0.020402845536298637,
+        "qT_fraction_of_bulk": 0.912626330073676,
+        "flux_closure_abs": 1.472577615402315e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 8.038291557943901e-08
+      },
+      {
+        "index": 12,
+        "omega": 0.9,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.07454276367632726,
+        "Tq": 0.6980141607172048,
+        "Tbulk": 0.22744307559193952,
+        "T_qT_modal": 0.20768140032389282,
+        "T_qL_modal": 0.01976167526804664,
+        "qT_fraction_of_bulk": 0.9131137528956847,
+        "flux_closure_abs": 1.4528378500244798e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 9.817975124396041e-08
+      },
+      {
+        "index": 13,
+        "omega": 0.925,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.05034117737178384,
+        "Tq": 0.7299041008983692,
+        "Tbulk": 0.21975472171554797,
+        "T_qT_modal": 0.20077777147571862,
+        "T_qL_modal": 0.018976950239829267,
+        "qT_fraction_of_bulk": 0.9136448578138255,
+        "flux_closure_abs": 1.4299006423357241e-11,
+        "modal_sum_residual_abs": 8.326672684688674e-17,
+        "min_bulk_linewidth_eigenvalue": 1.1871984007848423e-07
+      },
+      {
+        "index": 14,
+        "omega": 0.95,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.032197503728728455,
+        "Tq": 0.7569345284061186,
+        "Tbulk": 0.21086796785109416,
+        "T_qT_modal": 0.19276964394310375,
+        "T_qL_modal": 0.018098323907990387,
+        "qT_fraction_of_bulk": 0.9141722467740067,
+        "flux_closure_abs": 1.4058754160828357e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.4228184559377602e-07
+      },
+      {
+        "index": 15,
+        "omega": 0.975,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.019340111038356166,
+        "Tq": 0.7792433684223603,
+        "Tbulk": 0.20141652052545386,
+        "T_qT_modal": 0.18424322682855493,
+        "T_qL_modal": 0.01717329369689898,
+        "qT_fraction_of_bulk": 0.914737412541447,
+        "flux_closure_abs": 1.3829604128545725e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.702380126687212e-07
+      },
+      {
+        "index": 16,
+        "omega": 1.0,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.010827729172984385,
+        "Tq": 0.7971488681910336,
+        "Tbulk": 0.19202340262236015,
+        "T_qT_modal": 0.17576441538291654,
+        "T_qL_modal": 0.01625898723944359,
+        "qT_fraction_of_bulk": 0.9153280953394046,
+        "flux_closure_abs": 1.3621881400638358e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 2.0340017208977284e-07
+      },
+      {
+        "index": 17,
+        "omega": 1.025,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.005591056961003877,
+        "Tq": 0.8115890896262402,
+        "Tbulk": 0.18281985339931328,
+        "T_qT_modal": 0.1674446833490557,
+        "T_qL_modal": 0.015375170050257571,
+        "qT_fraction_of_bulk": 0.915899888527559,
+        "flux_closure_abs": 1.3442580382161395e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.422161848738888e-07
+      },
+      {
+        "index": 18,
+        "omega": 1.05,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0027368557150463857,
+        "Tq": 0.8232634060142898,
+        "Tbulk": 0.1739997382573677,
+        "T_qT_modal": 0.1594660141171056,
+        "T_qL_modal": 0.014533724140262128,
+        "qT_fraction_of_bulk": 0.9164727241212002,
+        "flux_closure_abs": 1.3296141965213337e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 2.8724569830945803e-07
+      },
+      {
+        "index": 19,
+        "omega": 1.075,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0015363330053092402,
+        "Tq": 0.8325400646214897,
+        "Tbulk": 0.16592360236002085,
+        "T_qT_modal": 0.15215279049954528,
+        "T_qL_modal": 0.013770811860475603,
+        "qT_fraction_of_bulk": 0.9170051055750605,
+        "flux_closure_abs": 1.3180345703744933e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 3.390042436890769e-07
+      },
+      {
+        "index": 20,
+        "omega": 1.1,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0013656658614059846,
+        "Tq": 0.8400039164018658,
+        "Tbulk": 0.15863041772363418,
+        "T_qT_modal": 0.1455475312447512,
+        "T_qL_modal": 0.013082886478882987,
+        "qT_fraction_of_bulk": 0.9175259911268974,
+        "flux_closure_abs": 1.3094081374731559e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 4.005614621445556e-07
+      },
+      {
+        "index": 21,
+        "omega": 1.125,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0017614579302016895,
+        "Tq": 0.8461787948971347,
+        "Tbulk": 0.15205974715963175,
+        "T_qT_modal": 0.13959628450097084,
+        "T_qL_modal": 0.012463462658660877,
+        "qT_fraction_of_bulk": 0.9180357531071204,
+        "flux_closure_abs": 1.303190888535255e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 4.7428319179900556e-07
+      },
+      {
+        "index": 22,
+        "omega": 1.15,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0023936109925783954,
+        "Tq": 0.8513540870657959,
+        "Tbulk": 0.14625230192863395,
+        "T_qT_modal": 0.1343369156261581,
+        "T_qL_modal": 0.011915386302475822,
+        "qT_fraction_of_bulk": 0.9185285554801719,
+        "flux_closure_abs": 1.2991829834163582e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 5.625556221438265e-07
+      },
+      {
+        "index": 23,
+        "omega": 1.175,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.003042747900718715,
+        "Tq": 0.8558193353029246,
+        "Tbulk": 0.1411379167833891,
+        "T_qT_modal": 0.1297050798229764,
+        "T_qL_modal": 0.011432836960412661,
+        "qT_fraction_of_bulk": 0.9189952833301401,
+        "flux_closure_abs": 1.2967626972226753e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 6.673566155448828e-07
+      },
+      {
+        "index": 24,
+        "omega": 1.2,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0035751458745579504,
+        "Tq": 0.8597234671980312,
+        "Tbulk": 0.13670138691445677,
+        "T_qT_modal": 0.12569143926167411,
+        "T_qL_modal": 0.011009947652782653,
+        "qT_fraction_of_bulk": 0.9194598686868312,
+        "flux_closure_abs": 1.2954082251326327e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "index": 25,
+        "omega": 1.225,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.003920965353885871,
+        "Tq": 0.863227200147729,
+        "Tbulk": 0.13285183448543444,
+        "T_qT_modal": 0.122216730360326,
+        "T_qL_modal": 0.010635104125108435,
+        "qT_fraction_of_bulk": 0.9199476306345288,
+        "flux_closure_abs": 1.2950640559949989e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 9.429794177511745e-07
+      },
+      {
+        "index": 26,
+        "omega": 1.25,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.004062263219807679,
+        "Tq": 0.8664118890103168,
+        "Tbulk": 0.12952584775692116,
+        "T_qT_modal": 0.11922440636227345,
+        "T_qL_modal": 0.010301441394647715,
+        "qT_fraction_of_bulk": 0.9204680643049699,
+        "flux_closure_abs": 1.2954304295931252e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 1.1287683162238953e-06
+      },
+      {
+        "index": 27,
+        "omega": 1.275,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.004015062837643857,
+        "Tq": 0.8693597852353634,
+        "Tbulk": 0.12662515191403018,
+        "T_qT_modal": 0.11662679015867733,
+        "T_qL_modal": 0.00999836175535288,
+        "qT_fraction_of_bulk": 0.9210396860006056,
+        "flux_closure_abs": 1.2962519946313478e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.3570251144548107e-06
+      },
+      {
+        "index": 28,
+        "omega": 1.3,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0038086013972658136,
+        "Tq": 0.8720473345273551,
+        "Tbulk": 0.12414406406240519,
+        "T_qT_modal": 0.11442035775307194,
+        "T_qL_modal": 0.009723706309333249,
+        "qT_fraction_of_bulk": 0.921674013310493,
+        "flux_closure_abs": 1.2973955243467117e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 1.6385770164760756e-06
+      },
+      {
+        "index": 29,
+        "omega": 1.325,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.003480785149903123,
+        "Tq": 0.8745304156368638,
+        "Tbulk": 0.12198879920024497,
+        "T_qT_modal": 0.1125203795004966,
+        "T_qL_modal": 0.009468419699748393,
+        "qT_fraction_of_bulk": 0.9223828764458455,
+        "flux_closure_abs": 1.2988055075879856e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.9837358488696205e-06
+      },
+      {
+        "index": 30,
+        "omega": 1.35,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0030782372669881865,
+        "Tq": 0.8768139831967918,
+        "Tbulk": 0.1201077795232145,
+        "T_qT_modal": 0.11088235265477325,
+        "T_qL_modal": 0.009225426868441251,
+        "qT_fraction_of_bulk": 0.9231904302530366,
+        "flux_closure_abs": 1.3005485577366471e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.4162749497095554e-06
+      },
+      {
+        "index": 31,
+        "omega": 1.375,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.002641660458262517,
+        "Tq": 0.8788703473927627,
+        "Tbulk": 0.11848799213594695,
+        "T_qT_modal": 0.10949570849914353,
+        "T_qL_modal": 0.008992283636803369,
+        "qT_fraction_of_bulk": 0.9241080596041653,
+        "flux_closure_abs": 1.3027801060161437e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 2.9590439297734617e-06
+      },
+      {
+        "index": 32,
+        "omega": 1.4,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0022006709364378557,
+        "Tq": 0.8807275285184428,
+        "Tbulk": 0.11707180053206691,
+        "T_qT_modal": 0.10831007905757567,
+        "T_qL_modal": 0.00876172147449125,
+        "qT_fraction_of_bulk": 0.925159419820392,
+        "flux_closure_abs": 1.3052448011308115e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 3.645562575690308e-06
+      },
+      {
+        "index": 33,
+        "omega": 1.425,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0017852824515519647,
+        "Tq": 0.8823503393275043,
+        "Tbulk": 0.11586437820785894,
+        "T_qT_modal": 0.10732770037749798,
+        "T_qL_modal": 0.008536677830360984,
+        "qT_fraction_of_bulk": 0.9263218086317583,
+        "flux_closure_abs": 1.308486652362717e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 4.511038782307118e-06
+      },
+      {
+        "index": 34,
+        "omega": 1.45,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.001410799619599339,
+        "Tq": 0.8837668461727145,
+        "Tbulk": 0.11482235419456374,
+        "T_qT_modal": 0.10651018294736608,
+        "T_qL_modal": 0.008312171247197691,
+        "qT_fraction_of_bulk": 0.9276084234162898,
+        "flux_closure_abs": 1.31223920618595e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 5.606294883090003e-06
+      },
+      {
+        "index": 35,
+        "omega": 1.475,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0010883123510970324,
+        "Tq": 0.8849311254760835,
+        "Tbulk": 0.11398056215965444,
+        "T_qT_modal": 0.10589136706417104,
+        "T_qL_modal": 0.008089195095483373,
+        "qT_fraction_of_bulk": 0.9290300473851609,
+        "flux_closure_abs": 1.3164913603702644e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 7.0071227717518865e-06
+      },
+      {
+        "index": 36,
+        "omega": 1.5,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0008191313539148684,
+        "Tq": 0.8859568878888566,
+        "Tbulk": 0.1132239807440135,
+        "T_qT_modal": 0.10536437300074977,
+        "T_qL_modal": 0.007859607743263745,
+        "qT_fraction_of_bulk": 0.9305835416524225,
+        "flux_closure_abs": 1.3214984662113238e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 8.796324181584184e-06
+      },
+      {
+        "index": 37,
+        "omega": 1.525,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0006055318265780855,
+        "Tq": 0.8867268448200905,
+        "Tbulk": 0.11266762334005993,
+        "T_qT_modal": 0.1050345803007525,
+        "T_qL_modal": 0.007633043039307426,
+        "qT_fraction_of_bulk": 0.9322516725477652,
+        "flux_closure_abs": 1.3271495014066659e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 1.1099573361381192e-05
+      },
+      {
+        "index": 38,
+        "omega": 1.55,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.00044055059863134073,
+        "Tq": 0.8872708711600887,
+        "Tbulk": 0.11228857822794454,
+        "T_qT_modal": 0.10488253325376598,
+        "T_qL_modal": 0.007406044974178526,
+        "qT_fraction_of_bulk": 0.9340445387139521,
+        "flux_closure_abs": 1.3335332837982605e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.4056986475914865e-05
+      },
+      {
+        "index": 39,
+        "omega": 1.575,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.0003163600912137969,
+        "Tq": 0.887641607155962,
+        "Tbulk": 0.11204203273941839,
+        "T_qT_modal": 0.10486397198471414,
+        "T_qL_modal": 0.007178060754704307,
+        "qT_fraction_of_bulk": 0.9359342152297557,
+        "flux_closure_abs": 1.3405832000046303e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 1.7887843186518775e-05
+      },
+      {
+        "index": 40,
+        "omega": 1.6,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.00022654359550488488,
+        "Tq": 0.8877900739782018,
+        "Tbulk": 0.11198338241281051,
+        "T_qT_modal": 0.10502980423590957,
+        "T_qL_modal": 0.006953578176900916,
+        "qT_fraction_of_bulk": 0.937905267486317,
+        "flux_closure_abs": 1.3482881477955289e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 2.2840170813649647e-05
+      },
+      {
+        "index": 41,
+        "omega": 1.625,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.00016245504055110088,
+        "Tq": 0.8877396232462857,
+        "Tbulk": 0.11209792169959709,
+        "T_qT_modal": 0.10537011506332782,
+        "T_qL_modal": 0.006727806636269298,
+        "qT_fraction_of_bulk": 0.9399827710071322,
+        "flux_closure_abs": 1.3566037182499713e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 2.9295489732768576e-05
+      },
+      {
+        "index": 42,
+        "omega": 1.65,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 0.00011777984485707472,
+        "Tq": 0.8875232905813538,
+        "Tbulk": 0.11235892956013317,
+        "T_qT_modal": 0.10585558278331764,
+        "T_qL_modal": 0.006503346776815551,
+        "qT_fraction_of_bulk": 0.9421198937879253,
+        "flux_closure_abs": 1.365596524749435e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 3.770715124029163e-05
+      },
+      {
+        "index": 43,
+        "omega": 1.675,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 8.697355922079216e-05,
+        "Tq": 0.887081249479606,
+        "Tbulk": 0.11283177694742165,
+        "T_qT_modal": 0.10654916035308379,
+        "T_qL_modal": 0.00628261659433785,
+        "qT_fraction_of_bulk": 0.9443187303762353,
+        "flux_closure_abs": 1.3751555449914576e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 4.873833652390475e-05
+      },
+      {
+        "index": 44,
+        "omega": 1.7,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 6.587240223119025e-05,
+        "Tq": 0.8864030399487348,
+        "Tbulk": 0.11353108763518088,
+        "T_qT_modal": 0.10746385993223348,
+        "T_qL_modal": 0.006067227702947404,
+        "qT_fraction_of_bulk": 0.9465588868271593,
+        "flux_closure_abs": 1.3853140856667778e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 6.321497218872097e-05
+      },
+      {
+        "index": 45,
+        "omega": 1.725,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 5.143152258271101e-05,
+        "Tq": 0.8854951310262756,
+        "Tbulk": 0.11445343743718041,
+        "T_qT_modal": 0.10859832449629858,
+        "T_qL_modal": 0.005855112940881835,
+        "qT_fraction_of_bulk": 0.9488428388697762,
+        "flux_closure_abs": 1.3961276579266269e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 8.23280187180119e-05
+      },
+      {
+        "index": 46,
+        "omega": 1.75,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 4.142113304588314e-05,
+        "Tq": 0.8843853276174894,
+        "Tbulk": 0.11557325123538874,
+        "T_qT_modal": 0.10992771255224665,
+        "T_qL_modal": 0.00564553868314208,
+        "qT_fraction_of_bulk": 0.9511518571746002,
+        "flux_closure_abs": 1.4075962617710047e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 0.00010769598267361994
+      },
+      {
+        "index": 47,
+        "omega": 1.775,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 3.435651144111888e-05,
+        "Tq": 0.8829343385557201,
+        "Tbulk": 0.1170313049186426,
+        "T_qT_modal": 0.11159089825264215,
+        "T_qL_modal": 0.005440406666000457,
+        "qT_fraction_of_bulk": 0.9535132358834887,
+        "flux_closure_abs": 1.4196199771276952e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 0.00014149624866568273
+      },
+      {
+        "index": 48,
+        "omega": 1.8,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 256,
+          "PV_bins": 16384
+        },
+        "Rq": 2.9183952907570157e-05,
+        "Tq": 0.8812218196900009,
+        "Tbulk": 0.11874899634276746,
+        "T_qT_modal": 0.11350628712427108,
+        "T_qL_modal": 0.0052427092184963945,
+        "qT_fraction_of_bulk": 0.9558504965939807,
+        "flux_closure_abs": 1.432409746371377e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 0.00018678771554552713
+      }
+    ],
+    "coupling_scale": [
+      {
+        "scale": 0.05,
+        "Rq": 1.5478858945664462e-05,
+        "Tq": 0.9997189528264205,
+        "Tbulk": 0.0002655683024286443,
+        "T_qT_modal": 0.00024610966676734977,
+        "T_qL_modal": 1.9458635661294515e-05,
+        "qT_fraction_of_bulk": 0.9267283200466936,
+        "flux_closure_abs": 1.2205125798914196e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.4489842171626346e-09
+      },
+      {
+        "scale": 0.075,
+        "Rq": 3.540079453333004e-05,
+        "Tq": 0.9993624086999624,
+        "Tbulk": 0.0006021904932677961,
+        "T_qT_modal": 0.0005579235044084779,
+        "T_qL_modal": 4.426698885931837e-05,
+        "qT_fraction_of_bulk": 0.9264900569600447,
+        "flux_closure_abs": 1.2236434088208625e-11,
+        "modal_sum_residual_abs": 1.0842021724855044e-19,
+        "min_bulk_linewidth_eigenvalue": 5.478992243765623e-09
+      },
+      {
+        "scale": 0.1,
+        "Rq": 6.387644030368076e-05,
+        "Tq": 0.998857301649102,
+        "Tbulk": 0.0010788218983247273,
+        "T_qT_modal": 0.0009992640794085426,
+        "T_qL_modal": 7.955781891618468e-05,
+        "qT_fraction_of_bulk": 0.9262549091377105,
+        "flux_closure_abs": 1.2269518734342455e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 9.685277840089009e-09
+      },
+      {
+        "scale": 0.15,
+        "Rq": 0.0001474000743189612,
+        "Tq": 0.9973882594791607,
+        "Tbulk": 0.0024643404341879436,
+        "T_qT_modal": 0.0022814712568306086,
+        "T_qL_modal": 0.00018286917735733495,
+        "qT_fraction_of_bulk": 0.925793865644381,
+        "flux_closure_abs": 1.2332357357536239e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.1546052117996815e-08
+      },
+      {
+        "scale": 0.2,
+        "Rq": 0.0002671591642593635,
+        "Tq": 0.9952864658127627,
+        "Tbulk": 0.004446375010584311,
+        "T_qT_modal": 0.0041144307519561,
+        "T_qL_modal": 0.0003319442586282097,
+        "qT_fraction_of_bulk": 0.9253449702649824,
+        "flux_closure_abs": 1.2393641668495547e-11,
+        "modal_sum_residual_abs": 8.673617379884035e-19,
+        "min_bulk_linewidth_eigenvalue": 3.7872618106780046e-08
+      },
+      {
+        "scale": 0.25,
+        "Rq": 0.00042303862187944435,
+        "Tq": 0.9925280958631203,
+        "Tbulk": 0.0070488655025474495,
+        "T_qT_modal": 0.006519551762688106,
+        "T_qL_modal": 0.0005293137398593438,
+        "qT_fraction_of_bulk": 0.9249079529651899,
+        "flux_closure_abs": 1.2452816555708068e-11,
+        "modal_sum_residual_abs": 8.673617379884035e-19,
+        "min_bulk_linewidth_eigenvalue": 5.851033672161479e-08
+      },
+      {
+        "scale": 0.5,
+        "Rq": 0.0016463096680348498,
+        "Tq": 0.9681617251869962,
+        "Tbulk": 0.03019196513225911,
+        "T_qT_modal": 0.027863807476572883,
+        "T_qL_modal": 0.002328157655686227,
+        "qT_fraction_of_bulk": 0.9228881708929019,
+        "flux_closure_abs": 1.2709944208211255e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.2122640292702097e-07
+      },
+      {
+        "scale": 1.0,
+        "Rq": 0.0035751458745579504,
+        "Tq": 0.8597234671980312,
+        "Tbulk": 0.13670138691445677,
+        "T_qT_modal": 0.12569143926167411,
+        "T_qL_modal": 0.011009947652782653,
+        "qT_fraction_of_bulk": 0.9194598686868312,
+        "flux_closure_abs": 1.2954082251326327e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "scale": 1.5,
+        "Rq": 0.005664483417746222,
+        "Tq": 0.657235769662863,
+        "Tbulk": 0.33709974690661,
+        "T_qT_modal": 0.30889477637826507,
+        "T_qL_modal": 0.02820497052834496,
+        "qT_fraction_of_bulk": 0.916330490345462,
+        "flux_closure_abs": 1.2780887459484802e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 1.5965495879096853e-06
+      },
+      {
+        "scale": 2.0,
+        "Rq": 0.04445481284104763,
+        "Tq": 0.38372325000897334,
+        "Tbulk": 0.5718219371379418,
+        "T_qT_modal": 0.5221832770529679,
+        "T_qL_modal": 0.049638660084974036,
+        "qT_fraction_of_bulk": 0.913192102539082,
+        "flux_closure_abs": 1.2037260077590872e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.5490692620422766e-06
+      }
+    ],
+    "length": [
+      {
+        "nseg": 2,
+        "Rq": 0.005564450065418486,
+        "Tq": 0.9847044018818879,
+        "Tbulk": 0.009731148047113437,
+        "T_qT_modal": 0.008820554207266457,
+        "T_qL_modal": 0.0009105938398469791,
+        "qT_fraction_of_bulk": 0.9064248292762239,
+        "flux_closure_abs": 5.580202966370962e-12,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 0.00010356885336090028
+      },
+      {
+        "nseg": 3,
+        "Rq": 0.012467176946781195,
+        "Tq": 0.9514609780412207,
+        "Tbulk": 0.03607184500436383,
+        "T_qT_modal": 0.03288363539616236,
+        "T_qL_modal": 0.003188209608201463,
+        "qT_fraction_of_bulk": 0.9116150114357675,
+        "flux_closure_abs": 7.634337606532426e-12,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 2.7701350426719104e-05
+      },
+      {
+        "nseg": 4,
+        "Rq": 0.007941931386310885,
+        "Tq": 0.9212748092357893,
+        "Tbulk": 0.07078325936844525,
+        "T_qT_modal": 0.06494906378974039,
+        "T_qL_modal": 0.005834195578704846,
+        "qT_fraction_of_bulk": 0.9175766186700113,
+        "flux_closure_abs": 9.454659277707833e-12,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 8.810137199552982e-06
+      },
+      {
+        "nseg": 6,
+        "Rq": 0.0035751458745579504,
+        "Tq": 0.8597234671980312,
+        "Tbulk": 0.13670138691445677,
+        "T_qT_modal": 0.12569143926167411,
+        "T_qL_modal": 0.011009947652782653,
+        "qT_fraction_of_bulk": 0.9194598686868312,
+        "flux_closure_abs": 1.2954082251326327e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "nseg": 8,
+        "Rq": 0.007348221368259982,
+        "Tq": 0.7872781498521356,
+        "Tbulk": 0.20537362876339418,
+        "T_qT_modal": 0.18608885490121133,
+        "T_qL_modal": 0.019284773862182896,
+        "qT_fraction_of_bulk": 0.9060990742662469,
+        "flux_closure_abs": 1.6210255360249448e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 8.450610080192669e-07
+      },
+      {
+        "nseg": 10,
+        "Rq": 0.002975247135243975,
+        "Tq": 0.7253228391763955,
+        "Tbulk": 0.27170191366919844,
+        "T_qT_modal": 0.24511666573513982,
+        "T_qL_modal": 0.026585247934058635,
+        "qT_fraction_of_bulk": 0.9021528866873326,
+        "flux_closure_abs": 1.9162005315820352e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 4.360738044455558e-08
+      }
+    ],
+    "profile": [
+      {
+        "name": "reference",
+        "g": [
+          0.1,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.1
+        ],
+        "Rq": 0.0035751458745579504,
+        "Tq": 0.8597234671980312,
+        "Tbulk": 0.13670138691445677,
+        "T_qT_modal": 0.12569143926167411,
+        "T_qL_modal": 0.011009947652782653,
+        "qT_fraction_of_bulk": 0.9194598686868312,
+        "flux_closure_abs": 1.2954082251326327e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "name": "uniform",
+        "g": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "Rq": 0.02222655717688322,
+        "Tq": 0.804803687810007,
+        "Tbulk": 0.17296975500014503,
+        "T_qT_modal": 0.1578695516555838,
+        "T_qL_modal": 0.01510020334456121,
+        "qT_fraction_of_bulk": 0.9127003252993648,
+        "flux_closure_abs": 1.2964740392362728e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 5.877358715996e-06
+      },
+      {
+        "name": "soft_ramp",
+        "g": [
+          0.05,
+          0.12,
+          0.2,
+          0.2,
+          0.12,
+          0.05
+        ],
+        "Rq": 0.001955595967115435,
+        "Tq": 0.9135179851824082,
+        "Tbulk": 0.08452641883777771,
+        "T_qT_modal": 0.07785235702122151,
+        "T_qL_modal": 0.006674061816556238,
+        "qT_fraction_of_bulk": 0.9210417061514814,
+        "flux_closure_abs": 1.2698619933360078e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 1.3102429944146456e-06
+      },
+      {
+        "name": "short_core",
+        "g": [
+          0.0,
+          0.1,
+          0.2,
+          0.2,
+          0.1,
+          0.0
+        ],
+        "Rq": 0.007941931386587888,
+        "Tq": 0.9212748092325936,
+        "Tbulk": 0.07078325936832253,
+        "T_qT_modal": 0.0649490637896278,
+        "T_qL_modal": 0.005834195578694731,
+        "qT_fraction_of_bulk": 0.9175766186700115,
+        "flux_closure_abs": 1.2495893209063524e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 0.0
+      },
+      {
+        "name": "edge_heavy",
+        "g": [
+          0.2,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        "Rq": 0.01707409024590456,
+        "Tq": 0.9104385428474346,
+        "Tbulk": 0.0724873668936119,
+        "T_qT_modal": 0.06525391805264691,
+        "T_qL_modal": 0.00723344884096502,
+        "qT_fraction_of_bulk": 0.9002109036243326,
+        "flux_closure_abs": 1.3048895297629315e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 5.524682053784796e-06
+      }
+    ],
+    "source_speed": [
+      {
+        "c_spine_longwave": 0.65,
+        "Rq": 0.043146679998159417,
+        "Tq": 0.9297857418392075,
+        "Tbulk": 0.027067578122951182,
+        "T_qT_modal": 0.026457516967279587,
+        "T_qL_modal": 0.0006100611556715924,
+        "qT_fraction_of_bulk": 0.9774615537119551,
+        "flux_closure_abs": 3.968192441305973e-11,
+        "modal_sum_residual_abs": 3.469446951953614e-18,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 0.8,
+        "Rq": 0.001072534745783227,
+        "Tq": 0.915231707617248,
+        "Tbulk": 0.08369575761156371,
+        "T_qT_modal": 0.0795029218269444,
+        "T_qL_modal": 0.004192835784619283,
+        "qT_fraction_of_bulk": 0.9499038433455794,
+        "flux_closure_abs": 2.5405011427892532e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 0.9,
+        "Rq": 0.0010786568404428931,
+        "Tq": 0.8894366532666742,
+        "Tbulk": 0.10948468987200466,
+        "T_qT_modal": 0.10272867947522446,
+        "T_qL_modal": 0.006756010396780202,
+        "qT_fraction_of_bulk": 0.9382926470844604,
+        "flux_closure_abs": 2.087829908958838e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.0,
+        "Rq": 0.0025335799021641205,
+        "Tq": 0.8726373750120123,
+        "Tbulk": 0.12482904506787194,
+        "T_qT_modal": 0.11615403422408674,
+        "T_qL_modal": 0.008675010843785205,
+        "qT_fraction_of_bulk": 0.9305048689664458,
+        "flux_closure_abs": 1.7951640174374006e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.1,
+        "Rq": 0.004444679364121499,
+        "Tq": 0.863064967622057,
+        "Tbulk": 0.13249035299794926,
+        "T_qT_modal": 0.12260652350028131,
+        "T_qL_modal": 0.009883829497667891,
+        "qT_fraction_of_bulk": 0.9253996289237683,
+        "flux_closure_abs": 1.5872192449251088e-11,
+        "modal_sum_residual_abs": 5.551115123125783e-17,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.2,
+        "Rq": 0.004872228255880453,
+        "Tq": 0.8593584703013575,
+        "Tbulk": 0.13576930142850233,
+        "T_qT_modal": 0.12517035084527153,
+        "T_qL_modal": 0.010598950583230798,
+        "qT_fraction_of_bulk": 0.9219341156527028,
+        "flux_closure_abs": 1.4259815550587973e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.3,
+        "Rq": 0.0035751458745579188,
+        "Tq": 0.8597234671980309,
+        "Tbulk": 0.13670138691445674,
+        "T_qT_modal": 0.1256914392616741,
+        "T_qL_modal": 0.01100994765278265,
+        "qT_fraction_of_bulk": 0.9194598686868312,
+        "flux_closure_abs": 1.2954415318233714e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.5,
+        "Rq": 0.0006870951229288279,
+        "Tq": 0.8649114995481832,
+        "Tbulk": 0.13440140531786998,
+        "T_qT_modal": 0.12313817783256195,
+        "T_qL_modal": 0.011263227485308025,
+        "qT_fraction_of_bulk": 0.9161971003303901,
+        "flux_closure_abs": 1.1017853296380054e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 1.7,
+        "Rq": 0.00273335116723785,
+        "Tq": 0.8690466217449467,
+        "Tbulk": 0.12822002707812125,
+        "T_qT_modal": 0.11721797945152465,
+        "T_qL_modal": 0.011002047626596605,
+        "qT_fraction_of_bulk": 0.9141940001315604,
+        "flux_closure_abs": 9.694245406421942e-12,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      },
+      {
+        "c_spine_longwave": 2.0,
+        "Rq": 0.013157351250637921,
+        "Tq": 0.871502979846301,
+        "Tbulk": 0.11533966889476097,
+        "T_qT_modal": 0.10523708013923769,
+        "T_qL_modal": 0.01010258875552327,
+        "qT_fraction_of_bulk": 0.9124101113491044,
+        "flux_closure_abs": 8.300138354400133e-12,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+      }
+    ],
+    "stiffness_ratio": [
+      {
+        "k_diag_over_k_axis": 0.75,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 160,
+          "PV_bins": 6144,
+          "energy_range": [
+            0.0,
+            10.0
+          ]
+        },
+        "Rq": 0.003341710516951292,
+        "Tq": 0.8118163560112943,
+        "Tbulk": 0.18484193345909714,
+        "T_qT_modal": 0.16902098751831351,
+        "T_qL_modal": 0.015820945940783593,
+        "qT_fraction_of_bulk": 0.914408242519901,
+        "flux_closure_abs": 1.265720861454156e-11,
+        "modal_sum_residual_abs": 2.7755575615628914e-17,
+        "min_bulk_linewidth_eigenvalue": 2.686061757970039e-06
+      },
+      {
+        "k_diag_over_k_axis": 0.9,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 160,
+          "PV_bins": 6144,
+          "energy_range": [
+            0.0,
+            11.2
+          ]
+        },
+        "Rq": 0.0034929936553108457,
+        "Tq": 0.8434201144815348,
+        "Tbulk": 0.1530868918503025,
+        "T_qT_modal": 0.14047196954661356,
+        "T_qL_modal": 0.012614922303688943,
+        "qT_fraction_of_bulk": 0.9175963261699469,
+        "flux_closure_abs": 1.2851941733060812e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 1.1963425331385548e-06
+      },
+      {
+        "k_diag_over_k_axis": 1.0,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 160,
+          "PV_bins": 6144,
+          "energy_range": [
+            0.0,
+            12.0
+          ]
+        },
+        "Rq": 0.0035753085466673547,
+        "Tq": 0.8597342451924403,
+        "Tbulk": 0.13669044624793725,
+        "T_qT_modal": 0.12568139999959427,
+        "T_qL_modal": 0.011009046248342974,
+        "qT_fraction_of_bulk": 0.9194600167712225,
+        "flux_closure_abs": 1.2955081452048489e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 7.916131224287191e-07
+      },
+      {
+        "k_diag_over_k_axis": 1.1,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 160,
+          "PV_bins": 6144,
+          "energy_range": [
+            0.0,
+            12.8
+          ]
+        },
+        "Rq": 0.0036410029078244614,
+        "Tq": 0.8732820597690859,
+        "Tbulk": 0.12307693731004712,
+        "T_qT_modal": 0.11336522291517442,
+        "T_qL_modal": 0.009711714394872718,
+        "qT_fraction_of_bulk": 0.9210923296668684,
+        "flux_closure_abs": 1.3042567026388951e-11,
+        "modal_sum_residual_abs": 1.3877787807814457e-17,
+        "min_bulk_linewidth_eigenvalue": 5.517976815714273e-07
+      },
+      {
+        "k_diag_over_k_axis": 1.25,
+        "method": {
+          "surface_grid": 80,
+          "PV_order": 160,
+          "PV_bins": 6144,
+          "energy_range": [
+            0.0,
+            14.0
+          ]
+        },
+        "Rq": 0.0037273624980008096,
+        "Tq": 0.8899560627388458,
+        "Tbulk": 0.10631657475000353,
+        "T_qT_modal": 0.09814801817476115,
+        "T_qL_modal": 0.008168556575242387,
+        "qT_fraction_of_bulk": 0.9231676096182537,
+        "flux_closure_abs": 1.3149925592870204e-11,
+        "modal_sum_residual_abs": 0.0,
+        "min_bulk_linewidth_eigenvalue": 3.3927891819177074e-07
+      }
+    ]
+  },
+  "ranges": {
+    "frequency": {
+      "rows": 49,
+      "qT_min": 0.10486397198471414,
+      "qT_max": 0.21774263089260212,
+      "qT_fraction_min": 0.9104925786553522,
+      "qT_fraction_max": 0.9558504965939807,
+      "maximum_closure": 1.492561629845568e-11,
+      "maximum_partition_residual": 8.326672684688674e-17
+    },
+    "coupling_scale": {
+      "rows": 10,
+      "qT_min": 0.00024610966676734977,
+      "qT_max": 0.5221832770529679,
+      "qT_fraction_min": 0.913192102539082,
+      "qT_fraction_max": 0.9267283200466936,
+      "maximum_closure": 1.2954082251326327e-11,
+      "maximum_partition_residual": 5.551115123125783e-17
+    },
+    "length": {
+      "rows": 6,
+      "qT_min": 0.008820554207266457,
+      "qT_max": 0.24511666573513982,
+      "qT_fraction_min": 0.9021528866873326,
+      "qT_fraction_max": 0.9194598686868312,
+      "maximum_closure": 1.9162005315820352e-11,
+      "maximum_partition_residual": 2.7755575615628914e-17
+    },
+    "profile": {
+      "rows": 5,
+      "qT_min": 0.0649490637896278,
+      "qT_max": 0.1578695516555838,
+      "qT_fraction_min": 0.9002109036243326,
+      "qT_fraction_max": 0.9210417061514814,
+      "maximum_closure": 1.3048895297629315e-11,
+      "maximum_partition_residual": 2.7755575615628914e-17
+    },
+    "source_speed": {
+      "rows": 10,
+      "qT_min": 0.026457516967279587,
+      "qT_max": 0.1256914392616741,
+      "qT_fraction_min": 0.9124101113491044,
+      "qT_fraction_max": 0.9774615537119551,
+      "maximum_closure": 3.968192441305973e-11,
+      "maximum_partition_residual": 5.551115123125783e-17
+    },
+    "stiffness_ratio": {
+      "rows": 5,
+      "qT_min": 0.09814801817476115,
+      "qT_max": 0.16902098751831351,
+      "qT_fraction_min": 0.914408242519901,
+      "qT_fraction_max": 0.9231676096182537,
+      "maximum_closure": 1.3149925592870204e-11,
+      "maximum_partition_residual": 2.7755575615628914e-17
+    }
+  },
+  "coupling_including_zero": [
+    {
+      "scale": 0.0,
+      "Rq": 1.1212559141166385e-24,
+      "Tq": 0.9999999999878602,
+      "Tbulk": 0.0,
+      "T_qT_modal": 0.0,
+      "T_qL_modal": 0.0,
+      "qT_fraction_of_bulk": 0.0,
+      "flux_closure_abs": 1.2139844685066237e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 0.0
+    },
+    {
+      "scale": 0.05,
+      "Rq": 1.5478858945664462e-05,
+      "Tq": 0.9997189528264205,
+      "Tbulk": 0.0002655683024286443,
+      "T_qT_modal": 0.00024610966676734977,
+      "T_qL_modal": 1.9458635661294515e-05,
+      "qT_fraction_of_bulk": 0.9267283200466936,
+      "flux_closure_abs": 1.2205125798914196e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 2.4489842171626346e-09
+    },
+    {
+      "scale": 0.075,
+      "Rq": 3.540079453333004e-05,
+      "Tq": 0.9993624086999624,
+      "Tbulk": 0.0006021904932677961,
+      "T_qT_modal": 0.0005579235044084779,
+      "T_qL_modal": 4.426698885931837e-05,
+      "qT_fraction_of_bulk": 0.9264900569600447,
+      "flux_closure_abs": 1.2236434088208625e-11,
+      "modal_sum_residual_abs": 1.0842021724855044e-19,
+      "min_bulk_linewidth_eigenvalue": 5.478992243765623e-09
+    },
+    {
+      "scale": 0.1,
+      "Rq": 6.387644030368076e-05,
+      "Tq": 0.998857301649102,
+      "Tbulk": 0.0010788218983247273,
+      "T_qT_modal": 0.0009992640794085426,
+      "T_qL_modal": 7.955781891618468e-05,
+      "qT_fraction_of_bulk": 0.9262549091377105,
+      "flux_closure_abs": 1.2269518734342455e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 9.685277840089009e-09
+    },
+    {
+      "scale": 0.15,
+      "Rq": 0.0001474000743189612,
+      "Tq": 0.9973882594791607,
+      "Tbulk": 0.0024643404341879436,
+      "T_qT_modal": 0.0022814712568306086,
+      "T_qL_modal": 0.00018286917735733495,
+      "qT_fraction_of_bulk": 0.925793865644381,
+      "flux_closure_abs": 1.2332357357536239e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 2.1546052117996815e-08
+    },
+    {
+      "scale": 0.2,
+      "Rq": 0.0002671591642593635,
+      "Tq": 0.9952864658127627,
+      "Tbulk": 0.004446375010584311,
+      "T_qT_modal": 0.0041144307519561,
+      "T_qL_modal": 0.0003319442586282097,
+      "qT_fraction_of_bulk": 0.9253449702649824,
+      "flux_closure_abs": 1.2393641668495547e-11,
+      "modal_sum_residual_abs": 8.673617379884035e-19,
+      "min_bulk_linewidth_eigenvalue": 3.7872618106780046e-08
+    },
+    {
+      "scale": 0.25,
+      "Rq": 0.00042303862187944435,
+      "Tq": 0.9925280958631203,
+      "Tbulk": 0.0070488655025474495,
+      "T_qT_modal": 0.006519551762688106,
+      "T_qL_modal": 0.0005293137398593438,
+      "qT_fraction_of_bulk": 0.9249079529651899,
+      "flux_closure_abs": 1.2452816555708068e-11,
+      "modal_sum_residual_abs": 8.673617379884035e-19,
+      "min_bulk_linewidth_eigenvalue": 5.851033672161479e-08
+    },
+    {
+      "scale": 0.5,
+      "Rq": 0.0016463096680348498,
+      "Tq": 0.9681617251869962,
+      "Tbulk": 0.03019196513225911,
+      "T_qT_modal": 0.027863807476572883,
+      "T_qL_modal": 0.002328157655686227,
+      "qT_fraction_of_bulk": 0.9228881708929019,
+      "flux_closure_abs": 1.2709944208211255e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 2.2122640292702097e-07
+    },
+    {
+      "scale": 1.0,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    },
+    {
+      "scale": 1.5,
+      "Rq": 0.005664483417746222,
+      "Tq": 0.657235769662863,
+      "Tbulk": 0.33709974690661,
+      "T_qT_modal": 0.30889477637826507,
+      "T_qL_modal": 0.02820497052834496,
+      "qT_fraction_of_bulk": 0.916330490345462,
+      "flux_closure_abs": 1.2780887459484802e-11,
+      "modal_sum_residual_abs": 5.551115123125783e-17,
+      "min_bulk_linewidth_eigenvalue": 1.5965495879096853e-06
+    },
+    {
+      "scale": 2.0,
+      "Rq": 0.04445481284104763,
+      "Tq": 0.38372325000897334,
+      "Tbulk": 0.5718219371379418,
+      "T_qT_modal": 0.5221832770529679,
+      "T_qL_modal": 0.049638660084974036,
+      "qT_fraction_of_bulk": 0.913192102539082,
+      "flux_closure_abs": 1.2037260077590872e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 2.5490692620422766e-06
+    }
+  ],
+  "dimensional_unit_covariance": [
+    {
+      "a": 0.25,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    },
+    {
+      "a": 0.5,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    },
+    {
+      "a": 1.0,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    },
+    {
+      "a": 2.0,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    },
+    {
+      "a": 4.0,
+      "Rq": 0.0035751458745579504,
+      "Tq": 0.8597234671980312,
+      "Tbulk": 0.13670138691445677,
+      "T_qT_modal": 0.12569143926167411,
+      "T_qL_modal": 0.011009947652782653,
+      "qT_fraction_of_bulk": 0.9194598686868312,
+      "flux_closure_abs": 1.2954082251326327e-11,
+      "modal_sum_residual_abs": 0.0,
+      "min_bulk_linewidth_eigenvalue": 7.916772392859608e-07
+    }
+  ],
+  "weak_coupling_log_slope_sampled": 2.031520824485113,
+  "reference_is_not_best_sampled_profile": true,
+  "active_row_count": 85,
+  "minimum_active_qT": 0.00024610966676734977,
+  "maximum_closure": 3.968192441305973e-11,
+  "maximum_partition_residual": 8.326672684688674e-17,
+  "producer_sha256": "1163096ac3047ad822b8e5da95b734e60ca526a3b96289e39ac51fb18bc64202",
+  "changes_from_historical": [
+    "Basis-invariant nodal spectral weights.",
+    "N80 shells throughout the finite robustness sample.",
+    "Selected fresh two-ensemble PV contract for the common physical bulk.",
+    "Exact model-dependent spectral support for stiffness ratios; no physical eigenvalue clipping."
+  ]
+}

@@ -1,0 +1,1903 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "domain": "g_j=(j/7)(1+delta_j), all six delta_j independently in[-1/20,1/20]; eachmotif8linksvariedtogether;omega6/5,remainingparametersfixed",
+  "vertex_count": 64,
+  "uses_transmission_vertex_extrema_assumption": false,
+  "acceptance_arithmetic": "Exact Fraction inequalities with the independently verified point inverse residual; interval radicals width1e-80.",
+  "source_kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "point_verifier_sha256": "8cc7821ddc6c2adb20f9ff3079cda17519086479e11b1ddeb833053dcdcf3359",
+  "auxiliary_norm_caps": {
+    "r": "41/250",
+    "w": "17/250",
+    "v": "103/625",
+    "ell": "173/10000",
+    "w_eta": "649/10000",
+    "d_eta": "63/1250",
+    "h0": "497/500",
+    "j0": "6289/10000",
+    "RD": "218/125"
+  },
+  "finite_matrix_energy_floor_rational": "3634096757/5225000000",
+  "finite_matrix_energy_floor_display": 0.695520910430622,
+  "finite_matrix_output_amplitude_lower": "8339/10000",
+  "uniform_source_caps": {
+    "eta_c_norm": "633/1000",
+    "Hnorm": "113/100",
+    "Jnorm": "193/250"
+  },
+  "coarse_kernel_box_lower": {
+    "eG": "1/50",
+    "eQ": "1/200",
+    "lower_rational": "59673105184307/88454700000000",
+    "lower_display": 0.6746176877464624
+  },
+  "tight_kernel_box_lower": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "lower_rational": "42767052725496289/61936276900000000",
+    "lower_display": 0.6905008642115569
+  },
+  "conclusion": "Under authenticatedscaledkernelerrorcaps eG<=1/250,eQ<=1/500, T_qT>69/100 throughout the entire six-motif \u00b15% coupling box.",
+  "scope": "Candidate-specific continuous coupling-box lowerbound with realphysicallead and completeqTmetric. Not a bandwidth or packet result, no claim that exactnominalpoint rounds to73.6%. Kernelpremiseauthentication belongs to the linked contour-replay chain.",
+  "vertex_details": [
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.026844783747291098,
+        "FB_frobenius_squared": 0.004609763616873718,
+        "B_y0_norm_squared_upper": 0.02710351700834649,
+        "P_B_frobenius_squared": 0.003415393244580032,
+        "P_B_y0_squared_upper": 0.0025230578752383735,
+        "P_RD_frobenius_squared": 0.8084655234886949,
+        "F_RD_frobenius_squared": 0.3235956946302809,
+        "RD_frobenius_squared": 2.488936515988298,
+        "linear_energy_scalar_absolute_upper": 0.0018230034262719827
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.022433801357327046,
+        "FB_frobenius_squared": 0.003582942231724715,
+        "B_y0_norm_squared_upper": 0.02583416721536023,
+        "P_B_frobenius_squared": 0.004032474356065265,
+        "P_B_y0_squared_upper": 0.0023917912503016504,
+        "P_RD_frobenius_squared": 0.8665937406226346,
+        "F_RD_frobenius_squared": 0.34320991317076055,
+        "RD_frobenius_squared": 2.6292437998609834,
+        "linear_energy_scalar_absolute_upper": 0.004651720115225575
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01634147449280956,
+        "FB_frobenius_squared": 0.002383500719617329,
+        "B_y0_norm_squared_upper": 0.018631212908513013,
+        "P_B_frobenius_squared": 0.004194918061528413,
+        "P_B_y0_squared_upper": 0.001847860408132862,
+        "P_RD_frobenius_squared": 0.8555237786729212,
+        "F_RD_frobenius_squared": 0.33810401179376093,
+        "RD_frobenius_squared": 2.6189792342554266,
+        "linear_energy_scalar_absolute_upper": 0.002882074011359439
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.020103139031628116,
+        "FB_frobenius_squared": 0.003322879023656445,
+        "B_y0_norm_squared_upper": 0.01824289441718532,
+        "P_B_frobenius_squared": 0.0035994981946956654,
+        "P_B_y0_squared_upper": 0.00166771152044952,
+        "P_RD_frobenius_squared": 0.9136519958068609,
+        "F_RD_frobenius_squared": 0.3577182303342406,
+        "RD_frobenius_squared": 2.759286518128112,
+        "linear_energy_scalar_absolute_upper": 0.003592649530138119
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.013832902468605034,
+        "FB_frobenius_squared": 0.0021823847525667597,
+        "B_y0_norm_squared_upper": 0.009135742413028015,
+        "P_B_frobenius_squared": 0.003510313677209281,
+        "P_B_y0_squared_upper": 0.0013094213336896832,
+        "P_RD_frobenius_squared": 0.8435433863049329,
+        "F_RD_frobenius_squared": 0.3388293599831988,
+        "RD_frobenius_squared": 2.614668471782384,
+        "linear_energy_scalar_absolute_upper": 0.009900009069636841
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010343587714809498,
+        "FB_frobenius_squared": 0.001381632703000102,
+        "B_y0_norm_squared_upper": 0.008692189523337958,
+        "P_B_frobenius_squared": 0.004171769076689856,
+        "P_B_y0_squared_upper": 0.0012240070659194358,
+        "P_RD_frobenius_squared": 0.9016716034388724,
+        "F_RD_frobenius_squared": 0.35844357852367853,
+        "RD_frobenius_squared": 2.7549757556550696,
+        "linear_energy_scalar_absolute_upper": 0.0034252855281392824
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01493838721214649,
+        "FB_frobenius_squared": 0.002213327168414905,
+        "B_y0_norm_squared_upper": 0.006286113291801726,
+        "P_B_frobenius_squared": 0.003884695297255068,
+        "P_B_y0_squared_upper": 0.000853722292852414,
+        "P_RD_frobenius_squared": 0.8906016414891591,
+        "F_RD_frobenius_squared": 0.35333767714667885,
+        "RD_frobenius_squared": 2.7447111900495123,
+        "linear_energy_scalar_absolute_upper": 0.010959079654724297
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "57/140",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01962171938713356,
+        "FB_frobenius_squared": 0.003378774808036366,
+        "B_y0_norm_squared_upper": 0.006723591703770234,
+        "P_B_frobenius_squared": 0.003333649718417662,
+        "P_B_y0_squared_upper": 0.0007194257623355479,
+        "P_RD_frobenius_squared": 0.9487298586230987,
+        "F_RD_frobenius_squared": 0.3729518956871586,
+        "RD_frobenius_squared": 2.885018473922198,
+        "linear_energy_scalar_absolute_upper": 0.004484356113226739
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01581599811902717,
+        "FB_frobenius_squared": 0.002629253770321907,
+        "B_y0_norm_squared_upper": 0.00446287773720969,
+        "P_B_frobenius_squared": 0.003192169861629707,
+        "P_B_y0_squared_upper": 0.0009345890290166342,
+        "P_RD_frobenius_squared": 0.8318516679987752,
+        "F_RD_frobenius_squared": 0.3364511551048482,
+        "RD_frobenius_squared": 2.585375384549465,
+        "linear_energy_scalar_absolute_upper": 0.008114557712401823
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.011316372405379955,
+        "FB_frobenius_squared": 0.0015592766040826924,
+        "B_y0_norm_squared_upper": 0.003671507975347889,
+        "P_B_frobenius_squared": 0.003782941040689751,
+        "P_B_y0_squared_upper": 0.0009044207718706277,
+        "P_RD_frobenius_squared": 0.8899798851327148,
+        "F_RD_frobenius_squared": 0.35606537364532787,
+        "RD_frobenius_squared": 2.7256826684221505,
+        "linear_energy_scalar_absolute_upper": 0.0016398341709042647
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.006648800873436087,
+        "FB_frobenius_squared": 0.0006756004076546706,
+        "B_y0_norm_squared_upper": 0.0018664609665147072,
+        "P_B_frobenius_squared": 0.004051063066977245,
+        "P_B_y0_squared_upper": 0.0008012215717215133,
+        "P_RD_frobenius_squared": 0.8789099231830014,
+        "F_RD_frobenius_squared": 0.35095947226832824,
+        "RD_frobenius_squared": 2.7154181028165936,
+        "linear_energy_scalar_absolute_upper": 0.00917362829748928
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010321822088571478,
+        "FB_frobenius_squared": 0.0015718229306035745,
+        "B_y0_norm_squared_upper": 0.001956122506311474,
+        "P_B_frobenius_squared": 0.0034293332677193078,
+        "P_B_y0_squared_upper": 0.0007221710518288882,
+        "P_RD_frobenius_squared": 0.937038140316941,
+        "F_RD_frobenius_squared": 0.3705736908088079,
+        "RD_frobenius_squared": 2.855725386689279,
+        "linear_energy_scalar_absolute_upper": 0.002698904755991721
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.015289610990622664,
+        "FB_frobenius_squared": 0.0024026595540433205,
+        "B_y0_norm_squared_upper": 0.0021378818220627025,
+        "P_B_frobenius_squared": 0.003401352177483968,
+        "P_B_y0_squared_upper": 0.0005707284752917376,
+        "P_RD_frobenius_squared": 0.866929530815013,
+        "F_RD_frobenius_squared": 0.3516848204577661,
+        "RD_frobenius_squared": 2.7111073403435513,
+        "linear_energy_scalar_absolute_upper": 0.01619156335576668
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.011711652913143961,
+        "FB_frobenius_squared": 0.0015587517233864507,
+        "B_y0_norm_squared_upper": 0.0021723089634971045,
+        "P_B_frobenius_squared": 0.004036497644539353,
+        "P_B_y0_squared_upper": 0.0005864125753122069,
+        "P_RD_frobenius_squared": 0.9250577479489527,
+        "F_RD_frobenius_squared": 0.37129903899824585,
+        "RD_frobenius_squared": 2.8514146242162366,
+        "linear_energy_scalar_absolute_upper": 0.009716839814269122
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01773120774305457,
+        "FB_frobenius_squared": 0.002706211504480618,
+        "B_y0_norm_squared_upper": 0.005164140029974908,
+        "P_B_frobenius_squared": 0.0038551021859289116,
+        "P_B_y0_squared_upper": 0.000656859444264859,
+        "P_RD_frobenius_squared": 0.9139877859992392,
+        "F_RD_frobenius_squared": 0.36619313762124617,
+        "RD_frobenius_squared": 2.8411500586106797,
+        "linear_energy_scalar_absolute_upper": 0.017250633940854136
+      }
+    },
+    {
+      "signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "19/70",
+        "9/20",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.022325896594358477,
+        "FB_frobenius_squared": 0.0038285033630118667,
+        "B_y0_norm_squared_upper": 0.006079598473067878,
+        "P_B_frobenius_squared": 0.0032777466746663157,
+        "P_B_y0_squared_upper": 0.0006236612815387097,
+        "P_RD_frobenius_squared": 0.9721160031331789,
+        "F_RD_frobenius_squared": 0.3858073561617259,
+        "RD_frobenius_squared": 2.981457342483365,
+        "linear_energy_scalar_absolute_upper": 0.010775910399356579
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.0212795918217974,
+        "FB_frobenius_squared": 0.0035632333442008357,
+        "B_y0_norm_squared_upper": 0.008302489013485917,
+        "P_B_frobenius_squared": 0.0032142597824502354,
+        "P_B_y0_squared_upper": 0.0009577583831546534,
+        "P_RD_frobenius_squared": 0.8205856676705814,
+        "F_RD_frobenius_squared": 0.33099162134073296,
+        "RD_frobenius_squared": 2.5365481122416176,
+        "linear_energy_scalar_absolute_upper": 0.0035077149103722774
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.016710775855013005,
+        "FB_frobenius_squared": 0.0024571470546024083,
+        "B_y0_norm_squared_upper": 0.007260969654624183,
+        "P_B_frobenius_squared": 0.003797924654452152,
+        "P_B_y0_squared_upper": 0.0009349534185454026,
+        "P_RD_frobenius_squared": 0.878713884804521,
+        "F_RD_frobenius_squared": 0.3506058398812127,
+        "RD_frobenius_squared": 2.676855396114303,
+        "linear_energy_scalar_absolute_upper": 0.009982438451869836
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010725809410840817,
+        "FB_frobenius_squared": 0.001311998724287297,
+        "B_y0_norm_squared_upper": 0.003348453663015742,
+        "P_B_frobenius_squared": 0.003980563556633283,
+        "P_B_y0_squared_upper": 0.0007494271890210897,
+        "P_RD_frobenius_squared": 0.8676439228548076,
+        "F_RD_frobenius_squared": 0.345499938504213,
+        "RD_frobenius_squared": 2.666590830508746,
+        "linear_energy_scalar_absolute_upper": 0.002448644325284821
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01432964037283903,
+        "FB_frobenius_squared": 0.0021721121238769884,
+        "B_y0_norm_squared_upper": 0.003187965605812575,
+        "P_B_frobenius_squared": 0.0033517274503172185,
+        "P_B_y0_squared_upper": 0.0006777399616652203,
+        "P_RD_frobenius_squared": 0.9257721399887472,
+        "F_RD_frobenius_squared": 0.36511415704469274,
+        "RD_frobenius_squared": 2.8068981143814313,
+        "linear_energy_scalar_absolute_upper": 0.00892336786678238
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.009297676257511942,
+        "FB_frobenius_squared": 0.0013205863733768593,
+        "B_y0_norm_squared_upper": 0.0009678778138386108,
+        "P_B_frobenius_squared": 0.0033701386288046043,
+        "P_B_y0_squared_upper": 0.0006938046925172795,
+        "P_RD_frobenius_squared": 0.8556635304868192,
+        "F_RD_frobenius_squared": 0.34622528669365094,
+        "RD_frobenius_squared": 2.6622800680357037,
+        "linear_energy_scalar_absolute_upper": 0.004569290732992581
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.00565052792689606,
+        "FB_frobenius_squared": 0.0004405694193607767,
+        "B_y0_norm_squared_upper": 0.0007521553582730792,
+        "P_B_frobenius_squared": 0.003998177788801862,
+        "P_B_y0_squared_upper": 0.0007168520850745047,
+        "P_RD_frobenius_squared": 0.9137917476207588,
+        "F_RD_frobenius_squared": 0.3658395052341306,
+        "RD_frobenius_squared": 2.802587351908389,
+        "linear_energy_scalar_absolute_upper": 0.0019054328085049777
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010352687844578353,
+        "FB_frobenius_squared": 0.0013265570665678542,
+        "B_y0_norm_squared_upper": 0.0016365174419756244,
+        "P_B_frobenius_squared": 0.003731299206085058,
+        "P_B_y0_squared_upper": 0.0007049719246519582,
+        "P_RD_frobenius_squared": 0.9027217856710454,
+        "F_RD_frobenius_squared": 0.360733603857131,
+        "RD_frobenius_squared": 2.792322786302832,
+        "linear_energy_scalar_absolute_upper": 0.005628361318080036
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "57/140",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.014878186442745078,
+        "FB_frobenius_squared": 0.0024127398017398903,
+        "B_y0_norm_squared_upper": 0.00230182628806866,
+        "P_B_frobenius_squared": 0.0031468373877643345,
+        "P_B_y0_squared_upper": 0.0006791370544625647,
+        "P_RD_frobenius_squared": 0.960850002804985,
+        "F_RD_frobenius_squared": 0.38034782239761067,
+        "RD_frobenius_squared": 2.9326300701755175,
+        "linear_energy_scalar_absolute_upper": 0.0008463622234175214
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01831363716815595,
+        "FB_frobenius_squared": 0.003064401669454609,
+        "B_y0_norm_squared_upper": 0.0032134579972511353,
+        "P_B_frobenius_squared": 0.0032513637983323067,
+        "P_B_y0_squared_upper": 0.0005299439849530157,
+        "P_RD_frobenius_squared": 0.8439718121806615,
+        "F_RD_frobenius_squared": 0.34384708181530027,
+        "RD_frobenius_squared": 2.6329869808027846,
+        "linear_energy_scalar_absolute_upper": 0.002783839375757563
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01365617787768839,
+        "FB_frobenius_squared": 0.0019151595987659696,
+        "B_y0_norm_squared_upper": 0.002649918669513862,
+        "P_B_frobenius_squared": 0.0038087187379090334,
+        "P_B_y0_squared_upper": 0.0006082373881344818,
+        "P_RD_frobenius_squared": 0.9021000293146012,
+        "F_RD_frobenius_squared": 0.36346130035578,
+        "RD_frobenius_squared": 2.77329426467547,
+        "linear_energy_scalar_absolute_upper": 0.0036908841657399957
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.009095966766089822,
+        "FB_frobenius_squared": 0.0010857765841302224,
+        "B_y0_norm_squared_upper": 0.0041353099759194566,
+        "P_B_frobenius_squared": 0.004097035960914511,
+        "P_B_y0_squared_upper": 0.0008634428006298427,
+        "P_RD_frobenius_squared": 0.8910300673648878,
+        "F_RD_frobenius_squared": 0.3583553989787803,
+        "RD_frobenius_squared": 2.763029699069913,
+        "linear_energy_scalar_absolute_upper": 0.003842909960845019
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.012611154404404868,
+        "FB_frobenius_squared": 0.0019027342026297015,
+        "B_y0_norm_squared_upper": 0.0044528019498407505,
+        "P_B_frobenius_squared": 0.0034418899221732562,
+        "P_B_y0_squared_upper": 0.0008928539410646902,
+        "P_RD_frobenius_squared": 0.9491582844988274,
+        "F_RD_frobenius_squared": 0.37796961751926006,
+        "RD_frobenius_squared": 2.9033369829425983,
+        "linear_energy_scalar_absolute_upper": 0.0026318135806525393
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.018817215754152048,
+        "FB_frobenius_squared": 0.003022539346659004,
+        "B_y0_norm_squared_upper": 0.011521625477775318,
+        "P_B_frobenius_squared": 0.003521504527911687,
+        "P_B_y0_squared_upper": 0.0011157662821394353,
+        "P_RD_frobenius_squared": 0.8790496749968993,
+        "F_RD_frobenius_squared": 0.35908074716821825,
+        "RD_frobenius_squared": 2.7587189365968707,
+        "linear_energy_scalar_absolute_upper": 0.01086084501912242
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.015081424099853,
+        "FB_frobenius_squared": 0.002099366611552709,
+        "B_y0_norm_squared_upper": 0.011783883053334249,
+        "P_B_frobenius_squared": 0.004123233755483755,
+        "P_B_y0_squared_upper": 0.0012399120424873772,
+        "P_RD_frobenius_squared": 0.937177892130839,
+        "F_RD_frobenius_squared": 0.37869496570869793,
+        "RD_frobenius_squared": 2.899026220469556,
+        "linear_energy_scalar_absolute_upper": 0.004386121477624862
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.021208339350108914,
+        "FB_frobenius_squared": 0.003301119574439151,
+        "B_y0_norm_squared_upper": 0.018066152435050827,
+        "P_B_frobenius_squared": 0.003962033493591297,
+        "P_B_y0_squared_upper": 0.0016687635240845047,
+        "P_RD_frobenius_squared": 0.9261079301811256,
+        "F_RD_frobenius_squared": 0.3735890643316983,
+        "RD_frobenius_squared": 2.888761654863999,
+        "linear_energy_scalar_absolute_upper": 0.011919915604209876
+      }
+    },
+    {
+      "signs": [
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "19/140",
+        "3/10",
+        "9/20",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.02564519462459247,
+        "FB_frobenius_squared": 0.004344146528520975,
+        "B_y0_norm_squared_upper": 0.019209441312268323,
+        "P_B_frobenius_squared": 0.0033512617428453836,
+        "P_B_y0_squared_upper": 0.001744027021685828,
+        "P_RD_frobenius_squared": 0.9842361473150653,
+        "F_RD_frobenius_squared": 0.393203282872178,
+        "RD_frobenius_squared": 3.0290689387366845,
+        "linear_energy_scalar_absolute_upper": 0.005445192062712319
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.02564519462459247,
+        "FB_frobenius_squared": 0.004344146528520975,
+        "B_y0_norm_squared_upper": 0.019209441312268323,
+        "P_B_frobenius_squared": 0.0033512617428453836,
+        "P_B_y0_squared_upper": 0.001744027021685828,
+        "P_RD_frobenius_squared": 0.8118562345074649,
+        "F_RD_frobenius_squared": 0.3256990636471717,
+        "RD_frobenius_squared": 2.5003689721292846,
+        "linear_energy_scalar_absolute_upper": 0.005445192062712319
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.021208339350108914,
+        "FB_frobenius_squared": 0.003301119574439151,
+        "B_y0_norm_squared_upper": 0.018066152435050827,
+        "P_B_frobenius_squared": 0.003962033493591297,
+        "P_B_y0_squared_upper": 0.0016687635240845047,
+        "P_RD_frobenius_squared": 0.8699844516414045,
+        "F_RD_frobenius_squared": 0.3453132821876514,
+        "RD_frobenius_squared": 2.6406762560019703,
+        "linear_energy_scalar_absolute_upper": 0.011919915604209876
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.015081424099853,
+        "FB_frobenius_squared": 0.002099366611552709,
+        "B_y0_norm_squared_upper": 0.011783883053334249,
+        "P_B_frobenius_squared": 0.004123233755483755,
+        "P_B_y0_squared_upper": 0.0012399120424873772,
+        "P_RD_frobenius_squared": 0.8589144896916912,
+        "F_RD_frobenius_squared": 0.34020738081065177,
+        "RD_frobenius_squared": 2.6304116903964134,
+        "linear_energy_scalar_absolute_upper": 0.004386121477624862
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.018817215754152048,
+        "FB_frobenius_squared": 0.003022539346659004,
+        "B_y0_norm_squared_upper": 0.011521625477775318,
+        "P_B_frobenius_squared": 0.003521504527911687,
+        "P_B_y0_squared_upper": 0.0011157662821394353,
+        "P_RD_frobenius_squared": 0.9170427068256307,
+        "F_RD_frobenius_squared": 0.35982159935113145,
+        "RD_frobenius_squared": 2.7707189742690987,
+        "linear_energy_scalar_absolute_upper": 0.01086084501912242
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.012611154404404868,
+        "FB_frobenius_squared": 0.0019027342026297015,
+        "B_y0_norm_squared_upper": 0.0044528019498407505,
+        "P_B_frobenius_squared": 0.0034418899221732562,
+        "P_B_y0_squared_upper": 0.0008928539410646902,
+        "P_RD_frobenius_squared": 0.8469340973237027,
+        "F_RD_frobenius_squared": 0.34093272900008964,
+        "RD_frobenius_squared": 2.6261009279233707,
+        "linear_energy_scalar_absolute_upper": 0.0026318135806525393
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.009095966766089822,
+        "FB_frobenius_squared": 0.0010857765841302224,
+        "B_y0_norm_squared_upper": 0.0041353099759194566,
+        "P_B_frobenius_squared": 0.004097035960914511,
+        "P_B_y0_squared_upper": 0.0008634428006298427,
+        "P_RD_frobenius_squared": 0.9050623144576423,
+        "F_RD_frobenius_squared": 0.3605469475405694,
+        "RD_frobenius_squared": 2.7664082117960564,
+        "linear_energy_scalar_absolute_upper": 0.003842909960845019
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01365617787768839,
+        "FB_frobenius_squared": 0.0019151595987659696,
+        "B_y0_norm_squared_upper": 0.002649918669513862,
+        "P_B_frobenius_squared": 0.0038087187379090334,
+        "P_B_y0_squared_upper": 0.0006082373881344818,
+        "P_RD_frobenius_squared": 0.893992352507929,
+        "F_RD_frobenius_squared": 0.3554410461635697,
+        "RD_frobenius_squared": 2.756143646190499,
+        "linear_energy_scalar_absolute_upper": 0.0036908841657399957
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "57/140",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01831363716815595,
+        "FB_frobenius_squared": 0.003064401669454609,
+        "B_y0_norm_squared_upper": 0.0032134579972511353,
+        "P_B_frobenius_squared": 0.0032513637983323067,
+        "P_B_y0_squared_upper": 0.0005299439849530157,
+        "P_RD_frobenius_squared": 0.9521205696418685,
+        "F_RD_frobenius_squared": 0.37505526470404943,
+        "RD_frobenius_squared": 2.896450930063185,
+        "linear_energy_scalar_absolute_upper": 0.002783839375757563
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.014878186442745078,
+        "FB_frobenius_squared": 0.0024127398017398903,
+        "B_y0_norm_squared_upper": 0.00230182628806866,
+        "P_B_frobenius_squared": 0.0031468373877643345,
+        "P_B_y0_squared_upper": 0.0006791370544625647,
+        "P_RD_frobenius_squared": 0.8352423790175451,
+        "F_RD_frobenius_squared": 0.33855452412173903,
+        "RD_frobenius_squared": 2.596807840690452,
+        "linear_energy_scalar_absolute_upper": 0.0008463622234175214
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010352687844578353,
+        "FB_frobenius_squared": 0.0013265570665678542,
+        "B_y0_norm_squared_upper": 0.0016365174419756244,
+        "P_B_frobenius_squared": 0.003731299206085058,
+        "P_B_y0_squared_upper": 0.0007049719246519582,
+        "P_RD_frobenius_squared": 0.8933705961514847,
+        "F_RD_frobenius_squared": 0.3581687426622187,
+        "RD_frobenius_squared": 2.7371151245631373,
+        "linear_energy_scalar_absolute_upper": 0.005628361318080036
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.00565052792689606,
+        "FB_frobenius_squared": 0.0004405694193607767,
+        "B_y0_norm_squared_upper": 0.0007521553582730792,
+        "P_B_frobenius_squared": 0.003998177788801862,
+        "P_B_y0_squared_upper": 0.0007168520850745047,
+        "P_RD_frobenius_squared": 0.8823006342017713,
+        "F_RD_frobenius_squared": 0.3530628412852191,
+        "RD_frobenius_squared": 2.7268505589575804,
+        "linear_energy_scalar_absolute_upper": 0.0019054328085049777
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.009297676257511942,
+        "FB_frobenius_squared": 0.0013205863733768593,
+        "B_y0_norm_squared_upper": 0.0009678778138386108,
+        "P_B_frobenius_squared": 0.0033701386288046043,
+        "P_B_y0_squared_upper": 0.0006938046925172795,
+        "P_RD_frobenius_squared": 0.940428851335711,
+        "F_RD_frobenius_squared": 0.37267705982569876,
+        "RD_frobenius_squared": 2.8671578428302658,
+        "linear_energy_scalar_absolute_upper": 0.004569290732992581
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01432964037283903,
+        "FB_frobenius_squared": 0.0021721121238769884,
+        "B_y0_norm_squared_upper": 0.003187965605812575,
+        "P_B_frobenius_squared": 0.0033517274503172185,
+        "P_B_y0_squared_upper": 0.0006777399616652203,
+        "P_RD_frobenius_squared": 0.870320241833783,
+        "F_RD_frobenius_squared": 0.35378818947465696,
+        "RD_frobenius_squared": 2.722539796484538,
+        "linear_energy_scalar_absolute_upper": 0.00892336786678238
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010725809410840817,
+        "FB_frobenius_squared": 0.001311998724287297,
+        "B_y0_norm_squared_upper": 0.003348453663015742,
+        "P_B_frobenius_squared": 0.003980563556633283,
+        "P_B_y0_squared_upper": 0.0007494271890210897,
+        "P_RD_frobenius_squared": 0.9284484589677225,
+        "F_RD_frobenius_squared": 0.3734024080151367,
+        "RD_frobenius_squared": 2.8628470803572235,
+        "linear_energy_scalar_absolute_upper": 0.002448644325284821
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.016710775855013005,
+        "FB_frobenius_squared": 0.0024571470546024083,
+        "B_y0_norm_squared_upper": 0.007260969654624183,
+        "P_B_frobenius_squared": 0.003797924654452152,
+        "P_B_y0_squared_upper": 0.0009349534185454026,
+        "P_RD_frobenius_squared": 0.9173784970180092,
+        "F_RD_frobenius_squared": 0.368296506638137,
+        "RD_frobenius_squared": 2.8525825147516666,
+        "linear_energy_scalar_absolute_upper": 0.009982438451869836
+      }
+    },
+    {
+      "signs": [
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "19/70",
+        "9/20",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.0212795918217974,
+        "FB_frobenius_squared": 0.0035632333442008357,
+        "B_y0_norm_squared_upper": 0.008302489013485917,
+        "P_B_frobenius_squared": 0.0032142597824502354,
+        "P_B_y0_squared_upper": 0.0009577583831546534,
+        "P_RD_frobenius_squared": 0.9755067141519488,
+        "F_RD_frobenius_squared": 0.38791072517861674,
+        "RD_frobenius_squared": 2.992889798624352,
+        "linear_energy_scalar_absolute_upper": 0.0035077149103722774
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.022325896594358477,
+        "FB_frobenius_squared": 0.0038285033630118667,
+        "B_y0_norm_squared_upper": 0.006079598473067878,
+        "P_B_frobenius_squared": 0.0032777466746663157,
+        "P_B_y0_squared_upper": 0.0006236612815387097,
+        "P_RD_frobenius_squared": 0.8239763786893513,
+        "F_RD_frobenius_squared": 0.3330949903576238,
+        "RD_frobenius_squared": 2.5479805683826044,
+        "linear_energy_scalar_absolute_upper": 0.010775910399356579
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01773120774305457,
+        "FB_frobenius_squared": 0.002706211504480618,
+        "B_y0_norm_squared_upper": 0.005164140029974908,
+        "P_B_frobenius_squared": 0.0038551021859289116,
+        "P_B_y0_squared_upper": 0.000656859444264859,
+        "P_RD_frobenius_squared": 0.8821045958232909,
+        "F_RD_frobenius_squared": 0.35270920889810353,
+        "RD_frobenius_squared": 2.6882878522552898,
+        "linear_energy_scalar_absolute_upper": 0.017250633940854136
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.011711652913143961,
+        "FB_frobenius_squared": 0.0015587517233864507,
+        "B_y0_norm_squared_upper": 0.0021723089634971045,
+        "P_B_frobenius_squared": 0.004036497644539353,
+        "P_B_y0_squared_upper": 0.0005864125753122069,
+        "P_RD_frobenius_squared": 0.8710346338735775,
+        "F_RD_frobenius_squared": 0.34760330752110385,
+        "RD_frobenius_squared": 2.678023286649733,
+        "linear_energy_scalar_absolute_upper": 0.009716839814269122
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.015289610990622664,
+        "FB_frobenius_squared": 0.0024026595540433205,
+        "B_y0_norm_squared_upper": 0.0021378818220627025,
+        "P_B_frobenius_squared": 0.003401352177483968,
+        "P_B_y0_squared_upper": 0.0005707284752917376,
+        "P_RD_frobenius_squared": 0.9291628510075172,
+        "F_RD_frobenius_squared": 0.3672175260615836,
+        "RD_frobenius_squared": 2.818330570522418,
+        "linear_energy_scalar_absolute_upper": 0.01619156335576668
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010321822088571478,
+        "FB_frobenius_squared": 0.0015718229306035745,
+        "B_y0_norm_squared_upper": 0.001956122506311474,
+        "P_B_frobenius_squared": 0.0034293332677193078,
+        "P_B_y0_squared_upper": 0.0007221710518288882,
+        "P_RD_frobenius_squared": 0.8590542415055891,
+        "F_RD_frobenius_squared": 0.3483286557105418,
+        "RD_frobenius_squared": 2.6737125241766906,
+        "linear_energy_scalar_absolute_upper": 0.002698904755991721
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.006648800873436087,
+        "FB_frobenius_squared": 0.0006756004076546706,
+        "B_y0_norm_squared_upper": 0.0018664609665147072,
+        "P_B_frobenius_squared": 0.004051063066977245,
+        "P_B_y0_squared_upper": 0.0008012215717215133,
+        "P_RD_frobenius_squared": 0.9171824586395287,
+        "F_RD_frobenius_squared": 0.3679428742510215,
+        "RD_frobenius_squared": 2.814019808049376,
+        "linear_energy_scalar_absolute_upper": 0.00917362829748928
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.011316372405379955,
+        "FB_frobenius_squared": 0.0015592766040826924,
+        "B_y0_norm_squared_upper": 0.003671507975347889,
+        "P_B_frobenius_squared": 0.003782941040689751,
+        "P_B_y0_squared_upper": 0.0009044207718706277,
+        "P_RD_frobenius_squared": 0.9061124966898153,
+        "F_RD_frobenius_squared": 0.36283697287402183,
+        "RD_frobenius_squared": 2.803755242443819,
+        "linear_energy_scalar_absolute_upper": 0.0016398341709042647
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "57/140",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01581599811902717,
+        "FB_frobenius_squared": 0.002629253770321907,
+        "B_y0_norm_squared_upper": 0.00446287773720969,
+        "P_B_frobenius_squared": 0.003192169861629707,
+        "P_B_y0_squared_upper": 0.0009345890290166342,
+        "P_RD_frobenius_squared": 0.964240713823755,
+        "F_RD_frobenius_squared": 0.38245119141450157,
+        "RD_frobenius_squared": 2.9440625263165043,
+        "linear_energy_scalar_absolute_upper": 0.008114557712401823
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "19/35",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01962171938713356,
+        "FB_frobenius_squared": 0.003378774808036366,
+        "B_y0_norm_squared_upper": 0.006723591703770234,
+        "P_B_frobenius_squared": 0.003333649718417662,
+        "P_B_y0_squared_upper": 0.0007194257623355479,
+        "P_RD_frobenius_squared": 0.8473625231994315,
+        "F_RD_frobenius_squared": 0.3459504508321911,
+        "RD_frobenius_squared": 2.6444194369437715,
+        "linear_energy_scalar_absolute_upper": 0.004484356113226739
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "19/35",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01493838721214649,
+        "FB_frobenius_squared": 0.002213327168414905,
+        "B_y0_norm_squared_upper": 0.006286113291801726,
+        "P_B_frobenius_squared": 0.003884695297255068,
+        "P_B_y0_squared_upper": 0.000853722292852414,
+        "P_RD_frobenius_squared": 0.9054907403333711,
+        "F_RD_frobenius_squared": 0.36556466937267085,
+        "RD_frobenius_squared": 2.784726720816457,
+        "linear_energy_scalar_absolute_upper": 0.010959079654724297
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "19/35",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.010343587714809498,
+        "FB_frobenius_squared": 0.001381632703000102,
+        "B_y0_norm_squared_upper": 0.008692189523337958,
+        "P_B_frobenius_squared": 0.004171769076689856,
+        "P_B_y0_squared_upper": 0.0012240070659194358,
+        "P_RD_frobenius_squared": 0.8944207783836577,
+        "F_RD_frobenius_squared": 0.36045876799567117,
+        "RD_frobenius_squared": 2.7744621552109,
+        "linear_energy_scalar_absolute_upper": 0.0034252855281392824
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "19/35",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.013832902468605034,
+        "FB_frobenius_squared": 0.0021823847525667597,
+        "B_y0_norm_squared_upper": 0.009135742413028015,
+        "P_B_frobenius_squared": 0.003510313677209281,
+        "P_B_y0_squared_upper": 0.0013094213336896832,
+        "P_RD_frobenius_squared": 0.9525489955175973,
+        "F_RD_frobenius_squared": 0.3800729865361509,
+        "RD_frobenius_squared": 2.914769439083585,
+        "linear_energy_scalar_absolute_upper": 0.009900009069636841
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "3/5",
+        "19/28",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.020103139031628116,
+        "FB_frobenius_squared": 0.003322879023656445,
+        "B_y0_norm_squared_upper": 0.01824289441718532,
+        "P_B_frobenius_squared": 0.0035994981946956654,
+        "P_B_y0_squared_upper": 0.00166771152044952,
+        "P_RD_frobenius_squared": 0.8824403860156693,
+        "F_RD_frobenius_squared": 0.3611841161851091,
+        "RD_frobenius_squared": 2.7701513927378576,
+        "linear_energy_scalar_absolute_upper": 0.003592649530138119
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "3/5",
+        "19/28",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.01634147449280956,
+        "FB_frobenius_squared": 0.002383500719617329,
+        "B_y0_norm_squared_upper": 0.018631212908513013,
+        "P_B_frobenius_squared": 0.004194918061528413,
+        "P_B_y0_squared_upper": 0.001847860408132862,
+        "P_RD_frobenius_squared": 0.9405686031496089,
+        "F_RD_frobenius_squared": 0.3807983347255888,
+        "RD_frobenius_squared": 2.910458676610543,
+        "linear_energy_scalar_absolute_upper": 0.002882074011359439
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "3/5",
+        "3/4",
+        "57/70"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.022433801357327046,
+        "FB_frobenius_squared": 0.003582942231724715,
+        "B_y0_norm_squared_upper": 0.02583416721536023,
+        "P_B_frobenius_squared": 0.004032474356065265,
+        "P_B_y0_squared_upper": 0.0023917912503016504,
+        "P_RD_frobenius_squared": 0.9294986411998956,
+        "F_RD_frobenius_squared": 0.37569243334858915,
+        "RD_frobenius_squared": 2.900194111004986,
+        "linear_energy_scalar_absolute_upper": 0.004651720115225575
+      }
+    },
+    {
+      "signs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "g": [
+        "3/20",
+        "3/10",
+        "9/20",
+        "3/5",
+        "3/4",
+        "9/10"
+      ],
+      "exact_preconditioner_norm_squared_displays": {
+        "B_frobenius_squared": 0.026844783747291098,
+        "FB_frobenius_squared": 0.004609763616873718,
+        "B_y0_norm_squared_upper": 0.02710351700834649,
+        "P_B_frobenius_squared": 0.003415393244580032,
+        "P_B_y0_squared_upper": 0.0025230578752383735,
+        "P_RD_frobenius_squared": 0.9876268583338351,
+        "F_RD_frobenius_squared": 0.3953066518890688,
+        "RD_frobenius_squared": 3.0405013948776713,
+        "linear_energy_scalar_absolute_upper": 0.0018230034262719827
+      }
+    }
+  ],
+  "script_sha256": "dce88db6b788ec1b0341c97debc1db24deb4be80f333f64dc037815638662d60",
+  "seconds": 27.72552204599924
+}

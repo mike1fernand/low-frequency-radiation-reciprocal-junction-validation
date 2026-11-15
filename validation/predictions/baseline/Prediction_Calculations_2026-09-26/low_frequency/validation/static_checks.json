@@ -1,0 +1,45 @@
+{
+  "min_Gstar_eigenvalue": 0.10553962771130183,
+  "cases": [
+    {
+      "s": 1.0,
+      "min_static_device_eigenvalue": 0.3228867181052731,
+      "condition_static_device": 21.376072219206176,
+      "force_resultant": -1.0000000000000007,
+      "translation_Ve_Up": 0.0,
+      "translation_Kse_Vtp": 0.0,
+      "identity_residual": 8.610940881164415e-16,
+      "Tline_leading_coefficient": 0.16677544426826366
+    },
+    {
+      "s": 0.1,
+      "min_static_device_eigenvalue": 0.03742185671969572,
+      "condition_static_device": 173.01000425275598,
+      "force_resultant": -1.0,
+      "translation_Ve_Up": 0.0,
+      "translation_Kse_Vtp": 0.0,
+      "identity_residual": 5.39908820214266e-16,
+      "Tline_leading_coefficient": 74.30377602593461
+    },
+    {
+      "s": 0.01,
+      "min_static_device_eigenvalue": 0.00380268642255344,
+      "condition_static_device": 1690.9617149092223,
+      "force_resultant": -1.0000000000000167,
+      "translation_Ve_Up": 0.0,
+      "translation_Kse_Vtp": 0.0,
+      "identity_residual": 4.660772152854379e-16,
+      "Tline_leading_coefficient": 9266.003278539054
+    },
+    {
+      "s": 0.001,
+      "min_static_device_eigenvalue": 0.0003808839024105149,
+      "condition_static_device": 16870.671388760355,
+      "force_resultant": -0.999999999999833,
+      "translation_Ve_Up": 0.0,
+      "translation_Kse_Vtp": 0.0,
+      "identity_residual": 5.438266206170013e-16,
+      "Tline_leading_coefficient": 948185.29996194
+    }
+  ]
+}

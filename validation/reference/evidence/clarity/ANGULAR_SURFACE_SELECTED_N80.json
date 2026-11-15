@@ -1,0 +1,236 @@
+{
+  "schema": "paper1.current-angular.v1",
+  "omega": 1.2,
+  "grid": 80,
+  "basis_invariant_nodal_weights": true,
+  "source_state": "Fully dressed state from supplied kernel, not refitted to angular output",
+  "kernel_reference": {
+    "Tbulk": 0.13668189218822188,
+    "T_qT": 0.12565925539196318,
+    "T_qL": 0.011022636796258716
+  },
+  "reconstructed": {
+    "Tbulk": 0.13671089241039935,
+    "branch_power": [
+      0.06113256483290409,
+      0.06456768209004776,
+      0.011010645487447498
+    ],
+    "T_qT": 0.12570024692295184,
+    "relative_Tbulk_difference": 0.00021217311022835776
+  },
+  "off_axis": {
+    "fraction_sin_theta_gt_0p5": 0.9402176263562627,
+    "weighted_median_sin_theta": 0.8582223202457189,
+    "forward_fraction": 0.9462884432419156,
+    "backward_fraction": 0.053711556758084165
+  },
+  "octant_fractions": [
+    0.013427865090757732,
+    0.013290158488346165,
+    0.013565544354092325,
+    0.013427988824887948,
+    0.23659370890205153,
+    0.23705777706774775,
+    0.23605358309758365,
+    0.23658337417453276
+  ],
+  "minimum_octant_fraction": 0.013290158488346165,
+  "branch_octant_powers": [
+    [
+      0.001080855004346551,
+      0.0010620205733122955,
+      0.001099652485740229,
+      0.0010808625243476447,
+      0.014205463793719484,
+      0.014267729075665297,
+      0.014130304028205377,
+      0.014205677347567211
+    ],
+    [
+      0.000689539758364877,
+      0.0006895409606968393,
+      0.0006895606649259785,
+      0.0006895440700969899,
+      0.015452286693654598,
+      0.015453328338360047,
+      0.015453684171091891,
+      0.015450197432856527
+    ],
+    [
+      6.53406570125096e-05,
+      6.534789320831349e-05,
+      6.534452401460869e-05,
+      6.534574108266653e-05,
+      0.002687186595311631,
+      0.002687322841731956,
+      0.002687107802645752,
+      0.0026876494324400615
+    ]
+  ],
+  "qT_octant_fractions": [
+    0.014084258432655221,
+    0.013934431927430956,
+    0.014233966873294278,
+    0.01408435255922614,
+    0.23594027230155598,
+    0.23644390636911725,
+    0.23535346129773968,
+    0.23592535023898045
+  ],
+  "qT_minimum_octant_fraction": 0.013934431927430956,
+  "nodal_tie_counts": {
+    "(0, 1)": 19269,
+    "(1, 2)": 468,
+    "(0, 1, 2)": 239
+  },
+  "geometry_diagnostics": [
+    {
+      "branch": 0,
+      "triangles": 10040,
+      "min_gradient": 1.842942008440545,
+      "excluded_gradients": 0,
+      "empty_shell": false
+    },
+    {
+      "branch": 1,
+      "triangles": 9848,
+      "min_gradient": 1.917779586713337,
+      "excluded_gradients": 0,
+      "empty_shell": false
+    },
+    {
+      "branch": 2,
+      "triangles": 3032,
+      "min_gradient": 3.748610942687133,
+      "excluded_gradients": 0,
+      "empty_shell": false
+    }
+  ],
+  "input": {
+    "path": "/workspace/scratch/be1617cef594/analysis/resolution_execution/selected/REFERENCE_KERNEL.npz",
+    "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+  },
+  "input_metadata": {
+    "schema": "paper1.selected-reference-kernel.v1",
+    "status": "selected_numerical_kernel_not_exact_lattice_enclosure",
+    "omega": 1.2,
+    "energy": 1.44,
+    "model_parameters": {
+      "a": 1.0,
+      "m_bulk": 1.0,
+      "m_spine": 1.0,
+      "k_axis": 1.0,
+      "k_diag": 1.0,
+      "k_spine": 1.69,
+      "k_couple": 0.2
+    },
+    "profile": [
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.1
+    ],
+    "support_segments": 10,
+    "matrix_shape": [
+      20,
+      20
+    ],
+    "spectral_branch_sum_max_abs_difference": 5.551115123125783e-17,
+    "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+    "kernel_path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.npz",
+    "source_result_path": "analysis/resolution_execution/surface/results/omega1.2_N192_nseg10.json",
+    "surface_grid": 192,
+    "scattering": {
+      "qT": 0.12565925539196318,
+      "qL": 0.011022636796258718,
+      "Tbulk": 0.1366818921882219,
+      "Rq": 0.0035721492712359523,
+      "Tline": 0.8597459585275878,
+      "amplitude_closure": 1.2954304295931252e-11,
+      "partition_residual": 2.7755575615628914e-17,
+      "TT_modal": 0.12565925539196318,
+      "TL_modal": 0.011022636796258718,
+      "T_branches": [
+        0.06108919564748342,
+        0.06457005974447975,
+        0.011022636796258716
+      ]
+    },
+    "PV_selection": {
+      "sampler": "equal mean of two independent scrambled Sobol sequences",
+      "seeds": [
+        20260920,
+        20260921
+      ],
+      "sample_count_per_seed": 8388608,
+      "nseg": 10,
+      "nbins": 16384,
+      "energy_range": [
+        0.0,
+        12.0
+      ],
+      "Jackson_order": 256,
+      "Jackson_margin": 1.02,
+      "histograms": [
+        {
+          "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260920_p23_nseg10_bins16384.npz",
+          "sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987"
+        },
+        {
+          "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260921_p23_nseg10_bins16384.npz",
+          "sha256": "72ac7e19d54638dd91487812b3504a49276a3cab190598eb7534b89b473921d2"
+        }
+      ]
+    },
+    "spectral_selection": {
+      "method": "basis-invariant nodal marching surface with strict coverage/PSD guards",
+      "source": {
+        "path": "analysis/resolution_execution/surface/src/on_shell_basis.py",
+        "sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a"
+      },
+      "worker": {
+        "path": "analysis/resolution_execution/surface/surface_worker.py",
+        "sha256": "7046084baaf652803837e0f2ea7a84e7a1b88452242a4c543f3f6a6fc2244682"
+      },
+      "matrices": {
+        "path": "analysis/resolution_execution/surface/results/omega1.2_N192_nseg10.npz",
+        "sha256": "9cefb732ffb2ebf745fe92cdd687cba0345e8c6a6f41365c55a13f9b6a62be7a"
+      },
+      "record": {
+        "path": "analysis/resolution_execution/surface/results/omega1.2_N192_nseg10.json",
+        "sha256": "ddc328b14761709f8c7dfd116bdddc029f48cd947d44597f1d921e9f35117e78"
+      }
+    },
+    "gates": [
+      {
+        "path": "analysis/resolution_execution/surface/SPECTRAL_SUPPORT_EXTENSION_CHECK.json",
+        "sha256": "cfd1c7372585784cd6eb0d58d2239712c39ad7d2a9692498b2d4cc37d23d9002"
+      },
+      {
+        "path": "analysis/resolution_execution/surface/P23_EXTENSION_CHECKS.json",
+        "sha256": "658941e006a67471eabc2d44c78369b1d9e26464fad55562a0b7347cc23328aa"
+      },
+      {
+        "path": "analysis/resolution_execution/surface/SUPPORT_EXTENSION_CHECKS.json",
+        "sha256": "0b7e824e15d47ed38bb9e81252b574fd27c02f8d2a9b6c06f12d5eba7784da5d"
+      }
+    ],
+    "convergence_evidence": [
+      {
+        "path": "analysis/resolution_execution/surface/REFINEMENT_RESULTS.json",
+        "sha256": "963fd539be4ec0d896ee4e759b8cf62397f68f2b56e7ccfac4c31748ad28054e"
+      },
+      {
+        "path": "analysis/resolution_execution/surface/GRID_REFINEMENT_RESULTS.json",
+        "sha256": "00a1632172a472d829d1caf379fe6d71e4ca10f52371fcfb6a7e2e317668ebe9"
+      }
+    ],
+    "selection_reason": "M256 balances sample/order sensitivity at both pilot frequencies; higher orders increase scramble/shift spread. N192 is finest executed surface grid. No historical or direct-packet target was used to choose a value.",
+    "limits": "Observed numerical sensitivity; no rigorous global error bound. Cross-route tetrahedron discrepancy remains separately assessed, including ~0.0524% at N160.",
+    "producer_sha256": "370154b4b565909ca408601a8c2ca9a8b55bfcb3befbd45ac4671c8ee79005a3"
+  },
+  "producer_sha256": "6073ba428c146fe9d338538a8d291e96423809a3ad1301626732d8a39f98fddc"
+}

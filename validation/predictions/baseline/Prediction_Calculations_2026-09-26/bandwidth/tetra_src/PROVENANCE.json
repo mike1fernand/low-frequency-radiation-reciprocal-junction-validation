@@ -1,0 +1,32 @@
+{
+  "combined_tetra_diagnostic.py": {
+    "source": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/math_resolution/tetra/combined_tetra_diagnostic.py",
+    "source_sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "copy_sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "change": "none"
+  },
+  "stable_scalar.py": {
+    "source": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/math_resolution/tetra/stable_scalar.py",
+    "source_sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "copy_sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "change": "none"
+  },
+  "centroid_weights.py": {
+    "source": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/math_resolution/tetra/centroid_weights.py",
+    "source_sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+    "copy_sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+    "change": "none"
+  },
+  "multifrequency_tetra.py": {
+    "source": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/multifrequency_tetra.py",
+    "source_sha256": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+    "copy_sha256": "94234e97ccddabca58367fb2e2998b576390c54de80c779047b329b7c5720f60",
+    "change": "localize dependency paths only"
+  },
+  "campaign.py": {
+    "source": "review_r8/input/paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/tetra/campaign.py",
+    "source_sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc",
+    "copy_sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc",
+    "change": "none"
+  }
+}

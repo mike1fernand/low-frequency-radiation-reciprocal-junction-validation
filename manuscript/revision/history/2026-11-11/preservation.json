@@ -1,0 +1,84 @@
+{
+  "edition": "Wave Motion revised source edition, 2026-11-11",
+  "predecessor": {
+    "file": "Paper1_Wave_Motion_Build.zip",
+    "sha256": "4d1d99b6f73f2e3377089d8b0f7a3676d5826df7d14acaec678ee0a77e23309a"
+  },
+  "adopted_review": {
+    "file": "Paper1_Exact_Revision_Review.zip",
+    "sha256": "21eb3e91499091248ca69e4cd8598f1463c55875d8c2ad622227e7a706ac2412"
+  },
+  "source_files_changed": [
+    "paper1_main.tex",
+    "paper1_supplement.tex",
+    "paper1_SM5D.tex"
+  ],
+  "before_after_source_sha256": {
+    "paper1_main.tex": [
+      "6d0abfce23712f64b6c7bb183d8e00226af7154ec55721335e0d5014bf24ecb3",
+      "d4c64ef5d5752127e93584bb1a0832b8e31bde682bef87d2611370f438e04ef3"
+    ],
+    "paper1_supplement.tex": [
+      "fc8b8f6e5f0c67248ba5f2661fe05833629c19080fc80349f15727e5a16c1879",
+      "93f138778ef2ed57383a7bea62582270cb9daaa84abdfe11975f965ab68c6e68"
+    ],
+    "paper1_SM5D.tex": [
+      "f1008aef0c05623bd59555ed472104032bd575fca949268c98e10a943532d11d",
+      "7cb060da3b3d4fd4b57dd0cf912374ee002f989b01a096fd8130e104c3fd68ef"
+    ]
+  },
+  "patch_applied_to_predecessor_reproduces_entire_source_tree": true,
+  "unchanged_displayed_math_blocks": {
+    "paper1_main.tex": 103,
+    "paper1_supplement.tex": 131,
+    "paper1_SM5D.tex": 20
+  },
+  "retained_build_script_distribution_and_figure_sha256": {
+    "build.py": "152e38bda9fdf9427c08d7a1b5000cfd27cfd71f2bdda235258c64aafc6a5001",
+    "source/figures/Halpha_transmission_scan_p06.png": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+    "source/figures/continuum_lattice_share_comparison_p06.png": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+    "source/figures/paper1_frequency_partition.pdf": "a446ec83b61e2b8c6c70c6f638c9e95d60ffa74b3b8967304ce45ce392636aa5",
+    "source/figures/paper1_low_frequency_ratio.pdf": "45a9fb0be8d7ecfedb66b1059d362c339a1767c8dc4180f2c8266d71d38d5056",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+    "source/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb",
+    "third_party/revtex-4.2f-tds.zip": "4becff5d3e35deb7cd25a313e41fbc9a6067cd3a5874b325bd2c389775245fd8"
+  },
+  "recorded_review_build": {
+    "abstract_whitespace_counts_before_after": [
+      244,
+      248
+    ],
+    "section7_detex_counts_before_after": [
+      922,
+      810
+    ],
+    "documents": {
+      "paper1_main": {
+        "pages": 30,
+        "bibliography_entries": 47,
+        "existing_label_number_changes": {}
+      },
+      "paper1_supplement": {
+        "pages": 35,
+        "bibliography_entries": 3,
+        "existing_label_number_changes": {
+          "tab:sm-ramp-packet-controls": [
+            "XII",
+            "XIII"
+          ],
+          "tab:sm-pred-detuning": [
+            "XIII",
+            "XIV"
+          ],
+          "tab:pred-backward": [
+            "XIV",
+            "XV"
+          ]
+        }
+      }
+    },
+    "basis": "Pre-existing records for the identical source bytes. No new document compilation, physical simulation, or numerical certification was performed in assembling this source build."
+  }
+}

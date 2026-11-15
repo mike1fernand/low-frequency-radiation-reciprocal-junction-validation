@@ -1,0 +1,448 @@
+{
+  "status": "passed",
+  "literal_source_max_difference": 3.66205343881779e-15,
+  "symbol_derivative_fd_max_difference": 1.0766330049705175e-09,
+  "axial_projector_checks": [
+    {
+      "k": [
+        1.2870022175865687,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 0,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.0986064980352277
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.114983819873826
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.00010529812430758581
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 1.241631922790023
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        0.7074832117793429,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 2,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.1422999672722973
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.160478744963748
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.00012588078512668026
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 2.219822505320051
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        -1.2870022175865687,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 0,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.01592407353295688
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.015739000032498392
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 7.406893526023598e-07
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.014985692554382105
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        -0.7074832117793429,
+        0.0,
+        0.0
+      ],
+      "shell_branch": 2,
+      "shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.008145964952879732
+        },
+        "same_X": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.008143206507133053
+        },
+        "same_R": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 4.342423036123176e-07
+        },
+        "X_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.010880962816980916
+        },
+        "R_only": {
+          "qT_projector_weight": 0.0,
+          "longitudinal_weight": 0.0
+        }
+      }
+    }
+  ],
+  "mirror_plane_checks": [
+    {
+      "k": [
+        0.3,
+        1.2401403812757787,
+        0.0
+      ],
+      "lower_shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.969931233506307,
+          "rotation_residual": 0.0
+        },
+        "same_X": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.8701138549967508,
+          "rotation_residual": 0.0
+        },
+        "same_R": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.0027094101461963326,
+          "rotation_residual": 8.673617379884035e-19
+        },
+        "X_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.8488402463700901,
+          "rotation_residual": 2.220446049250313e-16
+        },
+        "R_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.0024806603866058775,
+          "rotation_residual": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        0.6,
+        1.0988009636886875,
+        0.0
+      ],
+      "lower_shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 1.4971108598513991,
+          "rotation_residual": 0.0
+        },
+        "same_X": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 1.1889863662275875,
+          "rotation_residual": 0.0
+        },
+        "same_R": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.017775054231880652,
+          "rotation_residual": 6.938893903907228e-18
+        },
+        "X_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 1.2126999223135249,
+          "rotation_residual": 0.0
+        },
+        "R_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.019639655343673457,
+          "rotation_residual": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        0.9,
+        0.852118562167853,
+        0.0
+      ],
+      "lower_shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 1.1385817725506726,
+          "rotation_residual": 4.440892098500626e-16
+        },
+        "same_X": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.7939455594157263,
+          "rotation_residual": 1.1102230246251565e-16
+        },
+        "same_R": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.03106841690916241,
+          "rotation_residual": 6.938893903907228e-18
+        },
+        "X_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.8457227714821497,
+          "rotation_residual": 2.220446049250313e-16
+        },
+        "R_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.040881157321654905,
+          "rotation_residual": 0.0
+        }
+      }
+    },
+    {
+      "k": [
+        1.1,
+        0.598105446265233,
+        0.0
+      ],
+      "lower_shell_residual": 4.440892098500626e-16,
+      "states": {
+        "full": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.47079186717596005,
+          "rotation_residual": 0.0
+        },
+        "same_X": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.2991280803322994,
+          "rotation_residual": 1.6653345369377348e-16
+        },
+        "same_R": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.01943061340224106,
+          "rotation_residual": 6.938893903907228e-18
+        },
+        "X_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.32941033296753736,
+          "rotation_residual": 1.6653345369377348e-16
+        },
+        "R_only": {
+          "z_polarization_weight": 0.0,
+          "qT_cluster_weight": 0.02901961236723274,
+          "rotation_residual": 0.0
+        }
+      }
+    }
+  ],
+  "cone_support_check": {
+    "theta_count": 1537,
+    "azimuth_count_sector": 192,
+    "branches": [
+      {
+        "branch": 0,
+        "minimum_forward_cosine": -0.10887169313257805,
+        "max_abs_shell_residual": 1.951772077291025e-12,
+        "cones": [
+          {
+            "angle": 0.5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 1,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 2,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 10,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 20,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 30,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          }
+        ]
+      },
+      {
+        "branch": 1,
+        "minimum_forward_cosine": 4.469354557798895e-17,
+        "max_abs_shell_residual": 1.9804158313263542e-12,
+        "cones": [
+          {
+            "angle": 0.5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 1,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 2,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 10,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 20,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 30,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          }
+        ]
+      },
+      {
+        "branch": 2,
+        "minimum_forward_cosine": 1.6886075048957644e-17,
+        "max_abs_shell_residual": 3.920641589161278e-12,
+        "cones": [
+          {
+            "angle": 0.5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 1,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 2,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 5,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 10,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 20,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          },
+          {
+            "angle": 30,
+            "min_exits": 1,
+            "max_exits": 1,
+            "max_entries": 0,
+            "opposite_kx_preimage_nodes": 0
+          }
+        ]
+      }
+    ]
+  },
+  "limits": "All three radial sheets covered using the analytic census. Cone-support topology independently sampled over full hemispheres with midpoint azimuths; no interval proof excludes arbitrarily narrow unsampled angular islands. No exact all-preimage/dark-cone theorem is claimed."
+}

@@ -1,0 +1,262 @@
+\subsection{Validated higher-conversion ramp example}
+\label{sec:sm-ramp-validation}
+
+The leading low-frequency law at fixed contact has profile-independent coefficients (main-text Sec.~5.3 and SM7A), while the finite-frequency response depends on the contact loading. We therefore examine one additional six-motif contact in the same scalar-line/vector-bulk model. The example gives a higher incident-to-qT conversion and allows both its nominal value and its sensitivity to coupling changes to be bounded. The geometry, bare media and reciprocal paired-spring interaction are unchanged; the contact strengths are specified inputs. The ramp reweights the existing axial-average and segment-strain corner-force patterns together with their reaction on the line.
+
+We use Hamiltonian time $\tau$ and the main text's reference units. At the carrier, the nominal parameters are
+\begin{equation}
+ a=m_q=m_b=K_{\rm axis}=K_{\rm diag}=1,
+ \quad K_q=k_\star=\frac{169}{100},\quad \omega=\frac65,
+ \qquad g_j=\frac{j}{7},\quad j=1,\ldots,6.
+ \label{eq:sm-ramp-configuration}
+\end{equation}
+The index increases from the incident left lead toward the right. Each $g_j$ is the actual stiffness of each of the eight links in its complete motif. Thus all 48 physical springs remain active, their total stiffness is $8\sum_jg_j=24$, and the largest individual stiffness is $6/7$. The reference taper and its doubled-strength version have totals $8$ and $16$ and peaks $0.2$ and $0.4$, respectively. The ramp therefore changes both the distribution and the stiffness budget. This is a comparison with different stiffness budgets, and it does not establish an optimum.
+
+The reference medium and frequency are retained for this comparison. Following a finite coupling-scale probe, a batch fixed four profile shapes at three total motif strengths before evaluating their responses. The increasing ramp at $\sum_jg_j=3$ gave that batch's largest sampled qT coefficient and was selected for further validation. This records a finite-sample selection, not a claim that the profile is representative of a frequency band.
+
+At the same total physical spring stiffness $24$, with all 48 links active, the selected $N=192$, $M=256$ calculation gives approximately $62.7\%$ qT conversion for the scaled reference taper and $67.8\%$ for uniform links, compared with $73.6\%$ for the increasing ramp. Their peak stiffnesses are $0.6$, $0.5$ and $6/7$, respectively. These numerical comparisons show profile dependence at fixed total stiffness; they are not certified gain bounds.
+
+\paragraph*{Nominal powers and their denominators.}
+At this operating point, qT denotes the separated lower-two bulk acoustic cluster defined in SM2; qL is the upper branch. Write $T_{\qT}^{\rm modal}=P_{\qT}/P_{\rm inc}$ and $T_{\qL}^{\rm modal}=P_{\qL}/P_{\rm inc}$ for the outgoing physical cluster powers divided by incident line power. The same incident denominator defines reflected and forward-line fractions $R_q,T_q$. The selected surface calculation at grid $N=192$, with principal-value order $M=256$ (SM4), gives the numerical partition in Table~\ref{tab:sm-ramp-partition}. Its qT fraction is approximately $0.735874$, or $73.6\%$. The emitted-bulk denominator instead gives
+\begin{equation}
+ T_{\rm bulk}=T_{\qT}^{\rm modal}+T_{\qL}^{\rm modal}
+ \simeq0.804137,\qquad
+ \frac{T_{\qT}^{\rm modal}}{T_{\rm bulk}}\simeq0.915110.
+ \label{eq:sm-ramp-bulk-share}
+\end{equation}
+These are different observables. The full partition is a numerical estimate; the following certificates concern the qT fraction.
+
+\begin{table}[!htbp]
+ \centering
+ \caption{Nominal ramp power accounting. Every entry is a percentage of incident line power. Values are rounded numerical estimates; the nominal rigorous qT enclosure is stated separately below. The exploratory solve uses lead regularizer $10^{-12}$; the certificates use the real physical lead.}
+ \label{tab:sm-ramp-partition}
+ \begin{tabular}{lr}
+  \toprule
+  Outgoing channel & Incident power (\%)\\
+  \midrule
+  Reflected line, $R_q$ & 11.95\\
+  Forward line, $T_q$ & 7.63\\
+  Lower-two bulk cluster, $T_{\qT}^{\rm modal}$ & 73.59\\
+  Upper bulk branch, $T_{\qL}^{\rm modal}$ & 6.83\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+\paragraph*{From bare-kernel uncertainty to qT power.}
+The uncertainty calculation must include the contact's reciprocal loading. We use the full finite response system of Eq.~\eqref{eq:sm-box-system}, which retains the infinite exterior through its projected Green matrix. Its seven upper entries are line-response amplitudes; its twelve lower entries are scaled source amplitudes,
+\begin{equation}
+ y=\binom{\sqrt{k_\star}\vchi_D^{(L)}}{\bm z},
+ \qquad \bm z=P_\eta y=\frac{\veta_c}{\sqrt{k_\star}}.
+ \label{eq:sm-ramp-scaled-state}
+\end{equation}
+Here $P_\eta$ extracts the lower twelve entries of $y$. The symbol $\veta_c$ retains the centered-source notation and scattering normalization of SM3/SM5B; its subscript is distinct from the numerical-cache tag introduced below. The physical unit-incident-flux force is $-2\sqrt{k_\star}\bm z/\sqrt\omega$. Thus $\bm z$ is a source-force coordinate, with no change to the bulk displacement variables.
+
+Let $G=g_0^R(\omega)$ and $Q=\ImH g_{0,\qT}^R$ denote the exact bare projected response and lower-cluster spectral matrix. Subscript $c$ on these matrices and on the following response quantities denotes the cached center. The saved $12\times12$ numerical matrices $G_c,Q_c$ are the centers of the bare-kernel error enclosure. Define
+\begin{align}
+ \Delta G&=k_\star(G-G_c),&\|\Delta G\|_2&\le e_G=\frac1{250},\nonumber\\
+ \Delta Q_\star&=k_\star(Q-Q_c),&\|\Delta Q_\star\|_2&\le e_Q=\frac1{500}.
+ \label{eq:sm-ramp-kernel-errors}
+\end{align}
+The first error changes the loaded response; the second changes the qT power measure. These are scaled matrix errors, not uncertainties in the spring constants. The same-center enclosure includes both lower branches once, with the source geometry and normalization fixed. The archived contour enclosures imply these tighter caps for the same numerical centers; SM5B displays the looser conservative caps $1/50$ and $1/200$.
+
+With $h,U,V$ as in SM5B, the cached system and its true-kernel perturbation are
+\begin{align}
+ \mathcal A_c&=
+ \begin{pmatrix}h/k_\star&V^\dagger G_c\\-V/k_\star&I+UG_c\end{pmatrix},
+ &y_c&=\mathcal A_c^{-1}b,\nonumber\\
+ \mathcal A&=\mathcal A_c+D_g\Delta G P_\eta,
+ &D_g&=k_\star^{-1}\binom{V^\dagger}{U},
+ \qquad b=\binom{\sqrt{\gamma_q/k_\star}|L\rangle}{0}.
+ \label{eq:sm-ramp-full-response}
+\end{align}
+At the stated real frequency the lead self-energy and broadening are
+\begin{equation}
+ \Sigma_q=-\frac{97}{100}-i\frac{3\sqrt{133}}{25},
+ \qquad \gamma_q=-2\Im\Sigma_q=\frac{6\sqrt{133}}{25}.
+ \label{eq:sm-ramp-real-lead}
+\end{equation}
+This uses zero lead regulator. It does not identify the exploratory regularized estimate with an exact real-axis decimal value.
+
+The cached spectral matrix is positive definite, as verified by rational $LDL$ decomposition. Define a mathematical output factor by
+\begin{equation}
+ F_c^\dagger F_c=2k_\star P_\eta^\dagger Q_cP_\eta,
+ \qquad \|F_cy_c\|_2^2=2k_\star\bm z_c^\dagger Q_c\bm z_c,
+ \qquad \bm z_c=P_\eta y_c.
+ \label{eq:sm-ramp-output-factor}
+\end{equation}
+The factor converts the cached qT metric into a Euclidean output norm: $\|F_cy_c\|_2^2$ is the cached incident-normalized qT power fraction. Its norms are certified directly through $Q_c$ quadratic forms, so a numerical spectral square root is not a proof assumption.
+
+For any fixed contact, put $\mathcal R_c=\mathcal A_c^{-1}$,
+$\mathcal H=P_\eta\mathcal R_cD_g$ and $\mathcal J=F_c\mathcal R_cD_g$.
+Subtracting the true and cached systems gives
+\begin{equation}
+ \bm z=(I+\mathcal H\Delta G)^{-1}\bm z_c,
+ \qquad F_cy=F_cy_c-\mathcal J\Delta G\bm z.
+ \label{eq:sm-ramp-source-output-identity}
+\end{equation}
+All vector and operator norms here are Euclidean $2$-norms; a Frobenius bound suffices for an operator. Suppose
+$\|\mathcal H\|_2\le H_{\rm cap}$,
+$\|\mathcal J\|_2\le J_{\rm cap}$ and
+$\|\bm z_c\|_2\le Z_c$.
+If $H_{\rm cap}e_G<1$, the finite-rank inverse identity establishes invertibility of the full perturbed response system and yields
+\begin{equation}
+ \|\bm z\|_2\le Z=\frac{Z_c}{1-H_{\rm cap}e_G},
+ \qquad \|F_c(y-y_c)\|_2\le d=J_{\rm cap}e_GZ.
+ \label{eq:sm-ramp-source-output-caps}
+\end{equation}
+The exact power is
+$T_{\qT}^{\rm modal}=\|F_cy\|_2^2+2\bm z^\dagger\Delta Q_\star\bm z$.
+Consequently, if $0\le\underline a\le\|F_cy_c\|_2\le\overline a$ and $\underline a>d$,
+\begin{equation}
+ (\underline a-d)^2-2e_QZ^2
+ \le T_{\qT}^{\rm modal}
+ \le(\overline a+d)^2+2e_QZ^2.
+ \label{eq:sm-ramp-kernel-power-bound}
+\end{equation}
+This propagates both matrix errors through the coupled response without assuming their signs or directions. Positivity of the exact spectral measure gives the physical nonnegative-power interpretation.
+
+\paragraph*{Nominal enclosure.}
+For the unperturbed ramp, exact-rational residual and weighted-norm checks give the conservative caps
+\begin{equation}
+ H_{\rm cap}=0.947,\quad J_{\rm cap}=0.600,\quad Z_c=0.569,
+ \qquad \underline a_0=0.8578,\quad\overline a_0=0.8579.
+ \label{eq:sm-ramp-nominal-caps}
+\end{equation}
+The terminating decimals in these caps represent exact rational numbers. Substitution into Eq.~\eqref{eq:sm-ramp-kernel-power-bound} with Eq.~\eqref{eq:sm-ramp-kernel-errors} gives the outward enclosure
+\begin{equation}
+ \boxed{\ 0.732166<T_{\qT}^{\rm modal}<0.739652\ }.
+ \label{eq:sm-ramp-nominal-enclosure}
+\end{equation}
+Thus the exact-model nominal fraction lies within the displayed $73.2166\%$--$73.9652\%$ interval. This contains the approximate $73.6\%$ prediction but does not certify its rounding to one decimal place.
+
+The finite computation is checked by an exact-dyadic inverse preconditioner and rational residual bounds, with rational intervals for the geometric and physical-lead radicals. A residual norm below one encloses the actual inverse by a convergent Neumann series. Weighted quadratic forms certify the output norms, rather than treating a numerical inverse or spectral square root as exact. Separately, saved contour integral enclosures and their source-normalization checks bound the difference between these same numerical centers and the exact infinite-lattice response and lower-cluster spectral matrices. The rational response calculation propagates those bounds through the ramp's separately recomputed reciprocal response.
+
+\paragraph*{A continuous six-motif tolerance floor.}
+Now vary the actual per-link strengths as
+\begin{equation}
+ g_j=\frac{j}{7}(1+\delta_j),\qquad |\delta_j|\le\frac1{20}.
+ \label{eq:sm-ramp-coupling-box}
+\end{equation}
+The six factors are independent, while the eight links of each motif share its factor. The frequency, bare media, support and geometry remain fixed. The cached response matrix is affine:
+\begin{equation}
+ \mathcal A_{\delta,c}=\mathcal A_{0,c}+\sum_{j=1}^6\delta_j\mathcal A_j,
+ \quad \mathcal B=\mathcal R_{0,c}(\mathcal A_{\delta,c}-\mathcal A_{0,c}),
+ \quad y_{\delta,c}=(I+\mathcal B)^{-1}y_{0,c},
+ \label{eq:sm-ramp-cached-box}
+\end{equation}
+where $\mathcal R_{0,c}=\mathcal A_{0,c}^{-1}$ and $y_{0,c}=\mathcal R_{0,c}b$ refer to the nominal cached ramp. The output factor remains fixed because the bare spectral matrix is unchanged.
+
+To bound the whole box, choose caps valid for every $\bm\delta$:
+\begin{align}
+ \|\mathcal B\|_2&\le r<1,&
+ \|F_c\mathcal B\|_2&\le w,&
+ \|\mathcal B y_{0,c}\|_2&\le v,\nonumber\\
+ 2\big|\Re[(F_cy_{0,c})^\dagger F_c\mathcal B y_{0,c}]\big|&\le\ell.
+ \label{eq:sm-ramp-energy-caps}
+\end{align}
+The resolvent identity gives
+\begin{equation}
+ F_cy_{\delta,c}=F_cy_{0,c}-F_c\mathcal B y_{0,c}
+ +F_c\mathcal B(I+\mathcal B)^{-1}\mathcal B y_{0,c}.
+ \label{eq:sm-ramp-energy-expansion}
+\end{equation}
+The final term has norm at most $wv/(1-r)$. Expanding the squared output and using nonnegativity of the remaining square therefore gives
+\begin{equation}
+ \|F_cy_{\delta,c}\|_2^2
+ \ge\underline a_0^2-\ell-\frac{2\overline a_0wv}{1-r}.
+ \label{eq:sm-ramp-cached-energy-floor}
+\end{equation}
+Keeping the signed first-order energy term makes this sharper than subtracting the norm of the complete first-order output change.
+
+Uniform kernel transfer also needs source and feedback bounds. Define
+\begin{align}
+ \|P_\eta\mathcal B\|_2&\le w_z,&
+ \|P_\eta\mathcal B y_{0,c}\|_2&\le d_z,\nonumber\\
+ \|P_\eta\mathcal R_{0,c}D_g(\bm\delta)\|_2&\le h_0,&
+ \|F_c\mathcal R_{0,c}D_g(\bm\delta)\|_2&\le j_0,\nonumber\\
+ \|\mathcal R_{0,c}D_g(\bm\delta)\|_2&\le d_g.
+ \label{eq:sm-ramp-affine-transfer-caps}
+\end{align}
+Both $\mathcal B$ and $D_g(\bm\delta)$ are affine. Each auxiliary norm, and the absolute linear scalar defining $\ell$, is convex in the six factors. Hence upper bounds at all 64 vertices control these quantities throughout the continuous box. This does not assume convexity of transmission or locate its extrema at vertices.
+
+\begin{table}[!htbp]
+ \centering
+ \caption{Conservative rational caps for the ramp box. The displayed terminating decimals are the exact rational constants used in the proof. All operator caps are verified using sufficient Frobenius or weighted-quadratic-form bounds.}
+ \label{tab:sm-ramp-box-caps}
+ \begin{tabular}{cccccc}
+  \toprule
+  Quantity & Cap & Quantity & Cap & Quantity & Cap\\
+  \midrule
+  $r$ & 0.164 & $w$ & 0.068 & $v$ & 0.1648\\
+  $\ell$ & 0.0173 & $w_z$ & 0.0649 & $d_z$ & 0.0504\\
+  $h_0$ & 0.994 & $j_0$ & 0.6289 & $d_g$ & 1.744\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+With Table~\ref{tab:sm-ramp-box-caps}, Eq.~\eqref{eq:sm-ramp-cached-energy-floor} exceeds $0.6955209$, so $L_{\rm box}=0.8339$ is a valid uniform lower output amplitude, since $L_{\rm box}^2<0.6955209$. Writing $\mathcal R_{\delta,c}=\mathcal A_{\delta,c}^{-1}=(I+\mathcal B)^{-1}\mathcal R_{0,c}$, the same resolvent identity gives uniform norm bounds
+\begin{align}
+ \|P_\eta y_{\delta,c}\|_2&\le0.569+d_z+\frac{w_zv}{1-r}<0.633,\nonumber\\
+ \|P_\eta\mathcal R_{\delta,c}D_g(\bm\delta)\|_2&\le h_0+\frac{w_zd_g}{1-r}<1.13,\nonumber\\
+ \|F_c\mathcal R_{\delta,c}D_g(\bm\delta)\|_2&\le j_0+\frac{wd_g}{1-r}<0.772.
+ \label{eq:sm-ramp-uniform-kernel-caps}
+\end{align}
+Use $Z_c=0.633$, $H_{\rm cap}=1.13$ and $J_{\rm cap}=0.772$ as rounded-up uniform caps. The lower inequality in Eq.~\eqref{eq:sm-ramp-kernel-power-bound}, with $\underline a=L_{\rm box}$, then satisfies its inverse and positive-amplitude conditions. Exact rational substitution gives the conservative outward decimal floor
+\begin{equation}
+ \boxed{\ T_{\qT}^{\rm modal}(\bm\delta)>0.69050>0.69\ }.
+ \label{eq:sm-ramp-whole-box-floor}
+\end{equation}
+This is a conservative floor, not the true minimum. The response bounds are evaluated for the ramp; reuse of the bare-kernel enclosure is justified by the unchanged medium and source support. Neither nominal nor box proof requires an intermediate eliminated-core inverse. The result covers one frequency and six whole-motif factors, not 48 independent spring errors, a frequency band, packet errors, nonlinear effects or experimental uncertainty.
+
+\paragraph*{Independent stationary corroboration.}
+The validation release also records independently generated surface/$N=128,M=256$ PV and linear-tetrahedron/$N=48$ evaluations, giving qT fractions approximately $0.735852$ and $0.735911$. A new ramp solve using separately retained finer $N=192$ tetrahedron kernels gives approximately $0.735785$. These calculations support the approximate carrier estimate. The distinction between newly integrated and retained kernels matters: repeating a cached solve is not another independent quadrature. Their spread and flux closure are numerical diagnostics, separate from the rigorous enclosure above.
+
+\paragraph*{Stationary conversion across the packet frequencies.}
+For the nominal six-motif ramp held fixed, the largest qT fraction among the fourteen frequencies in Table~\ref{tab:sm-ramp-frequency-samples} is about $77.6\%$, at $\omega=1.3585$. At the separately evaluated carrier $\omega=1.2$, the nominal estimate is $73.6\%$. At that frequency conversion exceeds $69\%$ throughout independent $\pm5\%$ variations of the six motif strengths with all other parameters fixed. The validation repository gives the unrounded coefficients and the packet-energy weights in \nolinkurl{validation/ramp/packet_spectrum/PACKET_SPECTRUM.json}.
+
+\begin{table}[!htbp]
+ \centering
+ \caption{Stationary qT power as a percentage of incident line power at the fourteen frequencies used in the ramp packet comparison. Values are numerical estimates from surface integration at $N=160$, $M=256$.}
+ \label{tab:sm-ramp-frequency-samples}
+ \begin{tabular}{rr@{\qquad}rr}
+  \toprule
+  $\omega$ & $P_{\qT}/P_{\rm inc}$ (\%) & $\omega$ & $P_{\qT}/P_{\rm inc}$ (\%)\\
+  \midrule
+  0.8034 & 27.7 & 1.2406 & 75.8\\
+  0.8679 & 34.4 & 1.3000 & 77.5\\
+  0.9318 & 42.1 & 1.3585 & 77.6\\
+  0.9950 & 50.4 & 1.4161 & 76.8\\
+  1.0575 & 58.8 & 1.4727 & 75.7\\
+  1.1193 & 66.3 & 1.5282 & 74.6\\
+  1.1804 & 72.1 & 1.5828 & 73.7\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+\paragraph*{A separate real-packet comparison.}
+The packet test evolves a finite open truncation of the same harmonic line--bulk Hamiltonian, with no damping or forcing after preparation. The real Gaussian line displacement and dispersion-based right-moving velocity follow main-text Sec.~7/SM5C: amplitude $0.002a$, center $18a$, width $7a$ and carrier $\omega_0=1.2$. All bulk displacements and velocities start exactly at zero. The primary line has 120 sites, the bulk has $120\times80\times80$ sites, and $\Delta\tau=0.04$; bonds leaving the finite domains are omitted. Normalize by the initial open scalar-line energy $E_0=H_q(0)$. The initial contact energy is nonzero but only about $3.0\times10^{-18}E_0$.
+
+The initial $56\times56$ transverse-box trial searched $48\le\tau\le57$ and produced no passing interval lasting at least $2.0$. Increasing the box to $80\times80$ and extending the search to $48\le\tau\le66$ were informed by the dynamics diagnostics. Retaining the five coefficient-blind SM5C thresholds, cadence $0.2$ and minimum duration $2.0$, the longest passing run with earliest-start tie break is $57.4\le\tau\le64.2$. This interval was then frozen for the subsequent controls. The transverse kinetic-shell selection predicate remains distinct from the independent node-assigned total-shell check, which monitors energy near the outer boundaries after interval selection. For each finite open snapshot, use the periodic embedding and basis-invariant lower-cluster allocation midpoint defined in SM5C. The reported quantity is the composite-trapezoidal average of these energy fractions over the 35 stored times. It is a spatially nonlocal stored-energy fraction, not a local radiation flux.
+
+For comparison with the stationary response, use the same full signed-grid weights $W(k)$ as SM5C. Both propagating conjugate bins represent one real right-moving packet. The zero-frequency weight vanishes; stationary Nyquist energy remains in the full denominator and out of the propagating numerator. Using the surface $N=160,M=256$ family, fourteen distinct frequencies in $0.8\le\omega_q(k)\le1.6$ cover $0.999683493$ of the periodic packet energy. Converting the periodic normalization to $E_0$ multiplies the in-band prediction by $E_q^{\rm per}(0)/E_0=1.00000000918$. The resulting open-line-normalized contribution is approximately $0.71630649$, or $71.63065\%$, rather than the carrier value $73.6\%$.
+
+\begin{table}[!htbp]
+ \centering
+ \caption{Ramp packet stored-qT-energy fractions on $57.4\le\tau\le64.2$, at cadence $0.2$, normalized to initial open-line $H_q$. Displayed digits resolve the numerical controls; they are not a combined uncertainty interval. The weighted stationary comparison is approximately $71.63065\%$.}
+ \label{tab:sm-ramp-packet-controls}
+ \begin{tabular}{lccc}
+  \toprule
+  Evolution & Transverse box & $\Delta\tau$ & qT energy (\%)\\
+  \midrule
+  Primary & $80\times80$ & 0.04 & 71.6456\\
+  Half step & $80\times80$ & 0.02 & 71.6454\\
+  Larger box & $96\times96$ & 0.04 & 71.6267\\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+The primary and controls in Table~\ref{tab:sm-ramp-packet-controls} corroborate the spectrum-weighted comparison. The omitted-weight allowance bounds only unevaluated spectral weight, not quadrature, finite-box, timestep or finite-time-estimator error. Packet agreement has a different scope from either stationary certificate. This lower-cluster packet energy is also distinct from the approximately $71\%$ upstream total-bulk result for the 24-motif junction at $\omega=2.9$ in main-text Sec.~6.
+
+The complete configuration, cached centers, same-target kernel authentication, exact-rational point/box verifiers, independent stationary records and packet preparation/controls are retained in the accompanying full ramp validation release dated 8 November 2026. Large packet histories are regenerated by its documented workflow. This example establishes a high-conversion operating point and a scoped stability floor in the declared passive reciprocal model. It establishes neither a global optimum nor a microscopic discrete-space or electromagnetic identification.
+\label{end:sm-ramp-validation}
+\clearpage

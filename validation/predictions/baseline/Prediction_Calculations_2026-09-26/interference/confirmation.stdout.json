@@ -1,0 +1,14 @@
+{
+  "reversal_confirmed_all_four_kernels_both_speeds": true,
+  "same_state_cross_positive_all_reversal_rows": true,
+  "reference_redressed_increase_both_methods": true,
+  "single_motif_max_abs_XR": 1.3299805413290734e-21,
+  "single_motif_max_relative_XR": 2.722433256530333e-20,
+  "single_motif_max_G_commutator": 5.767045958863501e-20,
+  "single_motif_max_Q_commutator": 1.729673562179961e-20,
+  "two_motif_cross_positive_both_methods": true,
+  "max_full_flux_closure": 1.3322676295501878e-15,
+  "max_augmented_eta_difference": 3.376611507232129e-16,
+  "max_paired_vs_X_plus_R_Hessian_difference": 2.220446049250313e-16,
+  "max_same_state_decomposition_residual": 1.1102230246251565e-16
+}

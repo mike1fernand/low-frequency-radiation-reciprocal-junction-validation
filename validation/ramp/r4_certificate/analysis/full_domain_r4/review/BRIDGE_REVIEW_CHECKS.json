@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checked_vertices": 64,
+  "checked_positive_LDL_pivots": 5987,
+  "bridge_floor": "[0.1037986667791380149124393077511413006385 +/- 4.04e-41]",
+  "full_inverse_upper": "[0.06640776200000000000000000000000000000000 +/- 3e-45]",
+  "core_inverse_upper": "[0.008901336000000000000000000000000000000000 +/- 3e-46]",
+  "summary_sha256": "41aaa3b2571fabd9c8816177fe30b04a2e6a3fed3c427b4ecfd8b180a2d10315",
+  "proof_sha256": "8f3eed9a33e6a5df982e5002a57ea743c93b5f09592cf9ca7ed387b30fe6304e",
+  "ledger_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+  "scope": "Reference energy 36/25, specified source, all six complete-motif coupling factors in [19/20,21/20].",
+  "method": "Independently checked all bindings, exact set of 64 vertex signs, positive floor margin and both inverse conditions in the fresh original proof. Original proof was not rerun a second time by this reviewer."
+}

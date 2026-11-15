@@ -1,0 +1,165 @@
+{
+  "schema": "paper1.p07.invariant-modal-analysis.v1",
+  "method": "float32 snapshot handoff after double-precision trajectory; periodic Fourier embedding; analytic isolated-upper projector; robust exact doublet/triplet energy-coherence bounds",
+  "input_header": {
+    "snapshot_count": 5,
+    "nx": 120,
+    "ny": 56,
+    "nz": 56
+  },
+  "E0": 3.597297830331177e-05,
+  "degeneracy": {
+    "rtol": 1e-12,
+    "upper_middle_doublets": 132,
+    "threefold_points": 231,
+    "lower_middle_only_points": 9282
+  },
+  "interval": [
+    52.8,
+    55.2
+  ],
+  "rows": [
+    {
+      "time": 52.800000000000004,
+      "periodic_total_over_E0": 0.13875376183566404,
+      "qL_production_over_E0": 0.011268870662665567,
+      "qT_production_over_E0": 0.12748489117299847,
+      "qL_min_over_E0": 0.011268870000881656,
+      "qL_max_over_E0": 0.01126887182539212,
+      "qT_min_over_E0": 0.12748489001027194,
+      "qT_max_over_E0": 0.12748489183478237,
+      "sets": {
+        "upper_middle_doublet": {
+          "count": 132,
+          "total_energy_over_E0": 8.556519955211959e-10,
+          "qL_min_over_E0": 6.457325422361121e-11,
+          "qL_max_over_E0": 6.505280059623434e-10,
+          "ambiguity_width_over_E0": 5.859547517387323e-10
+        },
+        "triple": {
+          "count": 231,
+          "total_energy_over_E0": 1.2385557114859785e-09,
+          "qL_min_over_E0": -8.88424453138698e-27,
+          "qL_max_over_E0": 1.2385557114859785e-09,
+          "ambiguity_width_over_E0": 1.2385557114859785e-09
+        }
+      }
+    },
+    {
+      "time": 53.400000000000006,
+      "periodic_total_over_E0": 0.1388193067441443,
+      "qL_production_over_E0": 0.011280676872320719,
+      "qT_production_over_E0": 0.12753862987182357,
+      "qL_min_over_E0": 0.011280676399803097,
+      "qL_max_over_E0": 0.011280677997373409,
+      "qT_min_over_E0": 0.12753862874677088,
+      "qT_max_over_E0": 0.1275386303443412,
+      "sets": {
+        "upper_middle_doublet": {
+          "count": 132,
+          "total_energy_over_E0": 6.368517321565501e-10,
+          "qL_min_over_E0": 4.11164020516177e-11,
+          "qL_max_over_E0": 5.549838998680439e-10,
+          "ambiguity_width_over_E0": 5.138674978164262e-10
+        },
+        "triple": {
+          "count": 231,
+          "total_energy_over_E0": 1.0837028143263085e-09,
+          "qL_min_over_E0": -2.9978564122636772e-27,
+          "qL_max_over_E0": 1.0837028143263085e-09,
+          "ambiguity_width_over_E0": 1.0837028143263085e-09
+        }
+      }
+    },
+    {
+      "time": 54.0,
+      "periodic_total_over_E0": 0.138913812014622,
+      "qL_production_over_E0": 0.011288680165768283,
+      "qT_production_over_E0": 0.1276251318488537,
+      "qL_min_over_E0": 0.011288679791489748,
+      "qL_max_over_E0": 0.011288680728772442,
+      "qT_min_over_E0": 0.12762513128584957,
+      "qT_max_over_E0": 0.12762513222313224,
+      "sets": {
+        "upper_middle_doublet": {
+          "count": 132,
+          "total_energy_over_E0": 5.023935581998924e-10,
+          "qL_min_over_E0": 2.2746335884293372e-11,
+          "qL_max_over_E0": 4.219728064065209e-10,
+          "ambiguity_width_over_E0": 3.9922647052222747e-10
+        },
+        "triple": {
+          "count": 231,
+          "total_energy_over_E0": 5.380562221449106e-10,
+          "qL_min_over_E0": -4.512672160929374e-27,
+          "qL_max_over_E0": 5.380562221449106e-10,
+          "ambiguity_width_over_E0": 5.380562221449106e-10
+        }
+      }
+    },
+    {
+      "time": 54.6,
+      "periodic_total_over_E0": 0.13901005002975667,
+      "qL_production_over_E0": 0.011312578408953984,
+      "qT_production_over_E0": 0.1276974716208027,
+      "qL_min_over_E0": 0.011312578143644374,
+      "qL_max_over_E0": 0.01131257858995114,
+      "qT_min_over_E0": 0.12769747143980553,
+      "qT_max_over_E0": 0.1276974718861123,
+      "sets": {
+        "upper_middle_doublet": {
+          "count": 132,
+          "total_energy_over_E0": 3.499470143233796e-10,
+          "qL_min_over_E0": 1.91680439558624e-11,
+          "qL_max_over_E0": 2.577374487210026e-10,
+          "ambiguity_width_over_E0": 2.3856940476514013e-10
+        },
+        "triple": {
+          "count": 231,
+          "total_energy_over_E0": 2.0773736002581367e-10,
+          "qL_min_over_E0": -7.19454622668209e-27,
+          "qL_max_over_E0": 2.0773736002581362e-10,
+          "ambiguity_width_over_E0": 2.0773736002581362e-10
+        }
+      }
+    },
+    {
+      "time": 55.2,
+      "periodic_total_over_E0": 0.13908740336743486,
+      "qL_production_over_E0": 0.011352093135882046,
+      "qT_production_over_E0": 0.12773531023155282,
+      "qL_min_over_E0": 0.011352092978604879,
+      "qL_max_over_E0": 0.011352093197497849,
+      "qT_min_over_E0": 0.12773531016993703,
+      "qT_max_over_E0": 0.12773531038883,
+      "sets": {
+        "upper_middle_doublet": {
+          "count": 132,
+          "total_energy_over_E0": 2.1776876090353892e-10,
+          "qL_min_over_E0": 1.9838837292963647e-11,
+          "qL_max_over_E0": 1.625218591994599e-10,
+          "ambiguity_width_over_E0": 1.4268302190649622e-10
+        },
+        "triple": {
+          "count": 231,
+          "total_energy_over_E0": 7.620994847116905e-11,
+          "qL_min_over_E0": -2.777332327549186e-27,
+          "qL_max_over_E0": 7.620994847116905e-11,
+          "ambiguity_width_over_E0": 7.620994847116905e-11
+        }
+      }
+    }
+  ],
+  "summary": {
+    "qT_production_time_average": 0.12761783351093892,
+    "qT_lower_time_average": 0.1276178328906326,
+    "qT_upper_time_average": 0.12761783389134798,
+    "qT_production_min": 0.12748489117299847,
+    "qT_production_max": 0.12773531023155282,
+    "qL_production_time_average": 0.011298104336579198,
+    "periodic_total_time_average": 0.1389159378475181,
+    "max_snapshot_qT_ambiguity": 1.824510431625015e-09,
+    "qT_time_average_ambiguity_width": 1.0007153716795614e-09
+  },
+  "elapsed_seconds": 1.758256196975708
+}

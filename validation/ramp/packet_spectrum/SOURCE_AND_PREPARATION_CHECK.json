@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "pinned_input_sha256": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57",
+    "FREQUENCY_CONTRACT.json": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348",
+    "preparation.json": "6e77b32d3ac6ebe8075cb43b31bf20b73aef5d7261ea1c4118a0a832761451e1"
+  },
+  "contract_qv_sha256": "702bdd20fa010dc1d9755a45ecc4ce672d9d153363efb23e5812347883769e55",
+  "producer_qv_sha256": "451bcbf25d94813bc83a72af94ea27a59db5322dc37c41c18118cff9deb1f285",
+  "producer_prepare_sha256": "c472448fcf8bc957ce81a485eeaaa6a495bdd2fc48209330f8880a4569af0024",
+  "q_max_absolute_difference": 1.81603863891322e-18,
+  "v_max_absolute_difference": 2.168404344971009e-18,
+  "normalized_weight_L1_difference": 1.4556142233449454e-15,
+  "maximum_possible_weighted_prediction_change_for_any_passive_curve": 1.4556142233449454e-15,
+  "scope": "Contract preparation reproduces its exact frozen q/v hash. The compact C++ input-preparation Python formula differs at floating-point roundoff because it evaluates the same carrier through NumPy2asin(6/13), whereas the contract uses math2asin(omega0/omegaMax). All observed differences are recorded; this is not a new physical preparation or uncertainty estimate for the Green solver.",
+  "arrays_sha256": "e8a3d49a8967ea983e7031b324f4ccc6c509b1a991a5c77ae892b79b395f1ef7"
+}

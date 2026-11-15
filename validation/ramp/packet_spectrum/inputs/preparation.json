@@ -1,0 +1,18 @@
+{
+  "schema": "paper1.packet-preparation.v1",
+  "source": "Current Paper 1 Section VII.A and canonical model ModelParameters",
+  "n": 120,
+  "a": 1.0,
+  "m_q": 1.0,
+  "K_q": 1.69,
+  "amplitude": 0.002,
+  "center": 18.0,
+  "sigma": 7.0,
+  "omega0": 1.2,
+  "band": [
+    0.8,
+    1.6
+  ],
+  "nyquist_velocity": "zero",
+  "grid": "full unnormalized forward DFT; conjugate +/-k describe one real packet"
+}

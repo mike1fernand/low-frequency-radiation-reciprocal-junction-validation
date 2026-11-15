@@ -1,0 +1,26 @@
+{
+  "schema": "paper1.robustness-pv-contract.v1",
+  "status": "selected_for_declared_finite_robustness",
+  "physical_bulk": {
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "m_bulk": 1.0
+  },
+  "order": 256,
+  "bins": 16384,
+  "histograms": [
+    {
+      "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260920_p23_nseg10_bins16384.npz",
+      "sha256": "b25edc99a74937f5968e09b813213a7ad9ecfc9b72234fb9a26840db58fac987"
+    },
+    {
+      "path": "analysis/resolution_execution/surface/histograms/sobol_seed20260921_p23_nseg10_bins16384.npz",
+      "sha256": "72ac7e19d54638dd91487812b3504a49276a3cab190598eb7534b89b473921d2"
+    }
+  ],
+  "reference_metadata": {
+    "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+    "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "scope": "Same selected fresh common-medium PV contract across the finite robustness frequencies; finite sampled evidence, not uniform accuracy."
+}

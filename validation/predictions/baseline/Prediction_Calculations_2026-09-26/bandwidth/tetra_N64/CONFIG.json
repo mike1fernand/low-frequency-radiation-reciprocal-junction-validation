@@ -1,0 +1,61 @@
+{
+  "config_hash": "a72e480e7985d6c7839a368edd754017e01258e4d8991d6df8e5fda5fa0e1651",
+  "config": {
+    "grid": 64,
+    "omega": [
+      1.1125,
+      1.2375,
+      1.3
+    ],
+    "shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "regulator": 1e-10,
+    "range_cubes": 65536,
+    "cube_chunk": 1024,
+    "nseg": 6,
+    "profile": [
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.1
+    ],
+    "parameters": {
+      "a": 1.0,
+      "m_bulk": 1.0,
+      "m_spine": 1.0,
+      "k_axis": 1.0,
+      "k_diag": 1.0,
+      "k_spine": 1.69
+    },
+    "geometry": {
+      "grid": 64,
+      "shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameters": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "accepted_source_sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818"
+    },
+    "geometry_sha256": "48fd146baeb5ac1b0785b3776edacc07265c2f682447915a4d8d79ab6d4aaa58",
+    "source_sha256": {
+      "multifrequency_tetra.py": "94234e97ccddabca58367fb2e2998b576390c54de80c779047b329b7c5720f60",
+      "combined_tetra_diagnostic.py": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+      "stable_scalar.py": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+      "centroid_weights.py": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b",
+      "campaign.py": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc"
+    }
+  }
+}

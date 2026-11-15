@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "task": "packet",
+  "mode": null,
+  "case": "all",
+  "commands": [
+    {
+      "label": "packet-compile",
+      "argv": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-fopenmp",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/evolve_candidate.cpp",
+        "-o",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/evolve_candidate"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.1753063399992243
+    },
+    {
+      "label": "candidate_dt004_box80-evolution",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/run_control.py",
+        "--half-box",
+        "40",
+        "--dt",
+        ".04",
+        "--end",
+        "66",
+        "--name",
+        "candidate_dt004_box80"
+      ],
+      "returncode": 0,
+      "wall_seconds": 12.016991130996757
+    },
+    {
+      "label": "candidate_dt004_box80-analysis",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/analyze_candidate.py",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/candidate_dt004_box80"
+      ],
+      "returncode": 0,
+      "wall_seconds": 14.309601094002574
+    },
+    {
+      "label": "control_dt002_box80-evolution",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/run_control.py",
+        "--half-box",
+        "40",
+        "--dt",
+        ".02",
+        "--end",
+        "64.2",
+        "--name",
+        "control_dt002_box80",
+        "--frozen-window",
+        "57.4",
+        "64.2"
+      ],
+      "returncode": 0,
+      "wall_seconds": 22.24649916600174
+    },
+    {
+      "label": "control_dt002_box80-analysis",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/analyze_candidate.py",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/control_dt002_box80"
+      ],
+      "returncode": 0,
+      "wall_seconds": 14.608453927998198
+    },
+    {
+      "label": "control_dt004_box96-evolution",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/run_control.py",
+        "--half-box",
+        "48",
+        "--dt",
+        ".04",
+        "--end",
+        "64.2",
+        "--name",
+        "control_dt004_box96",
+        "--frozen-window",
+        "57.4",
+        "64.2"
+      ],
+      "returncode": 0,
+      "wall_seconds": 17.519774410000537
+    },
+    {
+      "label": "control_dt004_box96-analysis",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/analyze_candidate.py",
+        "/workspace/scratch/044aa7b17d80/p1_736_full_audit_2026_11_08/cold_outputs/packet_clean/packet/control_dt004_box96"
+      ],
+      "returncode": 0,
+      "wall_seconds": 21.02584929299701
+    }
+  ],
+  "task_result": {
+    "comparisons": [
+      {
+        "case": "candidate_dt004_box80",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      },
+      {
+        "case": "control_dt002_box80",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      },
+      {
+        "case": "control_dt004_box96",
+        "status": "PASS",
+        "max_mean_difference": 0.0,
+        "arithmetic_regression_tolerance": 1e-09,
+        "tolerance_scope": "Replay consistency; not a physical error enclosure."
+      }
+    ],
+    "cadence_note": "The current analyzer includes the final cadence endpoint; legacy secondary common-mean fields are superseded."
+  },
+  "frozen_repository_unchanged": true,
+  "wall_seconds": 103.75441902300008,
+  "error": null,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "child_optimization": "0",
+    "threads": "2"
+  }
+}

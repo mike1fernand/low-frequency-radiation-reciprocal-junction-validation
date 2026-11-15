@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "static_numeric_cases": 320,
+  "explicit_portability_cases": 35,
+  "portability_radii": [
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "maximum_component_symbol_residual": 9.992007221626409e-16,
+  "exact_wave_normal_witness": {
+    "rational": "432",
+    "sqrt3_coefficient": "-236"
+  },
+  "exact_centered_difference_vandermonde": "-15/256",
+  "spectral_radius_range": [
+    0.001,
+    1.8
+  ],
+  "maximum_observed_to_archived_amplitude_bound_ratio": 0.08755279964846183,
+  "maximum_numerical_operator_defect": 0.0,
+  "minimum_scaled_lower_upper_gap": 1.1804552368093548,
+  "scope": "Independent static confirmation of pre-existing archived identities and sampled bound, not a proof of global novelty, trajectory propagation, or tight reference-frequency polarization certificate. Original packet_theorem checker not found in inspected restored readers/archives; this is new check code.",
+  "source_sha256": "05c261440444ec8ad0a13080265355feb6b0ccb1d78197b661c2c6cf31b18ae9"
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "checks": {
+    "angles_controls": {
+      "status": "PASS",
+      "output": "checks/ANGLES_CONTROLS.json"
+    },
+    "clarity_observables": {
+      "status": "PASS",
+      "output": "checks/CLARITY_OBSERVABLES.json"
+    },
+    "clarity_revision": {
+      "status": "PASS",
+      "output": "checks/CLARITY_PRESERVATION.json"
+    },
+    "frequency_figure": {
+      "status": "PASS",
+      "output": "checks/FIGURE_FREQUENCY.json"
+    },
+    "incident_power": {
+      "status": "PASS",
+      "output": "checks/INCIDENT_POWER.json"
+    },
+    "line_mass": {
+      "status": "PASS",
+      "output": "checks/LINE_MASS.json"
+    },
+    "lowfreq": {
+      "status": "PASS",
+      "output": "checks/LOW_FREQUENCY.json"
+    },
+    "packet_comparison": {
+      "status": "PASS",
+      "output": "checks/PACKET_COMPARISON.json"
+    },
+    "packet_figure": {
+      "status": "PASS",
+      "output": "checks/FIGURE6.json"
+    },
+    "packet_layout": {
+      "status": "PASS",
+      "output": "checks/FIGURE_TABLE_LAYOUT.json"
+    },
+    "packet_reference": {
+      "status": "PASS",
+      "output": "checks/PACKET_REFERENCE.json"
+    },
+    "packet_spectrum": {
+      "status": "PASS",
+      "output": "checks/PACKET_SPECTRUM_REPLAY.json"
+    },
+    "ramp_packet": {
+      "status": "PASS",
+      "output": "checks/RAMP_PACKET.json"
+    },
+    "robustness": {
+      "status": "PASS",
+      "output": "checks/ROBUSTNESS.json"
+    },
+    "robustness_bounds": {
+      "status": "PASS",
+      "output": "checks/VIII_CERTIFICATES.json"
+    },
+    "scaling_and_projections": {
+      "status": "PASS",
+      "output": "checks/SCALING_AND_PROJECTIONS.json"
+    },
+    "scattering": {
+      "status": "PASS",
+      "output": "checks/SCATTERING.json"
+    },
+    "vi_results": {
+      "status": "PASS",
+      "output": "checks/VI_RESULTS.json"
+    },
+    "vii_clarity": {
+      "status": "PASS",
+      "output": "checks/VII_CLARITY_PRESERVATION.json"
+    },
+    "vii_preservation": {
+      "status": "PASS",
+      "output": "checks/VII_PRESERVATION.json"
+    },
+    "viii_preservation": {
+      "status": "PASS",
+      "output": "checks/VIII_PRESERVATION.json"
+    },
+    "taper_revision": {
+      "status": "PASS",
+      "output": "checks/TAPER_REVISION.json"
+    },
+    "preservation": {
+      "status": "PASS",
+      "output": "baseline/PRIOR_PRESERVATION.json"
+    },
+    "viii_clarifications": {
+      "status": "PASS",
+      "output": "checks/VIII_CLARIFICATIONS.json"
+    },
+    "ix_preservation": {
+      "status": "PASS",
+      "output": "checks/IX_PRESERVATION.json"
+    }
+  },
+  "underlying_bulk_integrals_or_packet_trajectories_regenerated": false
+}

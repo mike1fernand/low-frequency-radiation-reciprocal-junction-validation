@@ -1,0 +1,36 @@
+{
+  "bulk_symbol_sample_count": 54,
+  "max_symbol_difference": 3.552713678800501e-15,
+  "smooth_regulator_test": {
+    "omega": 1.2,
+    "eta": 0.1,
+    "regulator": "z=(omega+i*eta)^2",
+    "nseparations": 6,
+    "axial_Nperp": 256,
+    "shift": [
+      0.5,
+      0.5
+    ],
+    "rows": [
+      {
+        "N3d": 32,
+        "max_abs_difference": 0.002234959970520508,
+        "relative_frobenius": 0.007321304007808649,
+        "seconds": 0.043817758560180664
+      },
+      {
+        "N3d": 64,
+        "max_abs_difference": 6.959453192611748e-05,
+        "relative_frobenius": 0.0002918881479077268,
+        "seconds": 0.3243846893310547
+      },
+      {
+        "N3d": 128,
+        "max_abs_difference": 7.420404094488933e-07,
+        "relative_frobenius": 3.1359467077550173e-06,
+        "seconds": 2.4478490352630615
+      }
+    ]
+  },
+  "limitations": "Same physical bulk and basis; independent direct 3D quadrature of inverse dynamical matrix versus axial-root residues. Smooth finite-regulator check is not an error enclosure for the small-regulator extrapolation."
+}

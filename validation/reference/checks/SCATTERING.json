@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+  "reference_Rq_Tq_TqT_TqL": [
+    0.0035721492713804803,
+    0.859745958539447,
+    0.12565925539283654,
+    0.011022636796334603
+  ],
+  "weak_qT_qL": [
+    0.0969632610492761,
+    0.007624950791304689
+  ],
+  "SM3_gradient_lower_gap_upper_gap_squared_overlap": [
+    1.8578005171875684,
+    0.10072395873730722,
+    2.6995795646092917,
+    0.7492079017115738
+  ],
+  "qT_qL_weak_coefficient_errors_at_scales_0.004_0.002_0.001": [
+    0.00012047505738173105,
+    6.024506551154807e-05,
+    3.0124413862512547e-05
+  ],
+  "cell_current_finite_difference_max_absolute_error": 2.337192661627796e-10,
+  "note": "Numerical identity checks using retained quadrature. The contact Hessian, shell witness, and bond current are independently constructed."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "byte_identical_to_sealed_r3": {
+    "arbitrary_tile_sharp.py": true,
+    "certified_tensor_sharp.py": true,
+    "source_moments.py": true
+  }
+}

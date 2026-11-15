@@ -1,0 +1,17 @@
+{
+  "labels": [
+    "Point force S",
+    "Finite X S",
+    "Finite R S",
+    "Finite X+R S",
+    "Lattice modal qT"
+  ],
+  "lattice_reference": "Surface N192; fresh two-seed Sobol 2^23 mean, Jackson M256",
+  "values": [
+    0.9122214500428667,
+    0.8749520605148815,
+    0.9177193165926617,
+    0.9191436948473913,
+    0.9193555443241916
+  ]
+}

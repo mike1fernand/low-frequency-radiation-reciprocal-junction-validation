@@ -1,0 +1,48 @@
+{
+  "status": "PRESERVED_EXECUTED_FIXTURE",
+  "source": "packet/resume_control_continuous from 8 November 2026 validation",
+  "source_engine_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+  "scope": "Existing H=2, dt=.04 continuous steps0..20; no new long dynamics.",
+  "files": [
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_0.bin",
+      "bytes": 25208,
+      "sha256": "fb5eacdc284b13377570882aa4614acdf411d6008b43dc37be061376e5c9a744"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_10.bin",
+      "bytes": 25208,
+      "sha256": "1dd7aa826d599a217ab3e2a5d9ca32b0387af213d98e49d3f01534d240d83422"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_20.bin",
+      "bytes": 25208,
+      "sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/line.bin",
+      "bytes": 40320,
+      "sha256": "10656fafb0d23075623d9a92227897f63b19e2f50036e89594a7346bcbf340c2"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/corner.bin",
+      "bytes": 6048,
+      "sha256": "6fcf22d83bc4860a4fc1dcdca657f98d6c47ccec4f2ee84ffb00498b9912462d"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/snap.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/snap_times.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/monitor.csv",
+      "bytes": 432,
+      "sha256": "398e3eb5e6608753b3e0a5d1cae98beea84311b25a84c5ba2aaebb709d2850e1"
+    }
+  ]
+}

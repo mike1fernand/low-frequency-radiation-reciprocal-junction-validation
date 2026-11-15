@@ -1,0 +1,154 @@
+{
+  "date_utc": "2026-11-11",
+  "scope": "Scientific audit and release assembly. Historical raw results keep their own dates. Reproduction has different scopes for the selected matrix evaluations, fresh integrations, trajectory regeneration, and replay of saved certificates.",
+  "manuscript_build": {
+    "original_build_sha256": "7c98b788cf9bd9287de8af291f9ccded6496208c58031cf0ecde219c4ebf4988",
+    "files_matched": 22,
+    "fresh_rebuild_exact_text_and_raster_pages": {
+      "paper1_main": 29,
+      "paper1_supplement": 35
+    }
+  },
+  "original_git_release": {
+    "original_sha256": "1f48ae05ec4daf4702fa574b590611cfce8cff15e51cb661650179a7a0daf05a",
+    "original_files": 1537,
+    "original_files_git_staged": 1522,
+    "required_scientific_files_missed": 15,
+    "cause": "Unanchored results/ ignore pattern",
+    "corrective_check": "Local git add, commit and ordinary fresh clone, with --git-index checking actual staged blob bytes."
+  },
+  "restored_modules": [
+    "validation/reference_methods",
+    "validation/section_evidence",
+    "validation/significance",
+    "validation/predictions"
+  ],
+  "ramp_replays": {
+    "response": {
+      "status": "PASS",
+      "task": "response",
+      "task_result": {},
+      "input_tree_unchanged": true,
+      "tighter_nominal_interval": {
+        "eG": "1/250",
+        "eQ": "1/500",
+        "lower_rational": "1135358893260054489/1550684920225000000",
+        "upper_rational": "4587863886935057969/6202739680900000000",
+        "lower_display": 0.7321660760687072,
+        "upper_display": 0.7396512062343026
+      },
+      "tight_kernel_box_lower": {
+        "eG": "1/250",
+        "eQ": "1/500",
+        "lower_rational": "42767052725496289/61936276900000000",
+        "lower_display": 0.6905008642115569
+      }
+    },
+    "baseline": {
+      "status": "PASS",
+      "task": "baseline",
+      "task_result": {
+        "scope": "Saved certificate states, fresh compact physical checks and bridge; not reintegration of all 449,698 leaves."
+      },
+      "input_tree_unchanged": true
+    },
+    "spectrum": {
+      "status": "PASS",
+      "task": "spectrum",
+      "task_result": {},
+      "input_tree_unchanged": true
+    },
+    "quadrature_pilot": {
+      "status": "PASS",
+      "task": "quadrature",
+      "task_result": {},
+      "input_tree_unchanged": true
+    },
+    "all_ramp_packets": {
+      "status": "PASS",
+      "task": "packet",
+      "task_result": {
+        "comparisons": [
+          {
+            "case": "candidate_dt004_box80",
+            "status": "PASS",
+            "max_mean_difference": 0.0,
+            "arithmetic_regression_tolerance": 1e-09,
+            "tolerance_scope": "Replay consistency; not a physical error enclosure."
+          },
+          {
+            "case": "control_dt002_box80",
+            "status": "PASS",
+            "max_mean_difference": 0.0,
+            "arithmetic_regression_tolerance": 1e-09,
+            "tolerance_scope": "Replay consistency; not a physical error enclosure."
+          },
+          {
+            "case": "control_dt004_box96",
+            "status": "PASS",
+            "max_mean_difference": 0.0,
+            "arithmetic_regression_tolerance": 1e-09,
+            "tolerance_scope": "Replay consistency; not a physical error enclosure."
+          }
+        ],
+        "cadence_note": "The current analyzer includes the final cadence endpoint; legacy secondary common-mean fields are superseded."
+      },
+      "input_tree_unchanged": true
+    }
+  },
+  "ramp_raw_files": {
+    "all_match": true,
+    "bytes": 2919333072,
+    "count": 33
+  },
+  "reference_packet": {
+    "qT_midpoint": 0.12762638690944605,
+    "exact_raw_hashes": {
+      "rows": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+      "snapshots": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+      "final_checkpoint": "b7da5019c405fee76dc7b56ed1c3a7056b5e1bf31b1356d39af105c5b2a2fa42"
+    }
+  },
+  "significance_checks_rerun": [
+    "tradeoff_validation/check_two_profiles.py",
+    "post_revision_audit/check_one_active_static.py",
+    "uniform_integration/source_evidence/check_static_concavity.py",
+    "checks/check_packet_bound_independent.py",
+    "bulk_proposition/check_bulk_units.py",
+    "comparison/check_comparison_normalization.py",
+    "comparison/check_chang_geller_normalization.py",
+    "comparison/check_wilson_rae_coefficient.py",
+    "significance_audit/check_curvature_algebra.py",
+    "significance_audit/check_purity_curvature_algebra.py",
+    "significance_audit/check_purity_curvature_shells.py",
+    "recheck/check_purity_relaxation.py",
+    "recheck/check_cached_pv_refinement.py",
+    "recheck/check_disorder_selection.py",
+    "recheck/check_prediction_corollaries.py",
+    "recheck/check_endpoint_imbalance.py",
+    "microscopic_correspondence/check_vector_parent.py",
+    "correspondence_next/check_controlled_bulk_bridge.py"
+  ],
+  "remaining_limits": [
+    "Historical generalized-Bloch generator/regulator remains unidentified.",
+    "The 222 saved-state replay does not reintegrate all 449,698 contour leaves.",
+    "Packet output byte identity was tested on the recorded Linux configuration.",
+    "A remote GitHub workflow execution requires a published repository."
+  ],
+  "fresh_reference_and_ramp_stationary_check": {
+    "control_surface_N": 192,
+    "sobol_PV_spectral_histograms": 2,
+    "points_each": 8388608,
+    "matches_selected_spectral_and_PV_matrices": true,
+    "reference_taper_qT_incident_fraction": 0.12565925539196318,
+    "increasing_ramp_qT_incident_fraction": 0.735874288394808,
+    "method_scope": "Independent numerical regeneration of the surface/PV input and loaded contact response; see validation/reference_methods/RESTORATION_CHECK.json. The exact-lattice enclosure is calculated separately."
+  },
+  "artwork_check": {
+    "matches_exact_filenames_and_bytes": 6,
+    "external_assets": 7,
+    "frequency_pdf_verified_samples": 196,
+    "frequency_renderer": "Original not recovered"
+  },
+  "test_scope": "Full archive extraction, current page comparison, mathematical and numerical replays, and staged-Git checks. Remote CI dispatch and public deposition were outside this local test."
+}

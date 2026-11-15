@@ -1,0 +1,9 @@
+{
+  "r3_archive_sha256": "d1b3dcac19297522b6e271711a956fce24f681662c7c978c25fb679289039c88",
+  "r3_payloads_verified": 234,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "flint": "0.8.0",
+  "numpy": "2.3.5",
+  "sympy": "1.14.0",
+  "interpreter": "/workspace/scratch/be1617cef594/analysis/global_budget_r3/venv/bin/python"
+}

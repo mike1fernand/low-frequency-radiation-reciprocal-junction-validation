@@ -1,0 +1,6 @@
+{
+  "determinant_identity_residual": 0,
+  "rank_one_diagonal_identity_residual": 0,
+  "off_diagonal_identity": "D_ij/2=s_i*s_j by definition",
+  "method": "Exact integer polynomial coefficients; inequalities and interlacing checked separately in prose."
+}

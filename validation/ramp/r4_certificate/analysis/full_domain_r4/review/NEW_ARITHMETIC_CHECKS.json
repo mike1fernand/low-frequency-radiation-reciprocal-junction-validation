@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "30 complex 2x2 upper bounds and LDL outcomes checked by independent exact determinant criterion",
+    "200 mixed-sign unequal-exponent compact sums checked independently with Fraction",
+    "complete physical checkpoint stage aggregate independently summed as exact Fractions",
+    "missing complete physical leaf rejected after outer checksum recomputation"
+  ],
+  "count": 4,
+  "limits": "No full-domain integral, source primitive, bridge, or old production simulation was rerun."
+}

@@ -1,0 +1,13 @@
+{
+  "line_left_node_assigned": 0.1319045190766626,
+  "line_contact_nodes_assigned": 0.00029376232124456506,
+  "line_right_nodes_assigned": 0.08511632638100732,
+  "line_total": 0.21731460777891445,
+  "open_bulk": 0.7826023803473671,
+  "coupling_energy": 8.307163903728196e-05,
+  "periodic_bulk": 0.7834437501219385,
+  "periodic_qT_midpoint": 0.7164564184629316,
+  "periodic_qL_midpoint": 0.06698733165900683,
+  "scope": "Window-averagedfinite-timeenergies;left/rightnode-assignedlineenergiesarenotassertedasasymptoticstationaryR/T.",
+  "physical_partition_sum": 1.0000000597653187
+}

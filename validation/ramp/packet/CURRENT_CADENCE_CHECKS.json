@@ -1,0 +1,153 @@
+{
+  "status": "PASS_CORRECTED_SECONDARY_CADENCE_FIELDS",
+  "scope": "Primarymeansunchanged. Rawbase/halfstepJSONpreservedasfrozenhistory; theircommon_mean_low_high_totalfieldistruncatedto64.0andsupersededherebytheexplicit64.2endpointmeans.",
+  "cases": {
+    "base80": {
+      "source_file": "CANDIDATE_PACKET_BOX80_RESULT.json",
+      "source_sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+      "primary_cadence_0p2_mean": [
+        0.7164564182492906,
+        0.7164564186765725,
+        0.7834437501219385
+      ],
+      "current_cadence_0p4_same_window_mean": [
+        0.7164558481383498,
+        0.7164558485719392,
+        0.783443556994361
+      ],
+      "current_cadence_0p4_relative_qT_difference_percent": -7.957326815244414e-05,
+      "current_cadence_0p6_plus_final_endpoint_mean": [
+        0.7164548321956213,
+        0.7164548326394735,
+        0.7834430438344749
+      ],
+      "current_common_grid_times": [
+        57.4,
+        58.0,
+        58.6,
+        59.2,
+        59.8,
+        60.4,
+        61.0,
+        61.6,
+        62.2,
+        62.8,
+        63.4,
+        64.0,
+        64.2
+      ],
+      "legacy_everythird_truncated_mean": [
+        0.7164397969811171,
+        0.7164397974374428,
+        0.7834084749512711
+      ],
+      "legacy_everythird_actual_window": [
+        57.4,
+        64.0
+      ],
+      "current_coarse_grid_window": [
+        57.4,
+        64.2
+      ],
+      "supersedes_old_raw_common_field": true
+    },
+    "half_step80": {
+      "source_file": "CONTROL_DT002_BOX80_RESULT.json",
+      "source_sha256": "02a6758a4c2b53a1b7c164144b52f06223b570c20be240a875b460a33cbdca5d",
+      "primary_cadence_0p2_mean": [
+        0.7164540864979505,
+        0.7164540869295927,
+        0.7834389982746194
+      ],
+      "current_cadence_0p4_same_window_mean": [
+        0.7164535062245881,
+        0.7164535066626428,
+        0.783438793092028
+      ],
+      "current_cadence_0p4_relative_qT_difference_percent": -8.099195285549143e-05,
+      "current_cadence_0p6_plus_final_endpoint_mean": [
+        0.7164524731258485,
+        0.7164524735743573,
+        0.7834382568717265
+      ],
+      "current_common_grid_times": [
+        57.4,
+        58.0,
+        58.6,
+        59.2,
+        59.8,
+        60.4,
+        61.0,
+        61.6,
+        62.2,
+        62.8,
+        63.4,
+        64.0,
+        64.2
+      ],
+      "legacy_everythird_truncated_mean": [
+        0.7164374544816191,
+        0.7164374549427289,
+        0.783403756688734
+      ],
+      "legacy_everythird_actual_window": [
+        57.4,
+        64.0
+      ],
+      "current_coarse_grid_window": [
+        57.4,
+        64.2
+      ],
+      "supersedes_old_raw_common_field": true
+    },
+    "larger96": {
+      "source_file": "CONTROL_DT004_BOX96_RESULT.json",
+      "source_sha256": "847407288772bc2550d1391726f3d028162441432738e77b5fb9b4c6154e2bd3",
+      "primary_cadence_0p2_mean": [
+        0.7162667758115238,
+        0.716266776094018,
+        0.782723376192888
+      ],
+      "current_cadence_0p4_same_window_mean": [
+        0.7162659376035565,
+        0.7162659378901938,
+        0.7827226249143178
+      ],
+      "current_cadence_0p4_relative_qT_difference_percent": -0.00011702426021553691,
+      "current_cadence_0p6_plus_final_endpoint_mean": [
+        0.716264520988801,
+        0.7162645212821225,
+        0.7827214803120812
+      ],
+      "current_common_grid_times": [
+        57.4,
+        58.0,
+        58.6,
+        59.2,
+        59.8,
+        60.4,
+        61.0,
+        61.6,
+        62.2,
+        62.8,
+        63.4,
+        64.0,
+        64.2
+      ],
+      "legacy_everythird_truncated_mean": [
+        0.7162599102904138,
+        0.7162599105921063,
+        0.7827087780277322
+      ],
+      "legacy_everythird_actual_window": [
+        57.4,
+        64.0
+      ],
+      "current_coarse_grid_window": [
+        57.4,
+        64.2
+      ],
+      "supersedes_old_raw_common_field": false
+    }
+  }
+}

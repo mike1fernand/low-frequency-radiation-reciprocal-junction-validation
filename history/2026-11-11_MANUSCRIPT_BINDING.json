@@ -1,0 +1,26 @@
+{
+  "edition": "Wave Motion revised source edition",
+  "date": "2026-11-11",
+  "abstract_words": 248,
+  "source_build_archive": "Paper1_Wave_Motion_Revised_Source_Build_2026-11-11.zip",
+  "source_build_sha256": "46e94ef869043f67213f36d46e7bfb4a89e8cc0406c71887ffb4bbfa4fced93b",
+  "predecessor_validation_archive_sha256": "622ff768b69cdef03f2a192ed4cdfc079167c43d4ed06e8e1e575f0233d25528",
+  "sources": {
+    "figures/Halpha_transmission_scan_p06.png": "04948c9231a539082d234c3af2a68e7d10d560e42f9c6f2e51f589053235cb3d",
+    "figures/continuum_lattice_share_comparison_p06.png": "e2323d751a32fdfb30f7c39acb5ab33d349e41b0f773cca8d3bd7f14d30e7e02",
+    "figures/paper1_frequency_partition.pdf": "a446ec83b61e2b8c6c70c6f638c9e95d60ffa74b3b8967304ce45ce392636aa5",
+    "figures/paper1_low_frequency_ratio.pdf": "45a9fb0be8d7ecfedb66b1059d362c339a1767c8dc4180f2c8266d71d38d5056",
+    "figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf": "d8505102fa193745d0a7ffdefd07fe5d009b055b4c13ebd0ed7cd0b4f11fd58e",
+    "figures/paper1_sectionVII_fig6a_qT_window_v2.pdf": "b5de298d32a530958519505a607765331a569cb3de6ef18c6a1e133c5be3836d",
+    "figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf": "c8e22fc08e2269eeca0e67980d54ddf16b4cfa4063d1fc5eaaa9651867889de5",
+    "figures/paper1_sectionVI_fig4_reference_partition_v2.pdf": "b0d17bcc337d7b2271998a29bc93094889114a932c318eca0f0531aa15f948fb",
+    "paper1_SM5D.tex": "7cb060da3b3d4fd4b57dd0cf912374ee002f989b01a096fd8130e104c3fd68ef",
+    "paper1_main.tex": "d4c64ef5d5752127e93584bb1a0832b8e31bde682bef87d2611370f438e04ef3",
+    "paper1_methods_references.tex": "e219c707377f6ed3c2c86cffd6a7cffc9f358cbcb9a334450dad7127de9b8d08",
+    "paper1_source_binding.tex": "91c0163c37d91faa6e499b3ec6b957cb113f76b2193db0b5415b30b0390a4979",
+    "paper1_supplement.tex": "93f138778ef2ed57383a7bea62582270cb9daaa84abdfe11975f965ab68c6e68"
+  },
+  "source_build_comparison": "All 20 scientific source, build, distribution, preservation and verification members shared with the source build were byte-compared to that ZIP. The README and checksum list in manuscript/ describe this repository copy. Author submission materials and the predecessor patch are in the author build. Figure-regeneration files are in validation/artwork/.",
+  "reference_validation_scope": "Scientific evidence from the November 11 cumulative archive. Historical editorial fixtures are catalogued in the provenance report.",
+  "ramp_validation_scope": "Public edition of the November 8 increasing-ramp replay; all original R4 certificate files and proof-chain bindings retain their hashes."
+}

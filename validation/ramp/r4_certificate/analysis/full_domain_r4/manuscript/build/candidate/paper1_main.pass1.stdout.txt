@@ -1,0 +1,695 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper1_main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+
+(/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencie
+s/revtex-tds/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+
+(/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencie
+s/revtex-tds/tex/latex/revtex/aps4-2.rtx)
+(/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencie
+s/revtex-tds/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/dependencie
+s/revtex-tds/tex/latex/revtex/revsymb4-2.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty))
+
+Package nameref Warning: The definition of \label has changed! 
+(nameref)                Check your packages! 
+(nameref)                Replacing it with the kernel definition on input line 
+149.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file paper1_main.aux.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+
+Package natbib Warning: Citation `ChangGeller2005' on page 1 undefined on input
+ line 62.
+
+
+Package natbib Warning: Citation `ZulKarnain2020' on page 1 undefined on input 
+line 62.
+
+
+Package natbib Warning: Citation `Chaplain2020' on page 1 undefined on input li
+ne 62.
+
+
+Package natbib Warning: Citation `NievesSharma2024' on page 1 undefined on inpu
+t line 62.
+
+
+Package natbib Warning: Citation `Clark2025' on page 1 undefined on input line 
+62.
+
+
+Package natbib Warning: Citation `DalPoggetto2025' on page 1 undefined on input
+ line 62.
+
+
+Package natbib Warning: Citation `Boddapati2026Graded' on page 1 undefined on i
+nput line 62.
+
+
+Package natbib Warning: Citation `Liang2026MetaExcitation' on page 1 undefined 
+on input line 62.
+
+
+Package natbib Warning: Citation `Lu2026ThreeDimensional' on page 1 undefined o
+n input line 62.
+
+
+Package natbib Warning: Citation `ChangGeller2005' on page 1 undefined on input
+ line 64.
+
+
+Package natbib Warning: Citation `WilsonRae2008' on page 1 undefined on input l
+ine 64.
+
+
+Package natbib Warning: Citation `Aldridge1998' on page 1 undefined on input li
+ne 66.
+
+
+Package natbib Warning: Citation `Ong2018' on page 1 undefined on input line 66
+.
+
+
+Package natbib Warning: Citation `Sadasivam2017' on page 1 undefined on input l
+ine 66.
+
+
+Package natbib Warning: Citation `Khodavirdi2024' on page 1 undefined on input 
+line 66.
+
+
+Package natbib Warning: Citation `Spies1994' on page 1 undefined on input line 
+66.
+
+
+Package natbib Warning: Citation `Bacigalupo2018' on page 1 undefined on input 
+line 66.
+
+
+LaTeX Warning: Reference `sec:s6-frequency' on page 1 undefined on input line 6
+8.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 1 undefined on input l
+ine 77.
+
+
+Package natbib Warning: Citation `Maradudin1971' on page 1 undefined on input l
+ine 77.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 3623) in paragraph at lines 140--141
+[]\OT1/cmr/m/n/10 (+20) For each monochro-matic com-po-nent, the time-
+
+Package natbib Warning: Citation `BornHuang1954' on page 2 undefined on input l
+ine 246.
+
+
+Package natbib Warning: Citation `Maradudin1971' on page 2 undefined on input l
+ine 246.
+
+
+LaTeX Warning: Reference `eq:s2-extension-expansion' on page 2 undefined on inp
+ut line 255.
+
+
+LaTeX Warning: Reference `eq:s2-energy-expansion' on page 2 undefined on input 
+line 255.
+
+
+LaTeX Warning: Reference `eq:s2-Dax' on page 2 undefined on input line 306.
+
+
+LaTeX Warning: Reference `eq:s2-Dfd' on page 2 undefined on input line 306.
+
+
+LaTeX Warning: Reference `eq:s2-Hb' on page 2 undefined on input line 306.
+
+[2]
+
+LaTeX Warning: Reference `eq:s2-Hc-corner' on page 3 undefined on input line 34
+5.
+
+
+LaTeX Warning: Reference `eq:s2-Hq' on page 3 undefined on input line 369.
+
+
+LaTeX Warning: Reference `eq:s2-Hc-total' on page 3 undefined on input line 369
+.
+
+
+Package natbib Warning: Citation `Ong2018' on page 3 undefined on input line 36
+9.
+
+
+Package natbib Warning: Citation `Sadasivam2017' on page 3 undefined on input l
+ine 369.
+
+
+Package natbib Warning: Citation `Khodavirdi2024' on page 3 undefined on input 
+line 369.
+
+[3]
+
+LaTeX Warning: Reference `sec:s9-robustness' on page 4 undefined on input line 
+389.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 4 undefined on input l
+ine 413.
+
+
+Package natbib Warning: Citation `Maradudin1971' on page 4 undefined on input l
+ine 413.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 4 undefined on input l
+ine 422.
+
+
+Package natbib Warning: Citation `Maradudin1971' on page 4 undefined on input l
+ine 422.
+
+
+LaTeX Warning: Reference `eq:s3-density-dictionary' on page 4 undefined on inpu
+t line 461.
+
+
+LaTeX Warning: Reference `eq:s3-Hcorner' on page 4 undefined on input line 461.
+
+
+[4]
+
+LaTeX Warning: Reference `eq:s3-corner-force' on page 5 undefined on input line
+ 487.
+
+
+LaTeX Warning: Reference `eq:s3-radial-balance' on page 5 undefined on input li
+ne 548.
+
+
+LaTeX Warning: Reference `eq:s3-radial-dipole' on page 5 undefined on input lin
+e 548.
+
+
+LaTeX Warning: Reference `eq:s3-radial-balance' on page 5 undefined on input li
+ne 548.
+
+
+LaTeX Warning: Reference `eq:s3-radial-dipole' on page 5 undefined on input lin
+e 548.
+
+
+Package natbib Warning: Citation `AkiRichards2002' on page 5 undefined on input
+ line 572.
+
+
+LaTeX Warning: Reference `eq:s3-general-slab-source' on page 5 undefined on inp
+ut line 612.
+
+
+LaTeX Warning: Reference `fig:s3-mechanism' on page 5 undefined on input line 6
+41.
+
+[5]
+
+LaTeX Warning: Reference `eq:s3-axial-reciprocity' on page 6 undefined on input
+ line 693.
+
+
+LaTeX Warning: Reference `eq:s3-radial-balance' on page 6 undefined on input li
+ne 693.
+
+
+Package natbib Warning: Citation `Ong2018' on page 6 undefined on input line 69
+3.
+
+
+Package natbib Warning: Citation `Khodavirdi2024' on page 6 undefined on input 
+line 693.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 6 undefined on input l
+ine 698.
+
+
+Package natbib Warning: Citation `Maradudin1971' on page 6 undefined on input l
+ine 698.
+
+
+Package natbib Warning: Citation `Dresselhaus2008' on page 6 undefined on input
+ line 698.
+
+[6]
+
+LaTeX Warning: Reference `eq:s4-dynamical-matrix' on page 7 undefined on input 
+line 735.
+
+[7]
+
+Package natbib Warning: Citation `Dresselhaus2008' on page 8 undefined on input
+ line 858.
+
+[8 <./figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf>]
+
+LaTeX Warning: Reference `eq:s4-reduced-resolvent' on page 9 undefined on input
+ line 883.
+
+
+Package natbib Warning: Citation `Sadasivam2017' on page 9 undefined on input l
+ine 885.
+
+
+Package natbib Warning: Citation `Ong2018' on page 9 undefined on input line 88
+5.
+
+
+Package natbib Warning: Citation `Khodavirdi2024' on page 9 undefined on input 
+line 885.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 9 undefined on input l
+ine 892.
+
+
+Package natbib Warning: Citation `Caroli1971' on page 9 undefined on input line
+ 892.
+
+
+Package natbib Warning: Citation `FisherLee1981' on page 9 undefined on input l
+ine 892.
+
+
+Package natbib Warning: Citation `Sadasivam2017' on page 9 undefined on input l
+ine 892.
+
+
+Package natbib Warning: Citation `Ong2018' on page 9 undefined on input line 89
+2.
+
+
+Package natbib Warning: Citation `Khodavirdi2024' on page 9 undefined on input 
+line 892.
+
+
+LaTeX Warning: Reference `eq:s3-A1-state' on page 9 undefined on input line 920
+.
+
+
+LaTeX Warning: Reference `eq:s4-XR-basis' on page 9 undefined on input line 920
+.
+
+
+LaTeX Warning: Reference `eq:s2-Hc-reduced' on page 9 undefined on input line 9
+29.
+
+[9]
+
+LaTeX Warning: Reference `eq:s2-units' on page 10 undefined on input line 952.
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 954--955
+[]\OT1/cmr/m/n/10 (+20) Distinguish the infinite-bulk com-pli-ance, its 72-
+
+LaTeX Warning: Reference `eq:s5-cluster-spectral' on page 10 undefined on input
+ line 983.
+
+
+Package natbib Warning: Citation `Boumrar2025' on page 10 undefined on input li
+ne 997.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1001
+[]\OT1/cmr/m/n/10 (+20) For the right-moving scalar mode, $\OML/cmm/m/it/10 ![]
+ \OT1/cmr/m/n/10 (+20) =
+
+Underfull \hbox (badness 1033) in paragraph at lines 999--1001
+\OT1/cmr/m/n/10 (+20) (4\OML/cmm/m/it/10 K[]=m[]\OT1/cmr/m/n/10 (+20) ) [][](\O
+ML/cmm/m/it/10 ^^Ta=\OT1/cmr/m/n/10 (+20) 2)$ with $0 \OML/cmm/m/it/10 < ^^Ta <
+ ^^Y$\OT1/cmr/m/n/10 (+20) . In the
+[10]
+
+Package natbib Warning: Citation `Hardy1963' on page 11 undefined on input line
+ 1067.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1079
+\OT1/cmr/m/n/10 (+20) For a sim-ple Bloch dis-place-ment $\OML/cmm/b/it/10 u[]\
+OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 (+20) ) =
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1079
+[]\OT1/cmr/m/n/10 (+20) [\OML/cmm/m/it/10 A\OML/cmm/b/it/10 e[]\OT1/cmr/m/n/10 
+(+20) (\OML/cmm/b/it/10 k\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 e[]\OT1/cmr/m/
+n/10 (+20) ]$, $[] = [][]\OML/cmm/b/it/10 v[]$\OT1/cmr/m/n/10 (+20) , where
+
+LaTeX Warning: Reference `tab:s6-reference' on page 11 undefined on input line 
+1127.
+
+
+Package natbib Warning: Citation `LorensenCline1987' on page 11 undefined on in
+put line 1129.
+
+
+Package natbib Warning: Citation `Weisse2006' on page 11 undefined on input lin
+e 1129.
+
+
+Package natbib Warning: Citation `Blochl1994' on page 11 undefined on input lin
+e 1129.
+
+
+Package natbib Warning: Citation `Ong2018' on page 11 undefined on input line 1
+129.
+
+[11]
+
+LaTeX Warning: Reference `tab:s6-ablation' on page 12 undefined on input line 1
+179.
+
+
+Package natbib Warning: Citation `Achenbach1973' on page 12 undefined on input 
+line 1243.
+
+
+Package natbib Warning: Citation `Graff1975' on page 12 undefined on input line
+ 1243.
+
+
+Package natbib Warning: Citation `Aldridge1998' on page 12 undefined on input l
+ine 1248.
+
+[12] [13 <./figures/paper1_sectionVI_fig4_reference_partition_v2.pdf>]
+
+Package natbib Warning: Citation `Verlet1967' on page 14 undefined on input lin
+e 1258.
+
+
+LaTeX Warning: Reference `eq:s7-packet-velocity' on page 14 undefined on input 
+line 1285.
+
+
+Package natbib Warning: Citation `Hardy1963' on page 14 undefined on input line
+ 1294.
+
+[14]
+
+LaTeX Warning: Reference `eq:s7-selector-a' on page 15 undefined on input line 
+1331.
+
+
+LaTeX Warning: Reference `eq:s7-window' on page 15 undefined on input line 1331
+.
+
+
+Package natbib Warning: Citation `BornHuang1954' on page 15 undefined on input 
+line 1365.
+
+
+LaTeX Warning: Reference `eq:s7-window' on page 15 undefined on input line 1377
+.
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 1391--1393
+\OT1/cmr/m/n/10 (+20) The fresh cal-cu-la-tion eval-u-ates all four-teen dis-
+
+Underfull \hbox (badness 3758) in paragraph at lines 1391--1393
+\OT1/cmr/m/n/10 (+20) tinct DFT fre-quen-cies in $\OMS/cmsy/m/n/10 K \OT1/cmr/m
+/n/10 (+20) = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (+20) : 0\OM
+L/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 8 \OMS/cmsy/m/n/10 ^^T
+
+Underfull \hbox (badness 1067) in paragraph at lines 1391--1393
+\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 (+
+20) ) \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 (+20) 1\OML/cmm/m/it/10 :\OT1/cmr/m/
+n/10 (+20) 6\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 (+20) , with packet-energy cov-e
+r-age $\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 (+20) =
+
+LaTeX Warning: Reference `eq:s7-packet-tail-bound' on page 15 undefined on inpu
+t line 1400.
+
+[15]
+
+Package natbib Warning: Citation `SupplementalMaterial' on page 16 undefined on
+ input line 1420.
+
+[16 <./figures/paper1_sectionVII_fig6a_qT_window_v2.pdf> <./figures/paper1_sect
+ionVII_fig6b_selector_controls_v2.pdf>]
+
+LaTeX Warning: Reference `sec:s9-limitations' on page 17 undefined on input lin
+e 1465.
+
+[17]
+
+LaTeX Warning: Reference `LastBibItem' on page 18 undefined on input line 1482.
+
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 1500--1504
+ []\OT1/cmr/m/n/7 (+20) G. J. Chap-lain \OT1/cmr/m/it/7 (+20) et al.\OT1/cmr/m/
+n/7 (+20) , ``Tai-lored elas-tic sur-face to body
+
+Underfull \hbox (badness 3492) in paragraph at lines 1560--1564
+ \OT1/cmr/m/n/7 (+20) eigenspectrum-based for-mu-la-tion of the atom-istic Gree
+n's
+
+Underfull \hbox (badness 10000) in paragraph at lines 1560--1564
+ \OT1/cmr/m/n/7 (+20) func-tion method,'' Phys. Rev. B \OT1/cmr/bx/n/7 (+20) 96
+\OT1/cmr/m/n/7 (+20) , 174302 (2017),
+No file paper1_main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[18]
+(/workspace/scratch/be1617cef594/analysis/full_domain_r4/manuscript/build/candi
+date/paper1_main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `paper1_main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmext
+ra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra
+/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm7.pfb>
+Output written on /workspace/scratch/be1617cef594/analysis/full_domain_r4/manus
+cript/build/candidate/paper1_main.pdf (18 pages, 628805 bytes).
+Transcript written on /workspace/scratch/be1617cef594/analysis/full_domain_r4/m
+anuscript/build/candidate/paper1_main.log.

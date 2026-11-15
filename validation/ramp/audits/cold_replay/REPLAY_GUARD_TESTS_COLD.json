@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "successful_child",
+      "status": "PASS",
+      "expected_receipt_status": "PASS"
+    },
+    {
+      "test": "failed_subprocess_preserves_logs",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL"
+    },
+    {
+      "test": "keyboard_interrupt_never_reports_pass",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL"
+    },
+    {
+      "test": "failed_postcheck_overrides_success",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL"
+    },
+    {
+      "test": "existing_output_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "inside_frozen_source_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "all_packet_controls_pass",
+      "status": "PASS",
+      "expected_receipt_status": "PASS",
+      "analyzed_cases": [
+        "candidate_dt004_box80",
+        "control_dt002_box80",
+        "control_dt004_box96"
+      ]
+    },
+    {
+      "test": "false_predicate_rejected_candidate_dt004_box80",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL",
+      "analyzed_cases": [
+        "candidate_dt004_box80"
+      ]
+    },
+    {
+      "test": "false_predicate_rejected_control_dt002_box80",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL",
+      "analyzed_cases": [
+        "candidate_dt004_box80",
+        "control_dt002_box80"
+      ]
+    },
+    {
+      "test": "false_predicate_rejected_control_dt004_box96",
+      "status": "PASS",
+      "expected_receipt_status": "FAIL",
+      "analyzed_cases": [
+        "candidate_dt004_box80",
+        "control_dt002_box80",
+        "control_dt004_box96"
+      ]
+    },
+    {
+      "test": "report_inputs_and_exact_font_adapter_are_staged",
+      "status": "PASS",
+      "scope": "Checks staging only; does not render the report."
+    }
+  ],
+  "test_count": 11,
+  "replay_source_sha256": "97d785342d9548c94102f44be841ca36dedd838f6d1902093d216216e6a87455",
+  "test_source_sha256": "d14e654d85c45b0fa291d1a77fa8774d49a6adb0069536f1e0851635b18f175e",
+  "scope": "Standard-library subprocess mocks verify runner control flow only. Verification is mocked PASS; no scientific calculation, certificate replay or payload authentication is performed."
+}

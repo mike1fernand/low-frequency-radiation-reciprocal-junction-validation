@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "group": "C4v signed transverse permutations, order8",
+  "one_motif_endpoint_orbits": [
+    4,
+    4
+  ],
+  "six_motif_link_parameters": 48,
+  "six_motif_invariant_orbit_means": 12,
+  "maximum_contact_hessian_covariance_residual": 0.0,
+  "pure_breaking_Reynolds_hessian_norm": 0.0,
+  "diagnostic_whole_power_first_derivative": 5.229659554305241e-18,
+  "diagnostic_single_corner_power_first_derivative": 0.006501657173744108,
+  "total8sum_zero_but_orbit_mean_nonzero_control_derivative": 0.004995228874564909,
+  "refinement_rows": [
+    {
+      "epsilon": 0.1,
+      "whole_change_plus": 0.0001603192977560064,
+      "whole_central_slope": -1.1067793048366581e-07,
+      "whole_even_change_over_epsilon_squared": 0.016033036554905646,
+      "new_irrep_power_over_epsilon_squared": 0.016823768479125357,
+      "patch_central_slope": 0.006498627744184059
+    },
+    {
+      "epsilon": 0.05,
+      "whole_change_plus": 4.006306590438949e-05,
+      "whole_central_slope": -2.7658567623711772e-08,
+      "whole_even_change_over_epsilon_squared": 0.016025779533107572,
+      "new_irrep_power_over_epsilon_squared": 0.01681690848597553,
+      "patch_central_slope": 0.006500900248041213
+    },
+    {
+      "epsilon": 0.025,
+      "whole_change_plus": 1.0014805831431994e-05,
+      "whole_central_slope": -6.913959821330806e-09,
+      "whole_even_change_over_epsilon_squared": 0.01602396588868404,
+      "new_irrep_power_over_epsilon_squared": 0.016815340029453764,
+      "patch_central_slope": 0.006501467969288795
+    },
+    {
+      "epsilon": 0.0125,
+      "whole_change_plus": 2.503652224990216e-06,
+      "whole_central_slope": -1.728447385218601e-09,
+      "whole_even_change_over_epsilon_squared": 0.016023512515728196,
+      "new_irrep_power_over_epsilon_squared": 0.01681502093906834,
+      "patch_central_slope": 0.006501609874315917
+    }
+  ],
+  "scope": "Actual P1 one-motif central-link Hessians checked exactly up to floating arithmetic. Response numbers use a finite supported/damped14DOF diagnostic, NOT P1 infinite-lattice qT radiation or the claimed robustness floor. Group proof supplies selection rule under its explicit regularity assumptions.",
+  "source_sha256": "11ddfd132d0236286d6a4b0fd34055ac48a4538c705557b3332d73bd11772c2f"
+}

@@ -1,0 +1,694 @@
+Supplementary Material for: Generation of Three-Dimensional Quasi-Transverse Elastic
+    Waves from a One-Dimensional Longitudinal Channel in a Harmonic Lattice
+                                                               M. Fernandes
+                                                        Independent Researcher
+                                                      (Dated: September 21, 2026)
+
+
+  This supplement records the analytic regressions, singular-integration definitions, deterministic convergence checks,
+scalar-model robustness data, and coefficient-blind real-time controls used by the main text. Machine-readable records
+and producer code are provided in the validation archive described in the main paper’s Data Availability Statement.
+Large real-space snapshot arrays are regenerated using the documented validation workflow rather than distributed in
+the compact archive. No result described here upgrades the discrete-lattice finite-coupling-region claim to a continuum,
+polarization-control, gauge, or electromagnetic theory.
+  Where the finite reference device is indexed locally, s = 1, . . . , Nc denotes global active segment i0 +s−1, gs ≡ gi0 +s−1 ,
+and segment s joins local line sites qs−1 and qs .
+
+
+              SM1.     HARMONIC EXPANSION, FORCE IDENTITIES, AND FINITE SOURCE
+
+                                                       ˆ assume Vα ∈ C 3 locally,
+  For a bond family α with equilibrium vector d = r0,α d,
+
+                                               Vα′ (r0,α ) = 0,         Vα′′ (r0,α ) = κα > 0.                                   (1)
+
+For |∆u| ≪ r0,α ,
+
+                                                             |∆u|2 − (dˆ · ∆u)2
+                                |d + ∆u| − r0,α = dˆ · ∆u +                      + O(|∆u|3 /r0,α
+                                                                                             2
+                                                                                                 ),                              (2)
+                                                                   2r0,α
+                                                    κα ˆ
+                       Vα (|d + ∆u|) − Vα (r0,α ) =    (d · ∆u)2 + O(Λα |∆u|3 ).                                                 (3)
+                                                     2
+The production model is the exact quadratic Hamiltonian
+                                                     √       √defined by the retained term. The line, axial-bulk,
+face-diagonal, and source-link rest lengths are a, a, 2a, and 3a/2, respectively.
+  For one source corner c = (sy , sz ), define
+                                                                                                      ∆qi
+                                    Aic = uic,x − q̄i ,           Bic = sy uic,y + sz uic,z +             .                      (4)
+                                                                                                       2
+The two physical signed extensions obey
+                                                         Aic + Bic                 Bic − Aic
+                                               eL =         √      ,       eR =       √      ,                                   (5)
+                                                              3                         3
+so that
+                     gi 2           gi                                    gi                                  gi
+                       (eL + e2R ) = (A2ic + Bic
+                                              2
+                                                 ),           HX,ic =        (eL − eR )2 ,         HR,ic =       (eL + eR )2 .   (6)
+                     2              3                                     4                                   4
+The complete coupling sectors are
+                          X X                                          X       X
+                   HX =                        HX,ic ,        HR =                       HR,ic ,       Hc = HX + HR .            (7)
+                             i∈Ic sy ,sz =±1                           i∈Ic sy ,sz =±1
+
+Symbolic differentiation reproduces all three corner-force components and both scalar endpoint generalized forces
+exactly. A randomized five-point force-gradient test gives maximum scaled error 4.21 × 10−14 .
+  For any declared finite truncation, collect the signed longitudinal bond extensions in a compatibility matrix Bcomp
+and the positive spring constants in a diagonal matrix W . Then
+
+                                         K = BT
+                                              comp W Bcomp ,                ker K = ker Bcomp ,                                  (8)
+
+which makes nonnegativity and exact extension-preserving zero modes explicit. Here the distinct symbol Bcomp avoids
+confusion with the local source coordinate Bic .
+                                                                                                                          2
+
+   Under the declared free-boundary and included-bond convention, representative bulk boxes of sizes 2 × 2 × 2,
+3 × 2 × 2, 3 × 3 × 3, and 4 × 3 × 3 each have six rigid-body modes—three translations and three rotations. One-
+through four-segment combined line–bulk fixtures each have nullity two. If the finite bulk framework is infinitesimally
+rigid, the scalar line is connected, and at least one complete positive four-corner/eight-link source motif is present, the
+exact combined kernel is spanned by common axial translation and rigid bulk rotation about the line. Removing the
+source coupling restores the seven disconnected rigid/line modes. The complete coordinate ordering, included-bond
+convention, singular-value tolerance, fixture results, and mutation controls are provided in the validation archive.
+   The line-driven radial source is
+                                                  src    gi
+                                                fR,ic = − ∆qi (sy ŷ + sz ẑ).                                           (9)
+                                                         3
+For the four corners,
+                        X
+                               src
+                                               X
+                                                           src                           2gi a∆qi
+                              fR,ic = 0,             rc × fR,ic = 0,        MR = −                diag(0, 1, 1).       (10)
+                         c                       c
+                                                                                             3
+
+The dipole is contractile for extension and extensile for compression. The complete force/torque closure is restricted to
+the centered C4v /A1 sector; an off-symmetry negative control gives nonzero transverse endpoint reactions.
+  For an arbitrary fixed-frequency dressed line state, write
+
+                                       −iωτ                          Qfull
+                                                                      i    + Qfull
+                                                                              i+1
+                   qi (τ ) = Re[Qfull
+                                 i (ω)e     ],            Q̄full
+                                                            i    =                 ,        ∆Qfull
+                                                                                              i    = Qfull   full
+                                                                                                      i+1 − Qi .       (11)
+                                                                           2
+The full finite-slab radial-source transform is
+                                                     4i        X
+                                                                                 −ikx (i+1/2)a
+                                     feRslab (k; ω) = s⊥ (k)       gi ∆Qfull
+                                                                         i (ω)e                ,                       (12)
+                                                     3
+                                                              i∈Ic
+                                                                              
+                                                                 0
+                                            s⊥ (k) = sin(ky a/2) cos(kz a/2) .                                       (13)
+                                                       cos(ky a/2) sin(kz a/2)
+
+The axial-average source component is
+
+                               slab         8                                X
+                                                                                                −ikx (i+1/2)a
+                             feX    (k; ω) = x̂ cos(ky a/2) cos(kz a/2)             gi Q̄full
+                                                                                         i (ω)e               ,        (14)
+                                            3
+                                                                             i∈Ic
+
+and the complete line-driven source transform is
+                                                         slab     slab
+                                                       feX+R  = feX    + feRslab .                                     (15)
+
+For the special pure Bloch component Qi = Qeiκia , the axial part reduces to
+
+                                 slab          8Q
+                               feX    (k; κ) =    cos(κa/2) A(κ − kx ) cos(ky a/2) cos(kz a/2)x̂,                      (16)
+                                                3
+while the radial part reduces to
+                                                           8Q
+                                        feRslab (k; κ) = −      sin(κa/2) A(κ − kx )s⊥ (k),                            (17)
+                                                            3
+                                                         X
+                                         A(κ − kx ) =         gi ei(κ−kx )(i+1/2)a .                                   (18)
+                                                         i∈Ic
+
+These pure-Bloch X and R components define the complete bare X + R source used in the shell-overlap witnesses of
+SM2. A direct segment/corner sum with independently randomized κ and kx agrees below 2 × 10−14 scaled error.
+Because the radial-source resultant vanishes, its first moment controls the leading transverse-wave-number term,
+                                             src
+                                           feR,i (k⊥ ) = −iMiR k⊥ + O(gi |∆qi |a3 |k⊥ |3 ).                            (19)
+
+Moreover,
+                                                                1 − cos(ky a) cos(kz a)
+                                               ∥s⊥ (k)∥2 =                              ,                              (20)
+                                                                          2
+                                                                                                                          3
+
+Because this factor is independent of kx , its exact nodal set in the closed transverse first Brillouin zone consists
+of the full axial line (ky , kz ) = (0, 0) and the periodically identified axial lines through the transverse zone corners
+(ky , kz ) = (±π/a, ±π/a), for every allowed kx . After removing the segment-midpoint phase, the leading radial-source
+amplitude has order two and the post-leading remainder order four. For k⊥ = (ky2 + kz2 )1/2 > 0, define
+
+                                              eL = k/|k|,                                                              (21)
+                                                    −1
+                                             eSH = k⊥  (0, −kz , ky )T ,                                               (22)
+                                                                                      T
+                                                                    kx ky    kx kz
+                                             eSV = |k|−1 k⊥ , −           ,−                ,                          (23)
+                                                                     k⊥       k⊥
+
+and let Vνp = e†p feνsrc denote a complex source-projection amplitude, not a power. Under the common scaling
+(k, κ) = ρ(k,
+           b κb) at fixed regular non-axial direction,
+
+                               VXSV = O(1),            VRSV = O[(ρa)2 ],            VRSH = O[(ρa)4 ].                  (24)
+
+These are source asymptotics, not finite-frequency branch definitions or contribution fractions.
+
+
+          SM2.     BULK SPECTRUM, SHELL REFINEMENT, AND EXACT CORE SYMMETRY
+
+  For positive axial and face-diagonal stiffnesses,
+                                                      2 X
+                                             D(k) =       Kd [1 − cos(k · d)]dˆdˆT .                                   (25)
+                                                      mb
+                                                            d
+
+                                                                                                  ̸ 0. For
+The sum-of-squares argument gives three translations at Γ and no nontrivial Bloch zero mode for k =
+Kaxis = Kdiag = K,
+
+                                                Ka2
+                                      D(k) =        (|k|2 I + 2kkT ) + O(Ka4 |k|4 /mb ),                               (26)
+                                                mb
+         p                  √
+so cT = a K/mb and cL = 3cT .
+  Root-refined optimization on the branch shells Σλ (1.2) gives the conservative operating-point bounds
+
+                                min       (ω22 − ω12 ) > 0.9390,    max k̂† PqT k̂ < 1.25 × 10−3 ,                     (27)
+                             Σ0 ∪Σ1 ∪Σ2                            Σ0 ∪Σ1
+
+
+
+                                                      min k̂† PqL k̂ > 0.99988.                                        (28)
+                                                      Σ2
+
+
+Every extremizing point is projected back to its exact shell with squared-frequency residual below 10−12 and is checked
+by a second optimization parameterization. Projector tests use only projector quantities or covariantly transformed
+cluster operators; arbitrary U (2) mixtures of distinct eigenvalues are not treated as alternative modes.
+   Where ω22 is separated from the lower pair, the upper projector can be written without choosing a lower-doublet
+basis,
+
+                                             [D(k) − ω02 I][D(k) − ω12 I]
+                               PqL (k) =                                  ,          PqT = I − PqL .                   (29)
+                                                (ω22 − ω02 )(ω22 − ω12 )
+
+This remains well defined at an internal degeneracy of the lower pair, provided the upper/lower gap remains nonzero.
+  The lower-branch splits at these points are 0.00596289 and 0.01596669, and the upper gaps are 2.41843 and 2.41369,
+respectively. Only strict nonzero overlap is used in the existence argument; these raw magnitudes are not transmission
+coefficients.
+  Let B = (|X1 ⟩, |R1 ⟩, . . . , |X6 ⟩, |R6 ⟩), let Vc ∈ R72×7 be the full line-to-core map, and let Uc ∈ R72×72 be the full
+local source-link stiffness on the core. The exact finite-core statements are
+                                       (c)                 (c)                (c)                 (c)
+                     B † B = I12 ,    PA1 = BB † ,       PA1 Vc = Vc ,     [PA1 , Uc ] = 0,     [PA1 , GR
+                                                                                                        cc ] = 0.      (30)
+                                                                                                                                  4
+
+
+TABLE I. Regular lower-shell source-overlap witnesses at ω = 1.2. The source is the complete bare finite-slab X + R line-driven
+source; the radial-component overlap is shown separately. Here vg = ∇k ωλ . The listed ka values are rounded for display; shell
+residuals, group speeds, gaps,pand overlaps are evaluated at the corresponding full-precision machine-readable coordinates.
+Group speeds are in units of a Kdiag /mb . The raw squared-overlap columns use Q/a = 1 (hence Q = 1 at the reference a = 1)
+and scale as |Q|2 .
+
+branch                         ka                            |ωλ2 − 1.44|            |vg |             |e†λ FeX+R |2    |e†λ FeR |2
+   0            (1.022121, 0.711990, −0.020432)                < 10−12            0.894276              1.151778       0.0593474
+   1            (0.880718, 0.217031, −0.851447)                < 10−12            0.895775              3.495846        0.132790
+
+
+
+The reduced matrices used below are V = B † Vc and U = B † Uc B. The full bulk stiffness preserves the infinite-
+dimensional A1 sector but not the finite spatial support of the source core. The exact 72 → 12 reduction applies after
+                                                                           (c)
+the exterior bulk is retained through the projected resolvent. With P = PA1 = BB † and Frobenius norm ∥ · ∥F , define
+
+                             ∥(I − P )Vc ∥F                                            ∥(I − P )Uc B∥F
+                        ϵV =                ,                                   ϵU =                    ,                     (31)
+                                 ∥Vc ∥F                                                    ∥Uc B∥F
+                             ∥(I − P )GRcc B∥F                                         ∥GR            R
+                                                                                          cc P − P Gcc ∥F
+                        ϵG =                   ,                             ϵ[G,P ] =                    .                   (32)
+                                 ∥GRcc B∥F                                                   ∥GRcc ∥F
+
+The archived regression uses (ω, η, N ) = (1.2, 0.03, 32) and also compares the full and reduced core fields and effective
+self-energies. All source, stiffness, projected-resolvent, commutator, field, and self-energy residuals lie between 10−16
+and approximately 2 × 10−15 . The analytic symmetry proof, rather than this finite-grid regression, is the controlling
+reason the reduction is exact.
+
+
+      SM3.   RETARDED RESPONSE, PHYSICAL FLUX NORMALIZATION, AND LOCAL CURRENT
+
+   Distinguish the infinite bulk, its 72-coordinate core projection, and the centered reduction. Here Kb is the Hessian
+of Hb and Mb = mb I on the bulk displacement space:
+
+                          GbR = [Kb − (ω + i0+ )2 Mb ]−1 ,      GR       † R
+                                                                 cc,0 = Ec Gb Ec ,        g0R = B † GR
+                                                                                                     cc,0 B.                  (33)
+
+For finite-core form factor
+                                                           X
+                                                                   ∗
+                                             [Φλ (k)]A =          Brµ,A eλµ (k)eik·Rr ,                                       (34)
+                                                           rµ∈c
+
+use
+
+                                               a3    XZ         Φλ Φ†λ
+                                    g0R (ω) =                                 d3 k,                                           (35)
+                                            (2π)3 mb    BZ ωλ2 − (ω + i0+ )2
+                                                      λ
+                                                 3   Z X
+                                              πa
+                                      R
+                                 ImH g0,C =                Φλ Φ†λ δ(ωλ2 − ω 2 ) d3 k ⪰ 0.                                     (36)
+                                            (2π)3 mb BZ
+                                                               λ∈C
+
+The co-area form is used only on regular patches. The modal lower cluster is C = {0, 1}; the wave-normal geometric
+matrix is a separate diagnostic.
+  The dressed reduced core and bulk self-energy are
+
+                                        gcR = (I + g0R U )−1 g0R ,       ΣR     † R
+                                                                          b = −V gc V.                                        (37)
+
+For one scalar channel in each lead,
+
+                                            σqR = −Kq eiκa ,         γq = 2Kq sin(κa).                                        (38)
+
+The Caroli-normalized device response and effective source are
+                                      (L)          1/2                                       (L)
+                                    χD = GR
+                                          D ΓL |L⟩,               ηc = (I + U g0R )−1 V χD .                                  (39)
+                                                                                                                      5
+
+                                                                                                 (L) √
+Under the real-field convention
+                         √      x(τ ) = Re[Xe−iωτ ], the physical unit-energy-flux response is 2χD / ω and the physical
+effective force is −2ηc / ω. For an arbitrary physical core force f and displacement u = g0R f , the corresponding work
+identity is
+                                                            ω †      R
+                                                    PC =      f ImH g0,C f.                                        (40)
+                                                            2
+                                                         eff
+                                                                        √
+For the physical unit-incident-flux effective force f = fc,phys = −2ηc / ω, this becomes P C = TC . This distinguishes
+the effective source from the reduced core displacement −g0R ηc .
+  Assigning half of each pair energy to each endpoint gives the exact directed current
+                                           1                                      X
+                                   Ji→j = − (vi + vj ) · Fi←j ,          ḣi +          Ji→j = 0.                  (41)
+                                           2                                      j∼i
+
+For a simple Bloch mode the cell-averaged current equals modal energy times group velocity. Local coherent fields may
+retain cross terms; channel additivity is an asymptotic flux-bilinear or outgoing-packet statement. At exact degeneracy,
+the physical channels are fixed by the complete commuting little-group operators when available; otherwise only the
+explicitly defined cluster observable is used.
+   As a device-partition regression, moving up to four pristine scalar cells independently across either lead/device
+boundary for both incidence directions changes all physical powers by at most 4.2 × 10−14 relatively after the expected
+Bloch phases are removed. Define the dimensionless lead phase ϕκ = κa. If ninc pristine cells are moved on the incident
+side and nL , nR are the left/right padding counts, compare
+
+                          χactive 7→ e−iϕκ ninc χactive ,   r 7→ e−2iϕκ ninc r,    t 7→ e−iϕκ (nL +nR ) t.         (42)
+
+Deliberately attaching a self-energy at the wrong position changes Tq by order unity, while a 1% bond defect produces
+a resolvable response. A standalone builder with no imports from the production implementation reproduces D(k)
+over 500 random wave vectors below 5.2 × 10−16 scaled error and the microscopic identity J = E λk vg,λ over 600
+nondegenerate modes below 1.8 × 10−15 using the analytic derivative (2.4 × 10−9 with a finite-difference velocity).
+An independent reconstruction of the physical paired-spring Hessian reproduces U , V , and Kself below 4.0 × 10−16
+relatively; direct full-block and Schur-eliminated solves agree below 1.2 × 10−15 over the reference problem and 200
+randomized passive finite fixtures.
+   A regular branch-0 weak-coupling witness at ω = 1.2 is
+
+                                 ka = (0.6318952450, −0.6028746482, −0.9641061600).                                (43)
+
+The displayed coordinate is rounded; the following diagnostics are evaluated at its full-precision machine-readable
+counterpart. Its squared-frequency shell residual is below 10−12 , |∇k ω02 | = 1.8578005, the internal lower split is
+0.1007240, the upper-cluster gap is 2.6995796, and |Φ†0 ηc,1 |2 = 0.7492079. A 7 × 7 exact-shell neighborhood has
+minimum overlap 0.699897, minimum gradient norm 1.850667, and minimum lower/upper gaps 0.080977 and 2.684330,
+respectively. Thus the positive first-order overlap holds on a relatively open regular shell patch. These values are not
+finite-coupling transmission coefficients.
+   For normalized incident energy weights wj ,
+                                                   X                  X
+                                        TCpacket =    wj TC (ωj ),        wj = 1.                                   (44)
+                                                      j                      j
+
+The finite retained frequency interval and its outside-band energy remainder are recorded separately; the latter is a
+one-sided passivity bound, not a symmetric error bar.
+
+
+                SM4.     SINGULAR INTEGRATIONS AND REFERENCE CONVERGENCE
+
+   The controlling calculation combines an N = 192 marching-surface co-area quadrature with an M = 256 Jackson–
+Chebyshev principal-value reconstruction. The PV matrix is the equal mean of two independently scrambled Sobol
+samples, each with 223 points (seeds 20260920 and 20260921), using 16384 energy bins on [0, 12] and Jackson margin
+1.02. The same samples supply the order ladder. At degenerate grid nodes, each tied branch receives its equal-rank
+share of the complete projected eigenspace weight; geometric diagnostics retain the complete-cluster coherences. The
+validation records contain the raw matrices, basis-rotation controls and coverage diagnostics.
+                                                                                                                                               6
+
+                                     (r)                                           (r)            (r)
+  For sampler ensemble r, let PM be its principal-value matrix and g00 (M ) = [PM ]00 , the X1 source-sector diagonal
+entry. The tabulated definitions are
+                           2                                                                               (r)              (r)
+                       1 X (r)                         ∥P M − P 256 ∥F                            maxr g00 − minr g00
+              PM =          P ,            dM = 100                    ,         s00 (M ) = 100                       .                     (45)
+                       2 r=1 M
+                                                                                                         P (r)
+                                                          ∥P 256 ∥F                                    1
+                                                                                                           r g00
+                                                                                                       2
+
+For the marching-surface matrix, Apre denotes the raw complex assembly before reciprocal projection,
+                   "              #                 "                                                   #
+                     Apre + ATpre                          ∥ Im Apre ∥F            ∥Apre − A†pre ∥F
+            A = Re                  ,   ϵsym = max                              ,                         .                                 (46)
+                          2                           max(∥ Re Apre ∥F , 10−30 ) max(∥Apre ∥F , 10−30 )
+
+The listed minimum eigenvalue is evaluated after this projection. Here πρmodal
+                                                                         qT
+                                                                                      R
+                                                                               = ImH g0,0       R
+                                                                                          +ImH g0,1 , πρmodal
+                                                                                                        qL
+                                                                                                                     R
+                                                                                                              = ImH g0,2 ,
+             modal    modal
+and ρtot = ρqT + ρqL ; ϵsym separately measures the raw pre-projection residual. The wave-normal geometric-
+longitudinal matrix is retained only as a separately named diagnostic.
+  Table II reports the physical six-segment (12 × 12) kernel. The PV blocks and selected N = 192 spectral block agree
+entry-for-entry with the corresponding leading blocks of the auxiliary ten-segment (20 × 20) matrices; the spectral
+support-extension check was performed at this selected grid. Whole-matrix norms and eigenvalues are dimension
+specific.
+
+TABLE II. Physical six-segment modal convergence diagnostics at ω = 1.2. Percentages are shown for dM and s00 ; the
+longitudinal norm is modal branch 2, not a wave-normal geometric projection.
+            principal-value order ladder                                                 marching-surface ladder
+ M        ∥P M ∥F              dM             s00           N        ∥πρtot ∥F           ∥πρmodal
+                                                                                            qL    ∥F         λmin (ρtot )               ϵsym
+192       0.896397          0.0513%        0.0241%         128       1.048264             0.113662          4.12 × 10−8             2.13 × 10−9
+256       0.896608          0.0000%        0.0601%         160       1.048055             0.113676          4.06 × 10−8             3.26 × 10−9
+320       0.896530          0.0155%        0.1774%         192       1.047933             0.113684          4.03 × 10−8             5.40 × 10−10
+
+
+
+   The independent linear-tetrahedron calculation uses an unshifted periodic grid and the six-tetrahedron 000–111 body-
+diagonal split. It linearly interpolates the sorted eigenvalues and uses centroid spectral weights with complete-projector
+rank sharing at ties. The scalar retarded integral uses stable confluent divided differences with higher-precision fallbacks.
+Both signs of separation phase are retained when assembling the projected matrix. The choice z = ω 2 + i10−10
+selects the retarded logarithm branch rather than physical broadening. The retained generalized-Bloch corroboration
+extrapolates the real part from finite η.
+
+TABLE III. High-resolution modal-qT sequences and generalized-Bloch extrapolations. The spans are deterministic one-factor
+diagnostics and are not combined into a statistical error bar.
+                                                                       modal
+category                                                              TqT    values                                                    span
+surface/PV N = 128, 160, 192                               0.12567058, 0.12566614, 0.12565926                                     1.133 × 10−5
+tetrahedron N = 128, 160, 192                              0.12559600, 0.12559347, 0.12560796                                     1.450 × 10−5
+GB low-pair/quadratic/linear-LS                            0.12560631, 0.12559580, 0.12562207                                     2.6276 × 10−5
+
+
+   At fixed spectral grid N = 192, changing the mean PV order from M = 192 to 256 changes qT by 0.00771%;
+increasing each Sobol sample from 222 to 223 points at M = 256 changes it by 0.02355%. An independent two-shift
+1603 PV sample mean differs from the selected result by 0.000158%. Higher orders increase the scramble and shift
+sensitivity. These are separate observed sensitivities, not a common statistical error bar.
+   The three central qT estimates span 0.12560631–0.12565926. Surface refinement, PV sampling/order, tetrahedron
+refinement and retained generalized-Bloch extrapolation remain separate numerical categories. The controlling raw
+flux-closure residual is 1.30 × 10−11 .
+   For the separately dressed surrogate family, define Hc (α) = HX + αHR and the complete Hamiltonian H(α) =
+Hq + Hb + Hc (α). Thus α multiplies the complete positive radial part of the coupling sector, including its core stiffness,
+line–core coupling, and line self-stiffness, while Hq and Hb remain fixed. Each point is therefore a new dressed complete
+solve. The 21-point sampled qT trend is shown in Fig. 1; it is not an analytic monotonicity theorem. For the physical
+                                                                        (L)
+full state, decompose V = VX + VR and set ην = (I + U g0R )−1 Vν χD for ν ∈ {X, R}, so that η = ηX + ηR . With
+              R                      †                          †
+QqT = ImH g0,qT , define Tνν = 2ην QqT ην and TXR = 4 Re(ηX QqT ηR ). The common-dressing decomposition obeys
+                                                      modal
+                                                     TqT    = TXX + TRR + TXR .                                                             (47)
+                                                                                                                   7
+
+
+
+
+                      FIG. 1. Separately dressed H(α) surrogate family at the reference frequency.
+
+
+
+At the controlling surface/PV point,
+
+
+                             (TXX , TRR , TXR ) ≃ (0.10147813, 0.00179177, 0.02238935).                          (48)
+
+
+The independent N = 192 tetrahedron cross term differs by 0.026%. These are terms in one quadratic form, not
+separately conserved energies or the separately dressed ablation rows.
+
+
+
+
+FIG. 2. Continuum shear fractions and the lattice modal-qT generated-bulk share. These are analogous but nonidentical
+observables and the comparison does not derive the absolute lattice transmission.
+                                                                                                                                                            8
+
+     SM5.       BRANCH-RESOLVED MODAL ROBUSTNESS AND SCALAR REAL-TIME CONTROLS
+
+                                                         A.     Finite parameter families
+
+  The branch-resolved robustness calculations use
+                                            R           R          R                            R           R
+                                       ImH g0,qT = ImH g0,0 + ImH g0,1 ,                   ImH g0,qL = ImH g0,2 .                                       (49)
+
+Table IV gives the exact finite one-factor inputs; positivity on these grids is not a theorem over a continuous interval.
+
+          TABLE IV. Exact branch-resolved modal-qT robustness inputs; ranges refer only to the finite tested values.
+                     family        exact tested values                                                 count method      qT range
+                     frequency     ω = 0.600 + 0.025j, j = 0, . . . , 48                                49       M2   0.10486–0.21774
+                     coupling      s = (0.05, 0.075, 0.10, 0.15, 0.20, 0.25, 0.50, 1.00, 1.50, 2.00)    10       M1   0.000246–0.52218
+                     slab length   Nc = (2, 3, 4, 6, 8, 10); rule below                                  6       M1   0.00882–0.24512
+                     profile       five six-segment vectors below                                        5       M1   0.06495–0.15787
+                     line speed    cq = (0.65, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.5, 1.7, 2.0)             10       M1   0.02646–0.12569
+                     stiffness     Kdiag /Kaxis = (0.75, 0.9, 1.0, 1.1, 1.25)                            5       M3   0.09815–0.16902
+Except where varied, a = mq = mb = Kaxis = Kdiag = 1, Kq = 1.69 (cq = 1.3), ω = 1.2, Nc = 6, and gref = (0.10, 0.20, 0.20, 0.20, 0.20, 0.10) are
+fixed. M1, M2, and M3 use (PV order, surface grid) (256, 80), (256, 80), and (160, 80). The common medium uses the two 223 -point Sobol samples
+        above. Each stiffness case uses its own two shifted 643 grids and 219 -point Sobol sample with 6144 bins on the full spectral support
+   [0, (4Kaxis + 8Kdiag )/mb ]; exact shifts and seeds are recorded in the archive. For Nc = 2, g = (0.10, 0.10); otherwise endpoints are 0.10 and
+               interiors 0.20. Other profiles are guniform = (0.20, 0.20, 0.20, 0.20, 0.20, 0.20), gsoft = (0.05, 0.12, 0.20, 0.20, 0.12, 0.05),
+gshort = (0, 0.10, 0.20, 0.20, 0.10, 0), and gedge = (0.20, 0.10, 0.10, 0.10, 0.10, 0.20). In the coupling family s scales the reference profile and s = 0 is
+    a separate exact null. In the speed family a = mq = 1 and Kq = c2q ; in the stiffness family Kaxis = 1 is fixed while Kdiag varies. Complete
+                          row-level values, numerical encodings, and producer inputs are provided in the validation archive.
+
+
+   All 85 sampled positive-coupling qT values are positive; qL is nonnegative; the largest flux-closure residual is
+3.97 × 10−11 ; and the largest TqT + TqL − Tbulk residual is 8.33 × 10−17 . The exact zero-coupling control gives zero
+bulk output. The sampled weak-coupling log slope is 2.0315; the analytic modal theorem, rather than this coarse
+slope, controls the sufficiently-small-coupling existence statement. The finite-reference neighborhood statement follows
+separately from continuity of the fixed-topology response and the verified regularity margins. The five displayed a
+values are dimensional re-encodings of one unchanged nondimensional calculation and are not included among the 85
+positive-coupling configurations. Their exact equality is a units-covariance check, not a physical parameter sweep,
+refinement, or continuum convergence. Complete current row values and method records, together with the retained
+analytic shell and branch checks, are provided in the validation archive.
+
+
+                                     B.     A bound for simultaneous segment-coupling changes
+
+   Fix the reference frequency, bare media and geometry, and put gs = gs⋆ (1 + δs ), |δs | ≤ es < 1. The eight equal links
+within each segment vary together. The archive already contains random six-coupling profile tests; the following bound
+controls the complete box for fixed Green matrices.
+   Use the 12-coordinate centered source basis and the seven line coordinates. Write g0 = g0R (ω), Q = ImH g0,qT        R
+                                                                                                                             ⪰ 0,
+           2                         R       R
+and h = ω MD − KD − Kself − ΣL − ΣR . With a fixed reference stiffness k⋆ > 0, the dimensionless response satisfies
+                    √       (L)                                                               p
+                                                                             V † g0
+                                                                                                             
+                         k⋆ χD                                      h/k⋆                            γq /k⋆ |L⟩
+                y=         √      ,       A(δ)y = b,        A=                        ,     b=                  .            (50)
+                       ηc / k⋆                                     −V /k⋆ I + U g0                     0
+
+The segment Hessians make A = A0 + s δs As affine in the coupling errors. Assume A0 is invertible. Let y0 = A−1
+                                            P
+                                    √                                                                                        0 b,
+B(δ) = A−10  (A − A 0 ), and F   =    2k ⋆ Q1/2
+                                                P η , where P η extracts the lower  twelve coordinates.  Thus   T modal
+                                                                                                                  qT    = ∥F y∥22 .
+   Let V contain the 64 box vertices, δs = ±es , and put W0 = I + U0 g0 . The intermediate core inverse used in the
+eliminated response exists throughout the box if W0 is invertible and
+
+                                                         rc = max ∥W0−1 (U − U0 )g0 ∥2 < 1.                                                             (51)
+                                                                 V
+
+Define
+
+                                   r = max ∥B∥2 ,                                                  v = max ∥By0 ∥2 ,                                    (52)
+                                           V                                                                 V
+                                   w = max ∥F B∥2 ,                                            dout = max ∥F By0 ∥2 .                                   (53)
+                                           V                                                                 V
+                                                                                                                         9
+
+Each norm is convex in δ, so its largest vertex value bounds it throughout the box. If r < 1, the exact identity
+
+                                                 y = y0 − By0 + B(I + B)−1 By0                                         (54)
+
+and ∥(I + B)−1 ∥2 ≤ (1 − r)−1 imply
+                                                                                                2
+                                             wv          modal                                 wv
+                 ∥F (y − y0 )∥2 ≤ dout +        ,       TqT    (δ) ≥ max 0, ∥F y0 ∥2 − dout −         .                (55)
+                                            1−r                                               1−r
+This retains the leading change in the output norm instead of bounding it through the full state norm. The convexity
+argument concerns the four auxiliary norms; it does not require transmission extrema to occur at vertices.
+  For es = 0.05 and k⋆ = Kq = 1.69, the reference N = 192, M = 256 matrices give rc ≃ 0.00573, r ≃ 0.0563, and an
+output-amplitude error bound of 0.02579, yielding the numerical floor in Table V. An outward-rounded evaluation
+on the exact dyadic representations of the supplied matrices gives a lower floor greater than 0.10804017, certifying
+  modal
+TqT     > 27/250 = 0.108 throughout the same coupling box.
+
+
+TABLE V. Numerically evaluated conditional bounds for simultaneous ±5% changes in all six segment couplings at ω = 1.2.
+Each row uses its fixed computed bulk matrices.
+                                                                             modal
+                             Bulk calculation                     Reference TqT    Whole-box floor
+                             Surface N = 128, PV M = 256             0.125671           0.108048
+                             Surface N = 192, PV M = 256             0.125659           0.108040
+                             Tetrahedron N = 192                     0.125608           0.107999
+
+   The 18 configurations varying surface grid, PV order, sample size and sampling rule, and tetrahedron resolution
+give numerical floors 0.1079863–0.1080508. These shared-input evaluations measure sensitivity. The outward-rounded
+certificate encloses the finite-matrix evaluation for the selected cache, including rounding; it does not enclose bulk-
+integration error. A guarantee for the exact infinite lattice would additionally require bounds on errors in both g0 and
+Q. The matrices, certificate and reproduction code accompany the validation archive.
+
+
+                            C.    Packet preparation, estimator, and numerical controls
+
+  For the initial real packet, let Nline be the number of line sites in the periodic Parseval representation and use
+
+                                             X−1
+                                            Nline
+                                                                            1 X
+                                  qb(k) =           qj e−ikja ,     qj =         qb(k)eikja ,                          (56)
+                                             j=0
+                                                                           Nline
+                                                                                    k
+
+
+with the same convention for ḃ
+                             q. The full-grid spectral-energy weights are
+                                              mq  ḃ                               
+                                   W (k) =           |q(k, 0)|2 + ωq2 (k)|b
+                                                                          q (k, 0)|2 .                                 (57)
+                                             2Nline
+The ±k coefficients are the conjugate representation of one real packet, not two launched inputs. The full periodic
+Parseval spectral energy is the denominator; the right-moving numerator excludes the stationary Nyquist component.
+The reported right-moving fraction is 0.9999997423. That energy differs from the open-line Hq (0) by 9.18 × 10−9
+relatively because the periodic representation contains a closing bond absent from the open production line.
+   The selector examines 48 ≤ τ ≤ 57 at cadence 0.2, requires minimum duration 2.0, applies the five main-text
+predicates, and selects the longest passing run with earliest-start tie break. No frequency-domain target enters the
+predicates. The selected interval is 52.8 ≤ τ ≤ 55.4.
+   For the periodic bulk diagnostic, let N = Nx Ny Nz , let n denote its integer cell indices, and use
+                                            X                              1 X
+                                  u
+                                  b (k) =         un e−ik·an ,      un =       b (k)eik·an ,
+                                                                               u                                       (58)
+                                             n
+                                                                           N
+                                                                                k
+
+with the same convention for u.
+                             ḃ The exact energy of this periodic embedding is
+
+                                        per    mb X h ḃ † ḃ             i
+                                       Ebulk =           u u+u  b † D(k)b
+                                                                        u .                                            (59)
+                                               2N
+                                                             k
+                                                                                                                       10
+
+  At an exact degenerate eigenspace d, let Ed contain orthonormal polarization columns, let λd = ωd2 be the common
+squared frequency, and define cu = E†d u
+                                       b and cv = E†d u.
+                                                      ḃ The energy-coherence matrix is
+                                                      mb
+                                                         cv c†v + λd cu c†u .
+                                                                           
+                                               Cd =                                                                  (60)
+                                                      2N
+For any normalized one-dimensional direction z inside that eigenspace, the allocated energy z † Cd z lies between the
+minimum and maximum eigenvalues of Cd . The numerical classifier uses a relative squared-frequency tolerance 10−12
+and retains the full classified block rather than selecting an arbitrary branch basis.
+                                                                         TD
+  For the stored cadence h = 0.2, set Nh = (τb − τa )/h and Ej = EqT        (τa + jh) for j = 0, . . . , Nh . The reported
+                                               TD                       P Nh −1
+average is the composite-trapezoidal value E qT,h = h[(E0 + ENh )/2 + j=1 Ej ]/(τb − τa ). Invariant treatment of 132
+upper–middle doublets and 231 threefold points gives
+                                                            TD
+                                0.12762638643388616 ≤ E qT,h ≤ 0.12762638738500592.                                  (61)
+
+The decimal midpoint of these cadence-0.2 allocation bounds is 0.12762638690944604; it is not an exact continuous-time
+average. It is reported as approximately 0.1276263869 in numerical prose and 0.1276 in physical interpretation. The
+sampled instantaneous range is 0.1274833–0.1277449. The corresponding cadence-0.2 qL and periodic-bulk trapezoidal
+averages are 0.0113021 and 0.1389284. All fourteen distinct DFT frequencies in K = {k : 0.8 ≤ ωq (k) ≤ 1.6} are
+evaluated directly, with packet-energy coverage cK = 0.9996834928. The full-energy-normalized contributions SqT,K
+are 0.1276811, 0.1276730 for surface grids N = 128, 160 and 0.1275676, 0.1275947 for tetrahedron grids N = 96, 128.
+The selected surface value differs from the direct average by 0.0365%. Energy-weighted absolute nodewise differences,
+divided by the finer-grid contribution, are 0.00636% for surface refinement and 0.02581% for tetrahedron refinement.
+The corresponding latest-method difference is 0.06137%. These observed differences do not bound the exact integration
+error. The uncomputed tail uses only a passive allocation 0 ≤ TC ≤ 1 and gives SC,K ≤ TCpacket ≤ SC,K + 1 − cK ; the
+selected conditional interval is [0.1276730, 0.1279895].
+   As a separate incident-measure check, the same initial displacement and velocity arrays, extended by zeros, are
+expanded in the continuous cosine modes of an uncoupled half-line retaining the production free left endpoint. PCHIP
+interpolation on the common fourteen nodes plus the two band edges changes the full-energy-normalized contribution
+by −0.02150% relative to the selected finite-DFT sum. Four interpolants give 0.1276345–0.1278456. A held-out
+N = 160 midpoint at ω = 1.1498521 tests the dominant interpolation-sensitive interval: its PCHIP coefficient residual
+is 0.00856%, and adding that node changes the continuous PCHIP contribution by 0.00364% of the finite-DFT value.
+This local check does not establish global continuum convergence. Neither this diagnostic nor its interpolation choices
+change the declared finite-DFT central sum or the coefficient-blind time window.
+
+          TABLE VI. Invariant qT composite-trapezoidal averages on the common times 52.8, 53.4, 54.0, 54.6, 55.2.
+                                                                                                                TD
+∆τ                                                                                                            E qT,common
+0.03                                                                                                         0.1276157872
+0.04                                                                                                         0.1276166822
+0.05                                                                                                         0.1276178335
+
+
+  Their relative span is 1.60 × 10−5 ; each includes an invariant degeneracy ambiguity below 1.01 × 10−9 .
+  The global periodic qT/qL split is a spatially nonlocal branch-content diagnostic, not a unique local branch current.
+The exact local object remains the pair-bond current. The total node-assigned shell is an independent post-selection
+recertification, not a preregistered selection predicate.
+  For the current-balance statistic, with τn = n∆τ , ∆τ = 0.04, Jm = Jq→b (τm ), and S = {52.8, 53.0, . . . , 55.4},
+                       "      n−1
+                                            #
+                   ∆τ J0      X          Jn            ∆Ebopen (τn ) + 12 ∆Ec (τn )                  |In − An |
+             In =          +       Jm +       , An =                                , ϵJ = 100 max              .    (62)
+                   E0 2       m=1
+                                          2                        E 0                         τn ∈S    |An |
+
+Here ∆E(τ ) = E(τ ) − E(0), and In uses every integrator level from τ = 0. The cadence-0.2 comparison gives
+ϵJ = 0.0296799%, reported as 0.0297%.
+   The production system is a 120-site open line coupled on segments 60–65 to a 120 × 56 × 56 open bulk; bonds leaving
+either domain are omitted. The cadence-0.4 and 0.2 selectors return 52.8 ≤ τ ≤ 55.2 and 52.8 ≤ τ ≤ 55.4, whose qT
+averages differ by 0.00749%; their common-interval trapezoidal estimates differ by 8.16 × 10−5 %. The 56 → 64 qT
+change is 0.04398%, and the box-56/box-64 total-shell maxima are 0.1858%/0.0706%. Across all 66 time levels (65
+velocity-Verlet advances), max |H(τ ) − H(0)|/H(0) = 3.54 × 10−7 . Incident flux through bond 59 (translated in longer
+                                                                                                                          11
+
+controls) differs from the converged 160-site-line result by 2.35 × 10−4 , 2.22 × 10−4 , and 2.20 × 10−4 at τ = 52, 55, 55.4;
+the 160-, 200-, and 240-site controls agree within 6.8 × 10−14 . A separately implemented C++ solver reproduces
+selected scalar diagnostics, although complete state arrays were not cross-compared. Checkpoint equivalence and the
+bounded small-system fixture are documented in the validation archive, together with their inputs and reproduction
+procedures.
+

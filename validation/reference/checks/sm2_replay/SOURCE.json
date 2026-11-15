@@ -1,0 +1,12 @@
+{
+  "source_archive": "PAPER1_VALIDATION_INTEGRATED_R7(1).zip",
+  "archive_sha256": "e2d3a219de57202001ccd1b20dd985079067c920959c8823368145f73d67137a",
+  "member_prefix": "paper1-validation-integrated-r7/legacy_rc4/validation/bulk_modes/",
+  "files": {
+    "records/P04_CORE_CHECKS.json": "86359e184226e4602d5d337835a6f96643a5f7b6642c4f76512ad833e3c4b7ab",
+    "records/ARCHIVED_SECTIONIV_INDEPENDENT_CHECKS_v1.json": "ae5a70c909293d9429397d7c4e92a581b00ce648a783f366324d83874fec4c97",
+    "code/p04_core_checks.py": "2362f2e7735732a06dd9bd1dd4a8add60eef5b943b296658f66b7c15ff2fdf2b",
+    "code/p04_common.py": "47102db628f396cf1ed46fe5365fe893fdfa486aa62da15561b8771724e37af9",
+    "code/dependencies/model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+  }
+}

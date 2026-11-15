@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "start_step": 0,
+  "target_step": 20,
+  "N": 120,
+  "H": 2,
+  "dofs": 1560,
+  "nonzeros": 18110,
+  "dt": 0.04,
+  "weighted_reciprocity_max_abs": 0,
+  "gershgorin_omega2_upper": 18.285714285714285,
+  "dt_omega_upper": 0.17104719482395161,
+  "independent_spring_energy_relative_difference": 1.1446641373046011e-14,
+  "assembly_seconds": 0.006550481997692259,
+  "evolution_seconds": 0.0006125229992903769,
+  "sampled_max_relative_energy_drift": 0.00024869419277156617,
+  "wall_seconds": 0.012268319998838706,
+  "max_rss_kib_process_tree": 22784
+}

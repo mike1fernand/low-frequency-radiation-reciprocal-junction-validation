@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "integration_steps": 1425,
+  "dimensions": [
+    120,
+    56,
+    56
+  ],
+  "stored_snapshots": 46,
+  "reporting_samples": 14,
+  "fresh_integrator": "archived single-thread velocity-Verlet implementation",
+  "fresh_projection": "Explicit nine-family stiffness matrix; full symmetric eigensolve at every wavevector, degenerate Hermitian energy extrema",
+  "qT_window_allocation_bounds": [
+    0.12762638643388619,
+    0.12762638738500592
+  ],
+  "qT_midpoint": 0.12762638690944605,
+  "max_periodic_bulk_deviation_from_archived_per_snapshot": 5.551115123125783e-17,
+  "max_qT_bound_deviation_from_archived_per_reporting_snapshot": 8.326672684688674e-17,
+  "raw_file_sha256": {
+    "rows": "e045b76ce94b5b033954243283638d3c191a4fb0f0dfe3bf8f61826221309cec",
+    "snapshots": "920a0849ac1c787feb878ecc6c063b7da28b1f1343da0670af3c80bcc46e34da",
+    "final_checkpoint": "b7da5019c405fee76dc7b56ed1c3a7056b5e1bf31b1356d39af105c5b2a2fa42"
+  },
+  "all_raw_hashes_match_original_release": true,
+  "original_recipe": "PAPER1_VALIDATION_INTEGRATED_R8.zip / legacy_rc4/validation/direct_dynamics/run/PASS12_PRODUCTION_REGENERATION_RUNBOOK.md"
+}

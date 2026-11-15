@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "abstract_words": 244,
+  "main_pages": 29,
+  "supplement_pages": 35,
+  "sources": {
+    "paper1_source_binding.tex": "91c0163c37d91faa6e499b3ec6b957cb113f76b2193db0b5415b30b0390a4979",
+    "paper1_SM5D.tex": "f35c6396da3015cea922173aca1d8a1d29de482fe72f9bc5bb6aabb4f3665e58",
+    "paper1_main.tex": "f4f1d57123c2cd6c597c87b2e30a4843af9de0708ebae6c13539c4ae851cf565",
+    "paper1_supplement.tex": "f7773f84caafe7af3a19322cd5c702fb7ca0705765d7619912ddd09820ac5ad1",
+    "paper1_methods_references.tex": "e219c707377f6ed3c2c86cffd6a7cffc9f358cbcb9a334450dad7127de9b8d08"
+  },
+  "reference_validation_scope": "Scientific evidence from the November 11 cumulative archive. Historical editorial fixtures are catalogued in the provenance report.",
+  "ramp_validation_scope": "Public edition of the November 8 increasing-ramp replay; all original R4 certificate files and proof-chain bindings retain their hashes.",
+  "source_build_sha256": "7c98b788cf9bd9287de8af291f9ccded6496208c58031cf0ecde219c4ebf4988",
+  "source_build_comparison": "Every one of the 22 files in manuscript/ matched the archived November 11 build, including the two PDF previews."
+}

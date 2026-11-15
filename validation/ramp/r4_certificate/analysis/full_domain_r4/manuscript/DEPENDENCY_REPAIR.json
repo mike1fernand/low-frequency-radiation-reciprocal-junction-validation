@@ -1,0 +1,9 @@
+{
+  "initial_failure": "pdflatex could not locate revtex4-2.cls; all four parent/candidate first passes failed before document processing.",
+  "repair": "Used already present local complete REVTeX TDS archive; no system package mutation or network download.",
+  "archive_path_at_repair": "/workspace/scratch/revtex-tds-2023-05-30.zip",
+  "archive_sha256": "2e749b136da5a551acb2d150dc186182cd5ee28d98570acff017f604f398bfc9",
+  "class_release": "REVTeX 4.2f, 2022/06/05 (class header)",
+  "texmf_relative": "dependencies/revtex-tds",
+  "members": 89
+}

@@ -1,0 +1,2504 @@
+{
+  "elapsed_seconds": 64.19198727607727,
+  "frequency_domain_prediction_used_during_production": false,
+  "initial": {
+    "Ec0_over_E0": 2.0502029229148544e-18,
+    "bulk_displacement_norm": 0.0,
+    "bulk_energy": 0.0,
+    "bulk_exactly_zero": true,
+    "bulk_nonzero_coordinate_count": 0,
+    "bulk_velocity_norm": 0.0,
+    "coupling_energy": 7.375190526340242e-23,
+    "line_energy_E0": 3.597297830331177e-05
+  },
+  "method": "full Phase-12 Hamiltonian; open real-space velocity-Verlet evolution; exact periodic Bloch-cluster snapshot energies",
+  "parameters": {
+    "amplitude": 0.002,
+    "carrier_k": 0.9594572753515053,
+    "dt": 0.04,
+    "g_segments": [
+      0.1,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.1
+    ],
+    "nx": 120,
+    "ny": 56,
+    "nz": 56,
+    "omega": 1.2,
+    "phase12_dependency": "phase12_core",
+    "sample_start": 48.0,
+    "sample_step": 1.0,
+    "sigma": 7.0,
+    "slab_start": 60,
+    "tmax": 57.0,
+    "x0": 18.0
+  },
+  "snapshots": [
+    {
+      "TL_modal": 0.010883150701292837,
+      "TT_modal": 0.12291776082708282,
+      "T_bulk_open": 0.13377703942065794,
+      "T_coupling": 0.010325822267602236,
+      "T_current": 0.13889342752104153,
+      "Tbulk_modal": 0.13380091152837564,
+      "boundary_shell_kinetic_fraction_width2": 0.00013312229633432468,
+      "branch_energy_over_E0": [
+        0.06111498451857302,
+        0.0618027763085098,
+        0.010883150701292837
+      ],
+      "instantaneous_coupling_current_over_E0": 0.0001148944236489682,
+      "periodic_open_bulk_relative_difference": 0.00017844697282210403,
+      "time": 48.0,
+      "total_energy_relative_drift": -2.4684125859258343e-06
+    },
+    {
+      "TL_modal": 0.011003512657684497,
+      "TT_modal": 0.12497539362401915,
+      "T_bulk_open": 0.1359453133181496,
+      "T_coupling": 0.009529025272436832,
+      "T_current": 0.14066347281572805,
+      "Tbulk_modal": 0.13597890628170364,
+      "boundary_shell_kinetic_fraction_width2": 0.00023346836368040312,
+      "branch_energy_over_E0": [
+        0.062130777345154715,
+        0.06284461627886444,
+        0.011003512657684497
+      ],
+      "instantaneous_coupling_current_over_E0": 0.0011946758519626348,
+      "periodic_open_bulk_relative_difference": 0.00024710644842482866,
+      "time": 49.0,
+      "total_energy_relative_drift": 2.9828777214902375e-06
+    },
+    {
+      "TL_modal": 0.011145618053574918,
+      "TT_modal": 0.12630401581200604,
+      "T_bulk_open": 0.13738455474755373,
+      "T_coupling": 0.004823644013708429,
+      "T_current": 0.1397526696990556,
+      "Tbulk_modal": 0.13744963386558093,
+      "boundary_shell_kinetic_fraction_width2": 0.0003021800148459149,
+      "branch_energy_over_E0": [
+        0.0627458490918565,
+        0.06355816672014952,
+        0.011145618053574918
+      ],
+      "instantaneous_coupling_current_over_E0": -0.0018678719035665823,
+      "periodic_open_bulk_relative_difference": 0.0004737003962839028,
+      "time": 50.0,
+      "total_energy_relative_drift": -1.863428875257023e-06
+    },
+    {
+      "TL_modal": 0.011153985800664477,
+      "TT_modal": 0.12674749969524854,
+      "T_bulk_open": 0.13781857732715705,
+      "T_coupling": 0.002704138854905139,
+      "T_current": 0.1391282659784608,
+      "Tbulk_modal": 0.13790148549591302,
+      "boundary_shell_kinetic_fraction_width2": 0.000489495196588592,
+      "branch_energy_over_E0": [
+        0.06291114301253621,
+        0.06383635668271234,
+        0.011153985800664477
+      ],
+      "instantaneous_coupling_current_over_E0": 0.0005476467384534975,
+      "periodic_open_bulk_relative_difference": 0.0006015746959800708,
+      "time": 51.0,
+      "total_energy_relative_drift": 8.413948473142178e-07
+    },
+    {
+      "TL_modal": 0.01122068919006842,
+      "TT_modal": 0.12732831242136136,
+      "T_bulk_open": 0.1384317915533179,
+      "T_coupling": 0.002042415033063006,
+      "T_current": 0.13941095125755976,
+      "Tbulk_modal": 0.1385490016114298,
+      "boundary_shell_kinetic_fraction_width2": 0.0007206175026049167,
+      "branch_energy_over_E0": [
+        0.06320068861109583,
+        0.06412762381026554,
+        0.01122068919006842
+      ],
+      "instantaneous_coupling_current_over_E0": -0.00037513278794140415,
+      "periodic_open_bulk_relative_difference": 0.0008466989901432066,
+      "time": 52.0,
+      "total_energy_relative_drift": 4.059209811380729e-09
+    },
+    {
+      "TL_modal": 0.011274237488552288,
+      "TT_modal": 0.1274983622447452,
+      "T_bulk_open": 0.13858942567615143,
+      "T_coupling": 0.0006863925309506373,
+      "T_current": 0.13889147032249727,
+      "Tbulk_modal": 0.1387725997332975,
+      "boundary_shell_kinetic_fraction_width2": 0.0009205597561363637,
+      "branch_energy_over_E0": [
+        0.06326137489455251,
+        0.06423698735019272,
+        0.011274237488552288
+      ],
+      "instantaneous_coupling_current_over_E0": -0.0002691972045012497,
+      "periodic_open_bulk_relative_difference": 0.0013217029816843145,
+      "time": 53.0,
+      "total_energy_relative_drift": -1.0440788451403234e-07
+    },
+    {
+      "TL_modal": 0.0112883822048192,
+      "TT_modal": 0.12762391076338045,
+      "T_bulk_open": 0.13869361535594574,
+      "T_coupling": 0.0004958237687470534,
+      "T_current": 0.13890047099678415,
+      "Tbulk_modal": 0.13891229296819965,
+      "boundary_shell_kinetic_fraction_width2": 0.0013582457142215754,
+      "branch_energy_over_E0": [
+        0.06331304760696865,
+        0.06431086315641178,
+        0.0112883822048192
+      ],
+      "instantaneous_coupling_current_over_E0": 5.895544670365175e-05,
+      "periodic_open_bulk_relative_difference": 0.0015766955940451108,
+      "time": 54.0,
+      "total_energy_relative_drift": 2.429966840125936e-07
+    },
+    {
+      "TL_modal": 0.01133802327858681,
+      "TT_modal": 0.12772422134812955,
+      "T_bulk_open": 0.1387654441550241,
+      "T_coupling": 0.0002035055027071273,
+      "T_current": 0.1388263526159149,
+      "Tbulk_modal": 0.13906224462671637,
+      "boundary_shell_kinetic_fraction_width2": 0.0017717833702567375,
+      "branch_energy_over_E0": [
+        0.06335259759156019,
+        0.06437162375656937,
+        0.01133802327858681
+      ],
+      "instantaneous_coupling_current_over_E0": -0.00012451425504369376,
+      "periodic_open_bulk_relative_difference": 0.002138864423340823,
+      "time": 55.0,
+      "total_energy_relative_drift": -4.475470962936367e-08
+    },
+    {
+      "TL_modal": 0.011387437448336788,
+      "TT_modal": 0.1277827035283254,
+      "T_bulk_open": 0.13877816782854951,
+      "T_coupling": 9.711661482444926e-05,
+      "T_current": 0.13878594244228382,
+      "Tbulk_modal": 0.13917014097666222,
+      "boundary_shell_kinetic_fraction_width2": 0.0022561804866408413,
+      "branch_energy_over_E0": [
+        0.06336649005691783,
+        0.06441621347140758,
+        0.011387437448336788
+      ],
+      "instantaneous_coupling_current_over_E0": 2.120294392715511e-05,
+      "periodic_open_bulk_relative_difference": 0.002824458300940766,
+      "time": 56.0,
+      "total_energy_relative_drift": 1.4194810089895182e-07
+    },
+    {
+      "TL_modal": 0.011395869894189621,
+      "TT_modal": 0.1278586659511639,
+      "T_bulk_open": 0.13879740768953472,
+      "T_coupling": 5.4915731547642035e-05,
+      "T_current": 0.13878413439887452,
+      "Tbulk_modal": 0.13925453584535352,
+      "boundary_shell_kinetic_fraction_width2": 0.003031463332663257,
+      "branch_energy_over_E0": [
+        0.06338772654823002,
+        0.06447093940293387,
+        0.011395869894189621
+      ],
+      "instantaneous_coupling_current_over_E0": -2.771865048916246e-05,
+      "periodic_open_bulk_relative_difference": 0.0032934920286214323,
+      "time": 57.0,
+      "total_energy_relative_drift": 2.202260656887664e-08
+    }
+  ],
+  "target_blind": true,
+  "trace": [
+    {
+      "T_bulk_open": 4.397325230202639e-15,
+      "T_coupling": 1.858524129724836e-12,
+      "T_current": 9.283125889001874e-13,
+      "instantaneous_coupling_current_over_E0": 8.422009803416877e-12,
+      "time": 0.2,
+      "total_energy_relative_drift": -1.745397864346623e-08
+    },
+    {
+      "T_bulk_open": 5.760601744815178e-14,
+      "T_coupling": 5.43563726488695e-12,
+      "T_current": 2.7597657270139986e-12,
+      "instantaneous_coupling_current_over_E0": 8.209275125193656e-12,
+      "time": 0.4,
+      "total_energy_relative_drift": 9.014456649555418e-09
+    },
+    {
+      "T_bulk_open": 2.0735467057079547e-13,
+      "T_coupling": 6.885487733070959e-12,
+      "T_current": 3.6301014014132692e-12,
+      "instantaneous_coupling_current_over_E0": -2.530677502373909e-13,
+      "time": 0.6,
+      "total_energy_relative_drift": 6.395144738059985e-08
+    },
+    {
+      "T_bulk_open": 4.0108853840008805e-13,
+      "T_coupling": 4.650093667353173e-12,
+      "T_current": 2.7121010500716205e-12,
+      "instantaneous_coupling_current_over_E0": -7.955444570937771e-12,
+      "time": 0.8,
+      "total_energy_relative_drift": 1.1878708155071607e-07
+    },
+    {
+      "T_bulk_open": 5.185526906315999e-13,
+      "T_coupling": 1.1361951572591565e-12,
+      "T_current": 1.0821146552481696e-12,
+      "instantaneous_coupling_current_over_E0": -6.666573745305368e-12,
+      "time": 1.0,
+      "total_energy_relative_drift": 1.5166714999118116e-07
+    },
+    {
+      "T_bulk_open": 5.347199341802514e-13,
+      "T_coupling": 1.3100893578628254e-13,
+      "T_current": 5.984129866648833e-13,
+      "instantaneous_coupling_current_over_E0": 2.460730963889565e-12,
+      "time": 1.2,
+      "total_energy_relative_drift": 1.5740272926943056e-07
+    },
+    {
+      "T_bulk_open": 6.013681785752051e-13,
+      "T_coupling": 2.733389115129699e-12,
+      "T_current": 1.959402076036611e-12,
+      "instantaneous_coupling_current_over_E0": 1.0069706056185235e-11,
+      "time": 1.4000000000000001,
+      "total_energy_relative_drift": 1.4326110509156793e-07
+    },
+    {
+      "T_bulk_open": 9.014028059183717e-13,
+      "T_coupling": 6.170223201777267e-12,
+      "T_current": 3.968723885699761e-12,
+      "instantaneous_coupling_current_over_E0": 8.355424552387575e-12,
+      "time": 1.6,
+      "total_energy_relative_drift": 1.1814348116815576e-07
+    },
+    {
+      "T_bulk_open": 1.414620231993671e-12,
+      "T_coupling": 6.768250419645714e-12,
+      "T_current": 4.778716836736511e-12,
+      "instantaneous_coupling_current_over_E0": -7.708245284064107e-13,
+      "time": 1.8,
+      "total_energy_relative_drift": 8.61632488195131e-08
+    },
+    {
+      "T_bulk_open": 1.887014505430762e-12,
+      "T_coupling": 3.892664674434699e-12,
+      "T_current": 3.8193599135143265e-12,
+      "instantaneous_coupling_current_over_E0": -7.641856921498477e-12,
+      "time": 2.0,
+      "total_energy_relative_drift": 4.906370985007525e-08
+    },
+    {
+      "T_bulk_open": 2.0911294900902748e-12,
+      "T_coupling": 6.305604397576458e-13,
+      "T_current": 2.399496735631349e-12,
+      "instantaneous_coupling_current_over_E0": -4.9066684391021055e-12,
+      "time": 2.2,
+      "total_energy_relative_drift": 1.2498624810600139e-08
+    },
+    {
+      "T_bulk_open": 2.108764263243219e-12,
+      "T_coupling": 4.891985285781195e-13,
+      "T_current": 2.346830833379063e-12,
+      "instantaneous_coupling_current_over_E0": 4.7763924411386655e-12,
+      "time": 2.4,
+      "total_energy_relative_drift": -1.215767379397036e-08
+    },
+    {
+      "T_bulk_open": 2.289964824642053e-12,
+      "T_coupling": 3.645070919732085e-12,
+      "T_current": 4.099360902679161e-12,
+      "instantaneous_coupling_current_over_E0": 1.1470341652329089e-11,
+      "time": 2.6,
+      "total_energy_relative_drift": -1.3631633416188853e-08
+    },
+    {
+      "T_bulk_open": 2.8829655922014196e-12,
+      "T_coupling": 6.753523742306359e-12,
+      "T_current": 6.239683843871835e-12,
+      "instantaneous_coupling_current_over_E0": 8.30572277749682e-12,
+      "time": 2.8000000000000003,
+      "total_energy_relative_drift": 1.0700403459901008e-08
+    },
+    {
+      "T_bulk_open": 3.727709494342663e-12,
+      "T_coupling": 6.5170776449199375e-12,
+      "T_current": 6.965223804754939e-12,
+      "instantaneous_coupling_current_over_E0": -1.3291497824685107e-12,
+      "time": 3.0,
+      "total_energy_relative_drift": 5.1490968437935255e-08
+    },
+    {
+      "T_bulk_open": 4.3845083651234475e-12,
+      "T_coupling": 3.199963120936327e-12,
+      "T_current": 5.9680589422715034e-12,
+      "instantaneous_coupling_current_over_E0": -7.275495835904557e-12,
+      "time": 3.2,
+      "total_energy_relative_drift": 9.265128314634119e-08
+    },
+    {
+      "T_bulk_open": 4.603024098603862e-12,
+      "T_coupling": 3.4495495991663543e-13,
+      "T_current": 4.763490391822765e-12,
+      "instantaneous_coupling_current_over_E0": -3.176505704784208e-12,
+      "time": 3.4,
+      "total_energy_relative_drift": 1.2084163524496727e-07
+    },
+    {
+      "T_bulk_open": 4.627789013388345e-12,
+      "T_coupling": 1.0034912096772923e-12,
+      "T_current": 5.116897467949377e-12,
+      "instantaneous_coupling_current_over_E0": 6.868115999898951e-12,
+      "time": 3.6,
+      "total_energy_relative_drift": 1.3155665892666116e-07
+    },
+    {
+      "T_bulk_open": 4.971572901265676e-12,
+      "T_coupling": 4.4956935976471246e-12,
+      "T_current": 7.201624511709574e-12,
+      "instantaneous_coupling_current_over_E0": 1.2527977534541579e-11,
+      "time": 3.8000000000000003,
+      "total_energy_relative_drift": 1.2783626268690436e-07
+    },
+    {
+      "T_bulk_open": 5.86295562746353e-12,
+      "T_coupling": 7.1374849025969776e-12,
+      "T_current": 9.408829724089249e-12,
+      "instantaneous_coupling_current_over_E0": 7.98901078835512e-12,
+      "time": 4.0,
+      "total_energy_relative_drift": 1.1447306576547415e-07
+    },
+    {
+      "T_bulk_open": 6.9649690814437356e-12,
+      "T_coupling": 6.149408805213909e-12,
+      "T_current": 1.0015670839178284e-11,
+      "instantaneous_coupling_current_over_E0": -1.9587692401042074e-12,
+      "time": 4.2,
+      "total_energy_relative_drift": 9.399709948385232e-08
+    },
+    {
+      "T_bulk_open": 7.704339333669925e-12,
+      "T_coupling": 2.5961001486203596e-12,
+      "T_current": 8.9809501433342e-12,
+      "instantaneous_coupling_current_over_E0": -6.86231155389765e-12,
+      "time": 4.4,
+      "total_energy_relative_drift": 6.783731430128453e-08
+    },
+    {
+      "T_bulk_open": 7.888825563602538e-12,
+      "T_coupling": 2.527922368052773e-13,
+      "T_current": 7.996570340529342e-12,
+      "instantaneous_coupling_current_over_E0": -1.473889220289025e-12,
+      "time": 4.6000000000000005,
+      "total_energy_relative_drift": 4.0205710897293755e-08
+    },
+    {
+      "T_bulk_open": 7.944289024316972e-12,
+      "T_coupling": 1.6147091317544263e-12,
+      "T_current": 8.732757710747549e-12,
+      "instantaneous_coupling_current_over_E0": 8.753244803661705e-12,
+      "time": 4.8,
+      "total_energy_relative_drift": 1.9372167603527353e-08
+    },
+    {
+      "T_bulk_open": 8.483733401379213e-12,
+      "T_coupling": 5.270979916874598e-12,
+      "T_current": 1.1096723296682575e-11,
+      "instantaneous_coupling_current_over_E0": 1.3290126571530922e-11,
+      "time": 5.0,
+      "total_energy_relative_drift": 1.3802169391574058e-08
+    },
+    {
+      "T_bulk_open": 9.645179492011777e-12,
+      "T_coupling": 7.400311502933811e-12,
+      "T_current": 1.3318315265602595e-11,
+      "instantaneous_coupling_current_over_E0": 7.467962538132388e-12,
+      "time": 5.2,
+      "total_energy_relative_drift": 2.611654990869516e-08
+    },
+    {
+      "T_bulk_open": 1.0914977304923743e-11,
+      "T_coupling": 5.7927052505453054e-12,
+      "T_current": 1.3781952704102411e-11,
+      "instantaneous_coupling_current_over_E0": -2.6347247623938553e-12,
+      "time": 5.4,
+      "total_energy_relative_drift": 5.045368655112356e-08
+    },
+    {
+      "T_bulk_open": 1.165469360329434e-11,
+      "T_coupling": 2.1614137275551556e-12,
+      "T_current": 1.2706991660856323e-11,
+      "instantaneous_coupling_current_over_E0": -6.459657878645052e-12,
+      "time": 5.6000000000000005,
+      "total_energy_relative_drift": 7.596854521974466e-08
+    },
+    {
+      "T_bulk_open": 1.1787693487307901e-11,
+      "T_coupling": 3.347711540294538e-13,
+      "T_current": 1.1929262619698195e-11,
+      "instantaneous_coupling_current_over_E0": 8.498475381553143e-14,
+      "time": 5.8,
+      "total_energy_relative_drift": 9.367852034138484e-08
+    },
+    {
+      "T_bulk_open": 1.1903905697214899e-11,
+      "T_coupling": 2.249546068235786e-12,
+      "T_current": 1.3003829803931946e-11,
+      "instantaneous_coupling_current_over_E0": 1.0356681669438845e-11,
+      "time": 6.0,
+      "total_energy_relative_drift": 1.009882887794735e-07
+    },
+    {
+      "T_bulk_open": 1.2646890380764901e-11,
+      "T_coupling": 5.947805954989423e-12,
+      "T_current": 1.5593254823484436e-11,
+      "instantaneous_coupling_current_over_E0": 1.3839455193415954e-11,
+      "time": 6.2,
+      "total_energy_relative_drift": 1.0064227680091791e-07
+    },
+    {
+      "T_bulk_open": 1.4022393240503938e-11,
+      "T_coupling": 7.649965112403853e-12,
+      "T_current": 1.781470298334419e-11,
+      "instantaneous_coupling_current_over_E0": 7.042290929804421e-12,
+      "time": 6.4,
+      "total_energy_relative_drift": 9.607325668721966e-08
+    },
+    {
+      "T_bulk_open": 1.537272642483192e-11,
+      "T_coupling": 5.709951348996181e-12,
+      "T_current": 1.819115826143573e-11,
+      "instantaneous_coupling_current_over_E0": -2.8592354864231555e-12,
+      "time": 6.6000000000000005,
+      "total_energy_relative_drift": 8.808253993791821e-08
+    },
+    {
+      "T_bulk_open": 1.6063045624539293e-11,
+      "T_coupling": 2.3222535869022293e-12,
+      "T_current": 1.7187879567667857e-11,
+      "instantaneous_coupling_current_over_E0": -5.4286064891615165e-12,
+      "time": 6.8,
+      "total_energy_relative_drift": 7.583220007613189e-08
+    },
+    {
+      "T_bulk_open": 1.6159768559765855e-11,
+      "T_coupling": 1.227761212934714e-12,
+      "T_current": 1.6740709054907584e-11,
+      "instantaneous_coupling_current_over_E0": 2.2279897201929145e-12,
+      "time": 7.0,
+      "total_energy_relative_drift": 6.044239297014491e-08
+    },
+    {
+      "T_bulk_open": 1.6373903043200495e-11,
+      "T_coupling": 3.8318278307629905e-12,
+      "T_current": 1.825894399794642e-11,
+      "instantaneous_coupling_current_over_E0": 1.2433945581162775e-11,
+      "time": 7.2,
+      "total_energy_relative_drift": 4.680257314146736e-08
+    },
+    {
+      "T_bulk_open": 1.7316220150433997e-11,
+      "T_coupling": 7.762269537559954e-12,
+      "T_current": 2.1163628874854028e-11,
+      "instantaneous_coupling_current_over_E0": 1.48260845174192e-11,
+      "time": 7.4,
+      "total_energy_relative_drift": 4.110722443229738e-08
+    },
+    {
+      "T_bulk_open": 1.8848389779839814e-11,
+      "T_coupling": 9.324269972295916e-12,
+      "T_current": 2.3470039711878554e-11,
+      "instantaneous_coupling_current_over_E0": 7.010704597416823e-12,
+      "time": 7.6000000000000005,
+      "total_energy_relative_drift": 4.6096662102244504e-08
+    },
+    {
+      "T_bulk_open": 2.0222927442332188e-11,
+      "T_coupling": 7.273977964454925e-12,
+      "T_current": 2.3813901336484077e-11,
+      "instantaneous_coupling_current_over_E0": -2.9926253412220317e-12,
+      "time": 7.8,
+      "total_energy_relative_drift": 5.851261128596728e-08
+    },
+    {
+      "T_bulk_open": 2.087186194823638e-11,
+      "T_coupling": 4.022880246567122e-12,
+      "T_current": 2.283730195111807e-11,
+      "instantaneous_coupling_current_over_E0": -4.989279766372324e-12,
+      "time": 8.0,
+      "total_energy_relative_drift": 7.135089130953145e-08
+    },
+    {
+      "T_bulk_open": 2.1011282543594296e-11,
+      "T_coupling": 3.109768592853112e-12,
+      "T_current": 2.252468174263828e-11,
+      "instantaneous_coupling_current_over_E0": 3.0506398911562582e-12,
+      "time": 8.2,
+      "total_energy_relative_drift": 7.901264911270302e-08
+    },
+    {
+      "T_bulk_open": 2.1417119491668585e-11,
+      "T_coupling": 5.660931773758243e-12,
+      "T_current": 2.4209476167156313e-11,
+      "instantaneous_coupling_current_over_E0": 1.3281403750623853e-11,
+      "time": 8.4,
+      "total_energy_relative_drift": 8.07970444134736e-08
+    },
+    {
+      "T_bulk_open": 2.2604018328137196e-11,
+      "T_coupling": 9.572263074607274e-12,
+      "T_current": 2.734974447777577e-11,
+      "instantaneous_coupling_current_over_E0": 1.6657366832078125e-11,
+      "time": 8.6,
+      "total_energy_relative_drift": 7.987598211951895e-08
+    },
+    {
+      "T_bulk_open": 2.4277006337864783e-11,
+      "T_coupling": 1.2272613665670224e-11,
+      "T_current": 3.036634506113558e-11,
+      "instantaneous_coupling_current_over_E0": 1.2934943940455358e-11,
+      "time": 8.8,
+      "total_energy_relative_drift": 7.92117967494911e-08
+    },
+    {
+      "T_bulk_open": 2.564544304917826e-11,
+      "T_coupling": 1.4166030205178326e-11,
+      "T_current": 3.267657742780432e-11,
+      "instantaneous_coupling_current_over_E0": 1.1466180028345037e-11,
+      "time": 9.0,
+      "total_energy_relative_drift": 7.860150242041889e-08
+    },
+    {
+      "T_bulk_open": 2.6280884558641637e-11,
+      "T_coupling": 1.9083990230703435e-11,
+      "T_current": 3.577145341806405e-11,
+      "instantaneous_coupling_current_over_E0": 2.1675691173354994e-11,
+      "time": 9.200000000000001,
+      "total_energy_relative_drift": 7.56047489527915e-08
+    },
+    {
+      "T_bulk_open": 2.6620825939209033e-11,
+      "T_coupling": 3.108224540548154e-11,
+      "T_current": 4.2112735446197727e-11,
+      "instantaneous_coupling_current_over_E0": 4.276641969764496e-11,
+      "time": 9.4,
+      "total_energy_relative_drift": 6.908510880853973e-08
+    },
+    {
+      "T_bulk_open": 2.758186590661783e-11,
+      "T_coupling": 5.060707670397012e-11,
+      "T_current": 5.283150047737904e-11,
+      "instantaneous_coupling_current_over_E0": 6.314159352417555e-11,
+      "time": 9.6,
+      "total_energy_relative_drift": 6.149416284235275e-08
+    },
+    {
+      "T_bulk_open": 2.967280267129279e-11,
+      "T_coupling": 7.369087133600799e-11,
+      "T_current": 6.644707432265301e-11,
+      "instantaneous_coupling_current_over_E0": 7.029948716179699e-11,
+      "time": 9.8,
+      "total_energy_relative_drift": 5.736994245369001e-08
+    },
+    {
+      "T_bulk_open": 3.2521374363117845e-11,
+      "T_coupling": 9.483673346534474e-11,
+      "T_current": 7.984202108517613e-11,
+      "instantaneous_coupling_current_over_E0": 6.153414834095846e-11,
+      "time": 10.0,
+      "total_energy_relative_drift": 5.9386414891236565e-08
+    },
+    {
+      "T_bulk_open": 3.5302066661391944e-11,
+      "T_coupling": 1.1073790897929635e-10,
+      "T_current": 9.054734245032786e-11,
+      "instantaneous_coupling_current_over_E0": 4.531057957377341e-11,
+      "time": 10.200000000000001,
+      "total_energy_relative_drift": 6.580676509209418e-08
+    },
+    {
+      "T_bulk_open": 3.7622381430764986e-11,
+      "T_coupling": 1.2153866385875628e-10,
+      "T_current": 9.825081635155344e-11,
+      "instantaneous_coupling_current_over_E0": 3.3072348586659135e-11,
+      "time": 10.4,
+      "total_energy_relative_drift": 7.18821832449698e-08
+    },
+    {
+      "T_bulk_open": 3.9957646140041414e-11,
+      "T_coupling": 1.2936914570902487e-10,
+      "T_current": 1.044934341556042e-10,
+      "instantaneous_coupling_current_over_E0": 3.123641195851206e-11,
+      "time": 10.6,
+      "total_energy_relative_drift": 7.392292633570916e-08
+    },
+    {
+      "T_bulk_open": 4.319898062462911e-11,
+      "T_coupling": 1.3719446290333254e-10,
+      "T_current": 1.116446392525196e-10,
+      "instantaneous_coupling_current_over_E0": 4.2850689895184355e-11,
+      "time": 10.8,
+      "total_energy_relative_drift": 7.22119902370516e-08
+    },
+    {
+      "T_bulk_open": 4.779753439475202e-11,
+      "T_coupling": 1.510942641079085e-10,
+      "T_current": 1.2319414130994318e-10,
+      "instantaneous_coupling_current_over_E0": 7.793000287323879e-11,
+      "time": 11.0,
+      "total_energy_relative_drift": 7.011195419203742e-08
+    },
+    {
+      "T_bulk_open": 5.340497823668411e-11,
+      "T_coupling": 1.8562896560517175e-10,
+      "T_current": 1.4607841945742054e-10,
+      "instantaneous_coupling_current_over_E0": 1.6132866001778953e-10,
+      "time": 11.200000000000001,
+      "total_energy_relative_drift": 7.042372956468324e-08
+    },
+    {
+      "T_bulk_open": 5.941407880723317e-11,
+      "T_coupling": 2.681466029794048e-10,
+      "T_current": 1.9336665505905396e-10,
+      "instantaneous_coupling_current_over_E0": 3.274137979439702e-10,
+      "time": 11.4,
+      "total_energy_relative_drift": 7.264150196532764e-08
+    },
+    {
+      "T_bulk_open": 6.5925255379317e-11,
+      "T_coupling": 4.3727240630259837e-10,
+      "T_current": 2.8445805984078827e-10,
+      "instantaneous_coupling_current_over_E0": 6.015637001761392e-10,
+      "time": 11.6,
+      "total_energy_relative_drift": 7.37266327069658e-08
+    },
+    {
+      "T_bulk_open": 7.430371045605144e-11,
+      "T_coupling": 7.339144374854705e-10,
+      "T_current": 4.4113429995141553e-10,
+      "instantaneous_coupling_current_over_E0": 9.79431394798615e-10,
+      "time": 11.8,
+      "total_energy_relative_drift": 7.147897883644189e-08
+    },
+    {
+      "T_bulk_open": 8.697297967790533e-11,
+      "T_coupling": 1.1871855839141426e-09,
+      "T_current": 6.803215608758125e-10,
+      "instantaneous_coupling_current_over_E0": 1.416285731019651e-09,
+      "time": 12.0,
+      "total_energy_relative_drift": 6.70409516829642e-08
+    },
+    {
+      "T_bulk_open": 1.0685056681165173e-10,
+      "T_coupling": 1.7996840377572842e-09,
+      "T_current": 1.006185986933206e-09,
+      "instantaneous_coupling_current_over_E0": 1.8309507717062729e-09,
+      "time": 12.200000000000001,
+      "total_energy_relative_drift": 6.399791283927554e-08
+    },
+    {
+      "T_bulk_open": 1.3703985709720152e-10,
+      "T_coupling": 2.536282712295157e-09,
+      "T_current": 1.404240952942862e-09,
+      "instantaneous_coupling_current_over_E0": 2.1212476745483672e-09,
+      "time": 12.4,
+      "total_energy_relative_drift": 6.49585441435839e-08
+    },
+    {
+      "T_bulk_open": 1.808498041799114e-10,
+      "T_coupling": 3.3202109637636087e-09,
+      "T_current": 1.8394210044919286e-09,
+      "instantaneous_coupling_current_over_E0": 2.188232968489935e-09,
+      "time": 12.6,
+      "total_energy_relative_drift": 6.90024444839185e-08
+    },
+    {
+      "T_bulk_open": 2.415697664544814e-10,
+      "T_coupling": 4.041563568245561e-09,
+      "T_current": 2.260117460603872e-09,
+      "instantaneous_coupling_current_over_E0": 1.9724957306979772e-09,
+      "time": 12.8,
+      "total_energy_relative_drift": 7.251729827036667e-08
+    },
+    {
+      "T_bulk_open": 3.214905742339614e-10,
+      "T_coupling": 4.585093204447422e-09,
+      "T_current": 2.6110981778403062e-09,
+      "instantaneous_coupling_current_over_E0": 1.506893980366064e-09,
+      "time": 13.0,
+      "total_energy_relative_drift": 7.260729474528381e-08
+    },
+    {
+      "T_bulk_open": 4.2052247752951265e-10,
+      "T_coupling": 4.8823868885862504e-09,
+      "T_current": 2.85820847166848e-09,
+      "instantaneous_coupling_current_over_E0": 9.79149553808744e-10,
+      "time": 13.200000000000001,
+      "total_energy_relative_drift": 6.974900484081055e-08
+    },
+    {
+      "T_bulk_open": 5.356349231084841e-10,
+      "T_coupling": 4.985542472490714e-09,
+      "T_current": 3.024622617277155e-09,
+      "instantaneous_coupling_current_over_E0": 7.794275660863728e-10,
+      "time": 13.4,
+      "total_energy_relative_drift": 6.714677979316086e-08
+    },
+    {
+      "T_bulk_open": 6.62336459931899e-10,
+      "T_coupling": 5.146743138051143e-09,
+      "T_current": 3.2320506790126606e-09,
+      "instantaneous_coupling_current_over_E0": 1.4963664794998414e-09,
+      "time": 13.6,
+      "total_energy_relative_drift": 6.749258041952674e-08
+    },
+    {
+      "T_bulk_open": 7.984127322096284e-10,
+      "T_coupling": 5.8761008946641605e-09,
+      "T_current": 3.733308291022151e-09,
+      "instantaneous_coupling_current_over_E0": 3.831350337943363e-09,
+      "time": 13.8,
+      "total_energy_relative_drift": 7.034633698906472e-08
+    },
+    {
+      "T_bulk_open": 9.4894475092799e-10,
+      "T_coupling": 7.944719377480086e-09,
+      "T_current": 4.918773467321185e-09,
+      "instantaneous_coupling_current_over_E0": 8.424476240791038e-09,
+      "time": 14.0,
+      "total_energy_relative_drift": 7.267810337996249e-08
+    },
+    {
+      "T_bulk_open": 1.1311703295465513e-09,
+      "T_coupling": 1.230424517030338e-08,
+      "T_current": 7.2809674301208675e-09,
+      "instantaneous_coupling_current_over_E0": 1.5615948979121643e-08,
+      "time": 14.200000000000001,
+      "total_energy_relative_drift": 7.196529852961077e-08
+    },
+    {
+      "T_bulk_open": 1.378188273917058e-09,
+      "T_coupling": 1.9908335627763447e-08,
+      "T_current": 1.1329008126346306e-08,
+      "instantaneous_coupling_current_over_E0": 2.5193272484092882e-08,
+      "time": 14.4,
+      "total_energy_relative_drift": 6.874096132550436e-08
+    },
+    {
+      "T_bulk_open": 1.7410971238926819e-09,
+      "T_coupling": 3.144478140943327e-08,
+      "T_current": 1.7456917101669122e-08,
+      "instantaneous_coupling_current_over_E0": 3.619547917242749e-08,
+      "time": 14.6,
+      "total_energy_relative_drift": 6.608005609423325e-08
+    },
+    {
+      "T_bulk_open": 2.2890521688877668e-09,
+      "T_coupling": 4.701938195444008e-08,
+      "T_current": 2.578581637428214e-08,
+      "instantaneous_coupling_current_over_E0": 4.686322036530043e-08,
+      "time": 14.8,
+      "total_energy_relative_drift": 6.65624041745967e-08
+    },
+    {
+      "T_bulk_open": 3.1058813467256734e-09,
+      "T_coupling": 6.587239614668824e-08,
+      "T_current": 3.601905512817489e-08,
+      "instantaneous_coupling_current_over_E0": 5.483374534159616e-08,
+      "time": 15.0,
+      "total_energy_relative_drift": 6.973099488403218e-08
+    },
+    {
+      "T_bulk_open": 4.281296009523592e-09,
+      "T_coupling": 8.624756850319884e-08,
+      "T_current": 4.736826455861306e-08,
+      "instantaneous_coupling_current_over_E0": 5.766552578227315e-08,
+      "time": 15.200000000000001,
+      "total_energy_relative_drift": 7.254449884509124e-08
+    },
+    {
+      "T_bulk_open": 5.895605907668404e-09,
+      "T_coupling": 1.0555549179343879e-07,
+      "T_current": 5.8620048737120344e-08,
+      "instantaneous_coupling_current_over_E0": 5.371584022537296e-08,
+      "time": 15.4,
+      "total_energy_relative_drift": 7.235335772654838e-08
+    },
+    {
+      "T_bulk_open": 7.999695724965811e-09,
+      "T_coupling": 1.2095477340849957e-07,
+      "T_current": 6.840666901693923e-08,
+      "instantaneous_coupling_current_over_E0": 4.327579268494368e-08,
+      "time": 15.6,
+      "total_energy_relative_drift": 6.945687938230814e-08
+    },
+    {
+      "T_bulk_open": 1.0596145423159042e-08,
+      "T_coupling": 1.3039706156509394e-07,
+      "T_current": 7.570947155729634e-08,
+      "instantaneous_coupling_current_over_E0": 2.970898635941949e-08,
+      "time": 15.8,
+      "total_energy_relative_drift": 6.674536980616512e-08
+    },
+    {
+      "T_bulk_open": 1.3631219270997303e-08,
+      "T_coupling": 1.3404154128870973e-07,
+      "T_current": 8.055745986306182e-08,
+      "instantaneous_coupling_current_over_E0": 2.019055872075914e-08,
+      "time": 16.0,
+      "total_energy_relative_drift": 6.682122433309477e-08
+    },
+    {
+      "T_bulk_open": 1.700925094728814e-08,
+      "T_coupling": 1.3576084395691716e-07,
+      "T_current": 8.479349304526094e-08,
+      "instantaneous_coupling_current_over_E0": 2.5567923126602252e-08,
+      "time": 16.2,
+      "total_energy_relative_drift": 6.945916432175654e-08
+    },
+    {
+      "T_bulk_open": 2.063921854167238e-08,
+      "T_coupling": 1.4427906685724e-07,
+      "T_current": 9.268840441294053e-08,
+      "instantaneous_coupling_current_over_E0": 5.892607545194865e-08,
+      "time": 16.4,
+      "total_energy_relative_drift": 7.18932573839007e-08
+    },
+    {
+      "T_bulk_open": 2.4517028619645632e-08,
+      "T_coupling": 1.7336974149062066e-07,
+      "T_current": 1.1112082263869775e-07,
+      "instantaneous_coupling_current_over_E0": 1.326794164077658e-07,
+      "time": 16.6,
+      "total_energy_relative_drift": 7.160875736924087e-08
+    },
+    {
+      "T_bulk_open": 2.8836092851551746e-08,
+      "T_coupling": 2.4057032179791725e-07,
+      "T_current": 1.4904406358953947e-07,
+      "instantaneous_coupling_current_over_E0": 2.544301679243712e-07,
+      "time": 16.8,
+      "total_energy_relative_drift": 6.88584599570139e-08
+    },
+    {
+      "T_bulk_open": 3.410469033017858e-08,
+      "T_coupling": 3.6409995594917774e-07,
+      "T_current": 2.1606252593248416e-07,
+      "instantaneous_coupling_current_over_E0": 4.223761704538964e-07,
+      "time": 17.0,
+      "total_energy_relative_drift": 6.642533078894703e-08
+    },
+    {
+      "T_bulk_open": 4.123509618729862e-08,
+      "T_coupling": 5.581191817202169e-07,
+      "T_current": 3.201523540439594e-07,
+      "instantaneous_coupling_current_over_E0": 6.215955990016193e-07,
+      "time": 17.2,
+      "total_energy_relative_drift": 6.688559802824363e-08
+    },
+    {
+      "T_bulk_open": 5.15620935506117e-08,
+      "T_coupling": 8.270980142254629e-07,
+      "T_current": 4.6486738976882794e-07,
+      "instantaneous_coupling_current_over_E0": 8.228971401051424e-07,
+      "time": 17.400000000000002,
+      "total_energy_relative_drift": 7.00775987240673e-08
+    },
+    {
+      "T_bulk_open": 6.675294823194919e-08,
+      "T_coupling": 1.1607350447986547e-06,
+      "T_current": 6.467134804007613e-07,
+      "instantaneous_coupling_current_over_E0": 9.858876001537867e-07,
+      "time": 17.6,
+      "total_energy_relative_drift": 7.324946897149095e-08
+    },
+    {
+      "T_bulk_open": 8.859058175521981e-08,
+      "T_coupling": 1.5313911991719407e-06,
+      "T_current": 8.536537622254533e-07,
+      "instantaneous_coupling_current_over_E0": 1.0672998107234255e-06,
+      "time": 17.8,
+      "total_energy_relative_drift": 7.370432619751813e-08
+    },
+    {
+      "T_bulk_open": 1.1864576953272501e-07,
+      "T_coupling": 1.8961238985251136e-06,
+      "T_current": 1.0658020877194932e-06,
+      "instantaneous_coupling_current_over_E0": 1.0343875655234919e-06,
+      "time": 18.0,
+      "total_energy_relative_drift": 7.132116957820528e-08
+    },
+    {
+      "T_bulk_open": 1.5789747095926175e-07,
+      "T_coupling": 2.2049097197149352e-06,
+      "T_current": 1.2591558763896491e-06,
+      "instantaneous_coupling_current_over_E0": 8.814645823774114e-07,
+      "time": 18.2,
+      "total_energy_relative_drift": 6.849674688423715e-08
+    },
+    {
+      "T_bulk_open": 2.0640398586584105e-07,
+      "T_coupling": 2.4154089835306e-06,
+      "T_current": 1.4126460439159629e-06,
+      "instantaneous_coupling_current_over_E0": 6.457890997673311e-07,
+      "time": 18.400000000000002,
+      "total_energy_relative_drift": 6.763115644012941e-08
+    },
+    {
+      "T_bulk_open": 2.631601118462049e-07,
+      "T_coupling": 2.5127201187906134e-06,
+      "T_current": 1.5178620891593033e-06,
+      "instantaneous_coupling_current_over_E0": 4.175082135975116e-07,
+      "time": 18.6,
+      "total_energy_relative_drift": 6.870357572266475e-08
+    },
+    {
+      "T_bulk_open": 3.26283719531218e-07,
+      "T_coupling": 2.5303015857709053e-06,
+      "T_current": 1.5896849940003255e-06,
+      "instantaneous_coupling_current_over_E0": 3.379072202325423e-07,
+      "time": 18.8,
+      "total_energy_relative_drift": 6.936911265415529e-08
+    },
+    {
+      "T_bulk_open": 3.936455909212917e-07,
+      "T_coupling": 2.5661604675377414e-06,
+      "T_current": 1.6749935117440178e-06,
+      "instantaneous_coupling_current_over_E0": 5.813416520604797e-07,
+      "time": 19.0,
+      "total_energy_relative_drift": 6.748965784446147e-08
+    },
+    {
+      "T_bulk_open": 4.6397822061417523e-07,
+      "T_coupling": 2.7872616395443816e-06,
+      "T_current": 1.8559606058401102e-06,
+      "instantaneous_coupling_current_over_E0": 1.3193041828219158e-06,
+      "time": 19.2,
+      "total_energy_relative_drift": 6.358898364964487e-08
+    },
+    {
+      "T_bulk_open": 5.383707200911127e-07,
+      "T_coupling": 3.4156761445621754e-06,
+      "T_current": 2.2446120787453984e-06,
+      "instantaneous_coupling_current_over_E0": 2.6699799310345636e-06,
+      "time": 19.400000000000002,
+      "total_energy_relative_drift": 6.077715788525075e-08
+    },
+    {
+      "T_bulk_open": 6.218926438992737e-07,
+      "T_coupling": 4.692837384292845e-06,
+      "T_current": 2.9665804686127987e-06,
+      "instantaneous_coupling_current_over_E0": 4.642624551494401e-06,
+      "time": 19.6,
+      "total_energy_relative_drift": 6.214960196147139e-08
+    },
+    {
+      "T_bulk_open": 7.249259552060199e-07,
+      "T_coupling": 6.8235037494730805e-06,
+      "T_current": 4.134437339483664e-06,
+      "instantaneous_coupling_current_over_E0": 7.091729850671158e-06,
+      "time": 19.8,
+      "total_energy_relative_drift": 6.810275569816768e-08
+    },
+    {
+      "T_bulk_open": 8.636782744675481e-07,
+      "T_coupling": 9.908004774830424e-06,
+      "T_current": 5.81436684876031e-06,
+      "instantaneous_coupling_current_over_E0": 9.69927277336014e-06,
+      "time": 20.0,
+      "total_energy_relative_drift": 7.604483149285861e-08
+    },
+    {
+      "T_bulk_open": 1.0593677139383942e-06,
+      "T_coupling": 1.3878608357734373e-05,
+      "T_current": 7.993585636872621e-06,
+      "instantaneous_coupling_current_over_E0": 1.2002332378653366e-05,
+      "time": 20.2,
+      "total_energy_relative_drift": 8.262208545286558e-08
+    },
+    {
+      "T_bulk_open": 1.3357636914638614e-06,
+      "T_coupling": 1.8461215101820404e-05,
+      "T_current": 1.0558786320184881e-05,
+      "instantaneous_coupling_current_over_E0": 1.3476514141019604e-05,
+      "time": 20.400000000000002,
+      "total_energy_relative_drift": 8.618094080615224e-08
+    },
+    {
+      "T_bulk_open": 1.715155198800039e-06,
+      "T_coupling": 2.3184598923599277e-05,
+      "T_current": 1.3296770099015096e-05,
+      "instantaneous_coupling_current_over_E0": 1.3672728118831516e-05,
+      "time": 20.6,
+      "total_energy_relative_drift": 8.710084744441719e-08
+    },
+    {
+      "T_bulk_open": 2.21335433257882e-06,
+      "T_coupling": 2.7453999330753703e-05,
+      "T_current": 1.592626082417185e-05,
+      "instantaneous_coupling_current_over_E0": 1.2387576765450346e-05,
+      "time": 20.8,
+      "total_energy_relative_drift": 8.590343556944274e-08
+    },
+    {
+      "T_bulk_open": 2.834915745205179e-06,
+      "T_coupling": 3.0693170021291444e-05,
+      "T_current": 1.8164117362931406e-05,
+      "instantaneous_coupling_current_over_E0": 9.82962121310045e-06,
+      "time": 21.0,
+      "total_energy_relative_drift": 8.137877530410243e-08
+    },
+    {
+      "T_bulk_open": 3.5701917897457285e-06,
+      "T_coupling": 3.254008961284536e-05,
+      "T_current": 1.9820158624132113e-05,
+      "instantaneous_coupling_current_over_E0": 6.7304517347982775e-06,
+      "time": 21.2,
+      "total_energy_relative_drift": 7.102563573599477e-08
+    },
+    {
+      "T_bulk_open": 4.395955676117121e-06,
+      "T_coupling": 3.3059870121078755e-05,
+      "T_current": 2.090410636594602e-05,
+      "instantaneous_coupling_current_over_E0": 4.34666989019567e-06,
+      "time": 21.400000000000002,
+      "total_energy_relative_drift": 5.379814733572661e-08
+    },
+    {
+      "T_bulk_open": 5.280949468676683e-06,
+      "T_coupling": 3.2919512345276076e-05,
+      "T_current": 2.171834886099353e-05,
+      "instantaneous_coupling_current_over_E0": 4.311355146503093e-06,
+      "time": 21.6,
+      "total_energy_relative_drift": 3.273978822800837e-08
+    },
+    {
+      "T_bulk_open": 6.196781503426108e-06,
+      "T_coupling": 3.345978787400156e-05,
+      "T_current": 2.2904627594453663e-05,
+      "instantaneous_coupling_current_over_E0": 8.32308315611023e-06,
+      "time": 21.8,
+      "total_energy_relative_drift": 1.4933110061032146e-08
+    },
+    {
+      "T_bulk_open": 7.133184831873428e-06,
+      "T_coupling": 3.6605938416223186e-05,
+      "T_current": 2.5414552049415703e-05,
+      "instantaneous_coupling_current_over_E0": 1.7704227076599683e-05,
+      "time": 22.0,
+      "total_energy_relative_drift": 8.46380206565039e-09
+    },
+    {
+      "T_bulk_open": 8.115000747813938e-06,
+      "T_coupling": 4.458479627672755e-05,
+      "T_current": 3.0385156154774422e-05,
+      "instantaneous_coupling_current_over_E0": 3.290994797759512e-05,
+      "time": 22.2,
+      "total_energy_relative_drift": 1.8616057593685926e-08
+    },
+    {
+      "T_bulk_open": 9.216770192418295e-06,
+      "T_coupling": 5.946052288881877e-05,
+      "T_current": 3.892151041380369e-05,
+      "instantaneous_coupling_current_over_E0": 5.3112210586018616e-05,
+      "time": 22.400000000000002,
+      "total_energy_relative_drift": 4.5920154956572836e-08
+    },
+    {
+      "T_bulk_open": 1.056999341004592e-05,
+      "T_coupling": 8.255776828200707e-05,
+      "T_current": 5.181585474497738e-05,
+      "instantaneous_coupling_current_over_E0": 7.600432452703925e-05,
+      "time": 22.6,
+      "total_energy_relative_drift": 8.671417296222692e-08
+    },
+    {
+      "T_bulk_open": 1.2358430196781661e-05,
+      "T_coupling": 0.00011389718287248296,
+      "T_current": 6.926105298813192e-05,
+      "instantaneous_coupling_current_over_E0": 9.795737524759417e-05,
+      "time": 22.8,
+      "total_energy_relative_drift": 1.3461452633039748e-07
+    },
+    {
+      "T_bulk_open": 1.4798576802878052e-05,
+      "T_coupling": 0.0001518073203981891,
+      "T_current": 9.06374448024598e-05,
+      "instantaneous_coupling_current_over_E0": 0.00011460293296474677,
+      "time": 23.0,
+      "total_energy_relative_drift": 1.8099137569473205e-07
+    },
+    {
+      "T_bulk_open": 1.8105682324636086e-05,
+      "T_coupling": 0.0001928820190227054,
+      "T_current": 0.00011445788829891132,
+      "instantaneous_coupling_current_over_E0": 0.00012181922407002604,
+      "time": 23.2,
+      "total_energy_relative_drift": 2.1444029667007423e-07
+    },
+    {
+      "T_bulk_open": 2.2449947072597858e-05,
+      "T_coupling": 0.00023241067147943182,
+      "T_current": 0.00013853921718216564,
+      "instantaneous_coupling_current_over_E0": 0.00011697575953016207,
+      "time": 23.400000000000002,
+      "total_energy_relative_drift": 2.2128595755060296e-07
+    },
+    {
+      "T_bulk_open": 2.7912011034232674e-05,
+      "T_coupling": 0.00026531724998389035,
+      "T_current": 0.00016042705043425032,
+      "instantaneous_coupling_current_over_E0": 0.00010017164625418221,
+      "time": 23.6,
+      "total_energy_relative_drift": 1.8907721128980143e-07
+    },
+    {
+      "T_bulk_open": 3.445025820670553e-05,
+      "T_coupling": 0.00028751289015462175,
+      "T_current": 0.0001780388369717303,
+      "instantaneous_coupling_current_over_E0": 7.512081878434917e-05,
+      "time": 23.8,
+      "total_energy_relative_drift": 1.1262184078929683e-07
+    },
+    {
+      "T_bulk_open": 4.189346895333914e-05,
+      "T_coupling": 0.0002974213459726443,
+      "T_current": 0.00019041836628211687,
+      "instantaneous_coupling_current_over_E0": 4.9328619393962924e-05,
+      "time": 24.0,
+      "total_energy_relative_drift": -5.270961612195964e-10
+    },
+    {
+      "T_bulk_open": 4.996982257087132e-05,
+      "T_coupling": 0.0002973137732467947,
+      "T_current": 0.0001984311217071116,
+      "instantaneous_coupling_current_over_E0": 3.3293551869268025e-05,
+      "time": 24.2,
+      "total_energy_relative_drift": -1.286535463464413e-07
+    },
+    {
+      "T_bulk_open": 5.837672569928853e-05,
+      "T_coupling": 0.00029403097388968876,
+      "T_current": 0.00020519425599823196,
+      "instantaneous_coupling_current_over_E0": 3.86597371161508e-05,
+      "time": 24.400000000000002,
+      "total_energy_relative_drift": -2.398379686494551e-07
+    },
+    {
+      "T_bulk_open": 6.688599081031217e-05,
+      "T_coupling": 0.0002987133808631733,
+      "T_current": 0.00021604614254919216,
+      "instantaneous_coupling_current_over_E0": 7.551524929711001e-05,
+      "time": 24.6,
+      "total_energy_relative_drift": -2.9966436812787226e-07
+    },
+    {
+      "T_bulk_open": 7.546728426711628e-05,
+      "T_coupling": 0.00032531944454581625,
+      "T_current": 0.00023792902539665085,
+      "instantaneous_coupling_current_over_E0": 0.00014932501652672336,
+      "time": 24.8,
+      "total_energy_relative_drift": -2.797596640221353e-07
+    },
+    {
+      "T_bulk_open": 8.440232615347763e-05,
+      "T_coupling": 0.0003879808180059307,
+      "T_current": 0.0002781816240352985,
+      "instantaneous_coupling_current_over_E0": 0.00025822773420710444,
+      "time": 25.0,
+      "total_energy_relative_drift": -1.6519926026075762e-07
+    },
+    {
+      "T_bulk_open": 9.435640504739461e-05,
+      "T_coupling": 0.0004975732805693017,
+      "T_current": 0.0003428977259867488,
+      "instantaneous_coupling_current_over_E0": 0.0003915311772268471,
+      "time": 25.2,
+      "total_energy_relative_drift": 3.962495444951459e-08
+    },
+    {
+      "T_bulk_open": 0.00010637541675728475,
+      "T_coupling": 0.0006582008730611207,
+      "T_current": 0.00043516748994205104,
+      "instantaneous_coupling_current_over_E0": 0.0005301422591138863,
+      "time": 25.400000000000002,
+      "total_energy_relative_drift": 3.0692008427948444e-07
+    },
+    {
+      "T_bulk_open": 0.00012178760730470493,
+      "T_coupling": 0.0008645053327816822,
+      "T_current": 0.0005536362407350806,
+      "instantaneous_coupling_current_over_E0": 0.0006493397841131212,
+      "time": 25.6,
+      "total_energy_relative_drift": 5.84921558788663e-07
+    },
+    {
+      "T_bulk_open": 0.00014200909848993186,
+      "T_coupling": 0.001100736252526023,
+      "T_current": 0.0006918469494547891,
+      "instantaneous_coupling_current_over_E0": 0.0007237699178493187,
+      "time": 25.8,
+      "total_energy_relative_drift": 8.038058142246049e-07
+    },
+    {
+      "T_bulk_open": 0.0001682780636966473,
+      "T_coupling": 0.0013422926534238612,
+      "T_current": 0.0008387459864801239,
+      "instantaneous_coupling_current_over_E0": 0.0007339122786542319,
+      "time": 26.0,
+      "total_energy_relative_drift": 8.898982681605176e-07
+    },
+    {
+      "T_bulk_open": 0.00020136858631406192,
+      "T_coupling": 0.0015599715511893728,
+      "T_current": 0.000980520483388223,
+      "instantaneous_coupling_current_over_E0": 0.0006726770942208103,
+      "time": 26.2,
+      "total_energy_relative_drift": 7.862731756458657e-07
+    },
+    {
+      "T_bulk_open": 0.00024135467963794365,
+      "T_coupling": 0.00172650017577926,
+      "T_current": 0.0011036259330994926,
+      "instantaneous_coupling_current_over_E0": 0.0005504244373226759,
+      "time": 26.400000000000002,
+      "total_energy_relative_drift": 4.7381913491901325e-07
+    },
+    {
+      "T_bulk_open": 0.0002875005785758601,
+      "T_coupling": 0.0018242195892536688,
+      "T_current": 0.0011985142614579618,
+      "instantaneous_coupling_current_over_E0": 0.0003966999060703049,
+      "time": 26.6,
+      "total_energy_relative_drift": -1.4679893749496186e-08
+    },
+    {
+      "T_bulk_open": 0.00033834009838081686,
+      "T_coupling": 0.0018522085891433957,
+      "T_current": 0.0012632703227574095,
+      "instantaneous_coupling_current_over_E0": 0.00025744543702311103,
+      "time": 26.8,
+      "total_energy_relative_drift": -5.929363463295946e-07
+    },
+    {
+      "T_bulk_open": 0.00039197433841308104,
+      "T_coupling": 0.0018308752928442359,
+      "T_current": 0.001306200884820922,
+      "instantaneous_coupling_current_over_E0": 0.00018735065699194763,
+      "time": 27.0,
+      "total_energy_relative_drift": -1.1335591650452958e-06
+    },
+    {
+      "T_bulk_open": 0.0004465672203374535,
+      "T_coupling": 0.0018022441457423968,
+      "T_current": 0.0013464707205756118,
+      "instantaneous_coupling_current_over_E0": 0.0002382147184184786,
+      "time": 27.2,
+      "total_energy_relative_drift": -1.4924518586985868e-06
+    },
+    {
+      "T_bulk_open": 0.0005009616097341815,
+      "T_coupling": 0.001824880318566959,
+      "T_current": 0.0014121806582813809,
+      "instantaneous_coupling_current_over_E0": 0.0004454321855356602,
+      "time": 27.400000000000002,
+      "total_energy_relative_drift": -1.5411780483318816e-06
+    },
+    {
+      "T_bulk_open": 0.0005552885521043273,
+      "T_coupling": 0.001963546093031904,
+      "T_current": 0.0015358080747142388,
+      "instantaneous_coupling_current_over_E0": 0.0008156726973640271,
+      "time": 27.6,
+      "total_energy_relative_drift": -1.2019909200009734e-06
+    },
+    {
+      "T_bulk_open": 0.0006114134079509282,
+      "T_coupling": 0.0022750644300535386,
+      "T_current": 0.001747591125261581,
+      "instantaneous_coupling_current_over_E0": 0.0013191737902522305,
+      "time": 27.8,
+      "total_energy_relative_drift": -4.784826015826104e-07
+    },
+    {
+      "T_bulk_open": 0.0006730680879309023,
+      "T_coupling": 0.002793156244057394,
+      "T_current": 0.0020680882124003547,
+      "instantaneous_coupling_current_over_E0": 0.0018895872234497163,
+      "time": 28.0,
+      "total_energy_relative_drift": 5.271043265345403e-07
+    },
+    {
+      "T_bulk_open": 0.0007455646057627013,
+      "T_coupling": 0.003515859643480851,
+      "T_current": 0.0025016102826275637,
+      "instantaneous_coupling_current_over_E0": 0.002432967342643012,
+      "time": 28.2,
+      "total_energy_relative_drift": 1.6188367894451654e-06
+    },
+    {
+      "T_bulk_open": 0.0008350687737110257,
+      "T_coupling": 0.004399217000302813,
+      "T_current": 0.0030323454614652667,
+      "instantaneous_coupling_current_over_E0": 0.0028454482214505046,
+      "time": 28.400000000000002,
+      "total_energy_relative_drift": 2.5391848695348486e-06
+    },
+    {
+      "T_bulk_open": 0.0009475203042532012,
+      "T_coupling": 0.005360054978741283,
+      "T_current": 0.0036246726194303688,
+      "instantaneous_coupling_current_over_E0": 0.00303682998418591,
+      "time": 28.6,
+      "total_energy_relative_drift": 3.0251692873034033e-06
+    },
+    {
+      "T_bulk_open": 0.0010873937369197523,
+      "T_coupling": 0.006288924784988997,
+      "T_current": 0.0042283902876040285,
+      "instantaneous_coupling_current_over_E0": 0.0029552452329503517,
+      "time": 28.8,
+      "total_energy_relative_drift": 2.876668690413248e-06
+    },
+    {
+      "T_bulk_open": 0.001256575299998455,
+      "T_coupling": 0.007071902318986089,
+      "T_current": 0.004788485389954532,
+      "instantaneous_coupling_current_over_E0": 0.002606898272405444,
+      "time": 29.0,
+      "total_energy_relative_drift": 2.019294914180386e-06
+    },
+    {
+      "T_bulk_open": 0.0014536573862315508,
+      "T_coupling": 0.007617473685272669,
+      "T_current": 0.005257857202188544,
+      "instantaneous_coupling_current_over_E0": 0.0020650345930969993,
+      "time": 29.2,
+      "total_energy_relative_drift": 5.440196185531216e-07
+    },
+    {
+      "T_bulk_open": 0.001673907143633128,
+      "T_coupling": 0.007882774233424915,
+      "T_current": 0.005610389611598127,
+      "instantaneous_coupling_current_over_E0": 0.0014640041048856625,
+      "time": 29.400000000000002,
+      "total_energy_relative_drift": -1.2894509318594092e-06
+    },
+    {
+      "T_bulk_open": 0.0019100466514749555,
+      "T_coupling": 0.007892607763476969,
+      "T_current": 0.005851226044634454,
+      "instantaneous_coupling_current_over_E0": 0.000977350898012768,
+      "time": 29.6,
+      "total_energy_relative_drift": -3.090850877459993e-06
+    },
+    {
+      "T_bulk_open": 0.0021538061514585457,
+      "T_coupling": 0.007745356502603847,
+      "T_current": 0.006021267753158103,
+      "instantaneous_coupling_current_over_E0": 0.0007827232688357517,
+      "time": 29.8,
+      "total_energy_relative_drift": -4.415662584716984e-06
+    },
+    {
+      "T_bulk_open": 0.0023980136480363174,
+      "T_coupling": 0.007602181268359363,
+      "T_current": 0.0061938617714190295,
+      "instantaneous_coupling_current_over_E0": 0.0010201731425222352,
+      "time": 30.0,
+      "total_energy_relative_drift": -4.867209386515537e-06
+    },
+    {
+      "T_bulk_open": 0.0026388105350424163,
+      "T_coupling": 0.0076594780579348955,
+      "T_current": 0.006463253029226767,
+      "instantaneous_coupling_current_over_E0": 0.0017531072707073399,
+      "time": 30.2,
+      "total_energy_relative_drift": -4.203735084558013e-06
+    },
+    {
+      "T_bulk_open": 0.002877481964715025,
+      "T_coupling": 0.008108690532904611,
+      "T_current": 0.006926338513536155,
+      "instantaneous_coupling_current_over_E0": 0.002941896593980762,
+      "time": 30.400000000000002,
+      "total_energy_relative_drift": -2.423753069172016e-06
+    },
+    {
+      "T_bulk_open": 0.0031213998669229488,
+      "T_coupling": 0.00909130912583856,
+      "T_current": 0.007661133731971861,
+      "instantaneous_coupling_current_over_E0": 0.004438459538431374,
+      "time": 30.6,
+      "total_energy_relative_drift": 1.9708708216094389e-07
+    },
+    {
+      "T_bulk_open": 0.0033837110368186156,
+      "T_coupling": 0.010659207826199873,
+      "T_current": 0.008706654373958452,
+      "instantaneous_coupling_current_over_E0": 0.006006092390207568,
+      "time": 30.8,
+      "total_energy_relative_drift": 3.1359298390225487e-06
+    },
+    {
+      "T_bulk_open": 0.0036816481803020186,
+      "T_coupling": 0.01275058844075225,
+      "T_current": 0.010049219887830524,
+      "instantaneous_coupling_current_over_E0": 0.007363135498224164,
+      "time": 31.0,
+      "total_energy_relative_drift": 5.7215056548490656e-06
+    },
+    {
+      "T_bulk_open": 0.004033653678998101,
+      "T_coupling": 0.015189384609628159,
+      "T_current": 0.011619289209549534,
+      "instantaneous_coupling_current_over_E0": 0.008242974329896551,
+      "time": 31.2,
+      "total_energy_relative_drift": 7.284349913635075e-06
+    },
+    {
+      "T_bulk_open": 0.004455816452198496,
+      "T_coupling": 0.01771129507674692,
+      "T_current": 0.013300910005204203,
+      "instantaneous_coupling_current_over_E0": 0.008457885317055774,
+      "time": 31.400000000000002,
+      "total_energy_relative_drift": 7.324749508520104e-06
+    },
+    {
+      "T_bulk_open": 0.0049583549548019865,
+      "T_coupling": 0.020013553786126747,
+      "T_current": 0.014953067586585446,
+      "instantaneous_coupling_current_over_E0": 0.00795176088830372,
+      "time": 31.6,
+      "total_energy_relative_drift": 5.65692969339421e-06
+    },
+    {
+      "T_bulk_open": 0.0055429665907144625,
+      "T_coupling": 0.02181945308033967,
+      "T_current": 0.016439264891542595,
+      "instantaneous_coupling_current_over_E0": 0.006827722215283696,
+      "time": 31.8,
+      "total_energy_relative_drift": 2.490663165217172e-06
+    },
+    {
+      "T_bulk_open": 0.006201765660234012,
+      "T_coupling": 0.022944036643316835,
+      "T_current": 0.017659270248027308,
+      "instantaneous_coupling_current_over_E0": 0.005341207647075836,
+      "time": 32.0,
+      "total_energy_relative_drift": -1.5764386597449286e-06
+    },
+    {
+      "T_bulk_open": 0.00691824940507553,
+      "T_coupling": 0.023345590458688115,
+      "T_current": 0.01857579498137665,
+      "instantaneous_coupling_current_over_E0": 0.0038565526628835476,
+      "time": 32.2,
+      "total_energy_relative_drift": -5.663754707501604e-06
+    },
+    {
+      "T_bulk_open": 0.007670311401202335,
+      "T_coupling": 0.02314933775668606,
+      "T_current": 0.01922933165045389,
+      "instantaneous_coupling_current_over_E0": 0.002773779237335683,
+      "time": 32.4,
+      "total_energy_relative_drift": -8.794697586685491e-06
+    },
+    {
+      "T_bulk_open": 0.008434849268678823,
+      "T_coupling": 0.022635021255246482,
+      "T_current": 0.01973654813355205,
+      "instantaneous_coupling_current_over_E0": 0.00244022012428025,
+      "time": 32.6,
+      "total_energy_relative_drift": -1.0128580824913434e-05
+    },
+    {
+      "T_bulk_open": 0.00919309719102299,
+      "T_coupling": 0.022187875630529392,
+      "T_current": 0.02027112231911558,
+      "instantaneous_coupling_current_over_E0": 0.0030666423569055707,
+      "time": 32.8,
+      "total_energy_relative_drift": -9.183180685099801e-06
+    },
+    {
+      "T_bulk_open": 0.009935558227708138,
+      "T_coupling": 0.02222116249792899,
+      "T_current": 0.021029976460047076,
+      "instantaneous_coupling_current_over_E0": 0.0046681651644082355,
+      "time": 33.0,
+      "total_energy_relative_drift": -5.989069203278555e-06
+    },
+    {
+      "T_bulk_open": 0.010665393042391084,
+      "T_coupling": 0.023085894307605583,
+      "T_current": 0.022191574181220485,
+      "instantaneous_coupling_current_over_E0": 0.007045939829541402,
+      "time": 33.2,
+      "total_energy_relative_drift": -1.1281025175368507e-06
+    },
+    {
+      "T_bulk_open": 0.011399366150170022,
+      "T_coupling": 0.024987669644038688,
+      "T_current": 0.023875332202803825,
+      "instantaneous_coupling_current_over_E0": 0.009816944777873766,
+      "time": 33.4,
+      "total_energy_relative_drift": 4.36497772219564e-06
+    },
+    {
+      "T_bulk_open": 0.012165922704258056,
+      "T_coupling": 0.027930367331789118,
+      "T_current": 0.026111582076029108,
+      "instantaneous_coupling_current_over_E0": 0.01248817445911936,
+      "time": 33.6,
+      "total_energy_relative_drift": 9.223675997661802e-06
+    },
+    {
+      "T_bulk_open": 0.013000575612798137,
+      "T_coupling": 0.031701504443135776,
+      "T_current": 0.02882965448752759,
+      "instantaneous_coupling_current_over_E0": 0.014560564396035902,
+      "time": 33.8,
+      "total_energy_relative_drift": 1.2245814075062786e-05
+    },
+    {
+      "T_bulk_open": 0.01393939317161443,
+      "T_coupling": 0.035905229262807516,
+      "T_current": 0.031867856271336224,
+      "instantaneous_coupling_current_over_E0": 0.01563995125967413,
+      "time": 34.0,
+      "total_energy_relative_drift": 1.2594356064784167e-05
+    },
+    {
+      "T_bulk_open": 0.015011850918786807,
+      "T_coupling": 0.04003810332104217,
+      "T_current": 0.035004181188755416,
+      "instantaneous_coupling_current_over_E0": 0.015529417885489914,
+      "time": 34.2,
+      "total_energy_relative_drift": 1.002759940771732e-05
+    },
+    {
+      "T_bulk_open": 0.016234531633629378,
+      "T_coupling": 0.04359255250955992,
+      "T_current": 0.03800168484827847,
+      "instantaneous_coupling_current_over_E0": 0.014280556273673608,
+      "time": 34.4,
+      "total_energy_relative_drift": 4.9965467545834426e-06
+    },
+    {
+      "T_bulk_open": 0.017607061013499542,
+      "T_coupling": 0.04616567449022479,
+      "T_current": 0.0406587662054373,
+      "instantaneous_coupling_current_over_E0": 0.012190025728463725,
+      "time": 34.6,
+      "total_energy_relative_drift": -1.4238022906184868e-06
+    },
+    {
+      "T_bulk_open": 0.01911126063111254,
+      "T_coupling": 0.047548884571276546,
+      "T_current": 0.04285309190202306,
+      "instantaneous_coupling_current_over_E0": 0.009740344192074406,
+      "time": 34.800000000000004,
+      "total_energy_relative_drift": -7.763424596902852e-06
+    },
+    {
+      "T_bulk_open": 0.020713862478152704,
+      "T_coupling": 0.04777742223044634,
+      "T_current": 0.04456903138028723,
+      "instantaneous_coupling_current_over_E0": 0.007497140849222626,
+      "time": 35.0,
+      "total_energy_relative_drift": -1.249954826595846e-05
+    },
+    {
+      "T_bulk_open": 0.022372393657859656,
+      "T_coupling": 0.04712738738654732,
+      "T_current": 0.04590205422123079,
+      "instantaneous_coupling_current_over_E0": 0.005985816303272129,
+      "time": 35.2,
+      "total_energy_relative_drift": -1.4432165701646496e-05
+    },
+    {
+      "T_bulk_open": 0.024043163580223115,
+      "T_coupling": 0.046059799388467784,
+      "T_current": 0.04703877045404988,
+      "instantaneous_coupling_current_over_E0": 0.005575937692969169,
+      "time": 35.4,
+      "total_energy_relative_drift": -1.2997869835653051e-05
+    },
+    {
+      "T_bulk_open": 0.025689816530379255,
+      "T_coupling": 0.04512339258765441,
+      "T_current": 0.04821692846861416,
+      "instantaneous_coupling_current_over_E0": 0.0064002530933296746,
+      "time": 35.6,
+      "total_energy_relative_drift": -8.437124343278232e-06
+    },
+    {
+      "T_bulk_open": 0.027290752816273845,
+      "T_coupling": 0.044837528021215135,
+      "T_current": 0.04967435238500769,
+      "instantaneous_coupling_current_over_E0": 0.008327164719223401,
+      "time": 35.800000000000004,
+      "total_energy_relative_drift": -1.7644897363747723e-06
+    },
+    {
+      "T_bulk_open": 0.02884390804536831,
+      "T_coupling": 0.04558132976984664,
+      "T_current": 0.05159834833674014,
+      "instantaneous_coupling_current_over_E0": 0.010992774972709826,
+      "time": 36.0,
+      "total_energy_relative_drift": 5.45848051927018e-06
+    },
+    {
+      "T_bulk_open": 0.030367874637203408,
+      "T_coupling": 0.04751375159491529,
+      "T_current": 0.05408690251073625,
+      "instantaneous_coupling_current_over_E0": 0.01388436909647643,
+      "time": 36.2,
+      "total_energy_relative_drift": 1.1496025233603738e-05
+    },
+    {
+      "T_bulk_open": 0.0318990505059139,
+      "T_coupling": 0.05054205671016359,
+      "T_current": 0.05713008708395393,
+      "instantaneous_coupling_current_over_E0": 0.016455007798024685,
+      "time": 36.4,
+      "total_energy_relative_drift": 1.4865782572479594e-05
+    },
+    {
+      "T_bulk_open": 0.03348526459876501,
+      "T_coupling": 0.054344907516245475,
+      "T_current": 0.060615218363415796,
+      "instantaneous_coupling_current_over_E0": 0.01824184848231753,
+      "time": 36.6,
+      "total_energy_relative_drift": 1.4714125097784777e-05
+    },
+    {
+      "T_bulk_open": 0.03517700640829268,
+      "T_coupling": 0.05844367537323853,
+      "T_current": 0.0643537028500004,
+      "instantaneous_coupling_current_over_E0": 0.018960644331331655,
+      "time": 36.800000000000004,
+      "total_energy_relative_drift": 1.1042697731588688e-05
+    },
+    {
+      "T_bulk_open": 0.03701784800075295,
+      "T_coupling": 0.06230475915071984,
+      "T_current": 0.06812256409630073,
+      "instantaneous_coupling_current_over_E0": 0.018555538790267497,
+      "time": 37.0,
+      "total_energy_relative_drift": 4.724502082555982e-06
+    },
+    {
+      "T_bulk_open": 0.03903581082640347,
+      "T_coupling": 0.06544923210834563,
+      "T_current": 0.07171057612319295,
+      "instantaneous_coupling_current_over_E0": 0.01719494425997136,
+      "time": 37.2,
+      "total_energy_relative_drift": -2.700626227960724e-06
+    },
+    {
+      "T_bulk_open": 0.04123727342094219,
+      "T_coupling": 0.06754547099276297,
+      "T_current": 0.07495844035125578,
+      "instantaneous_coupling_current_over_E0": 0.01521784151861266,
+      "time": 37.4,
+      "total_energy_relative_drift": -9.404849580983459e-06
+    },
+    {
+      "T_bulk_open": 0.04360457675848789,
+      "T_coupling": 0.06846552120604393,
+      "T_current": 0.07778455023567811,
+      "instantaneous_coupling_current_over_E0": 0.013046692558197789,
+      "time": 37.6,
+      "total_energy_relative_drift": -1.3731889621106204e-05
+    },
+    {
+      "T_bulk_open": 0.04609784510233969,
+      "T_coupling": 0.06829533234773101,
+      "T_current": 0.08019193307667193,
+      "instantaneous_coupling_current_over_E0": 0.01109028627716301,
+      "time": 37.800000000000004,
+      "total_energy_relative_drift": -1.4619175964622857e-05
+    },
+    {
+      "T_bulk_open": 0.048660813481812976,
+      "T_coupling": 0.06730015065269818,
+      "T_current": 0.08225680088243154,
+      "instantaneous_coupling_current_over_E0": 0.009660549063304607,
+      "time": 38.0,
+      "total_energy_relative_drift": -1.187120971713002e-05
+    },
+    {
+      "T_bulk_open": 0.0512297577512397,
+      "T_coupling": 0.06585643317574552,
+      "T_current": 0.08410348010326295,
+      "instantaneous_coupling_current_over_E0": 0.008921760682246946,
+      "time": 38.2,
+      "total_energy_relative_drift": -6.210605942634723e-06
+    },
+    {
+      "T_bulk_open": 0.053744068501917076,
+      "T_coupling": 0.06436822893138532,
+      "T_current": 0.08587322204876026,
+      "instantaneous_coupling_current_over_E0": 0.00888055858032122,
+      "time": 38.4,
+      "total_energy_relative_drift": 9.079063414179141e-07
+    },
+    {
+      "T_bulk_open": 0.05615668135203441,
+      "T_coupling": 0.06318767330575455,
+      "T_current": 0.08769491752849311,
+      "instantaneous_coupling_current_over_E0": 0.00941360206506608,
+      "time": 38.6,
+      "total_energy_relative_drift": 7.672258076451884e-06
+    },
+    {
+      "T_bulk_open": 0.058442527202082435,
+      "T_coupling": 0.06255604096511973,
+      "T_current": 0.08966409301870037,
+      "instantaneous_coupling_current_over_E0": 0.010320100835412667,
+      "time": 38.800000000000004,
+      "total_energy_relative_drift": 1.237880477385463e-05
+    },
+    {
+      "T_bulk_open": 0.06060341474163713,
+      "T_coupling": 0.06257496482319695,
+      "T_current": 0.09183340105195192,
+      "instantaneous_coupling_current_over_E0": 0.011381219762884613,
+      "time": 39.0,
+      "total_energy_relative_drift": 1.386816334651595e-05
+    },
+    {
+      "T_bulk_open": 0.06266828300790739,
+      "T_coupling": 0.06320908505233268,
+      "T_current": 0.0942141774141544,
+      "instantaneous_coupling_current_over_E0": 0.01240886625703234,
+      "time": 39.2,
+      "total_energy_relative_drift": 1.1818526399851117e-05
+    },
+    {
+      "T_bulk_open": 0.06468850341517475,
+      "T_coupling": 0.06431389317639685,
+      "T_current": 0.09678563486363082,
+      "instantaneous_coupling_current_over_E0": 0.013272024595880259,
+      "time": 39.4,
+      "total_energy_relative_drift": 6.82082143922389e-06
+    },
+    {
+      "T_bulk_open": 0.06672876883637548,
+      "T_coupling": 0.06567777882746971,
+      "T_current": 0.09950674494054482,
+      "instantaneous_coupling_current_over_E0": 0.013897567372864517,
+      "time": 39.6,
+      "total_energy_relative_drift": 2.1641862173271775e-07
+    },
+    {
+      "T_bulk_open": 0.06885494978387731,
+      "T_coupling": 0.06706620822681654,
+      "T_current": 0.10232616187255726,
+      "instantaneous_coupling_current_over_E0": 0.014251421427681658,
+      "time": 39.800000000000004,
+      "total_energy_relative_drift": -6.259900649879371e-06
+    },
+    {
+      "T_bulk_open": 0.0711209735082133,
+      "T_coupling": 0.06825834519156639,
+      "T_current": 0.1051874056330466,
+      "instantaneous_coupling_current_over_E0": 0.014312215918146017,
+      "time": 40.0,
+      "total_energy_relative_drift": -1.093713760466632e-05
+    },
+    {
+      "T_bulk_open": 0.0735571442898775,
+      "T_coupling": 0.06907105009136394,
+      "T_current": 0.1080291907511846,
+      "instantaneous_coupling_current_over_E0": 0.01405115671496973,
+      "time": 40.2,
+      "total_energy_relative_drift": -1.2643569442500644e-05
+    },
+    {
+      "T_bulk_open": 0.07616226041446256,
+      "T_coupling": 0.06937029252459959,
+      "T_current": 0.11078326966851906,
+      "instantaneous_coupling_current_over_E0": 0.013428453830156561,
+      "time": 40.4,
+      "total_energy_relative_drift": -1.1004600530414572e-05
+    },
+    {
+      "T_bulk_open": 0.07890134993857977,
+      "T_coupling": 0.06907386419366357,
+      "T_current": 0.11337354787158051,
+      "instantaneous_coupling_current_over_E0": 0.012409427057398111,
+      "time": 40.6,
+      "total_energy_relative_drift": -6.525281763542245e-06
+    },
+    {
+      "T_bulk_open": 0.08170988931984982,
+      "T_coupling": 0.06815074234175164,
+      "T_current": 0.11572000113727351,
+      "instantaneous_coupling_current_over_E0": 0.010994926129763098,
+      "time": 40.800000000000004,
+      "total_energy_relative_drift": -4.393890667840285e-07
+    },
+    {
+      "T_bulk_open": 0.08450413178144045,
+      "T_coupling": 0.06662131487000557,
+      "T_current": 0.11774912057172986,
+      "instantaneous_coupling_current_over_E0": 0.009253872335569076,
+      "time": 41.0,
+      "total_energy_relative_drift": 5.629747158200654e-06
+    },
+    {
+      "T_bulk_open": 0.08719588586200068,
+      "T_coupling": 0.06455966201895837,
+      "T_current": 0.11940982101124603,
+      "instantaneous_coupling_current_over_E0": 0.007343011188896157,
+      "time": 41.2,
+      "total_energy_relative_drift": 1.0102509424315688e-05
+    },
+    {
+      "T_bulk_open": 0.08970902348569686,
+      "T_coupling": 0.062095577302359095,
+      "T_current": 0.12069093642086778,
+      "instantaneous_coupling_current_over_E0": 0.005501518819102688,
+      "time": 41.4,
+      "total_energy_relative_drift": 1.1854208057790967e-05
+    },
+    {
+      "T_bulk_open": 0.09199442132367905,
+      "T_coupling": 0.059411540800194576,
+      "T_current": 0.12163462001362639,
+      "instantaneous_coupling_current_over_E0": 0.004015387570666729,
+      "time": 41.6,
+      "total_energy_relative_drift": 1.0497274904783261e-05
+    },
+    {
+      "T_bulk_open": 0.09404012980758822,
+      "T_coupling": 0.0567295839575033,
+      "T_current": 0.12233992258901619,
+      "instantaneous_coupling_current_over_E0": 0.0031564102408999746,
+      "time": 41.800000000000004,
+      "total_energy_relative_drift": 6.463836712581841e-06
+    },
+    {
+      "T_bulk_open": 0.09587436681315925,
+      "T_coupling": 0.05428526202923387,
+      "T_current": 0.12295276287555355,
+      "instantaneous_coupling_current_over_E0": 0.0031100090777446943,
+      "time": 42.0,
+      "total_energy_relative_drift": 8.716015582627163e-07
+    },
+    {
+      "T_bulk_open": 0.09756033073085983,
+      "T_coupling": 0.052290188921102064,
+      "T_current": 0.12364201693714424,
+      "instantaneous_coupling_current_over_E0": 0.003912011423531519,
+      "time": 42.2,
+      "total_energy_relative_drift": -4.786879917945289e-06
+    },
+    {
+      "T_bulk_open": 0.09918355042432235,
+      "T_coupling": 0.05088942313074508,
+      "T_current": 0.1245655879356028,
+      "instantaneous_coupling_current_over_E0": 0.005414599903431786,
+      "time": 42.4,
+      "total_energy_relative_drift": -9.045354751534684e-06
+    },
+    {
+      "T_bulk_open": 0.10083416506280894,
+      "T_coupling": 0.05012371175202945,
+      "T_current": 0.1258338464719775,
+      "instantaneous_coupling_current_over_E0": 0.007295557697030923,
+      "time": 42.6,
+      "total_energy_relative_drift": -1.0846459140311804e-05
+    },
+    {
+      "T_bulk_open": 0.10258776247326572,
+      "T_coupling": 0.04990770807023715,
+      "T_current": 0.12747961756663137,
+      "instantaneous_coupling_current_over_E0": 0.009113968372041988,
+      "time": 42.800000000000004,
+      "total_energy_relative_drift": -9.804218542897164e-06
+    },
+    {
+      "T_bulk_open": 0.10448888337949103,
+      "T_coupling": 0.050033013988292976,
+      "T_current": 0.12944323570472605,
+      "instantaneous_coupling_current_over_E0": 0.01040264270213318,
+      "time": 43.0,
+      "total_energy_relative_drift": -6.280482204851731e-06
+    },
+    {
+      "T_bulk_open": 0.10654086378875588,
+      "T_coupling": 0.05019952932079503,
+      "T_current": 0.1315780718306361,
+      "instantaneous_coupling_current_over_E0": 0.010776395452996594,
+      "time": 43.2,
+      "total_energy_relative_drift": -1.2622586407467301e-06
+    },
+    {
+      "T_bulk_open": 0.10870439280309147,
+      "T_coupling": 0.05007139988426108,
+      "T_current": 0.13367705117182047,
+      "instantaneous_coupling_current_over_E0": 0.010029224850532065,
+      "time": 43.4,
+      "total_energy_relative_drift": 3.918867364180839e-06
+    },
+    {
+      "T_bulk_open": 0.11090527335721165,
+      "T_coupling": 0.04934680958667064,
+      "T_current": 0.13551527417849735,
+      "instantaneous_coupling_current_over_E0": 0.008194480776781575,
+      "time": 43.6,
+      "total_energy_relative_drift": 7.944169304059769e-06
+    },
+    {
+      "T_bulk_open": 0.11304981126103822,
+      "T_coupling": 0.047826040263937435,
+      "T_current": 0.1368993862136935,
+      "instantaneous_coupling_current_over_E0": 0.0055503157729480754,
+      "time": 43.800000000000004,
+      "total_energy_relative_drift": 9.845365352916459e-06
+    },
+    {
+      "T_bulk_open": 0.11504450591151755,
+      "T_coupling": 0.04546120267849145,
+      "T_current": 0.13771208353355419,
+      "instantaneous_coupling_current_over_E0": 0.002566130813171412,
+      "time": 44.0,
+      "total_energy_relative_drift": 9.236226482121188e-06
+    },
+    {
+      "T_bulk_open": 0.11681569891640518,
+      "T_coupling": 0.042374396302261606,
+      "T_current": 0.13794080382620325,
+      "instantaneous_coupling_current_over_E0": -0.0001991397954618849,
+      "time": 44.2,
+      "total_energy_relative_drift": 6.383850583948428e-06
+    },
+    {
+      "T_bulk_open": 0.11832481341350717,
+      "T_coupling": 0.03883813938274452,
+      "T_current": 0.1376831651817081,
+      "instantaneous_coupling_current_over_E0": -0.002223283353454874,
+      "time": 44.4,
+      "total_energy_relative_drift": 2.10889601903621e-06
+    },
+    {
+      "T_bulk_open": 0.11957580986923935,
+      "T_coupling": 0.035220997331530474,
+      "T_current": 0.13712724789085973,
+      "instantaneous_coupling_current_over_E0": -0.0031410720147375566,
+      "time": 44.6,
+      "total_energy_relative_drift": -2.451516765622491e-06
+    },
+    {
+      "T_bulk_open": 0.12061326869867525,
+      "T_coupling": 0.03191007283201712,
+      "T_current": 0.13651095862056262,
+      "instantaneous_coupling_current_over_E0": -0.002828920731464589,
+      "time": 44.800000000000004,
+      "total_energy_relative_drift": -6.150225824154021e-06
+    },
+    {
+      "T_bulk_open": 0.12151166485057283,
+      "T_coupling": 0.029228070889480935,
+      "T_current": 0.13606988975229922,
+      "instantaneous_coupling_current_over_E0": -0.001432928288743539,
+      "time": 45.0,
+      "total_energy_relative_drift": -8.12233595453681e-06
+    },
+    {
+      "T_bulk_open": 0.12235840958038514,
+      "T_coupling": 0.027364353429520438,
+      "T_current": 0.1359859433148201,
+      "instantaneous_coupling_current_over_E0": 0.0006666441064445356,
+      "time": 45.2,
+      "total_energy_relative_drift": -7.987580443109914e-06
+    },
+    {
+      "T_bulk_open": 0.12323461938216178,
+      "T_coupling": 0.026336229241612497,
+      "T_current": 0.13634878862519342,
+      "instantaneous_coupling_current_over_E0": 0.0029455582569024963,
+      "time": 45.4,
+      "total_energy_relative_drift": -5.915151539273302e-06
+    },
+    {
+      "T_bulk_open": 0.12419800559862222,
+      "T_coupling": 0.025989458269497268,
+      "T_current": 0.13713902585508386,
+      "instantaneous_coupling_current_over_E0": 0.004858069076694599,
+      "time": 45.6,
+      "total_energy_relative_drift": -2.543409424572114e-06
+    },
+    {
+      "T_bulk_open": 0.12527167052841995,
+      "T_coupling": 0.026037443880662235,
+      "T_current": 0.13823657307340154,
+      "instantaneous_coupling_current_over_E0": 0.005961652789032735,
+      "time": 45.800000000000004,
+      "total_energy_relative_drift": 1.2138817090999524e-06
+    },
+    {
+      "T_bulk_open": 0.12644111321645402,
+      "T_coupling": 0.026129283926330873,
+      "T_current": 0.13945166721276353,
+      "instantaneous_coupling_current_over_E0": 0.006014030476992394,
+      "time": 46.0,
+      "total_energy_relative_drift": 4.416009083446037e-06
+    },
+    {
+      "T_bulk_open": 0.1276597682373499,
+      "T_coupling": 0.025930114614383062,
+      "T_current": 0.14057052742716775,
+      "instantaneous_coupling_current_over_E0": 0.005020113546143812,
+      "time": 46.2,
+      "total_energy_relative_drift": 6.330918047777612e-06
+    },
+    {
+      "T_bulk_open": 0.12886141428461992,
+      "T_coupling": 0.025194668677142516,
+      "T_current": 0.14140449056175333,
+      "instantaneous_coupling_current_over_E0": 0.0032194655603687648,
+      "time": 46.4,
+      "total_energy_relative_drift": 6.599913098527412e-06
+    },
+    {
+      "T_bulk_open": 0.1299762744819779,
+      "T_coupling": 0.02381721037071542,
+      "T_current": 0.141831034867069,
+      "instantaneous_coupling_current_over_E0": 0.0010197411414797869,
+      "time": 46.6,
+      "total_energy_relative_drift": 5.296196814055049e-06
+    },
+    {
+      "T_bulk_open": 0.1309469335997047,
+      "T_coupling": 0.021847295971059954,
+      "T_current": 0.14181755187316736,
+      "instantaneous_coupling_current_over_E0": -0.0011055216341693702,
+      "time": 46.800000000000004,
+      "total_energy_relative_drift": 2.8710942813074673e-06
+    },
+    {
+      "T_bulk_open": 0.13174045131394174,
+      "T_coupling": 0.019469418653629476,
+      "T_current": 0.14142328033013313,
+      "instantaneous_coupling_current_over_E0": -0.0027286041708744616,
+      "time": 47.0,
+      "total_energy_relative_drift": 1.0116121838433692e-08
+    },
+    {
+      "T_bulk_open": 0.13235414865300904,
+      "T_coupling": 0.016953284227413712,
+      "T_current": 0.14078025174563263,
+      "instantaneous_coupling_current_over_E0": -0.003561744638921774,
+      "time": 47.2,
+      "total_energy_relative_drift": -2.5577919060444302e-06
+    },
+    {
+      "T_bulk_open": 0.13281417775030416,
+      "T_coupling": 0.014588062830102907,
+      "T_current": 0.14005902370112863,
+      "instantaneous_coupling_current_over_E0": -0.0035124794651437505,
+      "time": 47.4,
+      "total_energy_relative_drift": -4.24529454917893e-06
+    },
+    {
+      "T_bulk_open": 0.13316772813822156,
+      "T_coupling": 0.012616942913825523,
+      "T_current": 0.1394282071734126,
+      "instantaneous_coupling_current_over_E0": -0.0026896848771290585,
+      "time": 47.6,
+      "total_energy_relative_drift": -4.738711252595549e-06
+    },
+    {
+      "T_bulk_open": 0.13347114776936922,
+      "T_coupling": 0.011187148800612896,
+      "T_current": 0.13901763561228322,
+      "instantaneous_coupling_current_over_E0": -0.001362443996736741,
+      "time": 47.800000000000004,
+      "total_energy_relative_drift": -4.047737630158421e-06
+    },
+    {
+      "T_bulk_open": 0.13377703942065794,
+      "T_coupling": 0.010325822267602236,
+      "T_current": 0.13889342752104153,
+      "instantaneous_coupling_current_over_E0": 0.0001148944236489682,
+      "time": 48.0,
+      "total_energy_relative_drift": -2.4684125859258343e-06
+    },
+    {
+      "T_bulk_open": 0.13412338796609408,
+      "T_coupling": 0.009945234300454044,
+      "T_current": 0.13904972604284194,
+      "instantaneous_coupling_current_over_E0": 0.001390968867025986,
+      "time": 48.2,
+      "total_energy_relative_drift": -4.785460132673914e-07
+    },
+    {
+      "T_bulk_open": 0.13452704026666487,
+      "T_coupling": 0.009873556880720408,
+      "T_current": 0.13941755223793637,
+      "instantaneous_coupling_current_over_E0": 0.002196934573989759,
+      "time": 48.4,
+      "total_energy_relative_drift": 1.3998532468913935e-06
+    },
+    {
+      "T_bulk_open": 0.13498263188845716,
+      "T_coupling": 0.009901695826312382,
+      "T_current": 0.13988712142158494,
+      "instantaneous_coupling_current_over_E0": 0.002399237489796871,
+      "time": 48.6,
+      "total_energy_relative_drift": 2.732844614669266e-06
+    },
+    {
+      "T_bulk_open": 0.13546667237617346,
+      "T_coupling": 0.009833752670376747,
+      "T_current": 0.14033712603951334,
+      "instantaneous_coupling_current_over_E0": 0.0020156868439918448,
+      "time": 48.800000000000004,
+      "total_energy_relative_drift": 3.2697893266086152e-06
+    },
+    {
+      "T_bulk_open": 0.1359453133181496,
+      "T_coupling": 0.009529025272436832,
+      "T_current": 0.14066347281572805,
+      "instantaneous_coupling_current_over_E0": 0.0011946758519626348,
+      "time": 49.0,
+      "total_energy_relative_drift": 2.9828777214902375e-06
+    },
+    {
+      "T_bulk_open": 0.13638360293798185,
+      "T_coupling": 0.008926688025558991,
+      "T_current": 0.14080085564447006,
+      "instantaneous_coupling_current_over_E0": 0.0001663016198911652,
+      "time": 49.2,
+      "total_energy_relative_drift": 2.0476039000337795e-06
+    },
+    {
+      "T_bulk_open": 0.13675390949057495,
+      "T_coupling": 0.00804933831137121,
+      "T_current": 0.14073294409769313,
+      "instantaneous_coupling_current_over_E0": -0.0008199948164238288,
+      "time": 49.4,
+      "total_energy_relative_drift": 7.751541353001697e-07
+    },
+    {
+      "T_bulk_open": 0.13704164440028407,
+      "T_coupling": 0.006987030283371575,
+      "T_current": 0.14049012949433679,
+      "instantaneous_coupling_current_over_E0": -0.0015549733627894648,
+      "time": 49.6,
+      "total_energy_relative_drift": -4.815410229852682e-07
+    },
+    {
+      "T_bulk_open": 0.1372472669923587,
+      "T_coupling": 0.005867861155390342,
+      "T_current": 0.14013683991821932,
+      "instantaneous_coupling_current_over_E0": -0.0019125345148331585,
+      "time": 49.800000000000004,
+      "total_energy_relative_drift": -1.4213241942941656e-06
+    },
+    {
+      "T_bulk_open": 0.13738455474755373,
+      "T_coupling": 0.004823644013708429,
+      "T_current": 0.1397526696990556,
+      "instantaneous_coupling_current_over_E0": -0.0018678719035665823,
+      "time": 50.0,
+      "total_energy_relative_drift": -1.863428875257023e-06
+    },
+    {
+      "T_bulk_open": 0.13747601378833216,
+      "T_coupling": 0.003959313190849527,
+      "T_current": 0.13941251489342607,
+      "instantaneous_coupling_current_over_E0": -0.0014896213872631586,
+      "time": 50.2,
+      "total_energy_relative_drift": -1.7759324902895264e-06
+    },
+    {
+      "T_bulk_open": 0.1375468775118827,
+      "T_coupling": 0.0033327157129440696,
+      "T_current": 0.13917048412577676,
+      "instantaneous_coupling_current_over_E0": -0.0009112189190201366,
+      "time": 50.4,
+      "total_energy_relative_drift": -1.2618810233274926e-06
+    },
+    {
+      "T_bulk_open": 0.13761929319552899,
+      "T_coupling": 0.002948094242831064,
+      "T_current": 0.13905083409338578,
+      "instantaneous_coupling_current_over_E0": -0.00029103301748443594,
+      "time": 50.6,
+      "total_energy_relative_drift": -5.131261052898458e-07
+    },
+    {
+      "T_bulk_open": 0.1377080406148321,
+      "T_coupling": 0.002762859142430545,
+      "T_current": 0.13904707199479058,
+      "instantaneous_coupling_current_over_E0": 0.00022771168990854562,
+      "time": 50.800000000000004,
+      "total_energy_relative_drift": 2.508822052013e-07
+    },
+    {
+      "T_bulk_open": 0.13781857732715705,
+      "T_coupling": 0.002704138854905139,
+      "T_current": 0.1391282659784608,
+      "instantaneous_coupling_current_over_E0": 0.0005476467384534975,
+      "time": 51.0,
+      "total_energy_relative_drift": 8.413948473142178e-07
+    },
+    {
+      "T_bulk_open": 0.13794753580562505,
+      "T_coupling": 0.0026897722186620112,
+      "T_current": 0.13925002411522505,
+      "instantaneous_coupling_current_over_E0": 0.0006326329276436465,
+      "time": 51.2,
+      "total_energy_relative_drift": 1.14207232349837e-06
+    },
+    {
+      "T_bulk_open": 0.1380851896705376,
+      "T_coupling": 0.002648134324356881,
+      "T_current": 0.13936685902438184,
+      "instantaneous_coupling_current_over_E0": 0.0005063858700734761,
+      "time": 51.4,
+      "total_energy_relative_drift": 1.1268538776208369e-06
+    },
+    {
+      "T_bulk_open": 0.1382190022109058,
+      "T_coupling": 0.0025323144935369816,
+      "T_current": 0.13944281418714236,
+      "instantaneous_coupling_current_over_E0": 0.0002372099253271808,
+      "time": 51.6,
+      "total_energy_relative_drift": 8.53120647773493e-07
+    },
+    {
+      "T_bulk_open": 0.13833724213626164,
+      "T_coupling": 0.002326209285619614,
+      "T_current": 0.13945812056058488,
+      "instantaneous_coupling_current_over_E0": -8.536044366102617e-05,
+      "time": 51.800000000000004,
+      "total_energy_relative_drift": 4.3476054462431693e-07
+    },
+    {
+      "T_bulk_open": 0.1384317915533179,
+      "T_coupling": 0.002042415033063006,
+      "T_current": 0.13941095125755976,
+      "instantaneous_coupling_current_over_E0": -0.00037513278794140415,
+      "time": 52.0,
+      "total_energy_relative_drift": 4.059209811380729e-09
+    },
+    {
+      "T_bulk_open": 0.13849960533842537,
+      "T_coupling": 0.0017137895890581589,
+      "T_current": 0.13931466725343805,
+      "instantaneous_coupling_current_over_E0": -0.000568940133617549,
+      "time": 52.2,
+      "total_energy_relative_drift": -3.2623620060416713e-07
+    },
+    {
+      "T_bulk_open": 0.13854269685648,
+      "T_coupling": 0.0013817654892406145,
+      "T_current": 0.13919196803529554,
+      "instantaneous_coupling_current_over_E0": -0.0006374945103366501,
+      "time": 52.4,
+      "total_energy_relative_drift": -4.899701947497535e-07
+    },
+    {
+      "T_bulk_open": 0.1385669057737367,
+      "T_coupling": 0.0010847607623425133,
+      "T_current": 0.13906787354404976,
+      "instantaneous_coupling_current_over_E0": -0.0005862629543096534,
+      "time": 52.6,
+      "total_energy_relative_drift": -4.77220719754939e-07
+    },
+    {
+      "T_bulk_open": 0.13857995945104654,
+      "T_coupling": 0.0008494376792786554,
+      "T_current": 0.13896342182930813,
+      "instantaneous_coupling_current_over_E0": -0.00044784884817396545,
+      "time": 52.800000000000004,
+      "total_energy_relative_drift": -3.263894168138819e-07
+    },
+    {
+      "T_bulk_open": 0.13858942567615143,
+      "T_coupling": 0.0006863925309506373,
+      "T_current": 0.13889147032249727,
+      "instantaneous_coupling_current_over_E0": -0.0002691972045012497,
+      "time": 53.0,
+      "total_energy_relative_drift": -1.0440788451403234e-07
+    },
+    {
+      "T_bulk_open": 0.13860107707560992,
+      "T_coupling": 0.0005905050647302554,
+      "T_current": 0.13885523502286565,
+      "instantaneous_coupling_current_over_E0": -9.765206200385637e-05,
+      "time": 53.2,
+      "total_energy_relative_drift": 1.1660137986696432e-07
+    },
+    {
+      "T_bulk_open": 0.13861799311049974,
+      "T_coupling": 0.0005450014167521136,
+      "T_current": 0.13884942101932504,
+      "instantaneous_coupling_current_over_E0": 3.0516450836945772e-05,
+      "time": 53.4,
+      "total_energy_relative_drift": 2.7893809530055615e-07
+    },
+    {
+      "T_bulk_open": 0.1386404831344027,
+      "T_coupling": 0.0005275494496070179,
+      "T_current": 0.13886318853498586,
+      "instantaneous_coupling_current_over_E0": 9.674025795467136e-05,
+      "time": 53.6,
+      "total_energy_relative_drift": 3.5118675664948877e-07
+    },
+    {
+      "T_bulk_open": 0.1386666934729714,
+      "T_coupling": 0.0005165161190954478,
+      "T_current": 0.13888388375234317,
+      "instantaneous_coupling_current_over_E0": 0.00010118406301348676,
+      "time": 53.800000000000004,
+      "total_energy_relative_drift": 3.3145788230753916e-07
+    },
+    {
+      "T_bulk_open": 0.13869361535594574,
+      "T_coupling": 0.0004958237687470534,
+      "T_current": 0.13890047099678415,
+      "instantaneous_coupling_current_over_E0": 5.895544670365175e-05,
+      "time": 54.0,
+      "total_energy_relative_drift": 2.429966840125936e-07
+    },
+    {
+      "T_bulk_open": 0.1387181630603528,
+      "T_coupling": 0.00045748114808087767,
+      "T_current": 0.13890587434855414,
+      "instantaneous_coupling_current_over_E0": -6.662782693375541e-06,
+      "time": 54.2,
+      "total_energy_relative_drift": 1.2405802960020467e-07
+    },
+    {
+      "T_bulk_open": 0.13873803733054346,
+      "T_coupling": 0.0004016164110578898,
+      "T_current": 0.1388978575726837,
+      "instantaneous_coupling_current_over_E0": -7.170205808275697e-05,
+      "time": 54.4,
+      "total_energy_relative_drift": 1.4838940416408508e-08
+    },
+    {
+      "T_bulk_open": 0.13875219929385957,
+      "T_coupling": 0.0003344949591435405,
+      "T_current": 0.13887850865211093,
+      "instantaneous_coupling_current_over_E0": -0.00011769453198761772,
+      "time": 54.6,
+      "total_energy_relative_drift": -5.4755527169316204e-08
+    },
+    {
+      "T_bulk_open": 0.13876091431538612,
+      "T_coupling": 0.0002654176900100193,
+      "T_current": 0.13885273540574014,
+      "instantaneous_coupling_current_over_E0": -0.00013523547175773811,
+      "time": 54.800000000000004,
+      "total_energy_relative_drift": -7.25940944636032e-08
+    },
+    {
+      "T_bulk_open": 0.1387654441550241,
+      "T_coupling": 0.0002035055027071273,
+      "T_current": 0.1388263526159149,
+      "instantaneous_coupling_current_over_E0": -0.00012451425504369376,
+      "time": 55.0,
+      "total_energy_relative_drift": -4.475470962936367e-08
+    },
+    {
+      "T_bulk_open": 0.13876754123832563,
+      "T_coupling": 0.0001552112549542521,
+      "T_current": 0.13880433433666345,
+      "instantaneous_coupling_current_over_E0": -9.325978774796284e-05,
+      "time": 55.2,
+      "total_energy_relative_drift": 1.0349551101785156e-08
+    },
+    {
+      "T_bulk_open": 0.138768919310538,
+      "T_coupling": 0.00012305272845318909,
+      "T_current": 0.13878965198685592,
+      "instantaneous_coupling_current_over_E0": -5.3130517984769295e-05,
+      "time": 55.4,
+      "total_energy_relative_drift": 7.071159143543007e-08
+    },
+    {
+      "T_bulk_open": 0.13877084533922412,
+      "T_coupling": 0.00010565128734037213,
+      "T_current": 0.13878288536349664,
+      "instantaneous_coupling_current_over_E0": -1.579172345712943e-05,
+      "time": 55.6,
+      "total_energy_relative_drift": 1.182486106105524e-07
+    },
+    {
+      "T_bulk_open": 0.13877393566793617,
+      "T_coupling": 9.880633766463375e-05,
+      "T_current": 0.13878255488366165,
+      "instantaneous_coupling_current_over_E0": 1.0226173195393838e-05,
+      "time": 55.800000000000004,
+      "total_energy_relative_drift": 1.426895856009851e-07
+    },
+    {
+      "T_bulk_open": 0.13877816782854951,
+      "T_coupling": 9.711661482444926e-05,
+      "T_current": 0.13878594244228382,
+      "instantaneous_coupling_current_over_E0": 2.120294392715511e-05,
+      "time": 56.0,
+      "total_energy_relative_drift": 1.4194810089895182e-07
+    },
+    {
+      "T_bulk_open": 0.13878305913033454,
+      "T_coupling": 9.560804197009307e-05,
+      "T_current": 0.13879008239468804,
+      "instantaneous_coupling_current_over_E0": 1.8268374841325038e-05,
+      "time": 56.2,
+      "total_energy_relative_drift": 1.205780683272639e-07
+    },
+    {
+      "T_bulk_open": 0.1387879281439043,
+      "T_coupling": 9.092799900569687e-05,
+      "T_current": 0.13879261912802454,
+      "instantaneous_coupling_current_over_E0": 6.106931449262571e-06,
+      "time": 56.4,
+      "total_energy_relative_drift": 8.76399271994446e-08
+    },
+    {
+      "T_bulk_open": 0.13879214999603168,
+      "T_coupling": 8.186457009183856e-05,
+      "T_current": 0.13879232165116792,
+      "instantaneous_coupling_current_over_E0": -9.065901765969175e-06,
+      "time": 56.6,
+      "total_energy_relative_drift": 5.421664068286869e-08
+    },
+    {
+      "T_bulk_open": 0.13879533656030227,
+      "T_coupling": 6.917712618569706e-05,
+      "T_current": 0.1387891794651204,
+      "instantaneous_coupling_current_over_E0": -2.1559788410497225e-05,
+      "time": 56.800000000000004,
+      "total_energy_relative_drift": 3.037084947017005e-08
+    },
+    {
+      "T_bulk_open": 0.13879740768953472,
+      "T_coupling": 5.4915731547642035e-05,
+      "T_current": 0.13878413439887452,
+      "instantaneous_coupling_current_over_E0": -2.771865048916246e-05,
+      "time": 57.0,
+      "total_energy_relative_drift": 2.202260656887664e-08
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "model": "OriginalP1passiveharmonicopenfinitejunction;newrampcontactg=(1,2,3,4,5,6)/7;all48physicalcontactsretained.",
+  "prepared_state": "Exactlysame120-siteGaussian/spectralvelocityasreference;bulkexactlyquiet.",
+  "normalization": "DirectmodeenergiesdividedbyinitialOPENscalarlineHq=E0; stationaryweightedpredictionusesall-gridperiodicParsevalenergy. Differenceis9.184e-9relativeandmustnotbeconfusedwithaunit-fluxcarriercoefficient.",
+  "carrier_stationary_qT_fraction": 0.7358742883948081,
+  "stationary_full_grid_inband_packet_qT_contribution": 0.7163064796290152,
+  "stationary_tail_only_interval": [
+    0.7163064796290152,
+    0.7166229868709089
+  ],
+  "stationary_interval_scope": "Omittedspectralweightonly;notquadrature,finite-time,dynamicsorboxerror.",
+  "initial_open_line_E0": 3.5972978303311774e-05,
+  "initial_contact_energy": 1.064211764392121e-22,
+  "frozen_window_source": "FROZEN_WINDOW.json",
+  "frozen_window_sha256": "a24233b2b7fa11fc8691bbaf69b1b205d703f7d81db48198d7b9dfbe8cedf5e8",
+  "initial_box56_result": "NO_ACCEPTED_WINDOW;only53.8passesallpredicates;currentringdownandlaterboundaryexposurepreventduration>=2. Preservedunmodified.",
+  "cases": {
+    "base80": {
+      "result_file": "CANDIDATE_PACKET_BOX80_RESULT.json",
+      "result_sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+      "configuration_file": "candidate_dt004_box80/configuration.json",
+      "configuration_sha256": "57dd89b7845ecde52159767a2b6f58f74da0b363c84c6127d21ef4d6720ee10d",
+      "window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "qT_allocation_interval_average": [
+        0.7164564182492906,
+        0.7164564186765725
+      ],
+      "qT_midpoint_average": 0.7164564184629316,
+      "periodic_bulk_average": 0.7834437501219385,
+      "periodic_qL_midpoint_average": 0.06698733165900683,
+      "qT_share_of_periodic_bulk": 0.914496309851753,
+      "max_total_six_face_energy_shell_fraction": 0.0018742568007564428,
+      "max_axial_energy_shell_fraction": 0.00010770351021495569,
+      "max_transverse_energy_shell_fraction": 0.0017665980307935225,
+      "current_balance_residual_percent": 0.030620941962588112,
+      "max_selected_window_energy_drift_at_cadence_0p2": 1.695266852310476e-07,
+      "max_whole_run_energy_drift_at_saved_checkpoints_only": 4.122942284461946e-05,
+      "whole_run_drift_scope": "Monitorcheckpoints,notmaximumovereveryintegratorlevel. Selectedwindowdriftsareindependentlyevaluatedeach0.2cadence.",
+      "physical_open_energy_partition_average": {
+        "line_total": 0.21731460777891445,
+        "line_left_nodes_0_to_59": 0.1319045190766626,
+        "line_contact_nodes_60_to_66": 0.00029376232124456506,
+        "line_right_nodes_67_to_119": 0.08511632638100732,
+        "open_bulk": 0.7826023803473671,
+        "contact_energy": 8.307163903728196e-05,
+        "sum": 1.0000000597653187
+      },
+      "evolution_wall_seconds": 12.676343856997846,
+      "evolution_peak_RSS_KiB": 934580,
+      "relative_qT_difference_vs_base_percent": 0.0,
+      "difference_vs_stationary_packet_contribution_percentage_points": 0.014993883391645202,
+      "relative_difference_vs_stationary_packet_contribution_percent": 0.020932218007319037
+    },
+    "half_step80": {
+      "result_file": "CONTROL_DT002_BOX80_RESULT.json",
+      "result_sha256": "02a6758a4c2b53a1b7c164144b52f06223b570c20be240a875b460a33cbdca5d",
+      "configuration_file": "control_dt002_box80/configuration.json",
+      "configuration_sha256": "0d2a3d08d603ed097cd32fed3d5de93c5e6c2a0b401d8148e1b0bf20dce5f90c",
+      "window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "qT_allocation_interval_average": [
+        0.7164540864979505,
+        0.7164540869295927
+      ],
+      "qT_midpoint_average": 0.7164540867137716,
+      "periodic_bulk_average": 0.7834389982746194,
+      "periodic_qL_midpoint_average": 0.06698491156084774,
+      "qT_share_of_periodic_bulk": 0.914498880310567,
+      "max_total_six_face_energy_shell_fraction": 0.0018673939744987113,
+      "max_axial_energy_shell_fraction": 0.00010681981864169472,
+      "max_transverse_energy_shell_fraction": 0.0017606184631239943,
+      "current_balance_residual_percent": 0.007653528991837446,
+      "max_selected_window_energy_drift_at_cadence_0p2": 3.7142707936741134e-08,
+      "max_whole_run_energy_drift_at_saved_checkpoints_only": 1.0357740867088126e-05,
+      "whole_run_drift_scope": "Monitorcheckpoints,notmaximumovereveryintegratorlevel. Selectedwindowdriftsareindependentlyevaluatedeach0.2cadence.",
+      "physical_open_energy_partition_average": {
+        "line_total": 0.2173148934958395,
+        "line_left_nodes_0_to_59": 0.13190287617131607,
+        "line_contact_nodes_60_to_66": 0.00029627763484014606,
+        "line_right_nodes_67_to_119": 0.08511573968968321,
+        "open_bulk": 0.7826010217593219,
+        "contact_energy": 8.408187523608221e-05,
+        "sum": 0.9999999971303974
+      },
+      "evolution_wall_seconds": 21.575436647999595,
+      "evolution_peak_RSS_KiB": 934600,
+      "relative_qT_difference_vs_base_percent": -0.0003254558267440366,
+      "difference_vs_stationary_packet_contribution_percentage_points": 0.014760708475647366,
+      "relative_difference_vs_stationary_packet_contribution_percent": 0.020606694055436137
+    },
+    "larger96": {
+      "result_file": "CONTROL_DT004_BOX96_RESULT.json",
+      "result_sha256": "847407288772bc2550d1391726f3d028162441432738e77b5fb9b4c6154e2bd3",
+      "configuration_file": "control_dt004_box96/configuration.json",
+      "configuration_sha256": "5f7c639875f11a1b62780dd348a706fdabb40fb59f143f2c130320ef3859c43c",
+      "window": [
+        57.4,
+        64.2
+      ],
+      "all_five_predicates_pass": true,
+      "qT_allocation_interval_average": [
+        0.7162667758115238,
+        0.716266776094018
+      ],
+      "qT_midpoint_average": 0.7162667759527709,
+      "periodic_bulk_average": 0.782723376192888,
+      "periodic_qL_midpoint_average": 0.06645660024011713,
+      "qT_share_of_periodic_bulk": 0.9150956745876718,
+      "max_total_six_face_energy_shell_fraction": 0.00037581363373565576,
+      "max_axial_energy_shell_fraction": 0.00010772599629372471,
+      "max_transverse_energy_shell_fraction": 0.0002680892684170108,
+      "current_balance_residual_percent": 0.030619237719956185,
+      "max_selected_window_energy_drift_at_cadence_0p2": 1.561874756529231e-07,
+      "max_whole_run_energy_drift_at_saved_checkpoints_only": 4.122942295312112e-05,
+      "whole_run_drift_scope": "Monitorcheckpoints,notmaximumovereveryintegratorlevel. Selectedwindowdriftsareindependentlyevaluatedeach0.2cadence.",
+      "physical_open_energy_partition_average": {
+        "line_total": 0.21731460775523265,
+        "line_left_nodes_0_to_59": 0.13190451909277492,
+        "line_contact_nodes_60_to_66": 0.0002937623524211509,
+        "line_right_nodes_67_to_119": 0.08511632631003657,
+        "open_bulk": 0.7826023834689873,
+        "contact_energy": 8.307167099171036e-05,
+        "sum": 1.0000000628952115
+      },
+      "evolution_wall_seconds": 20.74643782199928,
+      "evolution_peak_RSS_KiB": 1292792,
+      "relative_qT_difference_vs_base_percent": -0.026469510953308628,
+      "difference_vs_stationary_packet_contribution_percentage_points": -0.0039703676244284836,
+      "relative_difference_vs_stationary_packet_contribution_percent": -0.005542833601734909
+    }
+  },
+  "cadence_authority": "CURRENT_CADENCE_CHECKS.json supersedes oldsecondarycommon_mean fields;primaryall0.2meansareunchanged.",
+  "primary_result_policy": "Base80dt0.04isthepredeclaredmainresult;larger96isafixed-windowboxcontrol,notselectedbecauseitisclosertofrequency-domainprediction.",
+  "new_results_are": "Finite-timestoredlower-clusterenergycorroboration,notmonochromatic73.6%measurements,localremoteqTflux,formalexactlatticeerrorenclosureornewglobalcertificate.",
+  "no_further_dynamics_selected": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

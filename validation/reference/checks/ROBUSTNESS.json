@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "one_factor": {
+    "solves": 85,
+    "counts": {
+      "frequency": 49,
+      "coupling_scale": 10,
+      "length": 6,
+      "profile": 5,
+      "source_speed": 10,
+      "stiffness_ratio": 5
+    },
+    "zero_contact_additional_control": true,
+    "max_abs_new_minus_archived_channel_power": 1.9984014443252818e-15,
+    "archive_residual_maxima": [
+      3.968192441305973e-11,
+      8.326672684688674e-17
+    ],
+    "sampled_frequency_extrema_omega_and_incident_qT": [
+      [
+        1.575,
+        0.10486397198471414
+      ],
+      [
+        0.825,
+        0.21774263089260212
+      ]
+    ],
+    "three_taper_scales_Rq_Tq_TqT_TqL": {
+      "1.0": [
+        0.0035751458745579504,
+        0.8597234671980312,
+        0.12569143926167411,
+        0.011009947652782653
+      ],
+      "1.5": [
+        0.005664483417746222,
+        0.657235769662863,
+        0.30889477637826507,
+        0.02820497052834496
+      ],
+      "2.0": [
+        0.04445481284104763,
+        0.38372325000897334,
+        0.5221832770529679,
+        0.049638660084974036
+      ]
+    },
+    "minimum_positive_case_incident_qT": 0.00024610966676734977,
+    "min_emitted_qT_share_in_positive_taper_scale_scan": 0.913192102539082
+  },
+  "tolerance_screen": {
+    "surface": {
+      "solves": 2123,
+      "frequency_points": 11,
+      "profiles_per_frequency": 193,
+      "minimum_qT": 0.1025536273243464,
+      "minimum_omega": 1.3,
+      "minimum_setting": "corner_0",
+      "max_abs_new_minus_archived_channel_power": 2.3314683517128287e-15
+    },
+    "tetra": {
+      "solves": 579,
+      "frequency_points": 3,
+      "profiles_per_frequency": 193,
+      "minimum_qT": 0.1023903029087025,
+      "minimum_omega": 1.3,
+      "minimum_setting": "corner_0",
+      "max_abs_new_minus_archived_channel_power": 2.3314683517128287e-15
+    }
+  },
+  "scope": "New coupled solves on retained numerical bulk response matrices. Common-medium surface principal values reconstructed from archived spectral histograms. No new integration of the underlying bulk shells and no new continuous-domain certificate."
+}

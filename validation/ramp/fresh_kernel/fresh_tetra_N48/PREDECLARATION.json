@@ -1,0 +1,46 @@
+{
+  "omega": 1.2,
+  "grid": 48,
+  "shift": [
+    0,
+    0,
+    0
+  ],
+  "regulator_energy_imaginary": 1e-10,
+  "candidate_g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "new_kernel_evaluations": 1,
+  "additional_frequencies": 0,
+  "ranges": [
+    [
+      0,
+      65536
+    ],
+    [
+      65536,
+      110592
+    ]
+  ],
+  "cube_chunk": 1024,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69
+  },
+  "source_hashes": {
+    "analysis/resolution_execution/tetra/multifrequency_tetra.py": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+    "analysis/math_resolution/tetra/combined_tetra_diagnostic.py": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "analysis/math_resolution/tetra/stable_scalar.py": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "analysis/math_resolution/tetra/centroid_weights.py": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b"
+  },
+  "scope": "Fresh independent corrected tetrahedron integration; one fixed point, no search or rigorous error enclosure."
+}

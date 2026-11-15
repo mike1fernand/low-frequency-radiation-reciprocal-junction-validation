@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "reference_taper": true,
+  "direct_trace_points": 46,
+  "direct_trace_max_absolute_difference_in_energy_fraction": 3.546945515076061e-10,
+  "selector_and_shell_curves_checked": [
+    "coupling",
+    "current",
+    "kinetic shell",
+    "periodic/open",
+    "drift",
+    "total shell"
+  ],
+  "selector_curve_points": 230,
+  "post_selection_total_shell_points": 14,
+  "largest_curve_differences_in_threshold_units": {
+    "coupling": 4.896693509906513e-07,
+    "current": 4.88787796820711e-07,
+    "kinetic shell": 4.749100782075466e-07,
+    "periodic/open": 5.022435995982732e-07,
+    "drift": 5.172793773114415e-07,
+    "total shell": 3.2015184292522036e-07
+  },
+  "accepted_interval_on_both_panels": [
+    52.800000000000004,
+    55.4
+  ],
+  "panel_b_minimum_legend_clearance_points": 10.281621932983398,
+  "surface_line_and_two_method_band_match": true,
+  "scope": "Vector artwork versus archived time-domain outputs and overlays; no additional trajectory simulation."
+}

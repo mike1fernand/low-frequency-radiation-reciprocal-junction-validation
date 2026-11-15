@@ -1,0 +1,2458 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "new_profile_g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "physical_total_spring_stiffness": 24.0,
+  "active_springs": 48,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "preparation": {
+    "schema": "paper1.packet-preparation.v1",
+    "source": "Current Paper 1 Section VII.A and canonical model ModelParameters",
+    "n": 120,
+    "a": 1.0,
+    "m_q": 1.0,
+    "K_q": 1.69,
+    "amplitude": 0.002,
+    "center": 18.0,
+    "sigma": 7.0,
+    "omega0": 1.2,
+    "band": [
+      0.8,
+      1.6
+    ],
+    "nyquist_velocity": "zero",
+    "grid": "full unnormalized forward DFT; conjugate +/-k describe one real packet"
+  },
+  "spectrum_summary": {
+    "n": 120,
+    "carrier_kappa_a": 0.9594572753515053,
+    "periodic_parseval_energy": 3.597297863368444e-05,
+    "periodic_real_space_energy": 3.597297863368443e-05,
+    "open_line_energy": 3.5972978303311774e-05,
+    "parseval_relative_residual": 1.8837093383446523e-16,
+    "periodic_vs_open_relative_difference": 9.183911940883289e-09,
+    "nyquist_energy_fraction": 2.5768734723116623e-07,
+    "coverage": 0.9996834927581062,
+    "outside_fraction": 0.0003165072418938042,
+    "comparison_band": [
+      0.8,
+      1.6
+    ],
+    "weight_definition": "m_q*(abs(vhat)^2+omega_q^2*abs(qhat)^2)/(2*N), full DFT grid"
+  },
+  "nyquist_fraction": 2.5768734723116623e-07,
+  "propagating_fraction": 0.9999997423126527,
+  "initial_ramp_contact_energy": 1.0642117643921177e-22,
+  "initial_open_total_energy": 3.5972978303311774e-05,
+  "periodic_to_initial_open_total_energy_factor": 1.0000000091839119,
+  "families": [
+    {
+      "label": "surface_N128",
+      "method": "surface",
+      "grid": 128,
+      "bulk_regulator": null,
+      "new_ramp_full_energy_in_band_contribution": {
+        "qT": 0.7163304996129106,
+        "qL": 0.06633011827555971,
+        "Tline": 0.08515580973074888,
+        "Rq": 0.13186706512706928
+      },
+      "new_ramp_qT_passivity_tail_interval": [
+        0.7163304996129106,
+        0.7166470068548044
+      ],
+      "new_ramp_qT_conditional_in_band_mean": 0.7165572951860688,
+      "original_reference_qT_in_band_contribution": 0.12768113293380567,
+      "weighted_partition_sum": 0.9996834927462885,
+      "rows": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "positive_index": 12,
+          "negative_index": 108,
+          "paired_weight_over_full_periodic_energy": 0.0003803417401000693,
+          "states": {
+            "reference": {
+              "qT": 0.216568826324065,
+              "qL": 0.021042029168652696,
+              "Tline": 0.530913278439972,
+              "Rq": 0.23147586605241707,
+              "Tbulk": 0.23761085549271768,
+              "closure_abs": 1.4893197786136625e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.2766555438359557,
+              "qL": 0.02725861021873601,
+              "Tline": 0.01101501550883511,
+              "Rq": 0.6850708304264552,
+              "Tbulk": 0.3039141540546917,
+              "closure_abs": 1.0017986440402638e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216
+            }
+          },
+          "kernel_sha256": "9980d7a8b3da8af44676d11d7c6545fa84cdc560233b1be66e78d03932ab3b70"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "positive_index": 13,
+          "negative_index": 107,
+          "paired_weight_over_full_periodic_energy": 0.0022549555720512674,
+          "states": {
+            "reference": {
+              "qT": 0.2142699104425557,
+              "qL": 0.020560602783107427,
+              "Tline": 0.649568632959409,
+              "Rq": 0.11560085380015364,
+              "Tbulk": 0.23483051322566312,
+              "closure_abs": 1.4774181877896808e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.34444751625410186,
+              "qL": 0.03381434412472384,
+              "Tline": 0.015223409311088119,
+              "Rq": 0.6065147302989333,
+              "Tbulk": 0.3782618603788257,
+              "closure_abs": 1.1152856416174473e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155
+            }
+          },
+          "kernel_sha256": "ab73990088db678755f907cc569bc2c868ddc43d64f5764b20270bf390a0ba77"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "positive_index": 14,
+          "negative_index": 106,
+          "paired_weight_over_full_periodic_energy": 0.01003815270723009,
+          "states": {
+            "reference": {
+              "qT": 0.19864584175784283,
+              "qL": 0.018757217024287225,
+              "Tline": 0.7377256149953489,
+              "Rq": 0.04487132620828585,
+              "Tbulk": 0.21740305878213007,
+              "closure_abs": 1.4235168599441295e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285,
+              "stored_reference_regression_max_abs": 5.551115123125783e-17
+            },
+            "ramp": {
+              "qT": 0.4212860378173854,
+              "qL": 0.04110463634790564,
+              "Tline": 0.02105410042959614,
+              "Rq": 0.516555225393072,
+              "Tbulk": 0.462390674165291,
+              "closure_abs": 1.2040812791269673e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285
+            }
+          },
+          "kernel_sha256": "0a9009a5ed8281f74bb2dd2ce414fa989bd7a5c1bfeb0f66fd744957220725a8"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "positive_index": 15,
+          "negative_index": 105,
+          "paired_weight_over_full_periodic_energy": 0.03256586933396941,
+          "states": {
+            "reference": {
+              "qT": 0.17740246031856594,
+              "qL": 0.01644694257118962,
+              "Tline": 0.7939124751592943,
+              "Rq": 0.01223812193728961,
+              "Tbulk": 0.19384940288975555,
+              "closure_abs": 1.3660517161895314e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.5045325680420394,
+              "qL": 0.048790655304220304,
+              "Tline": 0.029256052212467624,
+              "Rq": 0.41742072442868067,
+              "Tbulk": 0.5533232233462597,
+              "closure_abs": 1.2592038522996063e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023
+            }
+          },
+          "kernel_sha256": "850e0ccad5a329b226659f30cdbfe5fd4fd8e0d388a65503bda47087ba5eea76"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "positive_index": 16,
+          "negative_index": 104,
+          "paired_weight_over_full_periodic_energy": 0.0781608166143399,
+          "states": {
+            "reference": {
+              "qT": 0.1571482031526743,
+              "qL": 0.014303452507625545,
+              "Tline": 0.8263193335861091,
+              "Rq": 0.002229010740333138,
+              "Tbulk": 0.17145165566029985,
+              "closure_abs": 1.3257950293166232e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.5878775513840857,
+              "qL": 0.056210869690331226,
+              "Tline": 0.040186893789437975,
+              "Rq": 0.315724685123405,
+              "Tbulk": 0.6440884210744169,
+              "closure_abs": 1.2740031252178596e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958
+            }
+          },
+          "kernel_sha256": "82c04c931c14d92f64f6e23c2d13cf1abd0613f9d6c08689ba7774a28f8f4875"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "positive_index": 17,
+          "negative_index": 103,
+          "paired_weight_over_full_periodic_energy": 0.14119125526123605,
+          "states": {
+            "reference": {
+              "qT": 0.14085392586869966,
+              "qL": 0.012605726963577877,
+              "Tline": 0.8449026710089533,
+              "Rq": 0.0016376761457238557,
+              "Tbulk": 0.15345965283227753,
+              "closure_abs": 1.3045231561648052e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.6629292661227427,
+              "qL": 0.06257440063367599,
+              "Tline": 0.053972035753842774,
+              "Rq": 0.22052429747722124,
+              "Tbulk": 0.7255036667564188,
+              "closure_abs": 1.251732051343879e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831
+            }
+          },
+          "kernel_sha256": "0afe21b070e7ed50b4bbe60a64399221855d8d204f3dafbde129bb14554f126f"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "positive_index": 18,
+          "negative_index": 102,
+          "paired_weight_over_full_periodic_energy": 0.19425124346698544,
+          "states": {
+            "reference": {
+              "qT": 0.12877901000305286,
+              "qL": 0.011348164903322477,
+              "Tline": 0.8567052692201155,
+              "Rq": 0.0031675558605457482,
+              "Tbulk": 0.14012717490637533,
+              "closure_abs": 1.2963408124733178e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.7214427097900767,
+              "qL": 0.0671972022472529,
+              "Tline": 0.07049488950079741,
+              "Rq": 0.14086519844980355,
+              "Tbulk": 0.7886399120373296,
+              "closure_abs": 1.2069456545305002e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316
+            }
+          },
+          "kernel_sha256": "6f06d5975cc1cd302a5e20bf22d4727a5f9b73605c3eb2ffe022e0037e36473b"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "positive_index": 19,
+          "negative_index": 101,
+          "paired_weight_over_full_periodic_energy": 0.20476379566811423,
+          "states": {
+            "reference": {
+              "qT": 0.12027023890818138,
+              "qL": 0.010431180094965884,
+              "Tline": 0.865267494427445,
+              "Rq": 0.0040310865564549625,
+              "Tbulk": 0.13070141900314727,
+              "closure_abs": 1.2952749983696776e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7585149920542721,
+              "qL": 0.06981071228321546,
+              "Tline": 0.08895075275699178,
+              "Rq": 0.08272354289392228,
+              "Tbulk": 0.8283257043374875,
+              "closure_abs": 1.1598388915956548e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619
+            }
+          },
+          "kernel_sha256": "70eee1c6b24227e65135872d6139f6fa3e0d1aaf4d39bac211609d7d60db9059"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "positive_index": 20,
+          "negative_index": 100,
+          "paired_weight_over_full_periodic_energy": 0.16545033636489107,
+          "states": {
+            "reference": {
+              "qT": 0.1144061098944062,
+              "qL": 0.00973460691309735,
+              "Tline": 0.8720516451791934,
+              "Rq": 0.0038076380003293857,
+              "Tbulk": 0.12414071680750355,
+              "closure_abs": 1.297362217655973e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.7749485714484137,
+              "qL": 0.07072086798306301,
+              "Tline": 0.10818104994766824,
+              "Rq": 0.04614951060958182,
+              "Tbulk": 0.8456694394314767,
+              "closure_abs": 1.127320459204384e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604
+            }
+          },
+          "kernel_sha256": "99f8c408f126dcfd57954e65bb861634c1260a8414d4a47ae61e4b1a6ee39a36"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "positive_index": 21,
+          "negative_index": 99,
+          "paired_weight_over_full_periodic_energy": 0.10195194412464159,
+          "states": {
+            "reference": {
+              "qT": 0.11036739443195087,
+              "qL": 0.00915429489310933,
+              "Tline": 0.8775465416263171,
+              "Rq": 0.0029317690356096982,
+              "Tbulk": 0.1195216893250602,
+              "closure_abs": 1.3013035093933922e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085,
+              "stored_reference_regression_max_abs": 7.37257477290143e-18
+            },
+            "ramp": {
+              "qT": 0.7759024058822623,
+              "qL": 0.07051878084760316,
+              "Tline": 0.12727069198787844,
+              "Rq": 0.026308121271099945,
+              "Tbulk": 0.8464211867298654,
+              "closure_abs": 1.1156076062945885e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085
+            }
+          },
+          "kernel_sha256": "a7c117e68386c4a7ee6f71cbbf98aedc5a24bed5db9509d5c618e02b748b436a"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "positive_index": 22,
+          "negative_index": 98,
+          "paired_weight_over_full_periodic_energy": 0.04739023713502802,
+          "states": {
+            "reference": {
+              "qT": 0.10764252905630438,
+              "qL": 0.008626888296828528,
+              "Tline": 0.8818011027697867,
+              "Rq": 0.0019294798640072954,
+              "Tbulk": 0.11626941735313291,
+              "closure_abs": 1.3073098159566143e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7682049286130834,
+              "qL": 0.06984339721608489,
+              "Tline": 0.14528060564003073,
+              "Rq": 0.016671068519597355,
+              "Tbulk": 0.8380483258291683,
+              "closure_abs": 1.1203593608399842e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739
+            }
+          },
+          "kernel_sha256": "8afe44cd599a89e6972f3e714a80a640ee0499a7eeffdc8ae1ab0046ef21d3ed"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "positive_index": 23,
+          "negative_index": 97,
+          "paired_weight_over_full_periodic_energy": 0.016351829445508684,
+          "states": {
+            "reference": {
+              "qT": 0.10591653396851679,
+              "qL": 0.008117490587254113,
+              "Tline": 0.8848498204869276,
+              "Rq": 0.0011161549441411458,
+              "Tbulk": 0.1140340245557709,
+              "closure_abs": 1.316036168930168e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7572956421518855,
+              "qL": 0.069069570900486,
+              "Tline": 0.16173143508731766,
+              "Rq": 0.011903351848983097,
+              "Tbulk": 0.8263652130523715,
+              "closure_abs": 1.1327716542552935e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912
+            }
+          },
+          "kernel_sha256": "46e91be65cd5a993f32bb8839e35d94b7ee2091049aaa57fb69f2db257b578dc"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "positive_index": 24,
+          "negative_index": 96,
+          "paired_weight_over_full_periodic_energy": 0.0041358190933820215,
+          "states": {
+            "reference": {
+              "qT": 0.10499496486493333,
+              "qL": 0.007611164182754287,
+              "Tline": 0.886812334221015,
+              "Rq": 0.0005815367180180595,
+              "Tbulk": 0.11260612904768762,
+              "closure_abs": 1.3279266575239035e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.7462563569051489,
+              "qL": 0.06826281089822914,
+              "Tline": 0.1765495241170914,
+              "Rq": 0.008931308068082294,
+              "Tbulk": 0.8145191678033781,
+              "closure_abs": 1.1448286763027227e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915
+            }
+          },
+          "kernel_sha256": "7230ddcf2274ecb985d29229dad92e6515e20a3b078d89fe9ff3891b8046f47e"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "positive_index": 25,
+          "negative_index": 95,
+          "paired_weight_over_full_periodic_energy": 0.0007968962306283971,
+          "states": {
+            "reference": {
+              "qT": 0.10486812421566123,
+              "qL": 0.00711391878101214,
+              "Tline": 0.8877328850646262,
+              "Rq": 0.00028507192527116174,
+              "Tbulk": 0.11198204299667337,
+              "closure_abs": 1.3429257705865894e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204,
+              "stored_reference_regression_max_abs": 2.927345865710862e-18
+            },
+            "ramp": {
+              "qT": 0.7372416251412118,
+              "qL": 0.06742925114049503,
+              "Tline": 0.18875207050246906,
+              "Rq": 0.006577053204300336,
+              "Tbulk": 0.8046708762817069,
+              "closure_abs": 1.1523781928701737e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204
+            }
+          },
+          "kernel_sha256": "8db17bc29281bc3ae4f2177f978127645d8ccc45fcd99fe761a7a869c55ea744"
+        }
+      ],
+      "qT_in_band_contribution_per_initial_open_total_energy": 0.7163305061916267,
+      "qT_tail_interval_per_initial_open_total_energy": [
+        0.7163305061916267,
+        0.7166470134364273
+      ]
+    },
+    {
+      "label": "surface_N160",
+      "method": "surface",
+      "grid": 160,
+      "bulk_regulator": null,
+      "new_ramp_full_energy_in_band_contribution": {
+        "qT": 0.7163064796290152,
+        "qL": 0.06633223302091823,
+        "Tline": 0.08512617236127365,
+        "Rq": 0.13191860773507982
+      },
+      "new_ramp_qT_passivity_tail_interval": [
+        0.7163064796290152,
+        0.716622986870909
+      ],
+      "new_ramp_qT_conditional_in_band_mean": 0.7165332675972675,
+      "original_reference_qT_in_band_contribution": 0.12767301846182993,
+      "weighted_partition_sum": 0.9996834927462869,
+      "rows": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "positive_index": 12,
+          "negative_index": 108,
+          "paired_weight_over_full_periodic_energy": 0.0003803417401000693,
+          "states": {
+            "reference": {
+              "qT": 0.21655601876672237,
+              "qL": 0.021044991347166087,
+              "Tline": 0.5309191549474342,
+              "Rq": 0.2314798349237846,
+              "Tbulk": 0.23760101011388846,
+              "closure_abs": 1.4892753696926775e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216,
+              "stored_reference_regression_max_abs": 5.551115123125783e-17
+            },
+            "ramp": {
+              "qT": 0.2766340589146208,
+              "qL": 0.02726140284189381,
+              "Tline": 0.011009650993401933,
+              "Rq": 0.6850948872400647,
+              "Tbulk": 0.3038954617565146,
+              "closure_abs": 1.0018763596519875e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216
+            }
+          },
+          "kernel_sha256": "f9e7a1251bad439eabb49d70997c3adf52a4f6f7ae6b40c7e911fb80dbf6a0c2"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "positive_index": 13,
+          "negative_index": 107,
+          "paired_weight_over_full_periodic_energy": 0.0022549555720512674,
+          "states": {
+            "reference": {
+              "qT": 0.21425449705319444,
+              "qL": 0.02056322403149937,
+              "Tline": 0.6495792758651577,
+              "Rq": 0.11560300303537432,
+              "Tbulk": 0.23481772108469381,
+              "closure_abs": 1.4774181877896808e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.3444150128373844,
+              "qL": 0.03381726188202107,
+              "Tline": 0.01521556587430183,
+              "Rq": 0.6065521593951398,
+              "Tbulk": 0.37823227471940546,
+              "closure_abs": 1.1152856416174473e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155
+            }
+          },
+          "kernel_sha256": "a9ebaa4b24ae1f6825e26bb271a0f6905a20be888b1fc9eb3092c54b0c424e42"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "positive_index": 14,
+          "negative_index": 106,
+          "paired_weight_over_full_periodic_energy": 0.01003815270723009,
+          "states": {
+            "reference": {
+              "qT": 0.19863098536891338,
+              "qL": 0.01875906241483276,
+              "Tline": 0.7377384826669542,
+              "Rq": 0.044871469535064296,
+              "Tbulk": 0.21739004778374615,
+              "closure_abs": 1.423539064404622e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285,
+              "stored_reference_regression_max_abs": 5.551115123125783e-17
+            },
+            "ramp": {
+              "qT": 0.4212441709221885,
+              "qL": 0.04110613381506755,
+              "Tline": 0.021042192560086204,
+              "Rq": 0.5166075026906161,
+              "Tbulk": 0.4623503047372561,
+              "closure_abs": 1.2041700969689373e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285
+            }
+          },
+          "kernel_sha256": "e651daca7156aea6bdc8071ff857e0e6fe70ae6c1702f6883753986ca360d582"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "positive_index": 15,
+          "negative_index": 105,
+          "paired_weight_over_full_periodic_energy": 0.03256586933396941,
+          "states": {
+            "reference": {
+              "qT": 0.17738863984303319,
+              "qL": 0.01644914052255238,
+              "Tline": 0.7939249226877262,
+              "Rq": 0.01223729693302588,
+              "Tbulk": 0.19383778036558558,
+              "closure_abs": 1.3662404541037176e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.5044856465146531,
+              "qL": 0.0487912890617229,
+              "Tline": 0.02924004969442556,
+              "Rq": 0.4174830147166053,
+              "Tbulk": 0.553276935576376,
+              "closure_abs": 1.2593148746020688e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023
+            }
+          },
+          "kernel_sha256": "955d5da14609613b7e20bb907de2138a6b904b5fee3c74899ec8d8e8b7500a09"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "positive_index": 16,
+          "negative_index": 104,
+          "paired_weight_over_full_periodic_energy": 0.0781608166143399,
+          "states": {
+            "reference": {
+              "qT": 0.15713447575370001,
+              "qL": 0.014305164308525745,
+              "Tline": 0.8263323379911212,
+              "Rq": 0.002228021933394941,
+              "Tbulk": 0.17143964006222576,
+              "closure_abs": 1.3258172337771157e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.5878299194121731,
+              "qL": 0.056208085339805126,
+              "Tline": 0.04016674628425318,
+              "Rq": 0.31579524895102706,
+              "Tbulk": 0.6440380047519783,
+              "closure_abs": 1.2741474542110609e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958
+            }
+          },
+          "kernel_sha256": "6b705ca1a2503277cd1d15e86b15efec5e5ee146f2bfb28384d8b4812ff21dcd"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "positive_index": 17,
+          "negative_index": 103,
+          "paired_weight_over_full_periodic_energy": 0.14119125526123605,
+          "states": {
+            "reference": {
+              "qT": 0.14083992374017254,
+              "qL": 0.012607292906038856,
+              "Tline": 0.8449158451322109,
+              "Rq": 0.0016369382085332637,
+              "Tbulk": 0.1534472166462114,
+              "closure_abs": 1.3044454405530814e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.6628872227283134,
+              "qL": 0.06257195459256526,
+              "Tline": 0.053950932516306054,
+              "Rq": 0.2205898901502962,
+              "Tbulk": 0.7254591773208786,
+              "closure_abs": 1.251909687027819e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831
+            }
+          },
+          "kernel_sha256": "5e55321bd111d34014759aa85e3c3edd85b526f4be7a2c59388d13868ab4e2c0"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "positive_index": 18,
+          "negative_index": 102,
+          "paired_weight_over_full_periodic_energy": 0.19425124346698544,
+          "states": {
+            "reference": {
+              "qT": 0.1287671448747037,
+              "qL": 0.011349893206495805,
+              "Tline": 0.8567159266622015,
+              "Rq": 0.0031670352436354494,
+              "Tbulk": 0.1401170380811995,
+              "closure_abs": 1.296351914703564e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.7214081297920752,
+              "qL": 0.06719744989745458,
+              "Tline": 0.07046972592108997,
+              "Rq": 0.140924694377309,
+              "Tbulk": 0.7886055796895298,
+              "closure_abs": 1.2071232902144402e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316
+            }
+          },
+          "kernel_sha256": "a5c46cb9349262d71b2e76ce868d379c867f0e0f5a9d0390a1e96f91b9089e8c"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "positive_index": 19,
+          "negative_index": 101,
+          "paired_weight_over_full_periodic_energy": 0.20476379566811423,
+          "states": {
+            "reference": {
+              "qT": 0.12026522475719265,
+              "qL": 0.010433665028431738,
+              "Tline": 0.8652704162250879,
+              "Rq": 0.004030693976334672,
+              "Tbulk": 0.13069888978562438,
+              "closure_abs": 1.2952972028301701e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7584963510354086,
+              "qL": 0.06981225149825106,
+              "Tline": 0.08891537886467028,
+              "Rq": 0.08277601859006943,
+              "Tbulk": 0.8283086025336597,
+              "closure_abs": 1.1600609362005798e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619
+            }
+          },
+          "kernel_sha256": "2979a1ac9c1588cc966410a7d0dc8516b4b8977d9c48af90d8d615fa32c26540"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "positive_index": 20,
+          "negative_index": 100,
+          "paired_weight_over_full_periodic_energy": 0.16545033636489107,
+          "states": {
+            "reference": {
+              "qT": 0.11440233345257304,
+              "qL": 0.00973708918735671,
+              "Tline": 0.8720531741113204,
+              "Rq": 0.0038074032357760723,
+              "Tbulk": 0.12413942263992975,
+              "closure_abs": 1.2973733198862192e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604,
+              "stored_reference_regression_max_abs": 0.0
+            },
+            "ramp": {
+              "qT": 0.7749397174282303,
+              "qL": 0.07072537836807546,
+              "Tline": 0.10814334865011743,
+              "Rq": 0.04619155554230209,
+              "Tbulk": 0.8456650957963058,
+              "closure_abs": 1.1274758904278315e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604
+            }
+          },
+          "kernel_sha256": "dbc153ab3a33238f3717c5a050528e4ed2ccc873966e56727658781d3f8e0679"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "positive_index": 21,
+          "negative_index": 99,
+          "paired_weight_over_full_periodic_energy": 0.10195194412464159,
+          "states": {
+            "reference": {
+              "qT": 0.11036670690721023,
+              "qL": 0.00915631028962044,
+              "Tline": 0.8775453470730004,
+              "Rq": 0.0029316357171557403,
+              "Tbulk": 0.11952301719683067,
+              "closure_abs": 1.3013257138538847e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7759018865674561,
+              "qL": 0.07052597641999225,
+              "Tline": 0.12723176296141375,
+              "Rq": 0.026340374039980588,
+              "Tbulk": 0.8464278629874483,
+              "closure_abs": 1.1157297308272973e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085
+            }
+          },
+          "kernel_sha256": "5a6b541c7a478e9e726bc95b111da4ec20c7586ef5a357b45aef3a514d90bdee"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "positive_index": 22,
+          "negative_index": 98,
+          "paired_weight_over_full_periodic_energy": 0.04739023713502802,
+          "states": {
+            "reference": {
+              "qT": 0.10763762992897691,
+              "qL": 0.0086287701809216,
+              "Tline": 0.8818041769968716,
+              "Rq": 0.0019294228801559669,
+              "Tbulk": 0.11626640010989851,
+              "closure_abs": 1.3073875315683381e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.768202133319039,
+              "qL": 0.06985333672672375,
+              "Tline": 0.14524893022815724,
+              "Rq": 0.01669559971487425,
+              "Tbulk": 0.8380554700457628,
+              "closure_abs": 1.1205814054449093e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739
+            }
+          },
+          "kernel_sha256": "f21c2a5c1be4f8a6f1f4907d3b9c8f4a987229d3af96e101aa0d01bdceae35a6"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "positive_index": 23,
+          "negative_index": 97,
+          "paired_weight_over_full_periodic_energy": 0.016351829445508684,
+          "states": {
+            "reference": {
+              "qT": 0.10590947941561467,
+              "qL": 0.008119536516053532,
+              "Tline": 0.8848548602976974,
+              "Rq": 0.0011161237574740521,
+              "Tbulk": 0.1140290159316682,
+              "closure_abs": 1.3160250666999218e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7572900281736604,
+              "qL": 0.06908375793149822,
+              "Tline": 0.1617025016458124,
+              "Rq": 0.011923712237700924,
+              "Tbulk": 0.8263737861051587,
+              "closure_abs": 1.1328049609460322e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912
+            }
+          },
+          "kernel_sha256": "8690c088e5ee5f7a21683bd411d4fded6964a0d0231f31382cdce87ade8af117"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "positive_index": 24,
+          "negative_index": 96,
+          "paired_weight_over_full_periodic_energy": 0.0041358190933820215,
+          "states": {
+            "reference": {
+              "qT": 0.10498407555284217,
+              "qL": 0.0076129403476014705,
+              "Tline": 0.8868214681456414,
+              "Rq": 0.0005815159406348136,
+              "Tbulk": 0.11259701590044364,
+              "closure_abs": 1.3280154753658735e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.7462447806125942,
+              "qL": 0.06828030922453218,
+              "Tline": 0.17652742369543217,
+              "Rq": 0.00894748645599169,
+              "Tbulk": 0.8145250898371265,
+              "closure_abs": 1.144973005295924e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915
+            }
+          },
+          "kernel_sha256": "71318d3355eecdc1153ecfd9b3cebd16d7c1957dcc5f626954228280dc1f30f6"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "positive_index": 25,
+          "negative_index": 95,
+          "paired_weight_over_full_periodic_energy": 0.0007968962306283971,
+          "states": {
+            "reference": {
+              "qT": 0.10485970098015758,
+              "qL": 0.007115258218884016,
+              "Tline": 0.887739989606994,
+              "Rq": 0.00028505118053549224,
+              "Tbulk": 0.1119749591990416,
+              "closure_abs": 1.3428924638958506e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-17
+            },
+            "ramp": {
+              "qT": 0.7372329748620347,
+              "qL": 0.06744920490286639,
+              "Tline": 0.18872812658418653,
+              "Rq": 0.00658969363938749,
+              "Tbulk": 0.8046821797649011,
+              "closure_abs": 1.1524892151726362e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204
+            }
+          },
+          "kernel_sha256": "dbaee9d8cdcd4e1dd7db33354fa5e4175e8543227df4b4021c9a0178606ac97c"
+        }
+      ],
+      "qT_in_band_contribution_per_initial_open_total_energy": 0.7163064862075107,
+      "qT_tail_interval_per_initial_open_total_energy": [
+        0.7163064862075107,
+        0.7166229934523113
+      ]
+    },
+    {
+      "label": "tetra_N96",
+      "method": "tetrahedron",
+      "grid": 96,
+      "bulk_regulator": 1e-10,
+      "new_ramp_full_energy_in_band_contribution": {
+        "qT": 0.7161938909753368,
+        "qL": 0.06632745048040024,
+        "Tline": 0.0853084000678145,
+        "Rq": 0.13185375122273232
+      },
+      "new_ramp_qT_passivity_tail_interval": [
+        0.7161938909753368,
+        0.7165103982172306
+      ],
+      "new_ramp_qT_conditional_in_band_mean": 0.7164206432971826,
+      "original_reference_qT_in_band_contribution": 0.12756756192214755,
+      "weighted_partition_sum": 0.9996834927462839,
+      "rows": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "positive_index": 12,
+          "negative_index": 108,
+          "paired_weight_over_full_periodic_energy": 0.0003803417401000693,
+          "states": {
+            "reference": {
+              "qT": 0.216188440977409,
+              "qL": 0.021031577893279228,
+              "Tline": 0.5314986979870684,
+              "Rq": 0.23128128312734625,
+              "Tbulk": 0.23722001887068822,
+              "closure_abs": 1.4897083566722813e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216,
+              "stored_reference_regression_max_abs": 5.551115123125783e-17
+            },
+            "ramp": {
+              "qT": 0.2764086500217344,
+              "qL": 0.0272800658371493,
+              "Tline": 0.011053394531971822,
+              "Rq": 0.6852578895991185,
+              "Tbulk": 0.30368871585888374,
+              "closure_abs": 1.0025980046179939e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216
+            }
+          },
+          "kernel_sha256": "f5e78fa171b0332762bb7ed4f2c070d2a8e0965500d1303729722097ee748014"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "positive_index": 13,
+          "negative_index": 107,
+          "paired_weight_over_full_periodic_energy": 0.0022549555720512674,
+          "states": {
+            "reference": {
+              "qT": 0.21400877586870454,
+              "qL": 0.020489113962536956,
+              "Tline": 0.650026362056017,
+              "Rq": 0.11547574809796546,
+              "Tbulk": 0.23449788983124148,
+              "closure_abs": 1.477595823473621e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-16
+            },
+            "ramp": {
+              "qT": 0.34437696826810243,
+              "qL": 0.03374080350729201,
+              "Tline": 0.015277966836227765,
+              "Rq": 0.6066042613772186,
+              "Tbulk": 0.37811777177539446,
+              "closure_abs": 1.1159184687414836e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155
+            }
+          },
+          "kernel_sha256": "27277b5e6768aad088bc88a82e98c8937dc554865611ec74595f938d2118e6bd"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "positive_index": 14,
+          "negative_index": 106,
+          "paired_weight_over_full_periodic_energy": 0.01003815270723009,
+          "states": {
+            "reference": {
+              "qT": 0.19833512430666095,
+              "qL": 0.01869200523837426,
+              "Tline": 0.738234006606298,
+              "Rq": 0.044738863834431056,
+              "Tbulk": 0.2170271295450352,
+              "closure_abs": 1.4235723710953607e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285,
+              "stored_reference_regression_max_abs": 1.6653345369377348e-16
+            },
+            "ramp": {
+              "qT": 0.42137373600156,
+              "qL": 0.041054093928339114,
+              "Tline": 0.02118060961997769,
+              "Rq": 0.516391560438073,
+              "Tbulk": 0.46242782992989906,
+              "closure_abs": 1.2050249686978987e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285
+            }
+          },
+          "kernel_sha256": "b46921ca08a10b2c2f427fe8b4f887b4a8e23c21baed3485b24483a53e0a5f74"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "positive_index": 15,
+          "negative_index": 105,
+          "paired_weight_over_full_periodic_energy": 0.03256586933396941,
+          "states": {
+            "reference": {
+              "qT": 0.1772547691889969,
+              "qL": 0.016432958061523308,
+              "Tline": 0.7941067142105064,
+              "Rq": 0.012205558525312497,
+              "Tbulk": 0.19368772725052022,
+              "closure_abs": 1.3660850228802701e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.5047169870710281,
+              "qL": 0.04882789889630549,
+              "Tline": 0.02938787821513693,
+              "Rq": 0.4170672358049341,
+              "Tbulk": 0.5535448859673335,
+              "closure_abs": 1.2595369192069938e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023
+            }
+          },
+          "kernel_sha256": "602ed6c0d13b7d188a7cc8b31a29f4dac6d263a6525656bdf575b5acd469ead7"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "positive_index": 16,
+          "negative_index": 104,
+          "paired_weight_over_full_periodic_energy": 0.0781608166143399,
+          "states": {
+            "reference": {
+              "qT": 0.1570901867699635,
+              "qL": 0.014257279683079592,
+              "Tline": 0.8264250416212569,
+              "Rq": 0.002227491912441684,
+              "Tbulk": 0.1713474664530431,
+              "closure_abs": 1.3258394382376082e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958,
+              "stored_reference_regression_max_abs": 1.3877787807814457e-16
+            },
+            "ramp": {
+              "qT": 0.5879794220187002,
+              "qL": 0.05606360513377137,
+              "Tline": 0.040231759060453065,
+              "Rq": 0.31572521377433316,
+              "Tbulk": 0.6440430271524716,
+              "closure_abs": 1.2742140675925384e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958
+            }
+          },
+          "kernel_sha256": "adf8df7903807d2203fbf85a30ff3f053cfce6900dba932bd3f010d2733c6751"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "positive_index": 17,
+          "negative_index": 103,
+          "paired_weight_over_full_periodic_energy": 0.14119125526123605,
+          "states": {
+            "reference": {
+              "qT": 0.14072818508712842,
+              "qL": 0.012608586072734365,
+              "Tline": 0.8450246816800366,
+              "Rq": 0.0016385471470560084,
+              "Tbulk": 0.15333677115986277,
+              "closure_abs": 1.3044565427833277e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831,
+              "stored_reference_regression_max_abs": 7.771561172376096e-16
+            },
+            "ramp": {
+              "qT": 0.6628386632724396,
+              "qL": 0.06269881383792963,
+              "Tline": 0.05411287666997829,
+              "Rq": 0.22034964620713385,
+              "Tbulk": 0.7255374771103692,
+              "closure_abs": 1.251865278106834e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831
+            }
+          },
+          "kernel_sha256": "a9dabdd7222871b6ab8b4de47cecd95521a04eccd3a7755272288b0763b18918"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "positive_index": 18,
+          "negative_index": 102,
+          "paired_weight_over_full_periodic_energy": 0.19425124346698544,
+          "states": {
+            "reference": {
+              "qT": 0.12864098002501922,
+              "qL": 0.011315960228661374,
+              "Tline": 0.8568761025614481,
+              "Rq": 0.003166957171907771,
+              "Tbulk": 0.1399569402536806,
+              "closure_abs": 1.296351914703564e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316,
+              "stored_reference_regression_max_abs": 8.881784197001252e-16
+            },
+            "ramp": {
+              "qT": 0.7213383487516986,
+              "qL": 0.06712126462166974,
+              "Tline": 0.0706210370725394,
+              "Rq": 0.14091934954201676,
+              "Tbulk": 0.7884596133733683,
+              "closure_abs": 1.207556277194044e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316
+            }
+          },
+          "kernel_sha256": "9af4808b474456c2dbdc2cb28e0bb7e07617cc6f57e5804568e5c31c2ec1db7d"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "positive_index": 19,
+          "negative_index": 101,
+          "paired_weight_over_full_periodic_energy": 0.20476379566811423,
+          "states": {
+            "reference": {
+              "qT": 0.12017408516340364,
+              "qL": 0.010411042309813321,
+              "Tline": 0.8653836547407803,
+              "Rq": 0.0040312177730492975,
+              "Tbulk": 0.13058512747321696,
+              "closure_abs": 1.2953416117511551e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619,
+              "stored_reference_regression_max_abs": 5.551115123125783e-16
+            },
+            "ramp": {
+              "qT": 0.7583323625912238,
+              "qL": 0.06985464521200413,
+              "Tline": 0.08909532647691396,
+              "Rq": 0.08271766570825473,
+              "Tbulk": 0.828187007803228,
+              "closure_abs": 1.1603384919567361e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619
+            }
+          },
+          "kernel_sha256": "87711e49e35d288d40f89be152a27e4e3a1c8cccd3797d94f30144d3f22affbc"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "positive_index": 20,
+          "negative_index": 100,
+          "paired_weight_over_full_periodic_energy": 0.16545033636489107,
+          "states": {
+            "reference": {
+              "qT": 0.11428895945960053,
+              "qL": 0.009716195523500962,
+              "Tline": 0.8721899796098178,
+              "Rq": 0.003804865394106217,
+              "Tbulk": 0.1240051549831015,
+              "closure_abs": 1.297451035497943e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.7747282147739485,
+              "qL": 0.07071379497876258,
+              "Tline": 0.10833257778111975,
+              "Rq": 0.04622541245488971,
+              "Tbulk": 0.8454420097527111,
+              "closure_abs": 1.127942184098174e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604
+            }
+          },
+          "kernel_sha256": "86f65d42ca1831d53222ccc24d2295dcc2e4a375d9e4e84e011199bcc57a69ff"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "positive_index": 21,
+          "negative_index": 99,
+          "paired_weight_over_full_periodic_energy": 0.10195194412464159,
+          "states": {
+            "reference": {
+              "qT": 0.11026636696648952,
+              "qL": 0.009137200083091476,
+              "Tline": 0.8776657652375962,
+              "Rq": 0.0029306676998085406,
+              "Tbulk": 0.119403567049581,
+              "closure_abs": 1.301425633926101e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085,
+              "stored_reference_regression_max_abs": 4.440892098500626e-16
+            },
+            "ramp": {
+              "qT": 0.775666319563003,
+              "qL": 0.07048433814215399,
+              "Tline": 0.12753254563752991,
+              "Rq": 0.02631679664615146,
+              "Tbulk": 0.846150657705157,
+              "closure_abs": 1.1161627178069011e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085
+            }
+          },
+          "kernel_sha256": "09707907fab1e67618bf2f20d7c2f38612b2b6b4b6ae0cea8f08c33e558d5549"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "positive_index": 22,
+          "negative_index": 98,
+          "paired_weight_over_full_periodic_energy": 0.04739023713502802,
+          "states": {
+            "reference": {
+              "qT": 0.10755072217345893,
+              "qL": 0.008620534405548325,
+              "Tline": 0.8819002757879429,
+              "Rq": 0.0019284676199758633,
+              "Tbulk": 0.11617125657900726,
+              "closure_abs": 1.3073986337985843e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.7679457122403556,
+              "qL": 0.0698816525728596,
+              "Tline": 0.14548431099638148,
+              "Rq": 0.01668832417919523,
+              "Tbulk": 0.8378273648132152,
+              "closure_abs": 1.1208145522800805e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739
+            }
+          },
+          "kernel_sha256": "ac6384c0af61b363a3f1f2673302323fa03228797f402a2838347dfa0be1f0d1"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "positive_index": 23,
+          "negative_index": 97,
+          "paired_weight_over_full_periodic_energy": 0.016351829445508684,
+          "states": {
+            "reference": {
+              "qT": 0.10581871964412326,
+              "qL": 0.008101251366336002,
+              "Tline": 0.8849658970718162,
+              "Rq": 0.0011141319045635174,
+              "Tbulk": 0.11391997101045927,
+              "closure_abs": 1.3161027823116456e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912,
+              "stored_reference_regression_max_abs": 6.661338147750939e-16
+            },
+            "ramp": {
+              "qT": 0.7568886458355026,
+              "qL": 0.06900710752824049,
+              "Tline": 0.1621702145751167,
+              "Rq": 0.011934032049804814,
+              "Tbulk": 0.8258957533637431,
+              "closure_abs": 1.1335377081422848e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912
+            }
+          },
+          "kernel_sha256": "8eda08fc1d8e81ce2df8b96cf55eff741fdf10db89ce92d555c230a3ae972ec3"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "positive_index": 24,
+          "negative_index": 96,
+          "paired_weight_over_full_periodic_energy": 0.0041358190933820215,
+          "states": {
+            "reference": {
+              "qT": 0.10489908773567698,
+              "qL": 0.007606356872827013,
+              "Tline": 0.8869134552329401,
+              "Rq": 0.0005811001452764844,
+              "Tbulk": 0.112505444608504,
+              "closure_abs": 1.327948861984396e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915,
+              "stored_reference_regression_max_abs": 4.163336342344337e-17
+            },
+            "ramp": {
+              "qT": 0.7460078077096424,
+              "qL": 0.06836261893785217,
+              "Tline": 0.17667545535956228,
+              "Rq": 0.008954117981491889,
+              "Tbulk": 0.8143704266474945,
+              "closure_abs": 1.1451284365193715e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915
+            }
+          },
+          "kernel_sha256": "48104a82793bc8902fd30f4e15b2f12618df1c8ed016a2fa0fa03298c7766788"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "positive_index": 25,
+          "negative_index": 95,
+          "paired_weight_over_full_periodic_energy": 0.0007968962306283971,
+          "states": {
+            "reference": {
+              "qT": 0.10475504431368836,
+              "qL": 0.0071013152008256725,
+              "Tline": 0.887858950888446,
+              "Rq": 0.0002846895836107516,
+              "Tbulk": 0.11185635951451403,
+              "closure_abs": 1.3429146683563431e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.7369296853202753,
+              "qL": 0.06738047181389543,
+              "Tline": 0.18909543879520727,
+              "Rq": 0.006594404059092956,
+              "Tbulk": 0.8043101571341706,
+              "closure_abs": 1.1529110999219938e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204
+            }
+          },
+          "kernel_sha256": "f42c45fd0901cf51e2d9d266d3254ad11984785c2eabc16e321714ac5888d252"
+        }
+      ],
+      "qT_in_band_contribution_per_initial_open_total_energy": 0.7161938975527984,
+      "qT_tail_interval_per_initial_open_total_energy": [
+        0.7161938975527984,
+        0.716510404797599
+      ]
+    },
+    {
+      "label": "tetra_N128",
+      "method": "tetrahedron",
+      "grid": 128,
+      "bulk_regulator": 1e-10,
+      "new_ramp_full_energy_in_band_contribution": {
+        "qT": 0.7162026653472909,
+        "qL": 0.0663216720594111,
+        "Tline": 0.08523433452705446,
+        "Rq": 0.131924820812528
+      },
+      "new_ramp_qT_passivity_tail_interval": [
+        0.7162026653472909,
+        0.7165191725891847
+      ],
+      "new_ramp_qT_conditional_in_band_mean": 0.7164294204471683,
+      "original_reference_qT_in_band_contribution": 0.12759466873725295,
+      "weighted_partition_sum": 0.9996834927462845,
+      "rows": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "positive_index": 12,
+          "negative_index": 108,
+          "paired_weight_over_full_periodic_energy": 0.0003803417401000693,
+          "states": {
+            "reference": {
+              "qT": 0.21639883488242767,
+              "qL": 0.020976809671048507,
+              "Tline": 0.5313368736559281,
+              "Rq": 0.2312874817756999,
+              "Tbulk": 0.23737564455347618,
+              "closure_abs": 1.4895862321395725e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216,
+              "stored_reference_regression_max_abs": 7.494005416219807e-16
+            },
+            "ramp": {
+              "qT": 0.27663779086700147,
+              "qL": 0.02719421966275688,
+              "Tline": 0.01104535234557243,
+              "Rq": 0.6851226371146457,
+              "Tbulk": 0.30383201052975833,
+              "closure_abs": 1.0023537555525763e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216
+            }
+          },
+          "kernel_sha256": "4f9593153753c78af694464e32db21cd4dbf75acb5b3f6e42b8d05c5cf698b8b"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "positive_index": 13,
+          "negative_index": 107,
+          "paired_weight_over_full_periodic_energy": 0.0022549555720512674,
+          "states": {
+            "reference": {
+              "qT": 0.21411661477733157,
+              "qL": 0.02052878251526228,
+              "Tline": 0.649757731137505,
+              "Rq": 0.11559687155512491,
+              "Tbulk": 0.23464539729259384,
+              "closure_abs": 1.4776180279341133e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.34426138421491237,
+              "qL": 0.03377330884698007,
+              "Tline": 0.015206647914424134,
+              "Rq": 0.6067586590125269,
+              "Tbulk": 0.3780346930618924,
+              "closure_abs": 1.1156520152155736e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155
+            }
+          },
+          "kernel_sha256": "662afc2333458871122cb89d34e9eb6831bfd54ceb6d71d7eeab5845c7137324"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "positive_index": 14,
+          "negative_index": 106,
+          "paired_weight_over_full_periodic_energy": 0.01003815270723009,
+          "states": {
+            "reference": {
+              "qT": 0.19839683617721707,
+              "qL": 0.0187562105691964,
+              "Tline": 0.738069320616857,
+              "Rq": 0.044777632622493894,
+              "Tbulk": 0.21715304674641348,
+              "closure_abs": 1.4235612688651145e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285,
+              "stored_reference_regression_max_abs": 1.3183898417423734e-16
+            },
+            "ramp": {
+              "qT": 0.421237712124597,
+              "qL": 0.04116430447433726,
+              "Tline": 0.021119672416937095,
+              "Rq": 0.5164783109720806,
+              "Tbulk": 0.46240201659893426,
+              "closure_abs": 1.2048029240929736e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285
+            }
+          },
+          "kernel_sha256": "5dce1b6ea34cfdb9e634bd70f482341784ae984911883ae02c7c1fdd27464926"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "positive_index": 15,
+          "negative_index": 105,
+          "paired_weight_over_full_periodic_energy": 0.03256586933396941,
+          "states": {
+            "reference": {
+              "qT": 0.1772819772675531,
+              "qL": 0.016440985205619093,
+              "Tline": 0.7940459727105786,
+              "Rq": 0.012231064802586308,
+              "Tbulk": 0.1937229624731722,
+              "closure_abs": 1.3662848630247026e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023,
+              "stored_reference_regression_max_abs": 2.7755575615628914e-17
+            },
+            "ramp": {
+              "qT": 0.5043679433967732,
+              "qL": 0.04880817497912139,
+              "Tline": 0.029243716622004406,
+              "Rq": 0.4175801649895045,
+              "Tbulk": 0.5531761183758945,
+              "closure_abs": 1.2596590437397026e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023
+            }
+          },
+          "kernel_sha256": "3f55233bdc570f7b9051a449cb6802f6bf0eb2ccfbc4507b7fc1e2a1fd00e4b7"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "positive_index": 16,
+          "negative_index": 104,
+          "paired_weight_over_full_periodic_energy": 0.0781608166143399,
+          "states": {
+            "reference": {
+              "qT": 0.15705292337731142,
+              "qL": 0.014281353875909559,
+              "Tline": 0.826440320927347,
+              "Rq": 0.0022254018061736184,
+              "Tbulk": 0.17133427725322098,
+              "closure_abs": 1.3258394382376082e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.5877209770781688,
+              "qL": 0.05616357960069653,
+              "Tline": 0.04015649404908673,
+              "Rq": 0.31595894925930423,
+              "Tbulk": 0.6438845566788653,
+              "closure_abs": 1.274369498815986e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958
+            }
+          },
+          "kernel_sha256": "61c6409afa82969027ec0424e2370b99b8433eeeb2769b09cc6364a8392aff43"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "positive_index": 17,
+          "negative_index": 103,
+          "paired_weight_over_full_periodic_energy": 0.14119125526123605,
+          "states": {
+            "reference": {
+              "qT": 0.14075745793290267,
+              "qL": 0.012584538315193915,
+              "Tline": 0.8450224196510127,
+              "Rq": 0.0016355840878451982,
+              "Tbulk": 0.15334199624809658,
+              "closure_abs": 1.304556462855544e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831,
+              "stored_reference_regression_max_abs": 9.992007221626409e-16
+            },
+            "ramp": {
+              "qT": 0.6628419697260584,
+              "qL": 0.06251633629544448,
+              "Tline": 0.05398636827602099,
+              "Rq": 0.2206553256899546,
+              "Tbulk": 0.7253583060215029,
+              "closure_abs": 1.2521539360932366e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831
+            }
+          },
+          "kernel_sha256": "3df292fcd7806c7ae10d30cca526bec134e18218f69f326006743a14ef3e00e9"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "positive_index": 18,
+          "negative_index": 102,
+          "paired_weight_over_full_periodic_energy": 0.19425124346698544,
+          "states": {
+            "reference": {
+              "qT": 0.12868521651499137,
+              "qL": 0.011340954839155435,
+              "Tline": 0.8568068377074197,
+              "Rq": 0.003166990925469482,
+              "Tbulk": 0.1400261713541468,
+              "closure_abs": 1.296396323624549e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316,
+              "stored_reference_regression_max_abs": 7.37257477290143e-17
+            },
+            "ramp": {
+              "qT": 0.721330391977207,
+              "qL": 0.06721617987164102,
+              "Tline": 0.07057163550053464,
+              "Rq": 0.14088179263854322,
+              "Tbulk": 0.788546571848848,
+              "closure_abs": 1.2074119482008427e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316
+            }
+          },
+          "kernel_sha256": "c404825f319b1739ee27782d7cb81b7ecfa7e47076f013f6eaf8c8057f409f30"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "positive_index": 19,
+          "negative_index": 101,
+          "paired_weight_over_full_periodic_energy": 0.20476379566811423,
+          "states": {
+            "reference": {
+              "qT": 0.12019971212229133,
+              "qL": 0.010431345748524968,
+              "Tline": 0.8653385295926237,
+              "Rq": 0.004030412523606952,
+              "Tbulk": 0.1306310578708163,
+              "closure_abs": 1.2953083050604164e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.7583996367480504,
+              "qL": 0.06985381278085882,
+              "Tline": 0.08901232947687888,
+              "Rq": 0.08273422098261024,
+              "Tbulk": 0.8282534495289092,
+              "closure_abs": 1.1601608562727961e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619
+            }
+          },
+          "kernel_sha256": "62bc42887221ee78a4a5870d3dbab2494036758271faf47e899b1a470f1ad5bf"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "positive_index": 20,
+          "negative_index": 100,
+          "paired_weight_over_full_periodic_energy": 0.16545033636489107,
+          "states": {
+            "reference": {
+              "qT": 0.11432520226324173,
+              "qL": 0.009725391565410723,
+              "Tline": 0.8721440916880667,
+              "Rq": 0.003805314470307708,
+              "Tbulk": 0.12405059382865245,
+              "closure_abs": 1.2973067065047417e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604,
+              "stored_reference_regression_max_abs": 4.440892098500626e-16
+            },
+            "ramp": {
+              "qT": 0.7748257508674575,
+              "qL": 0.07067084828660612,
+              "Tline": 0.10833385124015592,
+              "Rq": 0.046169549594503326,
+              "Tbulk": 0.8454965991540636,
+              "closure_abs": 1.1277090372630028e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604
+            }
+          },
+          "kernel_sha256": "509bdb07e4a4c6676bc405862cbb08e16e0abecf2d48447706a445e0dce5ee0e"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "positive_index": 21,
+          "negative_index": 99,
+          "paired_weight_over_full_periodic_energy": 0.10195194412464159,
+          "states": {
+            "reference": {
+              "qT": 0.11029770602481295,
+              "qL": 0.009145927687610435,
+              "Tline": 0.877625928664049,
+              "Rq": 0.0029304376105139473,
+              "Tbulk": 0.11944363371242339,
+              "closure_abs": 1.3013701227748697e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085,
+              "stored_reference_regression_max_abs": 7.771561172376096e-16
+            },
+            "ramp": {
+              "qT": 0.7757912692788682,
+              "qL": 0.07048620791625389,
+              "Tline": 0.1273572466585994,
+              "Rq": 0.026365276135117417,
+              "Tbulk": 0.8462774771951221,
+              "closure_abs": 1.1161072066556699e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085
+            }
+          },
+          "kernel_sha256": "095e84ca58a462c311aca3ebc2c5bddf6822e9b16aa6d7f6f003871e4e059c97"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "positive_index": 22,
+          "negative_index": 98,
+          "paired_weight_over_full_periodic_energy": 0.04739023713502802,
+          "states": {
+            "reference": {
+              "qT": 0.10757005125205202,
+              "qL": 0.008623534107924954,
+              "Tline": 0.8818779055298908,
+              "Rq": 0.001928509097058594,
+              "Tbulk": 0.11619358535997697,
+              "closure_abs": 1.3073653271078456e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739,
+              "stored_reference_regression_max_abs": 8.881784197001252e-16
+            },
+            "ramp": {
+              "qT": 0.7679549361602567,
+              "qL": 0.0698655481871821,
+              "Tline": 0.14548965083353532,
+              "Rq": 0.016689864807817006,
+              "Tbulk": 0.8378204843474388,
+              "closure_abs": 1.1208922678918043e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739
+            }
+          },
+          "kernel_sha256": "0bc4e6894a33ffdb9dd877d3864ab3ac2ee7d1688bb8b344ad184e514f71211c"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "positive_index": 23,
+          "negative_index": 97,
+          "paired_weight_over_full_periodic_energy": 0.016351829445508684,
+          "states": {
+            "reference": {
+              "qT": 0.10582092883000482,
+              "qL": 0.008113909852426548,
+              "Tline": 0.8849506635752424,
+              "Rq": 0.0011144977291655629,
+              "Tbulk": 0.11393483868243137,
+              "closure_abs": 1.3160583733906606e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.7568582725816884,
+              "qL": 0.0690966092369386,
+              "Tline": 0.1621211328816196,
+              "Rq": 0.011923985288420293,
+              "Tbulk": 0.825954881818627,
+              "closure_abs": 1.1333156635373598e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912
+            }
+          },
+          "kernel_sha256": "8a781ff3ba49b1be45de0a02f2fd65c450c11fa570bbbd390908bac0dd662984"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "positive_index": 24,
+          "negative_index": 96,
+          "paired_weight_over_full_periodic_energy": 0.0041358190933820215,
+          "states": {
+            "reference": {
+              "qT": 0.10491038609020766,
+              "qL": 0.007605406387878421,
+              "Tline": 0.8869031354438872,
+              "Rq": 0.0005810720647467345,
+              "Tbulk": 0.11251579247808607,
+              "closure_abs": 1.327993270905381e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915,
+              "stored_reference_regression_max_abs": 4.440892098500626e-16
+            },
+            "ramp": {
+              "qT": 0.7460685283756878,
+              "qL": 0.068257084585177,
+              "Tline": 0.17670660001238978,
+              "Rq": 0.00896778701529235,
+              "Tbulk": 0.8143256129608648,
+              "closure_abs": 1.1453060722033115e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915
+            }
+          },
+          "kernel_sha256": "30907d7175aeda1470df3b0be9f8439b6955e03184ea03079ebbd0d51837e796"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "positive_index": 25,
+          "negative_index": 95,
+          "paired_weight_over_full_periodic_energy": 0.0007968962306283971,
+          "states": {
+            "reference": {
+              "qT": 0.10478863800870775,
+              "qL": 0.007108714058083656,
+              "Tline": 0.8878177762985446,
+              "Rq": 0.0002848716212337978,
+              "Tbulk": 0.1118973520667914,
+              "closure_abs": 1.3430145884285594e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204,
+              "stored_reference_regression_max_abs": 6.661338147750939e-16
+            },
+            "ramp": {
+              "qT": 0.7370753529244697,
+              "qL": 0.06744472645494927,
+              "Tline": 0.18887285395187572,
+              "Rq": 0.006607066657176864,
+              "Tbulk": 0.8045200793794189,
+              "closure_abs": 1.1528444865405163e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204
+            }
+          },
+          "kernel_sha256": "1f7ab84d6d0de9c7fbda7f5367964ce9d26b2d47e8d901b0f52a7d5e54c638ae"
+        }
+      ],
+      "qT_in_band_contribution_per_initial_open_total_energy": 0.7162026719248331,
+      "qT_tail_interval_per_initial_open_total_energy": [
+        0.7162026719248331,
+        0.7165191791696337
+      ]
+    },
+    {
+      "label": "tetra_N160",
+      "method": "tetrahedron",
+      "grid": 160,
+      "bulk_regulator": 1e-10,
+      "new_ramp_full_energy_in_band_contribution": {
+        "qT": 0.7162269562660165,
+        "qL": 0.06631276273506825,
+        "Tline": 0.08517980556288537,
+        "Rq": 0.131963968182314
+      },
+      "new_ramp_qT_passivity_tail_interval": [
+        0.7162269562660165,
+        0.7165434635079103
+      ],
+      "new_ramp_qT_conditional_in_band_mean": 0.7164537190565796,
+      "original_reference_qT_in_band_contribution": 0.12760941962540592,
+      "weighted_partition_sum": 0.9996834927462841,
+      "rows": [
+        {
+          "node_id": "dft_012",
+          "omega": 0.8034441853748633,
+          "positive_index": 12,
+          "negative_index": 108,
+          "paired_weight_over_full_periodic_energy": 0.0003803417401000693,
+          "states": {
+            "reference": {
+              "qT": 0.21649686213562092,
+              "qL": 0.021047499222387512,
+              "Tline": 0.5311160253035246,
+              "Rq": 0.23133961332357272,
+              "Tbulk": 0.23754436135800844,
+              "closure_abs": 1.4894196986858788e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.2766798880772067,
+              "qL": 0.027278829497780637,
+              "Tline": 0.011034596424688507,
+              "Rq": 0.6850066859903038,
+              "Tbulk": 0.3039587175749874,
+              "closure_abs": 1.002031790875435e-11,
+              "gamma_in": 1.9867141527469518,
+              "input_displacement_power": 0.3990534835066216
+            }
+          },
+          "kernel_sha256": "edc3a82fb7cb3c30ee4e5c5c8d8ae45b7b0a7cc9f83cc239a5ab85d7376aeff6"
+        },
+        {
+          "node_id": "dft_013",
+          "omega": 0.8678978340078045,
+          "positive_index": 13,
+          "negative_index": 107,
+          "paired_weight_over_full_periodic_energy": 0.0022549555720512674,
+          "states": {
+            "reference": {
+              "qT": 0.21416021424517695,
+              "qL": 0.020559849120908018,
+              "Tline": 0.649739614542423,
+              "Rq": 0.11554032207671774,
+              "Tbulk": 0.23472006336608497,
+              "closure_abs": 1.477429290019927e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.34439673217712097,
+              "qL": 0.03382758938981398,
+              "Tline": 0.01523190223784669,
+              "Rq": 0.6065437761840626,
+              "Tbulk": 0.378224321566935,
+              "closure_abs": 1.1155742996038498e-11,
+              "gamma_in": 2.127102921746715,
+              "input_displacement_power": 0.46152700462391155
+            }
+          },
+          "kernel_sha256": "00c87f37bd85b74d33158521d74fa0bd85e76cc429dd1f6b6a5a501a3ccaf329"
+        },
+        {
+          "node_id": "dft_014",
+          "omega": 0.9317566688177807,
+          "positive_index": 14,
+          "negative_index": 106,
+          "paired_weight_over_full_periodic_energy": 0.01003815270723009,
+          "states": {
+            "reference": {
+              "qT": 0.19843625582560395,
+              "qL": 0.01874560567944097,
+              "Tline": 0.7380318420221426,
+              "Rq": 0.044786296458577006,
+              "Tbulk": 0.21718186150504493,
+              "closure_abs": 1.4235501666348682e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.42127030294966034,
+              "qL": 0.041123596762257936,
+              "Tline": 0.021105152548867242,
+              "Rq": 0.5165009477271663,
+              "Tbulk": 0.46239389971191824,
+              "closure_abs": 1.2048251285534661e-11,
+              "gamma_in": 2.2616614494910774,
+              "input_displacement_power": 0.52682953454285
+            }
+          },
+          "kernel_sha256": "500c2cc101874c1a6ce5dc8d7053e4668598ab5ffed8a8d9bfbdd5a8e251d132"
+        },
+        {
+          "node_id": "dft_015",
+          "omega": 0.9949769241492334,
+          "positive_index": 15,
+          "negative_index": 105,
+          "paired_weight_over_full_periodic_energy": 0.03256586933396941,
+          "states": {
+            "reference": {
+              "qT": 0.17726986644876394,
+              "qL": 0.016440040594928235,
+              "Tline": 0.7940625185383301,
+              "Rq": 0.012227574404315579,
+              "Tbulk": 0.19370990704369218,
+              "closure_abs": 1.3662182496432251e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.5043507340341244,
+              "qL": 0.048795466108027256,
+              "Tline": 0.029236476434934867,
+              "Rq": 0.41761732341031693,
+              "Tbulk": 0.5531462001421517,
+              "closure_abs": 1.2596479415094564e-11,
+              "gamma_in": 2.3900209204085403,
+              "input_displacement_power": 0.5945039160101023
+            }
+          },
+          "kernel_sha256": "af1ae65ca06c52ea6c4624cd50559314b7f23b8d7808bbaf22410913a225c8ce"
+        },
+        {
+          "node_id": "dft_016",
+          "omega": 1.0575152719970804,
+          "positive_index": 16,
+          "negative_index": 104,
+          "paired_weight_over_full_periodic_energy": 0.0781608166143399,
+          "states": {
+            "reference": {
+              "qT": 0.15709039358366575,
+              "qL": 0.014300511100108654,
+              "Tline": 0.8263818152907481,
+              "Rq": 0.002227280012219664,
+              "Tbulk": 0.1713909046837744,
+              "closure_abs": 1.325783927086377e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958,
+              "stored_reference_regression_max_abs": 2.220446049250313e-16
+            },
+            "ramp": {
+              "qT": 0.5877099895731364,
+              "qL": 0.05619789298747387,
+              "Tline": 0.0401241019992159,
+              "Rq": 0.3159680154274317,
+              "Tbulk": 0.6439078825606103,
+              "closure_abs": 1.2742140675925384e-11,
+              "gamma_in": 2.511829510111477,
+              "input_displacement_power": 0.664074516898958
+            }
+          },
+          "kernel_sha256": "19fbf22e8ba8cd2a6950628dddda34b499b572786ea0681a0e381c3e41e488f8"
+        },
+        {
+          "node_id": "dft_017",
+          "omega": 1.1193288517015672,
+          "positive_index": 17,
+          "negative_index": 103,
+          "paired_weight_over_full_periodic_energy": 0.14119125526123605,
+          "states": {
+            "reference": {
+              "qT": 0.1407575378126267,
+              "qL": 0.012596854915865669,
+              "Tline": 0.845010362144221,
+              "Rq": 0.001635245114242035,
+              "Tbulk": 0.15335439272849238,
+              "closure_abs": 1.3044565427833277e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.6627933895272701,
+              "qL": 0.0625676968755809,
+              "Tline": 0.05397671392402858,
+              "Rq": 0.22066219966059872,
+              "Tbulk": 0.725361086402851,
+              "closure_abs": 1.252176140553729e-11,
+              "gamma_in": 2.6267533497223226,
+              "input_displacement_power": 0.7350502026619831
+            }
+          },
+          "kernel_sha256": "64f723a31ee503110aaf9f200c8215cd0ff323c5b2642f52464518e19d21fe6d"
+        },
+        {
+          "node_id": "dft_018",
+          "omega": 1.1803752993228216,
+          "positive_index": 18,
+          "negative_index": 102,
+          "paired_weight_over_full_periodic_energy": 0.19425124346698544,
+          "states": {
+            "reference": {
+              "qT": 0.12870892273386472,
+              "qL": 0.01134077578271392,
+              "Tline": 0.8567837639592881,
+              "Rq": 0.0031665375111682007,
+              "Tbulk": 0.14004969851657864,
+              "closure_abs": 1.2965073459270116e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.7213751715547049,
+              "qL": 0.06717047496416872,
+              "Tline": 0.07054423862962936,
+              "Rq": 0.14091011483942356,
+              "Tbulk": 0.7885456465188736,
+              "closure_abs": 1.2073453348193652e-11,
+              "gamma_in": 2.734477440984961,
+              "input_displacement_power": 0.8069274069735316
+            }
+          },
+          "kernel_sha256": "17c5f1bc6e885cd6a5053523ac377c3687ce6aed70b14d357dd177e08e241888"
+        },
+        {
+          "node_id": "dft_019",
+          "omega": 1.240612776674982,
+          "positive_index": 19,
+          "negative_index": 101,
+          "paired_weight_over_full_periodic_energy": 0.20476379566811423,
+          "states": {
+            "reference": {
+              "qT": 0.12020799184845114,
+              "qL": 0.010426370579741849,
+              "Tline": 0.8653353771590051,
+              "Rq": 0.00403026039984856,
+              "Tbulk": 0.13063436242819298,
+              "closure_abs": 1.2953305095209089e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.7584384910942544,
+              "qL": 0.06979090832516904,
+              "Tline": 0.08895879416961333,
+              "Rq": 0.08281180639936024,
+              "Tbulk": 0.8282293994194234,
+              "closure_abs": 1.1602940830357511e-11,
+              "gamma_in": 2.8347065196530523,
+              "input_displacement_power": 0.8791932816013619
+            }
+          },
+          "kernel_sha256": "2430b922a620dc8e539ac734cbb024a16b5f45fd8c888425db3399e12a5087e1"
+        },
+        {
+          "node_id": "dft_020",
+          "omega": 1.2999999999999998,
+          "positive_index": 20,
+          "negative_index": 100,
+          "paired_weight_over_full_periodic_energy": 0.16545033636489107,
+          "states": {
+            "reference": {
+              "qT": 0.11434006569103097,
+              "qL": 0.009727791949936655,
+              "Tline": 0.8721271859158052,
+              "Rq": 0.003804956430253542,
+              "Tbulk": 0.12406785764096763,
+              "closure_abs": 1.297362217655973e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604,
+              "stored_reference_regression_max_abs": 1.1102230246251565e-16
+            },
+            "ramp": {
+              "qT": 0.7748305627563863,
+              "qL": 0.07069194000623123,
+              "Tline": 0.10824631522912902,
+              "Rq": 0.04623118199697601,
+              "Tbulk": 0.8455225027626175,
+              "closure_abs": 1.1277423439537415e-11,
+              "gamma_in": 2.927165864788802,
+              "input_displacement_power": 0.9513289060563604
+            }
+          },
+          "kernel_sha256": "b7c25d02c76ee7f4290b65f210169ec662909cbab53573ee5bc0d65b819c2123"
+        },
+        {
+          "node_id": "dft_021",
+          "omega": 1.358496268261467,
+          "positive_index": 21,
+          "negative_index": 99,
+          "paired_weight_over_full_periodic_energy": 0.10195194412464159,
+          "states": {
+            "reference": {
+              "qT": 0.11031440263796982,
+              "qL": 0.009151032501852922,
+              "Tline": 0.8776040874227881,
+              "Rq": 0.002930477424376422,
+              "Tbulk": 0.11946543513982275,
+              "closure_abs": 1.3012813049328997e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085,
+              "stored_reference_regression_max_abs": 4.440892098500626e-16
+            },
+            "ramp": {
+              "qT": 0.7758638150904487,
+              "qL": 0.07050137138063114,
+              "Tline": 0.1272421724765948,
+              "Rq": 0.026392641041165062,
+              "Tbulk": 0.8463651864710798,
+              "closure_abs": 1.1160294910439461e-11,
+              "gamma_in": 3.0116020517539663,
+              "input_displacement_power": 1.022812537199085
+            }
+          },
+          "kernel_sha256": "fba7f2468351f472173895aa0d75127acf6d94147d70b2b0abd5176c4512bd4d"
+        },
+        {
+          "node_id": "dft_022",
+          "omega": 1.41606149103907,
+          "positive_index": 22,
+          "negative_index": 98,
+          "paired_weight_over_full_periodic_energy": 0.04739023713502802,
+          "states": {
+            "reference": {
+              "qT": 0.10758562160792748,
+              "qL": 0.008622854688550102,
+              "Tline": 0.8818629523624446,
+              "Rq": 0.0019285713280035913,
+              "Tbulk": 0.11620847629647758,
+              "closure_abs": 1.3074208382590768e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.7680341406230781,
+              "qL": 0.06984449621015856,
+              "Tline": 0.14539171634434855,
+              "Rq": 0.016729646811204674,
+              "Tbulk": 0.8378786368332366,
+              "closure_abs": 1.121014392424513e-11,
+              "gamma_in": 3.0877836468291586,
+              "input_displacement_power": 1.093122878733739
+            }
+          },
+          "kernel_sha256": "586f383f649d54e49f47386b048fc71d6bf836248c9500dbbb61e76ee1ad9c16"
+        },
+        {
+          "node_id": "dft_023",
+          "omega": 1.4726562160045653,
+          "positive_index": 23,
+          "negative_index": 97,
+          "paired_weight_over_full_periodic_energy": 0.016351829445508684,
+          "states": {
+            "reference": {
+              "qT": 0.10584628189549232,
+              "qL": 0.008113186771675846,
+              "Tline": 0.8849257659805531,
+              "Rq": 0.0011147653391180854,
+              "Tbulk": 0.11395946866716816,
+              "closure_abs": 1.3160694756209068e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912,
+              "stored_reference_regression_max_abs": 6.661338147750939e-16
+            },
+            "ramp": {
+              "qT": 0.7570490471139503,
+              "qL": 0.06905304979973752,
+              "Tline": 0.1619606334835395,
+              "Rq": 0.011937269591440272,
+              "Tbulk": 0.8261020969136877,
+              "closure_abs": 1.1332490501558823e-11,
+              "gamma_in": 3.1555018415575966,
+              "input_displacement_power": 1.161742350395912
+            }
+          },
+          "kernel_sha256": "63980ad47bd2cd16ee4155074cce29fc65e43f652b0ecc24512d30290021c4c0"
+        },
+        {
+          "node_id": "dft_024",
+          "omega": 1.5282416559604302,
+          "positive_index": 24,
+          "negative_index": 96,
+          "paired_weight_over_full_periodic_energy": 0.0041358190933820215,
+          "states": {
+            "reference": {
+              "qT": 0.1049209002687119,
+              "qL": 0.007610189333913526,
+              "Tline": 0.8868877033263312,
+              "Rq": 0.0005812070577633467,
+              "Tbulk": 0.11253108960262542,
+              "closure_abs": 1.3280043731356272e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915,
+              "stored_reference_regression_max_abs": 4.3042826247674526e-17
+            },
+            "ramp": {
+              "qT": 0.7461108301921913,
+              "qL": 0.0683116676876659,
+              "Tline": 0.17659093941942433,
+              "Rq": 0.008986562689264366,
+              "Tbulk": 0.8144224978798572,
+              "closure_abs": 1.145417094505774e-11,
+              "gamma_in": 3.2145710250745623,
+              "input_displacement_power": 1.2281603366405915
+            }
+          },
+          "kernel_sha256": "f0a84d8946743e48e73a1313c8e045f6990ab2616d162e65b70cf4b80ebbc905"
+        },
+        {
+          "node_id": "dft_025",
+          "omega": 1.5827797154226737,
+          "positive_index": 25,
+          "negative_index": 95,
+          "paired_weight_over_full_periodic_energy": 0.0007968962306283971,
+          "states": {
+            "reference": {
+              "qT": 0.10480910432640864,
+              "qL": 0.0071128026657029135,
+              "Tline": 0.8877931792364039,
+              "Rq": 0.0002849137580547874,
+              "Tbulk": 0.11192190699211155,
+              "closure_abs": 1.3429812817378206e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204,
+              "stored_reference_regression_max_abs": 3.3306690738754696e-16
+            },
+            "ramp": {
+              "qT": 0.7371081436557377,
+              "qL": 0.06748535360340346,
+              "Tline": 0.18879433796227965,
+              "Rq": 0.006612164767050802,
+              "Tbulk": 0.8045934972591412,
+              "closure_abs": 1.15283338431027e-11,
+              "gamma_in": 3.2648292928538853,
+              "input_displacement_power": 1.2918763947617204
+            }
+          },
+          "kernel_sha256": "181dc0d9e8e4262fd177e10f5566ae45b4e5c7dfbfe819187265b187966057bd"
+        }
+      ],
+      "qT_in_band_contribution_per_initial_open_total_energy": 0.7162269628437817,
+      "qT_tail_interval_per_initial_open_total_energy": [
+        0.7162269628437817,
+        0.7165434700885823
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "surface_N128",
+      "b": "surface_N160",
+      "qT_weighted_signed_difference": -2.401998389558868e-05,
+      "qT_weighted_L1_difference": 2.401998389558868e-05,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N128",
+      "b": "tetra_N96",
+      "qT_weighted_signed_difference": -0.00013660863757396387,
+      "qT_weighted_L1_difference": 0.00016630540908621865,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N128",
+      "b": "tetra_N128",
+      "qT_weighted_signed_difference": -0.00012783426561987826,
+      "qT_weighted_L1_difference": 0.00012783426561987826,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N128",
+      "b": "tetra_N160",
+      "qT_weighted_signed_difference": -0.00010354334689406833,
+      "qT_weighted_L1_difference": 0.00010356186515622599,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N160",
+      "b": "tetra_N96",
+      "qT_weighted_signed_difference": -0.0001125886536783752,
+      "qT_weighted_L1_difference": 0.00015362794606826102,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N160",
+      "b": "tetra_N128",
+      "qT_weighted_signed_difference": -0.00010381428172428957,
+      "qT_weighted_L1_difference": 0.00010381712055881446,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "surface_N160",
+      "b": "tetra_N160",
+      "qT_weighted_signed_difference": -7.952336299847964e-05,
+      "qT_weighted_L1_difference": 8.00828590499934e-05,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "tetra_N96",
+      "b": "tetra_N128",
+      "qT_weighted_signed_difference": 8.774371954085614e-06,
+      "qT_weighted_L1_difference": 7.924540245011581e-05,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "tetra_N96",
+      "b": "tetra_N160",
+      "qT_weighted_signed_difference": 3.306529067989555e-05,
+      "qT_weighted_L1_difference": 0.0001138991750627876,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    },
+    {
+      "a": "tetra_N128",
+      "b": "tetra_N160",
+      "qT_weighted_signed_difference": 2.4290918725809936e-05,
+      "qT_weighted_L1_difference": 4.0847577663788986e-05,
+      "scope": "Observed cached-method/grid sensitivity, not a true-error bound."
+    }
+  ],
+  "reference_regressions": 70,
+  "new_ramp_states": 70,
+  "new_green_evaluations": 0,
+  "maximum_reference_regression_abs": 9.992007221626409e-16,
+  "maximum_flux_closure_abs": 1.4897083566722813e-11,
+  "saved_internal_array_count": 840,
+  "input_binding_sha256": "8bff941d8074bfdf7cb84ccac47158e6e0f78f7208f40c425687c15906464f18",
+  "predeclaration_sha256": "d04d33d6a80a8f3f9c5b3dfd8a1cb1970d540776c69b6ef97c28be08326ffdb7",
+  "producer_sha256": "16fbce662d0ad3062a70d8a70ff65e530dc86d7ab545e0341d7029e98b1b80bd",
+  "internal_states_sha256": "49f04558989a385b74bdae65d25b7101b9123366981acc95f24037b458757373",
+  "limits": [
+    "The central finiteDFT weighted prediction differs from the monochromatic carrier value and from a finite-time stored-energy average.",
+    "Each tail interval bounds omitted spectral weight only; it is not a numerical quadrature, finite-box, timestep, cadence or finite-time estimator error enclosure.",
+    "Existing kernels are reused for a new contact profile. The regressions and closure checks are internal consistency; no new kernel production or rigorous kernel accuracy certificate is supplied here.",
+    "Both signed propagating conjugate bins describe one real right-moving preparation; qT already counts both lower branches once."
+  ],
+  "elapsed_seconds": 0.16685710800084053,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

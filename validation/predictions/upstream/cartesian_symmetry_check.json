@@ -1,0 +1,9 @@
+{
+  "G": 4.343509260664364e-15,
+  "Qm": 1.7208456881689926e-15,
+  "Qp": 2.2399149611680396e-15,
+  "full_grid_points": 13824,
+  "quadrant_grid_points": 3456,
+  "tied_eigenspaces": "Velocity operator diagonalized before applying directional masks",
+  "scope": "Small-grid exact-symmetry implementation check, not convergence of the high-frequency physical result"
+}

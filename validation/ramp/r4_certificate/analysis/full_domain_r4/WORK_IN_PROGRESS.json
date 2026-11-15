@@ -1,0 +1,22 @@
+{
+  "status": "scientific_result_manuscript_and_review_complete_final_delivery_check_pending",
+  "active_exec_session_id": null,
+  "last_observed_complete_jobs": 222,
+  "total_jobs": 222,
+  "pinned_python": "analysis/global_budget_r3/venv/bin/python",
+  "campaign": "analysis/full_domain_r4/CAMPAIGN.json",
+  "progress_checkpoint_library_id": "libfile_ece79f4ba62c8191a85a82bd4b48bad7",
+  "progress_checkpoint_current_version": 1,
+  "progress_checkpoint_zip_sha256": "61367d82bcecb86956d0ae195c2606937b0805aaf75ac1913fce8e5da12ad9df",
+  "next": [
+    "Freeze final archive and fresh-extract it",
+    "Run exact saved-ledger reproduction, fresh physical controls and original bridge from exported code",
+    "Save final deliverables and report actual results"
+  ],
+  "manuscript_patch": "review/PROPOSED_CERTIFIED_FLOOR_PATCH.diff",
+  "manuscript_patch_applied": true,
+  "pdf_skill_read": true,
+  "pdf_artifact_marker_run": true,
+  "final_ledger": "budget/FINAL_CAMPAIGN_LEDGER.json",
+  "bridge": "bridge_replay/EXACT_LATTICE_BRIDGE.json"
+}

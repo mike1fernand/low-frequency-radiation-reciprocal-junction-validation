@@ -1,0 +1,16 @@
+{
+  "omega": 0.0125,
+  "n_face": 40,
+  "n_radial": 128,
+  "seconds": 1.122987913000543,
+  "max_root_residual": 2.087089182034596e-18,
+  "min_root_derivative": 0.07853834332001007,
+  "max_root_bond_phase": 0.0176777219235517,
+  "PV_symmetry": 0.0,
+  "spectral_min_eigenvalues": [
+    -1.1361049575738714e-18,
+    -5.098929866444449e-19,
+    -3.7399689952462347e-19
+  ],
+  "matrix_sha256": "532891d1d5caffda0c6b2255c99871004e7328cf08b2648d2a6b8ddba9f93e37"
+}

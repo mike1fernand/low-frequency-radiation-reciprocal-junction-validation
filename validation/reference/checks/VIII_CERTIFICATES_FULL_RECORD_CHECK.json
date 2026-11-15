@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "weak_reference_witness": {
+    "gradient_norm": 1.8578005171891097,
+    "lower_split": 0.1007239587337383,
+    "upper_gap": 2.6995795646123266,
+    "squared_source_overlap": 0.7492079017201014
+  },
+  "saved_contour_jobs": 222,
+  "reference_auxiliary_vertices": 64,
+  "independent_reference_lower_estimate": 0.10379548339958238,
+  "reference_reported_strict_floor": "1037/10000",
+  "ramp_nominal_rational_endpoints": [
+    "1135358893260054489/1550684920225000000",
+    "4587863886935057969/6202739680900000000"
+  ],
+  "ramp_replayed_box_floor": "42767052725496289/61936276900000000",
+  "ramp_auxiliary_vertices": 64,
+  "fresh_contour_integration": false,
+  "scope": "The contour ledger and reference vertex enclosures are retained inputs. The ramp point and box rational response and the reference final lower bound are recalculated.",
+  "original_settings_and_checkpoint_file_hashes_matched": 444
+}

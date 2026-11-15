@@ -1,0 +1,72 @@
+{
+  "bare_source_normalization": {
+    "Q": 1.0,
+    "Q_over_a": 1.0,
+    "reference_a": 1.0,
+    "squared_overlap_scaling": "|Q|^2"
+  },
+  "lower_shell_rows": [
+    {
+      "branch": 0,
+      "display_k_a_6_decimals": [
+        1.022121,
+        0.71199,
+        -0.020432
+      ],
+      "full_overlap_Q2_over_Q1": 4.0,
+      "full_overlap_sq_Q1": 1.1517784120582701,
+      "full_precision_k_a": [
+        1.022121111600022,
+        0.7119903394245296,
+        -0.020431525569168604
+      ],
+      "radial_overlap_Q2_over_Q1": 4.0,
+      "radial_overlap_sq_Q1": 0.05934737605781433,
+      "record_full_overlap_sq": 1.1517784120579229,
+      "record_radial_overlap_sq": 0.05934737605779648,
+      "shell_residual_at_display_coordinates": -6.930955880335432e-07,
+      "shell_residual_full_precision": 2.55351295663786e-14
+    },
+    {
+      "branch": 1,
+      "display_k_a_6_decimals": [
+        0.880718,
+        0.217031,
+        -0.851447
+      ],
+      "full_overlap_Q2_over_Q1": 4.0,
+      "full_overlap_sq_Q1": 3.4958464021204407,
+      "full_precision_k_a": [
+        0.8807183236959493,
+        0.21703145119419856,
+        -0.8514466270114215
+      ],
+      "radial_overlap_Q2_over_Q1": 4.0,
+      "radial_overlap_sq_Q1": 0.13279010258875779,
+      "record_full_overlap_sq": 3.4958464021204416,
+      "record_radial_overlap_sq": 0.13279010258875695,
+      "shell_residual_at_display_coordinates": -9.215200957868319e-08,
+      "shell_residual_full_precision": -2.220446049250313e-16
+    }
+  ],
+  "schema": "paper1.pass17v10.witness-evidence.v1",
+  "weak_coupling_witness": {
+    "branch": 0,
+    "display_k_a_10_decimals": [
+      0.631895245,
+      -0.6028746482,
+      -0.96410616
+    ],
+    "full_precision_k_a": [
+      0.6318952450050036,
+      -0.6028746482147381,
+      -0.964106160002423
+    ],
+    "record_gradient_norm": 1.8578005171897316,
+    "record_lower_gap": 0.10072395873095896,
+    "record_overlap_squared": 0.7492079017271318,
+    "record_upper_gap": 2.699579564615422,
+    "shell_residual_at_display_coordinates": -2.0797363831093207e-11,
+    "shell_residual_full_precision": 0.0
+  }
+}

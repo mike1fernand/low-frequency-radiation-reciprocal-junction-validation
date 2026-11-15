@@ -1,0 +1,9 @@
+omega=0.4 Nperp=2048 scan done 129s
+omega=0.4 Nperp=4096 scan done 692s
+omega=0.4 spherical 160x320 done 713s
+omega=0.4 spherical 240x480 done 760s
+omega=0.4 N=2048 deg=2: max|Im extrap - on-shell| = 5.78e-07  (max|Im| 0.093)
+omega=0.4 N=2048 deg=3: max|Im extrap - on-shell| = 1.69e-07  (max|Im| 0.093)
+omega=0.4 N=4096 deg=2: max|Im extrap - on-shell| = 5.78e-07  (max|Im| 0.093)
+omega=0.4 N=4096 deg=3: max|Im extrap - on-shell| = 1.69e-07  (max|Im| 0.093)
+sph 160 vs 240 max diff 7.384727360103723e-15

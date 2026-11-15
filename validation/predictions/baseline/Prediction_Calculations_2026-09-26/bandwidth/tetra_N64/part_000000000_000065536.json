@@ -1,0 +1,12 @@
+{
+  "centroid_clusters": {
+    "(0, 1)": 0,
+    "(1, 2)": 0,
+    "(0, 1, 2)": 0
+  },
+  "seconds": 4.593140601000414,
+  "start": 0,
+  "stop": 65536,
+  "config_hash": "a72e480e7985d6c7839a368edd754017e01258e4d8991d6df8e5fda5fa0e1651",
+  "npz_sha256": "67a55176d22b8743743436218ee0b9288d0c0e77aaef7307e2d7e39aec4d7400"
+}

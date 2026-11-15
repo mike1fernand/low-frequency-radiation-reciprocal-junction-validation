@@ -1,0 +1,500 @@
+{
+  "status": "PASS",
+  "scope": "Exact one-active parity identity and finite actual-block/synthetic-SPD algebra checks only; no physical static kernel or scattering calculation.",
+  "exact_rational_fixtures": [
+    {
+      "Kq": "169/100",
+      "g_actual": "1/5",
+      "chi_R": "3/10",
+      "chi_X": "4/5",
+      "nu_R": "500/14689",
+      "beta_share": "-144427814/1510367047"
+    },
+    {
+      "Kq": "3/10",
+      "g_actual": "2",
+      "chi_R": "7/10",
+      "chi_X": "1/10",
+      "nu_R": "100/329",
+      "beta_share": "-13642/108241"
+    },
+    {
+      "Kq": "4",
+      "g_actual": "1/20",
+      "chi_R": "1/5",
+      "chi_X": "6/5",
+      "nu_R": "5/1226",
+      "beta_share": "-1002109/10521532"
+    },
+    {
+      "Kq": "7/10",
+      "g_actual": "9/10",
+      "chi_R": "2/5",
+      "chi_X": "3/5",
+      "nu_R": "75/409",
+      "beta_share": "-373937/3512901"
+    }
+  ],
+  "matrix_cases": 56,
+  "max_matrix_error": 1.2809491335957507e-14,
+  "matrix_fixtures": [
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.03403907686023562,
+      "formula": 0.03403907686023555,
+      "max_error": 1.2560739669470201e-15
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 6.280369834735101e-16
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.03403907686023554,
+      "formula": 0.03403907686023555,
+      "max_error": 1.4043333874306805e-15
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 1.9860273225978185e-15
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "left",
+      "nu_R": 0.03403907686023562,
+      "formula": 0.03403907686023555,
+      "max_error": 2.220446049250313e-15
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 9.930136612989092e-16
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.03403907686023562,
+      "formula": 0.03403907686023555,
+      "max_error": 1.2560739669470201e-15
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.0340390768602355,
+      "formula": 0.03403907686023555,
+      "max_error": 1.4043333874306805e-15
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.03403907686023562,
+      "formula": -0.03403907686023555,
+      "max_error": 5.102196573270515e-15
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.03403907686023562,
+      "formula": 0.03403907686023555,
+      "max_error": 1.4043333874306805e-15
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 2.7012892057857038e-15
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "left",
+      "nu_R": 0.03403907686023562,
+      "formula": 0.03403907686023555,
+      "max_error": 1.2560739669470201e-15
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "right",
+      "nu_R": -0.0340390768602355,
+      "formula": -0.03403907686023555,
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.30395136778115517,
+      "formula": 0.303951367781155,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.3039513677811551,
+      "formula": -0.303951367781155,
+      "max_error": 1.1443916996305594e-16
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.3039513677811552,
+      "formula": 0.303951367781155,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.30395136778115517,
+      "formula": -0.303951367781155,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "left",
+      "nu_R": 0.30395136778115517,
+      "formula": 0.303951367781155,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "right",
+      "nu_R": -0.30395136778115517,
+      "formula": -0.303951367781155,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.3039513677811551,
+      "formula": 0.303951367781155,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.3039513677811551,
+      "formula": -0.303951367781155,
+      "max_error": 1.1443916996305594e-16
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.30395136778115517,
+      "formula": 0.303951367781155,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.3039513677811552,
+      "formula": -0.303951367781155,
+      "max_error": 1.0881460057406233e-15
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.3039513677811551,
+      "formula": 0.303951367781155,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.3039513677811551,
+      "formula": -0.303951367781155,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "left",
+      "nu_R": 0.303951367781155,
+      "formula": 0.303951367781155,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "right",
+      "nu_R": -0.3039513677811551,
+      "formula": -0.303951367781155,
+      "max_error": 1.1443916996305594e-16
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.004078303425774866,
+      "formula": -0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 7.944109290391274e-15
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.004078303425774827,
+      "formula": -0.004078303425774878,
+      "max_error": 1.4432899320127035e-15
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "right",
+      "nu_R": -0.004078303425774866,
+      "formula": -0.004078303425774878,
+      "max_error": 1.0048591735576161e-14
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.004078303425774866,
+      "formula": -0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 8.702335715267317e-15
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.004078303425774827,
+      "formula": -0.004078303425774878,
+      "max_error": 1.2809491335957507e-14
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.004078303425774866,
+      "formula": -0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "left",
+      "nu_R": 0.004078303425774905,
+      "formula": 0.004078303425774878,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "right",
+      "nu_R": -0.004078303425774866,
+      "formula": -0.004078303425774878,
+      "max_error": 5.0242958677880805e-15
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.18337408312958442,
+      "formula": 0.18337408312958436,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "nseg": 1,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.18337408312958442,
+      "formula": -0.18337408312958436,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.18337408312958436,
+      "formula": 0.18337408312958436,
+      "max_error": 2.3055512673781017e-16
+    },
+    {
+      "nseg": 4,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.18337408312958445,
+      "formula": -0.18337408312958436,
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "left",
+      "nu_R": 0.18337408312958445,
+      "formula": 0.18337408312958436,
+      "max_error": 5.558049685633556e-16
+    },
+    {
+      "nseg": 4,
+      "active": 2,
+      "incidence": "right",
+      "nu_R": -0.18337408312958442,
+      "formula": -0.18337408312958436,
+      "max_error": 3.1401849173675503e-16
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.18337408312958445,
+      "formula": 0.18337408312958436,
+      "max_error": 1.1226435567921847e-15
+    },
+    {
+      "nseg": 4,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.18337408312958436,
+      "formula": -0.18337408312958436,
+      "max_error": 0.0
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "left",
+      "nu_R": 0.18337408312958442,
+      "formula": 0.18337408312958436,
+      "max_error": 1.4946834900704541e-16
+    },
+    {
+      "nseg": 6,
+      "active": 0,
+      "incidence": "right",
+      "nu_R": -0.18337408312958436,
+      "formula": -0.18337408312958436,
+      "max_error": 6.661338147750939e-16
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "left",
+      "nu_R": 0.18337408312958445,
+      "formula": 0.18337408312958436,
+      "max_error": 1.1240151438116956e-15
+    },
+    {
+      "nseg": 6,
+      "active": 3,
+      "incidence": "right",
+      "nu_R": -0.1833740831295843,
+      "formula": -0.18337408312958436,
+      "max_error": 4.652682298944613e-16
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "left",
+      "nu_R": 0.18337408312958445,
+      "formula": 0.18337408312958436,
+      "max_error": 2.159233940399377e-15
+    },
+    {
+      "nseg": 6,
+      "active": 5,
+      "incidence": "right",
+      "nu_R": -0.18337408312958436,
+      "formula": -0.18337408312958436,
+      "max_error": 0.0
+    }
+  ],
+  "adverse_control": {
+    "broken_local_XR_reflection_difference": 0.0019927604770858393,
+    "scope": "Rejects using the diagonal-local-compliance formula after breaking its symmetry premise."
+  },
+  "coupling_ordering_exact": true,
+  "source_hash": "93a25927ce546699a58402b568004d473f62b50f3f4d7fb17e12a878cf9559b0",
+  "engine_hashes": {
+    "model_api_v1_1.py": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980",
+    "reduced_core.py": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+  }
+}

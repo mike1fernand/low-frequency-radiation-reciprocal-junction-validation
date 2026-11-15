@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "immediate_parent_manifest_sha256": "dc3d74019cd871e6447163dfb53d29bfe6c3e6b1faab55cef8efcf9f48104817",
+  "added_paragraph_sha256": "ded7cd5576781d87add4d45968debf041aaaff8788fc7a6b940d7ea50b461352",
+  "removed_paragraph_recovers_parent_section_and_manuscript_exactly": true,
+  "incident_qT_percent_rounded": {
+    "reference": 12.6,
+    "uniform": 15.8,
+    "soft_ramp": 7.8,
+    "short_core": 6.5,
+    "edge_heavy": 6.5
+  },
+  "total_contact_stiffness_in_Kdiag_units": {
+    "reference": 8.0,
+    "uniform": 9.6,
+    "soft_ramp": 5.92,
+    "short_core": 4.8,
+    "edge_heavy": 6.4
+  },
+  "scope": "These rows establish numerical comparisons. The dated-source review addresses the selection history."
+}

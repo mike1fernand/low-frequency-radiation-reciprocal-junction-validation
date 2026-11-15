@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "stationary_reference": {
+    "profiles": {
+      "reference": {
+        "Rq_Tline_TqT_TqL": [
+          0.0035721492713804096,
+          0.8597459585394486,
+          0.12565925539283657,
+          0.011022636796334608
+        ],
+        "emitted_qT_share": 0.9193555443241962
+      },
+      "endpoint": {
+        "Rq_Tline_TqT_TqL": [
+          0.0550648425667624,
+          0.7618639412778488,
+          0.15857729679969412,
+          0.0244939193556954
+        ],
+        "emitted_qT_share": 0.8662055135149966
+      },
+      "doubled": {
+        "Rq_Tline_TqT_TqL": [
+          0.04441815109590786,
+          0.3837870034716502,
+          0.5221205513589237,
+          0.04967429407351822
+        ],
+        "emitted_qT_share": 0.9131256700365143
+      },
+      "ramp": {
+        "Rq_Tline_TqT_TqL": [
+          0.1195482344354838,
+          0.07631462564603332,
+          0.7358742884023648,
+          0.06826285151611745
+        ],
+        "emitted_qT_share": 0.9151104356117199
+      }
+    },
+    "archived_flux_residual": 1.2954304295931252e-11,
+    "central_estimates_surface_tetra_retained_GB": [
+      0.1256592553919631,
+      0.12560796330551227,
+      0.1256063099667304
+    ],
+    "central_estimate_spread": 5.294542523270884e-05
+  },
+  "frequency_scan": {
+    "rows": 49,
+    "min_frequency_TqT": [
+      1.575,
+      0.10486397198471414
+    ],
+    "max_frequency_TqT": [
+      0.825,
+      0.21774263089260212
+    ],
+    "samples_above_10_percent": 49,
+    "reference_frequency_sweep_TqT": 0.12569143926167411
+  },
+  "certificate_reporting": {
+    "nominal_interval": [
+      0.7321660760687072,
+      0.7396512062343026
+    ],
+    "box_floor": 0.6905008642115569,
+    "scope": "Arithmetic check on the endpoints of the existing proofs."
+  },
+  "directional_example": {
+    "percent_bulk_upstream_upstream_share": {
+      "2.6": [
+        33.24957441979684,
+        17.117813305264143,
+        51.48280422823148
+      ],
+      "2.9": [
+        72.07220476430238,
+        70.9751220218111,
+        98.47780049732201
+      ]
+    },
+    "scope": "Saved directional integrations; forward and backward branch powers summed here."
+  },
+  "scope": "New coupled solves on saved numerical kernel. Scan and integration records rechecked; no fresh bulk quadrature or new error certificate."
+}

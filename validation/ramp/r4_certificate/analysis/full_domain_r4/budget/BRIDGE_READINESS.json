@@ -1,0 +1,19 @@
+{
+  "status": "bridge_inputs_present_and_hash_checked_not_replayed",
+  "source_directory": "/workspace/scratch/be1617cef594/recovered_r3/paper1-validation-repository/validation/current_numerics/analysis/resolution_execution/certificate/basis_invariant_n192_sobol23_m256_v1",
+  "sha256": {
+    "finite_kernel_certificate.py": "02e6dd6cabcabae6043c1d9744d4c8a0ec26b8d7ac2bad317368d37aca9ec96e",
+    "selection.json": "d13f65f7fc1aa666fe29bca774584acd88644027204f0729106b2b0c78af14b6",
+    "PREPARATION.json": "556284820f9eb9d0883748b3761a249f55dfce9646d78b8114a662bdd5695632",
+    "staged_repo/validation/frequency_domain/methods/surface/raw/pv_mean_M192.npy": "ce45000dbd154d556c1cb2a967cc5992149bb2f0b8a98153d654c855b8280e24",
+    "staged_repo/validation/frequency_domain/results/surface/surface_N128_matrices.npz": "af6620513ca1e81def55d0ddcc1ddffdaa3d2f4a46d5c2cd3d0acf1f13e8c0bb",
+    "proof160/finite_kernel_certificate.json": "9011e60be07bc62dcb1695ef92b108a8365319957f7a59abc7eb6965fdbdf594"
+  },
+  "required_operator_thresholds": {
+    "g": "1/50",
+    "Q": "1/200"
+  },
+  "scale": "169/100",
+  "conditional_rational_floor": "1037/10000",
+  "proof_executed_this_pass": false
+}

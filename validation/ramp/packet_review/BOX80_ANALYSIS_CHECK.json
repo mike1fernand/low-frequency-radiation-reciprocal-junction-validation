@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "source_result_sha256_at_review": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+  "script_sha256": "9515e49994703dcf9939b210cc82e6d519430a89b1f4759c90deb9e407e687ef",
+  "independent_selector_window": [
+    57.4,
+    64.2
+  ],
+  "all_five_predicates_recomputed": true,
+  "selected_cadence_samples": 35,
+  "three_snapshot_checks": [
+    {
+      "time": 57.4,
+      "independent_low_high_total": [
+        0.7158613544115239,
+        0.715861355995834,
+        0.7823506492300059
+      ],
+      "stored_low_high_total": [
+        0.7158613544115235,
+        0.7158613559958337,
+        0.7823506492300059
+      ],
+      "maximum_abs_difference": 3.3306690738754696e-16,
+      "kinetic_parseval_relative_difference": 2.4088959166015046e-16
+    },
+    {
+      "time": 60.8,
+      "independent_low_high_total": [
+        0.7164567297953568,
+        0.7164567300557548,
+        0.7833539909888136
+      ],
+      "stored_low_high_total": [
+        0.7164567297953568,
+        0.7164567300557548,
+        0.7833539909888136
+      ],
+      "maximum_abs_difference": 0.0,
+      "kinetic_parseval_relative_difference": 0.0
+    },
+    {
+      "time": 64.2,
+      "independent_low_high_total": [
+        0.7169735736549433,
+        0.7169735736821726,
+        0.7846389516261622
+      ],
+      "stored_low_high_total": [
+        0.7169735736549432,
+        0.7169735736821725,
+        0.7846389516261622
+      ],
+      "maximum_abs_difference": 1.1102230246251565e-16,
+      "kinetic_parseval_relative_difference": 0.0
+    }
+  ],
+  "primary_mean_recomputed": [
+    0.7164564182492906,
+    0.7164564186765725,
+    0.7834437501219385
+  ],
+  "legacy_stride3_window": [
+    57.4,
+    64.0
+  ],
+  "same_endpoint_stride3_window": [
+    57.4,
+    64.2
+  ],
+  "same_endpoint_coarse_mean": [
+    0.7164548321956213,
+    0.7164548326394735,
+    0.7834430438344749
+  ],
+  "cadence_erratum": "Original B[::3] omitted the final endpoint. It must not be labeled a same-window cadence comparison. Primary result unaffected; correction needs no new dynamics.",
+  "scope": "Independent physical/FFT/selector checks of existing finite-packet results, not new long dynamics or an asymptotic branch-flux proof."
+}

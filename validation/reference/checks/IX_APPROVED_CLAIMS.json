@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "replay_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "replays": [
+    {
+      "command": "python tools/verify_lowfreq.py",
+      "matched_packaged_output": "checks/LOW_FREQUENCY.json",
+      "sha256": "afffca3b9b4be546cd188d511905065247cf233a09e0c1ce5e0f60a96da57f5c"
+    },
+    {
+      "command": "python tools/verify_clarity_observables.py",
+      "matched_packaged_output": "checks/CLARITY_OBSERVABLES.json",
+      "sha256": "4cea07464603af113d3f6f2f3356e11a02be4b857e58fa1af87a9f0c083d0373"
+    },
+    {
+      "command": "python tools/verify_vi_results.py",
+      "matched_packaged_output": "checks/VI_RESULTS.json",
+      "sha256": "07d43b6f04d2c7b2ee0cfbb42020684b17b52353bcd846a46fc99c990a369d45"
+    },
+    {
+      "command": "python tools/verify_frequency_figure.py",
+      "matched_packaged_output": "checks/FIGURE_FREQUENCY.json",
+      "sha256": "93b309faaf8a92a42430b2e21958ad33528dc5efc84aefde07122e0fbfc56b08"
+    },
+    {
+      "command": "python tools/verify_robustness.py",
+      "matched_packaged_output": "checks/ROBUSTNESS.json",
+      "sha256": "66f78fbf384ac215cd1912ee6553c72b8564aa7d853b40b395a66bb4d9d77d27"
+    },
+    {
+      "command": "python tools/verify_robustness_bounds.py",
+      "matched_packaged_output": "checks/VIII_CERTIFICATES.json",
+      "sha256": "6fd0d4c033d3ce5b2e9c09f55c52f39aaabbd74e202af0257fb7f8a743776074"
+    },
+    {
+      "command": "python tools/verify_packet_comparison.py",
+      "matched_packaged_output": "checks/PACKET_COMPARISON.json",
+      "sha256": "d959d6f9d296d0ce59ff1d3d81553ad41d111e268b8a82016ed07aac237aae56"
+    }
+  ],
+  "approved_section_source_sha256": "faa7709ed5a63e2fc0424d82a45ce3f3c2303a3461283be1ed576b86a4ad3e38",
+  "checked_claims": {
+    "fixed_correction_in_SM7A": {
+      "corner_geometry": "-1/6",
+      "material_dispersion": "1/14",
+      "sum": "-2/21",
+      "general_quadratic_coefficient_symbolically_rederived": true,
+      "single_motif_quadratic_coefficient": "-nu_R**2/3 - 2/21",
+      "single_motif_coefficient_strictly_negative": true
+    },
+    "limiting_qT_emitted_share": 0.9122214500428667,
+    "stationary_omega_1_2": {
+      "reference": {
+        "qT_per_incident": 0.12565925539283657,
+        "qT_per_emitted": 0.9193555443241962
+      },
+      "endpoint": {
+        "qT_per_incident": 0.15857729679969412,
+        "qT_per_emitted": 0.8662055135149966
+      },
+      "ramp": {
+        "qT_per_incident": 0.7358742884023648,
+        "qT_per_emitted": 0.9151104356117199
+      }
+    },
+    "reference_frequency_scan": {
+      "rows": 49,
+      "min_frequency_TqT": [
+        1.575,
+        0.10486397198471414
+      ],
+      "max_frequency_TqT": [
+        0.825,
+        0.21774263089260212
+      ],
+      "samples_above_10_percent": 49,
+      "reference_frequency_sweep_TqT": 0.12569143926167411
+    },
+    "ramp_nominal_fraction_enclosure_from_exact_rationals": [
+      0.7321660760687072,
+      0.7396512062343026
+    ],
+    "ramp_box_fraction_floor_from_exact_rational": 0.6905008642115569,
+    "minimum_octant_percent_of_emitted_qT": {
+      "80": 1.3934431927430955,
+      "96": 1.3769698599525153
+    },
+    "primary_packet_direct_minus_evaluated_band_in_percentage_points": {
+      "reference": -0.004663272492161363,
+      "ramp": 0.01499322554208149
+    }
+  },
+  "scope": "Recomputed coupled responses from retained bulk matrices, verified stored angular and frequency integrations, reanalyzed the two primary packet records and replayed rational tolerance bounds from the retained bulk enclosures. These runs did not repeat the underlying bulk integration or time evolution. The nominal taper sweep is sampled. The ramp bound applies at omega=1.2 to the six motif strengths with all eight springs per motif varying together. The packet differences compare central estimates and do not provide rigorous error intervals."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SCIENTIFIC_BINDING_LOGIC_PREFLIGHT",
+  "scope": "In-memory prospective inventory only; final root manifest not generated or replaced. Full R4 inventory remains subject to final freeze check.",
+  "bindings": {
+    "proof_chain_bindings": 19,
+    "nominal_interval_rational": [
+      "1135358893260054489/1550684920225000000",
+      "4587863886935057969/6202739680900000000"
+    ],
+    "whole_motif_plus_minus5_percent_floor_rational": "42767052725496289/61936276900000000",
+    "saved_upstream_jobs": 222
+  }
+}

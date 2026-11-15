@@ -1,0 +1,30 @@
+{
+  "comparisons": [
+    {
+      "label": "Surface/PV",
+      "status": "fresh_selected",
+      "value": 0.1256592553919631
+    },
+    {
+      "label": "Tetrahedron",
+      "status": "fresh_selected_N192",
+      "value": 0.12560796330551227
+    },
+    {
+      "label": "GB\n(retained)",
+      "status": "retained_extrapolation_not_rerun",
+      "value": 0.1256063099667304
+    }
+  ],
+  "partition": {
+    "Rq": 0.0035721492712360416,
+    "TL_modal": 0.011022636796258707,
+    "TT_modal": 0.1256592553919631,
+    "Tq": 0.8597459585275867
+  },
+  "partition_sum": 0.9999999999870446,
+  "raw_closure": 1.2955414518955877e-11,
+  "reference_label": "Surface N192; fresh two-seed Sobol 2^23 mean, Jackson M256",
+  "relative_difference_denominator": "controlling surface TT_modal",
+  "surface_tetra_relative_percent": 0.04081839120471789
+}

@@ -1,0 +1,495 @@
+{
+  "status": "passed",
+  "ledger_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+  "R3_ordinary_gl32_128_sha256": "ebec1b429077dedf1e48d1223f484d31bf6507f7a627c80f05af00e7f274650d",
+  "results": {
+    "g": {
+      "component_checks": 34,
+      "comparisons": [
+        {
+          "moment_index": 0,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 1.35999110779902e-07,
+          "offset_over_radius_diagnostic": 0.0010183120689384066
+        },
+        {
+          "moment_index": 0,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 3.429920624939849e-09,
+          "offset_over_radius_diagnostic": 2.8117290557712888e-05
+        },
+        {
+          "moment_index": 1,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.39705249763898e-08,
+          "offset_over_radius_diagnostic": 0.00022352480089338838
+        },
+        {
+          "moment_index": 1,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 5.130091318293364e-10,
+          "offset_over_radius_diagnostic": 5.128099860873666e-06
+        },
+        {
+          "moment_index": 2,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 1.2358383721538314e-07,
+          "offset_over_radius_diagnostic": 0.0009766431069085165
+        },
+        {
+          "moment_index": 2,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 6.468837579221729e-09,
+          "offset_over_radius_diagnostic": 5.6449463301700784e-05
+        },
+        {
+          "moment_index": 3,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 4.362951103460256e-08,
+          "offset_over_radius_diagnostic": 0.000266133527328165
+        },
+        {
+          "moment_index": 3,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 8.039589207300722e-09,
+          "offset_over_radius_diagnostic": 5.2595079855213554e-05
+        },
+        {
+          "moment_index": 4,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 8.468568446727229e-08,
+          "offset_over_radius_diagnostic": 0.00042174583240868203
+        },
+        {
+          "moment_index": 4,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 9.11811539553275e-09,
+          "offset_over_radius_diagnostic": 4.8964217386250616e-05
+        },
+        {
+          "moment_index": 5,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 6.262520127522386e-08,
+          "offset_over_radius_diagnostic": 0.00025171193917468177
+        },
+        {
+          "moment_index": 5,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 1.1138389948878253e-08,
+          "offset_over_radius_diagnostic": 4.7753900898612656e-05
+        },
+        {
+          "moment_index": 6,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.0627542412600735e-08,
+          "offset_over_radius_diagnostic": 0.0008963149969851565
+        },
+        {
+          "moment_index": 6,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 1.849987729413083e-09,
+          "offset_over_radius_diagnostic": 3.932839950478867e-05
+        },
+        {
+          "moment_index": 7,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.141381265767458e-09,
+          "offset_over_radius_diagnostic": 0.00011576560407113156
+        },
+        {
+          "moment_index": 7,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 2.7797596179804286e-10,
+          "offset_over_radius_diagnostic": 7.283231976820574e-06
+        },
+        {
+          "moment_index": 8,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 4.7918278390359186e-08,
+          "offset_over_radius_diagnostic": 0.0008724900009111
+        },
+        {
+          "moment_index": 8,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 2.073691460616595e-09,
+          "offset_over_radius_diagnostic": 4.385692123088365e-05
+        },
+        {
+          "moment_index": 9,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 8.198781421515817e-09,
+          "offset_over_radius_diagnostic": 0.00012746396541840434
+        },
+        {
+          "moment_index": 9,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 1.6639348821631971e-09,
+          "offset_over_radius_diagnostic": 2.928904735820786e-05
+        },
+        {
+          "moment_index": 10,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.742430387305095e-08,
+          "offset_over_radius_diagnostic": 0.0003633858919319572
+        },
+        {
+          "moment_index": 10,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 1.1458544881669019e-09,
+          "offset_over_radius_diagnostic": 1.7188981730733994e-05
+        },
+        {
+          "moment_index": 11,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.1024254734222e-08,
+          "offset_over_radius_diagnostic": 0.0002352903753648343
+        },
+        {
+          "moment_index": 11,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 3.05773197034639e-09,
+          "offset_over_radius_diagnostic": 3.8005981738592384e-05
+        },
+        {
+          "moment_index": 12,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 7.348025849663087e-08,
+          "offset_over_radius_diagnostic": 0.0012551532729785525
+        },
+        {
+          "moment_index": 12,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 2.646560495402262e-09,
+          "offset_over_radius_diagnostic": 4.887819564357345e-05
+        },
+        {
+          "moment_index": 13,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 1.6101041017951586e-08,
+          "offset_over_radius_diagnostic": 0.00023239011161914623
+        },
+        {
+          "moment_index": 13,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 4.350912836519733e-10,
+          "offset_over_radius_diagnostic": 6.563514438474901e-06
+        },
+        {
+          "moment_index": 14,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.70211641947266e-08,
+          "offset_over_radius_diagnostic": 0.000681465486105327
+        },
+        {
+          "moment_index": 14,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 4.040362115983569e-09,
+          "offset_over_radius_diagnostic": 5.0921360755826805e-05
+        },
+        {
+          "moment_index": 15,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 3.1048226788239875e-08,
+          "offset_over_radius_diagnostic": 0.0003039347986575771
+        },
+        {
+          "moment_index": 15,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 4.543336610956929e-09,
+          "offset_over_radius_diagnostic": 4.6207536075549186e-05
+        },
+        {
+          "moment_index": 16,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 3.359159149170478e-08,
+          "offset_over_radius_diagnostic": 0.00027466081192030706
+        },
+        {
+          "moment_index": 16,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 3.2875784173202186e-10,
+          "offset_over_radius_diagnostic": 2.7964955048177256e-06
+        }
+      ]
+    },
+    "Q": {
+      "component_checks": 34,
+      "comparisons": [
+        {
+          "moment_index": 0,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.8346686096835166e-13,
+          "offset_over_radius_diagnostic": 2.714979750166788e-09
+        },
+        {
+          "moment_index": 0,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 1,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.393573124797706e-13,
+          "offset_over_radius_diagnostic": 3.0754492184081947e-09
+        },
+        {
+          "moment_index": 1,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 2,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 1.2058082419391484e-13,
+          "offset_over_radius_diagnostic": 1.4558105127383644e-09
+        },
+        {
+          "moment_index": 2,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 3,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.6709065458677483e-14,
+          "offset_over_radius_diagnostic": 2.5046846493782807e-10
+        },
+        {
+          "moment_index": 3,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 4,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 1.4843410501522955e-13,
+          "offset_over_radius_diagnostic": 1.151301744819842e-09
+        },
+        {
+          "moment_index": 4,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 5,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.014498612594112e-13,
+          "offset_over_radius_diagnostic": 1.2903955317029597e-09
+        },
+        {
+          "moment_index": 5,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 6,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 9.981175876457511e-14,
+          "offset_over_radius_diagnostic": 4.520411705571356e-09
+        },
+        {
+          "moment_index": 6,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 7,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 9.85126428897203e-14,
+          "offset_over_radius_diagnostic": 6.414009238184273e-09
+        },
+        {
+          "moment_index": 7,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 8,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 9.466304826510907e-14,
+          "offset_over_radius_diagnostic": 4.400834437240513e-09
+        },
+        {
+          "moment_index": 8,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 9,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 8.843493184252746e-14,
+          "offset_over_radius_diagnostic": 3.6615321524098233e-09
+        },
+        {
+          "moment_index": 9,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 10,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 8.05508904249425e-14,
+          "offset_over_radius_diagnostic": 3.0796647216924844e-09
+        },
+        {
+          "moment_index": 10,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 11,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 7.157478055904723e-14,
+          "offset_over_radius_diagnostic": 2.213087706333189e-09
+        },
+        {
+          "moment_index": 11,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 12,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 2.150977086891923e-14,
+          "offset_over_radius_diagnostic": 5.845333575228724e-10
+        },
+        {
+          "moment_index": 12,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 13,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 3.923731242626315e-14,
+          "offset_over_radius_diagnostic": 9.541475238129972e-10
+        },
+        {
+          "moment_index": 13,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 14,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.1366432955109155e-14,
+          "offset_over_radius_diagnostic": 1.045635023594403e-09
+        },
+        {
+          "moment_index": 14,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 15,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.695164400758511e-14,
+          "offset_over_radius_diagnostic": 9.53265678716546e-10
+        },
+        {
+          "moment_index": 15,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        },
+        {
+          "moment_index": 16,
+          "component": "real",
+          "contained": true,
+          "center_offset_diagnostic": 5.724568224022465e-14,
+          "offset_over_radius_diagnostic": 9.105237368178923e-10
+        },
+        {
+          "moment_index": 16,
+          "component": "imag",
+          "contained": true,
+          "center_offset_diagnostic": 0.0,
+          "offset_over_radius_diagnostic": null
+        }
+      ]
+    }
+  },
+  "claim": "All17 complex g and17 real Q moment enclosures contain the retained ordinary32/128 quadrature values, compared componentwise.",
+  "limits": "Diagnostic agreement only. No new ordinary quadrature was run. It supplies no rigorous error bound and is not used to establish the independent certified operator gate."
+}

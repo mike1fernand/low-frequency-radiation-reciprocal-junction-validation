@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "contact_class": "Explicit unequal-endpoint spring-orbit extension, not original equal-pair hypothesis",
+  "omega": 1.2,
+  "g_reference": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "declared_beta_values": [
+    -0.5,
+    -0.2,
+    0.2,
+    0.5
+  ],
+  "input_origin": "bundled_local_inputs",
+  "input_provenance": {
+    "schema": "p1-purity-audit-small-inputs/1",
+    "source_archive_relative_to_base": "sources/nov2/records/development/earlier_native/paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+    "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+    "files": [
+      {
+        "path": "model_api_v1_1.py",
+        "archive_member": "paper1_phase12_harmonic/model_api_v1_1.py",
+        "bytes": 10879,
+        "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+      },
+      {
+        "path": "reduced_core.py",
+        "archive_member": "paper1_phase12_harmonic/reduced_core.py",
+        "bytes": 5156,
+        "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+      },
+      {
+        "path": "on_shell_N80.npz",
+        "archive_member": "paper1_phase12_harmonic/raw/on_shell_N80.npz",
+        "bytes": 5534,
+        "sha256": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5"
+      },
+      {
+        "path": "pv_mean_M192.npy",
+        "archive_member": "paper1_phase12_harmonic/raw/pv_mean_M192.npy",
+        "bytes": 3328,
+        "sha256": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+      }
+    ],
+    "context": {
+      "omega": 1.2,
+      "surface_grid": 80,
+      "PV_cache_label": "M192",
+      "cached_source_dimension": 20,
+      "consumed_source_dimension": 12,
+      "model": "Original ModelParameters default: a=m_bulk=m_spine=k_axis=k_diag=1, k_spine=1.69.",
+      "historical_consumer_member": "paper1_phase12_harmonic/run_exact_flux_partition.py",
+      "historical_consumer_sha256": "f333857fb8ed4234eb630a1312af4224c89c1dd74163f1e81a12a8757dbf0b04",
+      "normalization": "Archived physical-compliance convention; source power 2*gamma_in*f\u2020 Im_G_branch*f.",
+      "qT": "Im_branch_0+Im_branch_1; NOT geometric Im_T.",
+      "claim_scope": "Historical approximate kernels, not current P1 coefficient update or rigorous enclosure."
+    }
+  },
+  "exact_hessian_checks": {
+    "arithmetic": "Exact rational coefficients in Q(sqrt(2))",
+    "energy_vs_eight_physical_bonds": "PASS",
+    "orthonormal_embedding": "PASS",
+    "projected_local_matrix": "PASS",
+    "source_sector_Hessian_leakage": "exact zero",
+    "universal_identity_reason": "Each entry is linear in g and affine in beta; exact coefficient identity at beta=0 and beta=1.",
+    "passivity_domain": "g>=0 and |beta|<=1 by sum of nonnegative spring energies; all requested points have g>0, |beta|<1.",
+    "local_order": [
+      "q_left",
+      "q_right",
+      "X",
+      "R"
+    ],
+    "beta0_matrix": [
+      [
+        {
+          "rational": "4/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "-2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "-2/3"
+        }
+      ],
+      [
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "4/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "-2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "2/3"
+        }
+      ],
+      [
+        {
+          "rational": "-2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "-2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        }
+      ],
+      [
+        {
+          "rational": "0",
+          "sqrt2": "-2/3"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "2/3"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "4/3",
+          "sqrt2": "0"
+        }
+      ]
+    ],
+    "beta1_matrix": [
+      [
+        {
+          "rational": "8/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "-4/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "-4/3"
+        }
+      ],
+      [
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        }
+      ],
+      [
+        {
+          "rational": "-4/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "2/3",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "2/3"
+        }
+      ],
+      [
+        {
+          "rational": "0",
+          "sqrt2": "-4/3"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt2": "2/3"
+        },
+        {
+          "rational": "4/3",
+          "sqrt2": "0"
+        }
+      ]
+    ]
+  },
+  "new_states": [
+    {
+      "beta": -0.5,
+      "left_spring_strengths": [
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.05
+      ],
+      "right_spring_strengths": [
+        0.15000000000000002,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.15000000000000002
+      ],
+      "total_physical_spring_stiffness": 8.000000000000002,
+      "all_48_contact_springs_positive": true,
+      "Rq": 0.0053056437705065835,
+      "Tq": 0.8585430532689525,
+      "incident_qT": 0.12402861836079375,
+      "incident_qL": 0.012122684586719045,
+      "bulk_qT_share": 0.9109616704043412,
+      "bulk_power": 0.13615130294751285,
+      "four_channel_closure": 1.3028134127068824e-11,
+      "branch_vs_escape_power_error": 5.551115123125783e-17,
+      "minimum_loaded_escape_eigenvalue": 6.938725946366207e-07,
+      "transpose_symmetry_of_dressed_device": 6.917486534651917e-18
+    },
+    {
+      "beta": -0.2,
+      "left_spring_strengths": [
+        0.08000000000000002,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.08000000000000002
+      ],
+      "right_spring_strengths": [
+        0.12,
+        0.24,
+        0.24,
+        0.24,
+        0.24,
+        0.12
+      ],
+      "total_physical_spring_stiffness": 8.0,
+      "all_48_contact_springs_positive": true,
+      "Rq": 0.003919393385527972,
+      "Tq": 0.8595948579376022,
+      "incident_qT": 0.12532079249709907,
+      "incident_qL": 0.011164956166780192,
+      "bulk_qT_share": 0.9181969086437302,
+      "bulk_power": 0.13648574866387925,
+      "four_channel_closure": 1.2990719611138957e-11,
+      "branch_vs_escape_power_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": 7.190363264733457e-07,
+      "transpose_symmetry_of_dressed_device": 7.91880551779018e-18
+    },
+    {
+      "beta": 0.2,
+      "left_spring_strengths": [
+        0.12,
+        0.24,
+        0.24,
+        0.24,
+        0.24,
+        0.12
+      ],
+      "right_spring_strengths": [
+        0.08000000000000002,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.16000000000000003,
+        0.08000000000000002
+      ],
+      "total_physical_spring_stiffness": 8.0,
+      "all_48_contact_springs_positive": true,
+      "Rq": 0.0037186008932848912,
+      "Tq": 0.8595948579376022,
+      "incident_qT": 0.12545729328987174,
+      "incident_qL": 0.011229247866330233,
+      "bulk_qT_share": 0.9178467186941418,
+      "bulk_power": 0.136686541156202,
+      "four_channel_closure": 1.2910894575668408e-11,
+      "branch_vs_escape_power_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": 7.190363264853688e-07,
+      "transpose_symmetry_of_dressed_device": 7.819796425085208e-18
+    },
+    {
+      "beta": 0.5,
+      "left_spring_strengths": [
+        0.15000000000000002,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004,
+        0.15000000000000002
+      ],
+      "right_spring_strengths": [
+        0.05,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.05
+      ],
+      "total_physical_spring_stiffness": 8.000000000000002,
+      "all_48_contact_springs_positive": true,
+      "Rq": 0.00491968494654155,
+      "Tq": 0.8585430532689518,
+      "incident_qT": 0.12428996071564903,
+      "incident_qL": 0.012247301056028928,
+      "bulk_qT_share": 0.9103006688642309,
+      "bulk_power": 0.136537261771678,
+      "four_channel_closure": 1.2828738071846146e-11,
+      "branch_vs_escape_power_error": 2.7755575615628914e-17,
+      "minimum_loaded_escape_eigenvalue": 6.938725946403377e-07,
+      "transpose_symmetry_of_dressed_device": 1.13125412890131e-17
+    }
+  ],
+  "beta0_archived_control": {
+    "maximum_matrix_error": 5.551115123125783e-17,
+    "maximum_state_or_fraction_error": 4.440892098500626e-16,
+    "incident_qT": 0.12562469453379452,
+    "incident_qL": 0.01100829786825036,
+    "bulk_qT_share": 0.9194316272027604
+  },
+  "limits": [
+    "Four predeclared new cached-matrix states after exact local-Hessian and beta0 archived checks; no optimization.",
+    "Same old N80 branch/PV kernels; new-profile numerical quadrature error is NOT enclosed.",
+    "Endpoint imbalance is an explicit positive-spring contact extension; original equal-endpoint theorem/certificate not extended.",
+    "Reciprocity is retained. No nonreciprocity or two independently driven input amplitudes are claimed.",
+    "No physical material realization, electromagnetic identification, or field-wide novelty established."
+  ],
+  "mirror_and_reciprocity_control": {
+    "line_transmission_beta_sign_error": 7.771561172376096e-16,
+    "scope": "For mirror-symmetric reference g and identical leads, reflection plus reciprocity predicts equal line transmission at beta and -beta; one-sided bulk conversion need not agree."
+  }
+}

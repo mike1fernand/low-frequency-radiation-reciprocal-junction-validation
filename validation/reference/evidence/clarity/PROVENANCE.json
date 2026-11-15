@@ -1,0 +1,18 @@
+{
+  "archive": "PAPER1_VALIDATION_INTEGRATED_R8.zip",
+  "sha256": "71259248c3e0c5faeb4e508962ae6d25693df55b1ebf642fc3b88ddd26e80b9e",
+  "files": {
+    "ANGULAR_SURFACE_SELECTED_N80.json": {
+      "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/review/ANGULAR_SURFACE_SELECTED_N80.json",
+      "sha256": "736ddf36076c9d80322ff8d9b74fef9b1fdfaa4b8fa4b146ebef00e9a6127534"
+    },
+    "ANGULAR_SURFACE_SELECTED_N96.json": {
+      "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/review/ANGULAR_SURFACE_SELECTED_N96.json",
+      "sha256": "24bf7df6e89eac80a247125ee29386d841701986c754d5cb48f0d26d815833f2"
+    },
+    "DOWNSTREAM_SURFACE_SELECTED.json": {
+      "archive_member": "paper1-validation-integrated-r8/legacy_rc4/validation/current_numerics/analysis/resolution_execution/review/DOWNSTREAM_SURFACE_SELECTED.json",
+      "sha256": "eae9af0df8bbf7e69c3bb08a9da197d645eca3b52ede83f2b94f60291814cec7"
+    }
+  }
+}

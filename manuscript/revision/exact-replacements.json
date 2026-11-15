@@ -1,0 +1,316 @@
+[
+  {
+    "id": "D1",
+    "file": "paper1_main.tex",
+    "line": 1424,
+    "old": "A wider box and longer search with the same thresholds and minimum duration gave",
+    "new": "Widening the bulk transversely and extending the time search, with the same thresholds and minimum duration, gave"
+  },
+  {
+    "id": "D1",
+    "file": "paper1_main.tex",
+    "line": 1424,
+    "old": "On this fixed interval a further box enlargement lowered",
+    "new": "On this fixed interval, a further increase in the transverse dimensions lowered"
+  },
+  {
+    "id": "D1",
+    "file": "paper1_main.tex",
+    "line": 1424,
+    "old": "SM5D gives the box, timestep and sampling controls.",
+    "new": "SM5D gives the bulk dimensions, timestep and sampling controls."
+  },
+  {
+    "id": "D2",
+    "file": "paper1_main.tex",
+    "line": 1365,
+    "old": "For the six-motif ramp, the estimated $73.6\\%$ at $\\omega=1.2$ measures qT power summed over all directions and divided by incident line power (Table~\\ref{tab:s6-coupling-comparison}).",
+    "new": "The 24-motif example selects bulk power by direction. The six-motif ramp's estimated $73.6\\%$ at $\\omega=1.2$ measures qT power summed over all directions and divided by incident line power (Table~\\ref{tab:s6-coupling-comparison})."
+  },
+  {
+    "id": "D3",
+    "file": "paper1_main.tex",
+    "line": 1200,
+    "old": "The reference tolerance certificate applies only to the reference contact.",
+    "new": "The tolerance guarantee for the reference taper (Sec.~\\ref{sec:s9-robustness}) applies to that contact alone."
+  },
+  {
+    "id": "D3",
+    "file": "paper1_main.tex",
+    "line": 1224,
+    "old": "The evidence scopes differ. The reference has its own six-motif $\\pm5\\%$ coupling-box guarantee, $T_{\\qT}^{\\rm modal}>0.1037$ (SM5B).",
+    "new": "The evidence scopes differ. At $\\omega=1.2$, the reference taper satisfies $T_{\\qT}^{\\rm modal}>0.1037$ when its six motif strengths vary independently by up to $5\\%$ about their unperturbed values. All eight springs in each motif share one factor (SM5B).",
+    "reply": "C2"
+  },
+  {
+    "id": "D3",
+    "file": "paper1_main.tex",
+    "line": 1224,
+    "old": "A second ramp certificate guarantees $T_{\\qT}^{\\rm modal}>0.69$ when its six motif strengths vary independently by up to $5\\%$, with all eight springs in each motif sharing one factor.",
+    "new": "A second ramp certificate guarantees $T_{\\qT}^{\\rm modal}>0.69$ under the same relative variations about the ramp's own six unperturbed motif strengths.",
+    "reply": "C2"
+  },
+  {
+    "id": "D4",
+    "file": "paper1_main.tex",
+    "line": 84,
+    "old": "An independent packet test compares stored qT energy with the spectrum-weighted scattering prediction, starting from zero bulk displacement and velocity (Sec.~\\ref{sec:s7-direct}). The same autonomous Hamiltonian governs the motion and backreaction.",
+    "new": "One autonomous Hamiltonian gives the contact forces on the bulk and their reaction on the line. An independent packet test evolves a finite open truncation of this model with zero initial bulk displacement and velocity. It compares mean stored qT energy divided by initial line energy with the spectrum-weighted scattering prediction (Sec.~\\ref{sec:s7-direct})."
+  },
+  {
+    "id": "D5/J3",
+    "file": "paper1_main.tex",
+    "line": 80,
+    "old": "Its total and peak stiffnesses exceed those of the symmetric six-segment reference taper. Table~\\ref{tab:s6-coupling-comparison} also compares three profiles at the ramp's total stiffness.",
+    "new": "Its total spring stiffness and peak link stiffness exceed those of a symmetric six-segment reference taper. At the ramp's total stiffness, the reference taper with tripled link stiffnesses and a uniform contact give estimated conversions of $62.7\\%$ and $67.8\\%$, respectively. Peak link stiffness differs across these three profiles (Table~\\ref{tab:s6-coupling-comparison})."
+  },
+  {
+    "id": "D7",
+    "file": "paper1_main.tex",
+    "line": 1132,
+    "old": "the packet carrier in Sec.~\\ref{sec:s7-direct} and the stiffness bounds.",
+    "new": "the packet carrier in Sec.~\\ref{sec:s7-direct} and the conversion bounds under stiffness variations in Sec.~\\ref{sec:s9-robustness}."
+  },
+  {
+    "id": "D8",
+    "file": "paper1_main.tex",
+    "line": 1437,
+    "old": "The original survey varied frequency, overall coupling",
+    "new": "The parameter survey of Supplementary Material Sec.~SM5A varied frequency, overall coupling"
+  },
+  {
+    "id": "D8",
+    "file": "paper1_main.tex",
+    "line": 1441,
+    "old": "Section~SM5A of the accompanying supplementary material gives the six sampled families",
+    "new": "SM5A gives the six sampled families"
+  },
+  {
+    "id": "D8",
+    "file": "paper1_main.tex",
+    "line": 1441,
+    "old": "are separate from the 85 rows.",
+    "new": "are separate from those 85 calculations."
+  },
+  {
+    "id": "D8",
+    "file": "paper1_main.tex",
+    "line": 1443,
+    "old": "The original line-speed scan varied $K_q$ at fixed masses.",
+    "new": "The line-speed scan of Sec.~\\ref{sec:s2-units-nullspaces} varied $K_q$ at fixed masses."
+  },
+  {
+    "id": "D9",
+    "file": "paper1_main.tex",
+    "line": 779,
+    "old": "Section~\\ref{sec:s5-scattering} selects modes at the drive frequency. The frequency weights are diagonal in the eigenmode basis and transform as a matrix under a change of basis within the plane.",
+    "new": "Equation~\\eqref{eq:s5-cluster-spectral} selects modes at the drive frequency with weights $\\delta(\\omega_\\lambda^2-\\omega^2)$. The matrix of these mode weights is diagonal in the eigenmode basis and can have off-diagonal entries in a rotated basis of the lower plane."
+  },
+  {
+    "id": "D10",
+    "file": "paper1_main.tex",
+    "line": 179,
+    "old": "In finite-device formulas we also use local labels",
+    "new": "In formulas for the finite contact we also use local labels"
+  },
+  {
+    "id": "D11",
+    "file": "paper1_main.tex",
+    "line": 437,
+    "old": "the nullspace of the combined free fixture is spanned by",
+    "new": "the nullspace of the combined free line-and-bulk truncation is spanned by"
+  },
+  {
+    "id": "D11",
+    "file": "paper1_main.tex",
+    "line": 437,
+    "old": "SM1 reports the fixture tests, and the validation archive records the included-bond convention.",
+    "new": "SM1 reports tests on such truncations, and the validation archive (see the Data Availability Statement) records which bonds each truncation includes.",
+    "reply": "C4"
+  },
+  {
+    "id": "D12",
+    "file": "paper1_main.tex",
+    "line": 472,
+    "old": "gives the kinematic inverse-spacing interpretation and its limits.",
+    "new": "gives the reciprocal segment length $1/(a+\\Delta q_i)$ for $a+\\Delta q_i>0$ and states the limits of this kinematic interpretation."
+  },
+  {
+    "id": "D13",
+    "file": "paper1_main.tex",
+    "line": 1231,
+    "old": "At both grid resolutions the least populated octant",
+    "new": "At both grid resolutions ($N=80$ and $96$) the least populated octant"
+  },
+  {
+    "id": "D13",
+    "file": "paper1_main.tex",
+    "line": 1231,
+    "old": "On both the $N=80$ and $96$ grids, summing over directions",
+    "new": "On both grids, summing over directions"
+  },
+  {
+    "id": "D14",
+    "file": "paper1_main.tex",
+    "line": 1052,
+    "old": "bulk stationary points, and dressed poles.",
+    "new": "bulk stationary points, and poles of the coupled response."
+  },
+  {
+    "id": "D14",
+    "file": "paper1_main.tex",
+    "line": 1061,
+    "old": "The finite-coupling value requires the dressed source.",
+    "new": "At finite coupling the radiated power requires the source force from the coupled solution [Eq.~\\eqref{eq:s5-caroli-source}]."
+  },
+  {
+    "id": "D14",
+    "file": "paper1_main.tex",
+    "line": 1258,
+    "old": "Both use the same dressed-source Green input. Angular refinement leaves its principal-value uncertainty open, and",
+    "new": "Both use the same source force calculated from the coupled response. Angular refinement does not bound the uncertainty in the principal-value input to this force, and"
+  },
+  {
+    "id": "D15",
+    "file": "paper1_main.tex",
+    "line": 762,
+    "old": "The blue curves coincide on $\\Gamma_\\perp X_\\perp$ and cross the drive separately on $M_\\perp\\Gamma_\\perp$.",
+    "new": "The blue curves coincide on $\\Gamma_\\perp X_\\perp$ and cross the drive frequency $\\omega=1.2$ (dashed line) separately on $M_\\perp\\Gamma_\\perp$."
+  },
+  {
+    "id": "D15",
+    "file": "paper1_main.tex",
+    "line": 1183,
+    "old": "\\caption{Two complete paired-spring profiles at $\\omega=1.2$, evaluated\n with the same",
+    "new": "\\caption{Reference taper and endpoint-only contact at equal total spring stiffness $8K_{\\rm diag}$ and $\\omega=1.2$, evaluated\n with the same"
+  },
+  {
+    "id": "D15",
+    "file": "paper1_main.tex",
+    "line": 1275,
+    "old": "\\caption{Source-channel controls at $\\omega=1.2$, with frequency conjugate to $\\tau$.",
+    "new": "\\caption{Source-channel controls for the reference taper at $\\omega=1.2$, with frequency conjugate to $\\tau$."
+  },
+  {
+    "id": "D15",
+    "file": "paper1_main.tex",
+    "line": 1374,
+    "old": "The surface calculation sums the qT contributions at fourteen frequencies, using the full initial periodic line energy as its denominator.",
+    "new": "The packet prediction weights surface qT conversions at fourteen distinct frequencies by the initial energies of the corresponding Fourier modes. The in-band sum is divided by the full initial periodic line energy, then rescaled to the initial open-line normalization without changing the displayed percentages."
+  },
+  {
+    "id": "D16",
+    "file": "paper1_main.tex",
+    "line": 1135,
+    "old": "The accompanying validation package provides code and numerical records for these comparisons.",
+    "new": "The validation archive provides code and numerical records for these comparisons."
+  },
+  {
+    "id": "D16",
+    "file": "paper1_main.tex",
+    "line": 812,
+    "old": "The validation archive identified in the Data Availability Statement gives",
+    "new": "The validation archive gives",
+    "reply": "C4"
+  },
+  {
+    "id": "D16",
+    "file": "paper1_main.tex",
+    "line": 1499,
+    "old": "The accompanying validation package contains the stationary scattering code",
+    "new": "The validation archive contains the stationary scattering code"
+  },
+  {
+    "id": "D17",
+    "file": "paper1_main.tex",
+    "line": 1461,
+    "old": " =T_C(\\omega;s=\\alpha_K^{-1}),\n \\label{eq:s9-partial-scaling}",
+    "new": " =T_C(\\omega;s=\\alpha_K^{-1}).\n \\label{eq:s9-partial-scaling}"
+  },
+  {
+    "id": "J1",
+    "file": "paper1_main.tex",
+    "line": 74,
+    "old": "Here the line continues through a distributed contact embedded in an infinite lattice.",
+    "new": "Here the line continues through a distributed contact in an infinite lattice, and both leading bulk radiation coefficients are independent of how stiffness is distributed among the complete motifs."
+  },
+  {
+    "id": "J3",
+    "file": "paper1_main.tex",
+    "line": 1491,
+    "old": "The ramp transfers more power to the bulk and has greater total and peak stiffness. Its conversion exceeds",
+    "new": "The ramp transfers more power to the bulk and has greater total and peak stiffness. It also gives higher estimated qT conversion than the scaled taper or the uniform contact at the same total stiffness, with different peak link stiffnesses (Table~\\ref{tab:s6-coupling-comparison}). Ramp conversion exceeds"
+  },
+  {
+    "id": "J4",
+    "file": "paper1_main.tex",
+    "line": 72,
+    "old": "fix each coefficient for every nonnegative profile with at least one active complete motif.",
+    "new": "fix each coefficient for every nonnegative stiffness profile with at least one active complete motif."
+  },
+  {
+    "id": "J4",
+    "file": "paper1_main.tex",
+    "line": 72,
+    "old": "For one active motif this fraction approaches its limit from below.",
+    "new": "This fraction tends to about $91.2\\%$ and approaches that limit from below for one active motif."
+  },
+  {
+    "id": "J6",
+    "file": "paper1_main.tex",
+    "line": 1360,
+    "old": "The line has $c_q=1.5$ ($K_q/K_{\\rm diag}=2.25$),",
+    "new": "Each link has stiffness $0.1K_{\\rm diag}$ in the two end motifs and $0.2K_{\\rm diag}$ in the 22 interior motifs. The line has $c_q=1.5$ ($K_q/K_{\\rm diag}=2.25$),"
+  },
+  {
+    "id": "T1",
+    "file": "paper1_main.tex",
+    "line": 1222,
+    "old": " Profile dependence at finite frequency is consistent with the common leading coefficients in Eq.~\\eqref{pred:eq-lowfreq}.",
+    "new": ""
+  },
+  {
+    "id": "D4/abstract",
+    "file": "paper1_main.tex",
+    "line": 60,
+    "old": "One Hamiltonian determines the lattice forces and their reaction on the line.",
+    "new": "One Hamiltonian determines the contact forces and their reaction on the line."
+  },
+  {
+    "id": "Conclusion referent",
+    "file": "paper1_main.tex",
+    "line": 1493,
+    "old": "The law has yet to be extended to growing contacts",
+    "new": "The low-frequency radiation law has yet to be extended to growing contacts",
+    "reply": "C3"
+  },
+  {
+    "id": "Comments",
+    "file": "paper1_main.tex",
+    "line": 788,
+    "old": "% Reviewed Stage-2 insertion in separate working source candidates; originals unchanged.\n% Insert after eq:s4-cluster-leakage and before the reference-shell estimates.\n% Unnumbered display preserves the existing equation-number crosswalk.\n",
+    "new": ""
+  },
+  {
+    "id": "Comments",
+    "file": "paper1_supplement.tex",
+    "line": 259,
+    "old": "% Reviewed Stage-2 insertion in separate working source candidates; originals unchanged.\n% Insert in SM2 after the existing long-wave speeds and before\n% \"Root-refined numerical optimization on the branch shells ...\".\n% Unnumbered displays avoid renumbering the existing manuscript equations.\n",
+    "new": ""
+  },
+  {
+    "id": "Comments",
+    "file": "paper1_SM5D.tex",
+    "line": 1,
+    "old": "% Clarified SM5D section; insert after SM5C and before SM6.\n",
+    "new": ""
+  },
+  {
+    "id": "Law name in Section 3.2",
+    "reply": "C3",
+    "file": "paper1_main.tex",
+    "line": 614,
+    "old": "derives the low-frequency transmission law with the line responding to the bulk.",
+    "new": "derives the low-frequency radiation law with the line responding to the bulk."
+  }
+]

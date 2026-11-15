@@ -1,0 +1,36 @@
+{
+  "release": "Wave Motion revised source edition",
+  "predecessor_validation_archive_sha256": "622ff768b69cdef03f2a192ed4cdfc079167c43d4ed06e8e1e575f0233d25528",
+  "predecessor_build_receipt": "history/PRE_SOURCE_EDITION_ASSEMBLY_CHECK.json",
+  "source_build_archive": "Paper1_Wave_Motion_Revised_Source_Build_2026-11-11.zip",
+  "build_archive_sha256": "46e94ef869043f67213f36d46e7bfb4a89e8cc0406c71887ffb4bbfa4fced93b",
+  "matched_members": [
+    "build.py",
+    "revision/preservation.json",
+    "source/figures/Halpha_transmission_scan_p06.png",
+    "source/figures/continuum_lattice_share_comparison_p06.png",
+    "source/figures/paper1_frequency_partition.pdf",
+    "source/figures/paper1_low_frequency_ratio.pdf",
+    "source/figures/paper1_sectionIV_fig3_bulk_modes_symmetry_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6a_qT_window_v2.pdf",
+    "source/figures/paper1_sectionVII_fig6b_selector_controls_v2.pdf",
+    "source/figures/paper1_sectionVI_fig4_reference_partition_v2.pdf",
+    "source/paper1_SM5D.tex",
+    "source/paper1_main.tex",
+    "source/paper1_methods_references.tex",
+    "source/paper1_source_binding.tex",
+    "source/paper1_supplement.tex",
+    "third_party/LPPL-1.3c.tex",
+    "third_party/README-REVTeX.txt",
+    "third_party/revtex-4.2f-tds.zip",
+    "verification/build-inputs.json",
+    "verification/verify_reference_shell.py"
+  ],
+  "build_members_compared": 20,
+  "scientific_validation_files_identical_to_predecessor": 2073,
+  "checks_performed": {
+    "source_and_shared_build_files": "Byte comparison against corresponding members of the named ZIP.",
+    "ramp_table": "Fourteen frequency/percentage pairs checked against the saved surface_N160 family. A deliberate incorrect value in a temporary TeX copy triggered a mismatch.",
+    "numerical_evidence": "Retained as original scientific inputs and records. See RUNNING_VALIDATIONS.md for the compact, fresh-kernel and time-domain workflows."
+  }
+}

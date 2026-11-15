@@ -1,0 +1,60 @@
+{
+  "status": "PASS_EXACT_CONDITIONAL_ALGEBRA",
+  "method": "Sparse polynomial expansion and exact normalized spherical moments with Fraction arithmetic",
+  "geometry_rT": {
+    "1": "-1/5",
+    "P^1": "2/5",
+    "N^2": "1/5",
+    "A^1": "-1/5",
+    "M^1,N^1": "-2/5",
+    "M^2": "1/5"
+  },
+  "geometry_rL": {
+    "1": "-1/30",
+    "P^1": "-4/15",
+    "N^2": "8/15",
+    "A^1": "-1/5",
+    "M^1,N^1": "4/15",
+    "M^2": "1/5"
+  },
+  "geometry_difference": {
+    "1": "-1/6",
+    "P^1": "2/3",
+    "N^2": "-1/3",
+    "M^1,N^1": "-2/3"
+  },
+  "quartic_symbol_angular_moments": {
+    "A4_xx": "-3/20",
+    "nx_A4n_x": "-3/28",
+    "nx2_nA4n": "-3/28"
+  },
+  "material_rT": "9/56",
+  "material_rL": "5/56",
+  "purity_beta": {
+    "1": "-2/21",
+    "P^1": "2/3",
+    "N^2": "-1/3",
+    "M^1,N^1": "-2/3"
+  },
+  "origin_translation_invariant": true,
+  "axial_second_moment_cancels": true,
+  "one_motif_beta": {
+    "1": "-2/21",
+    "N^2": "-1/3"
+  },
+  "one_motif_sign": "strictly negative for every real N",
+  "assumptions": [
+    "Actual full eight-link motif Cartesian force basis",
+    "Real normalized static source 2 sum_i Xi=1",
+    "Equal-axis/equal-face-diagonal H18 tangent bulk with cL/cT=sqrt(3)",
+    "Whole-sphere branch power and required omega^3 spectral matrix threshold expansion",
+    "No arbitrary finite-aperture detector or independent-link extension"
+  ],
+  "not_proved": [
+    "Acoustic threshold regularity, reviewed separately",
+    "Existence of a physically admissible multi-motif profile with positive beta",
+    "Finite-frequency operating window or global monotonicity",
+    "Historical novelty, electromagnetic or original-DST identification"
+  ],
+  "source_sha256": "00544388339e66a9b5ed083dce8abe926a576e590aeaa63d40c7bc106e2dce2d"
+}

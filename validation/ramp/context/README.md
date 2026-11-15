@@ -1,0 +1,5 @@
+# Earlier parameter and applicability checks
+
+`coupling-study/reproduce.py --output-dir NEW_PATH` replays 40 earlier contact comparisons with the independent physical-spring Hessian implementation. `selected-band/reproduce.py --output-dir NEW_PATH` reruns the historical nine-family bulk-symbol and continuum-energy checks. Run each script with Python, NumPy and assertions enabled. Use an output path outside the repository. Both calculations maintain the scope of their pre-existing bare kernels or bulk model. The selected-band check records its model and frequency assumptions. Its historical Paper 3 document fingerprint remains in the dated record, and the public replay does not verify the separate draft.
+
+The earlier editorial assessment, private source links and full copy of a separate draft are omitted. The main ramp reproduction commands are in `../README.md` and `../../../RUNNING_VALIDATIONS.md`. Original archive and individual member digests are in `../../../PUBLIC_SOURCE_PROVENANCE.json`.

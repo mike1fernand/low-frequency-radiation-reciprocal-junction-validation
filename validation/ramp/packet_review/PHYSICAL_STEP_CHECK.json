@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scope": "Two one-step arbitrary-state controls of physical force/velocity-Verlet/current and y/z-only reflection reduction; not another long packet run.",
+  "source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+  "binary_sha256": "908294be68c9d4e796ed337e5f6a55848588f65766b161e3371fd4154850d620",
+  "script_sha256": "5d9b050ab8c3e2d4412a068348cc54342056ea4157545bd1fb44235a0880f205",
+  "records": [
+    {
+      "H": 2,
+      "seed": 20261108,
+      "dofs": 1560,
+      "errors": {
+        "x": 2.168404344971009e-19,
+        "v": 4.336808689942018e-19,
+        "current": 8.470329472543003e-22,
+        "integrated_current": 2.6469779601696886e-23,
+        "initial_energy": 0.0
+      },
+      "engine": {
+        "status": "PASS",
+        "start_step": 0,
+        "target_step": 1,
+        "N": 120,
+        "H": 2,
+        "dofs": 1560,
+        "nonzeros": 18110,
+        "dt": 0.04,
+        "weighted_reciprocity_max_abs": 0,
+        "gershgorin_omega2_upper": 18.285714285714285,
+        "dt_omega_upper": 0.17104719482395161,
+        "independent_spring_energy_relative_difference": 1.1446641373046011e-14,
+        "assembly_seconds": 0.002089980996970553,
+        "evolution_seconds": 0.00013673600187757984,
+        "sampled_max_relative_energy_drift": 3.720372970016894e-05
+      },
+      "independent_physical_energy_initial": 0.016791453565953875,
+      "independent_physical_energy_final": 0.016790828861254166
+    },
+    {
+      "H": 3,
+      "seed": 20261109,
+      "dofs": 3360,
+      "errors": {
+        "x": 2.168404344971009e-19,
+        "v": 4.336808689942018e-19,
+        "current": 1.2705494208814505e-21,
+        "integrated_current": 1.3234889800848443e-23,
+        "initial_energy": 0.0
+      },
+      "engine": {
+        "status": "PASS",
+        "start_step": 0,
+        "target_step": 1,
+        "N": 120,
+        "H": 3,
+        "dofs": 3360,
+        "nonzeros": 46888,
+        "dt": 0.04,
+        "weighted_reciprocity_max_abs": 0,
+        "gershgorin_omega2_upper": 18.285714285714285,
+        "dt_omega_upper": 0.17104719482395161,
+        "independent_spring_energy_relative_difference": 2.5245257808611446e-15,
+        "assembly_seconds": 0.005112866998388199,
+        "evolution_seconds": 0.00011974999870290048,
+        "sampled_max_relative_energy_drift": 2.7936172840988217e-05
+      },
+      "independent_physical_energy_initial": 0.041277285097828166,
+      "independent_physical_energy_final": 0.04127613196845729
+    }
+  ]
+}

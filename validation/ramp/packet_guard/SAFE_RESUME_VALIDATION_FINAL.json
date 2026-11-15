@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "existing_complete_history_acceptance",
+      "status": "PASS",
+      "validation": {
+        "status": "PASS",
+        "source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+        "configuration_sha256": "ea3330a1f798f7fbf89e27f0e969dbca866dbfa6a2487f7a565aca188b6cfcca",
+        "checkpoint_sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0",
+        "checkpoint_step": 20,
+        "target_step": 21,
+        "N": 120,
+        "H": 2,
+        "L": 1560,
+        "dt": 0.04,
+        "monitor_every": 10,
+        "trace_bytes": {
+          "line.bin": 40320,
+          "corner.bin": 6048,
+          "snap.bin": 0,
+          "snap_times.bin": 0,
+          "monitor.csv": 432
+        },
+        "snapshot_count": 0,
+        "monitor_count": 3,
+        "scope": "Complete state, geometry/runtime binding, complete history lengths/time grids and endpoint consistency; interior trace corruption is not excluded."
+      }
+    },
+    {
+      "test": "stale_checkpoint_into_later_history",
+      "status": "PASS",
+      "expected_rejection": "line history byte count does not end exactly at checkpoint"
+    },
+    {
+      "test": "truncated_line",
+      "status": "PASS",
+      "expected_rejection": "line history byte count does not end exactly at checkpoint"
+    },
+    {
+      "test": "missing_prior_corner_history",
+      "status": "PASS",
+      "expected_rejection": "required preceding history missing: corner.bin"
+    },
+    {
+      "test": "complete_checkpoint_without_prior_histories",
+      "status": "PASS",
+      "expected_rejection": "required preceding history missing: line.bin"
+    },
+    {
+      "test": "same_size_wrong_corner_endpoint",
+      "status": "PASS",
+      "expected_rejection": "corner endpoint does not equal complete checkpoint state"
+    },
+    {
+      "test": "checkpoint_configuration_timestep_mismatch",
+      "status": "PASS",
+      "expected_rejection": "configuration timestep/profile disagrees with checkpoint"
+    },
+    {
+      "test": "inconsistent_snapshot_time_history",
+      "status": "PASS",
+      "expected_rejection": "snapshot time byte count disagrees with checkpoint"
+    },
+    {
+      "test": "duplicate_monitor_endpoint",
+      "status": "PASS",
+      "expected_rejection": "monitor does not span step zero through checkpoint exactly once"
+    },
+    {
+      "test": "synthetic_aligned_bulk_snapshot_layout",
+      "status": "PASS",
+      "scope": "Structural fixture, not an evolved state history."
+    },
+    {
+      "test": "same_size_wrong_bulk_snapshot_endpoint",
+      "status": "PASS",
+      "expected_rejection": "bulk snapshot endpoint does not equal complete checkpoint state"
+    },
+    {
+      "test": "same_size_wrong_snapshot_timestamp",
+      "status": "PASS",
+      "expected_rejection": "snapshot timestamps disagree with required complete time grid"
+    },
+    {
+      "test": "off_snapshot_grid_production_target",
+      "status": "PASS",
+      "expected_rejection": "analyzer-ready target at/after tau48 must align with saved cadence 0.2"
+    },
+    {
+      "test": "compilation_failure_preserves_receipt_and_histories",
+      "status": "PASS",
+      "expected_rejection": "[Errno 2] No such file or directory: '__p1_missing_cpp_compiler_for_test__'"
+    },
+    {
+      "test": "valid_one_step_staged_append",
+      "status": "PASS",
+      "result": {
+        "status": "PASS",
+        "source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+        "configuration_sha256": "ea3330a1f798f7fbf89e27f0e969dbca866dbfa6a2487f7a565aca188b6cfcca",
+        "checkpoint_sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0",
+        "checkpoint_step": 20,
+        "target_step": 21,
+        "N": 120,
+        "H": 2,
+        "L": 1560,
+        "dt": 0.04,
+        "monitor_every": 10,
+        "trace_bytes": {
+          "line.bin": 40320,
+          "corner.bin": 6048,
+          "snap.bin": 0,
+          "snap_times.bin": 0,
+          "monitor.csv": 432
+        },
+        "snapshot_count": 0,
+        "monitor_count": 3,
+        "scope": "Complete state, geometry/runtime binding, complete history lengths/time grids and endpoint consistency; interior trace corruption is not excluded.",
+        "configuration_before_backup": "CONFIGURATION_BEFORE_SAFE_RESUME_TO_21.json",
+        "compile_command": [
+          "g++",
+          "-std=c++17",
+          "-O3",
+          "-fopenmp",
+          "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/packet/evolve_candidate.cpp",
+          "-o",
+          "/tmp/p1_safe_resume_mxslv5eg/evolve_candidate"
+        ],
+        "compile_stdout": "",
+        "compile_stderr": "",
+        "compile_returncode": 0,
+        "engine_sha256": "908294be68c9d4e796ed337e5f6a55848588f65766b161e3371fd4154850d620",
+        "engine_stdout": "{\"status\":\"PASS\",\"start_step\":20,\"target_step\":21,\"N\":120,\"H\":2,\"dofs\":1560,\"nonzeros\":18110,\"dt\":0.040000000000000001,\"weighted_reciprocity_max_abs\":0,\"gershgorin_omega2_upper\":18.285714285714285,\"dt_omega_upper\":0.17104719482395161,\"independent_spring_energy_relative_difference\":1.1446641373046011e-14,\"assembly_seconds\":0.0022094999985711183,\"evolution_seconds\":0.00019336100012878887,\"sampled_max_relative_energy_drift\":0.0002439295334083454}\n",
+        "engine_stderr": "",
+        "engine_returncode": 0,
+        "postvalidation": {
+          "status": "PASS",
+          "source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+          "configuration_sha256": "ea3330a1f798f7fbf89e27f0e969dbca866dbfa6a2487f7a565aca188b6cfcca",
+          "checkpoint_sha256": "87e9d819ff3f7db648d8503049a09019485176e69356caa76cd65af5c6641aa3",
+          "checkpoint_step": 21,
+          "N": 120,
+          "H": 2,
+          "L": 1560,
+          "dt": 0.04,
+          "monitor_every": 10,
+          "trace_bytes": {
+            "line.bin": 42240,
+            "corner.bin": 6336,
+            "snap.bin": 0,
+            "snap_times.bin": 0,
+            "monitor.csv": 571
+          },
+          "snapshot_count": 0,
+          "monitor_count": 4,
+          "scope": "Complete state, geometry/runtime binding, complete history lengths/time grids and endpoint consistency; interior trace corruption is not excluded."
+        },
+        "configuration_after_sha256": "b3bd7f5d297e3fcb15a068358aa325ec35c756442446a911a6d22eb8ef4057cb"
+      }
+    }
+  ],
+  "test_count": 15,
+  "guard_source_sha256": "e7dc843f413742774a1ca4a4994a5fd89565bcf13c150c9cd0873dc20e1c6e23",
+  "test_source_sha256": "5f14bc83508e4be431e22fa99b5b2b92fb1f62969fcd95a5f1ed5139c4b4af57",
+  "fixture_provenance_sha256": "f707a01658db8a02bc1983314fcab6c11156831f524bd514dc05314eb7a73be5",
+  "scope": "Twelve expected rejections/failure controls, two structural positive checks and one H=2 step from the preserved state, including exact prior-configuration backup and final-target update. Synthetic snapshot fixtures check layout only. No long dynamics; original science files unchanged."
+}

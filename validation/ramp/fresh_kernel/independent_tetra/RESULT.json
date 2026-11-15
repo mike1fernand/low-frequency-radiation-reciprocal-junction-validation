@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "method": "Recovered independent corrected linear-tetrahedron bare kernels; new profile evaluated by independent tetrahedron solver.",
+  "omega": 1.2,
+  "g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69
+  },
+  "rows": [
+    {
+      "case": "reference_N96",
+      "omega": 1.2,
+      "grid": 96,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "regulator_energy_imaginary": 1e-10,
+      "reference_regression_max_abs": 0.0,
+      "candidate": {
+        "omega": 1.2,
+        "Rq_amplitude": 0.11938542798302101,
+        "Rq_flux": 0.11938542799493523,
+        "Tq": 0.0765722430064775,
+        "Tbulk": 0.8040423289985873,
+        "T_branches": [
+          0.409923222307689,
+          0.32586526428561224,
+          0.06825384240528588
+        ],
+        "TL_modal": 0.06825384240528588,
+        "TT_modal": 0.7357884865933013,
+        "TL_projector": 0.06844715279899509,
+        "TT_projector": 0.7355951761995922,
+        "branch_longitudinal_powers": [
+          0.0001177005548407804,
+          7.871901398360222e-05,
+          0.0682507332301707
+        ],
+        "branch_transverse_powers": [
+          0.40980552175284823,
+          0.32578654527162865,
+          3.1091751151873792e-06
+        ],
+        "branch_longitudinal_fractions": [
+          0.0002871282924108998,
+          0.00024156920853830893,
+          0.9999544468852504
+        ],
+        "closure_amplitude": 1.1914247366462405e-11,
+        "closure_flux": 0.0,
+        "component_closure_modal": 1.1102230246251565e-16,
+        "component_closure_projector": 0.0,
+        "min_gamma_bulk_eigenvalue": 8.775812836357172e-06,
+        "reciprocity_matrix_residual": 2.030210108236651e-16
+      },
+      "bulk_qT_share": 0.9151116303910339,
+      "relative_line_residual": 5.74055432647551e-17,
+      "candidate_kernel_sha256": "33961685083c9e7621d63b916282a50a4a42752b300e7e19e4754ba3d4737579",
+      "config_sha256": "b26e36589915ef4971f5b643ebb60f659f6729a48b296141359666d9c653ac3d"
+    },
+    {
+      "case": "reference_N128",
+      "omega": 1.2,
+      "grid": 128,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "regulator_energy_imaginary": 1e-10,
+      "reference_regression_max_abs": 0.0,
+      "candidate": {
+        "omega": 1.2,
+        "Rq_amplitude": 0.11958067452798402,
+        "Rq_flux": 0.1195806745398994,
+        "Tq": 0.07638284901145385,
+        "Tbulk": 0.8040364764486467,
+        "T_branches": [
+          0.40981776704585127,
+          0.3260020776082379,
+          0.06821663179455795
+        ],
+        "TL_modal": 0.06821663179455795,
+        "TT_modal": 0.7358198446540891,
+        "TL_projector": 0.06841004151645966,
+        "TT_projector": 0.735626434932187,
+        "branch_longitudinal_powers": [
+          0.00011775190278011346,
+          7.87771177064267e-05,
+          0.06821351249597311
+        ],
+        "branch_transverse_powers": [
+          0.40970001514307114,
+          0.3259233004905315,
+          3.1192985848332855e-06
+        ],
+        "branch_longitudinal_fractions": [
+          0.0002873274714976892,
+          0.00024164606030853113,
+          0.9999542736352884
+        ],
+        "closure_amplitude": 1.191535758948703e-11,
+        "closure_flux": 0.0,
+        "component_closure_modal": 3.3306690738754696e-16,
+        "component_closure_projector": 0.0,
+        "min_gamma_bulk_eigenvalue": 8.768008548432312e-06,
+        "reciprocity_matrix_residual": 1.933093971222931e-16
+      },
+      "bulk_qT_share": 0.9151572922464114,
+      "relative_line_residual": 6.024572836988309e-17,
+      "candidate_kernel_sha256": "24d9723c6b21d44f3ffc6fafbedcf2462295f6e396356f26201d7d8029c0bd6b",
+      "config_sha256": "d291ee6894bd22f03bdc7b6125d96ca12025b6b7efe63679befa641dd5d6b02d"
+    },
+    {
+      "case": "reference_N128_halfshift",
+      "omega": 1.2,
+      "grid": 128,
+      "shift": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "regulator_energy_imaginary": 1e-10,
+      "reference_regression_max_abs": 0.0,
+      "candidate": {
+        "omega": 1.2,
+        "Rq_amplitude": 0.11949194517349708,
+        "Rq_flux": 0.11949194518541106,
+        "Tq": 0.07644987590210173,
+        "Tbulk": 0.8040581789124872,
+        "T_branches": [
+          0.40979994624888344,
+          0.32594071396925334,
+          0.06831751869435009
+        ],
+        "TL_modal": 0.06831751869435009,
+        "TT_modal": 0.7357406602181368,
+        "TL_projector": 0.06851028549354979,
+        "TT_projector": 0.7355478934189374,
+        "branch_longitudinal_powers": [
+          0.00011749893041229097,
+          7.838719323005726e-05,
+          0.06831439936990745
+        ],
+        "branch_transverse_powers": [
+          0.40968244731847114,
+          0.3258623267760233,
+          3.119324442635296e-06
+        ],
+        "branch_longitudinal_fractions": [
+          0.0002867226594044755,
+          0.00024049524919875977,
+          0.9999543407825364
+        ],
+        "closure_amplitude": 1.191402532185748e-11,
+        "closure_flux": 0.0,
+        "component_closure_modal": 3.3306690738754696e-16,
+        "component_closure_projector": 0.0,
+        "min_gamma_bulk_eigenvalue": 8.772978361167842e-06,
+        "reciprocity_matrix_residual": 2.463800272704473e-16
+      },
+      "bulk_qT_share": 0.9150341101103505,
+      "relative_line_residual": 5.832976928810194e-17,
+      "candidate_kernel_sha256": "a55aff9c9c1c4cf257fc856df5520388aa8f135c6440a0844d19d4d570d3e781",
+      "config_sha256": "f246c92a4bba7c8d7b756ec4f5b27f1ddf182f089b6da35c013f879c5eda2bd5"
+    },
+    {
+      "case": "reference_N160",
+      "omega": 1.2,
+      "grid": 160,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "regulator_energy_imaginary": 1e-10,
+      "reference_regression_max_abs": 0.0,
+      "candidate": {
+        "omega": 1.2,
+        "Rq_amplitude": 0.11954982526959314,
+        "Rq_flux": 0.11954982528150737,
+        "Tq": 0.07638388362133487,
+        "Tbulk": 0.8040662910971578,
+        "T_branches": [
+          0.40980179488369256,
+          0.32592972386519803,
+          0.0683347723482671
+        ],
+        "TL_modal": 0.0683347723482671,
+        "TT_modal": 0.7357315187488906,
+        "TL_projector": 0.06852819913625216,
+        "TT_projector": 0.7355380919609056,
+        "branch_longitudinal_powers": [
+          0.00011776831989051408,
+          7.878246791814192e-05,
+          0.06833164834844349
+        ],
+        "branch_transverse_powers": [
+          0.40968402656380204,
+          0.3258509413972799,
+          3.1239998236065603e-06
+        ],
+        "branch_longitudinal_fractions": [
+          0.0002873787312813951,
+          0.00024171611899602544,
+          0.9999542838921349
+        ],
+        "closure_amplitude": 1.1914247366462405e-11,
+        "closure_flux": 0.0,
+        "component_closure_modal": 0.0,
+        "component_closure_projector": 0.0,
+        "min_gamma_bulk_eigenvalue": 8.771691342129555e-06,
+        "reciprocity_matrix_residual": 1.9829048123643443e-16
+      },
+      "bulk_qT_share": 0.9150135093276656,
+      "relative_line_residual": 3.3690882073268306e-17,
+      "candidate_kernel_sha256": "0eb1bc0da823b3dd1881c32465132701e9d1a37571a4e3896f800ace2185def0",
+      "config_sha256": "988b69e1e055d6a4dd634f3d01d44b2541960b85d2c4dd0a455974cb61211c5e"
+    },
+    {
+      "case": "reference_N192",
+      "omega": 1.2,
+      "grid": 192,
+      "shift": [
+        0,
+        0,
+        0
+      ],
+      "regulator_energy_imaginary": 1e-10,
+      "reference_regression_max_abs": 0.0,
+      "candidate": {
+        "omega": 1.2,
+        "Rq_amplitude": 0.11963820850571825,
+        "Rq_flux": 0.11963820851763274,
+        "Tq": 0.07632573634736739,
+        "Tbulk": 0.8040360551349999,
+        "T_branches": [
+          0.4098167820855781,
+          0.32596796132715766,
+          0.06825131172226398
+        ],
+        "TL_modal": 0.06825131172226398,
+        "TT_modal": 0.7357847434127358,
+        "TL_projector": 0.06844479546583078,
+        "TT_projector": 0.735591259669169,
+        "branch_longitudinal_powers": [
+          0.00011780136913172103,
+          7.880774122687234e-05,
+          0.0682481863554722
+        ],
+        "branch_transverse_powers": [
+          0.4096989807164464,
+          0.3258891535859308,
+          3.125366791784101e-06
+        ],
+        "branch_longitudinal_fractions": [
+          0.00028744886564240725,
+          0.00024176529774893113,
+          0.9999542079600682
+        ],
+        "closure_amplitude": 1.191446941106733e-11,
+        "closure_flux": 0.0,
+        "component_closure_modal": 1.1102230246251565e-16,
+        "component_closure_projector": 0.0,
+        "min_gamma_bulk_eigenvalue": 8.767156523145425e-06,
+        "reciprocity_matrix_residual": 1.735331630928996e-16
+      },
+      "bulk_qT_share": 0.9151141154847783,
+      "relative_line_residual": 3.1554735287093736e-17,
+      "candidate_kernel_sha256": "609c5990149bfe8f5975571897d3b069c94661b7d23955e2fd513e4dea18c4ef",
+      "config_sha256": "b5b002448923dc70d3d0cc9f5e9d9ea9610582a5201b10a250de43a0cd35b261"
+    }
+  ],
+  "new_candidate_states": 5,
+  "reference_regression_states": 5,
+  "new_quadrature_evaluations": 0,
+  "input_source_archive": "PAPER1_VALIDATION_INTEGRATED_R8(1).zip, selected extraction; source and kernel/config hashes checked per row.",
+  "module_sha256": {
+    "combined_tetra_diagnostic.py": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "stable_scalar.py": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "centroid_weights.py": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b"
+  },
+  "internal_states_sha256": "9068568f1c8ec7801460b69fbbaf4a748a769f31ff7af26b430339c030b8f6b2",
+  "seconds": 0.02117478999934974,
+  "accuracy_scope": "Independent quadrature route and mesh/shift ladder. Numerical convergence/sensitivity only; no rigorous infinite-lattice error bound."
+}

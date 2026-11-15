@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "unused_transfer_helper_files_excluded": 3,
+  "scientific_proof_sources_changed": false,
+  "raw_packet_snapshot_policy": "Reproducible source/configuration/metrics and one complete continuation checkpoint included; multi-GB regenerated snapshots omitted."
+}

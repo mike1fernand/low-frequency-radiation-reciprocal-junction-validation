@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "omega": 1.2,
+  "incident_normalized_branch_fractions": {
+    "surface": {
+      "taper": {
+        "lower_0": 0.06108919564790827,
+        "lower_1": 0.06457005974492823,
+        "upper": 0.011022636796334603,
+        "bulk": 0.13668189218917112,
+        "qT": 0.1256592553928365,
+        "qT_share_of_bulk": 0.9193555443241962
+      },
+      "ramp": {
+        "lower_0": 0.40982784964143393,
+        "lower_1": 0.32604643876093137,
+        "upper": 0.06826285151611752,
+        "bulk": 0.8041371399184828,
+        "qT": 0.7358742884023652,
+        "qT_share_of_bulk": 0.9151104356117198
+      }
+    },
+    "tetrahedron": {
+      "taper": {
+        "lower_0": 0.061044633561762485,
+        "lower_1": 0.06456332974462291,
+        "upper": 0.0110149697695935,
+        "bulk": 0.1366229330759789,
+        "qT": 0.1256079633063854,
+        "qT_share_of_bulk": 0.9193768606660799
+      },
+      "ramp": {
+        "lower_0": 0.40981678208984945,
+        "lower_1": 0.32596796133044414,
+        "upper": 0.06825131172295604,
+        "bulk": 0.8040360551432496,
+        "qT": 0.7357847434202935,
+        "qT_share_of_bulk": 0.9151141154847886
+      }
+    }
+  },
+  "scope": "Nominal contacts on archived bulk matrices. Separate labels at an exact lower-branch degeneracy depend on the basis."
+}

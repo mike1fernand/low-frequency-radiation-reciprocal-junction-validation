@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "Packet audit deliverables; excludes this self-manifest and generated Python caches.",
+  "files": [
+    {
+      "path": "PACKET_FINAL_AUDIT.json",
+      "bytes": 8168,
+      "sha256": "b80f0e5aafb864a2c3174e594142314fc8920b4637d4f88661ff68a08044727a"
+    },
+    {
+      "path": "PACKET_FINAL_AUDIT.md",
+      "bytes": 7479,
+      "sha256": "21a1911f818a93350118568ef23174f83b2934d867d7c37833c7ca5dd39e32ed"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3155,
+      "sha256": "6e28fda68b61aa7c508d8a86f73e3006d5325b7f31a1803ffd84f4b23bf1b921"
+    },
+    {
+      "path": "SAFE_RESUME_VALIDATION_FINAL.json",
+      "bytes": 7111,
+      "sha256": "78fc73adaa3f67af0d2ef97f1995e1492cc26d7fcb0266ec6b0f567b0efa4abb"
+    },
+    {
+      "path": "fixtures/FIXTURE_PROVENANCE.json",
+      "bytes": 1774,
+      "sha256": "f707a01658db8a02bc1983314fcab6c11156831f524bd514dc05314eb7a73be5"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_0.bin",
+      "bytes": 25208,
+      "sha256": "fb5eacdc284b13377570882aa4614acdf411d6008b43dc37be061376e5c9a744"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_10.bin",
+      "bytes": 25208,
+      "sha256": "1dd7aa826d599a217ab3e2a5d9ca32b0387af213d98e49d3f01534d240d83422"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/checkpoint_20.bin",
+      "bytes": 25208,
+      "sha256": "adc5f01eb1c13f5edac10a14065ae94d203c13805185a71bf442808f57be86a0"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/corner.bin",
+      "bytes": 6048,
+      "sha256": "6fcf22d83bc4860a4fc1dcdca657f98d6c47ccec4f2ee84ffb00498b9912462d"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/line.bin",
+      "bytes": 40320,
+      "sha256": "10656fafb0d23075623d9a92227897f63b19e2f50036e89594a7346bcbf340c2"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/monitor.csv",
+      "bytes": 432,
+      "sha256": "398e3eb5e6608753b3e0a5d1cae98beea84311b25a84c5ba2aaebb709d2850e1"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/snap.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "fixtures/resume_control_continuous/snap_times.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "safe_resume.py",
+      "bytes": 15359,
+      "sha256": "e7dc843f413742774a1ca4a4994a5fd89565bcf13c150c9cd0873dc20e1c6e23"
+    },
+    {
+      "path": "test_safe_resume.py",
+      "bytes": 9323,
+      "sha256": "5f14bc83508e4be431e22fa99b5b2b92fb1f62969fcd95a5f1ed5139c4b4af57"
+    }
+  ]
+}

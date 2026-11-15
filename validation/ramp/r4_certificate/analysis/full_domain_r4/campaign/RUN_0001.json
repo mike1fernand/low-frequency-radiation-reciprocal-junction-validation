@@ -1,0 +1,13 @@
+{
+  "wall_seconds": 917.51,
+  "stages_this_run": 318,
+  "jobs": 222,
+  "complete": 113,
+  "partial": 4,
+  "new_complete_physical_area": {
+    "Q": "1437/1024",
+    "g": "1489/1024"
+  },
+  "failed": false,
+  "all_selected_complete": false
+}

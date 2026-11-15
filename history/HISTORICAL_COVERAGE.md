@@ -1,0 +1,40 @@
+# Coverage of earlier Paper 1 validations
+
+The first November 11 GitHub ZIP (SHA-256 beginning `1f48ae05`) contained the current paper, the complete November 8 ramp replay package and the November 11 section-by-section checks. Earlier releases contain additional producers, adverse tests and independent numerical checks for results that still appear in the paper. This comparison identifies those sources and the meaning of their results. Use the repository’s top-level instructions for the current edition.
+
+## Which releases were compared?
+
+Nine ZIPs were read, including every nested ZIP. Paths and SHA-256 digests identify their file contents; historical claims and version relationships were checked against their own documentation. [The machine-readable comparison](HISTORICAL_ARCHIVE_COMPARISON.json) gives full archive hashes, member counts, pairwise path changes and the exact member names and hashes for selected scientific checks.
+
+| Historical source | What the comparison established |
+| --- | --- |
+| Pass 17 RC1 and corrected RC3 | RC3 repaired the older packet weighting and several acceptance tests. The reviewed successors preserve the RC1 numerical code and inputs under `validation/`. Distinct RC1 material includes the earlier bibliographic search, release controls and manuscript bindings. |
+| Pass 18 numerical RC4 and extension 1 | RC4 provides corrected surface and tetrahedron producers, finite-DFT packet evaluations and the 85-case positive-coupling survey. The extension adds the N160 packet refinement, reference-shell checks and a bounded alternate software-stack comparison. All 3,863 original RC4 paths occur in the extension; seven files changed and 435 paths were added. |
+| Integrated R7 and R8 | All 4,298 paths and file digests from the separate Pass 18 extension match R8’s `legacy_rc4/`. All R7 paths appear in R8, with six files revised and 123 paths added. R8 also contains a finite, 40-degree-of-freedom time-coordinate fixture. Its predictions describe that fixture. |
+| R18 manuscript enhancement archive | The file named `Paper1_Latest_2026-11-06.zip` identifies its contents as the November 8 revision 18. It supplies additional checks for the compact uniform-profile statement, actual-motif force moments, profile comparisons and the conditional long-wavelength bulk correspondence. |
+| September repair-check companion | The standalone repair report matches the copy in the ZIP byte for byte. It documents the double-coverage error in earlier packet bounds, repaired diagnostics and an unresolved inconsistency in the old nine-frequency generalized-Bloch table. |
+| Initial November 11 GitHub ZIP | Its 1,537 outer files and 430 nested file occurrences form the baseline for the comparison. A missing byte match identifies a different or omitted artifact. Scientific coverage is assessed separately against the stated observable, calculation and inputs. |
+
+## Where the earlier evidence bears on the present paper
+
+The following paths identify **original archive members**, relative to the top directory of the historical release. In R8, names starting with `validation/` in the first five rows are relative to `legacy_rc4/`.
+
+| Current paper topic | Earlier scientific evidence | Interpretation |
+| --- | --- | --- |
+| SM1 finite spring fixtures | R8 `validation/model/tests/run_p02_independent_checks.py` and `validation/model/derivations/BLOCK_INCIDENCE_AND_NULLSPACE_DERIVATION.md` | Checks compatibility, nullspaces and rigid-motion conventions for the specified finite geometries. |
+| Weak-coupling witness and angular radiation | R8 `validation/scattering/run/p05_weak_coupling.py` and `validation/current_numerics/analysis/resolution_execution/review/` | Shell and source checks accompany the proof and the numerical directional summaries. |
+| Reference taper and parameter scans | R8 `validation/current_numerics/README.md`, `verify_live_frequency.py` in that directory, and `analysis/resolution_execution/` beneath it | Distinguishes fresh bounded integration, production grids, and finite scattering recomputed from selected matrices. The 85-case survey and branch-resolved angular checks have their own producers and inputs. |
+| Packet and dynamics controls | R8 `validation/remaining_resolution/packet/README.md`, `validation/cleanroom/run/bounded_regression.py` and `legacy_rc4/scripts/verify_bounded_replays.py` | The N160 refinement concerns the taper. Same-host experiments on an alternate software stack, bounded independent code and whole-trajectory production have different scopes. |
+| Historical generalized-Bloch comparison | R8 `validation/frequency_domain/methods/generalized_bloch/code/reproduce_generalized_bloch_reference.py` and `validation/packet_prediction_current/README.md` | The first code loads the retained bulk matrices and independently assembles the finite scattering response at the reference frequency. The second documents the old nine-row packet weighting. Neither supplies the missing original bulk-matrix generator or recovers its regulator convention. |
+| Reference-taper exact-lattice floor | R8 `assets/PAPER1_COMPLETE_DOMAIN_VALIDATION_R4.zip`; current `validation/ramp/r4_certificate/` | All 918 file occurrences in the earlier container, including its nested R3 backup and members, already matched the initial November repository by relative path and SHA-256. The R4 taper floor exceeds 10.37% for its stated tolerance box. The 10.8% floor in RC4 applies to selected computed matrices and has a different evidentiary scope. |
+| Low-frequency coefficient and profile dependence | R18 `uniform_integration/source_evidence/check_static_concavity.py`, `significance_audit/check_purity_curvature_algebra.py` and `post_revision_audit/check_one_active_static.py` | These are additional checks on the compact family, share curvature and one-active-motif formula. Their historical script bytes were absent from the initial November GitHub ZIP. The paper gives the derivations. |
+| Fixed-total profile comparison and bulk interpretation | R18 `tradeoff_validation/check_two_profiles.py`, `bulk_proposition/check_bulk_units.py` and `correspondence_next/check_controlled_bulk_bridge.py` | The profile check uses stored kernels. The bulk bridge has an explicitly restricted long-wavelength domain and supplies no microscopic derivation of the line/contact. |
+| Context for the low-frequency coefficients | R18 `comparison/check_chang_geller_normalization.py` and `comparison/check_wilson_rae_coefficient.py` | These verify normalization and coefficient rewrites in the literature comparison. They do not establish priority for quadratic support transmission. |
+
+## Which records govern overlapping numbers?
+
+For the reference taper, use the corrected surface/PV and tetrahedron results and declared exact-node packet weights. The earlier packet repair found that the in-band contribution already used total packet energy in its denominator. Multiplying the result by the covered-energy fraction again was erroneous. The old nine-row interpolation remains informative about historical reproducibility; the current finite-DFT calculation has separately evaluated frequencies.
+
+For the increasing ramp, use the November 8 finite-frequency response and its enclosure. The R7/R8 taper bounds and the ramp bounds refer to different spring profiles. An earlier local integral check or a certificate for a stored matrix alone cannot replace the complete-domain bridge. Equally, a stored-energy fraction measured during a packet window and a fraction of incident monochromatic power are separate observables.
+
+The older manuscripts, publication checklists and PDF/source tests have version-specific expectations. Their source hashes, page counts and outdated journal targets have no authority over the November paper. This comparison checks the identified packages and archived records. It does not establish that every private chat draft survives, rerun every production grid or supply new independent-person replication.

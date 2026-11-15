@@ -1,0 +1,5 @@
+numpy
+scipy
+scikit-image==0.26.0
+lazy_loader==0.6
+mpmath==1.4.1

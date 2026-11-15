@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "checks": [
+    "reject unsafe path '../x'",
+    "reject unsafe path '/absolute'",
+    "reject unsafe path 'x/../../y'",
+    "reject unsafe path 'x\\\\y'",
+    "reject unsafe path ''",
+    "read-only audit records differing Python build without rewriting producer identity",
+    "unreviewed python-flint audit version rejected",
+    "unreviewed FLINT library audit version rejected",
+    "producer python-flint mismatch rejected",
+    "separate audit-runtime change leaves every scientific ledger field comparable",
+    "changed mathematical bound rejected",
+    "changed state identity rejected",
+    "changed source identity rejected",
+    "changed selected target identity rejected",
+    "correct manifest payload accepted",
+    "changed manifest payload rejected",
+    "traversal manifest key rejected",
+    "real immutable archive extracted and all inherited manifest payloads verified",
+    "already materialized immutable baseline verified without re-extraction",
+    "changed extracted baseline payload rejected"
+  ],
+  "check_count": 20,
+  "archive_sha256": "d1b3dcac19297522b6e271711a956fce24f681662c7c978c25fb679289039c88",
+  "verified_inherited_payloads": 234,
+  "bootstrap_and_recheck_seconds": 5.324766595000256,
+  "runtime_policy_test_scope": "Synthetic producer/auditor build labels exercise policy only; no second Python build or platform was executed.",
+  "limits": "Tests bootstrap and manifest guards. A complete outer-package cold replay and current campaign ledger comparison are separate final export checks."
+}

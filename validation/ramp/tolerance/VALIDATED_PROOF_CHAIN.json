@@ -1,0 +1,144 @@
+{
+  "status": "PASS_RIGOROUS_INFINITE_LATTICE_CANDIDATE_RESPONSE_CERTIFICATES",
+  "date": "2026-11-08",
+  "target_model": {
+    "g": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "5/7",
+      "6/7"
+    ],
+    "omega": "6/5",
+    "Kq": "169/100",
+    "a": 1,
+    "m_bulk": 1,
+    "m_spine": 1,
+    "K_axis": 1,
+    "K_diag": 1,
+    "lead_eta": 0
+  },
+  "upstream_status": {
+    "saved_R4_contour_jobs_replayed": 222,
+    "fresh_global_contour_integration": false,
+    "saved_ledger_reproduced_exactly": true,
+    "physical_controls_replayed": true,
+    "original_reference_bridge_replayed": true,
+    "raw_ledger_floor_flag": false,
+    "combined_replay_with_physical_and_bridge_status_certified": true,
+    "note": "The raw ledger correctly leaves its floor flag false pending physical/bridge checks. The combined replay supplies those checks. The old reference floor is not transplanted to the ramp; only the model-independent bare-kernel enclosure is reused."
+  },
+  "kernel_caps": {
+    "eG_exact_saved_bound": "2920908921240031996224142382068647683126967228896016121966257/748288838313422294120286634350736906063837462003712000000000000",
+    "eQ_exact_saved_bound": "75356969596394341029463595415563914524939493598722171/38312388521647221458958675678757729590468478054590054400",
+    "rounded_up_eG": "1/250",
+    "rounded_up_eQ": "1/500",
+    "actual_cached_G_target_match": true,
+    "actual_cached_Q_target_match": true,
+    "Q_recentring_allowance": "0"
+  },
+  "nominal_infinite_lattice_interval": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "lower_rational": "1135358893260054489/1550684920225000000",
+    "upper_rational": "4587863886935057969/6202739680900000000",
+    "lower_display": 0.7321660760687072,
+    "upper_display": 0.7396512062343026
+  },
+  "whole_six_motif_plus_minus5_percent_infinite_lattice_floor": {
+    "eG": "1/250",
+    "eQ": "1/500",
+    "lower_rational": "42767052725496289/61936276900000000",
+    "lower_display": 0.6905008642115569
+  },
+  "strict_conclusions": [
+    "0.732<T_qT<0.740 at the exact specified nominal ramp and real frequency",
+    "T_qT>0.69 throughout six independently varied complete-motif coupling factors [19/20,21/20]"
+  ],
+  "not_established": [
+    "one-decimal rounding of exact result to73.6%",
+    "48independentspringtolerances",
+    "frequencybandorpacketguarantee",
+    "physicalexperimentoruniversalDSTancestry"
+  ],
+  "files": {
+    "R4_saved_verifier": {
+      "path": "r4_certificate/analysis/full_domain_r4/export/verify_saved.py",
+      "sha256": "9891a0ba49b2fbfa7f732fe53d5c7c4b4a8d0c4b0a680d8e408bf6ce0b6b2bb6"
+    },
+    "R4_complete_ledger": {
+      "path": "r4_certificate/analysis/full_domain_r4/budget/FINAL_CAMPAIGN_LEDGER.json",
+      "sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0"
+    },
+    "R4_exact_targets": {
+      "path": "r4_certificate/analysis/full_domain_r4/budget/TARGETS.json",
+      "sha256": "d51a0fb10eae4e6969fd254d31add73d29784e08b41f6bb4af10c3cc8f139892"
+    },
+    "R4_fresh_saved_replay": {
+      "path": "baseline_audit/r4_replay_out/VERIFICATION.json",
+      "sha256": "2f42280750fd38747360c1d1794f357d4823403f66e7c2e6cf0ca7ae3aea9446"
+    },
+    "R4_physical_bridge_replay": {
+      "path": "baseline_audit/r4_replay_out/bridge/EXACT_LATTICE_BRIDGE.json",
+      "sha256": "c3a02aba2f50846937a862490df81eac762ddf63d240b7f8c7963a8267a9509c"
+    },
+    "selected_raw_cache_binding": {
+      "path": "baseline_audit/SELECTED_CACHE_BINDING.json",
+      "sha256": "c391266da68ebe09105ab3530ca524c534d98dc8ef4c0e2a62f8099af07b1c95"
+    },
+    "exact_center_binding_and_upward_caps": {
+      "path": "bound_review/KERNEL_CENTER_BINDING_CHECK.json",
+      "sha256": "f9fa165fb1c1c816dbd5adc5fdf1355b8e7f53b738966b8157d3f40880601b47"
+    },
+    "independent_point_review": {
+      "path": "bound_review/FINAL_INDEPENDENT_REVIEW.md",
+      "sha256": "674cbdf57f471e177239ec9284c4fab8e83e7113bfe76b991b0adf2cacedf68a"
+    },
+    "independent_box_review": {
+      "path": "bound_review/box_review/FINAL_BOX_REVIEW.md",
+      "sha256": "aa8c364a7e04b606910efe6ca8e27146fb43b27ced971b0018ece97d3a7da235"
+    },
+    "independent_box_scalar_check": {
+      "path": "bound_review/box_review/INDEPENDENT_SCALAR_CHECK.json",
+      "sha256": "73f9b2d79852e88ad3e023898de27c1b32eba22055269aa9f6bf6077e53c1ee0"
+    },
+    "point_verifier": {
+      "path": "tolerance/verify_point_rational.py",
+      "sha256": "8cc7821ddc6c2adb20f9ff3079cda17519086479e11b1ddeb833053dcdcf3359"
+    },
+    "point_receipt": {
+      "path": "tolerance/POINT_RATIONAL_CERTIFICATE.json",
+      "sha256": "398e1907f4dc55d3ae8e31b962ffe05ebcbdd24af120777f852833ef308e772a"
+    },
+    "box_verifier": {
+      "path": "tolerance/verify_box_rational.py",
+      "sha256": "dce88db6b788ec1b0341c97debc1db24deb4be80f333f64dc037815638662d60"
+    },
+    "box_receipt": {
+      "path": "tolerance/BOX_RATIONAL_CERTIFICATE.json",
+      "sha256": "0773073a8e5e55883c48409822b03fbcbefb3e73ae183342fbed05deab8f50ed"
+    },
+    "point_proof": {
+      "path": "tolerance/POINT_RESOLVENT_PROOF.md",
+      "sha256": "fb98a161bd2d04b26f8ea7a07cf3c2fc6d5ffc6b863727bd198e09893605995f"
+    },
+    "box_proof": {
+      "path": "tolerance/BOX_RESOLVENT_PROOF.md",
+      "sha256": "69078fea04ba1dc07756c885ecce73b13c9355048a7a50662a442a5612378d3e"
+    },
+    "portable_response_replayer": {
+      "path": "tolerance/reproduce_response_certificates.py",
+      "sha256": "3681bd10c0c5668038863886da6ac162d5f4836e316eefff3ed420fdc436260c"
+    },
+    "bundled_cached_kernel": {
+      "path": "tolerance/inputs/REFERENCE_KERNEL.npz",
+      "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+    },
+    "portable_response_replay_receipt": {
+      "path": "tolerance/PORTABLE_RESPONSE_REPLAY_CHECK.json",
+      "sha256": "3135e73066e0dc325a0b5b7eae90fa4e70804ccd0062c9513340d30923a38844"
+    }
+  },
+  "review_scope": "Independent source/skeptical point and box review plus isolated exact-rational replays passed. Portable response replayer passed in separate output tree. All original manuscripts/engines/results unchanged."
+}

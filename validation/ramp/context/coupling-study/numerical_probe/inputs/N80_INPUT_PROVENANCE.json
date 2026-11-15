@@ -1,0 +1,44 @@
+{
+  "schema": "p1-purity-audit-small-inputs/1",
+  "source_archive_relative_to_base": "sources/nov2/records/development/earlier_native/paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+  "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+  "files": [
+    {
+      "path": "model_api_v1_1.py",
+      "archive_member": "paper1_phase12_harmonic/model_api_v1_1.py",
+      "bytes": 10879,
+      "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+    },
+    {
+      "path": "reduced_core.py",
+      "archive_member": "paper1_phase12_harmonic/reduced_core.py",
+      "bytes": 5156,
+      "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+    },
+    {
+      "path": "on_shell_N80.npz",
+      "archive_member": "paper1_phase12_harmonic/raw/on_shell_N80.npz",
+      "bytes": 5534,
+      "sha256": "b6937586944623e095958df63a195b940f4dc2ae560cec6b9b0a58d1b533f2d5"
+    },
+    {
+      "path": "pv_mean_M192.npy",
+      "archive_member": "paper1_phase12_harmonic/raw/pv_mean_M192.npy",
+      "bytes": 3328,
+      "sha256": "1c8b38563bfd763a9c1c7731c5ebd80c91daf8b0b28f2dca8324657c9ba55b18"
+    }
+  ],
+  "context": {
+    "omega": 1.2,
+    "surface_grid": 80,
+    "PV_cache_label": "M192",
+    "cached_source_dimension": 20,
+    "consumed_source_dimension": 12,
+    "model": "Original ModelParameters default: a=m_bulk=m_spine=k_axis=k_diag=1, k_spine=1.69.",
+    "historical_consumer_member": "paper1_phase12_harmonic/run_exact_flux_partition.py",
+    "historical_consumer_sha256": "f333857fb8ed4234eb630a1312af4224c89c1dd74163f1e81a12a8757dbf0b04",
+    "normalization": "Archived physical-compliance convention; source power 2*gamma_in*f\u2020 Im_G_branch*f.",
+    "qT": "Im_branch_0+Im_branch_1; NOT geometric Im_T.",
+    "claim_scope": "Historical approximate kernels, not current P1 coefficient update or rigorous enclosure."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SAVED_BYTES_AND_SCIENTIFIC_BINDINGS",
+  "payloads": 1131,
+  "inventory_exact": true,
+  "numerical_proofs_reexecuted": false,
+  "scientific_bindings_checked": true,
+  "scope": "Saved bytes and bindings only; use replay.py for proof re-execution.",
+  "full_r4_preservation": {
+    "regular_files": 683,
+    "pinned_manifest_sha256": "e9acff005ca2620b8f435bbf7243226c3075fed6077699b623ee2b6b482a582f",
+    "status": "PASS_ORIGINAL_R4_PRESERVED"
+  },
+  "proof_chain_bindings": 19,
+  "nominal_interval_rational": [
+    "1135358893260054489/1550684920225000000",
+    "4587863886935057969/6202739680900000000"
+  ],
+  "whole_motif_plus_minus5_percent_floor_rational": "42767052725496289/61936276900000000",
+  "saved_upstream_jobs": 222
+}

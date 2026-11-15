@@ -1,0 +1,29 @@
+{
+  "run": "response",
+  "fresh_wrapper_result": "PASS",
+  "frozen_repository_unchanged": true,
+  "child_exit_code": 0,
+  "elapsed_seconds": 27.696325372999127,
+  "precheck": "PASS_SAVED_BYTES_AND_SCIENTIFIC_BINDINGS",
+  "postcheck": "PASS_SAVED_BYTES_AND_SCIENTIFIC_BINDINGS",
+  "postcheck_payloads": 1163,
+  "postcheck_proof_bindings": 19,
+  "response_output": {
+    "status": "PASS",
+    "point_interval": {
+      "eG": "1/250",
+      "eQ": "1/500",
+      "lower_rational": "1135358893260054489/1550684920225000000",
+      "upper_rational": "4587863886935057969/6202739680900000000",
+      "lower_display": 0.7321660760687072,
+      "upper_display": 0.7396512062343026
+    },
+    "whole_plus_minus5_percent_box_lower": {
+      "eG": "1/250",
+      "eQ": "1/500",
+      "lower_rational": "42767052725496289/61936276900000000",
+      "lower_display": 0.6905008642115569
+    },
+    "scope": "Exact response propagation replay only; upstream contour-enclosure replay is a separate linked dependency."
+  }
+}

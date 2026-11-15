@@ -1,0 +1,91 @@
+{
+  "omega": 2.9,
+  "Nc": 24,
+  "Kq": 2.25,
+  "cq": 1.5,
+  "s": 1,
+  "a_mb_mq_Kaxis_Kdiag": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "z_convention": "omega**2+1j*epsilon",
+  "epsilons": [
+    0.02,
+    0.03,
+    0.04,
+    0.06
+  ],
+  "Nperp": 512,
+  "quadrant_midpoint": true,
+  "source_files_sha256": {
+    "p1solver.py": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6",
+    "p1split.py": "4622f9527fae0c7654cda06053444b5e0ddaa2ee8c38d05e66245c6603db3814"
+  },
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "rows": [
+    {
+      "N_shell": 512,
+      "N_green": 512,
+      "fit_degree": 2,
+      "T_minus": 0.7099231696100363,
+      "T_plus": 0.010956797997023251,
+      "B_minus": 0.984800801118952,
+      "R": 0.007141515422927517,
+      "Tq": 0.27197851697136577,
+      "Tbulk": 0.7208799676070595,
+      "closure": 1.3526957332032907e-12,
+      "qminus_hermitian_residual": 0.0,
+      "qminus_min_eigenvalue": 1.9616326156083587e-07,
+      "g0_imH_vs_Q_residual": 2.4398705442823714e-12,
+      "fit_imag_vs_shell_max_entry_mismatch": 0.00491109890243685
+    },
+    {
+      "N_shell": 512,
+      "N_green": 512,
+      "fit_degree": 3,
+      "T_minus": 0.7097710166654299,
+      "T_plus": 0.010948113014409564,
+      "B_minus": 0.9848094596583374,
+      "R": 0.007124084008507872,
+      "Tq": 0.2721567863005729,
+      "Tbulk": 0.7207191296798393,
+      "closure": -1.10799147634566e-11,
+      "qminus_hermitian_residual": 0.0,
+      "qminus_min_eigenvalue": 1.9616326156083587e-07,
+      "g0_imH_vs_Q_residual": 1.9981438646092244e-11,
+      "fit_imag_vs_shell_max_entry_mismatch": 0.0038641016242897328
+    }
+  ],
+  "elapsed_seconds": 8.33971343000303,
+  "interpretation": "Fresh generated Green blocks and fully dressed junction solve. Internal closure uses the same shell as the source Green imaginary part; it is not independent quadrature certification."
+}

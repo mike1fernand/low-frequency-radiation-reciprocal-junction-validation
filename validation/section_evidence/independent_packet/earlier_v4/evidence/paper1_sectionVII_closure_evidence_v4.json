@@ -1,0 +1,171 @@
+{
+  "trajectory_reproduction": {
+    "max_absolute_difference_against_archived_selected_fields": 2.825564047502013e-15,
+    "max_relative_difference_against_archived_selected_fields": 4.1765232676377544e-07,
+    "note": "Independent OpenMP C++ solver reproduces archived Python trajectory fields."
+  },
+  "degeneracy": {
+    "upper_middle_doublets": 132,
+    "threefold_points": 231,
+    "threefold_non_gamma": 230,
+    "upper_middle_doublet_frequency": 2.82842712474619,
+    "threefold_non_gamma_frequency_range": [
+      2.0,
+      2.8284271247461903
+    ],
+    "refined_interval_qT_lower_time_average": 0.12762638643388616,
+    "production_qT_time_average": 0.1276263870232963,
+    "refined_interval_qT_upper_time_average": 0.12762638738500592,
+    "time_average_ambiguity_width": 9.511197662792625e-10,
+    "max_snapshot_ambiguity_width": 1.8514735855568176e-09,
+    "max_doublet_energy_over_E0": 8.606623179452837e-10,
+    "max_triplet_energy_over_E0": 1.2927358478107333e-09
+  },
+  "cadence": {
+    "1": {
+      "times": [
+        52.0,
+        53.0,
+        54.0,
+        55.0
+      ],
+      "qT_trapezoidal": 0.1275495133103109,
+      "qT_arithmetic": 0.12754370171215995,
+      "qT_range": [
+        0.1273283123780324,
+        0.12772422145738166
+      ],
+      "qL_trapezoidal": 0.0112806586816361,
+      "Tbulk_modal_trapezoidal": 0.138830171991947,
+      "max_historical_shell": 0.0017717833702567127,
+      "max_periodic_open": 0.0021388654193753645,
+      "max_energy_drift": 2.4299668137540037e-07
+    },
+    "0.4": {
+      "times": [
+        52.800000000000004,
+        53.2,
+        53.6,
+        54.0,
+        54.4,
+        54.800000000000004,
+        55.2
+      ],
+      "qT_trapezoidal": 0.12761683272333182,
+      "qT_arithmetic": 0.12761571244602984,
+      "qT_range": [
+        0.12748331483122746,
+        0.1277346667332087
+      ],
+      "qL_trapezoidal": 0.011297533383447614,
+      "Tbulk_modal_trapezoidal": 0.13891436610677946,
+      "max_historical_shell": 0.0018451927472779356,
+      "max_periodic_open": 0.0022973297845354716,
+      "max_energy_drift": 3.5118675457740827e-07
+    },
+    "0.2": {
+      "times": [
+        52.800000000000004,
+        53.0,
+        53.2,
+        53.4,
+        53.6,
+        53.800000000000004,
+        54.0,
+        54.2,
+        54.4,
+        54.6,
+        54.800000000000004,
+        55.0,
+        55.2,
+        55.4
+      ],
+      "qT_trapezoidal": 0.1276263870232963,
+      "qT_arithmetic": 0.12762551032549102,
+      "qT_range": [
+        0.12748331483122746,
+        0.12774491167681748
+      ],
+      "qL_trapezoidal": 0.011302056021262129,
+      "Tbulk_modal_trapezoidal": 0.13892844304455843,
+      "max_historical_shell": 0.0019261744580650526,
+      "max_periodic_open": 0.002452048420489446,
+      "max_energy_drift": 3.5118675457740827e-07
+    }
+  },
+  "refined_result": {
+    "interval": [
+      52.8,
+      55.4
+    ],
+    "qT_time_average": 0.1276263870232963,
+    "qT_range": [
+      0.12748331483122746,
+      0.12774491167681748
+    ],
+    "qL_time_average": 0.011302056021262129,
+    "periodic_bulk_time_average": 0.13892844304455843,
+    "lower_two_share": 0.9186483647726676,
+    "relative_difference_GB": 0.0006502055513430381,
+    "relative_difference_surface": 0.0009429045494153032,
+    "GB": 0.1277094244,
+    "surface": 0.1277468401
+  },
+  "boundary_shell": {
+    "max_unique_union_over_open_bulk": 0.0018578390188481795,
+    "max_face_over_open_bulk": {
+      "x_low": 5.648881086633842e-09,
+      "x_high": 1.889101831198223e-07,
+      "y_low": 0.00046674747140305835,
+      "y_high": 0.0004667474714030583,
+      "z_low": 0.00046674747140305835,
+      "z_high": 0.0004667474714030583
+    },
+    "threshold": 0.002,
+    "pass": true
+  },
+  "common_time_timestep": {
+    "times": [
+      52.8,
+      53.4,
+      54.0,
+      54.6,
+      55.2
+    ],
+    "time_averages": {
+      "dt003": 0.12761578717215138,
+      "dt004": 0.1276166821965551,
+      "dt005": 0.12761783351093894
+    },
+    "relative_span": 1.6035030706524527e-05,
+    "threshold": 0.005,
+    "pass": true
+  },
+  "current_energy_closure": {
+    "max_relative_residual_on_refined_interval": 0.00029679908536371673
+  },
+  "open_line_preflight": {
+    "short_120": {
+      "t52": 3.5949695780562645e-05,
+      "t55": 3.595837683023321e-05
+    },
+    "long_160": {
+      "t52": 3.5958132259143616e-05,
+      "t55": 3.59663669900487e-05
+    },
+    "longer_200": {
+      "t52": 3.595813225914369e-05,
+      "t55": 3.596636699004635e-05
+    },
+    "longest_240": {
+      "t52": 3.595813225914361e-05,
+      "t55": 3.596636699004627e-05
+    }
+  },
+  "provenance_findings": {
+    "v3_targeted_script_hardcoded_external_root": true,
+    "v3_bundle_manifest_passes_standard_sha256sum": true,
+    "P1S_manifest_three_space_separator": true,
+    "P1S_manifest_includes_mutable_pyc": true
+  }
+}

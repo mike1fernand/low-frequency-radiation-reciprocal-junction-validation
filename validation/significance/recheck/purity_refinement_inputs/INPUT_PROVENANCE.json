@@ -1,0 +1,20 @@
+{
+  "schema": "p1-purity-alternate-PV-inputs/1",
+  "source_archive_name": "paper1_phase12_harmonic_mechanics_zero_broadening_package.zip",
+  "source_archive_sha256": "d311f1a1d84b15294379671d3b2a0346971d9aa2b4987f3dc6fc896b9d5b1222",
+  "files": [
+    {
+      "path": "pv_direct_eta_extrapolated.npy",
+      "archive_member": "paper1_phase12_harmonic/raw/pv_direct_eta_extrapolated.npy",
+      "bytes": 3328,
+      "sha256": "87724af204de815f0e51d1537d6ce2533cafec71a60eaf8c9a1765ead695aa86"
+    },
+    {
+      "path": "direct_eta_extrapolation.json",
+      "archive_member": "paper1_phase12_harmonic/raw/direct_eta_extrapolation.json",
+      "bytes": 992,
+      "sha256": "bd5c0874d99d88323b991a1facfbbacb8e22951122540c237de7a4bf02602c89"
+    }
+  ],
+  "context": "Same omega1.2; alternate historical real Green estimate only. Same N80 on-shell branch cache remains shared."
+}

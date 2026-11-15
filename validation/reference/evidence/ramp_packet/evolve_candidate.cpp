@@ -1,0 +1,148 @@
+#include <algorithm>
+#include <array>
+#include <cmath>
+#include <cstdint>
+#include <cstring>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <stdexcept>
+#include <string>
+#include <vector>
+#include <omp.h>
+using namespace std;
+int N=120,H=28,L;
+const int B[9][3]={{1,0,0},{0,1,0},{0,0,1},{1,1,0},{1,-1,0},{1,0,1},{1,0,-1},{0,1,1},{0,1,-1}};
+int idx(int i,int j,int k,int c){return N+3*((i*H+j)*H+k)+c;}
+double getfull(const vector<double>&x,int i,int y,int z,int c){
+ int sy=y<H?-1:1,sz=z<H?-1:1;
+ int j=y<H?H-1-y:y-H,k=z<H?H-1-z:z-H;
+ return x[idx(i,j,k,c)]*(c==1?sy:(c==2?sz:1));
+}
+double direct_potential(const vector<double>&x,const array<double,6>&g){
+ double e=0;for(int i=0;i<N-1;i++)e+=.5*1.69*pow(x[i+1]-x[i],2);
+ int M=2*H;
+ for(int i=0;i<N;i++)for(int y=0;y<M;y++)for(int z=0;z<M;z++)for(auto &b:B){
+  int ni=i+b[0],ny=y+b[1],nz=z+b[2];
+  if(ni<0||ni>=N||ny<0||ny>=M||nz<0||nz>=M)continue;
+  double d=0;int norm=0;
+  for(int c=0;c<3;c++){d+=b[c]*(getfull(x,ni,ny,nz,c)-getfull(x,i,y,z,c));norm+=b[c]*b[c];}
+  e+=.5*d*d/norm;
+ }
+ for(int i=60;i<=65;i++)for(int endpoint=0;endpoint<2;endpoint++)for(int sy:{-1,1})for(int sz:{-1,1}){
+  int y=sy<0?H-1:H,z=sz<0?H-1:H,sx=1-2*endpoint;
+  double d=sx*(getfull(x,i,y,z,0)-x[i+endpoint])+sy*getfull(x,i,y,z,1)+sz*getfull(x,i,y,z,2);
+  e+=.5*g[i-60]*d*d/3;
+ }
+ return e;
+}
+double current(const vector<double>&x,const vector<double>&v,const array<double,6>&g){
+ double J=0;
+ for(int i=60;i<=65;i++)for(int e=0;e<2;e++){
+  int sx=1-2*e;double ext=sx*(x[idx(i,0,0,0)]-x[i+e])+x[idx(i,0,0,1)]+x[idx(i,0,0,2)];
+  double vel=sx*(v[i+e]+v[idx(i,0,0,0)])+v[idx(i,0,0,1)]+v[idx(i,0,0,2)];
+  J-=4*g[i-60]*ext*vel/6;
+ }
+ return J;
+}
+template<class T>void writev(ofstream&f,const T&v){f.write(reinterpret_cast<const char*>(&v),sizeof(T));}
+template<class T>void readv(ifstream&f,T&v){f.read(reinterpret_cast<char*>(&v),sizeof(T));}
+void checkpoint(const string&name,int64_t step,double dt,const array<double,6>&g,const vector<double>&x,const vector<double>&v,double cumulative,double lastJ,double H0){
+ ofstream f(name,ios::binary);char magic[8]={'P','1','P','K','T','0','1',0};f.write(magic,8);
+ writev(f,step);writev(f,N);writev(f,H);writev(f,L);writev(f,dt);
+ f.write(reinterpret_cast<const char*>(g.data()),6*sizeof(double));
+ f.write(reinterpret_cast<const char*>(B),sizeof(B));
+ double constants[4]={1.,1.,1.,1.69};f.write(reinterpret_cast<const char*>(constants),sizeof(constants));
+ writev(f,cumulative);writev(f,lastJ);writev(f,H0);
+ f.write(reinterpret_cast<const char*>(x.data()),L*sizeof(double));f.write(reinterpret_cast<const char*>(v.data()),L*sizeof(double));
+ if(!f)throw runtime_error("checkpoint write failed");
+}
+int main(int argc,char**argv){try{
+ if(argc!=12 && argc!=13){cerr<<"out target_step dt H g1 g2 g3 g4 g5 g6 checkpoint_every [resume.bin]\n";return 2;}
+ string out=argv[1];int64_t target=stoll(argv[2]);double dt=stod(argv[3]);H=stoi(argv[4]);
+ array<double,6>g;for(int j=0;j<6;j++)g[j]=stod(argv[5+j]);int every=stoi(argv[11]);bool resume=argc==13;
+ if(target<0||dt<=0||H<1||every<1)throw runtime_error("invalid configuration");for(auto x:g)if(x<0)throw runtime_error("negative contact stiffness");
+ L=3*N*H*H+N;double t0=omp_get_wtime();
+ vector<map<int,double>>entries(L);
+ for(int i=0;i<N-1;i++){entries[i][i]-=1.69;entries[i][i+1]+=1.69;entries[i+1][i]+=1.69;entries[i+1][i+1]-=1.69;}
+ for(int i=0;i<N;i++)for(int j=0;j<H;j++)for(int k=0;k<H;k++){
+  for(int dx=-1;dx<=1;dx++)for(int dy=-1;dy<=1;dy++)for(int dz=-1;dz<=1;dz++){
+   int n=dx*dx+dy*dy+dz*dz;if(n!=1&&n!=2)continue;
+   if(i+dx<0||i+dx>=N||j+dy>=H||k+dz>=H)continue;
+   int sy=j+dy<0?-1:1,sz=k+dz<0?-1:1,y=sy<0?0:j+dy,z=sz<0?0:k+dz;
+   int dir[]={dx,dy,dz},reflection[]={1,sy,sz};
+   for(int l=0;l<3;l++)if(dir[l])for(int m=0;m<3;m++)if(dir[m]){
+    double w=double(dir[l]*dir[m])/n;
+    entries[idx(i,j,k,l)][idx(i,j,k,m)]-=w;
+    entries[idx(i,j,k,l)][idx(i+dx,y,z,m)]+=w*reflection[m];
+   }
+  }
+ }
+ for(int i=60;i<=65;i++)for(int e=0;e<2;e++){
+  int row=i+e,vec[]={1-2*e,1,1};double k=g[i-60]/3;
+  entries[row][row]-=4*k;
+  for(int l=0;l<3;l++){int b=idx(i,0,0,l);entries[row][b]+=4*k*vec[0]*vec[l];entries[b][row]+=k*vec[l]*vec[0];for(int m=0;m<3;m++)entries[b][idx(i,0,0,m)]-=k*vec[l]*vec[m];}
+ }
+ double reciprocal=0,gersh=0;
+ for(int i=0;i<L;i++){
+  double mi=i<N?1:4,rowbound=0;
+  for(auto item:entries[i]){
+   int j=item.first;double mj=j<N?1:4;auto q=entries[j].find(i);double reverse=q==entries[j].end()?0:q->second;
+   reciprocal=max(reciprocal,abs(mi*item.second-mj*reverse));
+   rowbound+=abs(item.second)*sqrt(mi/mj);
+  }gersh=max(gersh,rowbound);
+ }
+ if(reciprocal>1e-12||dt*sqrt(gersh)>=2)throw runtime_error("reciprocity/stability check failed");
+ vector<int>col,p(L+1);vector<double>val;
+ for(int i=0;i<L;i++){p[i]=col.size();for(auto item:entries[i])if(abs(item.second)>1e-14){col.push_back(item.first);val.push_back(item.second);}}
+ p[L]=col.size();entries.clear();entries.shrink_to_fit();
+ vector<double>x(L),v(L),a(L);
+ auto forces=[&](){
+  #pragma omp parallel for schedule(static)
+  for(int i=0;i<L;i++){double sum=0;for(int j=p[i];j<p[i+1];j++)sum+=val[j]*x[col[j]];a[i]=sum;}
+ };
+ for(int i=0;i<L;i++)x[i]=.001*sin(.123*i)+.002*cos(.031*i);
+ forces();double Umatrix=0;for(int i=0;i<L;i++)Umatrix-=.5*(i<N?1.:4.)*x[i]*a[i];
+ double Udirect=direct_potential(x,g),energy_relative=abs(Umatrix-Udirect)/max(Udirect,1e-30);
+ if(energy_relative>1e-11)throw runtime_error("independent full spring-energy check failed");
+ fill(x.begin(),x.end(),0);int64_t start=0;double cumulative=0,lastJ=0,H0=0;
+ if(resume){
+  ifstream f(argv[12],ios::binary);char magic[8];f.read(magic,8);if(strncmp(magic,"P1PKT01",7))throw runtime_error("wrong checkpoint magic");
+  int n,h,l;double d;array<double,6>gg;int bb[9][3];double constants[4];
+  readv(f,start);readv(f,n);readv(f,h);readv(f,l);readv(f,d);f.read(reinterpret_cast<char*>(gg.data()),6*sizeof(double));f.read(reinterpret_cast<char*>(bb),sizeof(bb));f.read(reinterpret_cast<char*>(constants),sizeof(constants));
+  if(n!=N||h!=H||l!=L||d!=dt||gg!=g||memcmp(bb,B,sizeof(B))||constants[0]!=1||constants[1]!=1||constants[2]!=1||constants[3]!=1.69)throw runtime_error("checkpoint parameters differ");
+  readv(f,cumulative);readv(f,lastJ);readv(f,H0);f.read(reinterpret_cast<char*>(x.data()),L*sizeof(double));f.read(reinterpret_cast<char*>(v.data()),L*sizeof(double));if(!f||target<start)throw runtime_error("invalid checkpoint data or target");
+ }else{
+  for(int j=0;j<N;j++)if(!(cin>>x[j]))return 3;for(int j=0;j<N;j++)if(!(cin>>v[j]))return 4;
+ }
+ forces();
+ auto energy=[&](){double e=0;for(int i=0;i<L;i++)e+=(i<N?1.:4.)*(v[i]*v[i]-x[i]*a[i])/2;return e;};
+ if(!resume){H0=energy();lastJ=current(x,v,g);}
+ ofstream snap(out+"/snap.bin",ios::binary|(resume?ios::app:ios::trunc)),line(out+"/line.bin",ios::binary|(resume?ios::app:ios::trunc)),corners(out+"/corner.bin",ios::binary|(resume?ios::app:ios::trunc)),times(out+"/snap_times.bin",ios::binary|(resume?ios::app:ios::trunc));
+ ofstream monitor(out+"/monitor.csv",resume?ios::app:ios::trunc);monitor<<setprecision(17);if(!resume)monitor<<"step,time,energy,initial_energy,relative_drift,current,cumulative_current\n";
+ int cadence=llround(.2/dt);if(abs(cadence*dt-.2)>1e-12)throw runtime_error("dt must divide saved cadence0.2");
+ double assembly=omp_get_wtime()-t0,run0=omp_get_wtime(),maxdrift=0;
+ for(int64_t n=start;n<=target;n++){
+  if(!(resume&&n==start)){
+   line.write(reinterpret_cast<char*>(x.data()),N*sizeof(double));line.write(reinterpret_cast<char*>(v.data()),N*sizeof(double));
+   for(int i=60;i<=65;i++){corners.write(reinterpret_cast<char*>(x.data()+idx(i,0,0,0)),3*sizeof(double));corners.write(reinterpret_cast<char*>(v.data()+idx(i,0,0,0)),3*sizeof(double));}
+   if(n%cadence==0 && n*dt>=48-1e-12){snap.write(reinterpret_cast<char*>(x.data()),L*sizeof(double));snap.write(reinterpret_cast<char*>(v.data()),L*sizeof(double));double tau=n*dt;writev(times,tau);}
+  }
+  if((n%every==0||n==target)&&!(resume&&n==start)){
+   double E=energy(),drift=abs(E-H0)/abs(H0);maxdrift=max(maxdrift,drift);
+   monitor<<n<<','<<n*dt<<','<<E<<','<<H0<<','<<drift<<','<<lastJ<<','<<cumulative<<'\n';monitor.flush();
+   checkpoint(out+"/checkpoint_"+to_string(n)+".bin",n,dt,g,x,v,cumulative,lastJ,H0);
+  }
+  if(n==target)break;
+  #pragma omp parallel for schedule(static)
+  for(int i=0;i<L;i++){v[i]+=.5*dt*a[i];x[i]+=dt*v[i];}
+  forces();
+  #pragma omp parallel for schedule(static)
+  for(int i=0;i<L;i++)v[i]+=.5*dt*a[i];
+  double J=current(x,v,g);cumulative+=dt*(lastJ+J)/2;lastJ=J;
+ }
+ line.flush();snap.flush();corners.flush();times.flush();monitor.flush();
+ cout<<setprecision(17)<<"{\"status\":\"PASS\",\"start_step\":"<<start<<",\"target_step\":"<<target<<",\"N\":"<<N<<",\"H\":"<<H<<",\"dofs\":"<<L<<",\"nonzeros\":"<<val.size()<<",\"dt\":"<<dt<<",\"weighted_reciprocity_max_abs\":"<<reciprocal<<",\"gershgorin_omega2_upper\":"<<gersh<<",\"dt_omega_upper\":"<<dt*sqrt(gersh)<<",\"independent_spring_energy_relative_difference\":"<<energy_relative<<",\"assembly_seconds\":"<<assembly<<",\"evolution_seconds\":"<<omp_get_wtime()-run0<<",\"sampled_max_relative_energy_drift\":"<<maxdrift<<"}\n";
+ return !(line&&snap&&corners&&times&&monitor);
+ }catch(const exception&e){cerr<<e.what()<<'\n';return 10;}}

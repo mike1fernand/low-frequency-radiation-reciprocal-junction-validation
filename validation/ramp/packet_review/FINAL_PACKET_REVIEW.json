@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "date": "2026-11-08",
+  "scope": "Independent source and bounded physical/analysis checks of the new finite-packet corroboration. All completed same-window timestep/box controls reviewed; no new long simulations by this reviewer.",
+  "primary_window": [
+    57.4,
+    64.2
+  ],
+  "base_qT_mean_interval": [
+    0.7164564182492906,
+    0.7164564186765725
+  ],
+  "same_window_qT_midpoints": {
+    "CANDIDATE_PACKET_BOX80_RESULT.json": 0.7164564184629316,
+    "CONTROL_DT002_BOX80_RESULT.json": 0.7164540867137716,
+    "CONTROL_DT004_BOX96_RESULT.json": 0.7162667759527709
+  },
+  "all_five_predicates_pass_in_each_frozen_control": true,
+  "independent_physical_one_step_controls": {
+    "cases": 2,
+    "H": [
+      2,
+      3
+    ],
+    "maximum_state_error": 4.336808689942018e-19,
+    "maximum_current_error": 1.2705494208814505e-21
+  },
+  "independent_modal_spot_checks": {
+    "times": [
+      57.4,
+      60.8,
+      64.2
+    ],
+    "maximum_abs_disagreement": 3.3306690738754696e-16
+  },
+  "confirmed_issue_and_resolution": {
+    "issue": "Secondary stride3 cadence field omitted final64.2endpoint.",
+    "primary_result_affected": false,
+    "correction_record": "packet/CADENCE_FIELD_CORRECTION.json",
+    "resolution": "Future analyzer includes final endpoint; original SHA-bound base JSON preserved and a separate derived correction supplied. Independently recomputed same-endpoint means for all three cases."
+  },
+  "limitations": [
+    "The direct packet result is finite-time global stored modal energy, not a monochromatic73.6%coefficient or unique local/asymptotic qTflux.",
+    "Degenerate allocation interval does not enclose timestep, box, cadence, quadrature or finite-time estimator errors.",
+    "Observed numerical control/method differences are separate sensitivities, not a combined error bar or statistical95%interval.",
+    "Three of35modal snapshots were independently recomputed; primarymean was independently recomputed from all35saved coefficient samples."
+  ],
+  "reviewed_sources": {
+    "engine_source_sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542",
+    "analyzer_after_fix_sha256": "6c890abaf312bfafa082b2e99f61075ce9e720f5c6fc7fb98434472f7a800fc8",
+    "base_result_sha256": "49f810ee30b7734a077c23cb20fec7b93a95b90f83399fe600188b7efb00fe7f",
+    "cadence_correction_sha256": "6d08926b494f47a65a59f1d323f5cba27bc078b62691e93d1ec313617d21bfd2",
+    "frozen_window_sha256": "a24233b2b7fa11fc8691bbaf69b1b205d703f7d81db48198d7b9dfbe8cedf5e8"
+  },
+  "control_summary": "FROZEN_CONTROLS_CHECK.json",
+  "primary_review_record": "PRIMARY_REVIEW.json"
+}

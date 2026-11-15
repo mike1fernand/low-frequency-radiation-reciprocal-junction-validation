@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "ledger_sha256": "4f4d48d69710ed6c7c2ec91016daccd73de067073607b0ffceb8fd0211ecbfa0",
+  "jobs": 222,
+  "accepted_leaves": 449698,
+  "completed_stages": 859,
+  "results": {
+    "g": {
+      "independent_scaled_direct_upper": "652789913798706201793280012490609790218969564223963279/153249554086588885835834702715030918361873912218360217600",
+      "diagnostic_decimal": 0.004259652941175069,
+      "threshold": "1/50",
+      "passes": true
+    },
+    "Q": {
+      "independent_scaled_direct_upper": "75356969596394341029463595415563914524939493598722171/38312388521647221458958675678757729590468478054590054400",
+      "diagnostic_decimal": 0.0019669086816087237,
+      "threshold": "1/200",
+      "passes": true
+    }
+  },
+  "claim": "Independent rational summation and144-entry assembly reproduce all34 complete moments and prove both direct operator budgets. The new center-LDL sharpening is not needed for acceptance.",
+  "limits": "Inherited evidence parsed by unchanged R3 auditor; interval quadrature itself not rerun. Exact-Q positivity and bridge remain separate reviewed premises."
+}

@@ -1,0 +1,3121 @@
+{
+  "status": "completed_saved_kernel_screen",
+  "scope": "Fresh Cartesian spring assembly and finite solves on archived bulk kernels; not a new bulk numerical certificate.",
+  "script_sha256": "939992b6f5d6dfb1422aa5e0eb263795d25ed5838addccad3a37a9bfbd344156",
+  "main_source": {
+    "path": "paper_update_20260926/build/paper1_main.tex",
+    "sha256": "de18909953cd48e9828af791d7c755cdf63eefc84d3b6ce9c4d22151de3d36b0",
+    "role": "Manuscript source provenance only; not required to replay matrix arithmetic."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "rows": [
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 0.65,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.028214481832525205,
+        "Tline": 0.5767969268480124,
+        "Tbulk": 0.3949885913194627,
+        "TqT": 0.3623150778951597,
+        "TqL": 0.03267351342430296,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.6199010924212651e-16,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.11693934189545159,
+        "same_state_qT": {
+          "XX": 0.33340576737332617,
+          "RR": 0.0011955103427007592,
+          "XR": 0.027713800179132803,
+          "sum": 0.3623150778951597,
+          "normalized_cross": 0.07649088285294085,
+          "overlap_cosine": 0.6940693440767093
+        },
+        "same_state_qL": {
+          "XX": 0.0349944593265679,
+          "RR": 0.00021468253635504014,
+          "XR": -0.002535628438619992,
+          "sum": 0.03267351342430295,
+          "normalized_cross": -0.07760501313990804,
+          "overlap_cosine": -0.4625488606869763
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.036495671910592026,
+          "Tline": 0.6037342094465772,
+          "Tbulk": 0.3597701186428308,
+          "TqT": 0.32553029433531,
+          "TqL": 0.034239824307520816,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.716587549445839e-16,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.09769022698835861
+        },
+        "0.5": {
+          "Rq": 0.02491064317544525,
+          "Tline": 0.5890690069982111,
+          "Tbulk": 0.38602034982634326,
+          "TqT": 0.3520970887672339,
+          "TqL": 0.03392326105910935,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.9279638981753175e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.10727594667394715
+        },
+        "1.0": {
+          "Rq": 0.028214481832525205,
+          "Tline": 0.5767969268480124,
+          "Tbulk": 0.3949885913194627,
+          "TqT": 0.3623150778951597,
+          "TqL": 0.03267351342430296,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6199010924212651e-16,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.11693934189545159
+        },
+        "R_only": {
+          "Rq": 0.00019310878884932088,
+          "Tline": 0.9985264162826879,
+          "Tbulk": 0.0012804749284623725,
+          "TqT": 0.001236892277050742,
+          "TqL": 4.358265141163056e-05,
+          "closure": 3.3306690738754696e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.423651445728339e-16,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.19966510064782728
+        }
+      },
+      "redressed_full_minus_X": 0.03678478355984971,
+      "alpha_half_minus_zero": 0.02656679443192389,
+      "alpha_one_minus_half": 0.01021798912792582
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 0.8,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.07862974102777368,
+        "Tline": 0.5379287724742557,
+        "Tbulk": 0.3834414864979714,
+        "TqT": 0.35065641818944693,
+        "TqL": 0.032785068308524436,
+        "closure": 8.881784197001252e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.3668035872266426e-16,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.14269079387107203,
+        "same_state_qT": {
+          "XX": 0.3317225820795227,
+          "RR": 0.0006549972704388651,
+          "XR": 0.018278838839485424,
+          "sum": 0.35065641818944704,
+          "normalized_cross": 0.05212748973443864,
+          "overlap_cosine": 0.6200280600711547
+        },
+        "same_state_qL": {
+          "XX": 0.034384006163528054,
+          "RR": 0.00015923318095256817,
+          "XR": -0.0017581710359561875,
+          "sum": 0.032785068308524436,
+          "normalized_cross": -0.05362718843257819,
+          "overlap_cosine": -0.3756955941853373
+        },
+        "decomposition_residual": 1.1102230246251565e-16
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.06108512792388712,
+          "Tline": 0.5389322987733075,
+          "Tbulk": 0.39998257330280473,
+          "TqT": 0.3624992127908042,
+          "TqL": 0.037483360512000546,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2412670766236366e-16,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.12438249480151109
+        },
+        "0.5": {
+          "Rq": 0.07107325894363282,
+          "Tline": 0.5371210138797109,
+          "Tbulk": 0.3918057271766566,
+          "TqT": 0.3568656821335543,
+          "TqL": 0.03494004504310231,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6184142622847341e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.13399905058794298
+        },
+        "1.0": {
+          "Rq": 0.07862974102777368,
+          "Tline": 0.5379287724742557,
+          "Tbulk": 0.3834414864979714,
+          "TqT": 0.35065641818944693,
+          "TqL": 0.032785068308524436,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3668035872266426e-16,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.14269079387107203
+        },
+        "R_only": {
+          "Rq": 0.004041965504187449,
+          "Tline": 0.9947954766580722,
+          "Tbulk": 0.0011625578377402264,
+          "TqT": 0.001078045185808851,
+          "TqL": 8.451265193137544e-05,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.0007415106216804e-16,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.2615805409599632
+        }
+      },
+      "redressed_full_minus_X": -0.011842794601357287,
+      "alpha_half_minus_zero": -0.005633530657249919,
+      "alpha_one_minus_half": -0.006209263944107368
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.1657855299070278,
+        "Tline": 0.5136070747104539,
+        "Tbulk": 0.3206073953825181,
+        "TqT": 0.2926069070952516,
+        "TqL": 0.0280004882872665,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.4946834900704541e-16,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.18693406079148622,
+        "same_state_qT": {
+          "XX": 0.28161086190473367,
+          "RR": 0.00034647565778479447,
+          "XR": 0.01064956953273319,
+          "sum": 0.29260690709525167,
+          "normalized_cross": 0.036395482384380146,
+          "overlap_cosine": 0.5390648234066907
+        },
+        "same_state_qL": {
+          "XX": 0.028942831946595464,
+          "RR": 0.00010935441736230102,
+          "XR": -0.001051698076691273,
+          "sum": 0.028000488287266492,
+          "normalized_cross": -0.03755999059379059,
+          "overlap_cosine": -0.2955782047640831
+        },
+        "decomposition_residual": 5.551115123125783e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.1722130319025366,
+          "Tline": 0.49543430167336605,
+          "Tbulk": 0.3323526664240975,
+          "TqT": 0.3014646496835413,
+          "TqL": 0.030888016740556197,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.5700924586837752e-16,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.17393288789363542
+        },
+        "0.5": {
+          "Rq": 0.16959768356148092,
+          "Tline": 0.5044648584124157,
+          "Tbulk": 0.3259374580261035,
+          "TqT": 0.29662830920522554,
+          "TqL": 0.029309148820878,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.0595777971499126e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.18080145450436858
+        },
+        "1.0": {
+          "Rq": 0.1657855299070278,
+          "Tline": 0.5136070747104539,
+          "Tbulk": 0.3206073953825181,
+          "TqT": 0.2926069070952516,
+          "TqL": 0.0280004882872665,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.4946834900704541e-16,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.18693406079148622
+        },
+        "R_only": {
+          "Rq": 0.0012593601221188126,
+          "Tline": 0.9978843632179365,
+          "Tbulk": 0.0008562766599450931,
+          "TqT": 0.000747258485308593,
+          "TqL": 0.00010901817463650017,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 3.7367087251761353e-17,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.3198625836366621
+        }
+      },
+      "redressed_full_minus_X": -0.008857742588289697,
+      "alpha_half_minus_zero": -0.00483634047831577,
+      "alpha_one_minus_half": -0.004021402109973926
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.23873803166504,
+        "Tline": 0.5240403522200328,
+        "Tbulk": 0.23722161611492776,
+        "TqT": 0.21620270924025622,
+        "TqL": 0.021018906874671534,
+        "closure": 4.440892098500626e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.5265566588595902e-16,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.2621001097506974,
+        "same_state_qT": {
+          "XX": 0.21050591372139416,
+          "RR": 0.0001807932480756275,
+          "XR": 0.005516002270786527,
+          "sum": 0.2162027092402563,
+          "normalized_cross": 0.025513104299987484,
+          "overlap_cosine": 0.4470655307216602
+        },
+        "same_state_qL": {
+          "XX": 0.021500728302782775,
+          "RR": 6.925711014466393e-05,
+          "XR": -0.0005510785382558998,
+          "sum": 0.02101890687467154,
+          "normalized_cross": -0.026218230164955305,
+          "overlap_cosine": -0.22580041381127686
+        },
+        "decomposition_residual": 8.326672684688674e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.2581024081265045,
+          "Tline": 0.502744490113354,
+          "Tbulk": 0.23915310176014154,
+          "TqT": 0.21704896125269257,
+          "TqL": 0.02210414050744898,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.5476231888929306e-16,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.2551506261829713
+        },
+        "0.5": {
+          "Rq": 0.2482033145051689,
+          "Tline": 0.5137189417449554,
+          "Tbulk": 0.2380777437498755,
+          "TqT": 0.21655921865256073,
+          "TqL": 0.02151852509731477,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 3.2398021848425308e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.2587845228565187
+        },
+        "1.0": {
+          "Rq": 0.23873803166504,
+          "Tline": 0.5240403522200328,
+          "Tbulk": 0.23722161611492776,
+          "TqT": 0.21620270924025622,
+          "TqL": 0.021018906874671534,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.5265566588595902e-16,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.2621001097506974
+        },
+        "R_only": {
+          "Rq": 9.37721210142955e-06,
+          "Tline": 0.9994873908460701,
+          "Tbulk": 0.0005032319418292044,
+          "TqT": 0.000411361932459336,
+          "TqL": 9.187000936986837e-05,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.757919228897728e-17,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.4147314113450188
+        }
+      },
+      "redressed_full_minus_X": -0.0008462520124363493,
+      "alpha_half_minus_zero": -0.0004897426001318483,
+      "alpha_one_minus_half": -0.00035650941230450095
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.2519033787156179,
+        "Tline": 0.5764168943199621,
+        "Tbulk": 0.17167972696442016,
+        "TqT": 0.1563310576499055,
+        "TqL": 0.015348669314514644,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.430489624538199e-16,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.3640472297436034,
+        "same_state_qT": {
+          "XX": 0.15337271143630526,
+          "RR": 9.951603673955266e-05,
+          "XR": 0.0028588301768607068,
+          "sum": 0.1563310576499055,
+          "normalized_cross": 0.018287026390257616,
+          "overlap_cosine": 0.3658792485610923
+        },
+        "same_state_qL": {
+          "XX": 0.01559295584476441,
+          "RR": 4.205561103732121e-05,
+          "XR": -0.000286342141287085,
+          "sum": 0.015348669314514646,
+          "normalized_cross": -0.018655828425223953,
+          "overlap_cosine": -0.17679870289961816
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.2680316067443445,
+          "Tline": 0.5609243333421817,
+          "Tbulk": 0.17104405991347443,
+          "TqT": 0.15529922732132054,
+          "TqL": 0.015744832592153885,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.928593550334434e-17,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.3608447201062372
+        },
+        "0.5": {
+          "Rq": 0.2597374571203081,
+          "Tline": 0.5689193043479508,
+          "Tbulk": 0.17134323853174097,
+          "TqT": 0.15581332813975007,
+          "TqL": 0.015529910391990882,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.8584537409345717e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.3625021054455093
+        },
+        "1.0": {
+          "Rq": 0.2519033787156179,
+          "Tline": 0.5764168943199621,
+          "Tbulk": 0.17167972696442016,
+          "TqT": 0.1563310576499055,
+          "TqL": 0.015348669314514644,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.430489624538199e-16,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.3640472297436034
+        },
+        "R_only": {
+          "Rq": 0.00021518535210056022,
+          "Tline": 0.9995272521947824,
+          "Tbulk": 0.00025756245311699767,
+          "TqT": 0.00019980365605671064,
+          "TqL": 5.775879706028703e-05,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.051591013050332e-17,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.4820867042809583
+        }
+      },
+      "redressed_full_minus_X": 0.0010318303285849761,
+      "alpha_half_minus_zero": 0.0005141008184295359,
+      "alpha_one_minus_half": 0.0005177295101554402
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+      "metadata_sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8",
+      "omega": 0.8,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 1.3877787807814457e-17,
+      "qT_min_eigenvalue": 2.2363401058029136e-11,
+      "full": {
+        "Rq": 0.23657828191817404,
+        "Tline": 0.621539570967526,
+        "Tbulk": 0.1418821471142995,
+        "TqT": 0.12914781874114703,
+        "TqL": 0.012734328373152477,
+        "closure": 4.440892098500626e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 4.4776368373981534e-17,
+        "min_core_singular": 1.0109175442532512,
+        "min_device_singular": 0.4392015407062086,
+        "same_state_qT": {
+          "XX": 0.12715546285869145,
+          "RR": 6.947535185940058e-05,
+          "XR": 0.0019228805305961836,
+          "sum": 0.12914781874114703,
+          "normalized_cross": 0.0148889896038449,
+          "overlap_cosine": 0.3234740287074873
+        },
+        "same_state_qL": {
+          "XX": 0.012896588966184518,
+          "RR": 3.0310118008449773e-05,
+          "XR": -0.00019257071104049477,
+          "sum": 0.012734328373152472,
+          "normalized_cross": -0.015122172555757846,
+          "overlap_cosine": -0.15400293420008862
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.24884807225420852,
+          "Tline": 0.6100912939776224,
+          "Tbulk": 0.14106063376817,
+          "TqT": 0.1281034250653908,
+          "TqL": 0.012957208702779183,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.092071311423671e-17,
+          "min_core_singular": 0.9993981659725825,
+          "min_device_singular": 0.4372961169065237
+        },
+        "0.5": {
+          "Rq": 0.24254340227983676,
+          "Tline": 0.6159933444756117,
+          "Tbulk": 0.14146325324455133,
+          "TqT": 0.1286280855677968,
+          "TqL": 0.012835167676754515,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.193812447098184e-16,
+          "min_core_singular": 1.0091147088768195,
+          "min_device_singular": 0.4382777179029339
+        },
+        "1.0": {
+          "Rq": 0.23657828191817404,
+          "Tline": 0.621539570967526,
+          "Tbulk": 0.1418821471142995,
+          "TqT": 0.12914781874114703,
+          "TqL": 0.012734328373152477,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.4776368373981534e-17,
+          "min_core_singular": 1.0109175442532512,
+          "min_device_singular": 0.4392015407062086
+        },
+        "R_only": {
+          "Rq": 0.00019016694882941748,
+          "Tline": 0.9996439101946375,
+          "Tbulk": 0.00016592285653292747,
+          "TqT": 0.00012554414577453315,
+          "TqL": 4.0378710758394304e-05,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.815852873680767e-17,
+          "min_core_singular": 0.9968777525916033,
+          "min_device_singular": 0.5363319441874871
+        }
+      },
+      "redressed_full_minus_X": 0.0010443936757562333,
+      "alpha_half_minus_zero": 0.0005246605024060158,
+      "alpha_one_minus_half": 0.0005197331733502175
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 0.65,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.007010009642357475,
+        "Tline": 0.8842203717356579,
+        "Tbulk": 0.10876961862198398,
+        "TqT": 0.10202242413440016,
+        "TqL": 0.006747194487583817,
+        "closure": 6.661338147750939e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.622893844522185e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.18357081707009862,
+        "same_state_qT": {
+          "XX": 0.071569744415557,
+          "RR": 0.003388176762686842,
+          "XR": 0.027064502956156342,
+          "sum": 0.10202242413440017,
+          "normalized_cross": 0.2652799439513677,
+          "overlap_cosine": 0.8690050435199779
+        },
+        "same_state_qL": {
+          "XX": 0.007907099881847958,
+          "RR": 0.0001304292619599162,
+          "XR": -0.0012903346562240581,
+          "sum": 0.006747194487583817,
+          "normalized_cross": -0.19124017524595313,
+          "overlap_cosine": -0.6352961674561571
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0013505460193582355,
+          "Tline": 0.9551547958525064,
+          "Tbulk": 0.04349465812813616,
+          "TqT": 0.03996431001539853,
+          "TqL": 0.0035303481127376283,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2412670766236366e-16,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.1446462792182423
+        },
+        "0.5": {
+          "Rq": 0.003071427632879333,
+          "Tline": 0.9203886903509734,
+          "Tbulk": 0.0765398820161473,
+          "TqT": 0.07096191789496499,
+          "TqL": 0.005577964121182308,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2738115944464653e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.1635136875907813
+        },
+        "1.0": {
+          "Rq": 0.007010009642357475,
+          "Tline": 0.8842203717356579,
+          "Tbulk": 0.10876961862198398,
+          "TqT": 0.10202242413440016,
+          "TqL": 0.006747194487583817,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.622893844522185e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.18357081707009862
+        },
+        "R_only": {
+          "Rq": 6.082908859367094e-05,
+          "Tline": 0.9982085075153739,
+          "Tbulk": 0.0017306633960318405,
+          "TqT": 0.0016583107001301126,
+          "TqL": 7.235269590172795e-05,
+          "closure": 5.551115123125783e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.5515838457795457e-16,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.21399612165792575
+        }
+      },
+      "redressed_full_minus_X": 0.062058114119001626,
+      "alpha_half_minus_zero": 0.030997607879566458,
+      "alpha_one_minus_half": 0.031060506239435168
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 0.8,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.006805582005048826,
+        "Tline": 0.8326401289379534,
+        "Tbulk": 0.16055428905699815,
+        "TqT": 0.14887404712351354,
+        "TqL": 0.011680241933484613,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.1443916996305594e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.24732810171246983,
+        "same_state_qT": {
+          "XX": 0.11649247951761349,
+          "RR": 0.002602948106518053,
+          "XR": 0.029778619499381997,
+          "sum": 0.14887404712351354,
+          "normalized_cross": 0.20002559260497652,
+          "overlap_cosine": 0.8550526657108638
+        },
+        "same_state_qL": {
+          "XX": 0.013681191727515526,
+          "RR": 0.00022563250091712925,
+          "XR": -0.002226582294948042,
+          "sum": 0.011680241933484613,
+          "normalized_cross": -0.190628097228443,
+          "overlap_cosine": -0.6336449275042337
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.013655985095106541,
+          "Tline": 0.8714357130395368,
+          "Tbulk": 0.11490830186535633,
+          "TqT": 0.10300648977246127,
+          "TqL": 0.011901812092895057,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1150912609939193e-16,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.2150804036254097
+        },
+        "0.5": {
+          "Rq": 0.010888376938089724,
+          "Tline": 0.8504998826112683,
+          "Tbulk": 0.1386117404506428,
+          "TqT": 0.12674374010948936,
+          "TqL": 0.011868000341153458,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1775693440128314e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.2346824392283614
+        },
+        "1.0": {
+          "Rq": 0.006805582005048826,
+          "Tline": 0.8326401289379534,
+          "Tbulk": 0.16055428905699815,
+          "TqT": 0.14887404712351354,
+          "TqL": 0.011680241933484613,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1443916996305594e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.24732810171246983
+        },
+        "R_only": {
+          "Rq": 3.9413220469782056e-05,
+          "Tline": 0.997613745398972,
+          "Tbulk": 0.0023468413805578505,
+          "TqT": 0.0022796947446979826,
+          "TqL": 6.714663585986771e-05,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3668035872266426e-16,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.2975072471986447
+        }
+      },
+      "redressed_full_minus_X": 0.045867557351052274,
+      "alpha_half_minus_zero": 0.023737250337028087,
+      "alpha_one_minus_half": 0.022130307014024186
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.0052725804961166346,
+        "Tline": 0.8056805812082296,
+        "Tbulk": 0.1890468382956539,
+        "TqT": 0.1739797544848638,
+        "TqL": 0.01506708381079012,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.245623262245438e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.2936453052066594,
+        "same_state_qT": {
+          "XX": 0.14860669594610643,
+          "RR": 0.0015100880769734868,
+          "XR": 0.023862970461783824,
+          "sum": 0.17397975448486372,
+          "normalized_cross": 0.13715946738998247,
+          "overlap_cosine": 0.7964787246526964
+        },
+        "same_state_qL": {
+          "XX": 0.017049552568358935,
+          "RR": 0.0002268434376995481,
+          "XR": -0.002209312195268369,
+          "sum": 0.015067083810790114,
+          "normalized_cross": -0.14663170544562817,
+          "overlap_cosine": -0.5617039668472324
+        },
+        "decomposition_residual": 8.326672684688674e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.01636646425750946,
+          "Tline": 0.8207249035880347,
+          "Tbulk": 0.162908632154456,
+          "TqT": 0.146168636323893,
+          "TqL": 0.01673999583056302,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.5011122659325205e-16,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.27688848006841454
+        },
+        "0.5": {
+          "Rq": 0.0094996831196562,
+          "Tline": 0.8135983398407703,
+          "Tbulk": 0.1769019770395732,
+          "TqT": 0.16104503810687973,
+          "TqL": 0.015856938932693465,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3092278833360675e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.2852851104563306
+        },
+        "1.0": {
+          "Rq": 0.0052725804961166346,
+          "Tline": 0.8056805812082296,
+          "Tbulk": 0.1890468382956539,
+          "TqT": 0.1739797544848638,
+          "TqL": 0.01506708381079012,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.245623262245438e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.2936453052066594
+        },
+        "R_only": {
+          "Rq": 0.0015690450829660189,
+          "Tline": 0.9964791293219398,
+          "Tbulk": 0.0019518255950943084,
+          "TqT": 0.0018272829239112127,
+          "TqL": 0.00012454267118309578,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.995507229703335e-17,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.3989148081813652
+        }
+      },
+      "redressed_full_minus_X": 0.027811118160970816,
+      "alpha_half_minus_zero": 0.014876401782986742,
+      "alpha_one_minus_half": 0.012934716377984073
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.010822746509764015,
+        "Tline": 0.7972171108828386,
+        "Tbulk": 0.1919601426073973,
+        "TqT": 0.17569091301857476,
+        "TqL": 0.01626922958882254,
+        "closure": 0.0,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 2.42861286636753e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.3544184771504174,
+        "same_state_qT": {
+          "XX": 0.1603795734460512,
+          "RR": 0.0006655922340655846,
+          "XR": 0.014645747338457978,
+          "sum": 0.17569091301857476,
+          "normalized_cross": 0.08336086987554997,
+          "overlap_cosine": 0.7087660259613123
+        },
+        "same_state_qL": {
+          "XX": 0.017647088876797015,
+          "RR": 0.00015718000059558113,
+          "XR": -0.0015350392885700582,
+          "sum": 0.01626922958882254,
+          "normalized_cross": -0.09435230354267528,
+          "overlap_cosine": -0.46084440620103934
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.00866230515162197,
+          "Tline": 0.8065909156210129,
+          "Tbulk": 0.18474677922736493,
+          "TqT": 0.166504706558998,
+          "TqL": 0.018242072668366943,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 9.437916079723832e-17,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.33897410235317293
+        },
+        "0.5": {
+          "Rq": 0.009838606781025544,
+          "Tline": 0.8016770326639353,
+          "Tbulk": 0.18848436055503937,
+          "TqT": 0.1713126170760212,
+          "TqL": 0.01717174347901818,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.4752290795525882e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.34696255255840064
+        },
+        "1.0": {
+          "Rq": 0.010822746509764015,
+          "Tline": 0.7972171108828386,
+          "Tbulk": 0.1919601426073973,
+          "TqT": 0.17569091301857476,
+          "TqL": 0.01626922958882254,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.42861286636753e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.3544184771504174
+        },
+        "R_only": {
+          "Rq": 0.0003899650250935827,
+          "Tline": 0.9984494090758221,
+          "Tbulk": 0.0011606258990829624,
+          "TqT": 0.0010116508183771271,
+          "TqL": 0.0001489750807058352,
+          "closure": 1.3322676295501878e-15,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.419449386414209e-17,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.5170375542931633
+        }
+      },
+      "redressed_full_minus_X": 0.009186206459576768,
+      "alpha_half_minus_zero": 0.004807910517023201,
+      "alpha_one_minus_half": 0.004378295942553567
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.05353946121957912,
+        "Tline": 0.7863628946529501,
+        "Tbulk": 0.16009764412747063,
+        "TqT": 0.14606963281654167,
+        "TqL": 0.014028011310928953,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.5700924586837752e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.459615487751581,
+        "same_state_qT": {
+          "XX": 0.13818983884976768,
+          "RR": 0.0002740549904986702,
+          "XR": 0.007605738976275309,
+          "sum": 0.14606963281654167,
+          "normalized_cross": 0.05206926881118302,
+          "overlap_cosine": 0.6179516672792398
+        },
+        "same_state_qL": {
+          "XX": 0.014781239383933342,
+          "RR": 9.533671130130052e-05,
+          "XR": -0.0008485647843056922,
+          "sum": 0.01402801131092895,
+          "normalized_cross": -0.06049073995574782,
+          "overlap_cosine": -0.3574123049278374
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.05774828451779258,
+          "Tline": 0.7849548821823665,
+          "Tbulk": 0.15729683329984084,
+          "TqT": 0.1421549862475619,
+          "TqL": 0.015141847052278959,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.376145397762941e-17,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.45022501163551326
+        },
+        "0.5": {
+          "Rq": 0.0556183555977337,
+          "Tline": 0.7857007735300541,
+          "Tbulk": 0.15868087087221328,
+          "TqT": 0.14414125589815932,
+          "TqL": 0.014539614974053948,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3279418682041632e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.45508067811053343
+        },
+        "1.0": {
+          "Rq": 0.05353946121957912,
+          "Tline": 0.7863628946529501,
+          "Tbulk": 0.16009764412747063,
+          "TqT": 0.14606963281654167,
+          "TqL": 0.014028011310928953,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.5700924586837752e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.459615487751581
+        },
+        "R_only": {
+          "Rq": 1.4948432906667933e-05,
+          "Tline": 0.999401593428104,
+          "Tbulk": 0.000583458138988508,
+          "TqT": 0.0004699539842792806,
+          "TqL": 0.00011350415470922746,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.291468873614597e-17,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.6576322553629957
+        }
+      },
+      "redressed_full_minus_X": 0.003914646568979774,
+      "alpha_half_minus_zero": 0.001986269650597422,
+      "alpha_one_minus_half": 0.0019283769183823518
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N192/omega1.npz",
+      "kernel_sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0",
+      "metadata_sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91",
+      "omega": 1.0,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 7.530784955754123e-10,
+      "full": {
+        "Rq": 0.07538471303111953,
+        "Tline": 0.7888974289947523,
+        "Tbulk": 0.1357178579741279,
+        "TqT": 0.12368348807349783,
+        "TqL": 0.012034369900630056,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.3092278833360675e-16,
+        "min_core_singular": 1.0102352100389735,
+        "min_device_singular": 0.5468326063655184,
+        "same_state_qT": {
+          "XX": 0.11855645431866699,
+          "RR": 0.0001659212503115847,
+          "XR": 0.004961112504519296,
+          "sum": 0.12368348807349787,
+          "normalized_cross": 0.04011135667172644,
+          "overlap_cosine": 0.5592879636894734
+        },
+        "same_state_qL": {
+          "XX": 0.012531093177198156,
+          "RR": 6.875526950734572e-05,
+          "XR": -0.0005654785460754421,
+          "sum": 0.01203436990063006,
+          "normalized_cross": -0.04698862929631542,
+          "overlap_cosine": -0.30460614685720033
+        },
+        "decomposition_residual": 4.163336342344337e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.08151880014496729,
+          "Tline": 0.7849623094822695,
+          "Tbulk": 0.1335188903727633,
+          "TqT": 0.12080005232338721,
+          "TqL": 0.012718838049376074,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.193812447098184e-16,
+          "min_core_singular": 0.9990576462848036,
+          "min_device_singular": 0.540618267804134
+        },
+        "0.5": {
+          "Rq": 0.07836289346822524,
+          "Tline": 0.7870301534951867,
+          "Tbulk": 0.13460695303658746,
+          "TqT": 0.12225839316637577,
+          "TqL": 0.012348559870211693,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.942890293094024e-16,
+          "min_core_singular": 1.0089552657590388,
+          "min_device_singular": 0.5438204742641084
+        },
+        "1.0": {
+          "Rq": 0.07538471303111953,
+          "Tline": 0.7888974289947523,
+          "Tbulk": 0.1357178579741279,
+          "TqT": 0.12368348807349783,
+          "TqL": 0.012034369900630056,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3092278833360675e-16,
+          "min_core_singular": 1.0102352100389735,
+          "min_device_singular": 0.5468326063655184
+        },
+        "R_only": {
+          "Rq": 7.696827801896195e-05,
+          "Tline": 0.9995541643765458,
+          "Tbulk": 0.00036886734543437684,
+          "TqT": 0.00028419186614759,
+          "TqL": 8.467547928678684e-05,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 3.469446951953614e-17,
+          "min_core_singular": 0.9959997121895632,
+          "min_device_singular": 0.7220498106534788
+        }
+      },
+      "redressed_full_minus_X": 0.002883435750110616,
+      "alpha_half_minus_zero": 0.0014583408429885564,
+      "alpha_one_minus_half": 0.0014250949071220598
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 0.65,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.04315256148476543,
+        "Tline": 0.9299099748812282,
+        "Tbulk": 0.0269374636340071,
+        "TqT": 0.026332364068549448,
+        "TqL": 0.0006050995654576492,
+        "closure": 6.661338147750939e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.6943551349561353e-16,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.169566948040016,
+        "same_state_qT": {
+          "XX": 0.01233023741478523,
+          "RR": 0.0032068362768616376,
+          "XR": 0.010795290376902592,
+          "sum": 0.026332364068549458,
+          "normalized_cross": 0.4099628255480542,
+          "overlap_cosine": 0.8583812442435498
+        },
+        "same_state_qL": {
+          "XX": 0.0004879230066202233,
+          "RR": 0.00015644657266428876,
+          "XR": -3.927001382686371e-05,
+          "sum": 0.0006050995654576484,
+          "normalized_cross": -0.06489843336305001,
+          "overlap_cosine": -0.07106772016382956
+        },
+        "decomposition_residual": 1.0408340855860843e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.02090006974871766,
+          "Tline": 0.9757303483448524,
+          "Tbulk": 0.0033695819064305846,
+          "TqT": 0.0030312974724830775,
+          "TqL": 0.00033828443394750705,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.492454167455056e-16,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.11045435140327498
+        },
+        "0.5": {
+          "Rq": 0.004331511722620007,
+          "Tline": 0.9856543541213896,
+          "Tbulk": 0.010014134155990752,
+          "TqT": 0.009873458297494631,
+          "TqL": 0.0001406758584961219,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 2.0206364052201328e-16,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.13646797444177403
+        },
+        "1.0": {
+          "Rq": 0.04315256148476543,
+          "Tline": 0.9299099748812282,
+          "Tbulk": 0.0269374636340071,
+          "TqT": 0.026332364068549448,
+          "TqL": 0.0006050995654576492,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6943551349561353e-16,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.169566948040016
+        },
+        "R_only": {
+          "Rq": 0.006851044384755097,
+          "Tline": 0.9916518881740823,
+          "Tbulk": 0.0014970674411626788,
+          "TqT": 0.0013504793696085232,
+          "TqL": 0.00014658807155415573,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6653345369377348e-16,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.15650780133192652
+        }
+      },
+      "redressed_full_minus_X": 0.023301066596066372,
+      "alpha_half_minus_zero": 0.006842160825011554,
+      "alpha_one_minus_half": 0.016458905771054817
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 0.8,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.0010725846296485552,
+        "Tline": 0.9152583245856976,
+        "Tbulk": 0.08366909078465405,
+        "TqT": 0.07947232500463558,
+        "TqL": 0.004196765780018478,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.6653345369377348e-16,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.2810689649632126,
+        "same_state_qT": {
+          "XX": 0.04686851303362406,
+          "RR": 0.005058612320392316,
+          "XR": 0.027545199650619225,
+          "sum": 0.07947232500463561,
+          "normalized_cross": 0.34660115516958284,
+          "overlap_cosine": 0.8944573612138015
+        },
+        "same_state_qL": {
+          "XX": 0.004947883088538308,
+          "RR": 0.00013756423898508488,
+          "XR": -0.0008886815475049152,
+          "sum": 0.004196765780018478,
+          "normalized_cross": -0.21175390624277404,
+          "overlap_cosine": -0.5385842850592701
+        },
+        "decomposition_residual": 2.7755575615628914e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.00012063507754560064,
+          "Tline": 0.9655592650734105,
+          "Tbulk": 0.034320099849044175,
+          "TqT": 0.0318023830553544,
+          "TqL": 0.0025177167936897777,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.163336342344337e-17,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.24490144574783762
+        },
+        "0.5": {
+          "Rq": 0.00023564398481339086,
+          "Tline": 0.941852703728633,
+          "Tbulk": 0.05791165228655427,
+          "TqT": 0.05438568737349603,
+          "TqL": 0.003525964913058242,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1295700899707568e-16,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.26364063272933425
+        },
+        "1.0": {
+          "Rq": 0.0010725846296485552,
+          "Tline": 0.9152583245856976,
+          "Tbulk": 0.08366909078465405,
+          "TqT": 0.07947232500463558,
+          "TqL": 0.004196765780018478,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6653345369377348e-16,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.2810689649632126
+        },
+        "R_only": {
+          "Rq": 6.217399951388167e-07,
+          "Tline": 0.9962692799588225,
+          "Tbulk": 0.003730098301181521,
+          "TqT": 0.003633707011319439,
+          "TqL": 9.639128986208196e-05,
+          "closure": 7.771561172376096e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.3877787807814457e-16,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.3140576465972743
+        }
+      },
+      "redressed_full_minus_X": 0.04766994194928118,
+      "alpha_half_minus_zero": 0.02258330431814163,
+      "alpha_one_minus_half": 0.025086637631139552
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.0025331565938607643,
+        "Tline": 0.8726059421113713,
+        "Tbulk": 0.12486090129476797,
+        "TqT": 0.11616973075809195,
+        "TqL": 0.008691170536676025,
+        "closure": 0.0,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.0007415106216804e-16,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.39524630058243215,
+        "same_state_qT": {
+          "XX": 0.08180992779318227,
+          "RR": 0.003685997105001377,
+          "XR": 0.030673805859908317,
+          "sum": 0.11616973075809198,
+          "normalized_cross": 0.26404301412889075,
+          "overlap_cosine": 0.8831961541933928
+        },
+        "same_state_qL": {
+          "XX": 0.010533487789220315,
+          "RR": 0.0002541264339018229,
+          "XR": -0.002096443686446109,
+          "sum": 0.008691170536676028,
+          "normalized_cross": -0.24121534350284446,
+          "overlap_cosine": -0.6406815038317809
+        },
+        "decomposition_residual": 2.7755575615628914e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0038641118802689505,
+          "Tline": 0.9085675308338083,
+          "Tbulk": 0.08756835728592297,
+          "TqT": 0.07785100476765269,
+          "TqL": 0.009717352518270267,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.777083671441753e-17,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.3593205600779679
+        },
+        "0.5": {
+          "Rq": 0.003389692864635484,
+          "Tline": 0.8902208127923718,
+          "Tbulk": 0.1063894943429925,
+          "TqT": 0.09718045485503554,
+          "TqL": 0.009209039487956957,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.441528768080323e-17,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.3779774036825466
+        },
+        "1.0": {
+          "Rq": 0.0025331565938607643,
+          "Tline": 0.8726059421113713,
+          "Tbulk": 0.12486090129476797,
+          "TqT": 0.11616973075809195,
+          "TqL": 0.008691170536676025,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.0007415106216804e-16,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.39524630058243215
+        },
+        "R_only": {
+          "Rq": 1.8334464448233868e-06,
+          "Tline": 0.9961074594390275,
+          "Tbulk": 0.003890707114528238,
+          "TqT": 0.0037642987939290992,
+          "TqL": 0.00012640832059913887,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.9580102899489167e-16,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.444127167418141
+        }
+      },
+      "redressed_full_minus_X": 0.038318725990439256,
+      "alpha_half_minus_zero": 0.01932945008738285,
+      "alpha_one_minus_half": 0.018989275903056407
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.0035721492713804313,
+        "Tline": 0.859745958539448,
+        "Tbulk": 0.13668189218917118,
+        "TqT": 0.12565925539283657,
+        "TqL": 0.011022636796334605,
+        "closure": 4.440892098500626e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 5.551115123125783e-17,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.5195549203194243,
+        "same_state_qT": {
+          "XX": 0.10147813163591028,
+          "RR": 0.0017917717920398193,
+          "XR": 0.02238935196488647,
+          "sum": 0.12565925539283657,
+          "normalized_cross": 0.17817511248887136,
+          "overlap_cosine": 0.830202332123533
+        },
+        "same_state_qL": {
+          "XX": 0.012955143724996919,
+          "RR": 0.00026748668779021524,
+          "XR": -0.0021999936164525265,
+          "sum": 0.011022636796334606,
+          "normalized_cross": -0.1995886879974216,
+          "overlap_cosine": -0.5909071170393692
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.008299971641451132,
+          "Tline": 0.8764741600018127,
+          "Tbulk": 0.1152258683567363,
+          "TqT": 0.10223376916224292,
+          "TqL": 0.012992099194493392,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 9.309503074677274e-17,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.5011215267928704
+        },
+        "0.5": {
+          "Rq": 0.005548945752287734,
+          "Tline": 0.8682802200330593,
+          "Tbulk": 0.12617083421465197,
+          "TqT": 0.11425585274788147,
+          "TqL": 0.011914981466770516,
+          "closure": 1.1102230246251565e-15,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.777083671441753e-17,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.5104525499551199
+        },
+        "1.0": {
+          "Rq": 0.0035721492713804313,
+          "Tline": 0.859745958539448,
+          "Tbulk": 0.13668189218917118,
+          "TqT": 0.12565925539283657,
+          "TqL": 0.011022636796334605,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.551115123125783e-17,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.5195549203194243
+        },
+        "R_only": {
+          "Rq": 0.000722125458471242,
+          "Tline": 0.9968468609160344,
+          "Tbulk": 0.002431013625493895,
+          "TqT": 0.002231107408171197,
+          "TqL": 0.00019990621732269805,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.003707553108402e-17,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.6099339204336521
+        }
+      },
+      "redressed_full_minus_X": 0.02342548623059365,
+      "alpha_half_minus_zero": 0.012022083585638554,
+      "alpha_one_minus_half": 0.011403402644955096
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.002731156043286921,
+        "Tline": 0.8691382249512474,
+        "Tbulk": 0.12813061900546516,
+        "TqT": 0.11712676243339569,
+        "TqL": 0.01100385657206948,
+        "closure": 5.551115123125783e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.2412670766236366e-16,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.6220737299414816,
+        "same_state_qT": {
+          "XX": 0.10344567911785796,
+          "RR": 0.0007206109249038434,
+          "XR": 0.012960472390633903,
+          "sum": 0.1171267624333957,
+          "normalized_cross": 0.11065338203985527,
+          "overlap_cosine": 0.7505579631497358
+        },
+        "same_state_qL": {
+          "XX": 0.012344971728754296,
+          "RR": 0.00018217418154411541,
+          "XR": -0.0015232893382289324,
+          "sum": 0.011003856572069478,
+          "normalized_cross": -0.13843231491179367,
+          "overlap_cosine": -0.5078833123754
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0022528847859410563,
+          "Tline": 0.8789603873770928,
+          "Tbulk": 0.11878672783696664,
+          "TqT": 0.10617365944370333,
+          "TqL": 0.012613068393263314,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.441528768080323e-17,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.6068712492433904
+        },
+        "0.5": {
+          "Rq": 0.002509749988203151,
+          "Tline": 0.8739917145551026,
+          "Tbulk": 0.12349853545669398,
+          "TqT": 0.11176577031593651,
+          "TqL": 0.01173276514075746,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.376145397762941e-17,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.6146930072089558
+        },
+        "1.0": {
+          "Rq": 0.002731156043286921,
+          "Tline": 0.8691382249512474,
+          "Tbulk": 0.12813061900546516,
+          "TqT": 0.11712676243339569,
+          "TqL": 0.01100385657206948,
+          "closure": 5.551115123125783e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2412670766236366e-16,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.6220737299414816
+        },
+        "R_only": {
+          "Rq": 5.6454412582342394e-05,
+          "Tline": 0.9987550850096879,
+          "Tbulk": 0.0011884605777294655,
+          "TqT": 0.0010024580753789708,
+          "TqL": 0.00018600250235049475,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 3.1986720415755645e-17,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.8237644424598648
+        }
+      },
+      "redressed_full_minus_X": 0.010953102989692362,
+      "alpha_half_minus_zero": 0.005592110872233186,
+      "alpha_one_minus_half": 0.005360992117459176
+    },
+    {
+      "kernel": "inputs/selected/REFERENCE_KERNEL.npz",
+      "kernel_sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b",
+      "metadata_sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822",
+      "omega": 1.2,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 192,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.5721500303531265e-08,
+      "full": {
+        "Rq": 0.013158579694731623,
+        "Tline": 0.8716127049960363,
+        "Tbulk": 0.11522871530923207,
+        "TqT": 0.10512918249170143,
+        "TqL": 0.01009953281753063,
+        "closure": 0.0,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 9.309503074677274e-17,
+        "min_core_singular": 1.0066835640477056,
+        "min_device_singular": 0.7086238157532128,
+        "same_state_qT": {
+          "XX": 0.09603492365530168,
+          "RR": 0.00040023457426700457,
+          "XR": 0.008694024262132725,
+          "sum": 0.10512918249170142,
+          "normalized_cross": 0.08269848633911907,
+          "overlap_cosine": 0.7011629397302016
+        },
+        "same_state_qL": {
+          "XX": 0.011055220792337821,
+          "RR": 0.0001332271759808528,
+          "XR": -0.0010889151507880424,
+          "sum": 0.010099532817530631,
+          "normalized_cross": -0.10781836847917542,
+          "overlap_cosine": -0.44862546694593686
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.014006428441706416,
+          "Tline": 0.8764452950814132,
+          "Tbulk": 0.10954827647688102,
+          "TqT": 0.0982820386851462,
+          "TqL": 0.01126623779173481,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.326672684688674e-17,
+          "min_core_singular": 0.9981800818704444,
+          "min_device_singular": 0.697208574964065
+        },
+        "0.5": {
+          "Rq": 0.013586091232620567,
+          "Tline": 0.874025426856731,
+          "Tbulk": 0.1123884819106486,
+          "TqT": 0.10175892503710615,
+          "TqL": 0.010629556873542445,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1188630228279524e-16,
+          "min_core_singular": 1.006109074855098,
+          "min_device_singular": 0.7030845387793253
+        },
+        "1.0": {
+          "Rq": 0.013158579694731623,
+          "Tline": 0.8716127049960363,
+          "Tbulk": 0.11522871530923207,
+          "TqT": 0.10512918249170143,
+          "TqL": 0.01009953281753063,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 9.309503074677274e-17,
+          "min_core_singular": 1.0066835640477056,
+          "min_device_singular": 0.7086238157532128
+        },
+        "R_only": {
+          "Rq": 3.0450764196333354e-06,
+          "Tline": 0.9992638802653935,
+          "Tbulk": 0.0007330746581870835,
+          "TqT": 0.0005838212325655689,
+          "TqL": 0.00014925342562151464,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.764041319390514e-17,
+          "min_core_singular": 0.9946689634646405,
+          "min_device_singular": 0.9314041926312634
+        }
+      },
+      "redressed_full_minus_X": 0.006847143806555225,
+      "alpha_half_minus_zero": 0.0034768863519599458,
+      "alpha_one_minus_half": 0.0033702574545952796
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "kernel_sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5",
+      "metadata_sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b",
+      "omega": 1.4,
+      "cq": 0.8,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 2.411026746772646e-07,
+      "full": {
+        "Rq": 0.0059522732987466725,
+        "Tline": 0.9515163953403684,
+        "Tbulk": 0.04253133136088515,
+        "TqT": 0.041822403023796265,
+        "TqL": 0.0007089283370888788,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.398255992337188e-16,
+        "min_core_singular": 0.9949751079894388,
+        "min_device_singular": 0.26802953889236963,
+        "same_state_qT": {
+          "XX": 0.015659315087387295,
+          "RR": 0.007033805935398622,
+          "XR": 0.019129282001010328,
+          "sum": 0.041822403023796244,
+          "normalized_cross": 0.45739318207339946,
+          "overlap_cosine": 0.9113539946516676
+        },
+        "same_state_qL": {
+          "XX": 0.0006766556914210812,
+          "RR": 0.00017576077251809044,
+          "XR": -0.00014348812685029204,
+          "sum": 0.0007089283370888795,
+          "normalized_cross": -0.20240145490517003,
+          "overlap_cosine": -0.20803725972767756
+        },
+        "decomposition_residual": 2.0816681711721685e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0025957937645788146,
+          "Tline": 0.9912189567768277,
+          "Tbulk": 0.00618524945859295,
+          "TqT": 0.006063314693762458,
+          "TqL": 0.00012193476483049229,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 9.309503074677274e-17,
+          "min_core_singular": 0.99223465498223,
+          "min_device_singular": 0.20846458164315992
+        },
+        "0.5": {
+          "Rq": 0.0007559392514010572,
+          "Tline": 0.979305970005747,
+          "Tbulk": 0.019938090742851758,
+          "TqT": 0.019678258096947752,
+          "TqL": 0.00025983264590400535,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1443916996305594e-16,
+          "min_core_singular": 0.9946984836273183,
+          "min_device_singular": 0.2410043874513319
+        },
+        "1.0": {
+          "Rq": 0.0059522732987466725,
+          "Tline": 0.9515163953403684,
+          "Tbulk": 0.04253133136088515,
+          "TqT": 0.041822403023796265,
+          "TqL": 0.0007089283370888788,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.398255992337188e-16,
+          "min_core_singular": 0.9949751079894388,
+          "min_device_singular": 0.26802953889236963
+        },
+        "R_only": {
+          "Rq": 0.0028180027560738303,
+          "Tline": 0.9921910531111472,
+          "Tbulk": 0.004990944132778726,
+          "TqT": 0.0048200712827467665,
+          "TqL": 0.00017087285003196005,
+          "closure": 3.3306690738754696e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.0007415106216804e-16,
+          "min_core_singular": 0.9928227884442613,
+          "min_device_singular": 0.27012419454032593
+        }
+      },
+      "redressed_full_minus_X": 0.03575908833003381,
+      "alpha_half_minus_zero": 0.013614943403185295,
+      "alpha_one_minus_half": 0.022144144926848512
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "kernel_sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5",
+      "metadata_sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b",
+      "omega": 1.4,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 2.411026746772646e-07,
+      "full": {
+        "Rq": 0.00021204521994898796,
+        "Tline": 0.9031069659908298,
+        "Tbulk": 0.0966809887892213,
+        "TqT": 0.09193296072873755,
+        "TqL": 0.004748028060483751,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.8041124150158794e-16,
+        "min_core_singular": 0.9949751079894388,
+        "min_device_singular": 0.44116612727616006,
+        "same_state_qT": {
+          "XX": 0.04939947450426736,
+          "RR": 0.00742725155503466,
+          "XR": 0.035106234669435535,
+          "sum": 0.09193296072873755,
+          "normalized_cross": 0.38186776963511404,
+          "overlap_cosine": 0.9163872217496422
+        },
+        "same_state_qL": {
+          "XX": 0.005871727337335376,
+          "RR": 0.00022074397038954993,
+          "XR": -0.0013444432472411738,
+          "sum": 0.004748028060483752,
+          "normalized_cross": -0.28315823540103413,
+          "overlap_cosine": -0.5904527008828757
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 4.186606204258216e-05,
+          "Tline": 0.9524503518295963,
+          "Tbulk": 0.04750778210836148,
+          "TqT": 0.04308922087062132,
+          "TqL": 0.0044185612377401545,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.886119947416683e-17,
+          "min_core_singular": 0.99223465498223,
+          "min_device_singular": 0.403205584069938
+        },
+        "0.5": {
+          "Rq": 5.035999334589282e-05,
+          "Tline": 0.9286448625013562,
+          "Tbulk": 0.07130477750529755,
+          "TqT": 0.06663608556300028,
+          "TqL": 0.004668691942297276,
+          "closure": 3.3306690738754696e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.152448122690996e-17,
+          "min_core_singular": 0.9946984836273183,
+          "min_device_singular": 0.42240103991877676
+        },
+        "1.0": {
+          "Rq": 0.00021204521994898796,
+          "Tline": 0.9031069659908298,
+          "Tbulk": 0.0966809887892213,
+          "TqT": 0.09193296072873755,
+          "TqL": 0.004748028060483751,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.8041124150158794e-16,
+          "min_core_singular": 0.9949751079894388,
+          "min_device_singular": 0.44116612727616006
+        },
+        "R_only": {
+          "Rq": 0.00014683672053461777,
+          "Tline": 0.9927580141899109,
+          "Tbulk": 0.007095149089554984,
+          "TqT": 0.00695569799854083,
+          "TqL": 0.0001394510910141541,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1631705747361534e-16,
+          "min_core_singular": 0.9928227884442613,
+          "min_device_singular": 0.4783606532571614
+        }
+      },
+      "redressed_full_minus_X": 0.04884373985811623,
+      "alpha_half_minus_zero": 0.02354686469237896,
+      "alpha_one_minus_half": 0.025296875165737268
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "kernel_sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5",
+      "metadata_sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b",
+      "omega": 1.4,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 2.411026746772646e-07,
+      "full": {
+        "Rq": 0.0022003614313301887,
+        "Tline": 0.8807332243044622,
+        "Tbulk": 0.11706641426420832,
+        "TqT": 0.10829514214483917,
+        "TqL": 0.008771272119369154,
+        "closure": 6.661338147750939e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 9.335326988569947e-17,
+        "min_core_singular": 0.9949751079894388,
+        "min_device_singular": 0.6353355777273617,
+        "same_state_qT": {
+          "XX": 0.07429211994620688,
+          "RR": 0.003873208604621961,
+          "XR": 0.030129813594010298,
+          "sum": 0.10829514214483915,
+          "normalized_cross": 0.2782194380770398,
+          "overlap_cosine": 0.8880954182745734
+        },
+        "same_state_qL": {
+          "XX": 0.010888159627977087,
+          "RR": 0.00035219933242036265,
+          "XR": -0.0024690868410283,
+          "sum": 0.00877127211936915,
+          "normalized_cross": -0.2814970060700708,
+          "overlap_cosine": -0.6304270877904549
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.004359836814625009,
+          "Tline": 0.9100673819760219,
+          "Tbulk": 0.085572781209353,
+          "TqT": 0.07478910746475759,
+          "TqL": 0.010783673744595408,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.300117091939649e-16,
+          "min_core_singular": 0.99223465498223,
+          "min_device_singular": 0.6037843976456474
+        },
+        "0.5": {
+          "Rq": 0.0032063986141659183,
+          "Tline": 0.8955308833845631,
+          "Tbulk": 0.10126271800127089,
+          "TqT": 0.09158120813717707,
+          "TqL": 0.009681509864093813,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1443916996305594e-16,
+          "min_core_singular": 0.9946984836273183,
+          "min_device_singular": 0.620189224036802
+        },
+        "1.0": {
+          "Rq": 0.0022003614313301887,
+          "Tline": 0.8807332243044622,
+          "Tbulk": 0.11706641426420832,
+          "TqT": 0.10829514214483917,
+          "TqL": 0.008771272119369154,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 9.335326988569947e-17,
+          "min_core_singular": 0.9949751079894388,
+          "min_device_singular": 0.6353355777273617
+        },
+        "R_only": {
+          "Rq": 0.0002084790458536167,
+          "Tline": 0.9950688935065075,
+          "Tbulk": 0.004722627447637748,
+          "TqT": 0.004470486695556798,
+          "TqL": 0.00025214075208095,
+          "closure": 1.1102230246251565e-15,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.609091204154493e-17,
+          "min_core_singular": 0.9928227884442613,
+          "min_device_singular": 0.6992690231648573
+        }
+      },
+      "redressed_full_minus_X": 0.03350603468008158,
+      "alpha_half_minus_zero": 0.016792100672419485,
+      "alpha_one_minus_half": 0.016713934007662093
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "kernel_sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5",
+      "metadata_sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b",
+      "omega": 1.4,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 2.411026746772646e-07,
+      "full": {
+        "Rq": 0.0011641002574565363,
+        "Tline": 0.8911937451077755,
+        "Tbulk": 0.10764215463476877,
+        "TqT": 0.09839545934697731,
+        "TqL": 0.009246695287791455,
+        "closure": 6.661338147750939e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 5.419449386414209e-17,
+        "min_core_singular": 0.9949751079894388,
+        "min_device_singular": 0.8263451259642757,
+        "same_state_qT": {
+          "XX": 0.07848465444625968,
+          "RR": 0.0015622664561513273,
+          "XR": 0.018348538444566263,
+          "sum": 0.09839545934697727,
+          "normalized_cross": 0.1864774916072378,
+          "overlap_cosine": 0.8285172428640848
+        },
+        "same_state_qL": {
+          "XX": 0.011091926296703993,
+          "RR": 0.0003011858880731412,
+          "XR": -0.002146416896985681,
+          "sum": 0.009246695287791453,
+          "normalized_cross": -0.23212800142983261,
+          "overlap_cosine": -0.5871692257790345
+        },
+        "decomposition_residual": 4.163336342344337e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0024473352356844075,
+          "Tline": 0.9063110565730723,
+          "Tbulk": 0.09124160819124358,
+          "TqT": 0.07997170443093488,
+          "TqL": 0.011269903760308701,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 6.206335383118183e-17,
+          "min_core_singular": 0.99223465498223,
+          "min_device_singular": 0.8068744422892573
+        },
+        "0.5": {
+          "Rq": 0.0017090943106504598,
+          "Tline": 0.8988508513511023,
+          "Tbulk": 0.09944005433824783,
+          "TqT": 0.0892917544500013,
+          "TqL": 0.010148299888246535,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.441528768080323e-17,
+          "min_core_singular": 0.9946984836273183,
+          "min_device_singular": 0.8167918691851989
+        },
+        "1.0": {
+          "Rq": 0.0011641002574565363,
+          "Tline": 0.8911937451077755,
+          "Tbulk": 0.10764215463476877,
+          "TqT": 0.09839545934697731,
+          "TqL": 0.009246695287791455,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.419449386414209e-17,
+          "min_core_singular": 0.9949751079894388,
+          "min_device_singular": 0.8263451259642757
+        },
+        "R_only": {
+          "Rq": 0.00022309552332505994,
+          "Tline": 0.9975417000139882,
+          "Tbulk": 0.0022352044626850883,
+          "TqT": 0.0019586392081504013,
+          "TqL": 0.0002765652545346869,
+          "closure": 1.5543122344752192e-15,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.2845041577819695e-17,
+          "min_core_singular": 0.9928227884442613,
+          "min_device_singular": 0.9284075549056325
+        }
+      },
+      "redressed_full_minus_X": 0.018423754916042437,
+      "alpha_half_minus_zero": 0.009320050019066425,
+      "alpha_one_minus_half": 0.009103704896976011
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "kernel_sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5",
+      "metadata_sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b",
+      "omega": 1.4,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 2.7755575615628914e-17,
+      "qT_min_eigenvalue": 2.411026746772646e-07,
+      "full": {
+        "Rq": 0.0004569210267936069,
+        "Tline": 0.901983988617679,
+        "Tbulk": 0.0975590903555272,
+        "TqT": 0.08891657250547302,
+        "TqL": 0.008642517850054187,
+        "closure": 1.1102230246251565e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.2609900516398658e-16,
+        "min_core_singular": 0.9949751079894388,
+        "min_device_singular": 0.9193412406976104,
+        "same_state_qT": {
+          "XX": 0.07550630917464088,
+          "RR": 0.0008525812114241272,
+          "XR": 0.012557682119408019,
+          "sum": 0.08891657250547302,
+          "normalized_cross": 0.14122993909414427,
+          "overlap_cosine": 0.7825642241602055
+        },
+        "same_state_qL": {
+          "XX": 0.010079278297339279,
+          "RR": 0.00023095818665982027,
+          "XR": -0.0016677186339449138,
+          "sum": 0.008642517850054184,
+          "normalized_cross": -0.19296675608653305,
+          "overlap_cosine": -0.5465267037456306
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.00031978790179031753,
+          "Tline": 0.9123316933197626,
+          "Tbulk": 0.08734851877844653,
+          "TqT": 0.07708206287810968,
+          "TqL": 0.010266455900336851,
+          "closure": 5.551115123125783e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.886119947416683e-17,
+          "min_core_singular": 0.99223465498223,
+          "min_device_singular": 0.9030507872743397
+        },
+        "0.5": {
+          "Rq": 0.0003876058257877348,
+          "Tline": 0.9071766355312135,
+          "Tbulk": 0.09243575864299923,
+          "TqT": 0.08306753973271402,
+          "TqL": 0.009368218910285202,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.141363680623174e-16,
+          "min_core_singular": 0.9946984836273183,
+          "min_device_singular": 0.9113980506057567
+        },
+        "1.0": {
+          "Rq": 0.0004569210267936069,
+          "Tline": 0.901983988617679,
+          "Tbulk": 0.0975590903555272,
+          "TqT": 0.08891657250547302,
+          "TqL": 0.008642517850054187,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2609900516398658e-16,
+          "min_core_singular": 0.9949751079894388,
+          "min_device_singular": 0.9193412406976104
+        },
+        "R_only": {
+          "Rq": 2.804433854017323e-05,
+          "Tline": 0.99863263589075,
+          "Tbulk": 0.0013393197707100622,
+          "TqT": 0.0011018695970894262,
+          "TqL": 0.000237450173620636,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 3.1031676915590914e-17,
+          "min_core_singular": 0.9928227884442613,
+          "min_device_singular": 1.1303291036027943
+        }
+      },
+      "redressed_full_minus_X": 0.011834509627363349,
+      "alpha_half_minus_zero": 0.005985476854604349,
+      "alpha_one_minus_half": 0.005849032772759
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "kernel_sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140",
+      "metadata_sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a",
+      "omega": 1.6,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 3.0424244049360276e-06,
+      "full": {
+        "Rq": 0.00012298211682066848,
+        "Tline": 0.9182470008005893,
+        "Tbulk": 0.08163001708259031,
+        "TqT": 0.0796893041818219,
+        "TqL": 0.0019407129007684202,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 5.721958498152797e-17,
+        "min_core_singular": 0.9767926830906601,
+        "min_device_singular": 0.4472016731137247,
+        "same_state_qT": {
+          "XX": 0.028879387297577608,
+          "RR": 0.013669956436264438,
+          "XR": 0.03713996044797986,
+          "sum": 0.07968930418182191,
+          "normalized_cross": 0.46605953997590477,
+          "overlap_cosine": 0.9346174566275927
+        },
+        "same_state_qL": {
+          "XX": 0.002350017512708488,
+          "RR": 0.00021827409904167413,
+          "XR": -0.0006275787109817417,
+          "sum": 0.0019407129007684204,
+          "normalized_cross": -0.32337534868411166,
+          "overlap_cosine": -0.43812855141511553
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.00011643444362545815,
+          "Tline": 0.9769337654556196,
+          "Tbulk": 0.022949800100754564,
+          "TqT": 0.02180057040723829,
+          "TqL": 0.001149229693516273,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.355534721610419e-17,
+          "min_core_singular": 0.9757161507779459,
+          "min_device_singular": 0.3965384456817331
+        },
+        "0.5": {
+          "Rq": 7.27327740179347e-07,
+          "Tline": 0.9508014942215111,
+          "Tbulk": 0.04919777845074807,
+          "TqT": 0.04762830820971901,
+          "TqL": 0.0015694702410290636,
+          "closure": 7.771561172376096e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.928593550334434e-17,
+          "min_core_singular": 0.9767409143283442,
+          "min_device_singular": 0.4231406640668753
+        },
+        "1.0": {
+          "Rq": 0.00012298211682066848,
+          "Tline": 0.9182470008005893,
+          "Tbulk": 0.08163001708259031,
+          "TqT": 0.0796893041818219,
+          "TqL": 0.0019407129007684202,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.721958498152797e-17,
+          "min_core_singular": 0.9767926830906601,
+          "min_device_singular": 0.4472016731137247
+        },
+        "R_only": {
+          "Rq": 0.001022301054434328,
+          "Tline": 0.986376156912308,
+          "Tbulk": 0.012601542033257588,
+          "TqT": 0.012417847613397833,
+          "TqL": 0.00018369441985975382,
+          "closure": 1.1102230246251565e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.4152622167509192e-16,
+          "min_core_singular": 0.9903313331192656,
+          "min_device_singular": 0.47077250021418043
+        }
+      },
+      "redressed_full_minus_X": 0.0578887337745836,
+      "alpha_half_minus_zero": 0.025827737802480717,
+      "alpha_one_minus_half": 0.032060995972102886
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "kernel_sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140",
+      "metadata_sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a",
+      "omega": 1.6,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 3.0424244049360276e-06,
+      "full": {
+        "Rq": 0.0002264651988343656,
+        "Tline": 0.8878151210959122,
+        "Tbulk": 0.11195841370525259,
+        "TqT": 0.10499998431554516,
+        "TqL": 0.006958429389707419,
+        "closure": 7.771561172376096e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 1.22614398128331e-16,
+        "min_core_singular": 0.9767926830906601,
+        "min_device_singular": 0.7113319390038871,
+        "same_state_qT": {
+          "XX": 0.05807582000787545,
+          "RR": 0.007793375892366188,
+          "XR": 0.039130788415303534,
+          "sum": 0.10499998431554516,
+          "normalized_cross": 0.3726742310523398,
+          "overlap_cosine": 0.9196617319025058
+        },
+        "same_state_qL": {
+          "XX": 0.008981041576111053,
+          "RR": 0.0004119915112497291,
+          "XR": -0.002434603697653363,
+          "sum": 0.0069584293897074195,
+          "normalized_cross": -0.34987833623123543,
+          "overlap_cosine": -0.6328354425690378
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0001547929229379351,
+          "Tline": 0.9331562081177817,
+          "Tbulk": 0.06668899895928007,
+          "TqT": 0.058097324209229126,
+          "TqL": 0.00859167475005094,
+          "closure": 3.3306690738754696e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.757919228897728e-17,
+          "min_core_singular": 0.9757161507779459,
+          "min_device_singular": 0.670504835925168
+        },
+        "0.5": {
+          "Rq": 0.00020354859099962184,
+          "Tline": 0.9109834884706056,
+          "Tbulk": 0.08881296293839401,
+          "TqT": 0.0811087499811837,
+          "TqL": 0.007704212957210308,
+          "closure": 7.771561172376096e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.1775693440128314e-16,
+          "min_core_singular": 0.9767409143283442,
+          "min_device_singular": 0.6912347153759687
+        },
+        "1.0": {
+          "Rq": 0.0002264651988343656,
+          "Tline": 0.8878151210959122,
+          "Tbulk": 0.11195841370525259,
+          "TqT": 0.10499998431554516,
+          "TqL": 0.006958429389707419,
+          "closure": 7.771561172376096e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.22614398128331e-16,
+          "min_core_singular": 0.9767926830906601,
+          "min_device_singular": 0.7113319390038871
+        },
+        "R_only": {
+          "Rq": 1.8417966089442657e-05,
+          "Tline": 0.9911480791924915,
+          "Tbulk": 0.008833502841418997,
+          "TqT": 0.008523154803390179,
+          "TqL": 0.00031034803802881816,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.575456304969596e-17,
+          "min_core_singular": 0.9903313331192656,
+          "min_device_singular": 0.7477807864484881
+        }
+      },
+      "redressed_full_minus_X": 0.04690266010631604,
+      "alpha_half_minus_zero": 0.02301142577195457,
+      "alpha_one_minus_half": 0.023891234334361466
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "kernel_sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140",
+      "metadata_sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a",
+      "omega": 1.6,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 3.0424244049360276e-06,
+      "full": {
+        "Rq": 0.0019205968306286055,
+        "Tline": 0.8982546836356927,
+        "Tbulk": 0.09982471953367883,
+        "TqT": 0.09127960223707907,
+        "TqL": 0.008545117296599765,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 4.654751537338637e-17,
+        "min_core_singular": 0.9767926830906601,
+        "min_device_singular": 0.9991024009170618,
+        "same_state_qT": {
+          "XX": 0.06385896371418504,
+          "RR": 0.003012265213736793,
+          "XR": 0.024408373309157225,
+          "sum": 0.09127960223707905,
+          "normalized_cross": 0.2674022751080986,
+          "overlap_cosine": 0.8799364431752369
+        },
+        "same_state_qL": {
+          "XX": 0.010798589001896116,
+          "RR": 0.0004459028065844842,
+          "XR": -0.0026993745118808346,
+          "sum": 0.008545117296599767,
+          "normalized_cross": -0.3158967183463891,
+          "overlap_cosine": -0.615077071889748
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0037277317608315473,
+          "Tline": 0.9201759174429419,
+          "Tbulk": 0.07609635079622654,
+          "TqT": 0.06510413111860874,
+          "TqL": 0.010992219677617796,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 6.206335383118183e-17,
+          "min_core_singular": 0.9757161507779459,
+          "min_device_singular": 0.9745814677513259
+        },
+        "0.5": {
+          "Rq": 0.002721904582122782,
+          "Tline": 0.909488855876089,
+          "Tbulk": 0.08778923954178784,
+          "TqT": 0.07817198575836921,
+          "TqL": 0.009617253783418633,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.28583859910259e-17,
+          "min_core_singular": 0.9767409143283442,
+          "min_device_singular": 0.9872382767618414
+        },
+        "1.0": {
+          "Rq": 0.0019205968306286055,
+          "Tline": 0.8982546836356927,
+          "Tbulk": 0.09982471953367883,
+          "TqT": 0.09127960223707907,
+          "TqL": 0.008545117296599765,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.654751537338637e-17,
+          "min_core_singular": 0.9767926830906601,
+          "min_device_singular": 0.9991024009170618
+        },
+        "R_only": {
+          "Rq": 0.0002377679008858287,
+          "Tline": 0.9957736505207014,
+          "Tbulk": 0.003988581578412058,
+          "TqT": 0.003592042001030156,
+          "TqL": 0.0003965395773819025,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 6.455875440461582e-17,
+          "min_core_singular": 0.9903313331192656,
+          "min_device_singular": 1.051185897678922
+        }
+      },
+      "redressed_full_minus_X": 0.026175471118470323,
+      "alpha_half_minus_zero": 0.01306785463976047,
+      "alpha_one_minus_half": 0.013107616478709852
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "kernel_sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140",
+      "metadata_sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a",
+      "omega": 1.6,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 3.0424244049360276e-06,
+      "full": {
+        "Rq": 0.000748108604868151,
+        "Tline": 0.9120872161042782,
+        "Tbulk": 0.08716467529085457,
+        "TqT": 0.07917988470500005,
+        "TqL": 0.007984790585854527,
+        "closure": 8.881784197001252e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 7.152448122690996e-17,
+        "min_core_singular": 0.9767926830906601,
+        "min_device_singular": 1.1542471168192494,
+        "same_state_qT": {
+          "XX": 0.06093828848972804,
+          "RR": 0.0016040794305278668,
+          "XR": 0.016637516784744146,
+          "sum": 0.07917988470500006,
+          "normalized_cross": 0.21012302362816546,
+          "overlap_cosine": 0.8413960131124654
+        },
+        "same_state_qL": {
+          "XX": 0.00987655021675692,
+          "RR": 0.00036800990628430485,
+          "XR": -0.002259769537186699,
+          "sum": 0.007984790585854527,
+          "normalized_cross": -0.2830092427458271,
+          "overlap_cosine": -0.5926547388639698
+        },
+        "decomposition_residual": 1.3877787807814457e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0014496734515111005,
+          "Tline": 0.9264680784438896,
+          "Tbulk": 0.07208224810459979,
+          "TqT": 0.062002204343927524,
+          "TqL": 0.010080043760672258,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.003707553108402e-17,
+          "min_core_singular": 0.9757161507779459,
+          "min_device_singular": 1.133626286496924
+        },
+        "0.5": {
+          "Rq": 0.0010538821709545254,
+          "Tline": 0.9194297965529725,
+          "Tbulk": 0.07951632127607311,
+          "TqT": 0.07061387978266821,
+          "TqL": 0.008902441493404897,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.153297605929378e-16,
+          "min_core_singular": 0.9767409143283442,
+          "min_device_singular": 1.1441049940595154
+        },
+        "1.0": {
+          "Rq": 0.000748108604868151,
+          "Tline": 0.9120872161042782,
+          "Tbulk": 0.08716467529085457,
+          "TqT": 0.07917988470500005,
+          "TqL": 0.007984790585854527,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.152448122690996e-17,
+          "min_core_singular": 0.9767926830906601,
+          "min_device_singular": 1.1542471168192494
+        },
+        "R_only": {
+          "Rq": 0.00010583327382278498,
+          "Tline": 0.9975938729646601,
+          "Tbulk": 0.002300293761517181,
+          "TqT": 0.0019413226240683746,
+          "TqL": 0.00035897113744880654,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.291468873614597e-17,
+          "min_core_singular": 0.9903313331192656,
+          "min_device_singular": 1.2494321258040673
+        }
+      },
+      "redressed_full_minus_X": 0.017177680361072527,
+      "alpha_half_minus_zero": 0.008611675438740689,
+      "alpha_one_minus_half": 0.008566004922331838
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "kernel_sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc",
+      "metadata_sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55",
+      "omega": 1.7,
+      "cq": 1.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.0616784286623321e-05,
+      "full": {
+        "Rq": 0.0011072238072328921,
+        "Tline": 0.9217153547639101,
+        "Tbulk": 0.07717742142885722,
+        "TqT": 0.0761298841965988,
+        "TqL": 0.0010475372322584174,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 8.886119947416683e-17,
+        "min_core_singular": 0.96675352094359,
+        "min_device_singular": 0.42118799848279953,
+        "same_state_qT": {
+          "XX": 0.02108954669651178,
+          "RR": 0.018292755698244505,
+          "XR": 0.03674758180184251,
+          "sum": 0.0761298841965988,
+          "normalized_cross": 0.48269588466659263,
+          "overlap_cosine": 0.9354607712374904
+        },
+        "same_state_qL": {
+          "XX": 0.001203492257253838,
+          "RR": 0.0002340043428389295,
+          "XR": -0.00038995936783435027,
+          "sum": 0.0010475372322584172,
+          "normalized_cross": -0.3722630144549851,
+          "overlap_cosine": -0.36741404424172497
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.00028038390308894205,
+          "Tline": 0.9853083816620939,
+          "Tbulk": 0.014411234434817873,
+          "TqT": 0.014021289835619084,
+          "TqL": 0.00038994459919878903,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.0500451862475692e-16,
+          "min_core_singular": 0.9661705882101564,
+          "min_device_singular": 0.3657984635769755
+        },
+        "0.5": {
+          "Rq": 0.00010878730966496503,
+          "Tline": 0.9589687298663339,
+          "Tbulk": 0.04092248282400197,
+          "TqT": 0.04023912091330501,
+          "TqL": 0.0006833619106969525,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.2276156489239667e-16,
+          "min_core_singular": 0.9668670857663035,
+          "min_device_singular": 0.39670728961460905
+        },
+        "1.0": {
+          "Rq": 0.0011072238072328921,
+          "Tline": 0.9217153547639101,
+          "Tbulk": 0.07717742142885722,
+          "TqT": 0.0761298841965988,
+          "TqL": 0.0010475372322584174,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 8.886119947416683e-17,
+          "min_core_singular": 0.96675352094359,
+          "min_device_singular": 0.42118799848279953
+        },
+        "R_only": {
+          "Rq": 0.0005791182238471829,
+          "Tline": 0.9825774210016994,
+          "Tbulk": 0.016843460774453763,
+          "TqT": 0.016634531330397936,
+          "TqL": 0.00020892944405582597,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.6711069443220836e-16,
+          "min_core_singular": 0.9886720176244469,
+          "min_device_singular": 0.42824555478691373
+        }
+      },
+      "redressed_full_minus_X": 0.06210859436097972,
+      "alpha_half_minus_zero": 0.026217831077685928,
+      "alpha_one_minus_half": 0.03589076328329379
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "kernel_sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc",
+      "metadata_sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55",
+      "omega": 1.7,
+      "cq": 1.3,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.0616784286623321e-05,
+      "full": {
+        "Rq": 6.581930129023541e-05,
+        "Tline": 0.8864295872938696,
+        "Tbulk": 0.11350459340484048,
+        "TqT": 0.10743387504251387,
+        "TqL": 0.0060707183623266115,
+        "closure": 2.220446049250313e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 7.376145397762941e-17,
+        "min_core_singular": 0.96675352094359,
+        "min_device_singular": 0.7401927488993447,
+        "same_state_qT": {
+          "XX": 0.052020751514537424,
+          "RR": 0.010962250456066178,
+          "XR": 0.044450873071910264,
+          "sum": 0.10743387504251387,
+          "normalized_cross": 0.4137509985032199,
+          "overlap_cosine": 0.9307051750478373
+        },
+        "same_state_qL": {
+          "XX": 0.00797420217409247,
+          "RR": 0.00043961699339295816,
+          "XR": -0.0023431008051588154,
+          "sum": 0.006070718362326612,
+          "normalized_cross": -0.3859676343576608,
+          "overlap_cosine": -0.6257201209218599
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 2.9900626426934205e-05,
+          "Tline": 0.940870399654984,
+          "Tbulk": 0.05909969971858912,
+          "TqT": 0.05167806275055264,
+          "TqL": 0.007421636968036482,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 6.938893903907228e-17,
+          "min_core_singular": 0.9661705882101564,
+          "min_device_singular": 0.6973434800426654
+        },
+        "0.5": {
+          "Rq": 2.861858697085539e-05,
+          "Tline": 0.9146117224674051,
+          "Tbulk": 0.08535965894562314,
+          "TqT": 0.07867021215996142,
+          "TqL": 0.006689446785661725,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 6.938893903907228e-17,
+          "min_core_singular": 0.9668670857663035,
+          "min_device_singular": 0.7189011513586443
+        },
+        "1.0": {
+          "Rq": 6.581930129023541e-05,
+          "Tline": 0.8864295872938696,
+          "Tbulk": 0.11350459340484048,
+          "TqT": 0.10743387504251387,
+          "TqL": 0.0060707183623266115,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.376145397762941e-17,
+          "min_core_singular": 0.96675352094359,
+          "min_device_singular": 0.7401927488993447
+        },
+        "R_only": {
+          "Rq": 7.454829002022796e-05,
+          "Tline": 0.987821130954084,
+          "Tbulk": 0.012104320755895811,
+          "TqT": 0.011763666480950664,
+          "TqL": 0.00034065427494514816,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 1.7388818282700985e-16,
+          "min_core_singular": 0.9886720176244469,
+          "min_device_singular": 0.7731634673982491
+        }
+      },
+      "redressed_full_minus_X": 0.05575581229196123,
+      "alpha_half_minus_zero": 0.026992149409408785,
+      "alpha_one_minus_half": 0.028763662882552443
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "kernel_sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc",
+      "metadata_sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55",
+      "omega": 1.7,
+      "cq": 1.7,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.0616784286623321e-05,
+      "full": {
+        "Rq": 0.001395787492683001,
+        "Tline": 0.8996204923258097,
+        "Tbulk": 0.09898372018150653,
+        "TqT": 0.09065637285864844,
+        "TqL": 0.008327347322858083,
+        "closure": 8.881784197001252e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 7.911556306605241e-17,
+        "min_core_singular": 0.96675352094359,
+        "min_device_singular": 1.0479813614559086,
+        "same_state_qT": {
+          "XX": 0.058620260135063745,
+          "RR": 0.004115592921873721,
+          "XR": 0.027920519801710973,
+          "sum": 0.09065637285864844,
+          "normalized_cross": 0.30798187619137035,
+          "overlap_cosine": 0.8987800568067449
+        },
+        "same_state_qL": {
+          "XX": 0.010758468031284265,
+          "RR": 0.0005285049736906446,
+          "XR": -0.0029596256821168257,
+          "sum": 0.008327347322858085,
+          "normalized_cross": -0.3554103806854345,
+          "overlap_cosine": -0.6205932325313196
+        },
+        "decomposition_residual": 0.0
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0027107281127870613,
+          "Tline": 0.926434996663377,
+          "Tbulk": 0.07085427522383543,
+          "TqT": 0.05987659016814157,
+          "TqL": 0.01097768505569386,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.3860300581534765e-17,
+          "min_core_singular": 0.9661705882101564,
+          "min_device_singular": 1.0184227903849945
+        },
+        "0.5": {
+          "Rq": 0.0019876188235286247,
+          "Tline": 0.9134018717069754,
+          "Tbulk": 0.08461050946949555,
+          "TqT": 0.07513261110063311,
+          "TqL": 0.009477898368862432,
+          "closure": 4.440892098500626e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.2207643840401616e-17,
+          "min_core_singular": 0.9668670857663035,
+          "min_device_singular": 1.0336244958857963
+        },
+        "1.0": {
+          "Rq": 0.001395787492683001,
+          "Tline": 0.8996204923258097,
+          "Tbulk": 0.09898372018150653,
+          "TqT": 0.09065637285864844,
+          "TqL": 0.008327347322858083,
+          "closure": 8.881784197001252e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.911556306605241e-17,
+          "min_core_singular": 0.96675352094359,
+          "min_device_singular": 1.0479813614559086
+        },
+        "R_only": {
+          "Rq": 0.0001682786894975892,
+          "Tline": 0.9945519725294657,
+          "Tbulk": 0.005279748781036594,
+          "TqT": 0.004806092603599054,
+          "TqL": 0.00047365617743754017,
+          "closure": 2.220446049250313e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.3643360920182476e-17,
+          "min_core_singular": 0.9886720176244469,
+          "min_device_singular": 1.114418609097126
+        }
+      },
+      "redressed_full_minus_X": 0.030779782690506872,
+      "alpha_half_minus_zero": 0.015256020932491544,
+      "alpha_one_minus_half": 0.015523761758015328
+    },
+    {
+      "kernel": "inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "kernel_sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc",
+      "metadata_sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55",
+      "omega": 1.7,
+      "cq": 2.0,
+      "profile": [
+        0.1,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.1
+      ],
+      "grid": 128,
+      "kernel_spectral_identity_residual": 5.551115123125783e-17,
+      "qT_min_eigenvalue": 1.0616784286623321e-05,
+      "full": {
+        "Rq": 0.0012005829192188154,
+        "Tline": 0.9145971835893661,
+        "Tbulk": 0.08420223349141412,
+        "TqT": 0.07635044172375771,
+        "TqL": 0.007851791767656408,
+        "closure": 9.992007221626409e-16,
+        "hessian_pair_error": 2.220446049250313e-16,
+        "augmented_eta_error": 5.419449386414209e-17,
+        "min_core_singular": 0.96675352094359,
+        "min_device_singular": 1.2669608959297358,
+        "same_state_qT": {
+          "XX": 0.05535549996702846,
+          "RR": 0.002143685606083335,
+          "XR": 0.018851256150645937,
+          "sum": 0.07635044172375774,
+          "normalized_cross": 0.24690434953672374,
+          "overlap_cosine": 0.8652654530526196
+        },
+        "same_state_qL": {
+          "XX": 0.009960826284636643,
+          "RR": 0.0004537266484294616,
+          "XR": -0.0025627611654096974,
+          "sum": 0.007851791767656408,
+          "normalized_cross": -0.3263918913344574,
+          "overlap_cosine": -0.6027445775241304
+        },
+        "decomposition_residual": 2.7755575615628914e-17
+      },
+      "controls": {
+        "0.0": {
+          "Rq": 0.0022129877765548495,
+          "Tline": 0.9313251528003921,
+          "Tbulk": 0.06646185942305308,
+          "TqT": 0.05626345305118344,
+          "TqL": 0.01019840637186964,
+          "closure": 0.0,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 7.473417450352271e-17,
+          "min_core_singular": 0.9661705882101564,
+          "min_device_singular": 1.2442628745089421
+        },
+        "0.5": {
+          "Rq": 0.0016495781966181949,
+          "Tline": 0.9232060445264015,
+          "Tbulk": 0.07514437727697967,
+          "TqT": 0.06627657452860845,
+          "TqL": 0.008867802748371213,
+          "closure": 6.661338147750939e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 4.85722573273506e-17,
+          "min_core_singular": 0.9668670857663035,
+          "min_device_singular": 1.2557377642810357
+        },
+        "1.0": {
+          "Rq": 0.0012005829192188154,
+          "Tline": 0.9145971835893661,
+          "Tbulk": 0.08420223349141412,
+          "TqT": 0.07635044172375771,
+          "TqL": 0.007851791767656408,
+          "closure": 9.992007221626409e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.419449386414209e-17,
+          "min_core_singular": 0.96675352094359,
+          "min_device_singular": 1.2669608959297358
+        },
+        "R_only": {
+          "Rq": 0.00013248009191089955,
+          "Tline": 0.9968932109921872,
+          "Tbulk": 0.002974308915901611,
+          "TqT": 0.002536059314198871,
+          "TqL": 0.00043824960170273943,
+          "closure": 3.3306690738754696e-16,
+          "hessian_pair_error": 2.220446049250313e-16,
+          "augmented_eta_error": 5.96906223549092e-17,
+          "min_core_singular": 0.9886720176244469,
+          "min_device_singular": 1.316716309552178
+        }
+      },
+      "redressed_full_minus_X": 0.020086988672574274,
+      "alpha_half_minus_zero": 0.010013121477425016,
+      "alpha_one_minus_half": 0.010073867195149258
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "same_point_interval": true,
+  "same_box_floor": true,
+  "only_staged_source_adaptation": "kernelinputpathchangedtocopiedbundledNPZ",
+  "scope": "Exactresponsepropagation; upstreamcontourreplaynotrepeated",
+  "point_staged_script_sha256": "bef23cca98e5fafdd5d5bc4ded08a529f800dc466e5bc0185fef316bd31cad21",
+  "box_staged_script_sha256": "dce88db6b788ec1b0341c97debc1db24deb4be80f333f64dc037815638662d60"
+}

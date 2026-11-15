@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-08",
+  "omega": 1.2,
+  "candidate_g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "cases": [
+    [
+      "reference_N96",
+      "omega_001"
+    ],
+    [
+      "reference_N128",
+      "omega_001"
+    ],
+    [
+      "reference_N128_halfshift",
+      "omega_001"
+    ],
+    [
+      "reference_N160",
+      "omega_001"
+    ],
+    [
+      "reference_N192",
+      "omega_000"
+    ]
+  ],
+  "new_tetrahedron_quadratures": 0,
+  "new_candidate_states": 5,
+  "reference_regression_states": 5,
+  "finish": "Bind kernels to metadata/config/source, regress existing reference, then calculate ramp once per kernel.",
+  "producer_modules": {
+    "combined_tetra_diagnostic.py": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "stable_scalar.py": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "centroid_weights.py": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b"
+  }
+}

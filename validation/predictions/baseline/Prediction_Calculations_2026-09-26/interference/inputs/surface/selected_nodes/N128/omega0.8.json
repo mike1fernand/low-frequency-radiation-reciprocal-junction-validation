@@ -1,0 +1,52 @@
+{
+  "schema": "paper1.selected-frequency-kernel.v1",
+  "omega": 0.8,
+  "energy": 0.6400000000000001,
+  "grid": 128,
+  "support_segments": 6,
+  "model_parameters": {
+    "a": 1.0,
+    "m_bulk": 1.0,
+    "m_spine": 1.0,
+    "k_axis": 1.0,
+    "k_diag": 1.0,
+    "k_spine": 1.69,
+    "k_couple": 0.2
+  },
+  "profile": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "kernel_sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533",
+  "kernel_path": "analysis/resolution_execution/surface/selected_nodes/N128/omega0.8.npz",
+  "geometry_record": {
+    "path": "analysis/resolution_execution/surface/results/omega0.8_N128.json",
+    "sha256": "08278bc589b35adf667a2163df81e10dc53ecf0bfb29cd08e386d9e5f4aba525"
+  },
+  "PV_contract": {
+    "path": "analysis/resolution_execution/selected/REFERENCE_KERNEL.json",
+    "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+  },
+  "frequency_binding": {
+    "packet_contract_sha256": "c18cc0c589c9e54acd8fe64c1346c1aee20b62aeb349b7841db7d285ccdf9348",
+    "node_id": "diagnostic_0.8",
+    "roles": [
+      "band_endpoint",
+      "R_only"
+    ]
+  },
+  "coefficient": {
+    "qT": 0.21620270923811719,
+    "qL": 0.02101890687446275,
+    "Tbulk": 0.2372216161125799,
+    "Rq": 0.238738031660515,
+    "Tline": 0.5240403522120246,
+    "amplitude_closure": 1.4880541243655898e-11,
+    "partition_residual": 2.7755575615628914e-17
+  },
+  "producer_sha256": "070a2fcbe841dbb8aac5e8656009c22e2d28801c2ac9cf2add9bced23f5d076d"
+}

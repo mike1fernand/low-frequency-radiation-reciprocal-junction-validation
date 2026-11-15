@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "archived_N32_six_relative_residuals": {
+    "V_leak": 2.170178819273686e-16,
+    "U_leak": 1.9997524858506222e-16,
+    "G_leak": 1.2548045204039984e-16,
+    "G_commutator": 6.681108311925377e-17,
+    "full_reduced_field_max": 4.844960803973112e-16,
+    "effective_self_energy_max": 4.47675168733873e-16
+  },
+  "archived_basis_orthonormality_absolute_Frobenius_error": 2.7194799110210365e-16,
+  "archived_independent_G_match": 1.6311799907932728e-15,
+  "fresh_P04": {
+    "passed_checks": 15,
+    "total_checks": 15,
+    "output_byte_identical_to_original": true,
+    "six_relative_residuals": {
+      "V_leak": 2.170178819273686e-16,
+      "U_leak": 1.9997524858506222e-16,
+      "G_leak": 1.2548045204039984e-16,
+      "G_commutator": 6.681108311925377e-17,
+      "full_reduced_field_max": 4.844960803973112e-16,
+      "effective_self_energy_max": 4.47675168733873e-16
+    },
+    "basis_orthonormality_absolute_Frobenius_error": 2.7194799110210365e-16,
+    "all_seven_strictly_below_archived_display_bound": true
+  }
+}

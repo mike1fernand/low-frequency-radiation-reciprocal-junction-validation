@@ -1,0 +1,20 @@
+{
+  "parent": "pass18-numerical-correction-rc4",
+  "parent_source_sha256": {
+    "paper1_main.tex": "01acf82a2d5d3a01850ae25fdf5f155dc8ebecb3d6f20545f769ae41ab48b214",
+    "paper1_supplement.tex": "66d8fe655b73f168110b3cb803504a8618def7d214ed4a0d50f891f2b1f7e3ac"
+  },
+  "new_candidate": "R4 exact-reference-lattice floor",
+  "bridge_sha256": "41aaa3b2571fabd9c8816177fe30b04a2e6a3fed3c427b4ecfd8b180a2d10315",
+  "patch_sha256": "a11fca08d0a5efa3d511242892794e75c5d942b1f2af6c9af3bda017fb5b6182",
+  "original_recovered_repository_unchanged": true,
+  "candidate_source_sha256": {
+    "paper1_main.tex": "7640b48297430f5c71c6e1f3c8426dff5de71dd0cd9c6feb8399d82696dc5e41",
+    "paper1_supplement.tex": "5c60a7c86a5d4dd73f5435a81dfcc29244a448e77c8afe4f0f7f23bbcac647a5"
+  },
+  "patch_path": "APPLIED_PATCH.diff",
+  "reviewed_proposal_sha256": "a11fca08d0a5efa3d511242892794e75c5d942b1f2af6c9af3bda017fb5b6182",
+  "build_records_sha256": "50ad3da0861918e4e136730e05036883895fb7e613d1191d7ddbc5f1e488524b",
+  "visual_qa_sha256": "9333d11b1a6be243a71cd39d03853cb12da9eec8ed6d264c5589c42a7b7a9846",
+  "status": "applied_after_complete_certificate_pass_and_build_qa_pass"
+}

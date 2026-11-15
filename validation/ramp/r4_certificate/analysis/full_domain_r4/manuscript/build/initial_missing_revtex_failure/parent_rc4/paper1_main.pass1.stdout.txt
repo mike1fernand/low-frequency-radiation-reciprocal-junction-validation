@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper1_main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+
+! LaTeX Error: File `revtex4-2.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+./paper1_main.tex:2: Emergency stop.
+<read *> 
+         
+l.2 \usepackage
+               {amsmath,amssymb,mathtools,bm}^^M
+./paper1_main.tex:2:  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /workspace/scratch/be1617cef594/analysis/full_domain_r4/m
+anuscript/build/parent_rc4/paper1_main.log.

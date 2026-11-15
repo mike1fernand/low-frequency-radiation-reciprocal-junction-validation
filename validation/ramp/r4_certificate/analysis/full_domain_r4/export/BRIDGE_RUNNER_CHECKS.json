@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "manufactured zero-fallback exact budget prerequisites accepted",
+    "unavailable_budget leaves terminal failed status without floor promotion",
+    "unavailable budget rejected before process launch",
+    "nonzero_fallback leaves terminal failed status without floor promotion",
+    "false_budget_boolean leaves terminal failed status without floor promotion",
+    "failed_process leaves terminal failed status without floor promotion",
+    "actual failing subprocess exit code 7 retained",
+    "malformed_success_result leaves terminal failed status without floor promotion",
+    "zero process exit does not override malformed bridge contract"
+  ],
+  "check_count": 9,
+  "successful_scientific_bridge_executed": false,
+  "scope": "Manufactured prerequisites and deliberately unsuccessful subprocess/results; no positive lattice-floor claim."
+}

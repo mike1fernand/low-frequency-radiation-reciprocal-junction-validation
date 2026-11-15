@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "check_count": 26,
+  "checks": [
+    "Complex Hermitian eigenvalues1,3 accepted",
+    "Indefinite eigenvalues-1,3 rejected",
+    "Singular eigenvalues0,2 rejected",
+    "Non-Hermitian positivity input rejected",
+    "Nonnormal nilpotent norm2 bounded; spectral radius0 not used",
+    "Complex sqrt2 diagonal norm bounded exactly",
+    "False floating norm proposal cannot pass exact LDL",
+    "Known Q row-bound0.0046475 passes0.005",
+    "Exact11nonzeroentries and1.69scaling retained",
+    "Known excessive Q sufficient bound rejected",
+    "Complex g requires both real and imaginary uncertainty",
+    "Actual off-template b0 target residual retained",
+    "Physical symmetry reuse counted twice without independence assumption",
+    "Fractional physical multiplicity rejected",
+    "Float endpoints rejected",
+    "gnonuniform all-row constraints close exactly",
+    "Qnonuniform all-row constraints close exactly",
+    "Nonpositive allocation cost rejected",
+    "Full reserve rejected",
+    "Insufficient center reserve not reported as feasible allocation",
+    "gweighted region allocation counts all3physicalcharts",
+    "gcostweighted region density ratio retained",
+    "Qweighted region allocation counts all3physicalcharts",
+    "Qcostweighted region density ratio retained",
+    "Green region component allocation retains both complex components",
+    "Duplicate allocation region rejected"
+  ],
+  "source_sha256": {
+    "budget_ledger.py": "adacd63ac1b5b2e740a434ec7c3ba82eb07f052f8cd023fe18f7584f3105124e",
+    "matrix_budget.py": "d3bda28bda2965106e4f2946f583637c658a202663e4aee19cb60e91a678e7df",
+    "check_budget_ledger.py": "c8b58ac9b9089827e494abc747141f53b3c70b383962fd604bce0f07a0c947de"
+  }
+}

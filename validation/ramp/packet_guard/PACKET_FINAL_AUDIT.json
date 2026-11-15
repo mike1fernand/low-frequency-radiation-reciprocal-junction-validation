@@ -1,0 +1,166 @@
+{
+  "status": "PASS_WITH_EXPLICIT_REPRODUCTION_CONTRACT",
+  "date": "2026-11-08",
+  "scope": "Packet dynamics, frozen controls, spectrum normalization, current cadence authority and additive complete-history resume guard. No new optimization, long dynamics, manuscript edit or extra physics acceptance condition.",
+  "science_findings": [
+    {
+      "topic": "56-to-80 adaptation",
+      "finding": "The 56 box failed the unchanged duration predicate; the 80 box followed those diagnostics. Selection is coefficient-blind, and the accepted 57.4\u201364.2 window was frozen before controls. The whole process was not globally preregistered."
+    },
+    {
+      "topic": "frozen controls",
+      "finding": "Both half-timestep and 96-box controls use the same frozen interval. Existing independent review recomputes all five predicates and all 35-row means; no new defect found."
+    },
+    {
+      "topic": "48 physical springs",
+      "finding": "Six motifs retain eight physical springs each, actual per-link g=(1,2,3,4,5,6)/7. Full-force/current one-step controls and exact y/z reduction were already independently checked; no axial symmetry is introduced."
+    },
+    {
+      "topic": "meaning of qT",
+      "finding": "Time-domain result is the two lower lattice-branch stored energy in a periodic Fourier embedding, divided by the physical initial open-line energy. It is not local flux, exact transversality for all k, an electromagnetic field, or the monochromatic stationary coefficient."
+    },
+    {
+      "topic": "normalization",
+      "prediction_per_initial_open_total_energy": 0.7163064862075107,
+      "periodic_energy_normalized_prediction": 0.7163064796290152,
+      "primary_qT_midpoint": 0.7164564184629316,
+      "larger_box_qT_midpoint": 0.7162667759527709,
+      "finding": "Use the explicitly open-normalized spectral field for direct comparison. The existing FROZEN_CONTROLS_CHECK.json already does so. Tail-only bounds do not bound quadrature or time-domain errors."
+    },
+    {
+      "topic": "cadence authority",
+      "finding": "The corrected secondary endpoint-inclusive cadence fields and current analyzer supersede the old secondary fields in frozen main/half-step JSONs. Primary 0.2-grid means, dynamics and frozen window are unchanged."
+    }
+  ],
+  "reproducibility_findings": [
+    {
+      "topic": "raw history policy",
+      "manifested_raw_file_count": 58,
+      "manifested_raw_bytes": 3162169048,
+      "local_raw_size_check": "PASS for all 58 manifested paths; this pass checks sizes, not a repeat hash of all 3.162 GB.",
+      "included_main_checkpoint_bytes": 9218168,
+      "included_main_checkpoint_sha256": "9bc2744e79274ef57de60949416edce588b8c79e2d8ef24e57cd9046925f69ac",
+      "finding": "One complete continuation state is not a replacement for earlier time histories. Source/configuration/preparation regenerate the raw data; the download must state clearly that the multi-gigabyte histories are excluded. Small preserved H=2 fixtures are bundled separately for guard tests."
+    },
+    {
+      "topic": "resume precondition",
+      "finding": "The frozen C++ engine appends histories without alignment guards. The additive safe_resume.py rejects stale/missing/truncated/misaligned histories, checks complete checkpoint/model binding and endpoint state, freshly compiles pinned source for execution, preserves prior configuration, updates completed targets, and records failures. The archived C++ remains unchanged."
+    },
+    {
+      "topic": "analysis stop cadence",
+      "finding": "An analyzer-ready final target at or after tau48 is required to align with the 0.2 snapshot grid. The additive guard enforces this, preserving the archived analyzer."
+    },
+    {
+      "topic": "review replay",
+      "finding": "Recorded review receipts are immediately readable. Re-executing the modal reviewer requires regenerated raw files and its expected original run basename in a fresh workspace. The physical one-step reviewer needs fresh output directories."
+    },
+    {
+      "topic": "dependencies",
+      "finding": "Full replay is tested in Linux with Python, NumPy providing trapezoid (NumPy>=2), SciPy, and g++ with C++17/OpenMP. run_control.py uses the POSIX resource module. Native raw files are little-endian float64/int32. Cross-platform bitwise identity is not claimed."
+    }
+  ],
+  "required_packet_and_spectrum_files": [
+    {
+      "path": "packet/evolve_candidate.cpp",
+      "bytes": 9296,
+      "sha256": "661925e394cb680600e0b0f98f6019216bff063c71900e917eccb27a22dfc542"
+    },
+    {
+      "path": "packet/run_control.py",
+      "bytes": 1900,
+      "sha256": "acecdd26a1829bfe363fe56c3e564698190f144ea6523e7bbe3de533c2eb3fdd"
+    },
+    {
+      "path": "packet/analyze_candidate.py",
+      "bytes": 8958,
+      "sha256": "6c890abaf312bfafa082b2e99f61075ce9e720f5c6fc7fb98434472f7a800fc8"
+    },
+    {
+      "path": "packet/initial_qv.txt",
+      "bytes": 5581,
+      "sha256": "300b6f9a089f0a6b62fabf61f1b9e4679e238a3f9d9838c80278409440d2d4fd"
+    },
+    {
+      "path": "packet/PREDECLARED_PACKET_CONFIGURATION.json",
+      "bytes": 1844,
+      "sha256": "23e77f550224d81cb4ba5dc6a86deaa2617a634eaa45818ea287851dbe7e2a69"
+    },
+    {
+      "path": "packet/FROZEN_WINDOW.json",
+      "bytes": 534,
+      "sha256": "a24233b2b7fa11fc8691bbaf69b1b205d703f7d81db48198d7b9dfbe8cedf5e8"
+    },
+    {
+      "path": "packet/CURRENT_CADENCE_CHECKS.json",
+      "bytes": 3962,
+      "sha256": "4b309dc22a43b407486aa2bc40cde15d68dcced634267a25749e27b527b9cc00"
+    },
+    {
+      "path": "packet/CADENCE_FIELD_CORRECTION.json",
+      "bytes": 1001,
+      "sha256": "6d08926b494f47a65a59f1d323f5cba27bc078b62691e93d1ec313617d21bfd2"
+    },
+    {
+      "path": "packet/RAW_DATA_MANIFEST.json",
+      "bytes": 10833,
+      "sha256": "4159b37d558fcd099a39758716124eab06cc7a32eba85e4a8a88ba66ee1c9d07"
+    },
+    {
+      "path": "packet/FINAL_SUMMARY.json",
+      "bytes": 8075,
+      "sha256": "bfb2a6659aee95bc74b5ce1c1e64b3ebb160345d2bb7f37f353e404a11486c2a"
+    },
+    {
+      "path": "packet_review/FINAL_PACKET_REVIEW.json",
+      "bytes": 2632,
+      "sha256": "1cb1338ac6dc5355b036211fc8dd11d9b747797f154450540f9bc6236b23d108"
+    },
+    {
+      "path": "packet_review/FROZEN_CONTROLS_CHECK.json",
+      "bytes": 4100,
+      "sha256": "dcb6eed77299a87ecc9b0642a6037a99abdf86ff78954c645d93fd084ec2580b"
+    },
+    {
+      "path": "packet_review/check_physical_step.py",
+      "bytes": 4802,
+      "sha256": "5d9b050ab8c3e2d4412a068348cc54342056ea4157545bd1fb44235a0880f205"
+    },
+    {
+      "path": "packet_review/check_box80_analysis.py",
+      "bytes": 5884,
+      "sha256": "9515e49994703dcf9939b210cc82e6d519430a89b1f4759c90deb9e407e687ef"
+    },
+    {
+      "path": "packet_spectrum/reproduce.py",
+      "bytes": 1731,
+      "sha256": "725fd73b11c7c9a32ad2ee7cc791a138c6557c64ceb6d3a75396be28ce606b78"
+    },
+    {
+      "path": "packet_spectrum/run_packet_spectrum.py",
+      "bytes": 9054,
+      "sha256": "16fbce662d0ad3062a70d8a70ff65e530dc86d7ab545e0341d7029e98b1b80bd"
+    },
+    {
+      "path": "packet_spectrum/INPUT_BINDING.json",
+      "bytes": 60537,
+      "sha256": "8bff941d8074bfdf7cb84ccac47158e6e0f78f7208f40c425687c15906464f18"
+    },
+    {
+      "path": "packet_spectrum/PACKET_SPECTRUM.json",
+      "bytes": 97800,
+      "sha256": "b0180bf8ba75859e916c8d008c55c5f7651f5415923efe1f6f0c8e74f424f812"
+    }
+  ],
+  "additive_guard": {
+    "status": "PASS",
+    "receipt": "SAFE_RESUME_VALIDATION_FINAL.json",
+    "tests": 15,
+    "negative_or_failure_controls": 12,
+    "positive_structural_checks": 2,
+    "physical_steps_added": 1,
+    "physical_step_box_H": 2,
+    "scope": "New one-step guard exercise only. Snapshot fixtures test file layout and are not asserted to be physical trajectories.",
+    "second_source_review": "PASS after correcting target/configuration update, production stop cadence, and failure-log preservation."
+  },
+  "final_check": "No new defect in the bounded packet physics or its saved results was found. Packaging/replay issues are addressed additively. This is not an audit of the entire Paper Three manuscript or all external empirical claims."
+}

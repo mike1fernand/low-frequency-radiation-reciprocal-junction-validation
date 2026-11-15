@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "config_hash": "2fcae49d7790271c24cdcf760d45de53c6be38a5533d93a2fda2f927edd2e85a",
+  "loaded": 0,
+  "created": 32,
+  "required": 32,
+  "request": {
+    "grid": "128",
+    "omega": "[0.8, 0.8034441853748633, 0.8678978340078045, 0.9317566688177807, 0.9949769241492334, 1.0575152719970804, 1.1193288517015672, 1.1803752993228216, 1.240612776674982, 1.2999999999999998, 1.358496268261467, 1.41606149103907, 1.4726562160045653, 1.5282416559604302, 1.5827797154226737, 1.6]",
+    "shift": "(0, 0, 0)",
+    "regulator": "1e-10",
+    "range_cubes": "65536",
+    "cube_chunk": "1024",
+    "max_new_parts": "None",
+    "merge_only": false
+  },
+  "previous_result_is_from_earlier_execution": false,
+  "previous_successful_result_config_hash": null
+}

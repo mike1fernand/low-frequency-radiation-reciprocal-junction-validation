@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "omega": 1.2,
+  "grid": 48,
+  "candidate_g": [
+    0.14285714285714285,
+    0.2857142857142857,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.8571428571428571
+  ],
+  "geometry": {
+    "settings": {
+      "grid": 48,
+      "shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameters": {
+        "a": 1.0,
+        "m_bulk": 1.0,
+        "m_spine": 1.0,
+        "k_axis": 1.0,
+        "k_diag": 1.0,
+        "k_spine": 1.69
+      },
+      "accepted_source_sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818"
+    },
+    "eigenvalues_sha256": "1466561d81cd9089057435333def8b6339c3cb4d0c207c4f2f4d908cee5abf31",
+    "seconds": 0.1128089900012128
+  },
+  "candidate": {
+    "omega": 1.2,
+    "Rq_amplitude": 0.11893290678023184,
+    "Rq_flux": 0.11893290679215052,
+    "Tq": 0.07721376918072606,
+    "Tbulk": 0.8038533240271234,
+    "T_branches": [
+      0.40991015022360167,
+      0.3260010984458626,
+      0.067942075357659
+    ],
+    "TL_modal": 0.067942075357659,
+    "TT_modal": 0.7359112486694643,
+    "TL_projector": 0.06813480707492141,
+    "TT_projector": 0.735718516952202,
+    "branch_longitudinal_powers": [
+      0.00011733861961583364,
+      7.842567018370733e-05,
+      0.06793904278512186
+    ],
+    "branch_transverse_powers": [
+      0.40979281160398584,
+      0.3259226727756789,
+      3.0325725371427303e-06
+    ],
+    "branch_longitudinal_fractions": [
+      0.00028625448662792725,
+      0.0002405687298527035,
+      0.999955365323753
+    ],
+    "closure_amplitude": 1.1918688258560906e-11,
+    "closure_flux": 0.0,
+    "component_closure_modal": 1.1102230246251565e-16,
+    "component_closure_projector": 0.0,
+    "min_gamma_bulk_eigenvalue": 8.794051890513446e-06,
+    "reciprocity_matrix_residual": 1.9700528571443822e-16
+  },
+  "reference_control_same_fresh_kernel": {
+    "omega": 1.2,
+    "Rq_amplitude": 0.0035795466524947707,
+    "Rq_flux": 0.0035795466654512387,
+    "Tq": 0.8602523583827743,
+    "Tbulk": 0.1361680949517745,
+    "T_branches": [
+      0.06066859135880884,
+      0.06461475672411397,
+      0.010884746868851767
+    ],
+    "TL_modal": 0.010884746868851767,
+    "TT_modal": 0.1252833480829228,
+    "TL_projector": 0.010911748375336136,
+    "TT_projector": 0.12525634657643836,
+    "branch_longitudinal_powers": [
+      1.7245246596324166e-05,
+      1.0283657635204475e-05,
+      0.010884219471104607
+    ],
+    "branch_transverse_powers": [
+      0.06065134611221251,
+      0.06460447306647876,
+      5.273977471600272e-07
+    ],
+    "branch_longitudinal_fractions": [
+      0.00028425328839978457,
+      0.00015915339090592993,
+      0.99995154708203
+    ],
+    "closure_amplitude": 1.295641371967804e-11,
+    "closure_flux": 0.0,
+    "component_closure_modal": 5.551115123125783e-17,
+    "component_closure_projector": 0.0,
+    "min_gamma_bulk_eigenvalue": 7.693907126719663e-07,
+    "reciprocity_matrix_residual": 3.1365228088525213e-16
+  },
+  "kernel_diagnostics": {
+    "seconds": 6.092208575999393,
+    "minimum_scalar_imaginary": 1.5018620119209484e-13,
+    "range_count": 2,
+    "negative_scalar_count": 0,
+    "spectral_min_eigenvalue": 1.3421350802980418e-07,
+    "branch_min_eigenvalues": [
+      3.950190255259241e-09,
+      5.16848577628758e-09,
+      7.113354669616513e-11
+    ],
+    "geometric_long_min_eigenvalue": 1.451425063032493e-09,
+    "geometric_transverse_min_eigenvalue": 1.629920514379265e-08,
+    "reciprocity_residual_constructed": 0.0
+  },
+  "fresh_quadrature_seconds": 6.211905559001025,
+  "kernel_sha256": "0f93d9eae65518b76b6bab9cc9f763d14064de58e253eacee267863ab19f8311",
+  "state_sha256": "c9a82c72aec56d1c1c66b8cb102123052fb1eb2ff255dbf029eed49d92c5d8e8",
+  "source_hashes": {
+    "analysis/resolution_execution/tetra/multifrequency_tetra.py": "e154e9990056d39eb6602daa3c75fa821baeb655aafdf856ff21a0bc903bbb93",
+    "analysis/math_resolution/tetra/combined_tetra_diagnostic.py": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818",
+    "analysis/math_resolution/tetra/stable_scalar.py": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996",
+    "analysis/math_resolution/tetra/centroid_weights.py": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b"
+  },
+  "original_sources_unchanged": true,
+  "scope": "Fresh independent corrected tetrahedron integration; one fixed point, no search or rigorous error enclosure."
+}

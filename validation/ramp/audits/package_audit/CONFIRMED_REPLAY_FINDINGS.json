@@ -1,0 +1,36 @@
+{
+  "status": "CONFIRMED_DOCUMENTATION_AND_VERIFIER_FINDINGS",
+  "scope": "Temporary adverse fixtures only; original scientific files untouched. These are packaging/replay findings, not a refutation of the numerical or mathematical result.",
+  "checks": [
+    {
+      "case": "manifest_omits_readme_but_payload_present",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 396,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject"
+    },
+    {
+      "case": "python_optimization_disables_hash_assertions",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 397,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject altered payload even with -O"
+    },
+    {
+      "case": "untracked_extra_payload",
+      "returncode": 0,
+      "old_verifier_accepts": true,
+      "stdout": "{\n  \"status\": \"PASS_SAVED_BYTES_AND_PROOF_BINDINGS\",\n  \"payloads\": 397,\n  \"proof_chain_bindings\": 19,\n  \"full_baseline_source_present\": false,\n  \"reexecution_note\": \"Run the separately documented response and full-baseline verifiers for independent proof re-execution.\"\n}\n",
+      "expected_strict_result": "reject or explicitly report extra payload"
+    },
+    {
+      "case": "readme_expected_ledger_relative_path",
+      "supplied": "r4_certificate/analysis/full_domain_r4/budget/FINAL_CAMPAIGN_LEDGER.json",
+      "verifier_resolves_to": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/r4_certificate/r4_certificate/analysis/full_domain_r4/budget/FINAL_CAMPAIGN_LEDGER.json",
+      "resolved_exists": false,
+      "correct_package_relative": "analysis/full_domain_r4/budget/FINAL_CAMPAIGN_LEDGER.json",
+      "correct_exists": true
+    }
+  ],
+  "source_verifier_sha256": "3af34a26518fd68f6c4a9b45dc4d08b61a8801708d7cde40473d7a85bcc89940"
+}

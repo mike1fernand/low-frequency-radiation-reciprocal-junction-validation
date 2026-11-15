@@ -1,0 +1,67 @@
+{
+  "omega": 0.8034441853748633,
+  "grid": 160,
+  "shift": [
+    0,
+    0,
+    0
+  ],
+  "regulator": 1e-10,
+  "diagnostics": {
+    "seconds": 1705.986711895997,
+    "minimum_scalar_imaginary": 1.293276421472591e-13,
+    "centroid_clusters": {
+      "(0, 1)": 0,
+      "(1, 2)": 0,
+      "(0, 1, 2)": 0
+    },
+    "range_count": 63,
+    "spectral_min_eigenvalue": 6.012692413308897e-10,
+    "branch_min_eigenvalues": [
+      4.92031757730692e-12,
+      8.316605685703101e-12,
+      9.361646147272528e-13
+    ],
+    "geometric_long_min_eigenvalue": 3.0168698605822393e-12,
+    "geometric_transverse_min_eigenvalue": 2.2456933325409043e-11,
+    "reciprocity_residual_constructed": 0.0
+  },
+  "scattering": {
+    "omega": 0.8034441853748633,
+    "Rq_amplitude": 0.23133961332357242,
+    "Rq_flux": 0.2313396133384665,
+    "Tq": 0.531116025303525,
+    "Tbulk": 0.23754436135800852,
+    "T_branches": [
+      0.11427590169201547,
+      0.10222096044360557,
+      0.02104749922238752
+    ],
+    "TL_modal": 0.02104749922238752,
+    "TT_modal": 0.21649686213562103,
+    "TL_projector": 0.021056661394004257,
+    "TT_projector": 0.21648769996400427,
+    "branch_longitudinal_powers": [
+      5.525004237661228e-06,
+      3.816735497074822e-06,
+      0.02104731965426952
+    ],
+    "branch_transverse_powers": [
+      0.11427037668777781,
+      0.1022171437081085,
+      1.7956811800001748e-07
+    ],
+    "branch_longitudinal_fractions": [
+      4.834793824293459e-05,
+      3.73380907449063e-05,
+      0.9999914684345108
+    ],
+    "closure_amplitude": 1.4894085964556325e-11,
+    "closure_flux": 0.0,
+    "component_closure_modal": 2.7755575615628914e-17,
+    "component_closure_projector": 0.0,
+    "min_gamma_bulk_eigenvalue": 4.073034744012185e-08,
+    "reciprocity_matrix_residual": 3.0464792440431127e-16
+  },
+  "kernel_sha256": "edc3a82fb7cb3c30ee4e5c5c8d8ae45b7b0a7cc9f83cc239a5ab85d7376aeff6"
+}

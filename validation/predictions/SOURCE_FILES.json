@@ -1,0 +1,1869 @@
+{
+  "archive_sha256": {
+    "Prediction_Calculations_2026-09-26.zip": "5a0f9fd7259be6a899fd904253fda62b60ea973f9c79a5e7799316d801bb9629",
+    "Paper1_Unresolved_Items_Checks_2026-09-28.zip": "20b876c2b937d5f23e9ea8f0154a3488b9e9cce451079d449bbdbaef2d1045c4",
+    "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip": "207061870761b0cdcef729331a644c58736b8d4d6c47458de08537dd9e3bf4bd"
+  },
+  "files": {
+    "angular_audit/COLLECTION_TRADEOFFS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/angular_audit/COLLECTION_TRADEOFFS.json",
+      "sha256": "b1b7b1322b7aac3bed16f52f34e1ae7f4b138103533cdf9989398ab6ade0b9ce"
+    },
+    "angular_audit/INDEPENDENT_ANGULAR_CHECK.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/angular_audit/INDEPENDENT_ANGULAR_CHECK.json",
+      "sha256": "4f80110a6e13a233b4c226dd9537925df5191ae7b2d750f8528ca037e0210e61"
+    },
+    "angular_audit/check_angular_independent.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/angular_audit/check_angular_independent.py",
+      "sha256": "77d28558553990305999cc88a5e982e6c7302e0e782ac237dee494b18ff13a35"
+    },
+    "angular_audit/collection_tradeoffs.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/angular_audit/collection_tradeoffs.csv",
+      "sha256": "ba0791289b9c3edc91e4cfa921d9287107a6222f99fa70d1e77c4c5d8051c499"
+    },
+    "angular_audit/make_tradeoffs.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/angular_audit/make_tradeoffs.py",
+      "sha256": "65600e436828bced983457b9d07244db6ab9142b28d8836b9c1f3d5482f1c5d0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/PROOF_AND_METHOD.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/PROOF_AND_METHOD.md",
+      "sha256": "c47251843cfe5f4d446f6a37a970aefe6c5c53e2e84ee499f9b422686178b9e5"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/SELECTION_CHECKS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/SELECTION_CHECKS.json",
+      "sha256": "403178ddff681ea957f13eb2e9cc8a2aa2869cca7cc56be75443dba1af4ca58c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/SUMMARY.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/SUMMARY.json",
+      "sha256": "0e0229ee6dfbd4267936edc5d3d59a741edd49af8096e27921131c51766084b1"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/angular_collection.png": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/angular_collection.png",
+      "sha256": "eca9a216722f5bb41573a90e7279b639dd295dc0bccb8a6ff71299bd42c4e6e1"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/angular_collection_render.png": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/angular_collection_render.png",
+      "sha256": "5e0b892cc4ac682661d12ebed3b19f0f8b4e9ac97084bfcf276bee3f8228cd6c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/check_selection.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/check_selection.py",
+      "sha256": "daaf19466efb43bfff24aeb349dabff9677ccf6cfdd3380e604f496bd1347414"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/cone_results.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/cone_results.csv",
+      "sha256": "89745f8626e4cf7921f8c13e6512bd5411c5673dc9764e086d79e1b3b9117a8d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/core.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/core.py",
+      "sha256": "59161aabdb5ff6d1422bf190f0c7e0d4fd10f882a4b935a15078d056245a07ce"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/MANUSCRIPT_BINDING.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/MANUSCRIPT_BINDING.json",
+      "sha256": "603c5d0fc20267ba5a0754f034a99b1717dbb6a4992857b78d712fe4791c7788"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL.json",
+      "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL.npz",
+      "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL_N160_SAME_PV.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_KERNEL_N160_SAME_PV.npz",
+      "sha256": "6ed7a3b25dda7386fd0bcad096151fb889321e24126473c5540dbf3ac737c3a2"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_RADIAL_CENSUS.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/REFERENCE_RADIAL_CENSUS.md",
+      "sha256": "9abce3f655b7a90bef748dcdc5024a82c92bc361a05fbf7e17e63cbe6327f8aa"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/omega1.2_N160.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/omega1.2_N160.json",
+      "sha256": "0749ea840b12d1fc708928e9a19d196c01cf7d7c269ebdfd786cbf77f0078bb3"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/inputs/omega1.2_N160.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/inputs/omega1.2_N160.npz",
+      "sha256": "fa84dbec9338c9183c568a734e6672e317dd12c3805e8cfb03d9ed837f1b321b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/integral_coarse.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integral_coarse.json",
+      "sha256": "cc78e78d697e6db7ae3cd9629244bcf3d41b2f76d8337023cdd5c74b3af0c5bc"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/integral_fine.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integral_fine.json",
+      "sha256": "55b3f7f7494751c59787103b20fcce861bbd889945aa1544fa9db1e20c90dd52"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/integral_medium.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integral_medium.json",
+      "sha256": "dcf842b95d60eac8ebf99df9c5df129602a9f37a4159619e3c73575075018d91"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/integral_source_N160.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integral_source_N160.json",
+      "sha256": "dc4aaf16ea9b99863b7d2ced602c7cf111bb69619faa5d78c5ae0772916b72f2"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/integrate.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/integrate.py",
+      "sha256": "b05437bcbb18d9f5628f6241ac7af7438f74aa1ec18b556a20debb1446f86006"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/pilot.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/pilot.json",
+      "sha256": "10602b7d3d9990f4c124d5b107f577af27eee8dc7554c356fe79e9b50388214f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/pilot.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/pilot.py",
+      "sha256": "dbfbe10e54112bac74d8e9a6bd48efdcc96485ed77bf3fe2af90371dc748514b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/requirements.txt": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/requirements.txt",
+      "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/run_all.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/run_all.py",
+      "sha256": "4a46f0197f8803e082e1c6e096d5980a8fdec8741288f7105b61cfff09c94523"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/sensitivity.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/sensitivity.py",
+      "sha256": "f117e1c1d3d6cdcd9ec35e4d6baf5df15bab9c2e719936c8a7007499aae97ef4"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/angular/summarize.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/angular/summarize.py",
+      "sha256": "cf57d6e5ef37067c1e86efb2c668c4e9ac21e2b9865e55adb094cd97fff51bb7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/AUDIT_CHECKS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/AUDIT_CHECKS.json",
+      "sha256": "5fd58ebf138819d6efbe30a5e57f6cf9a03296e00cf0ea97fc4fbba8ad43c30e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/FINAL_SCREEN.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/FINAL_SCREEN.csv",
+      "sha256": "d85862a91742b6f09f25cc082328607e4d93220f792980c245d53dcee2b4a07a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/FINAL_SCREEN.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/FINAL_SCREEN.json",
+      "sha256": "4b5da237ca9fe53908e41012d69c99811575c40e7b95218cab49f0379ae3398a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/INPUTS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/INPUTS.json",
+      "sha256": "ab40676be1eb2d457ad6f97b14423f87751b049d0bc016676f88f69df4cecca7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/PROTOCOL.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/PROTOCOL.md",
+      "sha256": "e4865a132787041e97bf144516a1359ad3d37247d0e6a122d0db5261a77d4445"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/SUMMARY.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/SUMMARY.json",
+      "sha256": "5a277669ef51bef6b50070def157bee18d218680888ec31766ba30b129e4db89"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/finalize_screen.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/finalize_screen.py",
+      "sha256": "e9b4cc11c4bc7d25f3ad93bb81e8e07875bd0d5a39f3d82f3adf984caf230515"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N128.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N128.json",
+      "sha256": "bcb4c487df5c3a6c762eb86a12e4bf8e24e7795623d70def73ca6be6670fbd7e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N128.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N128.npz",
+      "sha256": "afbc7725f65e871a9e3d02203b543310d8ea95bdc3d7961d13acd0661fcf71aa"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N96.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N96.json",
+      "sha256": "32cdf8dd052bd57640c44001d215fd372421070672ca27c39625bf56dcd28049"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N96.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p112500_N96.npz",
+      "sha256": "c1564b75726a1bf7bc0b0c3ddab7f024141f7620b86cf14ea6df84b9eb395802"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N128.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N128.json",
+      "sha256": "177405412700195245c8c7aa083a492fba3d7b60516ac8222d3d93400db04eeb"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N128.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N128.npz",
+      "sha256": "2897ffc41a81534917547af74f3f4afa9336ac12851c9c1b042c3589b93108b4"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N96.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N96.json",
+      "sha256": "52d14ac0bbd296178a193f64613292efa47f3e40299f1c40ab23f7d8f97428b5"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N96.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p237500_N96.npz",
+      "sha256": "5d113735e7290998b03a30682c900a75c69b182ec37937be3ae97a2d61d3462c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p300000_N128.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p300000_N128.json",
+      "sha256": "463c04feac01e7efc2d238647f676b676bc8e8b88172e808b4e317cc8c104eed"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p300000_N128.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/fresh/omega1p300000_N128.npz",
+      "sha256": "72c4e9e121a0b425b0bd1652308402a8c0484135ec03a3b2ffc7cfafb3624685"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/histogram_0.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/histogram_0.npz",
+      "sha256": "ac26a88b87e98a0155999711b853e9a386126ac192000c60a9cb2d2c1d3a6de7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/histogram_1.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/histogram_1.npz",
+      "sha256": "55b3de1c81acf11e1f60ce95bb9bd227b46e7d9702ceb829c92c667b1516efc6"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.100000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.100000_N80.npz",
+      "sha256": "68aad946a6da38f87a5da38105a2dc0229e65438dbb7acfc3f18033ab2b08b80"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.125000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.125000_N80.npz",
+      "sha256": "fd11d9c38b593c7f034a3c405f4c30871dc0d0af28e8d663922546ed5748bb96"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.150000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.150000_N80.npz",
+      "sha256": "36a0cf6c29319c56c3f2b97fe407b06f3dbcd8c5339030f8ca06788ab090e61a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.175000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.175000_N80.npz",
+      "sha256": "3e44df54d9bd9e1a7cf73309c36bf279f7b410e6ec0d677c100b36fee18b9366"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.200000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.200000_N80.npz",
+      "sha256": "dc3f5b1b04ae5354f43ad154eb7b6fcf2d9968ee6c22e7685515745022ebc18f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.225000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.225000_N80.npz",
+      "sha256": "005f49c877841767a8545d98a0a099d61d74ac6fe432d1e6cfa3c1959bcbfe21"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.250000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.250000_N80.npz",
+      "sha256": "12484bc0bc371ad4e10ef0ddd2b02adb10f54aa4d694515ade51233eb88ddd5a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.275000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.275000_N80.npz",
+      "sha256": "423ca42c87263e24c23d5bd1f08affc12f3bce345d8e001ec3df51fbd0de8d01"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.300000_N80.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/inputs/shell_1.300000_N80.npz",
+      "sha256": "86f863f5ff7fbff7890e17c2386a412a95d31cd85c24874ca1df387e0f2fec1c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/new_shell.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/new_shell.py",
+      "sha256": "ee88a8151fd7cbdcf7e5a7c542106a99753844aab6e812a6d11250a5b0465b1a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/screen.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/screen.py",
+      "sha256": "22f587e234e2b4be60d67420faf3d4827b1a8a448c930e51bd7be477ecc53569"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/screen_expanded.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/screen_expanded.json",
+      "sha256": "f77890ccf6fe62f87c7f0ecc8f7e465362c31195bab8da27837ed1965272dd81"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/screen_pilot.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/screen_pilot.json",
+      "sha256": "a16f7c2ba86a294d5cc6e29f799c1fa6373489ac3597321b9fa5c38ccf84a7e0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/src/model_api_v1_1.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/src/model_api_v1_1.py",
+      "sha256": "aa4128940dc7d39682af53c87cf04ae2532de4af880d25393ef4a4fe0b067980"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/src/on_shell_basis.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/src/on_shell_basis.py",
+      "sha256": "dc33f48c5f461bdc937e0485fbd4cd3dd7b71a75427cec540fc1771fd636f65a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/src/reduced_core.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/src/reduced_core.py",
+      "sha256": "0c6967e11c84d6c2fffeadc250c9d02f39374f30b1eade90d30660aa7144ed57"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/src/spectral_histogram.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/src/spectral_histogram.py",
+      "sha256": "8db2333b06c3a15c445234c9d608c8ee8c5363135bf5f826bb370ea68321a738"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/CONFIG.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/CONFIG.json",
+      "sha256": "2f5f9e40886a7cd3a231bfd152ace57b9862bd0fa4be1bd2ca4a876cba4fc61a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/LAST_EXECUTION.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/LAST_EXECUTION.json",
+      "sha256": "629fb06278c4d7c327e420ac09b5051e55a5161e25dfe0f76d08915937f17b3d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/RESULT.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/RESULT.json",
+      "sha256": "274cbdbd7f4f04b0dbf11a621c83f0e648bc5867b8b9b0234614b4ccde603556"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_000.json",
+      "sha256": "564dc02944212a1c28b1f57f0abb912e63ed647d9cac31a36e0a0f006e806791"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_000.npz",
+      "sha256": "2ddad148e15c2f895900854612efe8de52aa457790e5597eedc24dea88ad0fe7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_001.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_001.json",
+      "sha256": "65e90eb94b937fcb864d0683460dd3836e4326e4077d38e84a70b7f7632b0bf7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_001.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_001.npz",
+      "sha256": "e9b9c0c6a0237c602d59acc44b10a09d76b7b09a20b8dfa2a220b7d7a3020955"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_002.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_002.json",
+      "sha256": "e5c3643b14da9d601eab970e73b12d8122f4626133e4bc3d0226b54581171a53"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_002.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/omega_002.npz",
+      "sha256": "fa9f6ba5a550fd75e77862d13b91f2fab050525d26f98cad59848cae0ca22204"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000000000_000065536.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000000000_000065536.json",
+      "sha256": "f0f5df790329a20d2396724056c0fa2676ead9d84062d29fd4254dfd6b358d8f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000000000_000065536.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000000000_000065536.npz",
+      "sha256": "67a55176d22b8743743436218ee0b9288d0c0e77aaef7307e2d7e39aec4d7400"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000065536_000131072.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000065536_000131072.json",
+      "sha256": "aed23a3ec910a780aa5047e03251fc4693292b76392ea0be5891e1d1f88b749e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000065536_000131072.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000065536_000131072.npz",
+      "sha256": "3ef67760673e1f8b9b4d309a26cb464754485662eb918dcad2636c3e79da39c6"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000131072_000196608.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000131072_000196608.json",
+      "sha256": "23178e237c7bae90bc32e86f7d9ba6072823724cab7e15676e8a38634c6831ad"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000131072_000196608.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000131072_000196608.npz",
+      "sha256": "dee7d1bcee2c9b3752c3017856de04093c66f1b7eb4035df48ed969768264099"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000196608_000262144.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000196608_000262144.json",
+      "sha256": "eb05404f539d6ccbd909d89fa38eefa4bdf5b78f191d5b85607a6ef2bec3bd7f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000196608_000262144.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_N64/part_000196608_000262144.npz",
+      "sha256": "82f2c16a8d140f11bfac3737f98f42199d2545210155a6d828e723725df2ea91"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/PROVENANCE.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/PROVENANCE.json",
+      "sha256": "dd4ee04bd64a1620b02bad7919054287de903feaa155b6d5253b08989538d10e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/campaign.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/campaign.py",
+      "sha256": "8eca8e2711e63702203fdcf6c3bfeb78cb3a33bc11157c4c5b08b2dc772409bc"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/centroid_weights.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/centroid_weights.py",
+      "sha256": "5970fb8dd98b31bd0d1b5b8b944b2f509ad89c26669d88eec0cd7dfef2097b1b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/combined_tetra_diagnostic.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/combined_tetra_diagnostic.py",
+      "sha256": "a04f1469250ce240c8802d1e788aec8a5c2f2c76c47438a88b02cb6b0d9c4818"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/multifrequency_tetra.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/multifrequency_tetra.py",
+      "sha256": "94234e97ccddabca58367fb2e2998b576390c54de80c779047b329b7c5720f60"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/stable_scalar.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/bandwidth/tetra_src/stable_scalar.py",
+      "sha256": "02225a47a57ac835200599e85189ee87fa8abeec8985f4137db6a67a3283b996"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/FINAL_STATUS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/FINAL_STATUS.json",
+      "sha256": "0a74543dea1ab0b4db13c5be2fda477ba06c9dfb47cfbe40c8f0776a79a4ab99"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/INPUT_BINDINGS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/INPUT_BINDINGS.json",
+      "sha256": "3ba4c8476d739f11c5c219be596ff7ca4391e7e47ec29c7bc8c6175d23bee874"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/MAIN_SOURCE_BINDING.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/MAIN_SOURCE_BINDING.json",
+      "sha256": "95b47c4fd8762a9fa1dad36b6c37eee94337033e480814076dc236980c042256"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/confirm_candidates.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/confirm_candidates.py",
+      "sha256": "43b5b28a9f5553074f74292068a424ca5132be4249eb2fa2990e6adce8a5a2da"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/confirmation.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/confirmation.csv",
+      "sha256": "04dde6114d14f7ca912e417ba318f06048ddfef2f36c9bc261fdd032f1b8caab"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/confirmation.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/confirmation.json",
+      "sha256": "4431c7519e9a665dd71713bac4249affda271af886aba62765148d8f0da0035d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/confirmation.stdout.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/confirmation.stdout.json",
+      "sha256": "0c5d56735912c8e8c6ff079b1b56360d4b54e857120b780a7428a53aa9af6b63"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/extended.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/extended.csv",
+      "sha256": "a89c48443dbc0c08553665c218b31f98933da92d15a83b59ec0511772aac7806"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/extended.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/extended.json",
+      "sha256": "30107a44341f5dc95e269ff71750d3ab6a5047fd345afc23a3076664aafeef19"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/extended.stdout.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/extended.stdout.json",
+      "sha256": "2c53e3e38b6842903b5fef677b3d7afb3f9a514060e786fec88e1a9d89eb14f4"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/selected/REFERENCE_KERNEL.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/selected/REFERENCE_KERNEL.json",
+      "sha256": "842dd9818e36442bfd7c1aa45921aa038578a5e0acbd9bc181d1b063bdb56822"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/selected/REFERENCE_KERNEL.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/selected/REFERENCE_KERNEL.npz",
+      "sha256": "82777dacc866367cc2a4ffcb9b5430698afdcf577984a10186a48ab61f28c52b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega0.8.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega0.8.json",
+      "sha256": "c1d7777c0b5ce29fd483911fbd6ae79c954806db07e4ba140b823a9a3ce885d8"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega0.8.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega0.8.npz",
+      "sha256": "4295c9cf92718deda0df3e7f8741df0255f27a26dfd246b23f0bef675225c533"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.4.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.4.json",
+      "sha256": "649026117082c6e382fe4fdcdb37a5b2f063ecacc8363f0bf240d85531f1cf5b"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.4.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.4.npz",
+      "sha256": "888c627df31723c403895abfb58600ac27a97d18dd6252e32409174b75e95ba5"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.6.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.6.json",
+      "sha256": "60cbe2c9cf6ff405a681535fd8d75a9736eb65d2c0acc02d237791bd56f43f7a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.6.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.6.npz",
+      "sha256": "e23f2fb7b1dff89ce76ed5bcef5d5c3edd36ba649c3495f50dfb2fc7ae6d6140"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.7.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.7.json",
+      "sha256": "50da09e705d84fe362bfa13acd1cf43d2039c8ac8d10be1eadf1b2039ef03e55"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.7.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N128/omega1.7.npz",
+      "sha256": "bbe960ee57814c18af0a39061ae37aa973175fa3e541b3b32484b12b4770b3fc"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega0.8.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega0.8.json",
+      "sha256": "87338d09b2be48505457e93e5b0f15efba118ca271ca74a96d6e8492d4c66cb9"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega0.8.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega0.8.npz",
+      "sha256": "c49c3d5b5cc25d95c47c21f9c35c78659652db9ae5cb23988af77b7bd2b5e03e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega1.6.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega1.6.json",
+      "sha256": "d6171b15b932a312a14652a76d72306c3d04206d0ec62594e1691d9d83e57a24"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega1.6.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N160/omega1.6.npz",
+      "sha256": "de375df61802e4a581e60bf6275eaf449bf32c46857cb670146919e7c9ed9cd2"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N192/omega1.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N192/omega1.json",
+      "sha256": "a4676b63a1cfc90791b4391e7e2a25aa16a520aab938d7c69eb6889bec32da91"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N192/omega1.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/surface/selected_nodes/N192/omega1.npz",
+      "sha256": "917417b1857eb4890cd662932f2c45654210aa27e69c516a6b32b4be380ad1b0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N128/omega_000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N128/omega_000.json",
+      "sha256": "df17313686e46d94606be0d1e90ae59be293abe2f6f91d331aa3de9ac26fea56"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N128/omega_000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N128/omega_000.npz",
+      "sha256": "89c8e1777c2f70b33dbf8f1bd67dca1386664fc9f6cad30b7ac77e06564be520"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N96/omega_000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N96/omega_000.json",
+      "sha256": "6719280fde4ac9aac21a88fcfb8d38cc1f117ff558fac1e00315d0620ba679d0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N96/omega_000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/packet_N96/omega_000.npz",
+      "sha256": "324b99bfd13d5d059d259d321d65a34ad37f6dba6af13ffdd454f253964f9700"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/reference_N192/omega_000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/reference_N192/omega_000.json",
+      "sha256": "a1bef0849ead8eb6832064af31267445c20326170add1df6ca46aed0d9b00776"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/reference_N192/omega_000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/inputs/tetra/reference_N192/omega_000.npz",
+      "sha256": "609c5990149bfe8f5975571897d3b069c94661b7d23955e2fd513e4dea18c4ef"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/interference_screen.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/interference_screen.py",
+      "sha256": "939992b6f5d6dfb1422aa5e0eb263795d25ed5838addccad3a37a9bfbd344156"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/pilot.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/pilot.csv",
+      "sha256": "178ba880605784ad1de6e50c5612c03de5383487a220a5d10f7c3b743c25003d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/pilot.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/pilot.json",
+      "sha256": "6345633ac956d9a22443037e84a02dbbdc203ced661e5522ba5e8033b1068ee9"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/interference/pilot.stdout.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/interference/pilot.stdout.json",
+      "sha256": "9a6c1928e60f6e5d219dd76efa8c30b9d9978505199909bf425fa2c4247a0e9c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/METHOD.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/METHOD.md",
+      "sha256": "4e941d0cc8a13cb069abe68a045b59574796434391974b4f803f57242d9d946f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/STATUS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/STATUS.json",
+      "sha256": "f4d9bc1a755957bc34ed19f56ab5b700a262c09e72f9408f53631bd891b70a74"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/fixed_coupling_rows.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/fixed_coupling_rows.json",
+      "sha256": "ec36bfcd63623d6567f374b921cf5d7f66fd3d62a8962ebf693094a1f7f04dab"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/independent_math/LOW_FREQUENCY_DERIVATION.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/independent_math/LOW_FREQUENCY_DERIVATION.md",
+      "sha256": "065d1ce654c3f5587040923a007bd46ee4c73d36b0cf4b3dbe328ae9dd1fdcdd"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/inputs.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/inputs.json",
+      "sha256": "710cf5638687b6c1ed8e3d0b23b7e6fc6c6a2f42c8b6f0478bcc65efa5b4d4d3"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/joint_limit_rows.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/joint_limit_rows.json",
+      "sha256": "aefc478587c79a81d74c35005228718fc300b3880bc1f0aef1dc1a971d49131a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/low_frequency.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/low_frequency.py",
+      "sha256": "4ca90b99bc2771f6d5ef08dacee593f8d61b3f04a2740b3c105ebdbac5c374c8"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/independent_shell_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/independent_shell_checks.json",
+      "sha256": "1863b605f941cff21d2ad2157d5472017ea1ccc44aec8a22237a851af99fccba"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.00000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.00000000.json",
+      "sha256": "274fe1f080bbf4c7dde8f7662aa0404c09bbdf010d916329b52cde54c71bd494"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.00000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.00000000.npz",
+      "sha256": "ea1e11e956c2d504705f5d484079610dc4ec0a8323b33a71e6230f82dd50547a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.01250000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.01250000.json",
+      "sha256": "c52e2a18135a63b8e7b0462ce4afc4ff8e60ee8f30e8f5731c7b5491ba9b6ef0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.01250000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.01250000.npz",
+      "sha256": "0b3627db40fed84c76138ee762475cd81c3e6ab3ae427301074529c17b9b1c27"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.05000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.05000000.json",
+      "sha256": "780513bb626b466c3d8814f56f8816f1855f22a4361f0780de7862242f802144"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.05000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.05000000.npz",
+      "sha256": "fe352d75d3684a13a2095c80cdfcd45f2c68efb72d14a01da4ded3cb8def889d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.20000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.20000000.json",
+      "sha256": "46e6ade7b969332fa109bcb6eb5def7abcce65cee3a082d5b0aae9e9cbf0c858"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.20000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/kernel_0.20000000.npz",
+      "sha256": "fe3d543117a76d9ce8fd3c2cd482eab47f6fbb2431008047800f755cd5bfc747"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/rows.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/rows.json",
+      "sha256": "cbc3fa52f16fb390921b0036c8e71bc88a4d4d589aac50202ddbddfe2d45b887"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/static_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/static_checks.json",
+      "sha256": "17c515ea81cdf86436a1e857cb082d8a1aeed482f79012f8128cd333353a7835"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/status.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/pilot/status.json",
+      "sha256": "1cd5289cc6bac1b150d8eadd59f377a143cedf0864c64078c5656dd1f1ea3ea7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/predictions.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/predictions.json",
+      "sha256": "c41afcc3d17c431b08153d3a9d1476591e58342a9f44341b53bee6521eba1d78"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/independent_shell_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/independent_shell_checks.json",
+      "sha256": "f76676d8a6e48a0f863785df06b92b9becd9de21b94396532174af46c42c72f1"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00000000.json",
+      "sha256": "169644819639b67504eb4adad0384df2ca483cf53af8e4095fcd57800d843c04"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00000000.npz",
+      "sha256": "17fb2ddfa32d82d6e9a32f59afbf9678bea0630ec154b3e0deaf13f8956c008f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00078125.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00078125.json",
+      "sha256": "661282c60dc4e3c15f9a54672e1946cd472548f969c9f93200a14d14162b0077"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00078125.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00078125.npz",
+      "sha256": "95194e69f3ce35c7ceff709f09f7e395a7b766f8c33a378a39c3923c3d5e516c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00156250.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00156250.json",
+      "sha256": "faecc37e9721bffa1afdb657dd05743500bb161f50c5e73ab7f58c31fc376f97"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00156250.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00156250.npz",
+      "sha256": "3a82bb03039befd733c31dec1083e88ac25b27ef08ecbadabee39c45d354b507"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00312500.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00312500.json",
+      "sha256": "9876f0f46f15f5719692558d086ddee17264a6f9a203a63f72d0dead146d77cd"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00312500.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00312500.npz",
+      "sha256": "174b00267e923ff453e075ea811115ecfce5fb6222bed1d15f2cc4823e4097d7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00625000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00625000.json",
+      "sha256": "78b9947fee5812c60774342da6ebbf080a0f5a6b2af9df246bc6938eaf9c139a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00625000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.00625000.npz",
+      "sha256": "5de74166e269fab7daf9738c808d35e415d548882abe1b257b53334cea326cd0"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.01250000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.01250000.json",
+      "sha256": "b2c0a9ad3256bed66b3a03d2e969f952646ef645a0d45db53b6399ce459ce111"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.01250000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.01250000.npz",
+      "sha256": "ac05e79abdc23a7b01b68e244218562ecf06b2ec503f8eb73905f9e69409ee4e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.02500000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.02500000.json",
+      "sha256": "2402c7795cab997fd7dfd1eb392a2cc58fe08a4eacafe439da36a1673607234d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.02500000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.02500000.npz",
+      "sha256": "2c40a320f485f13e09ebf6243eea26295c6d8557fc3f290469b98fc8a7303f10"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.05000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.05000000.json",
+      "sha256": "90e30e5daf043b881c6340b9320f8996ed150b66394f2e220bebebf4a7640312"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.05000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.05000000.npz",
+      "sha256": "87fedf476862478508cad17b04bf556745841ed05ed16c70ee19e5bbb1d45e9e"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.10000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.10000000.json",
+      "sha256": "aff228de5e056574a8a0a6a1812a2e01d2418b3fb8855f6a6eea4b5b82421948"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.10000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.10000000.npz",
+      "sha256": "77f1759f9bab4acddc1ce8a7c1cfe1d42bece8df26c78661b1f5a3024889e419"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.20000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.20000000.json",
+      "sha256": "69cc702ae64f76111550c31fe8ea06c7a58cffaf025a51b8fab2c701b8ccebd1"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.20000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.20000000.npz",
+      "sha256": "6d024d3398aad7743c92d12ced3143d500615061652273a97018cb6566d7a1b5"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.40000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.40000000.json",
+      "sha256": "21483b0a1833f275434cec6afb3eb32f36bfef1e6ff1e5a28dce5c7b04788594"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.40000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/kernel_0.40000000.npz",
+      "sha256": "e47e9b7d4e7f112edf0ef99524365850caff1571a40ee004bf7659a39c5286ba"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/rows.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/rows.json",
+      "sha256": "7ead4aa47b536cbb39318702ca11abc28946468dff52ffa76448004103894ac3"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/static_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/static_checks.json",
+      "sha256": "6efab2905d6bc361d139fd9b64a18c7257313b5291e70e30dc56f77809ec2bf2"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/status.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/refined/status.json",
+      "sha256": "193fed469300fbc6459af37eab6dcf6b5031eb867eb43cffa00b2a39af7bae3a"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_controls.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_controls.json",
+      "sha256": "666c492e68b6de63ca41ec6973ed0b8cc4aa4ccf605a28d2081add6a5ac476b7"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_controls.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_controls.py",
+      "sha256": "3eb05b8dfccaeda0708831fa1e05bc927340b8b01b131cc3aa3f2c3e21d47f1f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_predictions.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_predictions.json",
+      "sha256": "fc8bdf133f8452068961048535800c12f083290b16074e6ab57a4ce03a2c5a9d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_refinement.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/sector_refinement.json",
+      "sha256": "fe317e92f2ae1cba7ab02a88024cde19da4e5a3d99b4c25db75207e7088ac091"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validate_results.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validate_results.py",
+      "sha256": "3b4fb315fb2ed0ccbd5e1405e2165ddd6cc1afbbc85e42979a6adc50dde5bea3"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/independent_shell_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/independent_shell_checks.json",
+      "sha256": "6d5963b6e6a168364405b4f30e1b83538267812dacc2ed4c5c021464dba0746d"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00000000.json",
+      "sha256": "6d1e8637d0653db1c94e1154a45991c26b4967a12e82b61310cfec1458eebdda"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00000000.npz",
+      "sha256": "484984fa2a53ad3c58f104296fb1d60a78a54bc5da9b343acee9fe1993f2cddd"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00078125.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00078125.json",
+      "sha256": "cde5889034b919961f1dc1f4396bbda6e8f79569baf8fa9b54479291c4865431"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00078125.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00078125.npz",
+      "sha256": "995cfcf422527085ed54c007e54d624ee5c2d4609c3609fb6c7b6769e104cd68"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00312500.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00312500.json",
+      "sha256": "8754f8dfe8f5328715dfd2e169abf4527692c69c141f9541399a523e49e52dab"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00312500.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.00312500.npz",
+      "sha256": "97f4c1a116a50ff0711496a25f9a61c881605584d9b102d8f4612a913b73d34f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.01250000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.01250000.json",
+      "sha256": "48be38e012417fc51e5229af4000eb2712f1c9b599639576a99f85532ad5027f"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.01250000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.01250000.npz",
+      "sha256": "532891d1d5caffda0c6b2255c99871004e7328cf08b2648d2a6b8ddba9f93e37"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.05000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.05000000.json",
+      "sha256": "27f9d9d90dc453af71e300b8805a6f51f3031778507d1ddb0eb748bd5ffc666c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.05000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.05000000.npz",
+      "sha256": "7c1dd38b2a5bcd7f7d02095a2e52bd9bcca3b78f03819f53c31fc452906cdf6c"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.20000000.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.20000000.json",
+      "sha256": "fde7317655a0ce80209ba5894fa0d7cd78a6f73eddc69881a0b2eed046a5eb20"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.20000000.npz": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/kernel_0.20000000.npz",
+      "sha256": "e3b49fbe62067a82226fd46a35c2d70d7c1f2a208a13fd8128769b778292aa98"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/rows.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/rows.json",
+      "sha256": "ad8aea02f0d28802005daf148de136f9fb6267d2fabd1ef82eb031b549fc8aca"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/static_checks.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/static_checks.json",
+      "sha256": "af019be1d625d93b48595b7c59a92a52100ab935b7d07d0a51a3e7ff7038ccee"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/status.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/validation/status.json",
+      "sha256": "1bb3d24d03bf22894f2cc3b364d2c3c8732151efa752dddfc5512a5f4f1bb232"
+    },
+    "baseline/Prediction_Calculations_2026-09-26/low_frequency/verification.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/baseline/Prediction_Calculations_2026-09-26/low_frequency/verification.json",
+      "sha256": "2006b4058eb361a4ebc55f51e86f3063903cb1c3352ed51390d2939a112b3b70"
+    },
+    "collection_extension/CONE_LIMITS.md": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/CONE_LIMITS.md",
+      "sha256": "e788eaeb87edf24d99eceecf8fe792a985478ad265f731d8e38d2a36a8e5ea3b"
+    },
+    "collection_extension/cone_limits.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/cone_limits.py",
+      "sha256": "bc51aff39960271f56d6a9e1205cbcb5fc30a8c89387366783d89e2e6aa66165"
+    },
+    "collection_extension/cone_w0p00312500_n24.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/cone_w0p00312500_n24.json",
+      "sha256": "fe525347639ca5b9b2b4f9d71aae4c7c8a5443c1cc0b900d9488c830366f49b7"
+    },
+    "collection_extension/cone_w0p00312500_n40.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/cone_w0p00312500_n40.json",
+      "sha256": "f8582cba92a04d060750a7322ee368206a618119b6aa487cdab7a5faf759a607"
+    },
+    "collection_extension/cone_w0p01250000_n24.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/cone_w0p01250000_n24.json",
+      "sha256": "b52283721f28f871441555d730ec05eb3d1d05a903b515bb37ec0b3605e3f29e"
+    },
+    "collection_extension/cone_w0p05000000_n16.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/collection_extension/cone_w0p05000000_n16.json",
+      "sha256": "4ddf9a4ec5827e4f1686885c0c83f80d00a2c72e55f8ee56c12762e94139c3c5"
+    },
+    "controls_audit/alpha_sensitivity.csv": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/controls_audit/alpha_sensitivity.csv",
+      "sha256": "78b853f0cfd79d46f61bc0f1ae8eb806bb551fc4b1194de7cd2032ca88e917db"
+    },
+    "controls_audit/bandwidth/INDEPENDENT_CHECKS.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/controls_audit/bandwidth/INDEPENDENT_CHECKS.json",
+      "sha256": "9b4c57e9675079417035d726acb16d047500dd11469431babf8b8bc3f62e0788"
+    },
+    "controls_audit/bandwidth/independent_reaudit.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/controls_audit/bandwidth/independent_reaudit.py",
+      "sha256": "27191a23304580e7b3b9288d35265199db12cf21dcb57b9909f2d6e02ed05905"
+    },
+    "controls_audit/interference_reaudit.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/controls_audit/interference_reaudit.json",
+      "sha256": "6c79ccf5c6226a0e02776a00c22f0e5fd0c111bb297f2d7b0e5c1ee8857bc9d3"
+    },
+    "controls_audit/interference_reaudit.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/controls_audit/interference_reaudit.py",
+      "sha256": "eabfd0880e05a0fcb550f64be5e08c9872956f89cb623ced3f536c19e2f4de1d"
+    },
+    "lowfreq_audit/audit_lowfreq.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/lowfreq_audit/audit_lowfreq.py",
+      "sha256": "2eac958d73691f7a70240a1362ce9b439a408a6a091da5ac53235a08bd078886"
+    },
+    "lowfreq_audit/audit_results.json": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/lowfreq_audit/audit_results.json",
+      "sha256": "ecb3c545ed9cae3d17044cdb2a11c362caa8a7a41db6e29e8dc9bff95a3d38f4"
+    },
+    "lowfreq_audit/low_frequency_guarded.py": {
+      "archive": "Prediction_Calculations_2026-09-26.zip",
+      "member": "Prediction_Calculations_2026-09-26/lowfreq_audit/low_frequency_guarded.py",
+      "sha256": "b66039e5eec8f4a2e1ff643e21d79e93439b953eb2919a3134807487fd9c300c"
+    },
+    "gb/candidate_check.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/candidate_check.json",
+      "sha256": "1a63746e1f39629501547ccd622ccec88a0c8f5c377f5b87af5d421926de7cd5"
+    },
+    "gb/candidate_check.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/candidate_check.py",
+      "sha256": "04076da95f2f249bf7f6043f6a5e595e603b7d3658cfab30edfd8beb5296fd27"
+    },
+    "gb/candidate_frequency.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/candidate_frequency.npz",
+      "sha256": "62a1ec2b8b8a5a26785982e993d5b0f7a5eedbcb26d5e980709525e615686a9c"
+    },
+    "gb/candidate_linear_frequency_approx.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/candidate_linear_frequency_approx.npz",
+      "sha256": "d126eb9baed938df8d905a3057048538e91ed47b21af6cd010ffc4cd7279f72e"
+    },
+    "gb/candidate_squared_frequency.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/candidate_squared_frequency.npz",
+      "sha256": "3bf770e97da9f01ead95520dcb77f2589f86e930c9319241c21991dee7d83ec7"
+    },
+    "gb/fresh_G_N1536_eta0.0025.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N1536_eta0.0025.npz",
+      "sha256": "27b987885b8a0fed3049d440ce458d87c472b910793a1d62ce8da77abacde92c"
+    },
+    "gb/fresh_G_N1536_eta0.005.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N1536_eta0.005.npz",
+      "sha256": "fc5473c108bde76110b864e6cb22b88733d314052ad0e25e32914a9d7fe6b026"
+    },
+    "gb/fresh_G_N1536_eta0.01.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N1536_eta0.01.npz",
+      "sha256": "6dcc0d2cc79f7848fc0b037a2703ef1167be2d315ace903add64ad2860e38414"
+    },
+    "gb/fresh_G_N384_eta0.0025.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N384_eta0.0025.npz",
+      "sha256": "fdb53b472e692076473f4dd05db2187c8fbf8b775ba78ef849dc6b51f1daf00e"
+    },
+    "gb/fresh_G_N384_eta0.005.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N384_eta0.005.npz",
+      "sha256": "bb2d043afb55e298281202ff2b0ff821a33f1df94c297d54ea17800d2b817765"
+    },
+    "gb/fresh_G_N384_eta0.01.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N384_eta0.01.npz",
+      "sha256": "155e311d3c53023abe5766c9f72848514451a6f04b7f7ec58d214f5462d299ef"
+    },
+    "gb/fresh_G_N768_eta0.0025.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N768_eta0.0025.npz",
+      "sha256": "39169080ddd052310256e5d9e751e5d8b370aa4ea8d9961cbd1d71049d2be255"
+    },
+    "gb/fresh_G_N768_eta0.005.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N768_eta0.005.npz",
+      "sha256": "22156c737e58dd19e42885024e6bb21c3492e87065850a211ccde0f2264a171a"
+    },
+    "gb/fresh_G_N768_eta0.01.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_G_N768_eta0.01.npz",
+      "sha256": "f02c0f511bcd7dabafe94c91dbca7eace87c7c080b11543f9a500d49af611996"
+    },
+    "gb/fresh_reference_check.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_reference_check.py",
+      "sha256": "ffc691faa5edf7f2560e7a94dc3d66fd003cc8a2e268497cec62024c42507a02"
+    },
+    "gb/fresh_reference_results.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_reference_results.json",
+      "sha256": "28a2878ba79934530de3efb7dd9bf793ce235a7c3d38afac7da2ca9dcd9008ac"
+    },
+    "gb/fresh_residue_N1536.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_residue_N1536.npz",
+      "sha256": "ea9b290f56bcd0c54a09dce17ddb28ffc2036c582aed40fde470e9ce5a45ed9a"
+    },
+    "gb/fresh_residue_N384.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_residue_N384.npz",
+      "sha256": "e1295f3cacd47037d00c9bde23242422504398811cc5b9c953af0c0965d9c875"
+    },
+    "gb/fresh_residue_N768.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/fresh_residue_N768.npz",
+      "sha256": "2fc66b8b23ad616675fcfe27deb88fea07b8d2b4be27862341a1bd43cc150ed7"
+    },
+    "gb/independent_core_scattering.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/independent_core_scattering.py",
+      "sha256": "904c034c32eda25a519d60918d9eeed1f594c0168a062df289ca9d438d7c5d55"
+    },
+    "gb/p1solver.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/p1solver.py",
+      "sha256": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6"
+    },
+    "gb/producer_consistency.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/producer_consistency.json",
+      "sha256": "21b30aaf649cb8d2e0f26224793c3f6ed9a978a507f9cbeee6f30b1027a0daa4"
+    },
+    "gb/producer_consistency.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/producer_consistency.py",
+      "sha256": "1ae5864c298a63c85a4d4d7b37e86a5b161ab2f40597523a1837d318e67bd707"
+    },
+    "gb/reference_inputs/gb_eta0025_g384_mean.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/reference_inputs/gb_eta0025_g384_mean.npz",
+      "sha256": "69adb1f30abb47e0c47d4bb30b85a933b90a08bc15d0848e759a019bf8cf50ce"
+    },
+    "gb/reference_inputs/gb_eta005_g384_mean.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/reference_inputs/gb_eta005_g384_mean.npz",
+      "sha256": "5d3fc475a870f652808ec3c9ad0a80bee79ea170b70517441904bed4010e27e7"
+    },
+    "gb/reference_inputs/gb_eta010_g256_mean.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/reference_inputs/gb_eta010_g256_mean.npz",
+      "sha256": "927c993239ac364e63640eacc5405638241d347420cad52acf949fc20bbe54a3"
+    },
+    "gb/reference_inputs/gb_real_axis_residue_mean.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/reference_inputs/gb_real_axis_residue_mean.npz",
+      "sha256": "c771bb57b5a810a1e3d4e7e837d509fe569c0a334ba26b335c938eb49931f4c6"
+    },
+    "gb/shift_candidates.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/shift_candidates.npz",
+      "sha256": "6af29ce49c6e24909288581843473c5e63cf524616cc5a0cb4d451f47b523936"
+    },
+    "gb/shift_check.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/shift_check.json",
+      "sha256": "6e73a3949e1db9612058bdd47842d36a12abf1b5d883588ff8c6627db502b057"
+    },
+    "gb/shift_check.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/shift_check.py",
+      "sha256": "081330867924ac2aa6f53cd5ca28095507821d7455066d4ca0d419f630d547a2"
+    },
+    "gb/summarize_checks.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/summarize_checks.py",
+      "sha256": "9c936043fb7012d1890c5594d1b99606687b35f7d8fdd76ba1ca1a5671cf96a1"
+    },
+    "gb/summary_checks.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "gb/summary_checks.json",
+      "sha256": "ffed3d8d3421f261f801142b0de407dce17b350d4486671544770bb5b9213d84"
+    },
+    "upstream/cartesian_full/N24/chunk_0000_0024.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_full/N24/chunk_0000_0024.npz",
+      "sha256": "79e1bf9057f9f884d278dd978c78f883594dc3efd6e0c4778a66d32da7c9e82b"
+    },
+    "upstream/cartesian_quadrant/N24/chunk_0000_0024.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N24/chunk_0000_0024.npz",
+      "sha256": "f481c0db990bc0aa030304dc5650d2e11fdb946542e0ce4ebee28d1b446f7cb3"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0000_0024.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0000_0024.npz",
+      "sha256": "6ebbb357534ffb8b55193b26514d02fb4135eab65b45a18da8688e3bab383904"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0024_0048.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0024_0048.npz",
+      "sha256": "950f63230747ae45039e3297cc2c4192f03431188e9becd7ed5f44f792d9ad6c"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0048_0072.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0048_0072.npz",
+      "sha256": "1e8ad5d69c57fb422892409ca7ba6e468813103646b6001f9199bb02415fb10c"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0072_0096.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0072_0096.npz",
+      "sha256": "f598d1c8bdb9ff9dcce671e9487b0a2eb3accb45ebfcc6495627fc177e167f98"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0096_0120.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0096_0120.npz",
+      "sha256": "410f58c6ea212a52149eb2d09b1e2e4cc89542011faa8f45f8ed3a941280b311"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0120_0144.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0120_0144.npz",
+      "sha256": "f7d83bf7f4df8d16ae74a1d43be707575a21ea17a26b606fb11fc5bbf632509f"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0144_0168.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0144_0168.npz",
+      "sha256": "d6df18c499942ba2d17021858252807a49671c5e460bc8fe9edb6d1678d54bc3"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0168_0192.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0168_0192.npz",
+      "sha256": "027e306c18826b873f519b6ee14843a630b0bf5431a458d849aa5a517e678aea"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0192_0216.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0192_0216.npz",
+      "sha256": "f05639e2e60b840a7aefdc687a986fd580440057d3d32b6195d4f8dc3cd896d3"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0216_0240.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0216_0240.npz",
+      "sha256": "1d11e28e890c1da0fb3a0efdd46f117416e7080dd87063ea3a263fe16431f3aa"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0240_0264.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0240_0264.npz",
+      "sha256": "ceaba3c233fa8d178dc51046932de60e693f8ff059ce2a337a7a0fc7ad637494"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0264_0288.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0264_0288.npz",
+      "sha256": "b8169c369f0a8fd227792d24cb612b1e7ed7e27d02b23f1afc0bbb908a065570"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0288_0312.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0288_0312.npz",
+      "sha256": "87ec48bbdb4b377b3fd31f0770a0c912a9c1340e7ce423dd8ed4b32e07c55a03"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0312_0336.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0312_0336.npz",
+      "sha256": "0f3c1ce368a394ee6b64afe262bc5af453d4bb68da14caf593c41e420734a253"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0336_0360.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0336_0360.npz",
+      "sha256": "408675d0b6a6a4e49c4dc22ea8964a5ffd8dc77b435a194557d4573a7bd976fa"
+    },
+    "upstream/cartesian_quadrant/N384/chunk_0360_0384.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/chunk_0360_0384.npz",
+      "sha256": "ca21dc47ea2f1e2c0cdfc94c1e5fbce87ffa8f897101dec391ee3d432eb86edd"
+    },
+    "upstream/cartesian_quadrant/N384/combined_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/combined_inputs.npz",
+      "sha256": "e93beae5bc6c0aef8bdc25be05d00f5294578f5c645095ba74d7d2c0fe58d6dd"
+    },
+    "upstream/cartesian_quadrant/N384/results.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_quadrant/N384/results.json",
+      "sha256": "254a082186d7441708501e9dc1e7a168c7892ffd486d1ae0ca98b7d6d2f69479"
+    },
+    "upstream/cartesian_symmetry_check.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/cartesian_symmetry_check.json",
+      "sha256": "6a95adb608637a0051012f62684d6cc5c7f15d535e9e08c124d472a4a33b86a7"
+    },
+    "upstream/prior_staged/check_middle_branch_algebra.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/check_middle_branch_algebra.py",
+      "sha256": "522e47d06d4f3f41695d1af2a06b899ff2dc529f6f39494a1c14b84a08851c10"
+    },
+    "upstream/prior_staged/dressed_26/results_N2048.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/results_N2048.json",
+      "sha256": "8995b87c7bc9702b22ce57bd12ce37c1e3a21c912114ed27483d35c15b5facff"
+    },
+    "upstream/prior_staged/dressed_26/results_N512.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/results_N512.json",
+      "sha256": "0e1eba1690e9202190acb996b7060b92ac885eddd1144788b15dc0eedb9293f4"
+    },
+    "upstream/prior_staged/dressed_26/results_N768.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/results_N768.json",
+      "sha256": "fabcfacaf50564c842ecff745203b1bd7f74be4ccd0de6c312fde350a932ef72"
+    },
+    "upstream/prior_staged/dressed_26/shell_N2048.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/shell_N2048.npz",
+      "sha256": "2cf647e41a449b20b131df7668c0061d4d3869b5e0a069cb295b7455a0d881ff"
+    },
+    "upstream/prior_staged/dressed_26/shell_N512.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/shell_N512.npz",
+      "sha256": "b1c19372e742378e0473670b57211caea91f616a8080272c62dd2e26b8280bdb"
+    },
+    "upstream/prior_staged/dressed_26/shell_N768.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_26/shell_N768.npz",
+      "sha256": "8cd4d57a3fb0e4f38cb1afe922aeded239b256f1ed42e0bda5715b1eec0e9883"
+    },
+    "upstream/prior_staged/dressed_29/green_N1024.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/green_N1024.npz",
+      "sha256": "e04b237d583cd02f295b11d3350d7f12c4b20810459efe4cdc20d970bcd33e43"
+    },
+    "upstream/prior_staged/dressed_29/green_N256.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/green_N256.npz",
+      "sha256": "cbf15401fe3b7bec5feb0f92de3ff21340bb4ec482cf407c7dfe0f663b3a648f"
+    },
+    "upstream/prior_staged/dressed_29/green_N512.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/green_N512.npz",
+      "sha256": "ecede1ce991522e98fc48e39e1d632bc477bfba5cf0401be49c023493850195c"
+    },
+    "upstream/prior_staged/dressed_29/results_N1024.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/results_N1024.json",
+      "sha256": "38c6e01fa7301af79e2302c6aab42072571adf45542f792d7bbc95dac1e35404"
+    },
+    "upstream/prior_staged/dressed_29/results_N256.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/results_N256.json",
+      "sha256": "9f8c705d1cfb5da3806b9b2592d7bf6358e287d257c260e1961ae044105f1605"
+    },
+    "upstream/prior_staged/dressed_29/results_N512.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/results_N512.json",
+      "sha256": "9b724ee2bf5dd5ae12397cc51af6a4c9f3cbb57f8344f6ec07637ab5059b6218"
+    },
+    "upstream/prior_staged/dressed_29/results_shell1536_green1024.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/results_shell1536_green1024.json",
+      "sha256": "978be25f5b59ffe8ac8dce6603836cc842e7292066823cd3e057be976d51c4c0"
+    },
+    "upstream/prior_staged/dressed_29/shell_N1024.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/shell_N1024.npz",
+      "sha256": "ddde65b7ee0f92a051aa4db1778c6973a0ab831661c142cbd7e422df38ded243"
+    },
+    "upstream/prior_staged/dressed_29/shell_N1536.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/shell_N1536.npz",
+      "sha256": "334335f741e0854e32277ccc8273e44431e02040a5e6bd9a4f1921726288e1de"
+    },
+    "upstream/prior_staged/dressed_29/shell_N256.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/shell_N256.npz",
+      "sha256": "3363c2db18f70575fbd12db586ad7004c68a6bf64e0105023380622cc53b17eb"
+    },
+    "upstream/prior_staged/dressed_29/shell_N512.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/dressed_29/shell_N512.npz",
+      "sha256": "6bddb35ff95f93124392cb909ffa22578309dda84d9813d7854f6540e8b47c7e"
+    },
+    "upstream/prior_staged/exact_middle_branch_algebra.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/exact_middle_branch_algebra.json",
+      "sha256": "a4021555a5c2b84177821a3b27c273e92feb8650ee4dce70850753420984940c"
+    },
+    "upstream/prior_staged/recheck_dressed_26.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/recheck_dressed_26.py",
+      "sha256": "565c7255b9bb4afaff3016d19e4ae3733e5cd47b1940b9fb45bf1efc7b3e0982"
+    },
+    "upstream/prior_staged/recheck_dressed_29.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/recheck_dressed_29.py",
+      "sha256": "51119317d80cf2907434db55e9eaf98c7b4dec8411f9a6f1666b127175cdf37c"
+    },
+    "upstream/prior_staged/refine_dressed_29_shell.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/refine_dressed_29_shell.py",
+      "sha256": "e6ee1b8a648aa9f8a3d2bb5a924a1059c30808fa67975a237f6fd7e11656c35b"
+    },
+    "upstream/prior_staged/replay_sources/p1solver.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/replay_sources/p1solver.py",
+      "sha256": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6"
+    },
+    "upstream/prior_staged/replay_sources/p1split.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/replay_sources/p1split.py",
+      "sha256": "4622f9527fae0c7654cda06053444b5e0ddaa2ee8c38d05e66245c6603db3814"
+    },
+    "upstream/prior_staged/replay_sources/r3_eps_scan.npy": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/replay_sources/r3_eps_scan.npy",
+      "sha256": "c9fccf6f405c34f8b6ba3ea65456219b956e109c328c35992734b87cd7e7c589"
+    },
+    "upstream/prior_staged/replay_sources_manifest.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/prior_staged/replay_sources_manifest.json",
+      "sha256": "ece5dc250710599f256b7a8fb182084ffa7602d71b70e2fbe37ef5575e4e4a96"
+    },
+    "upstream/realaxis/w2.88_N512_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.88_N512_inputs.npz",
+      "sha256": "0e810c9a8e5db75cd72a9bb8d2e90d509013287ed04a25ec043a9fa548cc7c3a"
+    },
+    "upstream/realaxis/w2.88_N512_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.88_N512_result.json",
+      "sha256": "e990285e8d76b47a84897f50efe5433694fb706dd7c6a1828e18d0322495a85c"
+    },
+    "upstream/realaxis/w2.88_N768_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.88_N768_inputs.npz",
+      "sha256": "63ad3a30c334322c2eb327f3b20839a57ec5302992999ba19f6c9700f4dca138"
+    },
+    "upstream/realaxis/w2.88_N768_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.88_N768_result.json",
+      "sha256": "43c0ff5a993c5910415a36857b6647c5e77ad22c54dfc5426f36f056686cf0f8"
+    },
+    "upstream/realaxis/w2.89_N512_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.89_N512_inputs.npz",
+      "sha256": "90c608d6f0effb56dbecb2a5b3190c5720d58bf36a4f3575a0a2e8f3ab49d298"
+    },
+    "upstream/realaxis/w2.89_N512_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.89_N512_result.json",
+      "sha256": "34edc9bd393cf13423a37d42cbdee4c0f8b2196d5305bed7b8b2c69b69877d17"
+    },
+    "upstream/realaxis/w2.89_N768_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.89_N768_inputs.npz",
+      "sha256": "9b2e978e2395d597307bd91fcd622199de6e608cda472c83a1061425475dc006"
+    },
+    "upstream/realaxis/w2.89_N768_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.89_N768_result.json",
+      "sha256": "81e64a35eba55b9a8c03b37f6bfd6cf5b3ae3e842283e55183095f3f576ec34b"
+    },
+    "upstream/realaxis/w2.90_N1024_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N1024_inputs.npz",
+      "sha256": "58ed03c0e0e22e452f22df2316a428603d0d10a8d34c535ca8e4fcd96a7d096b"
+    },
+    "upstream/realaxis/w2.90_N1024_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N1024_result.json",
+      "sha256": "460563b1e3403fdad4fdc608a118ac0bd138eb41979ccf3265315c7edf2a04d2"
+    },
+    "upstream/realaxis/w2.90_N1536_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N1536_inputs.npz",
+      "sha256": "8eaf238152081b6f5f26e4974a6e9cd3f74b9011cdb6f02fdf6c3130c08682cc"
+    },
+    "upstream/realaxis/w2.90_N1536_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N1536_result.json",
+      "sha256": "7ab9dc305c7fe1d2ca6bc832b218dc5de408de603cdee950f904bc0fea2962fe"
+    },
+    "upstream/realaxis/w2.90_N768_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N768_inputs.npz",
+      "sha256": "da828bf1ebbcba1242b6a75cced4692e60200bada5c1b21fca5bc601eb190759"
+    },
+    "upstream/realaxis/w2.90_N768_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.90_N768_result.json",
+      "sha256": "8169ade42645493ae4268af8d63e04f224d0599c8a23fd99e73e22f84b905f2f"
+    },
+    "upstream/realaxis/w2.91_N512_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.91_N512_inputs.npz",
+      "sha256": "b4d81c9c70d6c72a412bce3c30ffc98e942c10bceef287926fb7ea249115d371"
+    },
+    "upstream/realaxis/w2.91_N512_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.91_N512_result.json",
+      "sha256": "30fb88c37e88cfe88d3a448916d0876e3c33192b88b84f6f08849fa9d90e7250"
+    },
+    "upstream/realaxis/w2.91_N768_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.91_N768_inputs.npz",
+      "sha256": "5adc1a6ad68deb786ca2a8a7f02d96e5ed17ae31dd944de4b51c2b6e5f258dd3"
+    },
+    "upstream/realaxis/w2.91_N768_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.91_N768_result.json",
+      "sha256": "7756c7c061cabff9cd3bf60721c6385e0033dfc887df9259c40b5d3c714e669d"
+    },
+    "upstream/realaxis/w2.92_N512_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.92_N512_inputs.npz",
+      "sha256": "f2015a69dd4df52c96eec5779d69ad6474c1d0590d584c18dda3b840c08205fd"
+    },
+    "upstream/realaxis/w2.92_N512_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.92_N512_result.json",
+      "sha256": "fad672df9669b3ffd85e7ecb1e761eb33272e3bf340ab08d5f4a46497e5a0d72"
+    },
+    "upstream/realaxis/w2.92_N768_inputs.npz": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.92_N768_inputs.npz",
+      "sha256": "ad5b4589e5079c7f1e5689309de029110aa6c8c30742dc808b41d248662c6d02"
+    },
+    "upstream/realaxis/w2.92_N768_result.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis/w2.92_N768_result.json",
+      "sha256": "dedaaa0d42568105d6f1337f0468596b5bc1b5a58010d8b1d091b48d38428e82"
+    },
+    "upstream/realaxis_summary.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/realaxis_summary.json",
+      "sha256": "f599818a8a6b28c562e68481ebd3c1cc05851036d529578bff278574893a3d20"
+    },
+    "upstream/reconstruct_cartesian.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/reconstruct_cartesian.py",
+      "sha256": "6f1ec684aa11efa06b55142ba285fa87c4c2bdf8f2a293bc698c8d1b219a9a18"
+    },
+    "upstream/reconstruct_realaxis.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/reconstruct_realaxis.py",
+      "sha256": "20a9103c609c4aea0286fac1457ebcdbd46b1d91c23b67d97c84a34a56797155"
+    },
+    "upstream/reconstruct_reflection_check.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/reconstruct_reflection_check.py",
+      "sha256": "79de5a7f65259f3f69439d2acd001deb7f6a8800a2fa6bd210e05f6131231c91"
+    },
+    "upstream/reconstruct_root_checks.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/reconstruct_root_checks.py",
+      "sha256": "c2f40d740118e9e8b4efde51ed3c0f0152e58387cf206c7cf90f5981c74aa5a1"
+    },
+    "upstream/reflection_check_results.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/reflection_check_results.json",
+      "sha256": "2cb9c835334b8eef77c301a1972788827ac077120216d6410d416c2b2d868d85"
+    },
+    "upstream/replay_sources/p1solver.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/replay_sources/p1solver.py",
+      "sha256": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6"
+    },
+    "upstream/replay_sources/p1split.py": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/replay_sources/p1split.py",
+      "sha256": "4622f9527fae0c7654cda06053444b5e0ddaa2ee8c38d05e66245c6603db3814"
+    },
+    "upstream/requirements.txt": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/requirements.txt",
+      "sha256": "6101034016419219134f25d41dcb8dc57a629f64d138e53b7c71eaae90a4b08a"
+    },
+    "upstream/root_checks_results.json": {
+      "archive": "Paper1_Unresolved_Items_Checks_2026-09-28.zip",
+      "member": "upstream/root_checks_results.json",
+      "sha256": "71e5eb6514528fddc24c3a3a14df6669c6a35a905da26b432bbcc330bbcd4e57"
+    },
+    "independent_comparisons/angular_audit/angular_2400_600_96.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/angular_2400_600_96.json",
+      "sha256": "eb4fc9e56efca81f87740ca91b83b22e475154dc8bd9424ef795de2179ca6b49"
+    },
+    "independent_comparisons/angular_audit/angular_comparison.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/angular_comparison.json",
+      "sha256": "cb499e95c252010e06cc072643322b1b697fc0229c2f198b685178a9405243ac"
+    },
+    "independent_comparisons/angular_audit/angular_implementation_results.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/angular_implementation_results.json",
+      "sha256": "b8df5537d11a15d5c09d5cda51eeb6c5166eb849435b80cafbe4128a67eed743"
+    },
+    "independent_comparisons/angular_audit/check_angular_implementation.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/check_angular_implementation.py",
+      "sha256": "2d2b94a6e1c5bde2d74357df584a3f1ef2797cdd342a4c947690af0992f00fe3"
+    },
+    "independent_comparisons/angular_audit/compare_angular_results.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/compare_angular_results.py",
+      "sha256": "98565fd0162b5c4ecc7370345836f6e8d70a599fcc0d39655c427dcf43deaa41"
+    },
+    "independent_comparisons/angular_audit/controlling_cone_binding.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/angular_audit/controlling_cone_binding.json",
+      "sha256": "f0f15bb9ef201be021be32a15949290d4084bd790733b9bbdca718802ee855d7"
+    },
+    "independent_comparisons/bandwidth_audit/audit_saved_kernels.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/bandwidth_audit/audit_saved_kernels.py",
+      "sha256": "0ba570dee76d46531f760aea3ec3da663e33635a1d0963573d4746b31ba8668a"
+    },
+    "independent_comparisons/bandwidth_audit/bandwidth_check_guarded.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/bandwidth_audit/bandwidth_check_guarded.py",
+      "sha256": "620f3d954782baeb96fd9bb215f0e39f6974d4cfa692c0fa47ddf04c517fc63f"
+    },
+    "independent_comparisons/bandwidth_audit/bandwidth_saved_kernel_audit.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/bandwidth_audit/bandwidth_saved_kernel_audit.json",
+      "sha256": "aefdcac1771aac03bde4f82a5226ab3683960a1a6044fe6b55009fb8b7fc31fb"
+    },
+    "independent_comparisons/bandwidth_audit/bandwidth_summary.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/bandwidth_audit/bandwidth_summary.json",
+      "sha256": "f6c1addca1ceb95fcdc2b1b8bf32e1cb2abb2f191e9eb0e80ce0198b65490e6a"
+    },
+    "independent_comparisons/bandwidth_audit/guarded_recheck.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/bandwidth_audit/guarded_recheck.json",
+      "sha256": "572d2c166c0b8a277487838290545d349af533492e6776cf27b8a50c54d8314f"
+    },
+    "independent_comparisons/completion/KERNEL_PROVENANCE.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/completion/KERNEL_PROVENANCE.json",
+      "sha256": "624f075aea2fcaedb4797b4d28233cec656d440ee5bb74dcf0ab7f304046facb"
+    },
+    "independent_comparisons/green_audit/check_green_evidence.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/green_audit/check_green_evidence.py",
+      "sha256": "08f15a3458b5c9c763a395e578ec9b7967777f54c91a730b48071d8449094e45"
+    },
+    "independent_comparisons/green_audit/green_evidence.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/green_audit/green_evidence.json",
+      "sha256": "1e963e3ba547caec7f116e54afa15f46a0a86eeb1cad2ffb90622f270506ebf4"
+    },
+    "independent_comparisons/input/eps_scan_n48.npy": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/eps_scan_n48.npy",
+      "sha256": "fe2229ea57d4dbbec2b59889c5fdc5772b077fe2a0720d57b68bc5a7dcf855ef"
+    },
+    "independent_comparisons/input/onshell_w1.2_n48.npy": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/onshell_w1.2_n48.npy",
+      "sha256": "0edbbc76505b352571209125530c9c41537093f5aa8b27af9c84c722f8e650b5"
+    },
+    "independent_comparisons/input/p1solver.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/p1solver.py",
+      "sha256": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6"
+    },
+    "independent_comparisons/input/rev/angular_2400_600_96.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/angular_2400_600_96.json",
+      "sha256": "eb4fc9e56efca81f87740ca91b83b22e475154dc8bd9424ef795de2179ca6b49"
+    },
+    "independent_comparisons/input/rev/angular_300_150_12.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/angular_300_150_12.json",
+      "sha256": "67cb8d3688e6cc5e24c9ed6061d0ae743d346fc010fadff35f086dc17be69254"
+    },
+    "independent_comparisons/input/rev/angular_check.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/angular_check.py",
+      "sha256": "65759a6a28bfacc704cf11d0f368ec131a217f5fa235280e7ae0b6f6ff38ee49"
+    },
+    "independent_comparisons/input/rev/g0_0.4.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_0.4.npz",
+      "sha256": "ae7d9ea30d9eb86c2c63f516d0c28f44e87ca832f42f53e4c1a30ffb3ef926d1"
+    },
+    "independent_comparisons/input/rev/g0_0.8.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_0.8.npz",
+      "sha256": "ae927e3ce001304b5016f450cee95a5ddd11d38327c5a71661e25361a74473ee"
+    },
+    "independent_comparisons/input/rev/g0_1.1125.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_1.1125.npz",
+      "sha256": "fd10c993e2c105ad07326bf6ec3d5ff37a4c22fc0a359b2d1d3f7e100933dabe"
+    },
+    "independent_comparisons/input/rev/g0_1.2375.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_1.2375.npz",
+      "sha256": "7a42277e3dae6849b740cfa969938d3e3d7abc5c3a82305857b72c3320a0d103"
+    },
+    "independent_comparisons/input/rev/g0_1.29.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_1.29.npz",
+      "sha256": "789cb3c3c727c460c22abb3e814df8f7f093063d5dffcb553bc37ceb8e2ae86d"
+    },
+    "independent_comparisons/input/rev/g0_1.3.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/input/rev/g0_1.3.npz",
+      "sha256": "9a559fcd624f523f0e0d616ad3e00c3c916f76854462009209b3fab33dd1a959"
+    },
+    "independent_comparisons/lowfreq_audit/independent_alpha_checks.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/lowfreq_audit/independent_alpha_checks.json",
+      "sha256": "8564a67df1d7dda7e316962a3a8fbcaaa647206e6bdd97544f712f6690424c48"
+    },
+    "independent_comparisons/lowfreq_audit/independent_alpha_checks.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/lowfreq_audit/independent_alpha_checks.py",
+      "sha256": "3867023fd3fdf4ea439f2b5bd7545179133dffe682f7fe0c820f6c320f14e704"
+    },
+    "independent_comparisons/portable_checks/build_g0.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/build_g0.py",
+      "sha256": "20b74ab688baf7148451bc4396389b6cd2df61f9774ddaf0a7785b486cf29d94"
+    },
+    "independent_comparisons/portable_checks/comparison_inputs/FINAL_SCREEN.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/comparison_inputs/FINAL_SCREEN.json",
+      "sha256": "4b5da237ca9fe53908e41012d69c99811575c40e7b95218cab49f0379ae3398a"
+    },
+    "independent_comparisons/portable_checks/comparison_inputs/cone_results.csv": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/comparison_inputs/cone_results.csv",
+      "sha256": "89745f8626e4cf7921f8c13e6512bd5411c5673dc9764e086d79e1b3b9117a8d"
+    },
+    "independent_comparisons/portable_checks/eps_scan_n48.npy": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/eps_scan_n48.npy",
+      "sha256": "fe2229ea57d4dbbec2b59889c5fdc5772b077fe2a0720d57b68bc5a7dcf855ef"
+    },
+    "independent_comparisons/portable_checks/onshell_w1.2_n48.npy": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/onshell_w1.2_n48.npy",
+      "sha256": "0edbbc76505b352571209125530c9c41537093f5aa8b27af9c84c722f8e650b5"
+    },
+    "independent_comparisons/portable_checks/p1solver.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/p1solver.py",
+      "sha256": "dda0c992c2bbf92a21e25edc11f411cc01a0fa172aa01fb3f917782af3d92ac6"
+    },
+    "independent_comparisons/portable_checks/rev/alpha_solver.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/alpha_solver.py",
+      "sha256": "7e3e6e4b33e48c6f3bf49f19977901faf3feec35cf06b8ecc6af4d305274f1a4"
+    },
+    "independent_comparisons/portable_checks/rev/angular_2400_600_96.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/angular_2400_600_96.json",
+      "sha256": "eb4fc9e56efca81f87740ca91b83b22e475154dc8bd9424ef795de2179ca6b49"
+    },
+    "independent_comparisons/portable_checks/rev/angular_300_150_12.json": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/angular_300_150_12.json",
+      "sha256": "67cb8d3688e6cc5e24c9ed6061d0ae743d346fc010fadff35f086dc17be69254"
+    },
+    "independent_comparisons/portable_checks/rev/angular_check.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/angular_check.py",
+      "sha256": "8f4be0bddf6eb3c69af8674b5b6c8b54897fdd8cfb062dea08fd97f01e3f29ad"
+    },
+    "independent_comparisons/portable_checks/rev/bandwidth_check.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/bandwidth_check.py",
+      "sha256": "be8a0bd6cebe86f21e7988e82427bf1dc29d4548167c0320797e5f4c4680ecb5"
+    },
+    "independent_comparisons/portable_checks/rev/build_g0_freq.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/build_g0_freq.py",
+      "sha256": "eabc006abf8142a336d6727f6c6c63aff839266d4ee5f0353e76d7ca4f16830c"
+    },
+    "independent_comparisons/portable_checks/rev/g0_0.4.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_0.4.npz",
+      "sha256": "ae7d9ea30d9eb86c2c63f516d0c28f44e87ca832f42f53e4c1a30ffb3ef926d1"
+    },
+    "independent_comparisons/portable_checks/rev/g0_0.8.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_0.8.npz",
+      "sha256": "ae927e3ce001304b5016f450cee95a5ddd11d38327c5a71661e25361a74473ee"
+    },
+    "independent_comparisons/portable_checks/rev/g0_1.1125.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_1.1125.npz",
+      "sha256": "fd10c993e2c105ad07326bf6ec3d5ff37a4c22fc0a359b2d1d3f7e100933dabe"
+    },
+    "independent_comparisons/portable_checks/rev/g0_1.2375.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_1.2375.npz",
+      "sha256": "7a42277e3dae6849b740cfa969938d3e3d7abc5c3a82305857b72c3320a0d103"
+    },
+    "independent_comparisons/portable_checks/rev/g0_1.29.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_1.29.npz",
+      "sha256": "789cb3c3c727c460c22abb3e814df8f7f093063d5dffcb553bc37ceb8e2ae86d"
+    },
+    "independent_comparisons/portable_checks/rev/g0_1.3.npz": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/g0_1.3.npz",
+      "sha256": "9a559fcd624f523f0e0d616ad3e00c3c916f76854462009209b3fab33dd1a959"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_0.4.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_0.4.txt",
+      "sha256": "cd70e1d3cbc9cedee7bd204e8a1af0a18cbe3538a5033ddd257c616bb1ad008a"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_0.8.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_0.8.txt",
+      "sha256": "896ac128f0878c8da7ca125b2e8723a750966d774e83c10a844abe9ee9c23d60"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_1.1125.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_1.1125.txt",
+      "sha256": "d6cb214b79f702cd3c5a1196ec0dc441a37f649e33297417183252df9201a537"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_1.2375.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_1.2375.txt",
+      "sha256": "dd2b8e7e4fdd89a38d24dadd23b201fb3e410875ca9c970ff667f8fca14596dc"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_1.29.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_1.29.txt",
+      "sha256": "21031a6132acf7c4d9a7da6c301db9c559f760ff5aead3b1e7ef5691e3af2afb"
+    },
+    "independent_comparisons/portable_checks/rev/log_g0_1.3.txt": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/log_g0_1.3.txt",
+      "sha256": "2c4d28d80f8b94c68aab5e0ae0ef29bbd76f3977aecf19cc0035a92ec236790c"
+    },
+    "independent_comparisons/portable_checks/rev/lowfreq_check.py": {
+      "archive": "Prediction_Report_Checks_Audit_Evidence_2026-09-27.zip",
+      "member": "Prediction_Report_Checks_Audit_2026-09-27/portable_checks/rev/lowfreq_check.py",
+      "sha256": "9792e3d59a3e70f2dc1cd1563ab9cd35df0761c494321c0f5ab0c56b649dfa38"
+    }
+  }
+}

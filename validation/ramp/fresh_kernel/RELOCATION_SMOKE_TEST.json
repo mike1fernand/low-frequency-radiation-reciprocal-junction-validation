@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "One declared relocated surface N48/Sobol2^18 pilot; no new parameter campaign.",
+  "fresh_pilot_states": 9,
+  "maximum_response_difference_from_frozen_pilot": 0.0,
+  "maximum_internal_array_difference_from_frozen_pilot": 0.0,
+  "qT_range": [
+    0.7359900867582685,
+    0.736226778756027
+  ],
+  "maximum_closure": 1.1908030117524504e-11,
+  "scientific_runtime_seconds": 2.3997200039993913,
+  "wrapper_runtime_seconds": 3.5597296519990778,
+  "frozen_source_unchanged_after_execution": true,
+  "final_adapter_stage_only_passed": true,
+  "overwrite_guard_passed": true,
+  "tampered_source_guard_passed": true,
+  "missing_dependency_preflight_passed": true,
+  "dependency_environment": "Original scientific dependency installation via PYTHONPATH; no scientific input dependency outside bundled upstream staged inputs.",
+  "scientific_dependency_path": "/workspace/scratch/044aa7b17d80/p1_736_validation_2026_11_08/fresh_kernel/vendor",
+  "first_attempt": "Default Python lacked scikit-image; failed before numerical calculation. Added explicit preflight before staging.",
+  "final_adapter_sha256": "9e9320d6f44a93de0acae53352a4daea3722a1e9258307bf855192325107bac9",
+  "final_adapter_stage_manifest": "smoke_receipts/FINAL_ADAPTER_STAGE_MANIFEST.json",
+  "pilot_relocation_manifest": "smoke_receipts/PILOT_RELOCATION_MANIFEST.json",
+  "pilot_execution_log": "smoke_receipts/PILOT_EXECUTION.log",
+  "note": "Dependency-preflight/reporting was added after the successful pilot; final adapter staging and guards were tested separately without redundant quadrature.",
+  "guard_environment_addition": "Final adapter sets PYTHONOPTIMIZE=0 and PYTHONDONTWRITEBYTECODE=1 for historical drivers; final staging rechecked without repeating quadrature.",
+  "python_optimize_guard_test_passed": true
+}

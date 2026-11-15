@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "finite_forward_qT_shares_percent": [
+    1.1904289362439673,
+    6.89190409901217,
+    36.072005692473674
+  ],
+  "low_frequency_forward_qT_shares_percent": [
+    7.385700061162389,
+    24.605274629708354,
+    43.26820859688855
+  ],
+  "selected_kernel_full_state_XX_RR_XR": [
+    0.10147813163591024,
+    0.00179177179203982,
+    0.02238935196488647
+  ],
+  "continuum_shares_X_R_coherent_incoherent": [
+    0.8749520605148805,
+    0.9177193165926617,
+    0.9191436948473904,
+    0.8763616852984987
+  ],
+  "discrete_weak_coupling_emitted_qT_share": 0.9270955047694376,
+  "detuned_full_Xonly_cross": {
+    "surface_0p8": [
+      0.35065293654067264,
+      0.3624939895665928,
+      0.018283429641993053
+    ],
+    "tetra_0p8": [
+      0.35031128182190174,
+      0.3621326309922793,
+      0.01826718912840014
+    ]
+  },
+  "scope": "Archived finite-cone branch integrals and independent angular output; direct prescribed-force continuum quadrature; new solve with saved bulk response; 45 one-motif receipts; no new exact-lattice enclosure."
+}

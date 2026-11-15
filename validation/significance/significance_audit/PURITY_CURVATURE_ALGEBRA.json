@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "method": "standard-library exact rational polynomial sphere averages",
+  "scope": "Actual nine-bond quartic/local-corner/angular algebra; no threshold theorem, Green kernel or loaded static source computed.",
+  "algebraic_force_fixtures": [
+    {
+      "motifs": 1,
+      "xi": [
+        "1/2"
+      ],
+      "X": [
+        "1/2"
+      ],
+      "R_over_sqrt2": [
+        "-1"
+      ],
+      "beta": "-3/7",
+      "origin_invariance": true
+    },
+    {
+      "motifs": 1,
+      "xi": [
+        "1/2"
+      ],
+      "X": [
+        "1/2"
+      ],
+      "R_over_sqrt2": [
+        "-1/3"
+      ],
+      "beta": "-25/189",
+      "origin_invariance": true
+    },
+    {
+      "motifs": 1,
+      "xi": [
+        "1/2"
+      ],
+      "X": [
+        "1/2"
+      ],
+      "R_over_sqrt2": [
+        "0"
+      ],
+      "beta": "-2/21",
+      "origin_invariance": true
+    },
+    {
+      "motifs": 1,
+      "xi": [
+        "1/2"
+      ],
+      "X": [
+        "1/2"
+      ],
+      "R_over_sqrt2": [
+        "2/3"
+      ],
+      "beta": "-46/189",
+      "origin_invariance": true
+    },
+    {
+      "motifs": 3,
+      "xi": [
+        "1/2",
+        "3/2",
+        "9/2"
+      ],
+      "X": [
+        "1/3",
+        "-1/6",
+        "1/3"
+      ],
+      "R_over_sqrt2": [
+        "2/7",
+        "-1/5",
+        "3/8"
+      ],
+      "beta": "-3761/235200",
+      "origin_invariance": true
+    },
+    {
+      "motifs": 2,
+      "xi": [
+        "-1/2",
+        "3/2"
+      ],
+      "X": [
+        "-1/4",
+        "3/4"
+      ],
+      "R_over_sqrt2": [
+        "-4/9",
+        "5/11"
+      ],
+      "beta": "100973/205821",
+      "origin_invariance": true
+    }
+  ],
+  "fixtures_are_physically_realized_profiles": false,
+  "sphere_averages": {
+    "trace_W": "-9/20",
+    "wL": "-9/28",
+    "L2_xx": "0",
+    "wL_nx2": "-3/28",
+    "TWT_xx": "-3/70"
+  },
+  "relative_material_corrections": {
+    "qL": "5/56",
+    "qT": "9/56"
+  },
+  "beta": "-2/21+2*(P-M*N)/3-N*N/3",
+  "source_hash": "87ef1ba39522e70f08d874e4636ba4652ec33c907b085d07f725b2c57773908a"
+}

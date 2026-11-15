@@ -1,0 +1,107 @@
+{
+  "explicit_72_coordinate_parity_max_relative_error": 8.807802426632275e-16,
+  "independent_point_force_coefficients": {
+    "angular_T": 8.377580409572795,
+    "angular_L": 4.188790204786379,
+    "T_coefficients": [
+      0.2758685680259524,
+      0.026545465335123246
+    ],
+    "relative_error": [
+      1.5543122344752192e-15,
+      -2.886579864025407e-15
+    ]
+  },
+  "nonnegative_sparse_profile_checks": [
+    {
+      "name": "only_first",
+      "profile": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min_static_eigenvalue": 0.06403235351436294,
+      "static_resultant": -0.9999999999999993,
+      "force_balance_residual": 2.830524433501838e-16,
+      "qT_coefficient": 0.27586689491389116,
+      "qT_coefficient_relative_error": -6.0648883386527075e-06,
+      "closure": -1.1102230246251565e-16
+    },
+    {
+      "name": "only_last",
+      "profile": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "min_static_eigenvalue": 0.06403235351436294,
+      "static_resultant": -0.9999999999999998,
+      "force_balance_residual": 3.236828524569469e-16,
+      "qT_coefficient": 0.2758668949138936,
+      "qT_coefficient_relative_error": -6.064888329770923e-06,
+      "closure": -1.1102230246251565e-16
+    },
+    {
+      "name": "disconnected_active_segments",
+      "profile": [
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.1,
+        0.0
+      ],
+      "min_static_eigenvalue": 0.10317597801676821,
+      "static_resultant": -0.9999999999999998,
+      "force_balance_residual": 2.0206364052201326e-16,
+      "qT_coefficient": 0.27586788086750264,
+      "qT_coefficient_relative_error": -2.490890697259829e-06,
+      "closure": 0.0
+    }
+  ],
+  "fresh_offgrid": {
+    "omega": 0.017,
+    "n_face": 18,
+    "n_radial": 96,
+    "seconds": 0.22199609200106352,
+    "max_root_residual": 3.686287386450715e-18,
+    "min_root_derivative": 0.10681219112852408,
+    "max_root_bond_phase": 0.02404161430178807,
+    "PV_symmetry": 0.0,
+    "spectral_min_eigenvalues": [
+      -1.0668756335158858e-19,
+      -5.228646254291904e-19,
+      -6.872982725597127e-19
+    ],
+    "qT_coefficient": 0.27594988340453525,
+    "qL_coefficient": 0.026554217305769394,
+    "closure": 0.0
+  },
+  "cache_reproduction": {
+    "original_first_actual_n_face": 4,
+    "original_second_requested_n_face": 5,
+    "original_second_actual_n_face": 4,
+    "guarded_mismatch_refused": true,
+    "guarded_refusal_message_mentions_fresh_tag": true,
+    "guarded_matrix_unchanged": true,
+    "guarded_status_unchanged_after_refusal": true,
+    "guarded_identical_request_reuses_matrix": true,
+    "guarded_identical_request_reuses_timing_metadata": true,
+    "strict_refusal_checks": {
+      "angular": true,
+      "radial": true,
+      "source": true,
+      "rounded_frequency": true,
+      "matrix_hash": true,
+      "missing_source_hash": true,
+      "invalid_json": true,
+      "missing_metadata": true
+    }
+  }
+}
